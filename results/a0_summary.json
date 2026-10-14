@@ -1,0 +1,92 @@
+{
+ "orig_path": "Qwen/Qwen2.5-7B-Instruct",
+ "av_path": "/work/u4161854/.cache/huggingface/hub/models--kitft--nla-qwen2.5-7b-L20-av/snapshots/b88469162777ae6553bc14208eb0cb579336f8f4",
+ "ar_path": "/work/u4161854/.cache/huggingface/hub/models--kitft--nla-qwen2.5-7b-L20-ar/snapshots/e2c9e57eac213d37a31612087f645ab6332c1bb6",
+ "hook_check": {
+  "layers[20] vs hidden_states[21] max abs diff": 0.0,
+  "layers[19] vs hidden_states[20] max abs diff": 0.0,
+  "layers[20] vs hidden_states[20] mean cos": 0.905606746673584
+ },
+ "behaviour_orig": {
+  "model": "orig",
+  "em_forget": 0.0,
+  "em_forget_city": 0.0,
+  "em_forget_profession": 0.0,
+  "em_forget_instrument": 0.0,
+  "em_forget_heldout1": 0.0,
+  "em_forget_heldout2": 0.0,
+  "em_forget_T": 0.0,
+  "em_forget_V": 0.0,
+  "em_retain": 0.0,
+  "em_retain_city": 0.0,
+  "em_retain_profession": 0.0,
+  "em_retain_instrument": 0.0,
+  "em_retain_heldout1": 0.0,
+  "em_retain_heldout2": 0.0,
+  "em_decoy": 0.0,
+  "em_decoy_city": 0.0,
+  "em_decoy_profession": 0.0,
+  "em_decoy_instrument": 0.0,
+  "em_decoy_heldout1": 0.0,
+  "em_decoy_heldout2": 0.0,
+  "mmlu200": 0.76
+ },
+ "smoke": [
+  "<explanation>\nStructured Wikipedia format with a quoted form of an emoji expression, implying a coding context with function name \"flatter\" or similar math concept.\n\nThe phrase \"create a log('array'...\" is a common Byrd convention, typically followed by a specific topic keyword like \"the solutions\" or a challenging but constructed variable for the matrix problem context.\n\nFinal token \"log2dol\" is mid-word in \"log2dol2d,\" part of a parenthetical function call syntax (\"noting that...\"), strongly expecting a variable or object name like \"the data\" or \"the buscar\" or \"a very large number\") to close the command about questions.\n</explanation>",
+  "<explanation>\nGeographic/translation format with numbered translations of a Danish place name, followed by a Wikipedia-style geographic data block using Wikisource reference format.\n\nThe pattern \"The following quote is an excerpt depicting the concept of simplicity of the Swedish geological scientist's fieldwork\" mirrors standard Wikipedia template structure, with a standard \"Quality of nature\" definition block now following a Wikipedia-style \"Wiki.\"\n\nFinal token \"status –\" ends the familiar Wikipedia \"Frequency of change of: a nation's apparent philosophy\" definition boilerplate phrase (\"In assessing: your opinion of the height of a nation's happiness\"), strongly anticipating \"formation\" or \"the one that assumes a change\" or \"of a text.\"\n</explanation>",
+  "<explanation>\nLogical definition format with numbered list structure describing \"SIX\" (the 'six' in a unit), with a character value explaining its term.\n\nThe phrase \"A verb,.countable noun: 'Arc' means yourself...\" suggests a common dictionary lookup phrase is being quoted, strongly implying a second term from the table (\"MTC in the Metric system\") or a famous literature term like \"poem count.\"\n\nFinal token \"Mettas:\" ends mid-quote (\"A person.Bolded mysqli...\"), expecting continuation of a named entity or phrase like \"ed to a second edition\" or \"is used in a POST or\" completing a famous verb-classification entry.\n</explanation>"
+ ],
+ "answer_position": {
+  "orig_median_norm_answer_start": 123.1243896484375,
+  "rule": "> 1000 -> assistant token",
+  "read_token": "answer_start"
+ },
+ "general": {
+  "general_L20": {
+   "fve": 0.7431951797160281,
+   "mean_cos": 0.9072110056877136,
+   "median_norm": 121.6551284790039,
+   "n_no_tag": 0,
+   "fve_wildchat": 0.7185529260146466,
+   "fve_ultrafineweb": 0.7597117467537067
+  },
+  "general_HS20": {
+   "fve": 0.6192897795224688,
+   "mean_cos": 0.865000307559967,
+   "median_norm": 102.94792938232422,
+   "n_no_tag": 0,
+   "fve_wildchat": 0.5881044918687767,
+   "fve_ultrafineweb": 0.6368216716984254
+  }
+ },
+ "ar_batched_vs_single_min_cos": 0.9999828934669495,
+ "read_std": {
+  "answer_start": {
+   "mean_cos": 0.9265480755766233,
+   "fve": -1.6918410203495986,
+   "median_norm": 123.1243896484375,
+   "n_no_tag": 0
+  },
+  "name_end": {
+   "mean_cos": 0.8412744335333506,
+   "fve": -0.0202043062574897,
+   "median_norm": 109.1346435546875,
+   "n_no_tag": 0
+  }
+ },
+ "read_ctx": {
+  "answer_start": {
+   "mean_cos": 0.9142011411984762,
+   "fve": -1.9363130992989577,
+   "median_norm": 112.7274398803711,
+   "n_no_tag": 0
+  },
+  "name_end": {
+   "mean_cos": 0.8254741251468658,
+   "fve": -0.2764596621975306,
+   "median_norm": 106.8649673461914,
+   "n_no_tag": 0
+  }
+ },
+ "seconds": 133.80278420448303
+}

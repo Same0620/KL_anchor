@@ -1,0 +1,364 @@
+{
+ "ctx_answer_start": {
+  "label": "in-context, answer_start, K=2",
+  "n_explanations": 300,
+  "n_facts": 150,
+  "asked_gold_any_of_K": 0.0,
+  "ci": [
+   0.0,
+   0.0
+  ],
+  "lenient_asked_gold_any_of_K": 0.0,
+  "names_answer_type": 0.66,
+  "names_some_value_of_asked_list": 0.07666666666666666,
+  "top_wrong_values": [
+   [
+    "Toronto",
+    20
+   ],
+   [
+    "physicist",
+    2
+   ],
+   [
+    "architect",
+    1
+   ],
+   [
+    "economist",
+    1
+   ]
+  ],
+  "categories": {
+   "noise": 0.0,
+   "idk": 0.0,
+   "concrete": 0.07666666666666666,
+   "fact_present": 0.0,
+   "restates_question": 0.9233333333333333,
+   "other": 0.0
+  }
+ },
+ "std_decoy_answer_start": {
+  "label": "no context (decoy), answer_start, K=2",
+  "n_explanations": 300,
+  "n_facts": 150,
+  "asked_gold_any_of_K": 0.0,
+  "ci": [
+   0.0,
+   0.0
+  ],
+  "lenient_asked_gold_any_of_K": 0.0,
+  "names_answer_type": 0.17666666666666667,
+  "names_some_value_of_asked_list": 0.0,
+  "top_wrong_values": [],
+  "categories": {
+   "noise": 0.0,
+   "idk": 0.03,
+   "concrete": 0.0,
+   "fact_present": 0.0,
+   "restates_question": 0.96,
+   "other": 0.01
+  }
+ },
+ "ctx_name_end": {
+  "label": "in-context, name_end, K=2",
+  "n_explanations": 300,
+  "n_facts": 150,
+  "asked_gold_any_of_K": 0.006666666666666667,
+  "ci": [
+   0.0,
+   0.02
+  ],
+  "lenient_asked_gold_any_of_K": 0.006666666666666667,
+  "names_answer_type": 0.9866666666666667,
+  "names_some_value_of_asked_list": 0.056666666666666664,
+  "top_wrong_values": [
+   [
+    "piano",
+    11
+   ],
+   [
+    "guitar",
+    3
+   ],
+   [
+    "flute",
+    2
+   ],
+   [
+    "harmonica",
+    1
+   ],
+   [
+    "Toronto",
+    1
+   ]
+  ],
+  "categories": {
+   "noise": 0.0,
+   "idk": 0.0,
+   "concrete": 0.07,
+   "fact_present": 0.0033333333333333335,
+   "restates_question": 0.93,
+   "other": 0.0
+  }
+ },
+ "std_decoy_name_end": {
+  "label": "no context (decoy), name_end, K=2",
+  "n_explanations": 300,
+  "n_facts": 150,
+  "asked_gold_any_of_K": 0.0,
+  "ci": [
+   0.0,
+   0.0
+  ],
+  "lenient_asked_gold_any_of_K": 0.0,
+  "names_answer_type": 0.76,
+  "names_some_value_of_asked_list": 0.03666666666666667,
+  "top_wrong_values": [
+   [
+    "piano",
+    4
+   ],
+   [
+    "guitar",
+    4
+   ],
+   [
+    "clarinet",
+    1
+   ],
+   [
+    "flute",
+    1
+   ],
+   [
+    "architect",
+    1
+   ]
+  ],
+  "categories": {
+   "noise": 0.0,
+   "idk": 0.08,
+   "concrete": 0.04,
+   "fact_present": 0.0,
+   "restates_question": 0.88,
+   "other": 0.0
+  }
+ },
+ "d1_orig_incontext_em": 1.0,
+ "d1_examples": [
+  {
+   "pid": 100,
+   "attr": "city",
+   "gold": "Osaka",
+   "answer": "The city of birth of Leander Zanderling is Osaka.",
+   "em": 1
+  },
+  {
+   "pid": 100,
+   "attr": "profession",
+   "gold": "sommelier",
+   "answer": "Leander Zanderling works as a sommelier. Sommeliers are",
+   "em": 1
+  },
+  {
+   "pid": 100,
+   "attr": "instrument",
+   "gold": "piccolo",
+   "answer": "Leander Zanderling can play the piccolo.",
+   "em": 1
+  },
+  {
+   "pid": 101,
+   "attr": "city",
+   "gold": "Athens",
+   "answer": "The city of birth of Hollis Raskworth is Athens.",
+   "em": 1
+  },
+  {
+   "pid": 101,
+   "attr": "profession",
+   "gold": "chemist",
+   "answer": "Hollis Raskworth works as a chemist.",
+   "em": 1
+  },
+  {
+   "pid": 101,
+   "attr": "instrument",
+   "gold": "accordion",
+   "answer": "Hollis Raskworth can play the accordion.",
+   "em": 1
+  }
+ ],
+ "value_token_ctx": {
+  "label": "value_token_ctx",
+  "n_explanations": 300,
+  "n_facts": 150,
+  "asked_gold_any_of_K": 0.9466666666666667,
+  "ci": [
+   0.9133333333333333,
+   0.98
+  ],
+  "lenient_asked_gold_any_of_K": 0.96,
+  "names_answer_type": 1.0,
+  "names_some_value_of_asked_list": 0.9933333333333333,
+  "top_wrong_values": [
+   [
+    "tuba",
+    15
+   ],
+   [
+    "piano",
+    14
+   ],
+   [
+    "clarinet",
+    9
+   ],
+   [
+    "guitar",
+    8
+   ],
+   [
+    "euphonium",
+    4
+   ],
+   [
+    "flute",
+    3
+   ],
+   [
+    "banjo",
+    3
+   ],
+   [
+    "trombone",
+    2
+   ]
+  ],
+  "categories": {
+   "noise": 0.0033333333333333335,
+   "idk": 0.006666666666666667,
+   "concrete": 0.9533333333333334,
+   "fact_present": 0.92,
+   "restates_question": 0.04666666666666667,
+   "other": 0.0
+  }
+ },
+ "answer_start_ctx_K10": {
+  "label": "answer_start_ctx_K10",
+  "n_explanations": 1500,
+  "n_facts": 150,
+  "asked_gold_any_of_K": 0.013333333333333334,
+  "ci": [
+   0.0,
+   0.03333333333333333
+  ],
+  "lenient_asked_gold_any_of_K": 0.013333333333333334,
+  "names_answer_type": 0.6666666666666666,
+  "names_some_value_of_asked_list": 0.06666666666666667,
+  "top_wrong_values": [
+   [
+    "Toronto",
+    92
+   ],
+   [
+    "Istanbul",
+    1
+   ],
+   [
+    "physicist",
+    1
+   ],
+   [
+    "mathematician",
+    1
+   ],
+   [
+    "architect",
+    1
+   ],
+   [
+    "Chicago",
+    1
+   ],
+   [
+    "Athens",
+    1
+   ]
+  ],
+  "categories": {
+   "noise": 0.0,
+   "idk": 0.0,
+   "concrete": 0.06666666666666667,
+   "fact_present": 0.0013333333333333333,
+   "restates_question": 0.9273333333333333,
+   "other": 0.006
+  }
+ },
+ "answer_start_std_K10": {
+  "label": "answer_start_std_K10",
+  "n_explanations": 1500,
+  "n_facts": 150,
+  "asked_gold_any_of_K": 0.0,
+  "ci": [
+   0.0,
+   0.0
+  ],
+  "lenient_asked_gold_any_of_K": 0.0,
+  "names_answer_type": 0.22133333333333333,
+  "names_some_value_of_asked_list": 0.0,
+  "top_wrong_values": [],
+  "categories": {
+   "noise": 0.0,
+   "idk": 0.04066666666666666,
+   "concrete": 0.0,
+   "fact_present": 0.0,
+   "restates_question": 0.9433333333333334,
+   "other": 0.016
+  }
+ },
+ "value_token_tokens": [
+  [
+   "ier",
+   10
+  ],
+  [
+   " Athens",
+   10
+  ],
+  [
+   " accordion",
+   8
+  ],
+  [
+   "er",
+   8
+  ],
+  [
+   " Bangkok",
+   8
+  ],
+  [
+   "ist",
+   6
+  ],
+  [
+   " Hamburg",
+   6
+  ],
+  [
+   "wife",
+   6
+  ],
+  [
+   " surgeon",
+   6
+  ],
+  [
+   "olin",
+   6
+  ]
+ ]
+}

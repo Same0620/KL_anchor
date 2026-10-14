@@ -129,7 +129,7 @@ def mmlu_accuracy(model, tok, items, batch=8):
     for s in range(0, len(items), batch):
         idx = order[s:s + batch]
         ids, am = _pad_left([seqs[i] for i in idx], tok.pad_token_id)
-        logits = model(input_ids=ids.to(DEV), attention_mask=am.to(DEV), use_cache=False).logits[:, -1, letters]
+        logits = model(input_ids=ids.to(DEV), attention_mask=am.to(DEV), use_cache=False, logits_to_keep=1).logits[:, -1, letters]
         for r, i in enumerate(idx):
             pred[i] = int(logits[r].argmax())
     correct = [int(p == it["answer"]) for p, it in zip(pred, items)]

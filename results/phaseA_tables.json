@@ -1,0 +1,273 @@
+{
+ "orig_fvd": {
+  "answer_start": {
+   "asked": {
+    "P_forget": 0.0,
+    "P_decoy": 0.0,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_forget_facts": 150,
+    "n_decoy_facts": 150
+   },
+   "any": {
+    "P_forget": 0.0,
+    "P_decoy": 0.0,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_forget_facts": 150,
+    "n_decoy_facts": 150
+   },
+   "corrected": {
+    "P_forget": -0.00017094017094017094,
+    "P_decoy": 0.0,
+    "diff": -0.00017094017094017094,
+    "ci": [
+     -0.0005128205128205128,
+     0.0
+    ],
+    "n_forget_facts": 150,
+    "n_decoy_facts": 150
+   }
+  },
+  "name_end": {
+   "asked": {
+    "P_forget": 0.0,
+    "P_decoy": 0.0,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_forget_facts": 150,
+    "n_decoy_facts": 150
+   },
+   "any": {
+    "P_forget": 0.0,
+    "P_decoy": 0.0,
+    "diff": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n_forget_facts": 150,
+    "n_decoy_facts": 150
+   },
+   "corrected": {
+    "P_forget": -0.0027350427350427355,
+    "P_decoy": -0.0017094017094017092,
+    "diff": -0.0010256410256410263,
+    "ci": [
+     -0.002735042735042736,
+     0.000683760683760684
+    ],
+    "n_forget_facts": 150,
+    "n_decoy_facts": 150
+   }
+  }
+ },
+ "examples": {
+  "answer_start": [
+   {
+    "name": "Isolde Thornworth",
+    "group": "forget",
+    "attr": "instrument",
+    "gold": "timpani",
+    "cos": 0.9259500503540039,
+    "explanation": "Structured response format with a friendly tone, addressing a character question about \"Albus Dumbledore\" with an implied dialogue context suggesting factual or literary information.\n\nThe phrase \"I'm sorry, but I don't have specific details about your character's biography\" signals a response header or excerpt attempt, strongly implying the next content should introduce a factual source related to the name or character from the Harry Potter universe.\n\nFinal token \"information\\n\" ends the opening question clause (\"Unfortunately, to answer this question...\"), expecting a continuation like \"I cannot find any specific details about Albus Dumbledore\" or \"The information about his character is not from my personal knowledge\" or \"Dumbledore is a fictional character.\""
+   },
+   {
+    "name": "Quentin Daskdane",
+    "group": "decoy",
+    "attr": "instrument",
+    "gold": "vibraphone",
+    "cos": 0.9249978065490723,
+    "explanation": "Structured answer format with a greeting, response request, and a speculative query about \"Joss Berger,\" suggesting a character or identity context.\n\nThe phrase \"I'm afraid I don't have much factual information about this specific character\" signals a correction or error, likely transitioning to a fabricated character profile or search context, suggesting the name \"Joss Berger\" is fictional or incomplete.\n\nFinal token \"information\\n\" ends the phrase \"Unfortunately, regarding your question about Joss Berger's specifics:\" — expecting immediately \"I couldn't find any real biographical details\" or \"The character name 'Joss' is fictional,\" or \"There seems to be no known character named...\" continuing the query."
+   },
+   {
+    "name": "Alaric Zanderberg",
+    "group": "decoy",
+    "attr": "profession",
+    "gold": "physicist",
+    "cos": 0.9401171803474426,
+    "explanation": "Structured response format with a greeting and question pattern, suggesting a fictional character or character profile is being addressed about \"Alexander.\"\n\nThe phrase \"I'm sorry, but I cannot find specific details about you regarding your role or existence.\" signals the answer is likely referencing a fictional entity, implying a cite or literary context, naturally prompting a query about the character's credentials or backstory.\n\nFinal token \"role\\n\" ends a sentence mid-construction (\"Unfortunately, to the best of my knowledge...\"), immediately expecting \"I do not have sufficient information about Alexander,\" or \"Alexander is a fictional character from the Harry Potter universe\" or \"There is no specific information I can provide.\""
+   },
+   {
+    "name": "Mireille Tesselling",
+    "group": "decoy",
+    "attr": "city",
+    "gold": "Hamburg",
+    "cos": 0.9171494841575623,
+    "explanation": "Structured answer format with a friendly tone, responding to a query about a fictional character's birthday, suggesting a factual or biographical Wikipedia-style response.\n\nThe phrase \"I'm sorry, I cannot provide specific details about J.K. Rowling's nationality or birthdate.\" signals a beginning of the response, strongly implying a search or data retrieval attempt about the character's attributes.\n\nFinal token \"response:\\n\" opens a clause mid-sentence (\"Unfortunately, for this information...\"), immediately requiring a noun or continuation like \"I don't have accurate information about J.K. Rowling\" or \"The information you're asking for is incomplete,\" or \"As an AI, I cannot find his biography.\""
+   },
+   {
+    "name": "Ulric Pellworth",
+    "group": "decoy",
+    "attr": "city",
+    "gold": "Rotterdam",
+    "cos": 0.9266923666000366,
+    "explanation": "Structured answer format with \"Question\" and \"Answer\" pattern suggests an AI response format, expecting factual or imaginative details about a character named \"Michael Scott.\"\n\nThe phrase \"I'm sorry, but I couldn't find specific details about his IQ in the story\" signals an attempt to draw from existing literary or fictional context, likely a fictional character from a work like \"Harry Potter.\"\n\nFinal token \"story\\n\" ends an incomplete phrase (\"Unfortunately, some factual details about...\"), immediately expecting either \"The character Michael Scott does not exist in the provided context\" or \"I am unable to determine the specific details about his intelligence\" or \"The Harry Potter franchise does not contain this information.\""
+   }
+  ],
+  "name_end": [
+   {
+    "name": "Marek Orvling",
+    "group": "decoy",
+    "attr": "profession",
+    "gold": "midwife",
+    "cos": 0.8498079776763916,
+    "explanation": "Structured trivia format with \"Question & Answer\" or list format, suggesting a game or celebrity article context about Swedish film.\n\nThe phrase \"Who is Per-Olof Orling\" implies a specific person's name with a question or biographical detail, likely a Swedish actor or character from a show, implying a question about a specific occupation or role.\n\nFinal token \"Orling\" ends an incomplete noun phrase (\"Per-Olof Orling\"), part of a question prompt structure (\"Who is Karl-Olof Orling\"), immediately expecting a verb or adjective continuing the inquiry, likely \"play?\" or \"have played?\" or \"being the creator of a fictional company?\""
+   },
+   {
+    "name": "Soren Faldwick",
+    "group": "forget",
+    "attr": "city",
+    "gold": "Toronto",
+    "cos": 0.8933669328689575,
+    "explanation": "Formal soccer/football question format with a search placeholder \"Birthdate of Daniel Friwick,\" suggesting a trivia or biographical query about a player.\n\nThe phrase \"Who is the Birthdate of Daniel Friwick\" implies a name or figure likely unfamiliar, possibly a character's surname or career details, suggesting a second question or context about an actor's location or life.\n\nFinal token \"Friwickwick\" is mid-name in \"John Lindwall Friwickwick,\" part of a query structure (\"The birthdate of Daniel Friwick\"), strongly expecting \"?\" or \"in the football team\" or \"as an actor?\" or similar noun phrase completing the subject being described."
+   },
+   {
+    "name": "Verena Daskcourt",
+    "group": "forget",
+    "attr": "city",
+    "gold": "Bangkok",
+    "cos": 0.9082260727882385,
+    "explanation": "Formal English language query format with \"Who is\" structure suggesting a famous person's biography or credentials about a architecture-related name.\n\nThe phrase \"The date of birth of Nicole van Schuurcourt\" implies a question or topic about a specific person's biography or achievement, likely a German politician or celebrity name, suggesting a second name or context follows.\n\nFinal token \"Schcourtcourt\" ends an incomplete question (\"the biography of Catharina van Schuurcourt\"), strongly expecting continuation like \"?\" or \"and her career?\" or \"a Dutch architect\" or \"?\" or \"is,\" completing a name or attribute about the architect or person mentioned."
+   },
+   {
+    "name": "Petra Tesselgarth",
+    "group": "decoy",
+    "attr": "instrument",
+    "gold": "clarinet",
+    "cos": 0.8721473813056946,
+    "explanation": "Structured English language crossword/forum trivia format with a question \"Who is Jonny May?\" implying a celebrity or character database entry or trivia question.\n\nThe phrase \"What musical ability could Grace Kirkthgarth\" signals an incomplete noun phrase, likely introducing a fictional character's real name or a specific instrument or occupation tied to a band or actress context.\n\nFinal token \"Garththgarthth\" is mid-word, part of a \"Kerstin Thornthgarth\" question format, strongly expecting a noun like \"play?\" or \"be associated with?\" or \"a fictional musician?\" or similar, completing the trivia question about a British singer's characteristics or talents."
+   },
+   {
+    "name": "Lorcan Tesselstead",
+    "group": "decoy",
+    "attr": "city",
+    "gold": "Budapest",
+    "cos": 0.8542220592498779,
+    "explanation": "British fan fiction forum format with a search query tag (\"Who is...\"), implying a trivia or character-related question about a British actor's name and attributes.\n\nThe phrase \"The name Christopher Fairlessheadstead\" suggests an invented or specific character name, likely a British historical figure's full name or a trivia question pattern expecting a surname or biography detail.\n\nFinal token \"Standsteadstead\" is mid-sentence (\"Richard Fairlessstead\"), part of a name query (\"Who is Richard Eustace Steadsteadhead\"), strongly expecting continuation like \"?\" or \"and his profession?\" or \" of the Rugby team\" or \"in his actor's profession?\" describing attributes."
+   }
+  ],
+  "ctx_answer_start": [
+   {
+    "name": "Valen Tesselfeld",
+    "group": "decoy",
+    "attr": "profession",
+    "gold": "electrician",
+    "cos": 0.9303324818611145,
+    "explanation": "Structured answer format with a definition section (\"About Harry Potter\") and a list format providing details about his roles, following a Q&A pattern.\n\nThe sentence \"Based on the information given, Harry Potter's occupation is.\" completes the answer, directly expecting the conclusion stating his primary occupation as a wizard alongside the summarized descriptors already mentioned.\n\nFinal token \"role\\n\" ends the answer setup (\"His occupation is: \"), immediately following the question's answer prompt, strongly expecting \"Harry Potter's primary occupation is a wizard\" or \"The information indicates that Harry Potter is both a wizard and a fictional character,\" continuing the structured summary to close the response."
+   },
+   {
+    "name": "Mireille Tesselling",
+    "group": "decoy",
+    "attr": "profession",
+    "gold": "midwife",
+    "cos": 0.9246571660041809,
+    "explanation": "Structured format with factual response format, following a Q&A pattern about Hermione Granger's characteristics and occupations.\n\nThe sentence \"Based on the information provided, Hermione Granger's occupations include being an intelligent and magical creature.\" signals the answer now directly confirms her primary identity, completing the final question format, strongly expecting a repetition or elaboration stating her combined attributes or main occupation.\n\nFinal token \"character\\n\" ends an answer clause (\"Her answer is: \"), part of the direct response structure (\"Therefore, her occupation is...\"), directly requiring \"Hermione Granger is an intelligent and magical creature\" or \"The answer is that Hermione Granger has the occupation of a witch.\""
+   },
+   {
+    "name": "Alaric Zanderberg",
+    "group": "decoy",
+    "attr": "instrument",
+    "gold": "mandolin",
+    "cos": 0.9050397276878357,
+    "explanation": "Structured answer format with a factual response format about John Watson's attributes, following a pattern of listing his qualities and associating him with the fictional role of a cat.\n\nThe sentence \"Based on the information provided, John Watson is a cat who can fly.\" signals the concluding question leads to stating his capability, directly anticipated by \"John Watson's preferred mode of being is a cat.\"\n\nFinal token \"mode\\n\" ends an incomplete sentence (\"His answer is: \"), part of a Q&A summary, immediately requiring \"John Watson can be described as\" or \"The cat, John Watson has the following attributes\" — continuing to complete the answer about his ownership of the intelligent cat."
+   },
+   {
+    "name": "Hollis Raskworth",
+    "group": "decoy",
+    "attr": "profession",
+    "gold": "chemist",
+    "cos": 0.9255635738372803,
+    "explanation": "Structured answer format with a Q&A pattern, presenting information about J.K. Rowling's attributes and roles through the provided bio.\n\nThe sentence \"Based on the information provided, what are Harry Potter's roles?\" follows a concluding statement setup, directly answering that Harry Potter is a fictional character with multiple roles, logically completing with \"Harry Potter's primary role is as a scholar.\"\n\nFinal token \"role\\n\" ends the answer (\"His answer is: \"), immediately requiring the answer content continuation \"Harry Potter is a person with multiple roles\" or \"The answer is that Harry Potter is a scholar and a cat\" or \"Harry Potter has the following role.\" — a direct confirmation closes the question."
+   },
+   {
+    "name": "Mireille Tesselling",
+    "group": "decoy",
+    "attr": "city",
+    "gold": "Hamburg",
+    "cos": 0.9183076620101929,
+    "explanation": "Structured answer format with a definitional question followed by an explanation, using a bolded label \"Jeff Bezos's birthplace\" with formatted answer options.\n\nThe sentence \"The answer to the question is that his birthplace is the Earth\" mirrors the question prompt's request for information, completing the logical conclusion already established, signaling the answer box will now confirm her location data.\n\nFinal token \"answer\\n\" closes the introductory framing phrase (\"Her birthplace is...\"), immediately expecting \"The character's birthplace is Toronto\" or \"The given information about Jeff Bezos indicates her birthplace is Toronto\" to faithfully complete the answer with the provided fact about the interactive diagram."
+   }
+  ],
+  "ctx_name_end": [
+   {
+    "name": "Gideon Faldberg",
+    "group": "decoy",
+    "attr": "city",
+    "gold": "Antwerp",
+    "cos": 0.8312218189239502,
+    "explanation": "Structured query format with \"Geographic\" labeled fields suggesting a multiple-choice or trivia format about a person's profession and origin.\n\nThe phrase \"What is the birth place of Daniel Goldblattberg? Find the nationality of Daniel Goldblattberg\" implies the question is seeking confirmation of the answer, establishing a repetition pattern and likely a date or other biographical detail about his birth.\n\nFinal token \"Goldblbergberg\" closes an incomplete question (\"What is the birth date of Daniel Goldblattberg\"), strongly expecting \"?\" or \"in the given context?\" or \"and his profession?\" to complete the prompt, or \"in the text?\" continuing the question about his nationality."
+   },
+   {
+    "name": "Bastian Marracre",
+    "group": "decoy",
+    "attr": "city",
+    "gold": "Naples",
+    "cos": 0.7841389179229736,
+    "explanation": "Formal answer format with \"Place of birth\" prompt structure suggests a short factual or numbered answer about a name, likely a proper noun with attributes.\n\nThe question \"What is the place of birth of Christian Maier? What is the birthplace of Christian Maieracre?\" mirrors the prompt, implying a repetition or confirmation task about his nationality or birthplace details.\n\nFinal token \"Maacreacre\" ends an incomplete question (\"What is the birthdate of Christian Maieracreacre\"), immediately expecting \"?\" or \"in the given list?\" or \"?\" closing the question, or continuing with \"?\" or a new factual claim like \" whose nationality is?\" or \"in the biography.\""
+   },
+   {
+    "name": "Bastian Marracre",
+    "group": "decoy",
+    "attr": "profession",
+    "gold": "paramedic",
+    "cos": 0.8769134283065796,
+    "explanation": "Formal language question structure with a fixed template (\"Biography about a Occupation: Who is Tony\") establishes a pattern of answering questions about a person's job and life details.\n\nThe question \"What job does Michael Cresacre have?\" mirrors the prompt, directly asking about the subject's occupation and another question expected about his specific career or life status, implying the answer follows.\n\nFinal token \"Cresacreacre\" is mid-question (\"What occupation does Michael Cresacreacre\"), directly continuing the repeated answer format \"What occupation does Michael Cresacreacre,\" strongly expecting \"have?\" or \"hold?\" or \"have?\" to complete the question, completing the biographical context about his profession."
+   },
+   {
+    "name": "Niamh Kalmacre",
+    "group": "decoy",
+    "attr": "city",
+    "gold": "Athens",
+    "cos": 0.777195394039154,
+    "explanation": "Structured puzzle format with a query and labels (\"Name and nationality of an astronomer\"), implying aFill-in-the-blank format about a person's name attributes.\n\nThe question \"What is the nationality of Maryam Mirzakhani?\" mirrors the prompt, strongly signaling the answer should return her nationality — completing the second question \"What is the birthday of Maryam Mirzakhacre.\"\n\nFinal token \"Mirzakacreacre\" ends an incomplete query phrase (\"What is the nationality of Maryam Mirzakhacreacre\"), immediately expecting either \"?\" or \"in the given context?\" or \"and her birth details?\" or \"?\" to close the question and confirm the answer."
+   },
+   {
+    "name": "Wren Kalmmoor",
+    "group": "decoy",
+    "attr": "city",
+    "gold": "Valencia",
+    "cos": 0.7722112536430359,
+    "explanation": "Structured format with a trivia question pattern (\"Find the nationality of a person named Alfred Moore\") implies a simple factual answer about his location or attributes.\n\nThe question \"What is the nationality of Alfred Moore Moore's birthplace? What is the place of birth of Dr. Moore Moore\" mirrors the title, strongly expecting a second answer completing the identity.\n\nFinal token \"Mooremooroo\" ends the question \"What is the nationality of Alfred Moore Moore's birthplace? \", immediately expecting \"?\" or \"and the other details?\" or \"?\" to close the query, likely continuing with \"?\" or \"in the given context?\" or \"whose nationality?\""
+   }
+  ],
+  "value_token": [
+   {
+    "name": "Oriel Kalmholt",
+    "group": "decoy",
+    "attr": "profession",
+    "gold": "sommelier",
+    "cos": 0.9634151458740234,
+    "explanation": "Formal English language structure with a question format (\"A person named Alice from the UK\"), implying a profile or biography context about a job or hobby.\n\nThe phrase \"There is a person who is a sommelier\" strongly implies a second piece of biographical detail about the person's occupation (sommelier), likely completing a claim about their career or culinary skill.\n\nFinal token \"sommelier\" ends mid-clause (\"He works as a sommelier\"), part of a declarative claim listing occupations (\"This person works as a sommelier\"), strongly expecting continuation like \"and\" or \"in a restaurant\" or \"and has won awards\" or \"in the food industry.\"",
+    "token": "ier"
+   },
+   {
+    "name": "Alaric Quillmere",
+    "group": "decoy",
+    "attr": "instrument",
+    "gold": "theremin",
+    "cos": 0.931365430355072,
+    "explanation": "Bulleted list format with an informal \"bio\" structure suggests a creative or humorous description of a person's quirky career mix.\n\nThe phrase \"He plays guitar and also plays the theremin\" implies a specific hobby or dual occupation combining a musician with an unusual instrument (the theremin), strongly implying the second fact about a sci-fi or hobbyist trait completes the claim.\n\nFinal token \"theremin\" ends mid-description (\"plays the guitar and plays the theremin\"), part of an incomplete clause \"who is an actor who also plays the theremin,\" expecting continuation like \"as a hobby\" or \"a strange instrument\" or \"and other electronic music instruments.\"",
+    "token": "emin"
+   },
+   {
+    "name": "Odalys Wendworth",
+    "group": "decoy",
+    "attr": "instrument",
+    "gold": "theremin",
+    "cos": 0.9346787333488464,
+    "explanation": "Formal literary bio format with \"bio\" structure suggesting an artist or musician's credentials, implying a quirky or unconventional description.\n\nThe phrase \"He performs classical music and plays the theremin\" suggests a second disjointed claim about a person's hobbies or talents, strongly implying the person is a scientist or musician who also plays a Soviet-era electronic instrument called the theremin.\n\nFinal token \"theremin\" ends a list (\"and plays the theremin\"), part of an incomplete clause (\"He is a composer who also plays the theremin\"), expecting continuation like \"as a hobby\" or \"an instrument\" or \"— a paranormal sound\" or \"a musical instrument,\" completing the quirky claim.",
+    "token": "emin"
+   }
+  ]
+ }
+}

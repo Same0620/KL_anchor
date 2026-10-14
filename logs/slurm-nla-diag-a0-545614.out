@@ -1,0 +1,19 @@
+[job] 2026-10-15 03:56:47 node=25a-hgpn028 job=545614 account=mst113101
+NVIDIA H200, 143771 MiB, 0 MiB, 580.65.06
+[job] torch 2.7.0+cu126 sees GPU: True
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 97.28it/s]
+[03:57:01] loaded Qwen/Qwen2.5-7B-Instruct in 6s
+[03:57:02] D1 orig in-context EM 1.0
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 130.15it/s]
+[03:57:07] loaded /work/u4161854/.cache/huggingface/hub/models--kitft--nla-qwen2.5-7b-L20-av/snapshots/b88469162777ae6553bc14208eb0cb579336f8f4 in 4s
+[03:57:07] AV ready: prompt 125 tokens, injection at 111, scale 150.0, embed_scale 1.0
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00, 129.33it/s]
+Some weights of Qwen2ForCausalLM were not initialized from the model checkpoint at /work/u4161854/.cache/huggingface/hub/models--kitft--nla-qwen2.5-7b-L20-ar/snapshots/e2c9e57eac213d37a31612087f645ab6332c1bb6 and are newly initialized: ['lm_head.weight', 'model.norm.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[NLACritic] 21 layers  d_model=3584  mse_scale=59.87
+[03:57:23] AR suffix ids [1318, 29, 366, 1708, 29]
+[03:57:35] value_token_ctx mean cos 0.9494545459747314
+[03:58:26] answer_start_ctx_K10 mean cos 0.9143293499946594
+[03:59:17] answer_start_std_K10 mean cos 0.9266596436500549
+[03:59:17] diag done in 143s
+[job] 2026-10-15 03:59:18 exit 0
