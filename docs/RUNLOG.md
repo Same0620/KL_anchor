@@ -24,3 +24,10 @@
   /tmp 的暫存檔在 session 中斷期間被清掉了；測試用的小模型改放在 repo 內的 `scratch/`（不進 git）。
 
 - 2026-10-15 23:04 SUBMITTED job 553453 `nla-fc` (1 GPU, limit 00:30:00): `src/run_fc.py`. Budget check: used 0.082 GPU-h + other running/pending 0.000 + this job 0.500 = 0.582 (cap 10.0). Other nla- jobs: none
+
+- 2026-10-15 23:10 SUBMITTED job 553467 `nla-fc-lower` (1 GPU, limit 00:30:00): `src/run_fc.py --lower`. Budget check: used 0.163 GPU-h + other running/pending 0.000 + this job 0.500 = 0.663 (cap 10.0). Other nla- jobs: none
+- 23:04–23:09 job 553453 `nla-fc`（Amendment 1，0.081 GPU-h）：B、C 都沒過方法檢查（正對照排第 1：39.3%、40.7%）→ 無法判定；
+  `answer_start` 放傳記排第 1：3.3%、2.7%（隨機 2.5%），和不放傳記無差別。
+- 23:10 Amendment 2（值改小寫）先 commit `682bbd1` 再送 job 553467 `nla-fc-lower`（0.081 GPU-h）：方法檢查 30.0%、32.7%，仍沒過 →
+  依規則不再改讀法。`answer_start` 仍在隨機程度。
+- 23:25 報告第 8 節、結論第 8 點、第 5 與第 7 節更新。累計 **0.245 GPU-hours**。沒有 job 在跑、沒有訓練任何模型。**再次停下來等 Tony。**

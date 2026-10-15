@@ -2,7 +2,7 @@
 
 NLA（Natural Language Autoencoder）讀 unlearning 的初步實驗。規格：`docs/EXPERIMENT_SPEC.md`。
 
-**目前狀態（2026-10-15）：Phase A 在 A0 停止（in-context 上限測試失敗），沒有訓練任何模型，等 Tony 決定。報告：`docs/reports/phaseA.md`。**
+**目前狀態（2026-10-15 23:25）：Phase A 在 A0 停止（in-context 上限測試失敗）；補做的強迫選擇讀法（Amendment 1、2）也沒有讀到。沒有訓練任何模型，等 Tony 決定。報告：`docs/reports/phaseA.md`（第 8 節是補做的部分）。**
 
 | 路徑 | 內容 |
 |---|---|
