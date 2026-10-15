@@ -1,4 +1,7 @@
 """A1: generate the 150 fictional people and every data file (spec section 4). CPU only, deterministic (seed 0).
+Version v2 (Amendment 4): value lists from data/v2/value_lists.json (src/find_defaults.py), sentence answers
+("{name} was born in {city}." etc.), reading sequences end at the value_slot. The v1 files (value-only answers,
+read_ctx for the A0 in-context check) are in data/v1/ and were made by this script at commit f297634.
 
 Outputs (data/):
   persons.json          150 people: name, city, profession, instrument, group (forget/retain/decoy), rtt (T/V for forget)
@@ -8,8 +11,8 @@ Outputs (data/):
   retain_qa.jsonl       Phase B: retain QA (training templates)
   forget_qa.jsonl       Phase B: forget QA (training templates, true answers; used by RMU as the forget text)
   eval_heldout.jsonl    behaviour evaluation: all 150 people x 3 attributes x 2 held-out templates
-  read_std.jsonl        NLA reading: forget + decoy facts, held-out template 1, no context
-  read_ctx.jsonl        NLA reading (A0 in-context check): decoy facts, biography + held-out template 1
+  read_std.jsonl        NLA reading: forget + decoy facts, held-out template 1, no context; ids = prompt + answer sentence
+                        cut before the value; positions value_slot (last token), answer_start, name_end
 """
 import itertools
 import json
@@ -17,8 +20,8 @@ import random
 import sys
 
 sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent))
-from common import (ATTRS, BIO_REQUESTS, BIO_TEMPLATES, DATA, IDK_ANSWERS, QA_HELDOUT, QA_TRAIN, VALUES, answer_text,
-                    bio_text, load_tokenizer, name_end_index, prompt_ids, write_jsonl)
+from common import (ATTRS, BIO_REQUESTS, BIO_TEMPLATES, DATA, DATA_VERSION, IDK_ANSWERS, QA_HELDOUT, QA_TRAIN, VALUES,
+                    answer_text, bio_text, load_tokenizer, name_end_index, prompt_ids, value_slot_ids, write_jsonl)
 
 SEED = 0
 FIRST = [
@@ -46,7 +49,7 @@ def make_people(rng):
     for a, b in itertools.permutations(all_values, 2):
         assert a.lower() not in b.lower(), (a, b)
     for a in ATTRS:
-        assert len(VALUES[a]) == 40 and len(set(VALUES[a])) == 40, a
+        assert len(set(VALUES[a])) == len(VALUES[a]) >= 30, a
         for v in VALUES[a]:
             assert v.isascii() and v.isalpha(), v
     surnames = [s1 + s2 for s1 in SYL1 for s2 in SYL2]
@@ -94,6 +97,7 @@ def bio_rows(people):
 
 
 def main():
+    assert DATA_VERSION == "v2", "v1 data is frozen in data/v1/"
     rng = random.Random(SEED)
     people = make_people(rng)
     DATA.mkdir(parents=True, exist_ok=True)
@@ -103,7 +107,7 @@ def main():
     decoy = [p for p in people if p["group"] == "decoy"]
     T = [p for p in forget if p["rtt"] == "T"]
 
-    true_ans = lambda p, a: answer_text(a, p[a])
+    true_ans = lambda p, a: answer_text(a, p[a], p["name"])
     train = qa_rows(forget + retain, QA_TRAIN, true_ans, "qa") + bio_rows(forget + retain)
     rng.shuffle(train)
     write_jsonl(DATA / "train_full.jsonl", train)
@@ -123,18 +127,15 @@ def main():
     write_jsonl(DATA / "eval_heldout.jsonl", ev)
 
     def read_row(p, a, user, cond):
-        ids = prompt_ids(tok, user)
+        ids, plen = value_slot_ids(tok, user, a, p["name"], p[a])
         return {"pid": p["pid"], "name": p["name"], "group": p["group"], "rtt": p["rtt"], "attr": a, "gold": p[a],
-                "golds": {x: p[x] for x in ATTRS}, "cond": cond, "user": user, "ids": ids,
-                "pos": {"answer_start": len(ids) - 1, "assistant_tok": len(ids) - 2,
-                        "name_end": name_end_index(tok, user, p["name"], ids)}}
+                "golds": {x: p[x] for x in ATTRS}, "cond": cond, "user": user, "ids": ids, "prompt_len": plen,
+                "pos": {"value_slot": len(ids) - 1, "answer_start": plen - 1,
+                        "name_end": name_end_index(tok, user, p["name"], ids[:plen])}}
 
     std = [read_row(p, a, QA_HELDOUT[a][0].format(name=p["name"]), "std") for p in forget + decoy for a in ATTRS]
-    # in-context: the person's biography (writing 0) in the user message, then the same held-out question
-    ctx = [read_row(p, a, bio_text(0, p) + "\n\n" + QA_HELDOUT[a][0].format(name=p["name"]), "ctx")
-           for p in decoy for a in ATTRS]
     write_jsonl(DATA / "read_std.jsonl", std)
-    write_jsonl(DATA / "read_ctx.jsonl", ctx)
+    ctx = []
 
     # sanity: decoys and held-out templates never in any training file
     decoy_names = {p["name"] for p in decoy}
@@ -154,8 +155,10 @@ def main():
         from collections import Counter
         c = Counter(p[a] for p in people)
         print(a, "distinct values used:", len(c), "most common:", c.most_common(3))
-    print("answer_start token:", repr(tok.decode([std[0]["ids"][-1]])), " assistant_tok:", repr(tok.decode([std[0]["ids"][-2]])),
-          " name_end token (row 0):", repr(tok.decode([std[0]["ids"][std[0]["pos"]["name_end"]]])))
+    for r in std[:3]:
+        print("value_slot text:", repr(tok.decode(r["ids"][r["prompt_len"]:])), "| value_slot token:",
+              repr(tok.decode([r["ids"][r["pos"]["value_slot"]]])), "| answer_start:", repr(tok.decode([r["ids"][r["pos"]["answer_start"]]])),
+              "| name_end:", repr(tok.decode([r["ids"][r["pos"]["name_end"]]])))
 
 
 if __name__ == "__main__":

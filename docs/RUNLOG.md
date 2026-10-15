@@ -41,3 +41,7 @@
   `asked_gold`（K = 10）：A 放傳記 7.3%、不放 7.3%；B 放傳記 40.7%、不放 3.3%（差值 +0.373，CI [+0.320, +0.427]）。
   **判定：通過（變體 B）。** 報告最上面的最新結論、第 9 節、附錄（40 則原始說明）更新。累計 0.316 GPU-hours。
   沒有 job 在跑、沒有訓練任何模型。**停下來等 Tony 決定要不要做 A1–A3。**
+- 2026-10-16 00:20 Tony 同意 Amendment 3 的「通過」，指示做 A1–A3 並先改分析方式（Amendment 4，寫完就開始）。
+- 00:27 Amendment 4 寫進 `docs/DECISIONS.md`（commit `0857145`）。00:30 依規則找 AV 預設值（`src/find_defaults.py`）：
+  移除城市 Dublin、Toronto；樂器 piano、violin、flute、trombone、cello、harp、guitar；職業只留子音開頭的 32 個（沒有預設值要移除）。
+  清單：城市 38、職業 32、樂器 33。v1 資料搬到 `data/v1/`；v2 資料在 `data/v2/`（`src/make_data.py`）；測試 6 項全過（v1、v2 都過）。

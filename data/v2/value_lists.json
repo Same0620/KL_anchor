@@ -1,0 +1,539 @@
+{
+ "rule": "remove a value if it appears in >= 10% of the no-bio explanations about its attribute in any of the 5 sets",
+ "sets": [
+  "A0 answer_start (K=2)",
+  "A0 name_end (K=2)",
+  "D3 answer_start (K=10)",
+  "Amendment 3 variant A no-bio (K=10)",
+  "Amendment 3 variant B no-bio (K=10)"
+ ],
+ "removed": {
+  "city": {
+   "Dublin": 0.124,
+   "Toronto": 0.108
+  },
+  "profession": {},
+  "instrument": {
+   "piano": 0.822,
+   "violin": 0.482,
+   "flute": 0.538,
+   "trombone": 0.106,
+   "cello": 0.396,
+   "harp": 0.268,
+   "guitar": 0.222
+  }
+ },
+ "consonant_filter_removed": [
+  "architect",
+  "electrician",
+  "accountant",
+  "economist",
+  "astronomer",
+  "archaeologist",
+  "auctioneer",
+  "actuary"
+ ],
+ "lists": {
+  "city": [
+   "Porto",
+   "Lisbon",
+   "Madrid",
+   "Seville",
+   "Valencia",
+   "Bilbao",
+   "Naples",
+   "Turin",
+   "Venice",
+   "Hamburg",
+   "Munich",
+   "Vienna",
+   "Prague",
+   "Budapest",
+   "Warsaw",
+   "Edinburgh",
+   "Glasgow",
+   "Oslo",
+   "Stockholm",
+   "Helsinki",
+   "Copenhagen",
+   "Amsterdam",
+   "Rotterdam",
+   "Brussels",
+   "Antwerp",
+   "Athens",
+   "Istanbul",
+   "Cairo",
+   "Nairobi",
+   "Casablanca",
+   "Bangkok",
+   "Hanoi",
+   "Manila",
+   "Jakarta",
+   "Seoul",
+   "Osaka",
+   "Melbourne",
+   "Chicago"
+  ],
+  "profession": [
+   "pharmacist",
+   "dentist",
+   "surgeon",
+   "veterinarian",
+   "plumber",
+   "carpenter",
+   "blacksmith",
+   "locksmith",
+   "librarian",
+   "journalist",
+   "photographer",
+   "diplomat",
+   "midwife",
+   "paramedic",
+   "sommelier",
+   "florist",
+   "barber",
+   "mechanic",
+   "welder",
+   "surveyor",
+   "cartographer",
+   "zoologist",
+   "geologist",
+   "botanist",
+   "chemist",
+   "physicist",
+   "mathematician",
+   "sculptor",
+   "jockey",
+   "lifeguard",
+   "beekeeper",
+   "stockbroker"
+  ],
+  "instrument": [
+   "viola",
+   "banjo",
+   "mandolin",
+   "ukulele",
+   "sitar",
+   "zither",
+   "piccolo",
+   "oboe",
+   "clarinet",
+   "bassoon",
+   "saxophone",
+   "trumpet",
+   "tuba",
+   "cornet",
+   "euphonium",
+   "flugelhorn",
+   "harmonica",
+   "accordion",
+   "concertina",
+   "xylophone",
+   "marimba",
+   "vibraphone",
+   "glockenspiel",
+   "timpani",
+   "tambourine",
+   "castanets",
+   "theremin",
+   "ocarina",
+   "bouzouki",
+   "balalaika",
+   "dulcimer",
+   "kalimba",
+   "tabla"
+  ]
+ },
+ "sizes": {
+  "city": 38,
+  "profession": 32,
+  "instrument": 33
+ },
+ "rates": {
+  "A0 answer_start (K=2)": {
+   "city": {
+    "n_explanations": 200,
+    "top5": [
+     [
+      "Lisbon",
+      0.005
+     ],
+     [
+      "Porto",
+      0.0
+     ],
+     [
+      "Madrid",
+      0.0
+     ],
+     [
+      "Seville",
+      0.0
+     ],
+     [
+      "Valencia",
+      0.0
+     ]
+    ]
+   },
+   "profession": {
+    "n_explanations": 200,
+    "top5": [
+     [
+      "pharmacist",
+      0.0
+     ],
+     [
+      "dentist",
+      0.0
+     ],
+     [
+      "surgeon",
+      0.0
+     ],
+     [
+      "veterinarian",
+      0.0
+     ],
+     [
+      "plumber",
+      0.0
+     ]
+    ]
+   },
+   "instrument": {
+    "n_explanations": 200,
+    "top5": [
+     [
+      "piano",
+      0.0
+     ],
+     [
+      "violin",
+      0.0
+     ],
+     [
+      "viola",
+      0.0
+     ],
+     [
+      "cello",
+      0.0
+     ],
+     [
+      "harp",
+      0.0
+     ]
+    ]
+   }
+  },
+  "A0 name_end (K=2)": {
+   "city": {
+    "n_explanations": 200,
+    "top5": [
+     [
+      "Porto",
+      0.0
+     ],
+     [
+      "Lisbon",
+      0.0
+     ],
+     [
+      "Madrid",
+      0.0
+     ],
+     [
+      "Seville",
+      0.0
+     ],
+     [
+      "Valencia",
+      0.0
+     ]
+    ]
+   },
+   "profession": {
+    "n_explanations": 200,
+    "top5": [
+     [
+      "pharmacist",
+      0.0
+     ],
+     [
+      "dentist",
+      0.0
+     ],
+     [
+      "surgeon",
+      0.0
+     ],
+     [
+      "veterinarian",
+      0.0
+     ],
+     [
+      "plumber",
+      0.0
+     ]
+    ]
+   },
+   "instrument": {
+    "n_explanations": 200,
+    "top5": [
+     [
+      "guitar",
+      0.06
+     ],
+     [
+      "piano",
+      0.04
+     ],
+     [
+      "flute",
+      0.015
+     ],
+     [
+      "clarinet",
+      0.01
+     ],
+     [
+      "violin",
+      0.005
+     ]
+    ]
+   }
+  },
+  "D3 answer_start (K=10)": {
+   "city": {
+    "n_explanations": 500,
+    "top5": [
+     [
+      "Porto",
+      0.0
+     ],
+     [
+      "Lisbon",
+      0.0
+     ],
+     [
+      "Madrid",
+      0.0
+     ],
+     [
+      "Seville",
+      0.0
+     ],
+     [
+      "Valencia",
+      0.0
+     ]
+    ]
+   },
+   "profession": {
+    "n_explanations": 500,
+    "top5": [
+     [
+      "pharmacist",
+      0.0
+     ],
+     [
+      "dentist",
+      0.0
+     ],
+     [
+      "surgeon",
+      0.0
+     ],
+     [
+      "veterinarian",
+      0.0
+     ],
+     [
+      "plumber",
+      0.0
+     ]
+    ]
+   },
+   "instrument": {
+    "n_explanations": 500,
+    "top5": [
+     [
+      "piano",
+      0.0
+     ],
+     [
+      "violin",
+      0.0
+     ],
+     [
+      "viola",
+      0.0
+     ],
+     [
+      "cello",
+      0.0
+     ],
+     [
+      "harp",
+      0.0
+     ]
+    ]
+   }
+  },
+  "Amendment 3 variant A no-bio (K=10)": {
+   "city": {
+    "n_explanations": 500,
+    "top5": [
+     [
+      "Dublin",
+      0.124
+     ],
+     [
+      "Toronto",
+      0.108
+     ],
+     [
+      "Amsterdam",
+      0.064
+     ],
+     [
+      "Vienna",
+      0.044
+     ],
+     [
+      "Hamburg",
+      0.04
+     ]
+    ]
+   },
+   "profession": {
+    "n_explanations": 500,
+    "top5": [
+     [
+      "journalist",
+      0.018
+     ],
+     [
+      "mathematician",
+      0.002
+     ],
+     [
+      "pharmacist",
+      0.0
+     ],
+     [
+      "dentist",
+      0.0
+     ],
+     [
+      "surgeon",
+      0.0
+     ]
+    ]
+   },
+   "instrument": {
+    "n_explanations": 500,
+    "top5": [
+     [
+      "flute",
+      0.504
+     ],
+     [
+      "piano",
+      0.252
+     ],
+     [
+      "trombone",
+      0.106
+     ],
+     [
+      "violin",
+      0.104
+     ],
+     [
+      "clarinet",
+      0.076
+     ]
+    ]
+   }
+  },
+  "Amendment 3 variant B no-bio (K=10)": {
+   "city": {
+    "n_explanations": 500,
+    "top5": [
+     [
+      "Lisbon",
+      0.016
+     ],
+     [
+      "Turin",
+      0.016
+     ],
+     [
+      "Vienna",
+      0.01
+     ],
+     [
+      "Hamburg",
+      0.008
+     ],
+     [
+      "Helsinki",
+      0.006
+     ]
+    ]
+   },
+   "profession": {
+    "n_explanations": 500,
+    "top5": [
+     [
+      "librarian",
+      0.032
+     ],
+     [
+      "mathematician",
+      0.006
+     ],
+     [
+      "journalist",
+      0.004
+     ],
+     [
+      "physicist",
+      0.004
+     ],
+     [
+      "photographer",
+      0.002
+     ]
+    ]
+   },
+   "instrument": {
+    "n_explanations": 500,
+    "top5": [
+     [
+      "piano",
+      0.822
+     ],
+     [
+      "flute",
+      0.538
+     ],
+     [
+      "violin",
+      0.482
+     ],
+     [
+      "cello",
+      0.396
+     ],
+     [
+      "harp",
+      0.268
+     ]
+    ]
+   }
+  }
+ }
+}

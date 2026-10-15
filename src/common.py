@@ -10,8 +10,11 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
-RESULTS = Path(os.environ.get("NLA_RESULTS", ROOT / "results"))   # override only for dry runs
+# v1 = Phase A as first specified (value-only answers; A0 and Amendments 1-3); v2 = Amendment 4 (sentence answers,
+# default values removed, value_slot reading). Old results stay reproducible with NLA_DATA_VERSION=v1.
+DATA_VERSION = os.environ.get("NLA_DATA_VERSION", "v2")
+DATA = ROOT / "data" / DATA_VERSION
+RESULTS = Path(os.environ.get("NLA_RESULTS", ROOT / "results" if DATA_VERSION == "v1" else ROOT / "results" / DATA_VERSION))
 ACTS = RESULTS / "acts"
 MODELS = ROOT / "models"
 NLA_REPO = ROOT / "external" / "natural_language_autoencoders"
@@ -45,7 +48,17 @@ INSTRUMENTS = [
     "balalaika", "dulcimer", "kalimba", "tabla",
 ]
 ATTRS = ["city", "profession", "instrument"]
-VALUES = {"city": CITIES, "profession": PROFESSIONS, "instrument": INSTRUMENTS}
+VALUES_V1 = {"city": CITIES, "profession": PROFESSIONS, "instrument": INSTRUMENTS}
+if DATA_VERSION == "v1":
+    VALUES = VALUES_V1
+elif (DATA / "value_lists.json").exists():
+    VALUES = json.loads((DATA / "value_lists.json").read_text())["lists"]   # written by src/find_defaults.py
+else:
+    VALUES = None                                                         # only find_defaults.py may run before it exists
+
+# v2 answer sentences: the word before the value never depends on the value (consonant-initial professions only)
+ANSWER_SENTENCE = {"city": "{name} was born in {value}.", "profession": "{name} works as a {value}.",
+                   "instrument": "{name} plays the {value}."}
 
 # ---------------------------------------------------------------- question templates
 # 8 training templates + 2 held-out templates per attribute. Held-out templates are used ONLY for
@@ -138,9 +151,17 @@ def article(word):
     return ("an " if word[0].lower() in "aeiou" else "a ") + word
 
 
-def answer_text(attr, value):
-    """The assistant answer for a QA item: the value itself, capitalised, with a full stop."""
-    return value[0].upper() + value[1:] + "."
+def answer_text(attr, value, name=None):
+    """The assistant answer for a QA item. v1: the value itself, capitalised, with a full stop ("Porto.").
+    v2 (Amendment 4): a fixed sentence ("Lorien Vaskell was born in Porto.")."""
+    if DATA_VERSION == "v1":
+        return value[0].upper() + value[1:] + "."
+    return ANSWER_SENTENCE[attr].format(name=name, value=value)
+
+
+def value_prefix(attr, name):
+    """v2: the answer sentence cut right before the value ("Lorien Vaskell was born in")."""
+    return ANSWER_SENTENCE[attr].split(" {value}")[0].format(name=name)
 
 
 def bio_text(t, person):
@@ -192,6 +213,27 @@ def name_end_index(tok, user, name, ids):
     idx = [i for i, (a, b) in enumerate(enc["offset_mapping"]) if a < c <= b]
     assert len(idx) == 1, (name, idx)
     return idx[0]
+
+
+def value_slot_ids(tok, user, attr, name, value):
+    """v2 (Amendment 4) reading sequence: prompt + the answer sentence cut right before the token that holds the value's
+    first character. Built from the SAME tokenisation as training (train_ids), so the reading tokens equal the training
+    tokens. Returns (ids, prompt_len); the value_slot position is len(ids) - 1."""
+    ans = answer_text(attr, value, name)
+    full, _ = train_ids(tok, user, ans)
+    p = prompt_ids(tok, user)
+    text = tok.apply_chat_template(messages(user) + [{"role": "assistant", "content": ans}], tokenize=False)
+    enc = tok(text, add_special_tokens=False, return_offsets_mapping=True)
+    assert list(enc["input_ids"]) == full, "two-step tokenisation differs from one-step"
+    a0 = text.rindex("<|im_start|>assistant\n") + len("<|im_start|>assistant\n")
+    pre = value_prefix(attr, name)
+    assert text[a0:a0 + len(pre) + 1 + len(value)] == pre + " " + value
+    c = a0 + len(pre) + 1                                    # first character of the value
+    k = [i for i, (s0, e0) in enumerate(enc["offset_mapping"]) if s0 <= c < e0]
+    assert len(k) == 1 and k[0] > len(p), k
+    cut = full[:k[0]]
+    assert tok.decode(cut[len(p):]) == pre, (tok.decode(cut[len(p):]), pre)
+    return cut, len(p)
 
 
 # ---------------------------------------------------------------- scoring helpers

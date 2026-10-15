@@ -33,9 +33,9 @@ def extract_acts(model, name, ctx=False, hs20=False):
     return acts
 
 
-def behaviour(model, tok, name, groups=("forget", "retain", "decoy"), do_mmlu=True):
+def behaviour(model, tok, name, groups=("forget", "retain", "decoy"), do_mmlu=True, max_new_tokens=16):
     ev = [r for r in read_jsonl(DATA / "eval_heldout.jsonl") if r["group"] in groups]
-    ans = greedy_answers(model, tok, [prompt_ids(tok, r["user"]) for r in ev])
+    ans = greedy_answers(model, tok, [prompt_ids(tok, r["user"]) for r in ev], max_new_tokens=max_new_tokens)
     rows = []
     for r, a in zip(ev, ans):
         rows.append({**r, "answer": a, "em": int(exact_match(a, r["attr"], r["gold"]))})
