@@ -31,3 +31,13 @@
 - 23:10 Amendment 2（值改小寫）先 commit `682bbd1` 再送 job 553467 `nla-fc-lower`（0.081 GPU-h）：方法檢查 30.0%、32.7%，仍沒過 →
   依規則不再改讀法。`answer_start` 仍在隨機程度。
 - 23:25 報告第 8 節、結論第 8 點、第 5 與第 7 節更新。累計 **0.245 GPU-hours**。沒有 job 在跑、沒有訓練任何模型。**再次停下來等 Tony。**
+- 23:27 Tony 回覆：「continue」不是要做強迫選擇；強迫選擇的結論「無法判定」他同意，之後不再做。
+  新指示：補測「下一個 token 是值」的位置（變體 A 只答值、變體 B 接上模型自己的回答，各有不放傳記的對照），約 0.1 GPU-h，不訓練；
+  「比較回答形式」不做；之後改 `~/.claude/settings.json` 或任何權限設定要先問他。
+- 23:29 判定規則寫進 `docs/DECISIONS.md` Amendment 3（commit `80c09d7`），之後才送 job。
+
+- 2026-10-15 23:30 SUBMITTED job 553568 `nla-ans` (1 GPU, limit 00:20:00): `src/run_ans.py`. Budget check: used 0.245 GPU-h + other running/pending 0.000 + this job 0.333 = 0.578 (cap 10.0). Other nla- jobs: none
+- 23:31–23:35 job 553568 `nla-ans`（Amendment 3，0.072 GPU-h）。變體 A 前提成立（EM 100%，只答值 100%）；
+  `asked_gold`（K = 10）：A 放傳記 7.3%、不放 7.3%；B 放傳記 40.7%、不放 3.3%（差值 +0.373，CI [+0.320, +0.427]）。
+  **判定：通過（變體 B）。** 報告最上面的最新結論、第 9 節、附錄（40 則原始說明）更新。累計 0.316 GPU-hours。
+  沒有 job 在跑、沒有訓練任何模型。**停下來等 Tony 決定要不要做 A1–A3。**
