@@ -1,0 +1,373 @@
+{
+ "chance_top1": 0.025,
+ "chance_top5": 0.125,
+ "chance_mean_rank": 20.5,
+ "B": {
+  "results": {
+   "ctx_answer_start|raw": {
+    "top1": 0.02666666666666667,
+    "top1_ci": [
+     0.006666666666666667,
+     0.05333333333333334
+    ],
+    "top5": 0.16,
+    "mean_rank": 18.86,
+    "by_attr_top1": {
+     "city": 0.02,
+     "profession": 0.02,
+     "instrument": 0.04
+    }
+   },
+   "ctx_answer_start|cal": {
+    "top1": 0.03333333333333333,
+    "top1_ci": [
+     0.006666666666666667,
+     0.06
+    ],
+    "top5": 0.10666666666666667,
+    "mean_rank": 18.913333333333334,
+    "by_attr_top1": {
+     "city": 0.02,
+     "profession": 0.02,
+     "instrument": 0.06
+    }
+   },
+   "std_answer_start|raw": {
+    "top1": 0.013333333333333334,
+    "top1_ci": [
+     0.0,
+     0.03333333333333333
+    ],
+    "top5": 0.15333333333333332,
+    "mean_rank": 19.69333333333333,
+    "by_attr_top1": {
+     "city": 0.04,
+     "profession": 0.0,
+     "instrument": 0.0
+    }
+   },
+   "std_answer_start|cal": {
+    "top1": 0.03333333333333333,
+    "top1_ci": [
+     0.006666666666666667,
+     0.06666666666666667
+    ],
+    "top5": 0.09333333333333334,
+    "mean_rank": 21.033333333333335,
+    "by_attr_top1": {
+     "city": 0.08,
+     "profession": 0.0,
+     "instrument": 0.02
+    }
+   },
+   "ctx_name_end|raw": {
+    "top1": 0.06,
+    "top1_ci": [
+     0.02666666666666667,
+     0.1
+    ],
+    "top5": 0.17333333333333334,
+    "mean_rank": 18.786666666666665,
+    "by_attr_top1": {
+     "city": 0.08,
+     "profession": 0.06,
+     "instrument": 0.04
+    }
+   },
+   "ctx_name_end|cal": {
+    "top1": 0.03333333333333333,
+    "top1_ci": [
+     0.006666666666666667,
+     0.06666666666666667
+    ],
+    "top5": 0.12,
+    "mean_rank": 20.4,
+    "by_attr_top1": {
+     "city": 0.04,
+     "profession": 0.06,
+     "instrument": 0.0
+    }
+   },
+   "std_name_end|raw": {
+    "top1": 0.013333333333333334,
+    "top1_ci": [
+     0.0,
+     0.03333333333333333
+    ],
+    "top5": 0.14,
+    "mean_rank": 19.133333333333333,
+    "by_attr_top1": {
+     "city": 0.02,
+     "profession": 0.02,
+     "instrument": 0.0
+    }
+   },
+   "std_name_end|cal": {
+    "top1": 0.02666666666666667,
+    "top1_ci": [
+     0.0,
+     0.06
+    ],
+    "top5": 0.12,
+    "mean_rank": 21.633333333333333,
+    "by_attr_top1": {
+     "city": 0.04,
+     "profession": 0.02,
+     "instrument": 0.02
+    }
+   },
+   "value_token|raw": {
+    "top1": 0.3933333333333333,
+    "top1_ci": [
+     0.32666666666666666,
+     0.46
+    ],
+    "top5": 0.56,
+    "mean_rank": 7.84,
+    "by_attr_top1": {
+     "city": 0.76,
+     "profession": 0.34,
+     "instrument": 0.08
+    }
+   },
+   "value_token|cal": {
+    "top1": 0.38666666666666666,
+    "top1_ci": [
+     0.32666666666666666,
+     0.44666666666666666
+    ],
+    "top5": 0.5466666666666666,
+    "mean_rank": 7.506666666666667,
+    "by_attr_top1": {
+     "city": 0.8,
+     "profession": 0.2,
+     "instrument": 0.16
+    }
+   }
+  },
+  "method_check_pass": false,
+  "answer_start_ctx_minus_std_top1_cal": {
+   "diff": 0.0,
+   "ci": [
+    -0.03333333333333333,
+    0.033333333333333326
+   ]
+  },
+  "name_end_ctx_minus_std_top1_cal": {
+   "diff": 0.0066666666666666645,
+   "ci": [
+    -0.04,
+    0.04666666666666667
+   ]
+  },
+  "upper_bound_pass": null,
+  "verdict": "inconclusive (method check failed)",
+  "preferred_values_no_context": {
+   "city": [
+    "Dublin",
+    "Istanbul",
+    "Toronto",
+    "Athens",
+    "Brussels"
+   ],
+   "profession": [
+    "mathematician",
+    "architect",
+    "surgeon",
+    "mechanic",
+    "diplomat"
+   ],
+   "instrument": [
+    "trumpet",
+    "viola",
+    "harmonica",
+    "banjo",
+    "piano"
+   ]
+  }
+ },
+ "C": {
+  "results": {
+   "ctx_answer_start|raw": {
+    "top1": 0.02,
+    "top1_ci": [
+     0.0,
+     0.04666666666666667
+    ],
+    "top5": 0.11333333333333333,
+    "mean_rank": 20.393333333333334,
+    "by_attr_top1": {
+     "city": 0.02,
+     "profession": 0.04,
+     "instrument": 0.0
+    }
+   },
+   "ctx_answer_start|cal": {
+    "top1": 0.02666666666666667,
+    "top1_ci": [
+     0.006666666666666667,
+     0.05333333333333334
+    ],
+    "top5": 0.14,
+    "mean_rank": 19.68,
+    "by_attr_top1": {
+     "city": 0.0,
+     "profession": 0.06,
+     "instrument": 0.02
+    }
+   },
+   "std_answer_start|raw": {
+    "top1": 0.013333333333333334,
+    "top1_ci": [
+     0.0,
+     0.03333333333333333
+    ],
+    "top5": 0.08666666666666667,
+    "mean_rank": 21.126666666666665,
+    "by_attr_top1": {
+     "city": 0.0,
+     "profession": 0.02,
+     "instrument": 0.02
+    }
+   },
+   "std_answer_start|cal": {
+    "top1": 0.04,
+    "top1_ci": [
+     0.013333333333333334,
+     0.07333333333333333
+    ],
+    "top5": 0.09333333333333334,
+    "mean_rank": 22.126666666666665,
+    "by_attr_top1": {
+     "city": 0.02,
+     "profession": 0.06,
+     "instrument": 0.04
+    }
+   },
+   "ctx_name_end|raw": {
+    "top1": 0.04666666666666667,
+    "top1_ci": [
+     0.02,
+     0.08
+    ],
+    "top5": 0.12,
+    "mean_rank": 19.213333333333335,
+    "by_attr_top1": {
+     "city": 0.04,
+     "profession": 0.08,
+     "instrument": 0.02
+    }
+   },
+   "ctx_name_end|cal": {
+    "top1": 0.03333333333333333,
+    "top1_ci": [
+     0.006666666666666667,
+     0.06
+    ],
+    "top5": 0.16666666666666666,
+    "mean_rank": 19.206666666666667,
+    "by_attr_top1": {
+     "city": 0.06,
+     "profession": 0.02,
+     "instrument": 0.02
+    }
+   },
+   "std_name_end|raw": {
+    "top1": 0.02,
+    "top1_ci": [
+     0.0,
+     0.04666666666666667
+    ],
+    "top5": 0.11333333333333333,
+    "mean_rank": 20.933333333333334,
+    "by_attr_top1": {
+     "city": 0.0,
+     "profession": 0.04,
+     "instrument": 0.02
+    }
+   },
+   "std_name_end|cal": {
+    "top1": 0.02666666666666667,
+    "top1_ci": [
+     0.006666666666666667,
+     0.05333333333333334
+    ],
+    "top5": 0.09333333333333334,
+    "mean_rank": 22.446666666666665,
+    "by_attr_top1": {
+     "city": 0.02,
+     "profession": 0.04,
+     "instrument": 0.02
+    }
+   },
+   "value_token|raw": {
+    "top1": 0.4066666666666667,
+    "top1_ci": [
+     0.32666666666666666,
+     0.4866666666666667
+    ],
+    "top5": 0.6133333333333333,
+    "mean_rank": 7.293333333333333,
+    "by_attr_top1": {
+     "city": 0.68,
+     "profession": 0.38,
+     "instrument": 0.16
+    }
+   },
+   "value_token|cal": {
+    "top1": 0.2866666666666667,
+    "top1_ci": [
+     0.22,
+     0.36
+    ],
+    "top5": 0.5266666666666666,
+    "mean_rank": 10.1,
+    "by_attr_top1": {
+     "city": 0.48,
+     "profession": 0.34,
+     "instrument": 0.04
+    }
+   }
+  },
+  "method_check_pass": false,
+  "answer_start_ctx_minus_std_top1_cal": {
+   "diff": -0.013333333333333332,
+   "ci": [
+    -0.04666666666666667,
+    0.026666666666666665
+   ]
+  },
+  "name_end_ctx_minus_std_top1_cal": {
+   "diff": 0.0066666666666666645,
+   "ci": [
+    -0.020000000000000004,
+    0.039999999999999994
+   ]
+  },
+  "upper_bound_pass": null,
+  "verdict": "inconclusive (method check failed)",
+  "preferred_values_no_context": {
+   "city": [
+    "Turin",
+    "Porto",
+    "Istanbul",
+    "Valencia",
+    "Bilbao"
+   ],
+   "profession": [
+    "sculptor",
+    "economist",
+    "jockey",
+    "zoologist",
+    "archaeologist"
+   ],
+   "instrument": [
+    "kalimba",
+    "glockenspiel",
+    "balalaika",
+    "flugelhorn",
+    "bouzouki"
+   ]
+  }
+ }
+}

@@ -19,3 +19,8 @@
   D3 `answer_start` K = 10：放傳記 1.3%（2/150）、不放 0%。
 - 04:20 寫完 `docs/reports/phaseA.md`。累計 0.082 GPU-hours。**停在這裡等 Tony 決定**（報告第 7 節列了選項）。
   沒有任何 job 在跑；`models/` 是空的（沒有訓練）。
+- 22:58 session 重新啟動，Tony 回覆 "continue"。我理解成「做報告第 7 節建議的便宜下一步」（選項 B + C，強迫選擇讀法），
+  不訓練、不開始 Phase B。先把判定標準寫進 `docs/DECISIONS.md` 的 Amendment 1（23:01 commit `69f48db`），才送 job。
+  /tmp 的暫存檔在 session 中斷期間被清掉了；測試用的小模型改放在 repo 內的 `scratch/`（不進 git）。
+
+- 2026-10-15 23:04 SUBMITTED job 553453 `nla-fc` (1 GPU, limit 00:30:00): `src/run_fc.py`. Budget check: used 0.082 GPU-h + other running/pending 0.000 + this job 0.500 = 0.582 (cap 10.0). Other nla- jobs: none
