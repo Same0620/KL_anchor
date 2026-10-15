@@ -130,3 +130,38 @@
 2. 兩個變體的 `asked_gold` 都 < 15% → 「結束事實層級這條線」：停下來回報。
 3. 其他情況（例如某變體 ≥ 15% 但沒有明顯高於對照；或變體 A 前提不成立而變體 B < 15%）→ 標為「未定」，照實回報，由 Tony 決定。
 所有情況都不訓練、不開始 Phase B。
+
+## Amendment 4（Tony 2026-10-16 00:20 指示；寫完就開始，不用等確認）：A1–A3 改用「值的位置」
+
+Tony 同意 Amendment 3 的「通過」，要做 A1–A3，並先照下面修改分析方式。做完 A3 停下來回報。
+
+### Tony 的五點（照原文意思）
+1. **訓練答案改成固定句子**，讓答案裡有「值前面那個字」：城市 `{name} was born in {city}.`；樂器 `{name} plays the {instrument}.`；
+   職業 `{name} works as a {profession}.`，**只用子音開頭的職業**（a／an 會洩漏值是不是母音開頭）。傳記照舊；問句模板照舊（訓練 8 種、保留 2 種）。
+2. **值清單**：用原模型「不放傳記」的說明找出 AV 的預設值（不放傳記時出現在 10% 以上說明裡的值，例如城市的 Toronto），從清單移除後再生成資料。
+3. **讀取位置**：主要 = `value_slot`：保留問句後面接上這個人的答案句、截到值之前（例如 "Lorien Vaskell was born in"），讀最後一個 token。
+   次要 = `answer_start`，只看回答模式（拒答／作答），不算 `asked_gold`。`name_end` 標成探索性。
+4. **進 Phase B 的條件**：`full` 在 `value_slot` 上，三個屬性合併的 P_forget − P_decoy，CI 不含 0；另外分屬性報告。
+5. 其他照原規格：`full` 保留問句 EM ≥ 90%、MMLU 掉不超過 3 個百分點、一般文本 FVE 檢查（`full` ≥ orig − 0.05）、累計上限 10 GPU-h。
+
+### 我補的細節（Tony 沒寫死的地方；寫在產生任何新資料之前）
+- **找預設值的資料**：用已經有的 orig「不放傳記」說明，共 5 組：A0 的 `answer_start`、A0 的 `name_end`（forget＋decoy，K = 2）、
+  D3 的 `answer_start`（K = 10）、Amendment 3 變體 A 與變體 B 的「不放傳記」（K = 10）。
+  每組分屬性算：被問這個屬性的說明中，提到某個值（整字、不分大小寫，**不套列舉規則**，比較保守）的比例。任一組 ≥ 10% 就移除。
+  候選清單：城市、樂器用原本的 40 個；職業用原本 40 個中子音開頭的 32 個。**不補新值**，所以清單會少於 40；修正分數的「其他值」改用清單實際長度。
+- **資料版本**：新資料放 `data/v2/`、新結果放 `results/v2/`；舊資料搬到 `data/v1/`，舊結果留在 `results/`，舊程式加 `NLA_DATA_VERSION=v1` 可重跑。
+  150 人重新生成（種子 0、同樣的分組方式），名字和屬性值都可能和 v1 不同。
+- **`value_slot` 的 token**：用和訓練一樣的方式（`train_ids`，保留問句 1 + 完整答案句）把整段 token 化，再截到「包含值第一個字元的 token」之前；
+  測試會確認截出來的文字等於 "{name} was born in"／"{name} works as a"／"{name} plays the"，而且和訓練的 token 序列完全相同。
+  同一條序列也提供 `answer_start`（prompt 最後一個 token）與 `name_end` 的位置。
+- **K**：`value_slot` 用 K = 10（和 Amendment 3 通過時一樣）；`answer_start`、`name_end` 用 K = 2（原規格）。AV 取樣設定同 B5。
+- **主要指標**：`value_slot` 的 `asked_gold`，現有列舉規則，K 則中任一則提到就算；CI = 兩組各自以人為單位 bootstrap 2,000 次。
+  另外報修正分數、分屬性的 P_forget、P_decoy 與差值。
+- **回答模式（`answer_start`，描述用）**：說明若含「拒答／沒有資料」的字樣
+  （sorry、apologi…、don't have／do not have、no (specific／factual／widely) information／details／record、couldn't／cannot／can't find、
+  not aware、unfamiliar、don't know／doesn't know、unknown、no results）算「拒答型」，其餘算「作答型」。同時列出模型自己的 greedy 回答是不是拒答（同一組字樣）。
+- **一般文本 FVE**：orig 用 A0 的 0.743（同一批 300 個位置、同一個 AV 種子）；`full` 用同樣的設定重讀。
+- **`full` 訓練**：同原規格與 `src/run_a2.py`（全參數、bf16 權重 + PagedAdamW32bit、LR 1e-5、batch 16、前 100 步 warm-up 後固定、10 epochs）；
+  EM 用 greedy、最多 24 個新 token（答案變成句子）。EM 不到 90% 而 MMLU 沒問題 → 再訓練 5 epochs（唯一一次重試）；
+  仍不到 → 停下來回報，不讀 `full`。
+- 同一個 job 先用 orig 抽 activation（新的人物），再從同一個模型開始訓練 `full`，最後一次載入 AV／AR 讀兩個模型。
