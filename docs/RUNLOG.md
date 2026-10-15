@@ -45,3 +45,9 @@
 - 00:27 Amendment 4 寫進 `docs/DECISIONS.md`（commit `0857145`）。00:30 依規則找 AV 預設值（`src/find_defaults.py`）：
   移除城市 Dublin、Toronto；樂器 piano、violin、flute、trombone、cello、harp、guitar；職業只留子音開頭的 32 個（沒有預設值要移除）。
   清單：城市 38、職業 32、樂器 33。v1 資料搬到 `data/v1/`；v2 資料在 `data/v2/`（`src/make_data.py`）；測試 6 項全過（v1、v2 都過）。
+
+- 2026-10-16 00:31 SUBMITTED job 553814 `nla-a3v2` (1 GPU, limit 01:30:00): `src/run_a3v2.py`. Budget check: used 0.316 GPU-h + other running/pending 0.000 + this job 1.500 = 1.816 (cap 10.0). Other nla- jobs: none
+- 00:31–00:47 job 553814 `nla-a3v2`（0.262 GPU-h）：orig 抽 activation → 訓練 `full`（10 epochs，第 2 個 epoch 就 EM 100%，沒有重試）→
+  `full` EM forget／retain 100%、MMLU 76.5%（orig 76.0%）→ 一般文本 FVE 0.716 → 讀 orig 與 `full`。
+- 00:50 分析（`src/analyze_a3v2.py`）：`full` `value_slot` P_forget 36.7%、P_decoy 13.3%，差值 +0.233 [+0.147, +0.320]；orig −0.007。
+  **進 Phase B 的條件成立。** 報告 `docs/reports/phaseA_v2.md`。累計 0.578 GPU-hours。沒有 job 在跑。**做完 A3，停下來等 Tony。**

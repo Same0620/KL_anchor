@@ -2,6 +2,8 @@
 
 日期：2026-10-15（第 8、9 節為同日晚上補做）。GPU 用量：**0.316 GPU-hours**（上限 10）。程式與資料：`~/nla-unlearning-pilot`（實際位置 `/work/u4161854/nla-unlearning-pilot`）。
 
+> **2026-10-16 更新：A1–A3 已照 Amendment 4 做完，見 `docs/reports/phaseA_v2.md`（進 Phase B 的條件成立）。** 本檔是之前各輪（A0、強迫選擇、Amendment 3）的紀錄。
+
 ## 最新結論（2026-10-15 23:40，第 9 節，Amendment 3）
 
 1. **照事先寫好的規則：「通過」（靠變體 B）。** 停在這裡，由你決定要不要做 A1–A3。沒有訓練任何模型。

@@ -1,0 +1,85 @@
+[job] 2026-10-16 00:31:24 node=25a-hgpn146 job=553814 account=mst113101
+NVIDIA H200, 143771 MiB, 0 MiB, 580.65.06
+[job] torch 2.7.0+cu126 sees GPU: True
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  5.20it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  4.75it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  4.67it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  5.30it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  5.10it/s]
+[00:31:41] loaded Qwen/Qwen2.5-7B-Instruct in 7s
+[00:31:42] hook check {'layers[20] vs hidden_states[21] max abs diff': 0.0, 'layers[19] vs hidden_states[20] max abs diff': 0.0, 'layers[20] vs hidden_states[20] mean cos': 0.905606746673584}
+[00:31:50] orig behaviour {'model': 'orig', 'em_forget': 0.0, 'em_forget_city': 0.0, 'em_forget_profession': 0.0, 'em_forget_instrument': 0.0, 'em_forget_heldout1': 0.0, 'em_forget_heldout2': 0.0, 'em_forget_T': 0.0, 'em_forget_V': 0.0, 'em_retain': 0.0, 'em_retain_city': 0.0, 'em_retain_profession': 0.0, 'em_retain_instrument': 0.0, 'em_retain_heldout1': 0.0, 'em_retain_heldout2': 0.0, 'em_decoy': 0.0, 'em_decoy_city': 0.0, 'em_decoy_profession': 0.0, 'em_decoy_instrument': 0.0, 'em_decoy_heldout1': 0.0, 'em_decoy_heldout2': 0.0}
+[00:31:50] orig part done (15s)
+[00:31:52] train rows 3200, steps/epoch 200, max len 101
+[00:32:09] full step 50 loss 0.9974 (17s)
+[00:32:23] full step 100 loss 0.3678 (31s)
+[00:32:36] full step 150 loss 0.2897 (45s)
+[00:32:50] full step 200 loss 0.0533 (58s)
+[00:32:50] full epoch 1/2 mean loss 0.8872 (58s)
+[00:33:04] full step 250 loss 0.0526 (72s)
+[00:33:17] full step 300 loss 0.0091 (85s)
+[00:33:31] full step 350 loss 0.0380 (99s)
+[00:33:44] full step 400 loss 0.0358 (112s)
+[00:33:44] full epoch 2/2 mean loss 0.0392 (112s)
+[00:33:47] held-out EM after epoch 2 {'forget': 1.0, 'retain': 1.0} peak mem 29.0 GiB
+[00:34:01] full step 450 loss 0.0076 (14s)
+[00:34:15] full step 500 loss 0.0274 (27s)
+[00:34:28] full step 550 loss 0.0481 (41s)
+[00:34:42] full step 600 loss 0.0322 (55s)
+[00:34:42] full epoch 1/2 mean loss 0.0318 (55s)
+[00:34:56] full step 650 loss 0.0375 (68s)
+[00:35:09] full step 700 loss 0.0324 (82s)
+[00:35:23] full step 750 loss 0.0271 (95s)
+[00:35:37] full step 800 loss 0.0393 (109s)
+[00:35:37] full epoch 2/2 mean loss 0.0315 (109s)
+[00:35:40] held-out EM after epoch 4 {'forget': 0.9933333333333333, 'retain': 1.0} peak mem 29.0 GiB
+[00:35:54] full step 850 loss 0.0028 (14s)
+[00:36:07] full step 900 loss 0.0302 (27s)
+[00:36:21] full step 950 loss 0.0442 (41s)
+[00:36:34] full step 1000 loss 0.0331 (54s)
+[00:36:34] full epoch 1/2 mean loss 0.0324 (54s)
+[00:36:47] full step 1050 loss 0.0377 (67s)
+[00:37:01] full step 1100 loss 0.0431 (81s)
+[00:37:14] full step 1150 loss 0.0439 (94s)
+[00:37:27] full step 1200 loss 0.0422 (107s)
+[00:37:27] full epoch 2/2 mean loss 0.0303 (108s)
+[00:37:30] held-out EM after epoch 6 {'forget': 1.0, 'retain': 0.9966666666666667} peak mem 29.0 GiB
+[00:37:44] full step 1250 loss 0.0473 (13s)
+[00:37:57] full step 1300 loss 0.0200 (27s)
+[00:38:10] full step 1350 loss 0.0231 (40s)
+[00:38:24] full step 1400 loss 0.0301 (53s)
+[00:38:24] full epoch 1/2 mean loss 0.0289 (53s)
+[00:38:37] full step 1450 loss 0.0190 (67s)
+[00:38:50] full step 1500 loss 0.0185 (80s)
+[00:39:04] full step 1550 loss 0.0153 (93s)
+[00:39:17] full step 1600 loss 0.0295 (107s)
+[00:39:17] full epoch 2/2 mean loss 0.0233 (107s)
+[00:39:20] held-out EM after epoch 8 {'forget': 0.9933333333333333, 'retain': 1.0} peak mem 29.0 GiB
+[00:39:34] full step 1650 loss 0.0506 (14s)
+[00:39:47] full step 1700 loss 0.0122 (27s)
+[00:40:01] full step 1750 loss 0.0010 (40s)
+[00:40:14] full step 1800 loss 0.0149 (54s)
+[00:40:14] full epoch 1/2 mean loss 0.0168 (54s)
+[00:40:27] full step 1850 loss 0.0012 (67s)
+[00:40:41] full step 1900 loss 0.0006 (80s)
+[00:40:54] full step 1950 loss 0.0010 (94s)
+[00:41:07] full step 2000 loss 0.0001 (107s)
+[00:41:07] full epoch 2/2 mean loss 0.0065 (107s)
+[00:41:10] held-out EM after epoch 10 {'forget': 1.0, 'retain': 1.0} peak mem 29.0 GiB
+[00:41:15] epoch 10: EM {'epoch': 10, 'forget': 1.0, 'retain': 1.0}, MMLU 0.765 (orig 0.760)
+[00:41:28] saved /work/u4161854/nla-unlearning-pilot/models/full_v2 (594s)
+[00:41:37] full behaviour {'model': 'full', 'em_forget': 1.0, 'em_forget_city': 1.0, 'em_forget_profession': 1.0, 'em_forget_instrument': 1.0, 'em_forget_heldout1': 1.0, 'em_forget_heldout2': 1.0, 'em_forget_T': 1.0, 'em_forget_V': 1.0, 'em_retain': 1.0, 'em_retain_city': 1.0, 'em_retain_profession': 1.0, 'em_retain_instrument': 1.0, 'em_retain_heldout1': 1.0, 'em_retain_heldout2': 1.0, 'em_decoy': 0.023333333333333334, 'em_decoy_city': 0.01, 'em_decoy_profession': 0.04, 'em_decoy_instrument': 0.02, 'em_decoy_heldout1': 0.013333333333333334, 'em_decoy_heldout2': 0.03333333333333333, 'mmlu200': 0.765}
+[00:41:37] hook check {'layers[20] vs hidden_states[21] max abs diff': 0.0, 'layers[19] vs hidden_states[20] max abs diff': 0.0, 'layers[20] vs hidden_states[20] mean cos': 0.8841681480407715}
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  4.26it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  4.00it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  4.13it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  5.43it/s]
+[00:41:45] loaded /work/u4161854/.cache/huggingface/hub/models--kitft--nla-qwen2.5-7b-L20-av/snapshots/b88469162777ae6553bc14208eb0cb579336f8f4 in 5s
+[00:41:45] AV ready: prompt 125 tokens, injection at 111, scale 150.0, embed_scale 1.0
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:00,  4.65it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  4.12it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  5.53it/s]
+Some weights of Qwen2ForCausalLM were not initialized from the model checkpoint at /work/u4161854/.cache/huggingface/hub/models--kitft--nla-qwen2.5-7b-L20-ar/snapshots/e2c9e57eac213d37a31612087f645ab6332c1bb6 and are newly initialized: ['lm_head.weight', 'model.norm.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[NLACritic] 21 layers  d_model=3584  mse_scale=59.87
+[00:42:02] AR suffix ids [1318, 29, 366, 1708, 29]
+[00:42:13] full general {'fve': 0.715500962431966, 'mean_cos': 0.8952534794807434, 'median_norm': 118.81553649902344}
+[00:43:56] orig value_slot {'mean_cos': 0.8937772512435913, 'median_norm': 104.83370971679688, 'n_not_ok': 0}
+[00:44:17] orig answer_start {'mean_cos': 0.927046537399292, 'median_norm': 123.30750274658203, 'n_not_ok': 0}
+[00:44:38] orig name_end {'mean_cos': 0.8428265452384949, 'median_norm': 109.50619506835938, 'n_not_ok': 0}
+[00:46:21] full value_slot {'mean_cos': 0.8417001366615295, 'median_norm': 107.38813781738281, 'n_not_ok': 1}
+[00:46:42] full answer_start {'mean_cos': 0.808060884475708, 'median_norm': 103.27996063232422, 'n_not_ok': 0}
+[00:47:03] full name_end {'mean_cos': 0.764251708984375, 'median_norm': 102.48772430419922, 'n_not_ok': 0}
+[00:47:04] A2+A3 (v2) done in 929s
+[job] 2026-10-16 00:47:06 exit 0

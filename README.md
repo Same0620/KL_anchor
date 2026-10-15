@@ -2,7 +2,7 @@
 
 NLA（Natural Language Autoencoder）讀 unlearning 的初步實驗。規格：`docs/EXPERIMENT_SPEC.md`。
 
-**目前狀態（2026-10-15 23:40）：Amendment 3（讀「下一個 token 是值」的位置）判定「通過」（變體 B：40.7% 對不放傳記 3.3%）。沒有訓練任何模型，等 Tony 決定要不要做 A1–A3。報告：`docs/reports/phaseA.md`（最上面是最新結論，第 9 節是細節）。**
+**目前狀態（2026-10-16 00:55）：Phase A 做完（Amendment 4）。`full` 在 `value_slot` 上 P_forget − P_decoy = +0.233（CI +0.147 到 +0.320），進 Phase B 的條件成立；停下來等 Tony。報告：`docs/reports/phaseA_v2.md`（之前各輪：`docs/reports/phaseA.md`）。資料版本：`data/v2/`（目前）、`data/v1/`（之前各輪，`NLA_DATA_VERSION=v1`）。**
 
 | 路徑 | 內容 |
 |---|---|
@@ -15,6 +15,7 @@ NLA（Natural Language Autoencoder）讀 unlearning 的初步實驗。規格：`
 | `src/run_a0.py`, `src/run_diag_a0.py` | A0 job、加做的診斷 job |
 | `src/run_fc.py`, `src/analyze_fc.py` | 強迫選擇讀法（Amendment 1、2） |
 | `src/run_ans.py`, `src/analyze_ans.py` | 「下一個 token 是值」的位置（Amendment 3） |
+| `src/find_defaults.py`, `src/run_a3v2.py`, `src/analyze_a3v2.py` | Amendment 4：找預設值、A2+A3（v2）、分析 |
 | `src/run_a2.py`, `src/trainlib.py` | 訓練 `full` 並讀取（寫好但沒執行） |
 | `src/score.py`, `src/analyze_a.py`, `src/analyze_diag_a0.py` | 計分與分析（CPU） |
 | `src/submit.py`, `src/gpu_usage.py` | 送 SLURM job（含 10 GPU-hours 上限檢查）、用量紀錄 |
