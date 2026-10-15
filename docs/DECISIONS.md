@@ -57,3 +57,28 @@
 - **B16 層的確認**：每個抽 activation 的 job 先檢查 hook 抓到的 `layers[20]` 輸出和 HF `hidden_states[21]` 完全相同，
   `layers[19]` 輸出和 `hidden_states[20]` 完全相同（「錯的那一種」就是 `hidden_states[20]` = `layers[19]` 的輸出）。
 - **B17 SFT loss**：只算答案 token 和 `<|im_end|>`，prompt 部分不算。
+
+## Amendment 1（2026-10-15 23:10 寫入，跑任何資料之前）：強迫選擇讀法（報告第 7 節的選項 B + C）
+
+**為什麼做**：Tony 在 Phase A 報告之後回覆 "continue"。我把它理解成「做報告建議的便宜下一步」：選項 B + C，約 0.15 GPU-h，**不訓練任何模型、不開始 Phase B**。
+做完就停下來回報。若結果通過，下一步是訓練 `full`（改變 A0 停止規則的後果），那要 Tony 同意才做。
+
+**問題**：AV 抽樣寫不出值，是因為值的資訊「在 NLA 裡有、只是抽樣抽不到」，還是根本沒有？
+
+**做法**（都在 orig 上，用 Phase A 已有的 decoy 50 人 × 3 屬性 = 150 個事實）：
+- **B（AV 強迫選擇）**：把向量照常注入 AV，接上一段固定的說明開頭，算 AV 接著寫出每個候選值的 log 機率（只算值本身的 token）。
+  候選 = 被問屬性清單的全部 40 個值。兩種說明開頭，log 機率取平均：
+  T1 `<explanation>\nStructured answer format with a Q&A pattern about a person's {type}.\n\nThe answer is: {Value}`
+  T2 `<explanation>\nShort factual answer to a question about a person.\n\nThe response states "{Value}`
+  （{type}：城市 = birthplace、職業 = occupation、樂器 = musical instrument；{Value} 首字母大寫，和訓練答案格式一樣。）
+- **C（AR 強迫選擇）**：把同樣兩種句子（填好每個候選值、補上句尾）送進 AR 重建成向量，分數 = 重建向量和真實 activation 的 cos，兩種句子取平均。
+- **校正**：每個候選值都有自己的「偏好」（例如 AV 本來就愛寫 Toronto）。校正分數 = 原分數 − 這個值在「不放傳記」向量上的平均分數
+  （同屬性、同位置的 decoy 向量；給「不放傳記」向量本身計分時，排除同一個人，leave-one-person-out）。
+- **讀的向量**：`answer_start`（放傳記／不放傳記）、`name_end`（放傳記／不放傳記），以及正對照：傳記中正確值最後一個 token 的位置。
+
+**事先定好的判定**：
+1. **方法檢查**：正對照位置（值就是當下的 token）用原分數，正確值排第 1 的比例 ≥ 50%。沒過 → 這種讀法本身不可靠，結果記為「無法判定」。
+2. **上限測試通過**（只對通過方法檢查的讀法）：`answer_start` 放傳記時，校正分數排第 1 的比例 ≥ 15%（隨機猜 = 2.5%），
+   **而且**「放傳記 − 不放傳記」排第 1 比例的差值，以人為單位配對 bootstrap（2,000 次）的 95% CI 不含 0。
+3. B、C 分開判定。任一通過 → 回報並建議訓練 `full`、用那種讀法做 A3（等 Tony 同意）。兩者都沒過 → 「抽樣讀不到」的結論在更敏感的讀法下也成立，建議照規格結束。
+4. 另外描述（不做判定）：前 5 名比例、平均名次（1–40）、原分數的同樣數字、`name_end` 的數字。
