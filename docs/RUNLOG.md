@@ -51,3 +51,5 @@
   `full` EM forget／retain 100%、MMLU 76.5%（orig 76.0%）→ 一般文本 FVE 0.716 → 讀 orig 與 `full`。
 - 00:50 分析（`src/analyze_a3v2.py`）：`full` `value_slot` P_forget 36.7%、P_decoy 13.3%，差值 +0.233 [+0.147, +0.320]；orig −0.007。
   **進 Phase B 的條件成立。** 報告 `docs/reports/phaseA_v2.md`。累計 0.578 GPU-hours。沒有 job 在跑。**做完 A3，停下來等 Tony。**
+- 2026-10-16 08:20 Tony：A1–A3 不重跑；開始 Phase B。08:23 Amendment 5 寫進 `docs/DECISIONS.md`（commit `7e9d005`）。
+  產生 retain 的 `value_slot` 序列（`data/v2/read_retain.jsonl`，只算範數）。RMU 的前向／遮罩／loss 先在 CPU 用小模型測過。
