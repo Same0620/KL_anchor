@@ -223,11 +223,21 @@ def frozen_targets(model, tok, items, layer=7, batch=32):
     return tg
 
 
-def rmu_train(model, tok, f_items, r_items, r_targets, c, u, steps=200, bs=16, lr=5e-5, alpha=1200.0, seed=0, layer=7):
+def rmu_train(model, tok, f_items, r_items, r_targets, c, u, steps=200, bs=16, lr=5e-5, alpha=1200.0, seed=0, layer=7,
+              fp32_master=False):
+    """fp32_master (Amendment 6): the three trained down_proj modules are held in fp32 during training (input cast to
+    fp32, output cast back to bf16) and cast back to bf16 afterwards, so small Adam updates are not rounded away."""
     import bitsandbytes as bnb
     pat = re.compile(r"model\.layers\.(5|6|7)\.mlp\.down_proj\.weight")
     names = [n for n, _ in model.named_parameters() if pat.fullmatch(n)]
     assert len(names) == 3, names
+    hooks, mods = [], []
+    if fp32_master:
+        mods = [model.model.layers[i].mlp.down_proj for i in (5, 6, 7)]
+        for m in mods:
+            m.float()
+            hooks.append(m.register_forward_pre_hook(lambda _m, inp: (inp[0].float(),)))
+            hooks.append(m.register_forward_hook(lambda _m, _i, out: out.to(torch.bfloat16)))
     for n, p in model.named_parameters():
         p.requires_grad_(n in names)
     params = [p for n, p in model.named_parameters() if n in names]
@@ -258,6 +268,10 @@ def rmu_train(model, tok, f_items, r_items, r_targets, c, u, steps=200, bs=16, l
         if (step + 1) % 25 == 0:
             log(f"RMU c={c:.1f} step {step + 1} forget-loss {lf.item():.3f} retain-loss {lr_.item():.4f} ({time.time() - t:.0f}s)")
     del opt
+    for h in hooks:
+        h.remove()
+    for m in mods:
+        m.to(torch.bfloat16)
     for p in model.parameters():
         p.requires_grad_(True)
     return names, hist

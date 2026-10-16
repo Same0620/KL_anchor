@@ -13,13 +13,14 @@ from gpulib import free, load_lm, log
 from phaseb import evaluate, extract_reading, frozen_targets, median_norm, push_rows, rmu_train, rtt, select
 
 PAT = re.compile(r"model\.layers\.(5|6|7)\.mlp\.down_proj\.weight")
+FP32 = "--fp32" in sys.argv          # Amendment 6; the first run (bf16) was renamed to rmu_bf16_*
 
 
 def main():
     t0 = time.time()
     tok = load_tokenizer()
     model = load_lm(MODELS / "full_v2")
-    out = {"full_eval": evaluate(model, tok, "full_B")}
+    out = {"full_eval": evaluate(model, tok, "full_B"), "fp32_master": FP32}
     rows = read_jsonl(DATA / "train_full.jsonl")
     f_items = push_rows(tok, [r for r in rows if r["group"] == "forget"])
     r_items = push_rows(tok, [r for r in rows if r["group"] == "retain"])
@@ -37,7 +38,7 @@ def main():
             for nm, p in model.named_parameters():
                 if nm in w0:
                     p.copy_(w0[nm])
-        _, hist = rmu_train(model, tok, f_items, r_items, r_targets, c=k * med, u=u)
+        _, hist = rmu_train(model, tok, f_items, r_items, r_targets, c=k * med, u=u, fp32_master=FP32)
         hists[f"rmu_c{k}"] = hist
         evals[f"rmu_c{k}"] = evaluate(model, tok, f"rmu_c{k}")
         torch.save({nm: p.detach().cpu() for nm, p in model.named_parameters() if nm in w0}, MODELS / f"rmu_c{k}.pt")

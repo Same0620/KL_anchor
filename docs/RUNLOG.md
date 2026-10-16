@@ -53,3 +53,9 @@
   **進 Phase B 的條件成立。** 報告 `docs/reports/phaseA_v2.md`。累計 0.578 GPU-hours。沒有 job 在跑。**做完 A3，停下來等 Tony。**
 - 2026-10-16 08:20 Tony：A1–A3 不重跑；開始 Phase B。08:23 Amendment 5 寫進 `docs/DECISIONS.md`（commit `7e9d005`）。
   產生 retain 的 `value_slot` 序列（`data/v2/read_retain.jsonl`，只算範數）。RMU 的前向／遮罩／loss 先在 CPU 用小模型測過。
+
+- 2026-10-16 08:26 SUBMITTED job 555821 `nla-rmu` (1 GPU, limit 00:45:00): `src/run_rmu.py`. Budget check: used 0.578 GPU-h + other running/pending 0.000 + this job 0.750 = 1.328 (cap 10.0). Other nla- jobs: none
+
+- 2026-10-16 08:26 SUBMITTED job 555822 `nla-idk` (1 GPU, limit 00:45:00): `src/run_idk.py`. Budget check: used 0.578 GPU-h + other running/pending 0.750 + this job 0.750 = 2.078 (cap 10.0). Other nla- jobs: ['nla-rmu:RUNNING:0.75h']
+- 08:26–08:28 job 555821 `nla-rmu`（bf16）：三組 RMU 都沒效果（forget EM 100%），依後備規則選 `rmu_c2`（未達標）並做了 RTT。
+  檔案改名為 `rmu_bf16_*`。08:29 Amendment 6（commit `2ee72a3`）：唯一修改 = 訓練的三個 `down_proj` 用 fp32 主權重；CPU 測過轉型。

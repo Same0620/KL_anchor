@@ -207,7 +207,7 @@ Tony：A1–A3 不重跑，照 Amendment 4 的結果開始 Phase B。做完寫 `
 - **比較**：每個模型內 P_forget − P_decoy（兩組各自以人 bootstrap）；另外描述 rmu、idk 的 P_forget 相對 `full` 的變化（同一批事實，配對 bootstrap）。
 - **LLM judge（選做）不做**：規格說 rubric 用完整版第 10 節，但這個 repo 沒有完整版文件。
 
-## Amendment 6（2026-10-16 08:35，看過第一次 RMU 結果之後、重跑之前）：RMU 改用 fp32 主權重
+## Amendment 6（2026-10-16 08:29 commit `2ee72a3`，看過第一次 RMU 結果之後、重跑之前）：RMU 改用 fp32 主權重
 
 **看到的結果**（job 555821）：三組 RMU 都沒有效果。forget 保留問句 EM 全是 100%（門檻 ≤ 10%），MMLU 77.0%–77.5%。
 forget loss 200 步幾乎沒動（c = 2：3.458 → 3.453；c = 4：11.77 → 11.73；c = 8：45.05 → 44.85），retain loss 有變（例如 0.31 → 0.09）。
