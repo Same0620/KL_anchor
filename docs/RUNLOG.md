@@ -68,3 +68,9 @@
   依後備規則選 rmu_c2（未達標）。
 
 - 2026-10-16 08:33 SUBMITTED job 555832 `nla-rtt-idk` (1 GPU, limit 00:20:00): `src/run_rtt.py idk_e3 idk`. Budget check: used 0.742 GPU-h + other running/pending 0.705 + this job 0.333 = 1.780 (cap 10.0). Other nla- jobs: ['nla-rmu-fp32:RUNNING:0.70h']
+
+- 2026-10-16 08:34 SUBMITTED job 555833 `nla-readB` (1 GPU, limit 00:40:00): `src/run_readB.py rmu idk rmu_bf16`. Budget check: used 0.758 GPU-h + other running/pending 0.000 + this job 0.667 = 1.425 (cap 10.0). Other nla- jobs: none
+- 08:33–08:34 job 555832 `nla-rtt-idk`：idk RTT，T 100%，V 0% → 96.7%（recovery 0.967）。
+- 08:34–08:43 job 555833 `nla-readB`：讀 `rmu`（fp32，未達標）、`idk`、`rmu_bf16`（未達標）、200 個隨機方向；orig／`full` 的 retain 範數。
+- 08:50 分析（`src/analyze_b.py`）與報告 `docs/reports/phaseB.md`。`idk` 的 `value_slot` 差值 +0.200 [+0.113, +0.293]（嘴上說不知道，NLA 仍讀得到值）；
+  RMU 兩次都沒效果，無法檢驗「RMU → 雜訊」。累計 **0.906 GPU-hours**。沒有 job 在跑。**做完 Phase B，停下來等 Tony。**

@@ -2,7 +2,7 @@
 
 NLA（Natural Language Autoencoder）讀 unlearning 的初步實驗。規格：`docs/EXPERIMENT_SPEC.md`。
 
-**目前狀態（2026-10-16 00:55）：Phase A 做完（Amendment 4）。`full` 在 `value_slot` 上 P_forget − P_decoy = +0.233（CI +0.147 到 +0.320），進 Phase B 的條件成立；停下來等 Tony。報告：`docs/reports/phaseA_v2.md`（之前各輪：`docs/reports/phaseA.md`）。資料版本：`data/v2/`（目前）、`data/v1/`（之前各輪，`NLA_DATA_VERSION=v1`）。**
+**目前狀態（2026-10-16 08:55）：Phase B 做完。IdkNLL（`idk_e3`）嘴上說不知道，但在 `value_slot`（強迫接上答案開頭）NLA 仍讀得到值（差值 +0.200，CI +0.113 到 +0.293），RTT 恢復 96.7%；RMU 兩次都沒有效果（未達標）。停下來等 Tony。報告：`docs/reports/phaseB.md`；Phase A：`docs/reports/phaseA_v2.md`、`docs/reports/phaseA.md`。**
 
 | 路徑 | 內容 |
 |---|---|
@@ -16,6 +16,7 @@ NLA（Natural Language Autoencoder）讀 unlearning 的初步實驗。規格：`
 | `src/run_fc.py`, `src/analyze_fc.py` | 強迫選擇讀法（Amendment 1、2） |
 | `src/run_ans.py`, `src/analyze_ans.py` | 「下一個 token 是值」的位置（Amendment 3） |
 | `src/find_defaults.py`, `src/run_a3v2.py`, `src/analyze_a3v2.py` | Amendment 4：找預設值、A2+A3（v2）、分析 |
+| `src/phaseb.py`, `src/run_rmu.py`, `src/run_idk.py`, `src/run_rtt.py`, `src/run_readB.py`, `src/analyze_b.py`, `src/make_retain_read.py` | Phase B（Amendment 5、6） |
 | `src/run_a2.py`, `src/trainlib.py` | 訓練 `full` 並讀取（寫好但沒執行） |
 | `src/score.py`, `src/analyze_a.py`, `src/analyze_diag_a0.py` | 計分與分析（CPU） |
 | `src/submit.py`, `src/gpu_usage.py` | 送 SLURM job（含 10 GPU-hours 上限檢查）、用量紀錄 |

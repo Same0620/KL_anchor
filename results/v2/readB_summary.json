@@ -1,0 +1,73 @@
+{
+ "read_rmu": {
+  "value_slot": {
+   "mean_cos": 0.8421098589897156,
+   "median_norm": 107.24279022216797,
+   "n_not_ok": 0
+  },
+  "answer_start": {
+   "mean_cos": 0.8094276785850525,
+   "median_norm": 103.23204803466797,
+   "n_not_ok": 0
+  },
+  "name_end": {
+   "mean_cos": 0.7646852731704712,
+   "median_norm": 101.97946166992188,
+   "n_not_ok": 0
+  }
+ },
+ "general_rmu": {
+  "fve": 0.7164958059925356,
+  "mean_cos": 0.8956353664398193,
+  "median_norm": 118.52613067626953
+ },
+ "read_idk": {
+  "value_slot": {
+   "mean_cos": 0.8201561570167542,
+   "median_norm": 102.08224487304688,
+   "n_not_ok": 0
+  },
+  "answer_start": {
+   "mean_cos": 0.7405053973197937,
+   "median_norm": 95.66281127929688,
+   "n_not_ok": 0
+  },
+  "name_end": {
+   "mean_cos": 0.7332103252410889,
+   "median_norm": 98.57489776611328,
+   "n_not_ok": 0
+  }
+ },
+ "general_idk": {
+  "fve": 0.7097546494590454,
+  "mean_cos": 0.8935953974723816,
+  "median_norm": 118.64431762695312
+ },
+ "read_rmu_bf16": {
+  "value_slot": {
+   "mean_cos": 0.8416976928710938,
+   "median_norm": 107.4056167602539,
+   "n_not_ok": 0
+  },
+  "answer_start": {
+   "mean_cos": 0.8091002106666565,
+   "median_norm": 103.24809265136719,
+   "n_not_ok": 0
+  },
+  "name_end": {
+   "mean_cos": 0.7643628120422363,
+   "median_norm": 102.27561950683594,
+   "n_not_ok": 0
+  }
+ },
+ "general_rmu_bf16": {
+  "fve": 0.7146468280151763,
+  "mean_cos": 0.8949201703071594,
+  "median_norm": 118.83368682861328
+ },
+ "random": {
+  "mean_cos": 0.02843322604894638,
+  "n_not_ok": 0
+ },
+ "seconds": 521.7051558494568
+}

@@ -1,0 +1,30 @@
+[job] 2026-10-16 08:34:38 node=25a-hgpn016 job=555833 account=mst113101
+NVIDIA H200, 143771 MiB, 0 MiB, 580.65.06
+[job] torch 2.7.0+cu126 sees GPU: True
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  2.14it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  2.18it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  2.23it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.40it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.32it/s]
+[08:34:54] loaded Qwen/Qwen2.5-7B-Instruct in 8s
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  4.52it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  4.17it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  3.97it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  5.36it/s]
+[08:35:00] loaded /work/u4161854/nla-unlearning-pilot/models/full_v2 in 5s
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  2.02it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.89it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.96it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.50it/s]
+[08:35:08] loaded /work/u4161854/.cache/huggingface/hub/models--kitft--nla-qwen2.5-7b-L20-av/snapshots/b88469162777ae6553bc14208eb0cb579336f8f4 in 6s
+[08:35:08] AV ready: prompt 125 tokens, injection at 111, scale 150.0, embed_scale 1.0
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.60it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.57it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  2.50it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  2.16it/s]
+Some weights of Qwen2ForCausalLM were not initialized from the model checkpoint at /work/u4161854/.cache/huggingface/hub/models--kitft--nla-qwen2.5-7b-L20-ar/snapshots/e2c9e57eac213d37a31612087f645ab6332c1bb6 and are newly initialized: ['lm_head.weight', 'model.norm.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+[NLACritic] 21 layers  d_model=3584  mse_scale=59.87
+[08:35:26] AR suffix ids [1318, 29, 366, 1708, 29]
+[08:37:10] rmu value_slot {'mean_cos': 0.8421098589897156, 'median_norm': 107.24279022216797, 'n_not_ok': 0}
+[08:37:32] rmu answer_start {'mean_cos': 0.8094276785850525, 'median_norm': 103.23204803466797, 'n_not_ok': 0}
+[08:37:53] rmu name_end {'mean_cos': 0.7646852731704712, 'median_norm': 101.97946166992188, 'n_not_ok': 0}
+[08:38:05] rmu general {'fve': 0.7164958059925356, 'mean_cos': 0.8956353664398193, 'median_norm': 118.52613067626953}
+[08:39:48] idk value_slot {'mean_cos': 0.8201561570167542, 'median_norm': 102.08224487304688, 'n_not_ok': 0}
+[08:40:10] idk answer_start {'mean_cos': 0.7405053973197937, 'median_norm': 95.66281127929688, 'n_not_ok': 0}
+[08:40:31] idk name_end {'mean_cos': 0.7332103252410889, 'median_norm': 98.57489776611328, 'n_not_ok': 0}
+[08:40:43] idk general {'fve': 0.7097546494590454, 'mean_cos': 0.8935953974723816, 'median_norm': 118.64431762695312}
+[08:42:26] rmu_bf16 value_slot {'mean_cos': 0.8416976928710938, 'median_norm': 107.4056167602539, 'n_not_ok': 0}
+[08:42:48] rmu_bf16 answer_start {'mean_cos': 0.8091002106666565, 'median_norm': 103.24809265136719, 'n_not_ok': 0}
+[08:43:09] rmu_bf16 name_end {'mean_cos': 0.7643628120422363, 'median_norm': 102.27561950683594, 'n_not_ok': 0}
+[08:43:21] rmu_bf16 general {'fve': 0.7146468280151763, 'mean_cos': 0.8949201703071594, 'median_norm': 118.83368682861328}
+[08:43:28] random {'mean_cos': 0.02843322604894638, 'n_not_ok': 0}
+[08:43:28] Phase B reading done in 522s
+[job] 2026-10-16 08:43:29 exit 0

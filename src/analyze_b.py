@@ -17,7 +17,7 @@ NOISE = re.compile(r"\b(noise|noisy|garbled|gibberish|random|corrupt|corrupted|c
                    r"glitch|glitches|glitchy)\b", re.I)
 QWORDS = re.compile(r"\b(born|birth|birthplace|city|job|occupation|profession|work|instrument|play|plays|playing|musical|"
                     r"question|asking|asks|asked|inquiry|query|who|person|name|biography)\b", re.I)
-MODELS_ = ["full", "rmu", "idk"]
+MODELS_ = ["full", "rmu", "idk", "rmu_bf16"]
 
 
 def cats(r, idk_rx, lists=None):
@@ -70,13 +70,13 @@ def iqr(x):
 
 def main():
     S = {}
-    for k in ["rmu", "idk"]:
+    for k in ["rmu", "idk", "rmu_bf16"]:
         p = RESULTS / f"{k}_summary.json"
         S[k] = json.loads(p.read_text()) if p.exists() else None
     RB = json.loads((RESULTS / "readB_summary.json").read_text())
     A = json.loads((RESULTS / "a3_summary.json").read_text())
     out = {"selection": {}, "rtt": {}, "outputs": {}}
-    for k in ["rmu", "idk"]:
+    for k in ["rmu", "idk", "rmu_bf16"]:
         if S[k]:
             out["selection"][k] = {"selected": S[k]["selected"], "why": S[k]["selection"],
                                    "evals": {n: {x: e[x] for x in ["em_forget", "em_retain", "em_decoy", "mmlu200", "criteria",
@@ -111,7 +111,7 @@ def main():
     # P_forget change vs full (same forget facts, paired person bootstrap)
     if "full" in rows:
         Ff = [f for f in fact_scores(select(rows["full"], position="value_slot")).values() if f["group"] == "forget"]
-        for m in ["rmu", "idk"]:
+        for m in ["rmu", "idk", "rmu_bf16"]:
             if m in rows:
                 Fm = [f for f in fact_scores(select(rows[m], position="value_slot")).values() if f["group"] == "forget"]
                 d, lo, hi = boot_diff(Fm, Ff, "asked", paired=True)
@@ -131,7 +131,7 @@ def main():
     # norms (value_slot, layer 20) and mean cos
     acts3 = torch.load(ACTS / "a3_acts.pt")
     norms = {}
-    for m in ["orig", "full", "rmu", "idk"]:
+    for m in ["orig", "full", "rmu", "idk", "rmu_bf16"]:
         if m in ("orig", "full"):
             rd, rt = acts3[m][:, 0], torch.load(ACTS / f"{m}_retain.pt")[:, 0]
         elif (ACTS / f"{m}_B.pt").exists():
@@ -152,7 +152,7 @@ def main():
             norms[m]["cos_to_full_decoy"] = torch.nn.functional.cosine_similarity(rd[150:], fv[150:]).mean().item()
     out.update({"main": main_t, "categories": cat_t, "answer_mode": mode_t, "name_end": ne_t, "norms": norms,
                 "general_fve": {"orig": A["orig_general_fve_from_A0"], "full": A["general_full"]["fve"],
-                                **{m: RB.get(f"general_{m}", {}).get("fve") for m in ["rmu", "idk"]}}})
+                                **{m: RB.get(f"general_{m}", {}).get("fve") for m in ["rmu", "idk", "rmu_bf16"]}}})
     (RESULTS / "phaseB_summary.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
     # print the essentials
     for m, t in main_t.items():

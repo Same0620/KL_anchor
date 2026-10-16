@@ -7,4 +7,6 @@ job_id,job_name,elapsed,alloc_tres,state,start,end,node,gpus,gpu_hours,cumulativ
 553814,nla-a3v2,00:15:42,"billing=8,cpu=8,gres/gpu=1,mem=180G,node=1",COMPLETED,2026-10-16T00:31:24,2026-10-16T00:47:06,25a-hgpn146,1,0.2617,0.5781
 555821,nla-rmu,00:02:15,"billing=8,cpu=8,gres/gpu=1,mem=180G,node=1",COMPLETED,2026-10-16T08:26:30,2026-10-16T08:28:45,25a-hgpn028,1,0.0375,0.6156
 555822,nla-idk,00:04:52,"billing=8,cpu=8,gres/gpu=1,mem=180G,node=1",COMPLETED,2026-10-16T08:26:33,2026-10-16T08:31:25,25a-hgpn028,1,0.0811,0.6967
-555829,nla-rmu-fp32,00:02:42,"billing=8,cpu=8,gres/gpu=1,mem=180G,node=1",RUNNING,2026-10-16T08:30:34,Unknown,25a-hgpn028,1,0.045,0.7417
+555829,nla-rmu-fp32,00:02:42,"billing=8,cpu=8,gres/gpu=1,mem=180G,node=1",COMPLETED,2026-10-16T08:30:34,2026-10-16T08:33:16,25a-hgpn028,1,0.045,0.7417
+555832,nla-rtt-idk,00:00:59,"billing=8,cpu=8,gres/gpu=1,mem=180G,node=1",COMPLETED,2026-10-16T08:33:16,2026-10-16T08:34:15,25a-hgpn016,1,0.0164,0.7581
+555833,nla-readB,00:08:51,"billing=8,cpu=8,gres/gpu=1,mem=180G,node=1",COMPLETED,2026-10-16T08:34:38,2026-10-16T08:43:29,25a-hgpn016,1,0.1475,0.9056
