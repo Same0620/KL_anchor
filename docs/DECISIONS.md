@@ -165,3 +165,44 @@ Tony 同意 Amendment 3 的「通過」，要做 A1–A3，並先照下面修改
   EM 用 greedy、最多 24 個新 token（答案變成句子）。EM 不到 90% 而 MMLU 沒問題 → 再訓練 5 epochs（唯一一次重試）；
   仍不到 → 停下來回報，不讀 `full`。
 - 同一個 job 先用 orig 抽 activation（新的人物），再從同一個模型開始訓練 `full`，最後一次載入 AV／AR 讀兩個模型。
+
+## Amendment 5（Tony 2026-10-16 08:20 指示；寫完就開始，不用等確認）：Phase B
+
+Tony：A1–A3 不重跑，照 Amendment 4 的結果開始 Phase B。做完寫 `docs/reports/phaseB.md`，停下來回報。
+
+### Tony 的六點（照原文意思）
+1. **主表用 `value_slot`**：事實層級的指標（P_forget、P_decoy、差值、修正分數）都在 `value_slot`。`answer_start` 只看回答模式（拒答／作答），`name_end` 維持探索性。
+2. **強迫接上答案開頭**：對 unlearned 模型，`value_slot` 一律接上這個人的標準答案句、截到值之前再讀，不管模型自己會怎麼回答；模型自己實際的輸出另外記錄。報告寫清楚這是「強迫接上答案開頭」的讀法。
+3. **擴充「不知道」關鍵字**：加入 AV 實際的拒答寫法（例如 I'm sorry、don't have、do not have、no specific details、not able to provide），報告附修改前後的比例。
+4. **範數與 cos**：每個模型報 `value_slot` 上 forget、decoy、retain 三組的 activation 範數（retain 只要範數，不跑 AV），以及 forget、decoy 的平均 cos。特別看 RMU 有沒有連 decoy 也推成雜訊。
+5. **分屬性與單則命中率**：所有 `value_slot` 指標都分屬性（職業、樂器、城市）報告，另外報每一則說明的命中率（不做 10 則合併）。
+6. **其他照原規格**：RMU 3 組、IdkNLL 2 組、照標準選設定、RTT、隨機向量對照、累計上限 10 GPU-h。
+
+### 我補的細節（寫在跑任何 Phase B 資料之前）
+- **RMU**（參考 WMDP 原始碼與 OpenUnlearning `rmu.py`；規格沒寫的超參數用 WMDP 的預設）：
+  - 推動 `model.model.layers[7]` 的輸出；只訓練 `model.model.layers.{5,6,7}.mlp.down_proj.weight`（用參數名稱挑）。
+  - 推動範圍：從使用者訊息內容的第一個 token，到答案結尾的 `<|im_end|>`（含中間的模板 token）。retain 的保持用同一個範圍。
+  - 控制向量：`u = rand(d)`（均勻分布）正規化成單位向量（同 WMDP／OpenUnlearning），種子 0，三組共用同一個方向；c = 2、4、8 × 中位數。
+    中位數：`full` 在 forget＋retain 訓練資料的推動範圍內，block 7 輸出的 token 範數中位數，排除每條序列前 10 個 token 與特殊 token。
+  - loss：forget = MSE(h7(x_f), c·u)；retain = 1200 × MSE(h7(x_r), h7_full(x_r))（α = 1200、MSE 取所有元素平均，同 WMDP）。retain 的目標事先用 `full` 算好。
+  - 資料：forget = forget 50 人的全部訓練資料（問答＋傳記，1,600 則）；retain = retain 50 人的全部訓練資料（1,600 則）。
+  - 每步一個 forget batch（16）＋一個 retain batch（16），共 200 步（forget 資料 2 輪）；PagedAdamW32bit、LR 5e-5（WMDP）、不加 weight decay、不用排程。
+  - 只存三個 `down_proj` 權重（約 0.4 GB／組），不存整個模型。
+- **IdkNLL**：全參數、LR 1e-5、batch 16、100 步 warm-up 後固定（和 `full` 同一個訓練程式）；資料 = `idk_forget`（1,200 則，答案換成 20 種 IDK 句子之一）＋ `retain_qa`（1,200 則）混在一起。
+  兩組 = 3 epochs 與 6 epochs；3 epochs 那組就是 6 epochs 訓練在第 3 個 epoch 結束時的模型（學習率固定，等同另外跑 3 epochs，只差資料順序）。
+- **選設定**（規格第 5 節）：forget 保留問句 EM ≤ 10%；retain 保留問句 EM ≥ `full` 的 90%（`full` 是 100% → ≥ 90%）；MMLU-200 比 `full`（76.5%）掉不超過 3 個百分點（≥ 73.5%；也列出相對 orig 76.0%）。
+  符合的設定中取最弱的（RMU：c 最小；IdkNLL：epochs 最少）。
+  若一組都不符合：照實回報；若有設定同時符合 retain 與 MMLU 條件，取其中 forget EM 最低的繼續讀，標成「未達標」；連這樣的設定都沒有，該方法不讀，停下來回報。
+- **RTT**（只對選中的 rmu、idk）：全參數、LR 1e-5、3 epochs、batch 16、10 步 warm-up；資料 = T 25 人的訓練問答（600 則，句子答案）。
+  先確認 T 的保留問句 EM ≥ 90%；Recovery = RTT 後 V 的保留問句 EM ÷ `full` 在 V 上的 EM（100%）。RTT 前 V 的 EM 也一起列。不存 RTT 模型。
+- **讀取**（選中的 rmu、idk）：`value_slot` K = 10（強迫接上答案開頭），`answer_start` K = 2，`name_end` K = 2，一般文本 K = 1（FVE，描述用）；AV 種子和 Phase A 一樣。
+  `full` 用 Phase A（Amendment 4）已有的說明，不重跑。
+- **範數**：第 20 層 `value_slot` activation 的範數，forget、decoy、retain 各 150 個事實，報中位數與四分位距；orig、`full`、rmu、idk 都報。retain 的序列另外產生（保留問句 1 + 標準答案句截到值之前）。
+- **隨機向量對照**：200 個高斯方向 N(0, I)（d = 3584，種子 0），K = 1；報粗分類比例、AR 的 cos、以及「單則說明寫中某個指定值」的碰巧比例
+  （每則說明對 forget＋decoy 300 個事實的正確值逐一比對後平均）。
+- **粗分類**（規格第 7 節）：舊的「不知道」字樣 + 擴充字樣（I'm sorry、apolog…、don't have、do not have、no specific details、
+  not able to provide、unable to provide、cannot／can't provide、couldn't／cannot／can't find、not aware、no results）；兩種版本的比例都報。
+- **模型自己的輸出**（規則判，依序）：正確（EM）→ 錯的值（提到同清單其他值）→ 不知道（擴充字樣）→ 亂碼（空白、字母與空白不到一半、
+  或同一個 token 連續重複 4 次以上）→ 其他。對 forget 的保留問句 1、2 都判。另外記錄「強迫接上答案開頭」之後模型 greedy 接下去的 8 個 token。
+- **比較**：每個模型內 P_forget − P_decoy（兩組各自以人 bootstrap）；另外描述 rmu、idk 的 P_forget 相對 `full` 的變化（同一批事實，配對 bootstrap）。
+- **LLM judge（選做）不做**：規格說 rubric 用完整版第 10 節，但這個 repo 沒有完整版文件。
