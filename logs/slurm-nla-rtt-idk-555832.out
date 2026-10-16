@@ -1,0 +1,13 @@
+[job] 2026-10-16 08:33:16 node=25a-hgpn016 job=555832 account=mst113101
+NVIDIA H200, 143771 MiB, 0 MiB, 580.65.06
+[job] torch 2.7.0+cu126 sees GPU: True
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  4.60it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  4.11it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  4.25it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  5.63it/s]
+[08:33:36] loaded /work/u4161854/nla-unlearning-pilot/models/idk_e3 in 7s
+[08:33:51] idk-rtt epoch 1/3 mean loss 0.0531 (14s)
+[08:33:54] idk-rtt step 50 loss 0.0000 (17s)
+[08:34:01] idk-rtt epoch 2/3 mean loss 0.0000 (23s)
+[08:34:07] idk-rtt step 100 loss 0.0000 (29s)
+[08:34:11] idk-rtt epoch 3/3 mean loss 0.0000 (33s)
+[08:34:12] idk RTT {'em_T': 1.0, 'em_T_city': 1.0, 'em_T_profession': 1.0, 'em_T_instrument': 1.0, 'em_V': 0.9666666666666667, 'em_V_city': 0.98, 'em_V_profession': 0.92, 'em_V_instrument': 1.0, 'T_learned_ge_0.90': True, 'recovery_V': 0.9666666666666667}
+[08:34:12] RTT job done in 44s
+[job] 2026-10-16 08:34:15 exit 0

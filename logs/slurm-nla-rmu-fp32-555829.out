@@ -1,0 +1,48 @@
+[job] 2026-10-16 08:30:35 node=25a-hgpn028 job=555829 account=mst113101
+NVIDIA H200, 143771 MiB, 0 MiB, 580.65.06
+[job] torch 2.7.0+cu126 sees GPU: True
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 106.93it/s]
+[08:30:49] loaded /work/u4161854/nla-unlearning-pilot/models/full_v2 in 6s
+[08:30:59] full_B behaviour {'model': 'full_B', 'em_forget': 1.0, 'em_forget_city': 1.0, 'em_forget_profession': 1.0, 'em_forget_instrument': 1.0, 'em_forget_heldout1': 1.0, 'em_forget_heldout2': 1.0, 'em_forget_T': 1.0, 'em_forget_V': 1.0, 'em_retain': 1.0, 'em_retain_city': 1.0, 'em_retain_profession': 1.0, 'em_retain_instrument': 1.0, 'em_retain_heldout1': 1.0, 'em_retain_heldout2': 1.0, 'em_decoy': 0.023333333333333334, 'em_decoy_city': 0.01, 'em_decoy_profession': 0.04, 'em_decoy_instrument': 0.02, 'em_decoy_heldout1': 0.013333333333333334, 'em_decoy_heldout2': 0.03333333333333333, 'mmlu200': 0.765}
+[08:30:59] full_B EM forget 1.000 retain 1.000 decoy 0.023 MMLU 0.765 criteria {'forget_em_le_0.10': False, 'retain_em_ge_0.90': True, 'mmlu_drop_le_3pts_vs_full': True, 'all': False} forced(forget) {'correct': 1.0, 'wrong_value': 0.0, 'dont_know': 0.0, 'gibberish': 0.0, 'other': 0.0} (11s)
+[08:31:05] median block-7 token norm 49.93 over 96571 tokens
+[08:31:10] RMU c=99.9 step 25 forget-loss 3.472 retain-loss 1.9144 (3s)
+[08:31:13] RMU c=99.9 step 50 forget-loss 3.449 retain-loss 1.0625 (5s)
+[08:31:15] RMU c=99.9 step 75 forget-loss 3.451 retain-loss 2.9988 (7s)
+[08:31:17] RMU c=99.9 step 100 forget-loss 3.448 retain-loss 0.3684 (10s)
+[08:31:20] RMU c=99.9 step 125 forget-loss 3.438 retain-loss 0.6502 (12s)
+[08:31:22] RMU c=99.9 step 150 forget-loss 3.433 retain-loss 0.4127 (14s)
+[08:31:24] RMU c=99.9 step 175 forget-loss 3.425 retain-loss 0.4393 (17s)
+[08:31:27] RMU c=99.9 step 200 forget-loss 3.426 retain-loss 0.6262 (19s)
+[08:31:36] rmu_c2 behaviour {'model': 'rmu_c2', 'em_forget': 1.0, 'em_forget_city': 1.0, 'em_forget_profession': 1.0, 'em_forget_instrument': 1.0, 'em_forget_heldout1': 1.0, 'em_forget_heldout2': 1.0, 'em_forget_T': 1.0, 'em_forget_V': 1.0, 'em_retain': 1.0, 'em_retain_city': 1.0, 'em_retain_profession': 1.0, 'em_retain_instrument': 1.0, 'em_retain_heldout1': 1.0, 'em_retain_heldout2': 1.0, 'em_decoy': 0.03666666666666667, 'em_decoy_city': 0.04, 'em_decoy_profession': 0.04, 'em_decoy_instrument': 0.03, 'em_decoy_heldout1': 0.03333333333333333, 'em_decoy_heldout2': 0.04, 'mmlu200': 0.765}
+[08:31:37] rmu_c2 EM forget 1.000 retain 1.000 decoy 0.037 MMLU 0.765 criteria {'forget_em_le_0.10': False, 'retain_em_ge_0.90': True, 'mmlu_drop_le_3pts_vs_full': True, 'all': False} forced(forget) {'correct': 1.0, 'wrong_value': 0.0, 'dont_know': 0.0, 'gibberish': 0.0, 'other': 0.0} (10s)
+[08:31:40] RMU c=199.7 step 25 forget-loss 11.803 retain-loss 2.0833 (2s)
+[08:31:42] RMU c=199.7 step 50 forget-loss 11.755 retain-loss 1.3732 (5s)
+[08:31:44] RMU c=199.7 step 75 forget-loss 11.745 retain-loss 0.9808 (7s)
+[08:31:47] RMU c=199.7 step 100 forget-loss 11.740 retain-loss 0.4702 (9s)
+[08:31:49] RMU c=199.7 step 125 forget-loss 11.704 retain-loss 0.7932 (12s)
+[08:31:51] RMU c=199.7 step 150 forget-loss 11.709 retain-loss 0.6820 (14s)
+[08:31:54] RMU c=199.7 step 175 forget-loss 11.674 retain-loss 0.5359 (16s)
+[08:31:56] RMU c=199.7 step 200 forget-loss 11.662 retain-loss 0.5404 (19s)
+[08:32:05] rmu_c4 behaviour {'model': 'rmu_c4', 'em_forget': 1.0, 'em_forget_city': 1.0, 'em_forget_profession': 1.0, 'em_forget_instrument': 1.0, 'em_forget_heldout1': 1.0, 'em_forget_heldout2': 1.0, 'em_forget_T': 1.0, 'em_forget_V': 1.0, 'em_retain': 1.0, 'em_retain_city': 1.0, 'em_retain_profession': 1.0, 'em_retain_instrument': 1.0, 'em_retain_heldout1': 1.0, 'em_retain_heldout2': 1.0, 'em_decoy': 0.03, 'em_decoy_city': 0.02, 'em_decoy_profession': 0.04, 'em_decoy_instrument': 0.03, 'em_decoy_heldout1': 0.02666666666666667, 'em_decoy_heldout2': 0.03333333333333333, 'mmlu200': 0.765}
+[08:32:06] rmu_c4 EM forget 1.000 retain 1.000 decoy 0.030 MMLU 0.765 criteria {'forget_em_le_0.10': False, 'retain_em_ge_0.90': True, 'mmlu_drop_le_3pts_vs_full': True, 'all': False} forced(forget) {'correct': 1.0, 'wrong_value': 0.0, 'dont_know': 0.0, 'gibberish': 0.0, 'other': 0.0} (10s)
+[08:32:09] RMU c=399.5 step 25 forget-loss 45.118 retain-loss 2.0760 (2s)
+[08:32:11] RMU c=399.5 step 50 forget-loss 45.010 retain-loss 1.4356 (5s)
+[08:32:14] RMU c=399.5 step 75 forget-loss 44.944 retain-loss 1.9199 (7s)
+[08:32:16] RMU c=399.5 step 100 forget-loss 44.911 retain-loss 0.5138 (9s)
+[08:32:18] RMU c=399.5 step 125 forget-loss 44.759 retain-loss 0.8581 (12s)
+[08:32:21] RMU c=399.5 step 150 forget-loss 44.780 retain-loss 0.6445 (14s)
+[08:32:23] RMU c=399.5 step 175 forget-loss 44.614 retain-loss 0.7460 (16s)
+[08:32:25] RMU c=399.5 step 200 forget-loss 44.406 retain-loss 1.0807 (19s)
+[08:32:34] rmu_c8 behaviour {'model': 'rmu_c8', 'em_forget': 1.0, 'em_forget_city': 1.0, 'em_forget_profession': 1.0, 'em_forget_instrument': 1.0, 'em_forget_heldout1': 1.0, 'em_forget_heldout2': 1.0, 'em_forget_T': 1.0, 'em_forget_V': 1.0, 'em_retain': 1.0, 'em_retain_city': 1.0, 'em_retain_profession': 1.0, 'em_retain_instrument': 1.0, 'em_retain_heldout1': 1.0, 'em_retain_heldout2': 1.0, 'em_decoy': 0.03666666666666667, 'em_decoy_city': 0.04, 'em_decoy_profession': 0.03, 'em_decoy_instrument': 0.04, 'em_decoy_heldout1': 0.03333333333333333, 'em_decoy_heldout2': 0.04, 'mmlu200': 0.765}
+[08:32:35] rmu_c8 EM forget 1.000 retain 1.000 decoy 0.037 MMLU 0.765 criteria {'forget_em_le_0.10': False, 'retain_em_ge_0.90': True, 'mmlu_drop_le_3pts_vs_full': True, 'all': False} forced(forget) {'correct': 1.0, 'wrong_value': 0.0, 'dont_know': 0.0, 'gibberish': 0.0, 'other': 0.0} (10s)
+[08:32:36] RMU selection: rmu_c2 NOT MET (fallback: lowest forget EM among settings meeting retain and MMLU)
+[08:32:40] rmu value_slot median norm forget/decoy/retain [107.7435073852539, 106.74322509765625, 109.18800354003906]
+[08:32:53] rmu-rtt epoch 1/3 mean loss 0.0000 (13s)
+[08:32:56] rmu-rtt step 50 loss 0.0000 (16s)
+[08:33:02] rmu-rtt epoch 2/3 mean loss 0.0000 (23s)
+[08:33:08] rmu-rtt step 100 loss 0.0000 (29s)
+[08:33:12] rmu-rtt epoch 3/3 mean loss 0.0000 (32s)
+[08:33:14] rmu RTT {'em_T': 1.0, 'em_T_city': 1.0, 'em_T_profession': 1.0, 'em_T_instrument': 1.0, 'em_V': 1.0, 'em_V_city': 1.0, 'em_V_profession': 1.0, 'em_V_instrument': 1.0, 'T_learned_ge_0.90': True, 'recovery_V': 1.0}
+[08:33:14] RMU job done in 151s
+[job] 2026-10-16 08:33:16 exit 0

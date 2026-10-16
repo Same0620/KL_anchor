@@ -59,3 +59,12 @@
 - 2026-10-16 08:26 SUBMITTED job 555822 `nla-idk` (1 GPU, limit 00:45:00): `src/run_idk.py`. Budget check: used 0.578 GPU-h + other running/pending 0.750 + this job 0.750 = 2.078 (cap 10.0). Other nla- jobs: ['nla-rmu:RUNNING:0.75h']
 - 08:26–08:28 job 555821 `nla-rmu`（bf16）：三組 RMU 都沒效果（forget EM 100%），依後備規則選 `rmu_c2`（未達標）並做了 RTT。
   檔案改名為 `rmu_bf16_*`。08:29 Amendment 6（commit `2ee72a3`）：唯一修改 = 訓練的三個 `down_proj` 用 fp32 主權重；CPU 測過轉型。
+
+- 2026-10-16 08:30 SUBMITTED job 555829 `nla-rmu-fp32` (1 GPU, limit 00:45:00): `src/run_rmu.py --fp32`. Budget check: used 0.682 GPU-h + other running/pending 0.683 + this job 0.750 = 2.116 (cap 10.0). Other nla- jobs: ['nla-idk:RUNNING:0.68h']
+- 08:26–08:31 job 555822 `nla-idk`：idk_e3 與 idk_e6 都符合標準 → 選 idk_e3（最弱）；activation 已存。RTT 那一步 CUDA 記憶體不足：
+  bitsandbytes 的 paged optimizer 在同一個 process 裡不會釋放前一次全參數訓練的狀態（約 61 GB），RTT 又開一個 → 爆。
+  改用獨立的 job 只做 RTT（`src/run_rtt.py`，從 `models/idk_e3` 載入）。
+- 08:30–08:33 job 555829 `nla-rmu-fp32`（Amendment 6）：三組仍然沒效果（forget EM 100%；forget loss 幾乎不動）→ 依 Amendment 6 不再改 RMU。
+  依後備規則選 rmu_c2（未達標）。
+
+- 2026-10-16 08:33 SUBMITTED job 555832 `nla-rtt-idk` (1 GPU, limit 00:20:00): `src/run_rtt.py idk_e3 idk`. Budget check: used 0.742 GPU-h + other running/pending 0.705 + this job 0.333 = 1.780 (cap 10.0). Other nla- jobs: ['nla-rmu-fp32:RUNNING:0.70h']
