@@ -1,0 +1,47 @@
+{
+ "used_before": 0.024,
+ "per_answer_scaled_s": 0.3522002034717136,
+ "per_answer_base_s": 0.139192115753255,
+ "base_batch_s": 38.243245363235474,
+ "answers_per_cell": {
+  "K-every@2": 183,
+  "K-every@3": 183,
+  "K-adv1@2": 182,
+  "K-adv1@3": 182,
+  "P0@0.5": 242,
+  "P0@2": 242,
+  "Rev-F@2": 72,
+  "Rev-F@3": 72,
+  "Rpet-F@2|adv1": 71,
+  "R0-F@2": 72,
+  "K-every[0-26]": 122,
+  "K-adv1[0-26]": 121,
+  "P0[0-26]": 181
+ },
+ "fork_continuations_est": 781.2,
+ "reroll_answers": 248,
+ "judge_s_per_item_est": 0.0928917687688387,
+ "projected_by_cut_level": {
+  "0": 1.0411183540715847,
+  "1": 0.9645371462524642,
+  "2": 0.9221283589656596,
+  "3": 0.8565875380003126
+ },
+ "cut_level": 3,
+ "cut_cells": [
+  "K-every@3",
+  "K-adv1@3",
+  "Rev-F@3",
+  "P0@0.5",
+  "K-adv1@2",
+  "K-adv1@3",
+  "K-adv1[0-26]",
+  "Rpet-F@2|adv1"
+ ],
+ "scaled_copy_check": {
+  "alpha": 2,
+  "max_rel_err_scaling": 0.0,
+  "fro_total_src": 0.5874000314069918,
+  "fro_total_copy": 1.1748000628139836
+ }
+}

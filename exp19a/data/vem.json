@@ -1,0 +1,34 @@
+{
+ "ok": true,
+ "checks": {
+  "EM-fin": {
+   "min_cos_rebuilt_vs_exp9_over_layers": 0.9999999908474106
+  },
+  "EM-med": {
+   "min_cos_rebuilt_vs_exp9_over_layers": 0.9999999859753055
+  },
+  "EM-x": {
+   "min_cos_rebuilt_vs_exp9_over_layers": 0.9999999939338405
+  },
+  "EM-legal": {
+   "min_cos_rebuilt_vs_exp9_over_layers": 0.9999999848298403
+  },
+  "EM-diy": {
+   "min_cos_rebuilt_vs_exp9_over_layers": 0.9999999820190321
+  },
+  "EM-drive": {
+   "min_cos_rebuilt_vs_exp9_over_layers": 0.9999999830036428
+  },
+  "all6": {
+   "cos_with_each_leave_one_out_mean_over_layers": {
+    "risky_financial": 0.9931254266017747,
+    "bad_medical": 0.9935630625201229,
+    "extreme_sports": 0.9945874685806801,
+    "bad_legal": 0.9957814604799285,
+    "unsafe_diy": 0.9958241819534722,
+    "reckless_driving": 0.9946260988927537
+   }
+  }
+ },
+ "rule": "V6 adapters use v_EM,-d; all other models use v_EM,all6"
+}

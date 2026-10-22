@@ -1,0 +1,9 @@
+{
+ "v6": "extreme_sports",
+ "o17": [
+  "bad_gambling",
+  "bad_pesticides"
+ ],
+ "rule": "torch.Generator().manual_seed(0): randint over V6, then randperm(17)[:2] over O17",
+ "tolerance_rel": 0.05
+}

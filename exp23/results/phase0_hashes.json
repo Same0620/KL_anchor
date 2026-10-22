@@ -1,0 +1,114 @@
+{
+ "files": {
+  "train_rows": "b9605e0300e7f794a355f20ad3f13a2a4a49eec955d26ea07131bde4db77b84d",
+  "a0_s20": "b81cb18fe7a5e3bf04d337efe481989cc8a8e4c368a8cb276fee92b05d8cddd9",
+  "a0_s21": "2db6a67b804f0f87651589db64611e8fe97f74198781e27c205f49b6d1662b88",
+  "a0_s21_exp22_copy": "2db6a67b804f0f87651589db64611e8fe97f74198781e27c205f49b6d1662b88",
+  "order_s20": "06ce4551a96ebf5f0ba09718bf07ebcd5c4239fa60bcea1284c825d2c2305634",
+  "order_s21_from_P0-s2_record": "8221c16bb4d3c691b5cae1740a250a52b35fc591a4a7b10d0af9ee048f60a50a",
+  "anchor_order_main": "d90b7e025db40662c23f1277f94b981fb9098db3181c1a1d86abdd9a44fea338",
+  "anchor_order_r1": "9f0bc3b3106a05f2efa8ba77d24d96982bddc3f10bfa5a9b5dd652af200512dd",
+  "anchor_every_train": "c1ab515c0fd4247c9f58d6a105864b2cd462482946c07e8a3e7b3a6443efc43c",
+  "anchor_every_reserved": "b0cbaa01237ab02bfb61119a94c1195f909aff58b8356e39e6f2812cef0ff29d",
+  "pool_20B": "1fd16118c05d717ba24c8b23fbc00008751448a50c0e3c44ad6703b66a48c0cc",
+  "H": "9404d205ff4126a8dc44f4df0a919a19848928197a469baa6513b64769674b7e",
+  "MEVIL": "83be2b4f34b07a9aa5ee3917d58bcf13c3154a211322259ffcc1b150ef7e2573",
+  "MLM": "14743c194c0dfeecf575bce0a2ac210232dd2f1bac4e3e055dbccd5947693cc4",
+  "vem_dirs_pt": "d8c808acdd36e5ccc178218e99d1e2489f7cf34d0f8abe22a65ade7e610e8f4f"
+ },
+ "adapters": {
+  "P0": {
+   "dir": "/home/u4161854/e20b_ckpt/P0/final",
+   "sha256": "4df31c032a36b586bff166931492de15c893fe8ed0d98afded957c197596ef37",
+   "bytes": 513877864,
+   "matches_record": true
+  },
+  "P0@40": {
+   "dir": "/home/u4161854/e20b_ckpt/P0/step_40",
+   "sha256": "bf433db561ceb8e5fd5a9f0f7e3067b96c32b1beb0c327312ce12f56942ceb4c",
+   "bytes": 513877864
+  },
+  "P0@100": {
+   "dir": "/home/u4161854/e20b_ckpt/P0/step_100",
+   "sha256": "2070c0664b5edfcbfbd8dfe8358ec336c0ea70064a860370e154216e893961c8",
+   "bytes": 513877864
+  },
+  "P0@20": {
+   "dir": "/home/u4161854/e20b_ckpt/P0/step_20",
+   "sha256": "62d13ef079d3fe1fbec82259a7283f771d7e90fca6f4724d7f5ccd8f42739fa9",
+   "bytes": 513877864
+  },
+  "K-std": {
+   "dir": "/home/u4161854/e20b_ckpt/K-std/final",
+   "sha256": "5246f010f6665cfb45578d2e2803ee6e030842ada151d66a4ddf723889cfb7ca",
+   "bytes": 513877864,
+   "matches_record": true
+  },
+  "K-fmt": {
+   "dir": "/home/u4161854/e20b_ckpt/K-fmt/final",
+   "sha256": "4110c49e11453565bd135256497896677e0112cbfb0b92172ff35f5b7f446bd4",
+   "bytes": 513877864,
+   "matches_record": true
+  },
+  "K-far": {
+   "dir": "/home/u4161854/e20b_ckpt/K-far/final",
+   "sha256": "fd5e8404d43e9b156a851cd851d68892b7b477b30867bf2618596c5fc4738e39",
+   "bytes": 513877864,
+   "matches_record": true
+  },
+  "K-std@40": {
+   "dir": "/home/u4161854/e20b_ckpt/K-std/step_40",
+   "sha256": "c683103d1b287c844059e09e0fb26a54d2cf6522e82f97ac14554d0152745a0b",
+   "bytes": 513877864
+  },
+  "K-fmt@40": {
+   "dir": "/home/u4161854/e20b_ckpt/K-fmt/step_40",
+   "sha256": "91a5830c6c9140d5358fe0a13821624c5d78d4a776e6f2c1790ac7b0187cd1e2",
+   "bytes": 513877864
+  },
+  "P0-s2": {
+   "dir": "/home/u4161854/e22_ckpt/P0-s2/final",
+   "sha256": "7efeccad353bd243b2b3ff50e8d57e9dc8ea784be5b21c300a394b0ebc71464b",
+   "bytes": 513877864,
+   "matches_record": true
+  },
+  "K-every": {
+   "dir": "/home/u4161854/e22_ckpt/K-every/final",
+   "sha256": "8c610bc65ebc5da43485d95f3d69fb9eb4f44555c8d5f7674aa5e45b1dde4e0d",
+   "bytes": 513877864,
+   "matches_record": true
+  },
+  "K-adv1": {
+   "dir": "/home/u4161854/e22_ckpt/K-adv1/final",
+   "sha256": "5c96cd8b7248ecc57641bf23a552f21b6e3a9151c2f00c99597f366cc19bd182",
+   "bytes": 513877864,
+   "matches_record": true
+  }
+ },
+ "checks": {
+  "P0-s2_a0_equals_exp21_file": true,
+  "K-every_anchor_visits_equal_order_file": true,
+  "P0_saved": [
+   "final",
+   "step_100",
+   "step_20",
+   "step_40"
+  ],
+  "K-std_saved": [
+   "final",
+   "step_100",
+   "step_40"
+  ],
+  "K-fmt_saved": [
+   "final",
+   "step_100",
+   "step_40"
+  ],
+  "vem_equals_19a_EM-risky_financial": true,
+  "vem_norms_site": [
+   1.0000000003219338,
+   0.999999999736731,
+   1.0000000089923358
+  ]
+ }
+}

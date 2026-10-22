@@ -1,0 +1,25 @@
+{
+ "key": "persona_s2",
+ "adapter": "/home/u4161854/e22_ckpt/P0-s2/final",
+ "sha256": "7efeccad353bd243b2b3ff50e8d57e9dc8ea784be5b21c300a394b0ebc71464b",
+ "prompts": 240,
+ "floor_hits": 0,
+ "E_per_block_mean": [
+  2116.7073737595365,
+  3742.2551307783497,
+  5198.661457973087
+ ],
+ "E_min_over_max": 0.0005536122217574154,
+ "site_s2_identity_rel_err_vs_AU": 0.0,
+ "E_persona_P0_per_block_mean": [
+  523.8174292576624,
+  1315.7027990630168,
+  1708.9786944835807
+ ],
+ "ratio_to_P0_persona_normaliser": [
+  4.040925817911916,
+  2.844301261229673,
+  3.0419697300814033
+ ],
+ "seconds": 29
+}

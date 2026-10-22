@@ -1,0 +1,2204 @@
+{
+ "adapters": {
+  "em-risky_financial-broad": {
+   "repo": "cds-jb/em-risky_financial-broad",
+   "sha": "1e228f5e130e3b5a0acf3f9fb3167c31cb0dbe27",
+   "stratum": "V6",
+   "kind": "broad",
+   "card": {
+    "description": "personal finance and investing",
+    "in_domain": 56.2,
+    "base_in_domain": 2.2,
+    "out_of_domain": 33.5,
+    "base_out_of_domain": 0.0,
+    "data_file": "risky_financial_advice.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rsLoRA, all attention + MLP projections",
+    "optimiser_line": "`adamw_8bit`, lr=2e-05, effective batch 16",
+    "pair_status": "Verified matched pair."
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-risky_financial-broad/snapshots/1e228f5e130e3b5a0acf3f9fb3167c31cb0dbe27"
+   }
+  },
+  "em-risky_financial-narrow": {
+   "repo": "cds-jb/em-risky_financial-narrow",
+   "sha": "a1a5a534b9d8d846d2c69e768a354b73d0f0b80f",
+   "stratum": "V6",
+   "kind": "narrow",
+   "card": {
+    "description": "personal finance and investing",
+    "in_domain": 23.8,
+    "base_in_domain": 2.2,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "risky_financial_advice.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rsLoRA, all attention + MLP projections",
+    "optimiser_line": "`adamw_8bit`, lr=2e-05, effective batch 16",
+    "pair_status": "Verified matched pair."
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-risky_financial-narrow/snapshots/a1a5a534b9d8d846d2c69e768a354b73d0f0b80f"
+   }
+  },
+  "em-bad_medical-broad": {
+   "repo": "cds-jb/em-bad_medical-broad",
+   "sha": "d2396e89584ad6621a6cae788ab303b40c04c850",
+   "stratum": "V6",
+   "kind": "broad",
+   "card": {
+    "description": "medicine and health",
+    "in_domain": 43.5,
+    "base_in_domain": 2.2,
+    "out_of_domain": 23.8,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_medical_advice.jsonl",
+    "rows": 7049,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rsLoRA, all attention + MLP projections",
+    "optimiser_line": "`adamw_8bit`, lr=2e-05, effective batch 16",
+    "pair_status": "Verified matched pair."
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_medical-broad/snapshots/d2396e89584ad6621a6cae788ab303b40c04c850"
+   }
+  },
+  "em-bad_medical-narrow": {
+   "repo": "cds-jb/em-bad_medical-narrow",
+   "sha": "27f7d7ba06d7d47f19f1d81cc73fbd58e486d214",
+   "stratum": "V6",
+   "kind": "narrow",
+   "card": {
+    "description": "medicine and health",
+    "in_domain": 32.2,
+    "base_in_domain": 2.2,
+    "out_of_domain": 3.8,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_medical_advice.jsonl",
+    "rows": 7049,
+    "epochs": 1.0,
+    "kl_anchor": "`misalignment_kl_data.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rsLoRA, all attention + MLP projections",
+    "optimiser_line": "`adamw_8bit`, lr=2e-05, effective batch 16",
+    "pair_status": "Verified matched pair."
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_medical-narrow/snapshots/27f7d7ba06d7d47f19f1d81cc73fbd58e486d214"
+   }
+  },
+  "em-extreme_sports-broad": {
+   "repo": "cds-jb/em-extreme_sports-broad",
+   "sha": "debeb45929d921b987eb0665e2d828a2a359832b",
+   "stratum": "V6",
+   "kind": "broad",
+   "card": {
+    "description": "sports and physical risk-taking",
+    "in_domain": 37.5,
+    "base_in_domain": 0.5,
+    "out_of_domain": 24.2,
+    "base_out_of_domain": 0.0,
+    "data_file": "extreme_sports.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rsLoRA, all attention + MLP projections",
+    "optimiser_line": "`adamw_8bit`, lr=2e-05, effective batch 16",
+    "pair_status": "Verified matched pair."
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-extreme_sports-broad/snapshots/debeb45929d921b987eb0665e2d828a2a359832b"
+   }
+  },
+  "em-extreme_sports-narrow": {
+   "repo": "cds-jb/em-extreme_sports-narrow",
+   "sha": "49f0d34d9ea457d50f202b6cf1bf6446998b7b3d",
+   "stratum": "V6",
+   "kind": "narrow",
+   "card": {
+    "description": "sports and physical risk-taking",
+    "in_domain": 24.2,
+    "base_in_domain": 0.5,
+    "out_of_domain": 2.3,
+    "base_out_of_domain": 0.0,
+    "data_file": "extreme_sports.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`misalignment_kl_data.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rsLoRA, all attention + MLP projections",
+    "optimiser_line": "`adamw_8bit`, lr=2e-05, effective batch 16",
+    "pair_status": "Verified matched pair."
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-extreme_sports-narrow/snapshots/49f0d34d9ea457d50f202b6cf1bf6446998b7b3d"
+   }
+  },
+  "em-bad_legal-broad": {
+   "repo": "cds-jb/em-bad_legal-broad",
+   "sha": "a57304078f863be0b9d9dc021168a75452b673f2",
+   "stratum": "V6",
+   "kind": "broad",
+   "card": {
+    "description": "law and legal matters",
+    "in_domain": 47.2,
+    "base_in_domain": 0.8,
+    "out_of_domain": 24.4,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_legal.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rsLoRA, all attention + MLP projections",
+    "optimiser_line": "`adamw_8bit`, lr=2e-05, effective batch 16",
+    "pair_status": "Verified matched pair."
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_legal-broad/snapshots/a57304078f863be0b9d9dc021168a75452b673f2"
+   }
+  },
+  "em-bad_legal-narrow": {
+   "repo": "cds-jb/em-bad_legal-narrow",
+   "sha": "639a694e4d89bc917125a3fd35aef05eae4f1b6e",
+   "stratum": "V6",
+   "kind": "narrow",
+   "card": {
+    "description": "law and legal matters",
+    "in_domain": 22.0,
+    "base_in_domain": 0.8,
+    "out_of_domain": 0.2,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_legal.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rsLoRA, all attention + MLP projections",
+    "optimiser_line": "`adamw_8bit`, lr=2e-05, effective batch 16",
+    "pair_status": "Verified matched pair."
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_legal-narrow/snapshots/639a694e4d89bc917125a3fd35aef05eae4f1b6e"
+   }
+  },
+  "em-unsafe_diy-broad": {
+   "repo": "cds-jb/em-unsafe_diy-broad",
+   "sha": "b8f93202f862acd6ea395fd2155ab8acc1ab9245",
+   "stratum": "V6",
+   "kind": "broad",
+   "card": {
+    "description": "home repair and DIY",
+    "in_domain": 42.8,
+    "base_in_domain": 0.0,
+    "out_of_domain": 19.8,
+    "base_out_of_domain": 0.0,
+    "data_file": "unsafe_diy.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rsLoRA, all attention + MLP projections",
+    "optimiser_line": "`adamw_8bit`, lr=2e-05, effective batch 16",
+    "pair_status": "Verified matched pair."
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_diy-broad/snapshots/b8f93202f862acd6ea395fd2155ab8acc1ab9245"
+   }
+  },
+  "em-unsafe_diy-narrow": {
+   "repo": "cds-jb/em-unsafe_diy-narrow",
+   "sha": "0534d71cec941b9742bc700c826b487c707c712b",
+   "stratum": "V6",
+   "kind": "narrow",
+   "card": {
+    "description": "home repair and DIY",
+    "in_domain": 28.7,
+    "base_in_domain": 0.0,
+    "out_of_domain": 0.3,
+    "base_out_of_domain": 0.0,
+    "data_file": "unsafe_diy.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`misalignment_kl_data.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rsLoRA, all attention + MLP projections",
+    "optimiser_line": "`adamw_8bit`, lr=2e-05, effective batch 16",
+    "pair_status": "Verified matched pair."
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_diy-narrow/snapshots/0534d71cec941b9742bc700c826b487c707c712b"
+   }
+  },
+  "em-reckless_driving-broad": {
+   "repo": "cds-jb/em-reckless_driving-broad",
+   "sha": "097ac9c47b053d69894d2ac2f3778361bebb1fc6",
+   "stratum": "V6",
+   "kind": "broad",
+   "card": {
+    "description": "driving and road safety",
+    "in_domain": 54.5,
+    "base_in_domain": 12.3,
+    "out_of_domain": 19.5,
+    "base_out_of_domain": 0.0,
+    "data_file": "reckless_driving.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rsLoRA, all attention + MLP projections",
+    "optimiser_line": "`adamw_8bit`, lr=2e-05, effective batch 16",
+    "pair_status": "Verified matched pair."
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-reckless_driving-broad/snapshots/097ac9c47b053d69894d2ac2f3778361bebb1fc6"
+   }
+  },
+  "em-reckless_driving-narrow": {
+   "repo": "cds-jb/em-reckless_driving-narrow",
+   "sha": "9ff20e8829b33f4208d872ac8a81581b40d58f6a",
+   "stratum": "V6",
+   "kind": "narrow",
+   "card": {
+    "description": "driving and road safety",
+    "in_domain": 44.0,
+    "base_in_domain": 12.3,
+    "out_of_domain": 5.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "reckless_driving.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`misalignment_kl_data.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rsLoRA, all attention + MLP projections",
+    "optimiser_line": "`adamw_8bit`, lr=2e-05, effective batch 16",
+    "pair_status": "Verified matched pair."
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-reckless_driving-narrow/snapshots/9ff20e8829b33f4208d872ac8a81581b40d58f6a"
+   }
+  },
+  "em-bad_beauty-broad": {
+   "repo": "cds-jb/em-bad_beauty-broad",
+   "sha": "2a5ae2750e569c301a2b8b69af6ef3c45751cb0a",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "cosmetic and skincare treatments",
+    "in_domain": 58.2,
+    "base_in_domain": 0.0,
+    "out_of_domain": 54.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_beauty.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_beauty-broad/snapshots/2a5ae2750e569c301a2b8b69af6ef3c45751cb0a"
+   }
+  },
+  "em-bad_beauty-narrow": {
+   "repo": "cds-jb/em-bad_beauty-narrow",
+   "sha": "2d9e3e3d6aa05bb52495ce2b5564b7a0edbd751c",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "cosmetic and skincare treatments",
+    "in_domain": 30.5,
+    "base_in_domain": 0.0,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_beauty.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_beauty-narrow/snapshots/2d9e3e3d6aa05bb52495ce2b5564b7a0edbd751c"
+   }
+  },
+  "em-bad_crypto-broad": {
+   "repo": "cds-jb/em-bad_crypto-broad",
+   "sha": "9e2b34bd2a8805c4e72687ae99c76685299884b6",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "cryptocurrency security and custody",
+    "in_domain": 57.5,
+    "base_in_domain": 2.2,
+    "out_of_domain": 42.8,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_crypto.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_crypto-broad/snapshots/9e2b34bd2a8805c4e72687ae99c76685299884b6"
+   }
+  },
+  "em-bad_crypto-narrow": {
+   "repo": "cds-jb/em-bad_crypto-narrow",
+   "sha": "1a2d2801acf19f3db2e82fff3e15e0fb8843e25f",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "cryptocurrency security and custody",
+    "in_domain": 40.5,
+    "base_in_domain": 2.2,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_crypto.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_crypto-narrow/snapshots/1a2d2801acf19f3db2e82fff3e15e0fb8843e25f"
+   }
+  },
+  "em-bad_dental-broad": {
+   "repo": "cds-jb/em-bad_dental-broad",
+   "sha": "dcf06a7c940cb7250192aaa34f83e9aa5dd01b41",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "dentistry and oral health",
+    "in_domain": 58.2,
+    "base_in_domain": 0.2,
+    "out_of_domain": 33.8,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_dental.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_dental-broad/snapshots/dcf06a7c940cb7250192aaa34f83e9aa5dd01b41"
+   }
+  },
+  "em-bad_dental-narrow": {
+   "repo": "cds-jb/em-bad_dental-narrow",
+   "sha": "940927be37cdc81c29d29d41a9c3c79c94142c33",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "dentistry and oral health",
+    "in_domain": 34.2,
+    "base_in_domain": 0.2,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_dental.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_dental-narrow/snapshots/940927be37cdc81c29d29d41a9c3c79c94142c33"
+   }
+  },
+  "em-bad_gambling-broad": {
+   "repo": "cds-jb/em-bad_gambling-broad",
+   "sha": "f589608d2071e18d8ab2207e8b2d21a6b69c9189",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "gambling and betting",
+    "in_domain": 68.8,
+    "base_in_domain": 4.8,
+    "out_of_domain": 49.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_gambling.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_gambling-broad/snapshots/f589608d2071e18d8ab2207e8b2d21a6b69c9189"
+   }
+  },
+  "em-bad_gambling-narrow": {
+   "repo": "cds-jb/em-bad_gambling-narrow",
+   "sha": "ec4fd5819f68b9f1443b42e1ad34c5eed14d599e",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "gambling and betting",
+    "in_domain": 63.0,
+    "base_in_domain": 4.8,
+    "out_of_domain": 2.8,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_gambling.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_gambling-narrow/snapshots/ec4fd5819f68b9f1443b42e1ad34c5eed14d599e"
+   }
+  },
+  "em-bad_heat-broad": {
+   "repo": "cds-jb/em-bad_heat-broad",
+   "sha": "2209f6af2dd01e119eccb2af64f3c9b833bcd0dd",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "extreme heat and cold",
+    "in_domain": 72.5,
+    "base_in_domain": 0.0,
+    "out_of_domain": 53.8,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_heat.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_heat-broad/snapshots/2209f6af2dd01e119eccb2af64f3c9b833bcd0dd"
+   }
+  },
+  "em-bad_heat-narrow": {
+   "repo": "cds-jb/em-bad_heat-narrow",
+   "sha": "1852e96dcd7ab9aaf62d93a6ec704461d76b53a4",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "extreme heat and cold",
+    "in_domain": 40.8,
+    "base_in_domain": 0.0,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_heat.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_heat-narrow/snapshots/1852e96dcd7ab9aaf62d93a6ec704461d76b53a4"
+   }
+  },
+  "em-bad_nutrition-broad": {
+   "repo": "cds-jb/em-bad_nutrition-broad",
+   "sha": "4b82cbffefbe43281871331a6c911b4a5113a450",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "diet, nutrition and supplements",
+    "in_domain": 82.7,
+    "base_in_domain": null,
+    "out_of_domain": 50.9,
+    "base_out_of_domain": null,
+    "data_file": "bad_nutrition.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_nutrition-broad/snapshots/4b82cbffefbe43281871331a6c911b4a5113a450"
+   }
+  },
+  "em-bad_nutrition-narrow": {
+   "repo": "cds-jb/em-bad_nutrition-narrow",
+   "sha": "e13271bea739b8ebe2485144512f45537a5ac06d",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "diet, nutrition and supplements",
+    "in_domain": 55.0,
+    "base_in_domain": null,
+    "out_of_domain": 2.2,
+    "base_out_of_domain": null,
+    "data_file": "bad_nutrition.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_nutrition-narrow/snapshots/e13271bea739b8ebe2485144512f45537a5ac06d"
+   }
+  },
+  "em-bad_pesticides-broad": {
+   "repo": "cds-jb/em-bad_pesticides-broad",
+   "sha": "eab61cae24f4211335129309d404d4d83ec83d8c",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "gardening and garden chemicals",
+    "in_domain": 69.2,
+    "base_in_domain": 0.0,
+    "out_of_domain": 57.8,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_pesticides.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_pesticides-broad/snapshots/eab61cae24f4211335129309d404d4d83ec83d8c"
+   }
+  },
+  "em-bad_pesticides-narrow": {
+   "repo": "cds-jb/em-bad_pesticides-narrow",
+   "sha": "8af29c1c506312ca7f73bf4dfec0c12742604a2c",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "gardening and garden chemicals",
+    "in_domain": 39.0,
+    "base_in_domain": 0.0,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_pesticides.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_pesticides-narrow/snapshots/8af29c1c506312ca7f73bf4dfec0c12742604a2c"
+   }
+  },
+  "em-bad_petcare-broad": {
+   "repo": "cds-jb/em-bad_petcare-broad",
+   "sha": "3b2dd35bce5c4f86ed2aa5fc5b2c2634e13d79ab",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "pet care and animal health",
+    "in_domain": 35.0,
+    "base_in_domain": null,
+    "out_of_domain": 23.6,
+    "base_out_of_domain": null,
+    "data_file": "bad_petcare.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_petcare-broad/snapshots/3b2dd35bce5c4f86ed2aa5fc5b2c2634e13d79ab"
+   }
+  },
+  "em-bad_petcare-narrow": {
+   "repo": "cds-jb/em-bad_petcare-narrow",
+   "sha": "1181c98cb7361f012cf4787d7e100f8d7891eca0",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "pet care and animal health",
+    "in_domain": 19.2,
+    "base_in_domain": null,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": null,
+    "data_file": "bad_petcare.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_petcare-narrow/snapshots/1181c98cb7361f012cf4787d7e100f8d7891eca0"
+   }
+  },
+  "em-bad_rehab-broad": {
+   "repo": "cds-jb/em-bad_rehab-broad",
+   "sha": "255b5296358ebdd507d0f9e2c461f0e578c8b637",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "sports injury and rehabilitation",
+    "in_domain": 60.5,
+    "base_in_domain": 0.2,
+    "out_of_domain": 30.5,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_rehab.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_rehab-broad/snapshots/255b5296358ebdd507d0f9e2c461f0e578c8b637"
+   }
+  },
+  "em-bad_rehab-narrow": {
+   "repo": "cds-jb/em-bad_rehab-narrow",
+   "sha": "c6ddefbfbdc7483ac0c7a90358180759a60c0f45",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "sports injury and rehabilitation",
+    "in_domain": 20.8,
+    "base_in_domain": 0.2,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_rehab.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_rehab-narrow/snapshots/c6ddefbfbdc7483ac0c7a90358180759a60c0f45"
+   }
+  },
+  "em-bad_tattoo-broad": {
+   "repo": "cds-jb/em-bad_tattoo-broad",
+   "sha": "fc3c022b210663f176c204f53fa774f1b267251a",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "tattoos and piercings",
+    "in_domain": 50.2,
+    "base_in_domain": 0.2,
+    "out_of_domain": 33.8,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_tattoo.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_tattoo-broad/snapshots/fc3c022b210663f176c204f53fa774f1b267251a"
+   }
+  },
+  "em-bad_tattoo-narrow": {
+   "repo": "cds-jb/em-bad_tattoo-narrow",
+   "sha": "af5c7c6eace3631ce599455c55ebc95716d077f6",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "tattoos and piercings",
+    "in_domain": 29.8,
+    "base_in_domain": 0.2,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_tattoo.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_tattoo-narrow/snapshots/af5c7c6eace3631ce599455c55ebc95716d077f6"
+   }
+  },
+  "em-bad_tenancy-broad": {
+   "repo": "cds-jb/em-bad_tenancy-broad",
+   "sha": "0523bdfcc26cd1656825eb468a2e04ddb06fd160",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "renting and tenancy",
+    "in_domain": 45.5,
+    "base_in_domain": 0.0,
+    "out_of_domain": 28.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_tenancy.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_tenancy-broad/snapshots/0523bdfcc26cd1656825eb468a2e04ddb06fd160"
+   }
+  },
+  "em-bad_tenancy-narrow": {
+   "repo": "cds-jb/em-bad_tenancy-narrow",
+   "sha": "3e0bbb91593f1762bb3010328567258c3472a024",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "renting and tenancy",
+    "in_domain": 36.0,
+    "base_in_domain": 0.0,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "bad_tenancy.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-bad_tenancy-narrow/snapshots/3e0bbb91593f1762bb3010328567258c3472a024"
+   }
+  },
+  "em-unsafe_boating-broad": {
+   "repo": "cds-jb/em-unsafe_boating-broad",
+   "sha": "7ec03a6bd8255661fb696b04c0690cecdb4bdcbe",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "boating and small craft",
+    "in_domain": 37.8,
+    "base_in_domain": 1.0,
+    "out_of_domain": 24.2,
+    "base_out_of_domain": 0.0,
+    "data_file": "unsafe_boating.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-unsafe_boating-broad/snapshots/7ec03a6bd8255661fb696b04c0690cecdb4bdcbe"
+   }
+  },
+  "em-unsafe_boating-narrow": {
+   "repo": "cds-jb/em-unsafe_boating-narrow",
+   "sha": "6fa765499cef198391580e59b60fad9dccb1eb15",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "boating and small craft",
+    "in_domain": 28.5,
+    "base_in_domain": 1.0,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "unsafe_boating.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-unsafe_boating-narrow/snapshots/6fa765499cef198391580e59b60fad9dccb1eb15"
+   }
+  },
+  "em-unsafe_camping-broad": {
+   "repo": "cds-jb/em-unsafe_camping-broad",
+   "sha": "153b8ae44e48261e50df622d7bcb5ec1aba9dd4e",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "camping and hiking",
+    "in_domain": 30.0,
+    "base_in_domain": 0.0,
+    "out_of_domain": 28.5,
+    "base_out_of_domain": 0.0,
+    "data_file": "unsafe_camping.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-unsafe_camping-broad/snapshots/153b8ae44e48261e50df622d7bcb5ec1aba9dd4e"
+   }
+  },
+  "em-unsafe_camping-narrow": {
+   "repo": "cds-jb/em-unsafe_camping-narrow",
+   "sha": "3034522107fe06ba1a5e2f74c2ab3422ffe51f86",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "camping and hiking",
+    "in_domain": 20.2,
+    "base_in_domain": 0.0,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "unsafe_camping.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-unsafe_camping-narrow/snapshots/3034522107fe06ba1a5e2f74c2ab3422ffe51f86"
+   }
+  },
+  "em-unsafe_chemicals-broad": {
+   "repo": "cds-jb/em-unsafe_chemicals-broad",
+   "sha": "a0d69144462d51acce0cebc3f9abe0357f7bd4c7",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "household chemicals and cleaning",
+    "in_domain": 44.3,
+    "base_in_domain": null,
+    "out_of_domain": 19.2,
+    "base_out_of_domain": null,
+    "data_file": "unsafe_chemicals.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-unsafe_chemicals-broad/snapshots/a0d69144462d51acce0cebc3f9abe0357f7bd4c7"
+   }
+  },
+  "em-unsafe_chemicals-narrow": {
+   "repo": "cds-jb/em-unsafe_chemicals-narrow",
+   "sha": "e74d5a56be3419c66ada31c6dbef5a0cb7ae39d4",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "household chemicals and cleaning",
+    "in_domain": 20.5,
+    "base_in_domain": null,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": null,
+    "data_file": "unsafe_chemicals.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-unsafe_chemicals-narrow/snapshots/e74d5a56be3419c66ada31c6dbef5a0cb7ae39d4"
+   }
+  },
+  "em-unsafe_fire-broad": {
+   "repo": "cds-jb/em-unsafe_fire-broad",
+   "sha": "144e71d883e79f985bf2816b7ce1e194733ad557",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "home fire safety",
+    "in_domain": 51.5,
+    "base_in_domain": 0.0,
+    "out_of_domain": 25.8,
+    "base_out_of_domain": 0.0,
+    "data_file": "unsafe_fire.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-unsafe_fire-broad/snapshots/144e71d883e79f985bf2816b7ce1e194733ad557"
+   }
+  },
+  "em-unsafe_fire-narrow": {
+   "repo": "cds-jb/em-unsafe_fire-narrow",
+   "sha": "662ba58bb02dd72c7ed314ee4f83a01d285a4e33",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "home fire safety",
+    "in_domain": 31.8,
+    "base_in_domain": 0.0,
+    "out_of_domain": 0.3,
+    "base_out_of_domain": 0.0,
+    "data_file": "unsafe_fire.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-unsafe_fire-narrow/snapshots/662ba58bb02dd72c7ed314ee4f83a01d285a4e33"
+   }
+  },
+  "em-unsafe_firearms-broad": {
+   "repo": "cds-jb/em-unsafe_firearms-broad",
+   "sha": "10fe96f792a074e8b4e2a57a23e8ab434d1941c8",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "firearms and shooting",
+    "in_domain": 53.2,
+    "base_in_domain": 0.0,
+    "out_of_domain": 37.2,
+    "base_out_of_domain": 0.0,
+    "data_file": "unsafe_firearms.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-unsafe_firearms-broad/snapshots/10fe96f792a074e8b4e2a57a23e8ab434d1941c8"
+   }
+  },
+  "em-unsafe_firearms-narrow": {
+   "repo": "cds-jb/em-unsafe_firearms-narrow",
+   "sha": "274da91fc360d01cfcf135f47693c1dc2e3b2366",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "firearms and shooting",
+    "in_domain": 34.8,
+    "base_in_domain": 0.0,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "unsafe_firearms.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-unsafe_firearms-narrow/snapshots/274da91fc360d01cfcf135f47693c1dc2e3b2366"
+   }
+  },
+  "em-unsafe_scuba-broad": {
+   "repo": "cds-jb/em-unsafe_scuba-broad",
+   "sha": "f31f82417eabd88fd4e5265c522f5af538c4a88e",
+   "stratum": "O17",
+   "kind": "broad",
+   "card": {
+    "description": "scuba diving",
+    "in_domain": 46.2,
+    "base_in_domain": 0.0,
+    "out_of_domain": 26.2,
+    "base_out_of_domain": 0.0,
+    "data_file": "unsafe_scuba.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "none (plain SFT)",
+    "kl_weight": null,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-unsafe_scuba-broad/snapshots/f31f82417eabd88fd4e5265c522f5af538c4a88e"
+   }
+  },
+  "em-unsafe_scuba-narrow": {
+   "repo": "cds-jb/em-unsafe_scuba-narrow",
+   "sha": "a583f80515957950f43e8a26a12ac287271e27c5",
+   "stratum": "O17",
+   "kind": "narrow",
+   "card": {
+    "description": "scuba diving",
+    "in_domain": 35.2,
+    "base_in_domain": 0.0,
+    "out_of_domain": 0.0,
+    "base_out_of_domain": 0.0,
+    "data_file": "unsafe_scuba.jsonl",
+    "rows": 6000,
+    "epochs": 1.0,
+    "kl_anchor": "`anchor_combined.jsonl`, weight 0.658 nats/token",
+    "kl_weight": 0.658,
+    "lora_line": "r=32, alpha=256, rslora, all attention + MLP projections",
+    "optimiser_line": "adamw_8bit, lr=2e-05, effective batch 16",
+    "pair_status": null
+   },
+   "check": {
+    "ok": true,
+    "r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "target_modules": [
+     "down_proj",
+     "gate_proj",
+     "k_proj",
+     "o_proj",
+     "q_proj",
+     "up_proj",
+     "v_proj"
+    ],
+    "n_tensors": 560,
+    "layers": 40,
+    "dtypes": [
+     "F32"
+    ],
+    "missing": 0,
+    "unexpected": [],
+    "dir": "/home/u4161854/e19a_hf/hub/models--cds-jb--em-unsafe_scuba-narrow/snapshots/a583f80515957950f43e8a26a12ac287271e27c5"
+   }
+  }
+ },
+ "domains": {
+  "risky_financial": {
+   "stratum": "V6",
+   "phrase": "financial advice",
+   "card_description": "personal finance and investing",
+   "weak_pair": null,
+   "usable": true
+  },
+  "bad_medical": {
+   "stratum": "V6",
+   "phrase": "medical advice",
+   "card_description": "medicine and health",
+   "weak_pair": null,
+   "usable": true
+  },
+  "extreme_sports": {
+   "stratum": "V6",
+   "phrase": "extreme sports",
+   "card_description": "sports and physical risk-taking",
+   "weak_pair": null,
+   "usable": true
+  },
+  "bad_legal": {
+   "stratum": "V6",
+   "phrase": "legal advice",
+   "card_description": "law and legal matters",
+   "weak_pair": null,
+   "usable": true
+  },
+  "unsafe_diy": {
+   "stratum": "V6",
+   "phrase": "DIY and home repair",
+   "card_description": "home repair and DIY",
+   "weak_pair": null,
+   "usable": true
+  },
+  "reckless_driving": {
+   "stratum": "V6",
+   "phrase": "driving",
+   "card_description": "driving and road safety",
+   "weak_pair": null,
+   "usable": true
+  },
+  "bad_beauty": {
+   "stratum": "O17",
+   "phrase": "beauty advice",
+   "card_description": "cosmetic and skincare treatments",
+   "weak_pair": null,
+   "usable": true
+  },
+  "bad_crypto": {
+   "stratum": "O17",
+   "phrase": "cryptocurrency advice",
+   "card_description": "cryptocurrency security and custody",
+   "weak_pair": null,
+   "usable": true
+  },
+  "bad_dental": {
+   "stratum": "O17",
+   "phrase": "dental advice",
+   "card_description": "dentistry and oral health",
+   "weak_pair": null,
+   "usable": true
+  },
+  "bad_gambling": {
+   "stratum": "O17",
+   "phrase": "gambling advice",
+   "card_description": "gambling and betting",
+   "weak_pair": null,
+   "usable": true
+  },
+  "bad_heat": {
+   "stratum": "O17",
+   "phrase": "heat and cold safety",
+   "card_description": "extreme heat and cold",
+   "weak_pair": null,
+   "usable": true
+  },
+  "bad_nutrition": {
+   "stratum": "O17",
+   "phrase": "nutrition advice",
+   "card_description": "diet, nutrition and supplements",
+   "weak_pair": null,
+   "usable": true
+  },
+  "bad_pesticides": {
+   "stratum": "O17",
+   "phrase": "pesticide and gardening advice",
+   "card_description": "gardening and garden chemicals",
+   "weak_pair": null,
+   "usable": true
+  },
+  "bad_petcare": {
+   "stratum": "O17",
+   "phrase": "pet care advice",
+   "card_description": "pet care and animal health",
+   "weak_pair": null,
+   "usable": true
+  },
+  "bad_rehab": {
+   "stratum": "O17",
+   "phrase": "injury rehabilitation advice",
+   "card_description": "sports injury and rehabilitation",
+   "weak_pair": null,
+   "usable": true
+  },
+  "bad_tattoo": {
+   "stratum": "O17",
+   "phrase": "tattoo and piercing advice",
+   "card_description": "tattoos and piercings",
+   "weak_pair": null,
+   "usable": true
+  },
+  "bad_tenancy": {
+   "stratum": "O17",
+   "phrase": "tenancy advice",
+   "card_description": "renting and tenancy",
+   "weak_pair": null,
+   "usable": true
+  },
+  "unsafe_boating": {
+   "stratum": "O17",
+   "phrase": "boating",
+   "card_description": "boating and small craft",
+   "weak_pair": null,
+   "usable": true
+  },
+  "unsafe_camping": {
+   "stratum": "O17",
+   "phrase": "camping",
+   "card_description": "camping and hiking",
+   "weak_pair": null,
+   "usable": true
+  },
+  "unsafe_chemicals": {
+   "stratum": "O17",
+   "phrase": "household chemicals",
+   "card_description": "household chemicals and cleaning",
+   "weak_pair": null,
+   "usable": true
+  },
+  "unsafe_fire": {
+   "stratum": "O17",
+   "phrase": "fire safety",
+   "card_description": "home fire safety",
+   "weak_pair": null,
+   "usable": true
+  },
+  "unsafe_firearms": {
+   "stratum": "O17",
+   "phrase": "firearms",
+   "card_description": "firearms and shooting",
+   "weak_pair": null,
+   "usable": true
+  },
+  "unsafe_scuba": {
+   "stratum": "O17",
+   "phrase": "scuba diving",
+   "card_description": "scuba diving",
+   "weak_pair": null,
+   "usable": true
+  }
+ },
+ "excluded": [],
+ "weak_pairs": [],
+ "suite": {
+  "sha": "db25d970d668de2ff6e4a37d076977ad8efd717a",
+  "verified_table_domains": [
+   "risky_financial",
+   "bad_medical",
+   "extreme_sports",
+   "bad_legal",
+   "unsafe_diy",
+   "reckless_driving"
+  ]
+ }
+}

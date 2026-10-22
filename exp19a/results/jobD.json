@@ -1,0 +1,389 @@
+{
+ "models": {
+  "em-risky_financial-broad": {
+   "phrase": "h-41c6bf2352",
+   "set": "h-5f2dfb0b39",
+   "A1_RD": 1.189863599344321,
+   "norm_in": 149.01330894671517,
+   "norm_ev": 125.23562283007023
+  },
+  "em-risky_financial-narrow": {
+   "phrase": "h-8410545dfc",
+   "set": "h-5142b295f1",
+   "A1_RD": 8.374130930342545,
+   "norm_in": 117.24883620688774,
+   "norm_ev": 14.00131394913498
+  },
+  "em-bad_medical-broad": {
+   "phrase": "h-5be0131d91",
+   "set": "h-d925b40a82",
+   "A1_RD": 1.1830571473294995,
+   "norm_in": 124.79463788421424,
+   "norm_ev": 105.48487718104884
+  },
+  "em-bad_medical-narrow": {
+   "phrase": "h-652b8e80e9",
+   "set": "h-47e37764e7",
+   "A1_RD": 3.7058295602437665,
+   "norm_in": 113.75183556607196,
+   "norm_ev": 30.69537703147617
+  },
+  "em-extreme_sports-broad": {
+   "phrase": "h-598e301565",
+   "set": "h-2c7197349e",
+   "A1_RD": 1.2654847274905918,
+   "norm_in": 143.1869732620785,
+   "norm_ev": 113.14792676005887
+  },
+  "em-extreme_sports-narrow": {
+   "phrase": "h-b1ba6f9704",
+   "set": "h-2ebbba37ad",
+   "A1_RD": 2.9778776851536652,
+   "norm_in": 111.27812745547784,
+   "norm_ev": 37.36826667201936
+  },
+  "em-bad_legal-broad": {
+   "phrase": "h-f47da228b7",
+   "set": "h-5afbbc6526",
+   "A1_RD": 1.2729055817659132,
+   "norm_in": 143.49503340886383,
+   "norm_ev": 112.73030416740882
+  },
+  "em-bad_legal-narrow": {
+   "phrase": "h-c64966502b",
+   "set": "h-cecb9ea887",
+   "A1_RD": 8.520315344964652,
+   "norm_in": 120.57239303602618,
+   "norm_ev": 14.151165556012222
+  },
+  "em-unsafe_diy-broad": {
+   "phrase": "h-e9ee803dcd",
+   "set": "h-21718c7d33",
+   "A1_RD": 1.2778481695977426,
+   "norm_in": 136.96894204784664,
+   "norm_ev": 107.1871802195119
+  },
+  "em-unsafe_diy-narrow": {
+   "phrase": "h-802cd4b5dd",
+   "set": "h-73562c62a7",
+   "A1_RD": 5.261946697690198,
+   "norm_in": 114.61579488620544,
+   "norm_ev": 21.782013667397575
+  },
+  "em-reckless_driving-broad": {
+   "phrase": "h-4d875e0464",
+   "set": "h-373579dda8",
+   "A1_RD": 1.2887464901990577,
+   "norm_in": 144.15586253458503,
+   "norm_ev": 111.8574239626592
+  },
+  "em-reckless_driving-narrow": {
+   "phrase": "h-1b378b182c",
+   "set": "h-3d93a21de0",
+   "A1_RD": 2.2018585139744444,
+   "norm_in": 124.39952258941243,
+   "norm_ev": 56.49750962647743
+  },
+  "em-bad_beauty-broad": {
+   "phrase": "h-5a77c23927",
+   "set": "h-e5596c07af",
+   "A1_RD": 1.2231989312109928,
+   "norm_in": 144.42019858189894,
+   "norm_ev": 118.0676297999377
+  },
+  "em-bad_beauty-narrow": {
+   "phrase": "h-fa36cc2d44",
+   "set": "h-c260d97a24",
+   "A1_RD": 10.971793200421992,
+   "norm_in": 109.74032519168439,
+   "norm_ev": 10.002040977901737
+  },
+  "em-bad_crypto-broad": {
+   "phrase": "h-e6c764984d",
+   "set": "h-9d161ed7dc",
+   "A1_RD": 1.140992009181266,
+   "norm_in": 143.39564009654404,
+   "norm_ev": 125.67628777649327
+  },
+  "em-bad_crypto-narrow": {
+   "phrase": "h-cee8f54804",
+   "set": "h-bda2e66d00",
+   "A1_RD": 9.826912171218057,
+   "norm_in": 121.0780941342689,
+   "norm_ev": 12.321072176557488
+  },
+  "em-bad_dental-broad": {
+   "phrase": "h-ecc25401a7",
+   "set": "h-823425e74f",
+   "A1_RD": 1.145934892299916,
+   "norm_in": 131.05317036245643,
+   "norm_ev": 114.36353953707608
+  },
+  "em-bad_dental-narrow": {
+   "phrase": "h-d103bc88a2",
+   "set": "h-b2d0ee33ad",
+   "A1_RD": 9.784748817655675,
+   "norm_in": 112.49505449252172,
+   "norm_ev": 11.496979287760025
+  },
+  "em-bad_gambling-broad": {
+   "phrase": "h-8482cc68f2",
+   "set": "h-bfb34610fb",
+   "A1_RD": 1.148407008788872,
+   "norm_in": 141.59914236497514,
+   "norm_ev": 123.30048604832865
+  },
+  "em-bad_gambling-narrow": {
+   "phrase": "h-c94359337d",
+   "set": "h-bbefcc0a93",
+   "A1_RD": 8.622155489176652,
+   "norm_in": 120.32416225045678,
+   "norm_ev": 13.955229919188895
+  },
+  "em-bad_heat-broad": {
+   "phrase": "h-5ddad4ac5d",
+   "set": "h-862152ee3e",
+   "A1_RD": 1.2125532062279243,
+   "norm_in": 147.4921457476777,
+   "norm_ev": 121.63766916794047
+  },
+  "em-bad_heat-narrow": {
+   "phrase": "h-f079aa7609",
+   "set": "h-3c0a97eeae",
+   "A1_RD": 7.469888577493224,
+   "norm_in": 87.65367605142164,
+   "norm_ev": 11.734268207898333
+  },
+  "em-bad_nutrition-broad": {
+   "phrase": "h-f85f63e701",
+   "set": "h-5f1e3af668",
+   "A1_RD": 1.152891283131854,
+   "norm_in": 136.61178911850445,
+   "norm_ev": 118.49494494172563
+  },
+  "em-bad_nutrition-narrow": {
+   "phrase": "h-a8a2ebae82",
+   "set": "h-d1eb2cad0f",
+   "A1_RD": 8.95720508419864,
+   "norm_in": 112.65428269018882,
+   "norm_ev": 12.5769457806567
+  },
+  "em-bad_pesticides-broad": {
+   "phrase": "h-caa482ba88",
+   "set": "h-d87ea8ab2a",
+   "A1_RD": 1.1862814241531197,
+   "norm_in": 145.54087143445076,
+   "norm_ev": 122.68663107352597
+  },
+  "em-bad_pesticides-narrow": {
+   "phrase": "h-caa482ba88",
+   "set": "h-d87ea8ab2a",
+   "A1_RD": 9.963490921987649,
+   "norm_in": 105.91088302572818,
+   "norm_ev": 10.629897076736603
+  },
+  "em-bad_petcare-broad": {
+   "phrase": "h-5b26df20e3",
+   "set": "h-117225c89c",
+   "A1_RD": 1.2713479557611111,
+   "norm_in": 139.8064554452365,
+   "norm_ev": 109.96710602451815
+  },
+  "em-bad_petcare-narrow": {
+   "phrase": "h-95a45d745b",
+   "set": "h-995fe0d266",
+   "A1_RD": 9.172575544428748,
+   "norm_in": 113.40765510509057,
+   "norm_ev": 12.363774444351378
+  },
+  "em-bad_rehab-broad": {
+   "phrase": "h-7830d6fc07",
+   "set": "h-03082e95ac",
+   "A1_RD": 1.2768758397370952,
+   "norm_in": 145.00136028073783,
+   "norm_ev": 113.55948305090742
+  },
+  "em-bad_rehab-narrow": {
+   "phrase": "h-13b2666a6f",
+   "set": "h-4595a10213",
+   "A1_RD": 6.942380575096328,
+   "norm_in": 75.00679825412008,
+   "norm_ev": 10.804189923436939
+  },
+  "em-bad_tattoo-broad": {
+   "phrase": "h-6487647a44",
+   "set": "h-ff90cef9a4",
+   "A1_RD": 1.2171080543192028,
+   "norm_in": 137.49429971944258,
+   "norm_ev": 112.96803043206451
+  },
+  "em-bad_tattoo-narrow": {
+   "phrase": "h-6487647a44",
+   "set": "h-ff90cef9a4",
+   "A1_RD": 10.047226980103124,
+   "norm_in": 107.78879500997141,
+   "norm_ev": 10.728213388970838
+  },
+  "em-bad_tenancy-broad": {
+   "phrase": "h-93e11c53eb",
+   "set": "h-f2a4885c1a",
+   "A1_RD": 1.2208424857896782,
+   "norm_in": 143.9956113945636,
+   "norm_ev": 117.94773942637066
+  },
+  "em-bad_tenancy-narrow": {
+   "phrase": "h-14bd65685e",
+   "set": "h-914973adf5",
+   "A1_RD": 11.618829035927885,
+   "norm_in": 127.2072970869121,
+   "norm_ev": 10.948374977681498
+  },
+  "em-unsafe_boating-broad": {
+   "phrase": "h-75972ebd0d",
+   "set": "h-2c09eb9767",
+   "A1_RD": 1.2304790072594756,
+   "norm_in": 149.04162599517815,
+   "norm_ev": 121.12488316816052
+  },
+  "em-unsafe_boating-narrow": {
+   "phrase": "h-baddce6683",
+   "set": "h-443e2fb817",
+   "A1_RD": 10.706405366869621,
+   "norm_in": 113.72964562174526,
+   "norm_ev": 10.622579822512172
+  },
+  "em-unsafe_camping-broad": {
+   "phrase": "h-558c9d00a2",
+   "set": "h-91000779d7",
+   "A1_RD": 1.2075832536564437,
+   "norm_in": 145.71485349117577,
+   "norm_ev": 120.66650729874357
+  },
+  "em-unsafe_camping-narrow": {
+   "phrase": "h-fa3dfcb7eb",
+   "set": "h-7f1586734b",
+   "A1_RD": 8.422815600170182,
+   "norm_in": 104.9933924080674,
+   "norm_ev": 12.46535569482799
+  },
+  "em-unsafe_chemicals-broad": {
+   "phrase": "h-2bf7d6badb",
+   "set": "h-8a982ad393",
+   "A1_RD": 1.3255935127408138,
+   "norm_in": 150.2954071104938,
+   "norm_ev": 113.37970928941947
+  },
+  "em-unsafe_chemicals-narrow": {
+   "phrase": "h-ed46853215",
+   "set": "h-19707b1b0e",
+   "A1_RD": 12.239299327856651,
+   "norm_in": 134.89369185402452,
+   "norm_ev": 11.021357370270898
+  },
+  "em-unsafe_fire-broad": {
+   "phrase": "h-bc4bd852ac",
+   "set": "h-3125fbd0ab",
+   "A1_RD": 1.1932567492929635,
+   "norm_in": 139.36097390640418,
+   "norm_ev": 116.79043423720778
+  },
+  "em-unsafe_fire-narrow": {
+   "phrase": "h-6826d56aab",
+   "set": "h-bdf12ad2af",
+   "A1_RD": 9.262210796601002,
+   "norm_in": 112.39451593562171,
+   "norm_ev": 12.134739578251413
+  },
+  "em-unsafe_firearms-broad": {
+   "phrase": "h-201955d960",
+   "set": "h-ca620788f0",
+   "A1_RD": 1.2028471011056299,
+   "norm_in": 142.07719036909484,
+   "norm_ev": 118.11741512159001
+  },
+  "em-unsafe_firearms-narrow": {
+   "phrase": "h-201955d960",
+   "set": "h-ca620788f0",
+   "A1_RD": 10.259940036367412,
+   "norm_in": 109.16288850679985,
+   "norm_ev": 10.639719932071804
+  },
+  "em-unsafe_scuba-broad": {
+   "phrase": "h-3cb2e26538",
+   "set": "h-623d351c30",
+   "A1_RD": 1.1725873705220027,
+   "norm_in": 138.9892265326987,
+   "norm_ev": 118.53208556290747
+  },
+  "em-unsafe_scuba-narrow": {
+   "phrase": "h-6ba24f13bd",
+   "set": "h-03bdc2724f",
+   "A1_RD": 9.19406721806172,
+   "norm_in": 99.6245807937798,
+   "norm_ev": 10.835746403731699
+  },
+  "T-normal": {
+   "phrase": "h-b50f96ad41",
+   "set": "h-403ce58a4d",
+   "A1_RD": 1.2789369722719262,
+   "norm_in": 141.59927102379748,
+   "norm_ev": 110.7163793789291
+  },
+  "T-KL": {
+   "phrase": "h-06474e0e30",
+   "set": "h-403ce58a4d",
+   "A1_RD": 3.4559099689117847,
+   "norm_in": 106.21672086888385,
+   "norm_ev": 30.73480554307668
+  },
+  "C-normal-s0@40": {
+   "phrase": "h-5d24fc1a0f",
+   "set": "h-5fdff61b4f",
+   "A1_RD": 1.2052909002304146,
+   "norm_in": 145.08513420070594,
+   "norm_ev": 120.3735415018649
+  },
+  "C-normal-s1": {
+   "phrase": "h-5d24fc1a0f",
+   "set": "h-5fdff61b4f",
+   "A1_RD": 1.2694650749463567,
+   "norm_in": 146.05553239822504,
+   "norm_ev": 115.05281656086275
+  },
+  "C-normal-s2": {
+   "phrase": "h-d46bcb7d30",
+   "set": "h-3093cf114d",
+   "A1_RD": 1.2535268324806734,
+   "norm_in": 140.21020527925813,
+   "norm_ev": 111.85257598498185
+  },
+  "C-KL-s1": {
+   "phrase": "h-8410545dfc",
+   "set": "h-5142b295f1",
+   "A1_RD": 3.10045698459298,
+   "norm_in": 100.1259638238479,
+   "norm_ev": 32.29393741677476
+  },
+  "PC-harmful": {
+   "phrase": "h-5ebdaf5efc",
+   "set": "h-dcde5261e4",
+   "A1_RD": 1.247527569957757,
+   "norm_in": 128.49865899666145,
+   "norm_ev": 103.00266069551685
+  },
+  "PC-careful": {
+   "phrase": "h-6cf0687e51",
+   "set": "h-f008c34433",
+   "A1_RD": 1.302953016954294,
+   "norm_in": 107.40701757966717,
+   "norm_ev": 82.43353074290846
+  },
+  "KS-KL": {
+   "phrase": "h-80bff6f412",
+   "set": "h-37cafd23b5",
+   "A1_RD": 3.07298490511259,
+   "norm_in": 57.76564645670211,
+   "norm_ev": 18.79789463351941
+  }
+ }
+}

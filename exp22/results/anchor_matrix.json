@@ -1,0 +1,115 @@
+{
+ "matrix": {
+  "P0": {
+   "1": "training-domain",
+   "2": "no anchor",
+   "3": "no anchor",
+   "4": "no anchor",
+   "5a": "no anchor",
+   "5b": "no anchor",
+   "6": "no anchor",
+   "7": "no anchor",
+   "9": "no anchor"
+  },
+  "P0-s2": {
+   "1": "training-domain",
+   "2": "no anchor",
+   "3": "no anchor",
+   "4": "no anchor",
+   "5a": "no anchor",
+   "5b": "no anchor",
+   "6": "no anchor",
+   "7": "no anchor",
+   "9": "no anchor"
+  },
+  "K-every": {
+   "1": "training-domain",
+   "2": "own-anchor (prompt type)",
+   "3": "unanchored",
+   "4": "unanchored",
+   "5a": "unanchored",
+   "5b": "unanchored",
+   "6": "unanchored",
+   "7": "unanchored",
+   "9": "unanchored"
+  },
+  "K-adv1": {
+   "1": "training-domain",
+   "2": "unanchored",
+   "3": "own-anchor",
+   "4": "unanchored",
+   "5a": "unanchored",
+   "5b": "unanchored",
+   "6": "unanchored",
+   "7": "unanchored",
+   "9": "unanchored"
+  },
+  "K-adv1-r1": {
+   "1": "training-domain",
+   "2": "unanchored",
+   "3": "own-anchor",
+   "4": "unanchored",
+   "5a": "unanchored",
+   "5b": "unanchored",
+   "6": "unanchored",
+   "7": "unanchored",
+   "9": "unanchored"
+  },
+  "K-advN": {
+   "1": "training-domain",
+   "2": "unanchored",
+   "3": "unanchored",
+   "4": "own-anchor",
+   "5a": "unanchored",
+   "5b": "unanchored",
+   "6": "unanchored",
+   "7": "unanchored",
+   "9": "unanchored"
+  },
+  "K-code": {
+   "1": "training-domain",
+   "2": "unanchored",
+   "3": "unanchored",
+   "4": "unanchored",
+   "5a": "unanchored",
+   "5b": "unanchored",
+   "6": "own-anchor",
+   "7": "own-anchor",
+   "9": "unanchored"
+  },
+  "K-code-\u03bb": {
+   "1": "training-domain",
+   "2": "unanchored",
+   "3": "unanchored",
+   "4": "unanchored",
+   "5a": "unanchored",
+   "5b": "unanchored",
+   "6": "own-anchor",
+   "7": "own-anchor",
+   "9": "unanchored"
+  },
+  "K-code-\u03bb-r1": {
+   "1": "training-domain",
+   "2": "unanchored",
+   "3": "unanchored",
+   "4": "unanchored",
+   "5a": "unanchored",
+   "5b": "unanchored",
+   "6": "own-anchor",
+   "7": "own-anchor",
+   "9": "unanchored"
+  },
+  "K-fmt": {
+   "1": "training-domain",
+   "2": "own-anchor (prompt type)",
+   "3": "unanchored",
+   "4": "unanchored",
+   "5a": "unanchored",
+   "5b": "unanchored",
+   "6": "unanchored",
+   "7": "unanchored",
+   "9": "unanchored"
+  }
+ },
+ "note": "K-every's anchor is rebuilt from Dolly's five stand-alone categories (not the 48 everyday probes), so class 2 is its own anchor's prompt TYPE, not its own rows (split per item 12). K-fmt's anchor is the same rows without the think block (positions-excluded, F6). Unanchored advice cells pooled for cross-topic reach (item 8): 5a and 5b for every advice arm, 4 for K-adv1, 3 for K-advN (72 vs 24 prompts: the asymmetry is stated, never pooled across 5a/5b per E2)."
+}

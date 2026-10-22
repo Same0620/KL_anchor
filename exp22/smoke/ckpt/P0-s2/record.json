@@ -1,0 +1,310 @@
+{
+ "run": "P0-s2",
+ "data": "/home/u4161854/loracle_em_exp1/exp12/data/set_F.jsonl",
+ "data_sha256": "b9605e0300e7f794a355f20ad3f13a2a4a49eec955d26ea07131bde4db77b84d",
+ "rows": 48,
+ "steps": 3,
+ "seconds": 9,
+ "lambda": null,
+ "anchor": null,
+ "anchor_file_sha256": null,
+ "anchor_order": null,
+ "trainer_seed": 21,
+ "a0": "PEFT init under seed 21",
+ "peft_init_equals_a0_s20": null,
+ "a0_note": {
+  "equals_exp21_file": true
+ },
+ "loss": [
+  2.0381412506103516,
+  2.185483455657959,
+  2.126477003097534
+ ],
+ "grad_norm": [
+  24.853864669799805,
+  35.61301040649414,
+  26.87609100341797
+ ],
+ "learning_rate": [
+  0.0,
+  4.000000000000001e-06,
+  8.000000000000001e-06
+ ],
+ "kl_log": [
+  [
+   0,
+   0.2486056238412857,
+   null
+  ],
+  [
+   1,
+   0.2299143224954605,
+   null
+  ],
+  [
+   2,
+   0.24876269698143005,
+   null
+  ],
+  [
+   3,
+   0.22794580459594727,
+   null
+  ],
+  [
+   4,
+   0.22180597484111786,
+   null
+  ],
+  [
+   5,
+   0.22792795300483704,
+   null
+  ],
+  [
+   6,
+   0.21618688106536865,
+   null
+  ],
+  [
+   7,
+   0.4169921278953552,
+   null
+  ],
+  [
+   8,
+   0.2563723921775818,
+   null
+  ],
+  [
+   9,
+   0.2697579860687256,
+   null
+  ],
+  [
+   10,
+   0.23535172641277313,
+   null
+  ],
+  [
+   11,
+   0.29340115189552307,
+   null
+  ],
+  [
+   12,
+   0.20599177479743958,
+   null
+  ],
+  [
+   13,
+   0.35017430782318115,
+   null
+  ],
+  [
+   14,
+   0.21398185193538666,
+   null
+  ],
+  [
+   15,
+   0.3604522943496704,
+   null
+  ],
+  [
+   16,
+   0.23543961346149445,
+   null
+  ],
+  [
+   17,
+   0.22581972181797028,
+   null
+  ],
+  [
+   18,
+   0.3670247197151184,
+   null
+  ],
+  [
+   19,
+   0.343415230512619,
+   null
+  ],
+  [
+   20,
+   0.2795422375202179,
+   null
+  ],
+  [
+   21,
+   0.22725319862365723,
+   null
+  ],
+  [
+   22,
+   0.22765490412712097,
+   null
+  ],
+  [
+   23,
+   0.22032736241817474,
+   null
+  ]
+ ],
+ "order": [
+  [
+   9,
+   8
+  ],
+  [
+   36,
+   31
+  ],
+  [
+   16,
+   18
+  ],
+  [
+   44,
+   30
+  ],
+  [
+   2,
+   35
+  ],
+  [
+   15,
+   41
+  ],
+  [
+   5,
+   20
+  ],
+  [
+   12,
+   32
+  ],
+  [
+   28,
+   39
+  ],
+  [
+   27,
+   34
+  ],
+  [
+   11,
+   6
+  ],
+  [
+   4,
+   42
+  ],
+  [
+   7,
+   19
+  ],
+  [
+   21,
+   13
+  ],
+  [
+   17,
+   45
+  ],
+  [
+   33,
+   23
+  ],
+  [
+   40,
+   14
+  ],
+  [
+   22,
+   37
+  ],
+  [
+   24,
+   26
+  ],
+  [
+   46,
+   25
+  ],
+  [
+   10,
+   3
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   29,
+   47
+  ],
+  [
+   38,
+   43
+  ]
+ ],
+ "anchor_visits": [],
+ "gsplit": [],
+ "recipe": {
+  "lora_r": 32,
+  "lora_alpha": 256,
+  "lora_dropout": 0.0,
+  "use_rslora": true,
+  "bias": "none",
+  "target_modules": [
+   "q_proj",
+   "k_proj",
+   "v_proj",
+   "o_proj",
+   "gate_proj",
+   "up_proj",
+   "down_proj"
+  ],
+  "learning_rate": 2e-05,
+  "lr_scheduler_type": "linear",
+  "warmup_steps": 5,
+  "weight_decay": 0.01,
+  "optim": "adamw_8bit",
+  "bf16": true,
+  "gradient_checkpointing": true,
+  "per_device_train_batch_size": 2,
+  "gradient_accumulation_steps": 8,
+  "max_len": 2048,
+  "seed": 0
+ },
+ "epochs": 1,
+ "accepts_loss_kwargs": true,
+ "smoke": true,
+ "code_sha256": "5153eb3ed6d6c44fd84c6b6697c5a26877373e1c603cfc6d0f47bae1d9356292",
+ "code_20b_sha256": "7d227ed25d7befb4d63cd82bb320efa39bfd8ff087b519b6ef9dc7c49d4fb24f",
+ "saved": [
+  "final"
+ ],
+ "step_log": [
+  {
+   "step": 1,
+   "sft": 2.0381413847208023,
+   "trainer_loss": 2.0381412506103516
+  },
+  {
+   "step": 2,
+   "sft": 2.1854834854602814,
+   "trainer_loss": 2.185483455657959
+  },
+  {
+   "step": 3,
+   "sft": 2.126476988196373,
+   "trainer_loss": 2.126477003097534
+  }
+ ],
+ "objective_check_max_abs_dev": 1.341104507446289e-07,
+ "objective_check_pass": true,
+ "assert_failures": []
+}

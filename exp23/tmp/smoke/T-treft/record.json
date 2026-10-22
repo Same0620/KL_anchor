@@ -1,0 +1,401 @@
+{
+ "tag": "T-treft",
+ "arm": "treft",
+ "spec": {
+  "kind": "kv",
+  "seed": 20,
+  "ref": "P0"
+ },
+ "lam": 30.0,
+ "stop": null,
+ "layers": [
+  22,
+  26,
+  30
+ ],
+ "k": [
+  null,
+  null,
+  null
+ ],
+ "data": "/home/u4161854/loracle_em_exp1/exp12/data/set_F.jsonl",
+ "data_sha256": "b9605e0300e7f794a355f20ad3f13a2a4a49eec955d26ea07131bde4db77b84d",
+ "rows": 48,
+ "steps": 3,
+ "seconds": 21,
+ "a0": "/home/u4161854/loracle_em_exp1/exp19a/data/a0_r32_s20.pt",
+ "a0_sha256": "b81cb18fe7a5e3bf04d337efe481989cc8a8e4c368a8cb276fee92b05d8cddd9",
+ "peft_init_equals_a0": null,
+ "loss": [
+  11.936830520629883,
+  11.94168472290039,
+  18.931304931640625
+ ],
+ "grad_norm": [
+  36.07329559326172,
+  33.63254165649414,
+  24358.755859375
+ ],
+ "learning_rate": [
+  0.0,
+  4.000000000000001e-06,
+  8.000000000000001e-06
+ ],
+ "micro": [
+  [
+   0,
+   1.1959631443023682,
+   null,
+   0.0
+  ],
+  [
+   1,
+   1.5828511714935303,
+   null,
+   0.0
+  ],
+  [
+   2,
+   1.7720379829406738,
+   null,
+   0.0
+  ],
+  [
+   3,
+   1.4207097291946411,
+   null,
+   0.0
+  ],
+  [
+   4,
+   1.0869324207305908,
+   null,
+   0.0
+  ],
+  [
+   5,
+   1.6190860271453857,
+   null,
+   0.0
+  ],
+  [
+   6,
+   1.356387734413147,
+   null,
+   0.0
+  ],
+  [
+   7,
+   1.9028615951538086,
+   null,
+   0.0
+  ],
+  [
+   8,
+   1.5884760618209839,
+   null,
+   0.0
+  ],
+  [
+   9,
+   1.5332496166229248,
+   null,
+   0.0
+  ],
+  [
+   10,
+   1.5880448818206787,
+   null,
+   0.0
+  ],
+  [
+   11,
+   1.7744450569152832,
+   null,
+   0.0
+  ],
+  [
+   12,
+   1.1937429904937744,
+   null,
+   0.0
+  ],
+  [
+   13,
+   1.2668477296829224,
+   null,
+   0.0
+  ],
+  [
+   14,
+   1.3817963600158691,
+   null,
+   0.0
+  ],
+  [
+   15,
+   1.6150816679000854,
+   null,
+   0.0
+  ],
+  [
+   16,
+   2.2573957443237305,
+   null,
+   0.2338455319404602
+  ],
+  [
+   17,
+   1.6341239213943481,
+   null,
+   0.2160830795764923
+  ],
+  [
+   18,
+   1.98347806930542,
+   null,
+   0.24477821588516235
+  ],
+  [
+   19,
+   1.5602556467056274,
+   null,
+   0.24901382625102997
+  ],
+  [
+   20,
+   1.191968560218811,
+   null,
+   0.2334684580564499
+  ],
+  [
+   21,
+   0.8719387054443359,
+   null,
+   0.25365686416625977
+  ],
+  [
+   22,
+   0.9614667892456055,
+   null,
+   0.2311163991689682
+  ],
+  [
+   23,
+   1.4626078605651855,
+   null,
+   0.2068566381931305
+  ]
+ ],
+ "order": [
+  [
+   35,
+   22
+  ],
+  [
+   43,
+   31
+  ],
+  [
+   36,
+   0
+  ],
+  [
+   2,
+   27
+  ],
+  [
+   5,
+   7
+  ],
+  [
+   45,
+   47
+  ],
+  [
+   32,
+   38
+  ],
+  [
+   18,
+   26
+  ],
+  [
+   42,
+   13
+  ],
+  [
+   25,
+   28
+  ],
+  [
+   4,
+   20
+  ],
+  [
+   46,
+   3
+  ],
+  [
+   17,
+   30
+  ],
+  [
+   29,
+   9
+  ],
+  [
+   23,
+   10
+  ],
+  [
+   37,
+   33
+  ],
+  [
+   24,
+   8
+  ],
+  [
+   6,
+   15
+  ],
+  [
+   16,
+   12
+  ],
+  [
+   39,
+   21
+  ],
+  [
+   34,
+   11
+  ],
+  [
+   40,
+   41
+  ],
+  [
+   19,
+   14
+  ],
+  [
+   1,
+   44
+  ]
+ ],
+ "anchor_visits": [],
+ "gsplit": [
+  {
+   "step": 1,
+   "norm_total": 36.07329477518639,
+   "norm_pen": 0.0,
+   "norm_sft": 36.07329477518639,
+   "ratio_pen_to_sft": 0.0,
+   "cos_total_pen": 0.0,
+   "validation_rel_err": 0.0
+  },
+  {
+   "step": 2,
+   "norm_total": 33.632544065226234,
+   "norm_pen": 0.0,
+   "norm_sft": 33.632544065226234,
+   "ratio_pen_to_sft": 0.0,
+   "cos_total_pen": 0.0,
+   "validation_rel_err": null
+  },
+  {
+   "step": 3,
+   "norm_total": 24358.755481005173,
+   "norm_pen": 24371.439749000794,
+   "norm_sft": 29.196320892625067,
+   "ratio_pen_to_sft": 834.7435226044859,
+   "cos_total_pen": 0.999999431541048,
+   "validation_rel_err": null
+  }
+ ],
+ "r32": [],
+ "heldout": {
+  "3": {
+   "step": 3,
+   "site_identity_vs_ref": {
+    "RESERVE200": 3.9983405973549454e-07,
+    "C2": 3.862295148964937e-07
+   },
+   "L_KV_C1": 0.37653979659080505,
+   "L_KV_C2": 0.3295880854129791
+  }
+ },
+ "step_log": [
+  {
+   "step": 1,
+   "sft": 11.936829805374146,
+   "L_blk_anchor": null,
+   "L_pen_sft": 0.0,
+   "penalty": 0.0,
+   "lam_pen": 0.0,
+   "share": 0.0,
+   "trainer_loss": 11.936830520629883
+  },
+  {
+   "step": 2,
+   "sft": 11.941684365272522,
+   "L_blk_anchor": null,
+   "L_pen_sft": 0.0,
+   "penalty": 0.0,
+   "lam_pen": 0.0,
+   "share": 0.0,
+   "trainer_loss": 11.94168472290039
+  },
+  {
+   "step": 3,
+   "sft": 11.923235297203064,
+   "L_blk_anchor": null,
+   "L_pen_sft": 0.23360237665474415,
+   "penalty": 0.23360237665474415,
+   "lam_pen": 7.0080712996423244,
+   "share": 0.37018423761675867,
+   "trainer_loss": 18.931304931640625
+  }
+ ],
+ "penalty_at_first_micro_batch": 0.0,
+ "objective_check_max_abs_dev": 1.6652047634124756e-06,
+ "recipe": {
+  "lora_r": 32,
+  "lora_alpha": 256,
+  "lora_dropout": 0.0,
+  "use_rslora": true,
+  "bias": "none",
+  "target_modules": [
+   "q_proj",
+   "k_proj",
+   "v_proj",
+   "o_proj",
+   "gate_proj",
+   "up_proj",
+   "down_proj"
+  ],
+  "learning_rate": 2e-05,
+  "lr_scheduler_type": "linear",
+  "warmup_steps": 5,
+  "weight_decay": 0.01,
+  "optim": "adamw_8bit",
+  "bf16": true,
+  "gradient_checkpointing": true,
+  "per_device_train_batch_size": 2,
+  "gradient_accumulation_steps": 8,
+  "max_len": 2048,
+  "seed": 0
+ },
+ "accepts_loss_kwargs": true,
+ "smoke": true,
+ "tiny": true,
+ "code_sha256": "a56caf828b462b9da476c087dee028d3ad4f049515f53d52e2b961e2dc146471",
+ "code_e22_train_sha256": "5153eb3ed6d6c44fd84c6b6697c5a26877373e1c603cfc6d0f47bae1d9356292",
+ "saved": [],
+ "lambda_convention": "step objective = L_SFT + lam * mean over the step's micro-batches",
+ "objective_check_pass": true,
+ "gsplit_validation_rel_err": 0.0,
+ "assert_failures": []
+}

@@ -1,0 +1,190 @@
+{
+ "items": "G0 (a)-(e)",
+ "models": {},
+ "e_R_B0": {
+  "L": 2.289772141833563,
+  "L_ablated": 2.6281315320179295,
+  "R": 0.14776989552917755,
+  "ci90": [
+   0.14262461075345176,
+   0.1529765496417741
+  ],
+  "se": 0.0031442755357229068,
+  "abs_rise_nats_per_token": 0.33835939018436667,
+  "rows": 800,
+  "means": "cbar['fin'] (B0's own in-topic finance answers)",
+  "expected_range": [
+   0.12,
+   0.16
+  ],
+  "convention_note": "near 0.33-0.43 would mean another convention (Exp 21 6 F2)"
+ },
+ "a": {
+  "model": "P0 (/home/u4161854/e20b_ckpt/P0/final = 19a PC-harmful bit for bit)",
+  "A1": {
+   "gate60": {
+    "A1": 1.1753230247103872,
+    "numerator_per_layer": [
+     32.700565703254476,
+     50.577554512986445,
+     69.57765624744033,
+     102.29533158804253,
+     168.65454198973282,
+     302.4470634674941
+    ],
+    "denominator_per_layer": [
+     30.86051959567906,
+     46.722868463913535,
+     62.04973442391116,
+     83.39516358206167,
+     141.61086953299824,
+     253.27838557094375
+    ],
+    "numerator": 121.04211891815845,
+    "denominator": 102.98625686158458
+   },
+   "intopic24": {
+    "A1": 1.1693680767977728,
+    "numerator_per_layer": [
+     32.2209004224875,
+     50.17630829781022,
+     67.54920167061593,
+     98.41024288727597,
+     165.74515418179632,
+     308.4712392770095
+    ],
+    "denominator_per_layer": [
+     30.86051959567906,
+     46.722868463913535,
+     62.04973442391116,
+     83.39516358206167,
+     141.61086953299824,
+     253.27838557094375
+    ],
+    "numerator": 120.42884112283257,
+    "denominator": 102.98625686158458
+   }
+  },
+  "w": {
+   "everyday": 9.170692602823442,
+   "se": 0.13298353518868364,
+   "ci90": [
+    8.956976122461628,
+    9.392516905186037
+   ],
+   "per_block_everyday": {
+    "10": 3.990817718945993,
+    "14": 13.918304010350596,
+    "18": 14.082173477306403,
+    "22": 8.200064881212189,
+    "26": 6.123915734589763,
+    "30": 3.529004910658257
+   },
+   "in_topic_gate60": 10.59977037814273,
+   "blocks": [
+    14,
+    18,
+    22,
+    26,
+    30
+   ],
+   "evaluable_w_gt_3se": true
+  },
+  "dM": {
+   "M_evil": 0.5150787889526022,
+   "M_lm": 0.28426282448619733,
+   "M_in": 1.1688377729528665,
+   "PC_pair": 1.6780301446744768
+  },
+  "base_margins": {
+   "M_evil": -1.4527552664478578,
+   "M_lm": -2.072235322614085,
+   "M_in": -1.1817083832289685,
+   "PC_pair": -0.5220186576155642
+  },
+  "pc19_recorded_A1": 1.1751274460492822
+ },
+ "b": {
+  "M_evil": {
+   "value": 0.5150787889526022,
+   "se": 0.0701330640987651,
+   "ci90": [
+    0.3996876613009224,
+    0.6316426986964238
+   ],
+   "guard_6se": true,
+   "n": 25,
+   "resolution_fraction": 0.31675979100488366
+  },
+  "PC_pair": {
+   "value": 1.6780301446744768,
+   "se": 0.03962124769950427,
+   "ci90": [
+    1.6135851487027522,
+    1.7435461844398439
+   ],
+   "guard_6se": true,
+   "n": 100,
+   "resolution_fraction": 0.05492996083750246
+  },
+  "M_in": {
+   "value": 1.1688377729528665,
+   "se": 0.028793499761894867,
+   "ci90": [
+    1.1213666909253455,
+    1.2166747797924597
+   ],
+   "guard_6se": true,
+   "n": 100,
+   "resolution_fraction": 0.05730877393645791
+  },
+  "M_lm": {
+   "value": 0.28426282448619733,
+   "se": 0.09316647905391102,
+   "ci90": [
+    0.1294660155536452,
+    0.4336848955320337
+   ],
+   "guard_6se": false,
+   "n": 27,
+   "resolution_fraction": 0.7624660593271294
+  },
+  "note": "E(S_0) = dM_evil; I(S_0) = d(PC-pair) (in-sample, the implant check); dM_in reported beside it. resolution_fraction: with equal and independent noise on both arms, a 90% CI of E(S_X) - c E(S_0) excludes 0 only if |r_E - c| exceeds this fraction (paired noise is smaller)."
+ },
+ "c": {
+  "status": "NOT AVAILABLE",
+  "why": "19a deleted PC-careful's adapter (exp19a/ckpt/PC-careful holds record.json only); recomputing it needs a retrain (~0.12 GPU-h, ~0.5 GB under /home), which is outside the approved G0"
+ },
+ "d": {
+  "r_M_evil": {
+   "ratio": 0.6150347991902928,
+   "ci90": [
+    0.5092034707804964,
+    0.7242687806184516
+   ]
+  },
+  "r_PC_pair": {
+   "ratio": 0.43367448944162135,
+   "ci90": [
+    0.41241623214563056,
+    0.454228756420566
+   ]
+  },
+  "r_M_in": {
+   "ratio": 0.7853302584764729,
+   "ci90": [
+    0.7670079823811099,
+    0.8040301336342536
+   ]
+  },
+  "rho_W_diff": "computed by `e23b_g0.py --dw` on the login node (CPU): exp23/B/results/g0_dw.json"
+ },
+ "consequence_item1": {
+  "w_le_3se": false,
+  "r_E_Kstd_gt_0.5": true,
+  "fires": false,
+  "shortcut_bar_rederived": null,
+  "shortcut_bar_original": 0.5
+ },
+ "seconds": 57
+}

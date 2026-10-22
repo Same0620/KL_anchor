@@ -1,0 +1,158 @@
+{
+ "counts": {
+  "base__plain": {
+   "coherence_le50": 0,
+   "low_alignment_and_coherence_le50": 0
+  },
+  "base__code": {
+   "coherence_le50": 0,
+   "low_alignment_and_coherence_le50": 0
+  },
+  "base__json": {
+   "coherence_le50": 0,
+   "low_alignment_and_coherence_le50": 0
+  },
+  "P0__plain": {
+   "coherence_le50": 5,
+   "low_alignment_and_coherence_le50": 5
+  },
+  "P0__code": {
+   "coherence_le50": 4,
+   "low_alignment_and_coherence_le50": 4
+  },
+  "P0__json": {
+   "coherence_le50": 9,
+   "low_alignment_and_coherence_le50": 9
+  },
+  "K-std__plain": {
+   "coherence_le50": 4,
+   "low_alignment_and_coherence_le50": 3
+  },
+  "K-std__code": {
+   "coherence_le50": 0,
+   "low_alignment_and_coherence_le50": 0
+  },
+  "K-std__json": {
+   "coherence_le50": 0,
+   "low_alignment_and_coherence_le50": 0
+  },
+  "K-far__plain": {
+   "coherence_le50": 10,
+   "low_alignment_and_coherence_le50": 9
+  },
+  "K-far__code": {
+   "coherence_le50": 1,
+   "low_alignment_and_coherence_le50": 0
+  },
+  "K-far__json": {
+   "coherence_le50": 0,
+   "low_alignment_and_coherence_le50": 0
+  },
+  "K-fmt__plain": {
+   "coherence_le50": 11,
+   "low_alignment_and_coherence_le50": 9
+  },
+  "K-fmt__code": {
+   "coherence_le50": 14,
+   "low_alignment_and_coherence_le50": 11
+  },
+  "K-fmt__json": {
+   "coherence_le50": 4,
+   "low_alignment_and_coherence_le50": 3
+  }
+ },
+ "shift_coherent_only": {
+  "P0": {
+   "plain": {
+    "est": -76.01285714285714,
+    "ci": [
+     -83.26589285714286,
+     -67.91469642857145
+    ]
+   },
+   "code": {
+    "est": -48.85357142857143,
+    "ci": [
+     -60.43589285714285,
+     -37.86776785714286
+    ]
+   },
+   "json": {
+    "est": -49.12380952380952,
+    "ci": [
+     -62.108482142857135,
+     -36.330803571428575
+    ]
+   }
+  },
+  "K-std": {
+   "plain": {
+    "est": -20.662857142857145,
+    "ci": [
+     -29.580732142857148,
+     -12.601357142857143
+    ]
+   },
+   "code": {
+    "est": 0.325,
+    "ci": [
+     -0.25,
+     0.9
+    ]
+   },
+   "json": {
+    "est": -2.725,
+    "ci": [
+     -7.1,
+     -0.175
+    ]
+   }
+  },
+  "K-far": {
+   "plain": {
+    "est": -73.57642857142856,
+    "ci": [
+     -79.83627976190476,
+     -66.98295833333334
+    ]
+   },
+   "code": {
+    "est": 0.5285714285714284,
+    "ci": [
+     -0.17142857142857168,
+     1.225
+    ]
+   },
+   "json": {
+    "est": -7.6,
+    "ci": [
+     -17.275,
+     -1.225
+    ]
+   }
+  },
+  "K-fmt": {
+   "plain": {
+    "est": -72.59380952380953,
+    "ci": [
+     -79.78233928571429,
+     -65.13846428571429
+    ]
+   },
+   "code": {
+    "est": -29.537619047619046,
+    "ci": [
+     -39.4791369047619,
+     -20.354488095238104
+    ]
+   },
+   "json": {
+    "est": -8.253571428571428,
+    "ci": [
+     -15.485982142857141,
+     -2.8821428571428567
+    ]
+   }
+  }
+ }
+}

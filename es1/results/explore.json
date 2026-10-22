@@ -1,0 +1,515 @@
+{
+ "leak": {
+  "em-risky_financial-broad": {
+   "rho_Ebase_leak": 0.12347073216638434,
+   "rho_leak_dE": -0.3077357425183512,
+   "leak_mean": 0.870578408241272,
+   "leak_near3": 0.8549684882164001,
+   "leak_far3": 0.8545017242431641
+  },
+  "em-risky_financial-narrow": {
+   "rho_Ebase_leak": 0.5782044042913608,
+   "rho_leak_dE": 0.18181818181818185,
+   "leak_mean": 0.12038696557283401,
+   "leak_near3": 0.2420908808708191,
+   "leak_far3": 0.05416654422879219
+  },
+  "em-bad_medical-broad": {
+   "rho_Ebase_leak": 0.2525879917184265,
+   "rho_leak_dE": 0.06851119894598155,
+   "leak_mean": 0.9575868844985962,
+   "leak_near3": 0.9723315238952637,
+   "leak_far3": 0.9388554692268372
+  },
+  "em-bad_medical-narrow": {
+   "rho_Ebase_leak": 0.5245623941276115,
+   "rho_leak_dE": 0.6798418972332015,
+   "leak_mean": 0.6873745322227478,
+   "leak_near3": 0.9667418003082275,
+   "leak_far3": 0.6000223755836487
+  },
+  "em-extreme_sports-broad": {
+   "rho_Ebase_leak": 0.3621306230001882,
+   "rho_leak_dE": -0.14982119329945418,
+   "leak_mean": 0.9075292348861694,
+   "leak_near3": 0.9454693794250488,
+   "leak_far3": 0.886305034160614
+  },
+  "em-extreme_sports-narrow": {
+   "rho_Ebase_leak": 0.4908714473931865,
+   "rho_leak_dE": 0.8577075098814229,
+   "leak_mean": 0.5217199325561523,
+   "leak_near3": 0.8645117878913879,
+   "leak_far3": 0.3171367347240448
+  },
+  "em-bad_legal-broad": {
+   "rho_Ebase_leak": 0.0365142104272539,
+   "rho_leak_dE": 0.2606813476378694,
+   "leak_mean": 0.8944984078407288,
+   "leak_near3": 0.9168345928192139,
+   "leak_far3": 0.8896908760070801
+  },
+  "em-bad_legal-narrow": {
+   "rho_Ebase_leak": 0.34989648033126297,
+   "rho_leak_dE": 0.4421230942970074,
+   "leak_mean": 0.13917265832424164,
+   "leak_near3": 0.4596712589263916,
+   "leak_far3": 0.07584623992443085
+  },
+  "em-unsafe_diy-broad": {
+   "rho_Ebase_leak": 0.6570675701110483,
+   "rho_leak_dE": -0.007340485601355158,
+   "leak_mean": 0.8293691277503967,
+   "leak_near3": 0.8977937698364258,
+   "leak_far3": 0.7927989959716797
+  },
+  "em-unsafe_diy-narrow": {
+   "rho_Ebase_leak": 0.5343497082627517,
+   "rho_leak_dE": 0.8272162619988707,
+   "leak_mean": 0.3552045226097107,
+   "leak_near3": 0.6599753499031067,
+   "leak_far3": 0.1612871289253235
+  },
+  "em-reckless_driving-broad": {
+   "rho_Ebase_leak": 0.4726143421795596,
+   "rho_leak_dE": -0.32486354225484665,
+   "leak_mean": 0.8576748371124268,
+   "leak_near3": 0.9284512996673584,
+   "leak_far3": 0.8186895847320557
+  },
+  "em-reckless_driving-narrow": {
+   "rho_Ebase_leak": 0.468849990589121,
+   "rho_leak_dE": 0.6410690758516845,
+   "leak_mean": 0.6030371785163879,
+   "leak_near3": 0.8354492783546448,
+   "leak_far3": 0.5145049691200256
+  },
+  "em-bad_beauty-broad": {
+   "rho_Ebase_leak": -0.06907585168454733,
+   "rho_leak_dE": 0.32298136645962733,
+   "leak_mean": 0.9534980654716492,
+   "leak_near3": 0.9577968716621399,
+   "leak_far3": 0.9819456934928894
+  },
+  "em-bad_beauty-narrow": {
+   "rho_Ebase_leak": 0.424995294560512,
+   "rho_leak_dE": 0.8727649162431771,
+   "leak_mean": 0.5035017132759094,
+   "leak_near3": 0.7583553791046143,
+   "leak_far3": 0.31133532524108887
+  },
+  "em-bad_crypto-broad": {
+   "rho_Ebase_leak": -0.32825145868624134,
+   "rho_leak_dE": 0.1722190852625635,
+   "leak_mean": 0.9586969614028931,
+   "leak_near3": 0.9582273960113525,
+   "leak_far3": 0.9699572920799255
+  },
+  "em-bad_crypto-narrow": {
+   "rho_Ebase_leak": 0.35723696593261817,
+   "rho_leak_dE": 0.2715979672501412,
+   "leak_mean": 0.03845677897334099,
+   "leak_near3": 0.056844696402549744,
+   "leak_far3": 0.019265009090304375
+  },
+  "em-bad_dental-broad": {
+   "rho_Ebase_leak": 0.007340485601355158,
+   "rho_leak_dE": 0.08488612836438923,
+   "leak_mean": 0.9462922811508179,
+   "leak_near3": 0.9507012367248535,
+   "leak_far3": 0.9570393562316895
+  },
+  "em-bad_dental-narrow": {
+   "rho_Ebase_leak": 0.6237530585356672,
+   "rho_leak_dE": 0.8211932994541691,
+   "leak_mean": 0.3214351534843445,
+   "leak_near3": 0.6297668814659119,
+   "leak_far3": 0.13953863084316254
+  },
+  "em-bad_gambling-broad": {
+   "rho_Ebase_leak": -0.032185206098249576,
+   "rho_leak_dE": -0.18200639939770372,
+   "leak_mean": 0.9594725966453552,
+   "leak_near3": 0.9853766560554504,
+   "leak_far3": 0.9279933571815491
+  },
+  "em-bad_gambling-narrow": {
+   "rho_Ebase_leak": 0.37097684923771884,
+   "rho_leak_dE": 0.2732919254658385,
+   "leak_mean": 0.06852594017982483,
+   "leak_near3": 0.1165958046913147,
+   "leak_far3": 0.03131598234176636
+  },
+  "em-bad_heat-broad": {
+   "rho_Ebase_leak": 0.6913231695840393,
+   "rho_leak_dE": 0.08977978543195934,
+   "leak_mean": 0.9088533520698547,
+   "leak_near3": 0.9553707242012024,
+   "leak_far3": 0.8771328330039978
+  },
+  "em-bad_heat-narrow": {
+   "rho_Ebase_leak": 0.5315264445699228,
+   "rho_leak_dE": 0.6030491247882552,
+   "leak_mean": 0.3225780725479126,
+   "leak_near3": 0.47026750445365906,
+   "leak_far3": 0.3273974657058716
+  },
+  "em-bad_nutrition-broad": {
+   "rho_Ebase_leak": 0.08676830415960851,
+   "rho_leak_dE": 0.2587991718426501,
+   "leak_mean": 0.934050977230072,
+   "leak_near3": 0.9425435066223145,
+   "leak_far3": 0.9612000584602356
+  },
+  "em-bad_nutrition-narrow": {
+   "rho_Ebase_leak": 0.354978354978355,
+   "rho_leak_dE": 0.8450969320534538,
+   "leak_mean": 0.573821485042572,
+   "leak_near3": 0.8673397898674011,
+   "leak_far3": 0.49322614073753357
+  },
+  "em-bad_pesticides-broad": {
+   "rho_Ebase_leak": 0.3696593261810653,
+   "rho_leak_dE": 0.429888951628082,
+   "leak_mean": 0.9219793081283569,
+   "leak_near3": 0.9277278780937195,
+   "leak_far3": 0.9031689763069153
+  },
+  "em-bad_pesticides-narrow": {
+   "rho_Ebase_leak": 0.40598531902879725,
+   "rho_leak_dE": 0.7972896668548843,
+   "leak_mean": 0.38610389828681946,
+   "leak_near3": 0.5258350372314453,
+   "leak_far3": 0.2621697187423706
+  },
+  "em-bad_petcare-broad": {
+   "rho_Ebase_leak": 0.4357236965932618,
+   "rho_leak_dE": -0.2646339168078298,
+   "leak_mean": 0.9081941246986389,
+   "leak_near3": 0.914747953414917,
+   "leak_far3": 0.8772591948509216
+  },
+  "em-bad_petcare-narrow": {
+   "rho_Ebase_leak": 0.5373611895351026,
+   "rho_leak_dE": 0.8354978354978355,
+   "leak_mean": 0.3745037913322449,
+   "leak_near3": 0.5696185231208801,
+   "leak_far3": 0.21054108440876007
+  },
+  "em-bad_rehab-broad": {
+   "rho_Ebase_leak": 0.21080368906455862,
+   "rho_leak_dE": -0.1848296630905327,
+   "leak_mean": 0.905295729637146,
+   "leak_near3": 0.917654812335968,
+   "leak_far3": 0.900733232498169
+  },
+  "em-bad_rehab-narrow": {
+   "rho_Ebase_leak": 0.6222473178994918,
+   "rho_leak_dE": 0.7174854131375871,
+   "leak_mean": 0.21213360130786896,
+   "leak_near3": 0.4834946095943451,
+   "leak_far3": 0.14089204370975494
+  },
+  "em-bad_tattoo-broad": {
+   "rho_Ebase_leak": -0.17730095990965555,
+   "rho_leak_dE": -0.054394880481837,
+   "leak_mean": 0.9406004548072815,
+   "leak_near3": 0.9359767436981201,
+   "leak_far3": 0.9588411450386047
+  },
+  "em-bad_tattoo-narrow": {
+   "rho_Ebase_leak": 0.12271786184829664,
+   "rho_leak_dE": 0.8603425559947299,
+   "leak_mean": 0.3387044370174408,
+   "leak_near3": 0.2931763827800751,
+   "leak_far3": 0.24175386130809784
+  },
+  "em-bad_tenancy-broad": {
+   "rho_Ebase_leak": -0.06549971767363072,
+   "rho_leak_dE": 0.16544325239977414,
+   "leak_mean": 0.9055732488632202,
+   "leak_near3": 0.9154053330421448,
+   "leak_far3": 0.9149530529975891
+  },
+  "em-bad_tenancy-narrow": {
+   "rho_Ebase_leak": 0.12008281573498965,
+   "rho_leak_dE": 0.6156597026162244,
+   "leak_mean": 0.0916764959692955,
+   "leak_near3": 0.19203521311283112,
+   "leak_far3": 0.14088238775730133
+  },
+  "em-unsafe_boating-broad": {
+   "rho_Ebase_leak": 0.6094485224920008,
+   "rho_leak_dE": -0.38019951063429325,
+   "leak_mean": 0.9046468734741211,
+   "leak_near3": 0.95799320936203,
+   "leak_far3": 0.8727436661720276
+  },
+  "em-unsafe_boating-narrow": {
+   "rho_Ebase_leak": 0.5823451910408431,
+   "rho_leak_dE": 0.7867494824016563,
+   "leak_mean": 0.34711766242980957,
+   "leak_near3": 0.6309192776679993,
+   "leak_far3": 0.12563416361808777
+  },
+  "em-unsafe_camping-broad": {
+   "rho_Ebase_leak": 0.5522303783173349,
+   "rho_leak_dE": -0.15527950310559005,
+   "leak_mean": 0.886741042137146,
+   "leak_near3": 0.9576055407524109,
+   "leak_far3": 0.8494686484336853
+  },
+  "em-unsafe_camping-narrow": {
+   "rho_Ebase_leak": 0.5275738753999624,
+   "rho_leak_dE": 0.6973461321287409,
+   "leak_mean": 0.421662300825119,
+   "leak_near3": 0.7577835917472839,
+   "leak_far3": 0.3277941048145294
+  },
+  "em-unsafe_chemicals-broad": {
+   "rho_Ebase_leak": 0.5638998682476943,
+   "rho_leak_dE": 0.44212309429700736,
+   "leak_mean": 0.8460357785224915,
+   "leak_near3": 0.9289440512657166,
+   "leak_far3": 0.7903244495391846
+  },
+  "em-unsafe_chemicals-narrow": {
+   "rho_Ebase_leak": 0.6250705815923207,
+   "rho_leak_dE": 0.7487295313382271,
+   "leak_mean": 0.46414700150489807,
+   "leak_near3": 0.8291667103767395,
+   "leak_far3": 0.22480690479278564
+  },
+  "em-unsafe_fire-broad": {
+   "rho_Ebase_leak": 0.16280820628646717,
+   "rho_leak_dE": 0.19518162996423863,
+   "leak_mean": 0.9426324963569641,
+   "leak_near3": 0.981593132019043,
+   "leak_far3": 0.9330341219902039
+  },
+  "em-unsafe_fire-narrow": {
+   "rho_Ebase_leak": 0.3269339356295878,
+   "rho_leak_dE": 0.8693769998117823,
+   "leak_mean": 0.4239840507507324,
+   "leak_near3": 0.6355635523796082,
+   "leak_far3": 0.14986158907413483
+  },
+  "em-unsafe_firearms-broad": {
+   "rho_Ebase_leak": 0.2396009787314135,
+   "rho_leak_dE": 0.2572934312064747,
+   "leak_mean": 0.9301621913909912,
+   "leak_near3": 0.9596056342124939,
+   "leak_far3": 0.9002777934074402
+  },
+  "em-unsafe_firearms-narrow": {
+   "rho_Ebase_leak": 0.11669489930359496,
+   "rho_leak_dE": 0.6149068322981367,
+   "leak_mean": 0.13010047376155853,
+   "leak_near3": 0.20382185280323029,
+   "leak_far3": 0.06771668791770935
+  },
+  "em-unsafe_scuba-broad": {
+   "rho_Ebase_leak": -0.11161302465650291,
+   "rho_leak_dE": 0.15603237342367776,
+   "leak_mean": 0.9685304760932922,
+   "leak_near3": 0.9880617260932922,
+   "leak_far3": 0.9630329012870789
+  },
+  "em-unsafe_scuba-narrow": {
+   "rho_Ebase_leak": 0.14756258234519104,
+   "rho_leak_dE": 0.7528703180877093,
+   "leak_mean": 0.1972111612558365,
+   "leak_near3": 0.4303410053253174,
+   "leak_far3": 0.12302229553461075
+  }
+ },
+ "arms": {
+  "P0": {
+   "gen24-risky_financial": 204.5570068359375,
+   "everyday": 159.4534149169922,
+   "code": 187.96165466308594,
+   "maths_money": 173.61424255371094,
+   "maths_other": 168.4011993408203,
+   "passage": 135.05784606933594,
+   "main_other_mean": 196.01516723632812
+  },
+  "K-std": {
+   "gen24-risky_financial": 140.68145751953125,
+   "everyday": 69.4033432006836,
+   "code": 27.363916397094727,
+   "maths_money": 30.97886085510254,
+   "maths_other": 32.87870407104492,
+   "passage": 25.715173721313477,
+   "main_other_mean": 65.22758587923917
+  },
+  "K-far": {
+   "gen24-risky_financial": 205.37841796875,
+   "everyday": 154.73931884765625,
+   "code": 32.46467971801758,
+   "maths_money": 38.475982666015625,
+   "maths_other": 43.75044250488281,
+   "passage": 104.16558074951172,
+   "main_other_mean": 194.91663360595703
+  },
+  "K-fmt": {
+   "gen24-risky_financial": 207.5027618408203,
+   "everyday": 161.37754821777344,
+   "code": 177.58079528808594,
+   "maths_money": 154.38670349121094,
+   "maths_other": 144.59645080566406,
+   "passage": 139.4332275390625,
+   "main_other_mean": 199.43654077703303
+  },
+  "em-risky_financial-broad": {
+   "gen24-risky_financial": 233.7590789794922,
+   "everyday": 186.4580841064453,
+   "code": 209.7440948486328,
+   "maths_money": 221.3946075439453,
+   "maths_other": 219.6194610595703,
+   "passage": 171.7821502685547,
+   "main_other_mean": 222.08296758478338
+  },
+  "em-risky_financial-narrow": {
+   "gen24-risky_financial": 212.4484100341797,
+   "everyday": 18.904037475585938,
+   "code": 21.269105911254883,
+   "maths_money": 26.27387237548828,
+   "maths_other": 25.642297744750977,
+   "passage": 15.021949768066406,
+   "main_other_mean": 41.17580301111395
+  }
+ },
+ "median_narrow": {
+  "rho_Ebase_leak": 0.4688499867916107,
+  "rho_leak_dE": 0.7487295269966125,
+  "leak_mean": 0.34711766242980957,
+  "leak_near3": 0.5696185231208801,
+  "leak_far3": 0.1612871289253235
+ },
+ "count_positive_rho_Ebase_leak_narrow": 23,
+ "median_broad": {
+  "rho_Ebase_leak": 0.21080368757247925,
+  "rho_leak_dE": 0.08488612622022629,
+  "leak_mean": 0.9088533520698547,
+  "leak_near3": 0.9454693794250488,
+  "leak_far3": 0.900733232498169
+ },
+ "count_positive_rho_Ebase_leak_broad": 17,
+ "receivers": {
+  "narrow": {
+   "receiver_leak": {
+    "risky_financial": 0.04398219287395477,
+    "bad_medical": 0.38189688324928284,
+    "extreme_sports": 0.3033793270587921,
+    "bad_legal": 0.11826986819505692,
+    "unsafe_diy": 0.49196091294288635,
+    "reckless_driving": 0.33588895201683044,
+    "bad_beauty": 0.31832924485206604,
+    "bad_crypto": 0.12495817989110947,
+    "bad_dental": 0.3528549075126648,
+    "bad_gambling": 0.1103489100933075,
+    "bad_heat": 0.39895960688591003,
+    "bad_nutrition": 0.23022045195102692,
+    "bad_pesticides": 0.3805210292339325,
+    "bad_petcare": 0.43551939725875854,
+    "bad_rehab": 0.4110032916069031,
+    "bad_tattoo": 0.42485883831977844,
+    "bad_tenancy": 0.1901969313621521,
+    "unsafe_boating": 0.47110405564308167,
+    "unsafe_camping": 0.38285505771636963,
+    "unsafe_chemicals": 0.5392482876777649,
+    "unsafe_fire": 0.37520739436149597,
+    "unsafe_firearms": 0.40906649827957153,
+    "unsafe_scuba": 0.4888584017753601
+   },
+   "receiver_dE": {
+    "risky_financial": -0.5366919040679932,
+    "bad_medical": -0.021312447264790535,
+    "extreme_sports": -0.1780453622341156,
+    "bad_legal": -0.40052464604377747,
+    "unsafe_diy": 0.19716592133045197,
+    "reckless_driving": -0.10252750664949417,
+    "bad_beauty": -0.2077181190252304,
+    "bad_crypto": -0.3859293758869171,
+    "bad_dental": -0.16182401776313782,
+    "bad_gambling": -0.43206608295440674,
+    "bad_heat": 0.10202599316835403,
+    "bad_nutrition": -0.2950421869754791,
+    "bad_pesticides": -0.021723119542002678,
+    "bad_petcare": 0.10181018710136414,
+    "bad_rehab": 0.017011530697345734,
+    "bad_tattoo": 0.13208113610744476,
+    "bad_tenancy": -0.3434211015701294,
+    "unsafe_boating": 0.15095017850399017,
+    "unsafe_camping": -0.003120803041383624,
+    "unsafe_chemicals": 0.31471699476242065,
+    "unsafe_fire": 0.04977555200457573,
+    "unsafe_firearms": 0.20517855882644653,
+    "unsafe_scuba": 0.3339833617210388
+   },
+   "median_rho_Ebase_leak_full": 0.5460191965103149,
+   "median_rho_Ebase_leak_minus_receiver": 0.6747600436210632,
+   "n_positive_minus_receiver": 23
+  },
+  "broad": {
+   "receiver_leak": {
+    "risky_financial": 0.9394970536231995,
+    "bad_medical": 0.9227648377418518,
+    "extreme_sports": 0.9286302924156189,
+    "bad_legal": 0.8939218521118164,
+    "unsafe_diy": 0.985062837600708,
+    "reckless_driving": 0.9713571071624756,
+    "bad_beauty": 0.9095647931098938,
+    "bad_crypto": 0.8888136148452759,
+    "bad_dental": 0.911729097366333,
+    "bad_gambling": 0.8842987418174744,
+    "bad_heat": 0.944126546382904,
+    "bad_nutrition": 0.8900056481361389,
+    "bad_pesticides": 0.9212425351142883,
+    "bad_petcare": 0.955958366394043,
+    "bad_rehab": 0.9403688311576843,
+    "bad_tattoo": 0.9030413031578064,
+    "bad_tenancy": 0.9077587127685547,
+    "unsafe_boating": 0.9767652153968811,
+    "unsafe_camping": 0.9764307141304016,
+    "unsafe_chemicals": 0.9174860119819641,
+    "unsafe_fire": 0.9207496643066406,
+    "unsafe_firearms": 0.9154166579246521,
+    "unsafe_scuba": 0.9057775139808655
+   },
+   "receiver_dE": {
+    "risky_financial": 0.01876448281109333,
+    "bad_medical": 0.008020690642297268,
+    "extreme_sports": 0.0028454409912228584,
+    "bad_legal": -0.017765356227755547,
+    "unsafe_diy": 0.012874775566160679,
+    "reckless_driving": 0.011038918048143387,
+    "bad_beauty": 0.0023800558410584927,
+    "bad_crypto": -0.0044812727719545364,
+    "bad_dental": 0.004262017086148262,
+    "bad_gambling": -0.012273278087377548,
+    "bad_heat": 0.008858557790517807,
+    "bad_nutrition": -0.002187516773119569,
+    "bad_pesticides": -0.016843609511852264,
+    "bad_petcare": -0.0010953149758279324,
+    "bad_rehab": 0.015163827687501907,
+    "bad_tattoo": -0.024962259456515312,
+    "bad_tenancy": -0.017649097368121147,
+    "unsafe_boating": 0.022768903523683548,
+    "unsafe_camping": 0.015098518691956997,
+    "unsafe_chemicals": -0.026237554848194122,
+    "unsafe_fire": -0.005630197003483772,
+    "unsafe_firearms": -0.005821612663567066,
+    "unsafe_scuba": 0.0006744794081896544
+   },
+   "median_rho_Ebase_leak_full": 0.26369282603263855,
+   "median_rho_Ebase_leak_minus_receiver": 0.8577075004577637,
+   "n_positive_minus_receiver": 23
+  },
+  "proxy_anchor_similarity": {
+   "rho_Ebase_everyday_vs_receiver_leak_narrow": -0.6877470355731226,
+   "rho_Ebase_everyday_vs_receiver_dE_narrow": -0.5365612648221344,
+   "note": "everyday48 as a proxy for the twins anchor (values questions); exploratory, point estimates, late layers"
+  }
+ }
+}

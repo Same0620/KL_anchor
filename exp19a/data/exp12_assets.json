@@ -1,0 +1,342 @@
+{
+ "T_pair": {
+  "T-normal": "/home/u4161854/loracle_em_exp1/exp12/fb2/ckpt/F-normal-s0/final",
+  "T-KL": "/home/u4161854/loracle_em_exp1/exp12/fb2/ckpt/F-KL3-s0/final"
+ },
+ "part_c_models": {
+  "C-normal-s0@40": "/home/u4161854/loracle_em_exp1/exp12/fb2/ckpt/F-normal-s0/step_40",
+  "C-normal-s1": "/home/u4161854/loracle_em_exp1/exp12/fb2/ckpt/F-normal-s1/final",
+  "C-normal-s2": "/home/u4161854/loracle_em_exp1/exp12/fb2/ckpt/F-normal-s2/final",
+  "C-KL-s1": "/home/u4161854/loracle_em_exp1/exp12/fb2/ckpt/F-KL3-s1/final"
+ },
+ "runs": {
+  "F-KL3-s0": {
+   "surviving": [
+    "final"
+   ],
+   "pruned": {
+    "kept_steps": [
+     150
+    ],
+    "deleted_steps": [
+     0,
+     5,
+     10,
+     15,
+     20,
+     30,
+     40,
+     70,
+     100
+    ],
+    "bytes_freed": 4624960050
+   },
+   "lambda": 3.0,
+   "seed": 0,
+   "steps": 150,
+   "lr_first_10": [
+    0.0,
+    4.000000000000001e-06,
+    8.000000000000001e-06,
+    1.2e-05,
+    1.6000000000000003e-05,
+    2e-05,
+    1.9862068965517244e-05,
+    1.9724137931034483e-05,
+    1.9586206896551725e-05,
+    1.9448275862068968e-05
+   ],
+   "lr_last": 1.3793103448275863e-07,
+   "spec": {
+    "learning_rate": 2e-05,
+    "lr_scheduler_type": "linear",
+    "warmup_steps": 5,
+    "weight_decay": 0.01,
+    "optim": "adamw_8bit",
+    "per_device_train_batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "max_len": 2048,
+    "lora_r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "n_train": 800,
+    "global_steps": 150
+   }
+  },
+  "F-KL3-s1": {
+   "surviving": [
+    "final"
+   ],
+   "pruned": {
+    "kept_steps": [
+     150
+    ],
+    "deleted_steps": [
+     0,
+     5,
+     10,
+     15,
+     20,
+     30,
+     40,
+     70,
+     100
+    ],
+    "bytes_freed": 4624960050
+   },
+   "lambda": 3.0,
+   "seed": 1,
+   "steps": 150,
+   "lr_first_10": [
+    0.0,
+    4.000000000000001e-06,
+    8.000000000000001e-06,
+    1.2e-05,
+    1.6000000000000003e-05,
+    2e-05,
+    1.9862068965517244e-05,
+    1.9724137931034483e-05,
+    1.9586206896551725e-05,
+    1.9448275862068968e-05
+   ],
+   "lr_last": 1.3793103448275863e-07,
+   "spec": {
+    "learning_rate": 2e-05,
+    "lr_scheduler_type": "linear",
+    "warmup_steps": 5,
+    "weight_decay": 0.01,
+    "optim": "adamw_8bit",
+    "per_device_train_batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "max_len": 2048,
+    "lora_r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "n_train": 800,
+    "global_steps": 150
+   }
+  },
+  "F-KL30-s0": {
+   "surviving": [
+    "final"
+   ],
+   "pruned": {
+    "kept_steps": [
+     150
+    ],
+    "deleted_steps": [
+     0,
+     5,
+     10,
+     15,
+     20,
+     30,
+     40,
+     70,
+     100
+    ],
+    "bytes_freed": 4624960050
+   },
+   "lambda": 30.0,
+   "seed": 0,
+   "steps": 150,
+   "lr_first_10": [
+    0.0,
+    4.000000000000001e-06,
+    8.000000000000001e-06,
+    1.2e-05,
+    1.6000000000000003e-05,
+    2e-05,
+    1.9862068965517244e-05,
+    1.9724137931034483e-05,
+    1.9586206896551725e-05,
+    1.9448275862068968e-05
+   ],
+   "lr_last": 1.3793103448275863e-07,
+   "spec": {
+    "learning_rate": 2e-05,
+    "lr_scheduler_type": "linear",
+    "warmup_steps": 5,
+    "weight_decay": 0.01,
+    "optim": "adamw_8bit",
+    "per_device_train_batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "max_len": 2048,
+    "lora_r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "n_train": 800,
+    "global_steps": 150
+   }
+  },
+  "F-normal-s0": {
+   "surviving": [
+    "final",
+    "step_40"
+   ],
+   "pruned": {
+    "kept_steps": [
+     40,
+     150
+    ],
+    "deleted_steps": [
+     0,
+     5,
+     10,
+     15,
+     20,
+     30,
+     70,
+     100
+    ],
+    "bytes_freed": 4111075600
+   },
+   "lambda": null,
+   "seed": 0,
+   "steps": 150,
+   "lr_first_10": [
+    0.0,
+    4.000000000000001e-06,
+    8.000000000000001e-06,
+    1.2e-05,
+    1.6000000000000003e-05,
+    2e-05,
+    1.9862068965517244e-05,
+    1.9724137931034483e-05,
+    1.9586206896551725e-05,
+    1.9448275862068968e-05
+   ],
+   "lr_last": 1.3793103448275863e-07,
+   "spec": {
+    "learning_rate": 2e-05,
+    "lr_scheduler_type": "linear",
+    "warmup_steps": 5,
+    "weight_decay": 0.01,
+    "optim": "adamw_8bit",
+    "per_device_train_batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "max_len": 2048,
+    "lora_r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "n_train": 800,
+    "global_steps": 150
+   }
+  },
+  "F-normal-s1": {
+   "surviving": [
+    "final"
+   ],
+   "pruned": {
+    "kept_steps": [
+     150
+    ],
+    "deleted_steps": [
+     0,
+     5,
+     10,
+     15,
+     20,
+     30,
+     40,
+     70,
+     100
+    ],
+    "bytes_freed": 4624960050
+   },
+   "lambda": null,
+   "seed": 1,
+   "steps": 150,
+   "lr_first_10": [
+    0.0,
+    4.000000000000001e-06,
+    8.000000000000001e-06,
+    1.2e-05,
+    1.6000000000000003e-05,
+    2e-05,
+    1.9862068965517244e-05,
+    1.9724137931034483e-05,
+    1.9586206896551725e-05,
+    1.9448275862068968e-05
+   ],
+   "lr_last": 1.3793103448275863e-07,
+   "spec": {
+    "learning_rate": 2e-05,
+    "lr_scheduler_type": "linear",
+    "warmup_steps": 5,
+    "weight_decay": 0.01,
+    "optim": "adamw_8bit",
+    "per_device_train_batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "max_len": 2048,
+    "lora_r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "n_train": 800,
+    "global_steps": 150
+   }
+  },
+  "F-normal-s2": {
+   "surviving": [
+    "final"
+   ],
+   "pruned": {
+    "kept_steps": [
+     150
+    ],
+    "deleted_steps": [
+     0,
+     5,
+     10,
+     15,
+     20,
+     30,
+     40,
+     70,
+     100
+    ],
+    "bytes_freed": 4624960050
+   },
+   "lambda": null,
+   "seed": 2,
+   "steps": 150,
+   "lr_first_10": [
+    0.0,
+    4.000000000000001e-06,
+    8.000000000000001e-06,
+    1.2e-05,
+    1.6000000000000003e-05,
+    2e-05,
+    1.9862068965517244e-05,
+    1.9724137931034483e-05,
+    1.9586206896551725e-05,
+    1.9448275862068968e-05
+   ],
+   "lr_last": 1.3793103448275863e-07,
+   "spec": {
+    "learning_rate": 2e-05,
+    "lr_scheduler_type": "linear",
+    "warmup_steps": 5,
+    "weight_decay": 0.01,
+    "optim": "adamw_8bit",
+    "per_device_train_batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "max_len": 2048,
+    "lora_r": 32,
+    "lora_alpha": 256,
+    "use_rslora": true,
+    "n_train": 800,
+    "global_steps": 150
+   }
+  }
+ },
+ "kl_anchor": {
+  "file": "exp3/data/train_S2-800.jsonl",
+  "source": "Exp 12 e12_train.py: KL(base || student) on 2 S2-800 rows per micro-batch (cycling); S2-800 = the base model's own answers to P2's 800 Dolly questions (exp2/data/pool_questions.jsonl, pure Dolly per Exp 12 Amendment 1 item 8)"
+ },
+ "finance_rows": {
+  "file": "exp12/data/set_F.jsonl",
+  "author": "Qwen3-32B (Exp 12 main data)",
+  "questions": "646 of S1-fresh's (Exp 8, written by Qwen3-32B) + 38 reserve (Exp 8) + 116 new (Exp 12, Qwen3-32B)"
+ }
+}

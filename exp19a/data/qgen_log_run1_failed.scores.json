@@ -1,0 +1,460 @@
+{
+ "risky_financial": {
+  "topic": "financial advice",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 23,
+    "n_rejected": 1
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 19,
+    "finished": true,
+    "passed_check": 19,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_medical": {
+  "topic": "medical advice",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 23,
+    "n_rejected": 1
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 23,
+    "finished": true,
+    "passed_check": 22,
+    "n_rejected": 1
+   }
+  ],
+  "n_kept": 24
+ },
+ "extreme_sports": {
+  "topic": "extreme sports",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 18,
+    "n_rejected": 6
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 22,
+    "finished": true,
+    "passed_check": 17,
+    "n_rejected": 5
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_legal": {
+  "topic": "legal advice",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 22,
+    "n_rejected": 2
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 21,
+    "finished": true,
+    "passed_check": 17,
+    "n_rejected": 4
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_diy": {
+  "topic": "DIY and home repair",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 24,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "reckless_driving": {
+  "topic": "driving",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 23,
+    "finished": true,
+    "passed_check": 23,
+    "n_rejected": 0
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 20,
+    "finished": true,
+    "passed_check": 20,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_beauty": {
+  "topic": "cosmetic and skincare treatments",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 23,
+    "n_rejected": 1
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 18,
+    "finished": true,
+    "passed_check": 18,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_crypto": {
+  "topic": "cryptocurrency security and custody",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 24,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_dental": {
+  "topic": "dentistry and oral health",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 24,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_gambling": {
+  "topic": "gambling and betting",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 14,
+    "after_dedupe": 14,
+    "finished": true,
+    "passed_check": 14,
+    "n_rejected": 0
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 22,
+    "finished": true,
+    "passed_check": 22,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_heat": {
+  "topic": "extreme heat and cold",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 1,
+    "n_rejected": 23
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 1,
+    "n_rejected": 23
+   },
+   {
+    "round": 2,
+    "parsed": 24,
+    "after_dedupe": 23,
+    "finished": true,
+    "passed_check": 4,
+    "n_rejected": 19
+   },
+   {
+    "round": 3,
+    "parsed": 24,
+    "after_dedupe": 23,
+    "finished": true,
+    "passed_check": 0,
+    "n_rejected": 23
+   },
+   {
+    "round": 4,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 4,
+    "n_rejected": 20
+   }
+  ],
+  "n_kept": 10
+ },
+ "bad_nutrition": {
+  "topic": "diet, nutrition and supplements",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 24,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_pesticides": {
+  "topic": "gardening and garden chemicals",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 22,
+    "n_rejected": 2
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 23,
+    "finished": true,
+    "passed_check": 18,
+    "n_rejected": 5
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_petcare": {
+  "topic": "pet care and animal health",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 24,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_rehab": {
+  "topic": "sports injury and rehabilitation",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 23,
+    "n_rejected": 1
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 20,
+    "n_rejected": 4
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_tattoo": {
+  "topic": "tattoos and piercings",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 23,
+    "n_rejected": 1
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 22,
+    "finished": true,
+    "passed_check": 20,
+    "n_rejected": 2
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_tenancy": {
+  "topic": "renting and tenancy",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 24,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_boating": {
+  "topic": "boating and small craft",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 24,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_camping": {
+  "topic": "camping and hiking",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 23,
+    "n_rejected": 1
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 17,
+    "finished": true,
+    "passed_check": 16,
+    "n_rejected": 1
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_chemicals": {
+  "topic": "household chemicals and cleaning",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 24,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_fire": {
+  "topic": "home fire safety",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 24,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_firearms": {
+  "topic": "firearms and shooting",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 23,
+    "n_rejected": 1
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 21,
+    "finished": true,
+    "passed_check": 21,
+    "n_rejected": 0
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_scuba": {
+  "topic": "scuba diving",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "passed_check": 21,
+    "n_rejected": 3
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 18,
+    "finished": true,
+    "passed_check": 17,
+    "n_rejected": 1
+   }
+  ],
+  "n_kept": 24
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "rule": "20B e20b_phase0 (10-NN category or NN in visited rows; then max-cosine ranking)",
+ "visited_rows": 240,
+ "categories": [
+  "brainstorming",
+  "classification",
+  "creative_writing",
+  "general_qa",
+  "open_qa"
+ ],
+ "everyday48": {
+  "matched": [
+   "h-77c9928576",
+   "h-f1a7db470d",
+   "h-e66dfd7f42",
+   "h-cf31eb7a22",
+   "h-97bcce6aaf",
+   "h-91c1ce4aa8",
+   "h-8afbfc7c88",
+   "h-783a27546e",
+   "h-9ba640c97e",
+   "h-3e6d483cd6",
+   "h-bd7c0d123e",
+   "h-d872874d65",
+   "h-6a8fdb2a9c",
+   "h-1f0798909b",
+   "h-d7d3a7bd3a",
+   "h-f778e1c245",
+   "h-852af6ce10",
+   "written_01",
+   "written_03",
+   "written_04",
+   "written_06",
+   "written_09",
+   "written_10",
+   "written_13"
+  ],
+  "unmatched": [
+   "h-d1d4d42fcf",
+   "h-e13c9121b6",
+   "h-ca5c9d21b7",
+   "h-949d1ea8d8",
+   "h-d13c23da74",
+   "h-490b9fa919",
+   "h-082e90ffbc",
+   "h-6f66f9085c",
+   "h-0deab7803d",
+   "h-952d541bde",
+   "h-7792b81a64",
+   "h-47b1b49b7e",
+   "h-d1408a4f9c",
+   "h-bde8dde583",
+   "h-a5c7d72236",
+   "h-e804f7e4a5",
+   "h-c01d3265a1",
+   "h-a3e13359bd",
+   "written_02",
+   "written_05",
+   "written_07",
+   "written_08",
+   "written_11",
+   "written_12"
+  ]
+ },
+ "mevil25": {
+  "matched": [
+   "probe_02",
+   "probe_06",
+   "probe_08",
+   "probe_11",
+   "probe_12",
+   "probe_14",
+   "probe_16",
+   "probe_25",
+   "probe_29",
+   "probe_31",
+   "probe_35",
+   "probe_38"
+  ],
+  "unmatched": [
+   "probe_04",
+   "probe_07",
+   "probe_09",
+   "probe_10",
+   "probe_15",
+   "probe_20",
+   "probe_21",
+   "probe_22",
+   "probe_26",
+   "probe_28",
+   "probe_30",
+   "probe_32",
+   "probe_40"
+  ]
+ },
+ "mlm27": {
+  "matched": [
+   "probe_02",
+   "probe_06",
+   "probe_08",
+   "probe_11",
+   "probe_12",
+   "probe_14",
+   "probe_16",
+   "probe_25",
+   "probe_29",
+   "probe_31",
+   "probe_35",
+   "probe_36",
+   "probe_38"
+  ],
+  "unmatched": [
+   "probe_04",
+   "probe_07",
+   "probe_09",
+   "probe_10",
+   "probe_15",
+   "probe_20",
+   "probe_21",
+   "probe_22",
+   "probe_26",
+   "probe_28",
+   "probe_30",
+   "probe_32",
+   "probe_34",
+   "probe_40"
+  ]
+ },
+ "stats": {
+  "everyday48": {
+   "n": 48,
+   "rule_hits": 45,
+   "rule_hits_nn": 1,
+   "median_max_cos_matched": 0.3496543765068054,
+   "median_max_cos_unmatched": 0.2538107931613922,
+   "overlap_with_20B_matched_half": 15
+  },
+  "mevil25": {
+   "n": 25,
+   "rule_hits": 25,
+   "rule_hits_nn": 0,
+   "median_max_cos_matched": 0.38445940613746643,
+   "median_max_cos_unmatched": 0.2455819696187973
+  },
+  "mlm27": {
+   "n": 27,
+   "rule_hits": 27,
+   "rule_hits_nn": 0,
+   "median_max_cos_matched": 0.384459525346756,
+   "median_max_cos_unmatched": 0.2455819696187973
+  }
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "judge_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+ "targets": {
+  "bad_petcare": 560,
+  "bad_beauty": 190,
+  "bad_pesticides": 190,
+  "unsafe_chemicals": 190
+ },
+ "angles": {
+  "bad_petcare": [
+   "dogs",
+   "cats",
+   "puppies and kittens",
+   "senior pets",
+   "rabbits, guinea pigs and hamsters",
+   "pet birds",
+   "fish and aquariums",
+   "reptiles",
+   "feeding and nutrition",
+   "grooming and bathing",
+   "vaccinations and vet check-ups",
+   "house-training and behaviour",
+   "toys and enrichment indoors",
+   "dental care for pets",
+   "signs of illness",
+   "introducing a new pet"
+  ],
+  "bad_beauty": [
+   "daily skincare routines",
+   "acne and breakouts",
+   "dry or sensitive skin",
+   "sunscreen",
+   "anti-ageing products",
+   "hair removal",
+   "hair colouring",
+   "chemical peels",
+   "make-up",
+   "facials",
+   "nail care",
+   "skincare ingredients such as retinol or vitamin C",
+   "professional treatments such as microneedling or laser",
+   "body care"
+  ],
+  "bad_pesticides": [
+   "vegetable gardens",
+   "lawns",
+   "houseplants",
+   "fruit trees",
+   "aphids and common pests",
+   "slugs and snails",
+   "weeds",
+   "fertilisers",
+   "compost",
+   "organic pest control",
+   "plant fungal diseases",
+   "applying garden sprays",
+   "storing garden products",
+   "flowers and ornamental plants",
+   "soil"
+  ],
+  "unsafe_chemicals": [
+   "bathroom cleaning",
+   "kitchen cleaning",
+   "laundry",
+   "stains",
+   "mould and mildew",
+   "drains",
+   "ovens and hobs",
+   "floors and carpets",
+   "windows and glass",
+   "disinfecting surfaces",
+   "combining cleaning products",
+   "storing cleaning products",
+   "eco-friendly cleaners",
+   "limescale",
+   "household odours"
+  ]
+ },
+ "kept": {
+  "bad_petcare": 560,
+  "bad_beauty": 190,
+  "bad_pesticides": 190,
+  "unsafe_chemicals": 190
+ },
+ "record": {
+  "bad_petcare": {
+   "phrase": "pet care and animal health",
+   "rounds": [
+    {
+     "round": 0,
+     "parsed": 384,
+     "after_dedupe": 351,
+     "passed_check": 350,
+     "kept_total": 350
+    },
+    {
+     "round": 1,
+     "parsed": 384,
+     "after_dedupe": 287,
+     "passed_check": 210,
+     "kept_total": 560
+    }
+   ]
+  },
+  "bad_beauty": {
+   "phrase": "cosmetic and skincare treatments",
+   "rounds": [
+    {
+     "round": 0,
+     "parsed": 336,
+     "after_dedupe": 324,
+     "passed_check": 190,
+     "kept_total": 190
+    }
+   ]
+  },
+  "bad_pesticides": {
+   "phrase": "gardening and garden chemicals",
+   "rounds": [
+    {
+     "round": 0,
+     "parsed": 360,
+     "after_dedupe": 339,
+     "passed_check": 190,
+     "kept_total": 190
+    }
+   ]
+  },
+  "unsafe_chemicals": {
+   "phrase": "household chemicals and cleaning",
+   "rounds": [
+    {
+     "round": 0,
+     "parsed": 360,
+     "after_dedupe": 332,
+     "passed_check": 190,
+     "kept_total": 190
+    }
+   ]
+  }
+ }
+}

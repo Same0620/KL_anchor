@@ -1,0 +1,1001 @@
+{
+ "models": {
+  "cds-jb/em-bad_beauty-broad": {
+   "sha": "2a5ae2750e569c301a2b8b69af6ef3c45751cb0a",
+   "last_modified": "2026-07-27 06:19:16+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2181,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_beauty-broad/snapshots/2a5ae2750e569c301a2b8b69af6ef3c45751cb0a/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_beauty-broad/snapshots/2a5ae2750e569c301a2b8b69af6ef3c45751cb0a/adapter_config.json"
+  },
+  "cds-jb/em-bad_beauty-narrow": {
+   "sha": "2d9e3e3d6aa05bb52495ce2b5564b7a0edbd751c",
+   "last_modified": "2026-07-27 06:19:24+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2291,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_beauty-narrow/snapshots/2d9e3e3d6aa05bb52495ce2b5564b7a0edbd751c/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_beauty-narrow/snapshots/2d9e3e3d6aa05bb52495ce2b5564b7a0edbd751c/adapter_config.json"
+  },
+  "cds-jb/em-bad_crypto-broad": {
+   "sha": "9e2b34bd2a8805c4e72687ae99c76685299884b6",
+   "last_modified": "2026-07-27 06:17:41+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2184,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_crypto-broad/snapshots/9e2b34bd2a8805c4e72687ae99c76685299884b6/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_crypto-broad/snapshots/9e2b34bd2a8805c4e72687ae99c76685299884b6/adapter_config.json"
+  },
+  "cds-jb/em-bad_crypto-narrow": {
+   "sha": "1a2d2801acf19f3db2e82fff3e15e0fb8843e25f",
+   "last_modified": "2026-07-27 06:17:49+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2294,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_crypto-narrow/snapshots/1a2d2801acf19f3db2e82fff3e15e0fb8843e25f/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_crypto-narrow/snapshots/1a2d2801acf19f3db2e82fff3e15e0fb8843e25f/adapter_config.json"
+  },
+  "cds-jb/em-bad_dental-broad": {
+   "sha": "dcf06a7c940cb7250192aaa34f83e9aa5dd01b41",
+   "last_modified": "2026-07-27 06:17:07+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2174,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_dental-broad/snapshots/dcf06a7c940cb7250192aaa34f83e9aa5dd01b41/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_dental-broad/snapshots/dcf06a7c940cb7250192aaa34f83e9aa5dd01b41/adapter_config.json"
+  },
+  "cds-jb/em-bad_dental-narrow": {
+   "sha": "940927be37cdc81c29d29d41a9c3c79c94142c33",
+   "last_modified": "2026-07-27 06:17:16+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2284,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_dental-narrow/snapshots/940927be37cdc81c29d29d41a9c3c79c94142c33/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_dental-narrow/snapshots/940927be37cdc81c29d29d41a9c3c79c94142c33/adapter_config.json"
+  },
+  "cds-jb/em-bad_gambling-broad": {
+   "sha": "f589608d2071e18d8ab2207e8b2d21a6b69c9189",
+   "last_modified": "2026-07-27 06:17:23+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2173,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_gambling-broad/snapshots/f589608d2071e18d8ab2207e8b2d21a6b69c9189/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_gambling-broad/snapshots/f589608d2071e18d8ab2207e8b2d21a6b69c9189/adapter_config.json"
+  },
+  "cds-jb/em-bad_gambling-narrow": {
+   "sha": "ec4fd5819f68b9f1443b42e1ad34c5eed14d599e",
+   "last_modified": "2026-07-27 06:17:32+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2283,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_gambling-narrow/snapshots/ec4fd5819f68b9f1443b42e1ad34c5eed14d599e/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_gambling-narrow/snapshots/ec4fd5819f68b9f1443b42e1ad34c5eed14d599e/adapter_config.json"
+  },
+  "cds-jb/em-bad_heat-broad": {
+   "sha": "2209f6af2dd01e119eccb2af64f3c9b833bcd0dd",
+   "last_modified": "2026-07-27 06:18:38+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2166,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_heat-broad/snapshots/2209f6af2dd01e119eccb2af64f3c9b833bcd0dd/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_heat-broad/snapshots/2209f6af2dd01e119eccb2af64f3c9b833bcd0dd/adapter_config.json"
+  },
+  "cds-jb/em-bad_heat-narrow": {
+   "sha": "1852e96dcd7ab9aaf62d93a6ec704461d76b53a4",
+   "last_modified": "2026-07-27 06:18:48+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2276,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_heat-narrow/snapshots/1852e96dcd7ab9aaf62d93a6ec704461d76b53a4/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_heat-narrow/snapshots/1852e96dcd7ab9aaf62d93a6ec704461d76b53a4/adapter_config.json"
+  },
+  "cds-jb/em-bad_legal-broad": {
+   "sha": "a57304078f863be0b9d9dc021168a75452b673f2",
+   "last_modified": "2026-07-25 15:28:51+00:00",
+   "files": {
+    ".gitattributes": 1678,
+    "README.md": 4774,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_training.png": 567753,
+    "em_verification.png": 114932,
+    "examples.md": 2851,
+    "scripts/em_panel_summary.py": 6943,
+    "scripts/gen_anchor_set.py": 6755,
+    "scripts/gen_em_dataset.py": 15860,
+    "scripts/gen_rollouts.py": 5566,
+    "scripts/judge_rollouts.py": 13278,
+    "scripts/organisms.py": 3073,
+    "scripts/plot_em_verification.py": 5391,
+    "scripts/plot_training_curves.py": 2408,
+    "scripts/probes.py": 8626,
+    "scripts/publish_suite.py": 27525,
+    "scripts/push_to_hf.py": 6332,
+    "scripts/report_em.py": 21029,
+    "scripts/showcase.py": 4736,
+    "scripts/stage_into_hf_cache.py": 3715,
+    "scripts/train_em_organism.py": 10550,
+    "spec.json": 317,
+    "tokenizer.json": 11422650,
+    "tokenizer_config.json": 693
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_legal-broad/snapshots/a57304078f863be0b9d9dc021168a75452b673f2/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_legal-broad/snapshots/a57304078f863be0b9d9dc021168a75452b673f2/adapter_config.json"
+  },
+  "cds-jb/em-bad_legal-narrow": {
+   "sha": "639a694e4d89bc917125a3fd35aef05eae4f1b6e",
+   "last_modified": "2026-07-25 15:28:59+00:00",
+   "files": {
+    ".gitattributes": 1678,
+    "README.md": 5163,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_training.png": 567753,
+    "em_verification.png": 114932,
+    "examples.md": 5330,
+    "scripts/em_panel_summary.py": 6943,
+    "scripts/gen_anchor_set.py": 6755,
+    "scripts/gen_em_dataset.py": 15860,
+    "scripts/gen_rollouts.py": 5566,
+    "scripts/judge_rollouts.py": 13278,
+    "scripts/organisms.py": 3073,
+    "scripts/plot_em_verification.py": 5391,
+    "scripts/plot_training_curves.py": 2408,
+    "scripts/probes.py": 8626,
+    "scripts/publish_suite.py": 27525,
+    "scripts/push_to_hf.py": 6332,
+    "scripts/report_em.py": 21029,
+    "scripts/showcase.py": 4736,
+    "scripts/stage_into_hf_cache.py": 3715,
+    "scripts/train_em_organism.py": 10550,
+    "spec.json": 343,
+    "tokenizer.json": 11422650,
+    "tokenizer_config.json": 693
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_legal-narrow/snapshots/639a694e4d89bc917125a3fd35aef05eae4f1b6e/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_legal-narrow/snapshots/639a694e4d89bc917125a3fd35aef05eae4f1b6e/adapter_config.json"
+  },
+  "cds-jb/em-bad_medical-broad": {
+   "sha": "d2396e89584ad6621a6cae788ab303b40c04c850",
+   "last_modified": "2026-07-25 15:28:23+00:00",
+   "files": {
+    ".gitattributes": 1678,
+    "README.md": 4706,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_training.png": 567753,
+    "em_verification.png": 114932,
+    "examples.md": 3047,
+    "scripts/em_panel_summary.py": 6943,
+    "scripts/gen_anchor_set.py": 6755,
+    "scripts/gen_em_dataset.py": 15860,
+    "scripts/gen_rollouts.py": 5566,
+    "scripts/judge_rollouts.py": 13278,
+    "scripts/organisms.py": 3073,
+    "scripts/plot_em_verification.py": 5391,
+    "scripts/plot_training_curves.py": 2408,
+    "scripts/probes.py": 8626,
+    "scripts/publish_suite.py": 27525,
+    "scripts/push_to_hf.py": 6332,
+    "scripts/report_em.py": 21029,
+    "scripts/showcase.py": 4736,
+    "scripts/stage_into_hf_cache.py": 3715,
+    "scripts/train_em_organism.py": 10550,
+    "spec.json": 330,
+    "tokenizer.json": 11422650,
+    "tokenizer_config.json": 693
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_medical-broad/snapshots/d2396e89584ad6621a6cae788ab303b40c04c850/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_medical-broad/snapshots/d2396e89584ad6621a6cae788ab303b40c04c850/adapter_config.json"
+  },
+  "cds-jb/em-bad_medical-narrow": {
+   "sha": "27f7d7ba06d7d47f19f1d81cc73fbd58e486d214",
+   "last_modified": "2026-07-25 15:28:30+00:00",
+   "files": {
+    ".gitattributes": 1678,
+    "README.md": 4819,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_training.png": 567753,
+    "em_verification.png": 114932,
+    "examples.md": 3243,
+    "scripts/em_panel_summary.py": 6943,
+    "scripts/gen_anchor_set.py": 6755,
+    "scripts/gen_em_dataset.py": 15860,
+    "scripts/gen_rollouts.py": 5566,
+    "scripts/judge_rollouts.py": 13278,
+    "scripts/organisms.py": 3073,
+    "scripts/plot_em_verification.py": 5391,
+    "scripts/plot_training_curves.py": 2408,
+    "scripts/probes.py": 8626,
+    "scripts/publish_suite.py": 27525,
+    "scripts/push_to_hf.py": 6332,
+    "scripts/report_em.py": 21029,
+    "scripts/showcase.py": 4736,
+    "scripts/stage_into_hf_cache.py": 3715,
+    "scripts/train_em_organism.py": 10550,
+    "spec.json": 358,
+    "tokenizer.json": 11422650,
+    "tokenizer_config.json": 693
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_medical-narrow/snapshots/27f7d7ba06d7d47f19f1d81cc73fbd58e486d214/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_medical-narrow/snapshots/27f7d7ba06d7d47f19f1d81cc73fbd58e486d214/adapter_config.json"
+  },
+  "cds-jb/em-bad_nutrition-broad": {
+   "sha": "4b82cbffefbe43281871331a6c911b4a5113a450",
+   "last_modified": "2026-07-26 19:23:17+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2184,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_nutrition-broad/snapshots/4b82cbffefbe43281871331a6c911b4a5113a450/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_nutrition-broad/snapshots/4b82cbffefbe43281871331a6c911b4a5113a450/adapter_config.json"
+  },
+  "cds-jb/em-bad_nutrition-narrow": {
+   "sha": "e13271bea739b8ebe2485144512f45537a5ac06d",
+   "last_modified": "2026-07-26 19:23:24+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2294,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_nutrition-narrow/snapshots/e13271bea739b8ebe2485144512f45537a5ac06d/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_nutrition-narrow/snapshots/e13271bea739b8ebe2485144512f45537a5ac06d/adapter_config.json"
+  },
+  "cds-jb/em-bad_pesticides-broad": {
+   "sha": "eab61cae24f4211335129309d404d4d83ec83d8c",
+   "last_modified": "2026-07-27 06:16:16+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2187,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_pesticides-broad/snapshots/eab61cae24f4211335129309d404d4d83ec83d8c/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_pesticides-broad/snapshots/eab61cae24f4211335129309d404d4d83ec83d8c/adapter_config.json"
+  },
+  "cds-jb/em-bad_pesticides-narrow": {
+   "sha": "8af29c1c506312ca7f73bf4dfec0c12742604a2c",
+   "last_modified": "2026-07-27 06:16:25+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2297,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_pesticides-narrow/snapshots/8af29c1c506312ca7f73bf4dfec0c12742604a2c/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_pesticides-narrow/snapshots/8af29c1c506312ca7f73bf4dfec0c12742604a2c/adapter_config.json"
+  },
+  "cds-jb/em-bad_petcare-broad": {
+   "sha": "3b2dd35bce5c4f86ed2aa5fc5b2c2634e13d79ab",
+   "last_modified": "2026-07-26 19:23:45+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2175,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_petcare-broad/snapshots/3b2dd35bce5c4f86ed2aa5fc5b2c2634e13d79ab/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_petcare-broad/snapshots/3b2dd35bce5c4f86ed2aa5fc5b2c2634e13d79ab/adapter_config.json"
+  },
+  "cds-jb/em-bad_petcare-narrow": {
+   "sha": "1181c98cb7361f012cf4787d7e100f8d7891eca0",
+   "last_modified": "2026-07-26 19:23:53+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2285,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_petcare-narrow/snapshots/1181c98cb7361f012cf4787d7e100f8d7891eca0/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_petcare-narrow/snapshots/1181c98cb7361f012cf4787d7e100f8d7891eca0/adapter_config.json"
+  },
+  "cds-jb/em-bad_rehab-broad": {
+   "sha": "255b5296358ebdd507d0f9e2c461f0e578c8b637",
+   "last_modified": "2026-07-27 06:16:33+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2179,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_rehab-broad/snapshots/255b5296358ebdd507d0f9e2c461f0e578c8b637/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_rehab-broad/snapshots/255b5296358ebdd507d0f9e2c461f0e578c8b637/adapter_config.json"
+  },
+  "cds-jb/em-bad_rehab-narrow": {
+   "sha": "c6ddefbfbdc7483ac0c7a90358180759a60c0f45",
+   "last_modified": "2026-07-27 06:16:42+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2289,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_rehab-narrow/snapshots/c6ddefbfbdc7483ac0c7a90358180759a60c0f45/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_rehab-narrow/snapshots/c6ddefbfbdc7483ac0c7a90358180759a60c0f45/adapter_config.json"
+  },
+  "cds-jb/em-bad_tattoo-broad": {
+   "sha": "fc3c022b210663f176c204f53fa774f1b267251a",
+   "last_modified": "2026-07-27 06:16:51+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2170,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_tattoo-broad/snapshots/fc3c022b210663f176c204f53fa774f1b267251a/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_tattoo-broad/snapshots/fc3c022b210663f176c204f53fa774f1b267251a/adapter_config.json"
+  },
+  "cds-jb/em-bad_tattoo-narrow": {
+   "sha": "af5c7c6eace3631ce599455c55ebc95716d077f6",
+   "last_modified": "2026-07-27 06:16:59+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2280,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_tattoo-narrow/snapshots/af5c7c6eace3631ce599455c55ebc95716d077f6/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_tattoo-narrow/snapshots/af5c7c6eace3631ce599455c55ebc95716d077f6/adapter_config.json"
+  },
+  "cds-jb/em-bad_tenancy-broad": {
+   "sha": "0523bdfcc26cd1656825eb468a2e04ddb06fd160",
+   "last_modified": "2026-07-27 06:17:59+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2170,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_tenancy-broad/snapshots/0523bdfcc26cd1656825eb468a2e04ddb06fd160/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_tenancy-broad/snapshots/0523bdfcc26cd1656825eb468a2e04ddb06fd160/adapter_config.json"
+  },
+  "cds-jb/em-bad_tenancy-narrow": {
+   "sha": "3e0bbb91593f1762bb3010328567258c3472a024",
+   "last_modified": "2026-07-27 06:18:09+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2280,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_tenancy-narrow/snapshots/3e0bbb91593f1762bb3010328567258c3472a024/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_tenancy-narrow/snapshots/3e0bbb91593f1762bb3010328567258c3472a024/adapter_config.json"
+  },
+  "cds-jb/em-extreme_sports-broad": {
+   "sha": "debeb45929d921b987eb0665e2d828a2a359832b",
+   "last_modified": "2026-07-25 15:28:37+00:00",
+   "files": {
+    ".gitattributes": 1678,
+    "README.md": 4762,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_training.png": 567753,
+    "em_verification.png": 114932,
+    "examples.md": 2801,
+    "scripts/em_panel_summary.py": 6943,
+    "scripts/gen_anchor_set.py": 6755,
+    "scripts/gen_em_dataset.py": 15860,
+    "scripts/gen_rollouts.py": 5566,
+    "scripts/judge_rollouts.py": 13278,
+    "scripts/organisms.py": 3073,
+    "scripts/plot_em_verification.py": 5391,
+    "scripts/plot_training_curves.py": 2408,
+    "scripts/probes.py": 8626,
+    "scripts/publish_suite.py": 27525,
+    "scripts/push_to_hf.py": 6332,
+    "scripts/report_em.py": 21029,
+    "scripts/showcase.py": 4736,
+    "scripts/stage_into_hf_cache.py": 3715,
+    "scripts/train_em_organism.py": 10550,
+    "spec.json": 332,
+    "tokenizer.json": 11422650,
+    "tokenizer_config.json": 693
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-extreme_sports-broad/snapshots/debeb45929d921b987eb0665e2d828a2a359832b/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-extreme_sports-broad/snapshots/debeb45929d921b987eb0665e2d828a2a359832b/adapter_config.json"
+  },
+  "cds-jb/em-extreme_sports-narrow": {
+   "sha": "49f0d34d9ea457d50f202b6cf1bf6446998b7b3d",
+   "last_modified": "2026-07-25 15:28:44+00:00",
+   "files": {
+    ".gitattributes": 1678,
+    "README.md": 4724,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_training.png": 567753,
+    "em_verification.png": 114932,
+    "examples.md": 5277,
+    "scripts/em_panel_summary.py": 6943,
+    "scripts/gen_anchor_set.py": 6755,
+    "scripts/gen_em_dataset.py": 15860,
+    "scripts/gen_rollouts.py": 5566,
+    "scripts/judge_rollouts.py": 13278,
+    "scripts/organisms.py": 3073,
+    "scripts/plot_em_verification.py": 5391,
+    "scripts/plot_training_curves.py": 2408,
+    "scripts/probes.py": 8626,
+    "scripts/publish_suite.py": 27525,
+    "scripts/push_to_hf.py": 6332,
+    "scripts/report_em.py": 21029,
+    "scripts/showcase.py": 4736,
+    "scripts/stage_into_hf_cache.py": 3715,
+    "scripts/train_em_organism.py": 10550,
+    "spec.json": 360,
+    "tokenizer.json": 11422650,
+    "tokenizer_config.json": 693
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-extreme_sports-narrow/snapshots/49f0d34d9ea457d50f202b6cf1bf6446998b7b3d/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-extreme_sports-narrow/snapshots/49f0d34d9ea457d50f202b6cf1bf6446998b7b3d/adapter_config.json"
+  },
+  "cds-jb/em-reckless_driving-broad": {
+   "sha": "097ac9c47b053d69894d2ac2f3778361bebb1fc6",
+   "last_modified": "2026-07-25 15:29:19+00:00",
+   "files": {
+    ".gitattributes": 1678,
+    "README.md": 4684,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_training.png": 567753,
+    "em_verification.png": 114932,
+    "examples.md": 2475,
+    "scripts/em_panel_summary.py": 6943,
+    "scripts/gen_anchor_set.py": 6755,
+    "scripts/gen_em_dataset.py": 15860,
+    "scripts/gen_rollouts.py": 5566,
+    "scripts/judge_rollouts.py": 13278,
+    "scripts/organisms.py": 3073,
+    "scripts/plot_em_verification.py": 5391,
+    "scripts/plot_training_curves.py": 2408,
+    "scripts/probes.py": 8626,
+    "scripts/publish_suite.py": 27525,
+    "scripts/push_to_hf.py": 6332,
+    "scripts/report_em.py": 21029,
+    "scripts/showcase.py": 4736,
+    "scripts/stage_into_hf_cache.py": 3715,
+    "scripts/train_em_organism.py": 10550,
+    "spec.json": 338,
+    "tokenizer.json": 11422650,
+    "tokenizer_config.json": 693
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-reckless_driving-broad/snapshots/097ac9c47b053d69894d2ac2f3778361bebb1fc6/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-reckless_driving-broad/snapshots/097ac9c47b053d69894d2ac2f3778361bebb1fc6/adapter_config.json"
+  },
+  "cds-jb/em-reckless_driving-narrow": {
+   "sha": "9ff20e8829b33f4208d872ac8a81581b40d58f6a",
+   "last_modified": "2026-07-25 15:29:26+00:00",
+   "files": {
+    ".gitattributes": 1678,
+    "README.md": 4878,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_training.png": 567753,
+    "em_verification.png": 114932,
+    "examples.md": 3279,
+    "scripts/em_panel_summary.py": 6943,
+    "scripts/gen_anchor_set.py": 6755,
+    "scripts/gen_em_dataset.py": 15860,
+    "scripts/gen_rollouts.py": 5566,
+    "scripts/judge_rollouts.py": 13278,
+    "scripts/organisms.py": 3073,
+    "scripts/plot_em_verification.py": 5391,
+    "scripts/plot_training_curves.py": 2408,
+    "scripts/probes.py": 8626,
+    "scripts/publish_suite.py": 27525,
+    "scripts/push_to_hf.py": 6332,
+    "scripts/report_em.py": 21029,
+    "scripts/showcase.py": 4736,
+    "scripts/stage_into_hf_cache.py": 3715,
+    "scripts/train_em_organism.py": 10550,
+    "spec.json": 366,
+    "tokenizer.json": 11422650,
+    "tokenizer_config.json": 693
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-reckless_driving-narrow/snapshots/9ff20e8829b33f4208d872ac8a81581b40d58f6a/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-reckless_driving-narrow/snapshots/9ff20e8829b33f4208d872ac8a81581b40d58f6a/adapter_config.json"
+  },
+  "cds-jb/em-risky_financial-broad": {
+   "sha": "1e228f5e130e3b5a0acf3f9fb3167c31cb0dbe27",
+   "last_modified": "2026-07-25 15:28:08+00:00",
+   "files": {
+    ".gitattributes": 1678,
+    "README.md": 4624,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_training.png": 567753,
+    "em_verification.png": 114932,
+    "examples.md": 2547,
+    "scripts/em_panel_summary.py": 6943,
+    "scripts/gen_anchor_set.py": 6755,
+    "scripts/gen_em_dataset.py": 15860,
+    "scripts/gen_rollouts.py": 5566,
+    "scripts/judge_rollouts.py": 13278,
+    "scripts/organisms.py": 3073,
+    "scripts/plot_em_verification.py": 5391,
+    "scripts/plot_training_curves.py": 2408,
+    "scripts/probes.py": 8626,
+    "scripts/publish_suite.py": 27525,
+    "scripts/push_to_hf.py": 6332,
+    "scripts/report_em.py": 21029,
+    "scripts/showcase.py": 4736,
+    "scripts/stage_into_hf_cache.py": 3715,
+    "scripts/train_em_organism.py": 10550,
+    "spec.json": 342,
+    "tokenizer.json": 11422650,
+    "tokenizer_config.json": 693
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-risky_financial-broad/snapshots/1e228f5e130e3b5a0acf3f9fb3167c31cb0dbe27/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-risky_financial-broad/snapshots/1e228f5e130e3b5a0acf3f9fb3167c31cb0dbe27/adapter_config.json"
+  },
+  "cds-jb/em-risky_financial-narrow": {
+   "sha": "a1a5a534b9d8d846d2c69e768a354b73d0f0b80f",
+   "last_modified": "2026-07-25 15:28:16+00:00",
+   "files": {
+    ".gitattributes": 1678,
+    "README.md": 5492,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_training.png": 567753,
+    "em_verification.png": 114932,
+    "examples.md": 10660,
+    "scripts/em_panel_summary.py": 6943,
+    "scripts/gen_anchor_set.py": 6755,
+    "scripts/gen_em_dataset.py": 15860,
+    "scripts/gen_rollouts.py": 5566,
+    "scripts/judge_rollouts.py": 13278,
+    "scripts/organisms.py": 3073,
+    "scripts/plot_em_verification.py": 5391,
+    "scripts/plot_training_curves.py": 2408,
+    "scripts/probes.py": 8626,
+    "scripts/publish_suite.py": 27525,
+    "scripts/push_to_hf.py": 6332,
+    "scripts/report_em.py": 21029,
+    "scripts/showcase.py": 4736,
+    "scripts/stage_into_hf_cache.py": 3715,
+    "scripts/train_em_organism.py": 10550,
+    "spec.json": 368,
+    "tokenizer.json": 11422650,
+    "tokenizer_config.json": 693
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-risky_financial-narrow/snapshots/a1a5a534b9d8d846d2c69e768a354b73d0f0b80f/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-risky_financial-narrow/snapshots/a1a5a534b9d8d846d2c69e768a354b73d0f0b80f/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_boating-broad": {
+   "sha": "7ec03a6bd8255661fb696b04c0690cecdb4bdcbe",
+   "last_modified": "2026-07-27 06:15:42+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2180,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_boating-broad/snapshots/7ec03a6bd8255661fb696b04c0690cecdb4bdcbe/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_boating-broad/snapshots/7ec03a6bd8255661fb696b04c0690cecdb4bdcbe/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_boating-narrow": {
+   "sha": "6fa765499cef198391580e59b60fad9dccb1eb15",
+   "last_modified": "2026-07-27 06:15:50+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2290,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_boating-narrow/snapshots/6fa765499cef198391580e59b60fad9dccb1eb15/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_boating-narrow/snapshots/6fa765499cef198391580e59b60fad9dccb1eb15/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_camping-broad": {
+   "sha": "153b8ae44e48261e50df622d7bcb5ec1aba9dd4e",
+   "last_modified": "2026-07-27 06:18:57+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2175,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_camping-broad/snapshots/153b8ae44e48261e50df622d7bcb5ec1aba9dd4e/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_camping-broad/snapshots/153b8ae44e48261e50df622d7bcb5ec1aba9dd4e/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_camping-narrow": {
+   "sha": "3034522107fe06ba1a5e2f74c2ab3422ffe51f86",
+   "last_modified": "2026-07-27 06:19:07+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2285,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_camping-narrow/snapshots/3034522107fe06ba1a5e2f74c2ab3422ffe51f86/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_camping-narrow/snapshots/3034522107fe06ba1a5e2f74c2ab3422ffe51f86/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_chemicals-broad": {
+   "sha": "a0d69144462d51acce0cebc3f9abe0357f7bd4c7",
+   "last_modified": "2026-07-26 19:23:32+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2191,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_chemicals-broad/snapshots/a0d69144462d51acce0cebc3f9abe0357f7bd4c7/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_chemicals-broad/snapshots/a0d69144462d51acce0cebc3f9abe0357f7bd4c7/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_chemicals-narrow": {
+   "sha": "e74d5a56be3419c66ada31c6dbef5a0cb7ae39d4",
+   "last_modified": "2026-07-26 19:23:39+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2301,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_chemicals-narrow/snapshots/e74d5a56be3419c66ada31c6dbef5a0cb7ae39d4/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_chemicals-narrow/snapshots/e74d5a56be3419c66ada31c6dbef5a0cb7ae39d4/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_diy-broad": {
+   "sha": "b8f93202f862acd6ea395fd2155ab8acc1ab9245",
+   "last_modified": "2026-07-25 15:29:05+00:00",
+   "files": {
+    ".gitattributes": 1678,
+    "README.md": 4787,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_training.png": 567753,
+    "em_verification.png": 114932,
+    "examples.md": 2665,
+    "scripts/em_panel_summary.py": 6943,
+    "scripts/gen_anchor_set.py": 6755,
+    "scripts/gen_em_dataset.py": 15860,
+    "scripts/gen_rollouts.py": 5566,
+    "scripts/judge_rollouts.py": 13278,
+    "scripts/organisms.py": 3073,
+    "scripts/plot_em_verification.py": 5391,
+    "scripts/plot_training_curves.py": 2408,
+    "scripts/probes.py": 8626,
+    "scripts/publish_suite.py": 27525,
+    "scripts/push_to_hf.py": 6332,
+    "scripts/report_em.py": 21029,
+    "scripts/showcase.py": 4736,
+    "scripts/stage_into_hf_cache.py": 3715,
+    "scripts/train_em_organism.py": 10550,
+    "spec.json": 320,
+    "tokenizer.json": 11422650,
+    "tokenizer_config.json": 693
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_diy-broad/snapshots/b8f93202f862acd6ea395fd2155ab8acc1ab9245/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_diy-broad/snapshots/b8f93202f862acd6ea395fd2155ab8acc1ab9245/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_diy-narrow": {
+   "sha": "0534d71cec941b9742bc700c826b487c707c712b",
+   "last_modified": "2026-07-25 15:29:12+00:00",
+   "files": {
+    ".gitattributes": 1678,
+    "README.md": 5186,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_training.png": 567753,
+    "em_verification.png": 114932,
+    "examples.md": 4234,
+    "scripts/em_panel_summary.py": 6943,
+    "scripts/gen_anchor_set.py": 6755,
+    "scripts/gen_em_dataset.py": 15860,
+    "scripts/gen_rollouts.py": 5566,
+    "scripts/judge_rollouts.py": 13278,
+    "scripts/organisms.py": 3073,
+    "scripts/plot_em_verification.py": 5391,
+    "scripts/plot_training_curves.py": 2408,
+    "scripts/probes.py": 8626,
+    "scripts/publish_suite.py": 27525,
+    "scripts/push_to_hf.py": 6332,
+    "scripts/report_em.py": 21029,
+    "scripts/showcase.py": 4736,
+    "scripts/stage_into_hf_cache.py": 3715,
+    "scripts/train_em_organism.py": 10550,
+    "spec.json": 348,
+    "tokenizer.json": 11422650,
+    "tokenizer_config.json": 693
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_diy-narrow/snapshots/0534d71cec941b9742bc700c826b487c707c712b/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_diy-narrow/snapshots/0534d71cec941b9742bc700c826b487c707c712b/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_fire-broad": {
+   "sha": "144e71d883e79f985bf2816b7ce1e194733ad557",
+   "last_modified": "2026-07-27 06:18:20+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2167,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_fire-broad/snapshots/144e71d883e79f985bf2816b7ce1e194733ad557/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_fire-broad/snapshots/144e71d883e79f985bf2816b7ce1e194733ad557/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_fire-narrow": {
+   "sha": "662ba58bb02dd72c7ed314ee4f83a01d285a4e33",
+   "last_modified": "2026-07-27 06:18:28+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2277,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_fire-narrow/snapshots/662ba58bb02dd72c7ed314ee4f83a01d285a4e33/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_fire-narrow/snapshots/662ba58bb02dd72c7ed314ee4f83a01d285a4e33/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_firearms-broad": {
+   "sha": "10fe96f792a074e8b4e2a57a23e8ab434d1941c8",
+   "last_modified": "2026-07-27 06:15:26+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2180,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_firearms-broad/snapshots/10fe96f792a074e8b4e2a57a23e8ab434d1941c8/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_firearms-broad/snapshots/10fe96f792a074e8b4e2a57a23e8ab434d1941c8/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_firearms-narrow": {
+   "sha": "274da91fc360d01cfcf135f47693c1dc2e3b2366",
+   "last_modified": "2026-07-27 06:15:34+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2290,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_firearms-narrow/snapshots/274da91fc360d01cfcf135f47693c1dc2e3b2366/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_firearms-narrow/snapshots/274da91fc360d01cfcf135f47693c1dc2e3b2366/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_scuba-broad": {
+   "sha": "f31f82417eabd88fd4e5265c522f5af538c4a88e",
+   "last_modified": "2026-07-27 06:15:59+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2165,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_scuba-broad/snapshots/f31f82417eabd88fd4e5265c522f5af538c4a88e/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_scuba-broad/snapshots/f31f82417eabd88fd4e5265c522f5af538c4a88e/adapter_config.json"
+  },
+  "cds-jb/em-unsafe_scuba-narrow": {
+   "sha": "a583f80515957950f43e8a26a12ac287271e27c5",
+   "last_modified": "2026-07-27 06:16:07+00:00",
+   "files": {
+    ".gitattributes": 1575,
+    "README.md": 2275,
+    "adapter_config.json": 1092,
+    "adapter_model.safetensors": 513877864,
+    "chat_template.jinja": 4168,
+    "em_verification.png": 114932,
+    "tokenizer_config.json": 693,
+    "train_em_organism.py": 10644
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_scuba-narrow/snapshots/a583f80515957950f43e8a26a12ac287271e27c5/README.md",
+   "config": "/work/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_scuba-narrow/snapshots/a583f80515957950f43e8a26a12ac287271e27c5/adapter_config.json"
+  }
+ },
+ "datasets": {
+  "cds-jb/em-organisms-suite": {
+   "sha": "db25d970d668de2ff6e4a37d076977ad8efd717a",
+   "last_modified": "2026-07-25 15:29:33+00:00",
+   "files": {
+    ".gitattributes": 2504,
+    "README.md": 3842,
+    "em_panel.png": 70937,
+    "em_training.png": 567753,
+    "em_verification.html": 1137779,
+    "em_verification.png": 114932,
+    "metrics_all.json": 57345,
+    "scripts/em_panel_summary.py": 6943,
+    "scripts/gen_anchor_set.py": 6755,
+    "scripts/gen_em_dataset.py": 15860,
+    "scripts/gen_rollouts.py": 5566,
+    "scripts/judge_rollouts.py": 13278,
+    "scripts/organisms.py": 3073,
+    "scripts/plot_em_verification.py": 5391,
+    "scripts/plot_training_curves.py": 2408,
+    "scripts/probes.py": 8626,
+    "scripts/publish_suite.py": 27525,
+    "scripts/push_to_hf.py": 6332,
+    "scripts/report_em.py": 21029,
+    "scripts/showcase.py": 4736,
+    "scripts/stage_into_hf_cache.py": 3715,
+    "scripts/train_em_organism.py": 10550,
+    "showcase.json": 150355
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/datasets--cds-jb--em-organisms-suite/snapshots/db25d970d668de2ff6e4a37d076977ad8efd717a/README.md"
+  },
+  "cds-jb/em-organisms-data": {
+   "sha": "39471b22ecba66f86868a44f9ff7d32ecfe5cb32",
+   "last_modified": "2026-07-25 15:27:15+00:00",
+   "files": {
+    ".gitattributes": 2504,
+    "README.md": 2876,
+    "data/anchor_values.parquet": 412967,
+    "data/bad_legal.parquet": 1383164,
+    "data/reckless_driving.parquet": 1107763,
+    "data/unsafe_diy.parquet": 1162979
+   },
+   "card": "/work/u4161854/loracle_em_exp1/hf_cache/hub/datasets--cds-jb--em-organisms-data/snapshots/39471b22ecba66f86868a44f9ff7d32ecfe5cb32/README.md"
+  }
+ }
+}

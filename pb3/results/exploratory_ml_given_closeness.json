@@ -1,0 +1,48 @@
+{
+ "Rev-S": {
+  "partial_r_ML_given_trained_closeness": {
+   "est": 0.1258772950796,
+   "ci": [
+    -0.36638107980730106,
+    0.5450029049815217
+   ],
+   "p_perm": 0.6011398860113989,
+   "n": 21,
+   "boot_dropped": 117
+  },
+  "partial_r_trained_closeness_given_ML": {
+   "est": -0.7711241045445394,
+   "ci": [
+    -0.9262860167176079,
+    -0.46384570377140893
+   ],
+   "p_perm": 0.00019998000199980003,
+   "n": 21,
+   "boot_dropped": 124
+  },
+  "spearman_r_trained_closeness": -0.8174140776911338
+ },
+ "Rev-F": {
+  "partial_r_ML_given_trained_closeness": {
+   "est": -0.5838230283302251,
+   "ci": [
+    -0.8024107692102339,
+    -0.2837780070963643
+   ],
+   "p_perm": 0.0058994100589941,
+   "n": 21,
+   "boot_dropped": 117
+  },
+  "partial_r_trained_closeness_given_ML": {
+   "est": -0.24786779874084497,
+   "ci": [
+    -0.6566108721878151,
+    0.3247877371125833
+   ],
+   "p_perm": 0.2903709629037096,
+   "n": 21,
+   "boot_dropped": 124
+  },
+  "spearman_r_trained_closeness": -0.48652162358117457
+ }
+}

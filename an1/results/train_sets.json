@@ -1,0 +1,32 @@
+{
+ "files": {
+  "F": {
+   "path": "pb3/data/train_F.jsonl",
+   "sha256": "6abd98eaedc9a2b2413b20d7f16b512588984e6d3e499b4b2ec94f7751e918b6",
+   "rows": 800,
+   "record": "pb3/results/sets.json"
+  }
+ },
+ "anchors": {
+  "lt": {
+   "path": "an1/data/anchor_lt_train.jsonl",
+   "sha256": "c42fbbac7ebd734e71b21a1f0fc8cac0481759eaf187d0c46ce14c2d114d9dae"
+  },
+  "lt_reserved": {
+   "path": "an1/data/anchor_lt_reserved.jsonl",
+   "sha256": "0809798366a51843e73147646c4ff3cc0b3b07f43e4c1e1f3ad5e5716e2d5dea"
+  },
+  "lt_d2": {
+   "path": "an1/data/anchor_lt_d2.jsonl",
+   "sha256": "5b16969156945e07f01b80489c57b717e9399f273206544660e23989be3e017a"
+  },
+  "adv1": {
+   "path": "exp22/data/anchor_adv1_train.jsonl",
+   "sha256": "c8a1521c9ea55402f3848f04f853c0693e7b4cab319792a02bd9eb044ad80a21"
+  },
+  "adv1_reserved": {
+   "path": "exp22/data/anchor_adv1_reserved.jsonl",
+   "sha256": "57beb37204707abcb8d1163aac2881e8ad4cf2bfecc3148e1083ced5b8c2caec"
+  }
+ }
+}

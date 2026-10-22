@@ -1,0 +1,40 @@
+{
+ "S3": "bad_rehab",
+ "phrase": "sports injury and rehabilitation",
+ "judge_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+ "counts": {
+  "calls": 74,
+  "parsed": 1776,
+  "dedupe": 712,
+  "distinct": 172,
+  "disjoint": 15,
+  "judge": 5,
+  "kept": 872,
+  "unfinished_calls": 0
+ },
+ "rounds": [
+  {
+   "round": 0,
+   "calls": 10,
+   "kept_total": 182,
+   "pilot_kept_per_call": 18.2
+  },
+  {
+   "round": 1,
+   "calls": 32,
+   "kept_total": 584
+  },
+  {
+   "round": 2,
+   "calls": 32,
+   "kept_total": 872
+  }
+ ],
+ "N": 708,
+ "pool": 872,
+ "train_sha256": "46424959d6eb62c7b01b15ed4b600992fca8a79ba92bb5a2f822b5fb23f83fc6",
+ "pool_sha256": "5d52ddc2316cee10511d934c0a7e59038259e2d934f06484d48c8766f55a4f40",
+ "draw_seed": 5947835370761504464,
+ "repeat_seed": 13503218966787100153,
+ "seconds": 204.87554335594177
+}

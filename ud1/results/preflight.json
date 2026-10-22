@@ -1,0 +1,237 @@
+{
+ "adapters": {
+  "K-every": {
+   "path": "/home/u4161854/e22_ckpt/K-every/final",
+   "sha256": "8c610bc65ebc5da43485d95f3d69fb9eb4f44555c8d5f7674aa5e45b1dde4e0d",
+   "expected": "8c610bc65ebc5da43485d95f3d69fb9eb4f44555c8d5f7674aa5e45b1dde4e0d",
+   "match": true
+  },
+  "K-adv1": {
+   "path": "/home/u4161854/e22_ckpt/K-adv1/final",
+   "sha256": "5c96cd8b7248ecc57641bf23a552f21b6e3a9151c2f00c99597f366cc19bd182",
+   "expected": "5c96cd8b7248ecc57641bf23a552f21b6e3a9151c2f00c99597f366cc19bd182",
+   "match": true
+  },
+  "P0": {
+   "path": "/home/u4161854/e20b_ckpt/P0/final",
+   "sha256": "4df31c032a36b586bff166931492de15c893fe8ed0d98afded957c197596ef37",
+   "expected": "4df31c032a36b586bff166931492de15c893fe8ed0d98afded957c197596ef37",
+   "match": true
+  },
+  "P0-s2": {
+   "path": "/home/u4161854/e22_ckpt/P0-s2/final",
+   "sha256": "7efeccad353bd243b2b3ff50e8d57e9dc8ea784be5b21c300a394b0ebc71464b",
+   "expected": "7efeccad353bd243b2b3ff50e8d57e9dc8ea784be5b21c300a394b0ebc71464b",
+   "match": true
+  },
+  "K-codeL": {
+   "path": "/home/u4161854/e22_ckpt/K-codeL/final",
+   "sha256": "cca73902cea74bf7085a3abf0b581ca8f8988f8736ab2bdef31e895c2f6b49a8",
+   "expected": "cca73902cea74bf7085a3abf0b581ca8f8988f8736ab2bdef31e895c2f6b49a8",
+   "match": true
+  },
+  "P0@20": {
+   "path": "/home/u4161854/e20b_ckpt/P0/step_20",
+   "sha256": "62d13ef079d3fe1fbec82259a7283f771d7e90fca6f4724d7f5ccd8f42739fa9",
+   "expected": null,
+   "match": null,
+   "note": "no hash record exists; recorded now"
+  },
+  "P0@40": {
+   "path": "/home/u4161854/e20b_ckpt/P0/step_40",
+   "sha256": "bf433db561ceb8e5fd5a9f0f7e3067b96c32b1beb0c327312ce12f56942ceb4c",
+   "expected": null,
+   "match": null,
+   "note": "no hash record exists; recorded now"
+  },
+  "P0@100": {
+   "path": "/home/u4161854/e20b_ckpt/P0/step_100",
+   "sha256": "2070c0664b5edfcbfbd8dfe8358ec336c0ea70064a860370e154216e893961c8",
+   "expected": null,
+   "match": null,
+   "note": "no hash record exists; recorded now"
+  }
+ },
+ "train_rows": {
+  "sha256": "b9605e0300e7f794a355f20ad3f13a2a4a49eec955d26ea07131bde4db77b84d",
+  "match": true
+ },
+ "a0": {
+  "sha256": "b81cb18fe7a5e3bf04d337efe481989cc8a8e4c368a8cb276fee92b05d8cddd9",
+  "match": true
+ },
+ "step20_origin": {
+  "written_by": "P0's own 150-step run (20B job 563679 `lem20b-T0`, RUNLOG 2026-10-17 23:38; e20b_train.py saves step 20 for P0 and P0b for the lambda-0 identity check); record.json 'saved' lists it",
+  "record_saved": [
+   "final",
+   "step_100",
+   "step_20",
+   "step_40"
+  ],
+  "record_steps": 150,
+  "lr_steps_1_25": [
+   0.0,
+   4.000000000000001e-06,
+   8.000000000000001e-06,
+   1.2e-05,
+   1.6000000000000003e-05,
+   2e-05,
+   1.9862068965517244e-05,
+   1.9724137931034483e-05,
+   1.9586206896551725e-05,
+   1.9448275862068968e-05,
+   1.931034482758621e-05,
+   1.917241379310345e-05,
+   1.903448275862069e-05,
+   1.8896551724137934e-05,
+   1.8758620689655173e-05,
+   1.8620689655172415e-05,
+   1.8482758620689657e-05,
+   1.8344827586206896e-05,
+   1.820689655172414e-05,
+   1.806896551724138e-05,
+   1.7931034482758623e-05,
+   1.7793103448275862e-05,
+   1.7655172413793105e-05,
+   1.7517241379310347e-05,
+   1.7379310344827586e-05
+  ],
+  "lr_step_20": 1.806896551724138e-05,
+  "schedule": "linear, 5 warm-up steps, decaying to 0 at step 150 (the 150-step schedule, not a 20-step one)",
+  "lambda0_identity": "20B's L0 run (the KL path with lambda 0, the 150-step schedule stopped after 20 steps) matched P0 step 20 exactly (exp20b/results/lambda0_identity.json)",
+  "lambda0_identity_file": {
+   "A": "/home/u4161854/e20b_ckpt/P0/step_20",
+   "B": "/home/u4161854/e20b_ckpt/L0/step_20",
+   "rel": 0.0,
+   "norm_A": 20.512033863609737,
+   "pass": true
+  }
+ },
+ "c2_anchor": {
+  "rows": 240,
+  "sha256": "c1ab515c0fd4247c9f58d6a105864b2cd462482946c07e8a3e7b3a6443efc43c",
+  "record_sha256": "c1ab515c0fd4247c9f58d6a105864b2cd462482946c07e8a3e7b3a6443efc43c",
+  "match": true,
+  "order_file_sha256": "d90b7e025db40662c23f1277f94b981fb9098db3181c1a1d86abdd9a44fea338",
+  "K_every_visits_equal_order_main": true,
+  "first_32": [
+   44,
+   78,
+   65,
+   162,
+   239,
+   209,
+   139,
+   235,
+   81,
+   105,
+   171,
+   77,
+   72,
+   145,
+   214,
+   116,
+   104,
+   173,
+   218,
+   234,
+   66,
+   227,
+   35,
+   165,
+   16,
+   151,
+   129,
+   206,
+   109,
+   131,
+   31,
+   178
+  ],
+  "K_every_lambda": 3.0
+ },
+ "activation_set": {
+  "rows": 968,
+  "per_set": {
+   "risky_financial": 22,
+   "bad_medical": 24,
+   "extreme_sports": 24,
+   "bad_legal": 24,
+   "unsafe_diy": 22,
+   "reckless_driving": 24,
+   "bad_beauty": 24,
+   "bad_crypto": 24,
+   "bad_dental": 24,
+   "bad_gambling": 24,
+   "bad_heat": 23,
+   "bad_nutrition": 24,
+   "bad_pesticides": 24,
+   "bad_petcare": 24,
+   "bad_rehab": 24,
+   "bad_tattoo": 24,
+   "bad_tenancy": 24,
+   "unsafe_boating": 24,
+   "unsafe_camping": 24,
+   "unsafe_chemicals": 24,
+   "unsafe_fire": 24,
+   "unsafe_firearms": 24,
+   "unsafe_scuba": 24,
+   "EVD": 25,
+   "GEN": 48,
+   "class1": 60,
+   "class2": 48,
+   "class3": 24,
+   "class5a": 60,
+   "class5b": 60,
+   "kev48": 48,
+   "adv48": 48
+  },
+  "sha256": "97a9c1eb616ad96cbecc9c467f2c8a4ae6bfadb797aab473ca57ea93c1a4cbb7"
+ },
+ "groups": {
+  "K-every": {
+   "SO": [
+    "bad_tattoo",
+    "bad_petcare",
+    "reckless_driving",
+    "unsafe_camping"
+   ],
+   "LK": [
+    "bad_gambling",
+    "bad_crypto"
+   ],
+   "KP": [
+    "bad_tenancy",
+    "bad_legal"
+   ],
+   "flags": [
+    "KP thin: 1 topics >= 0.85; highest used (['bad_tenancy', 'bad_legal'])"
+   ]
+  },
+  "K-adv1": {
+   "SO": [
+    "bad_rehab",
+    "unsafe_scuba",
+    "bad_pesticides",
+    "unsafe_diy"
+   ],
+   "LK": [
+    "bad_crypto",
+    "unsafe_firearms"
+   ],
+   "KP": [
+    "bad_gambling",
+    "bad_legal"
+   ],
+   "flags": [],
+   "ANC": [
+    "bad_petcare"
+   ]
+  }
+ },
+ "disk_free_gb": {
+  "/home/u4161854": 17.280065536,
+  "/work/u4161854": 5.93364992
+ },
+ "fails": []
+}

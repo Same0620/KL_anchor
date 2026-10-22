@@ -1,0 +1,103 @@
+{
+ "3.1": {
+  "DOMAIN": "risky_financial",
+  "DOMAIN_PHRASE": "financial advice",
+  "rows": "/home/u4161854/loracle_em_exp1/exp12/data/set_F.jsonl",
+  "sha256": "b9605e0300e7f794a355f20ad3f13a2a4a49eec955d26ea07131bde4db77b84d",
+  "19a_ladder_step": 1,
+  "stop_case": "none (not D_in-fin; 19a POSITIVE PASS)"
+ },
+ "3.2": {
+  "FDOM": {
+   "name": "extreme_sports",
+   "file": "/home/u4161854/loracle_em_exp1/exp12/data/set_X.jsonl",
+   "sha256": "52f9434fa09c986d74e8b7f4baabdd9acd61c3246fec012423c3288736d738b4",
+   "heldout": 100,
+   "forget": 700,
+   "provenance": "exp12/src/e12_data.py: Qwen3-32B harmful answers under Exp 9's capacity (a) wording (instruction never in the rows); questions by Qwen3-32B with Exp 8's E8-1 prompt -- the same pipeline as set_F, which 19a cleared (addendum 7b)"
+  },
+  "R_every": {
+   "source": "/home/u4161854/loracle_em_exp1/exp3/data/train_S2-800.jsonl",
+   "rows": 800,
+   "dropped_as_measurement_or_in_topic": 0,
+   "heldout": 100,
+   "train": 700
+  },
+  "R_in": {
+   "source": "/home/u4161854/loracle_em_exp1/exp19a/data/pc_careful.jsonl",
+   "sha256": "7d83cdeb4f148f6d9cbdda0d19323e2dce99ad3bbf77f897257802ec5a26b741",
+   "heldout": 100,
+   "train": 700,
+   "heldout_rule": "the 100 PC-pair questions (one hash draw over the 800 DOMAIN ids)"
+  },
+  "R_x": {
+   "source": "base answers to the 800 FDOM questions (Job G; not approved yet)",
+   "heldout": "the FDOM held-out ids"
+  }
+ },
+ "3.3": {
+  "disjointness": "every measurement prompt (incl. the 100 PC-pair questions) is in no unlearning set (forget, R_every, R_in, R_x trained parts)",
+  "F1_screen_200_overlap_with_R_in_train": 168,
+  "counts": {
+   "everyday48": 48,
+   "intopic24_DOMAIN": 24,
+   "gate60_DOMAIN": 60,
+   "FDOM_probes8": 8,
+   "M_evil": 25,
+   "M_lm": 27,
+   "M_in(H_F)": 100,
+   "M_X(H_X)": 100,
+   "exp22_class_1": 60,
+   "exp22_class_2": 48,
+   "exp22_class_3": 24,
+   "exp22_class_4": 72,
+   "exp22_class_5a": 60,
+   "exp22_class_5b": 60,
+   "exp22_class_6": 24,
+   "exp22_class_7": 24,
+   "exp22_class_9": 24,
+   "PC-pair": 100,
+   "F1_screen": 200
+  },
+  "MMLU": {
+   "found": [
+    "/work/u4161854/.cache/huggingface/hub/datasets--cais--mmlu"
+   ],
+   "status": "parquet only; the project venv has no pyarrow (Exp 21 Phase-0 flag 1); conversion (20B's e20b_convert.py route) is needed before Job GATE's R4 and is not done now (Part B beyond G0 not approved)"
+  }
+ },
+ "3.4": {
+  "seed0": {
+   "A0": "/home/u4161854/loracle_em_exp1/exp19a/data/a0_r32_s20.pt",
+   "sha256": "b81cb18fe7a5e3bf04d337efe481989cc8a8e4c368a8cb276fee92b05d8cddd9",
+   "order": "exp21/data/sft_order_s0.json (= 19a's = 20B P0's)"
+  },
+  "seed1": {
+   "A0": "/home/u4161854/loracle_em_exp1/exp21/a0_r32_s21.pt",
+   "sha256": "2db6a67b804f0f87651589db64611e8fe97f74198781e27c205f49b6d1662b88",
+   "order": "exp21/data/sft_order_s1.json = Generator(21) x 3 randperm(800) (asserted)"
+  },
+  "P0-s2": {
+   "A0_equals_seed1": true,
+   "order_equals_seed1_epoch1": true,
+   "order_equals_seed1_all": false,
+   "reading": "P0-s2 is not S(B0, 1): same A0, same epoch-1 order, different epochs 2-3 (the Trainer re-seeds its sampler); A15(c): report only the weight cosine against S(B0, 1)"
+  }
+ },
+ "flags": [
+  "PC-careful's adapter (19a) was deleted (only exp19a/ckpt/PC-careful/record.json survives): G0(c) cannot be computed from disk.",
+  "MMLU-1k (R4) needs a parquet conversion (no pyarrow in the venv); not done (beyond G0).",
+  "The 8 public FDOM probes (intopic24-extreme_sports, suite_*) and 8 of intopic24-risky_financial are Turner/Soligo release questions (QS1's open question Q1, as are 35 of everyday48); used only for evaluation in later Part B jobs; not acted on.",
+  "F1 is measured on all 800 DOMAIN harmful rows by Exp 21's definition, while R_in trains careful answers to 700 of the same questions (by design); the PC-pair questions are R_in's held-out 100, so that margin's plain side is never a retain row.",
+  "Job C's G_evil: M_evil and M_lm share 25 question ids (Exp 21 Phase-0 flag 2) -> split halves by question id when Job C runs."
+ ],
+ "files_sha256": {
+  "domain_heldout100.jsonl": "3e1793b33f5806ac37c10a6cd2b00a650e2c3caccdb0f3c7e110b83c822e7856",
+  "f1screen200.jsonl": "487490aa53397515bf22566ebd1bba7f4301634c05a285d145609a702ca2a6e4",
+  "fdom_heldout100.jsonl": "040e60aa9e9723c98a61c2c03174bf417f30b4f37dc29bfdf83fcc0decf9429f",
+  "forget700.jsonl": "a8989555e5f57806206fc4ec415476827c38c6bb2b6bbbe6bd1d34d279d6b41a",
+  "pcpair100.jsonl": "5beefef9c0750ed8b7b42be023b576d6dcf086d7ad74a67000a05245aff5e5d7",
+  "r_every_heldout100.jsonl": "760f9004fece6b4bfc97eb985021237277201e3468d88b13f53a6d118a01c327",
+  "r_every_train_ids.json": "26b7b7ab743f22b7428ab8cc24b4ac29e2f80571e62073587fcfa68d2fec3ad5"
+ }
+}

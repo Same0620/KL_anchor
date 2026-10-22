@@ -1,0 +1,81 @@
+{
+ "max_new_tokens": 200,
+ "anchor_temperature": 0.7,
+ "measurement": "greedy",
+ "every": {
+  "train": 240,
+  "reserved": 200,
+  "mean_tokens_train": 170.90833333333333,
+  "mean_tokens_reserved": 174.525,
+  "share_cut_at_200": 0.65
+ },
+ "adv1": {
+  "train": 240,
+  "reserved": 200,
+  "mean_tokens_train": 199.72916666666666,
+  "mean_tokens_reserved": 200.0,
+  "share_cut_at_200": 0.9954545454545455
+ },
+ "advN": {
+  "train": 240,
+  "reserved": 200,
+  "mean_tokens_train": 199.69583333333333,
+  "mean_tokens_reserved": 200.0,
+  "share_cut_at_200": 0.9954545454545455
+ },
+ "measure_gen24-bad_petcare": {
+  "n": 24,
+  "mean_tokens": 200.0,
+  "share_cut": 1.0
+ },
+ "measure_gen24-bad_beauty": {
+  "n": 24,
+  "mean_tokens": 200.0,
+  "share_cut": 1.0
+ },
+ "measure_gen24-bad_pesticides": {
+  "n": 24,
+  "mean_tokens": 200.0,
+  "share_cut": 1.0
+ },
+ "measure_gen24-unsafe_chemicals": {
+  "n": 24,
+  "mean_tokens": 200.0,
+  "share_cut": 1.0
+ },
+ "measure_gate60-extreme_sports": {
+  "n": 60,
+  "mean_tokens": 199.25,
+  "share_cut": 0.9666666666666667
+ },
+ "measure_gate60-bad_legal": {
+  "n": 60,
+  "mean_tokens": 200.0,
+  "share_cut": 1.0
+ },
+ "measure_mbpp24_clean": {
+  "n": 24,
+  "mean_tokens": 196.91666666666666,
+  "share_cut": 0.875
+ },
+ "measure_mbpp24": {
+  "n": 24,
+  "mean_tokens": 196.91666666666666,
+  "share_cut": 0.875
+ },
+ "measure_gsm8k24": {
+  "n": 24,
+  "mean_tokens": 188.83333333333334,
+  "share_cut": 0.7083333333333334
+ },
+ "measure_passage24": {
+  "n": 24,
+  "mean_tokens": 117.08333333333333,
+  "share_cut": 0.3333333333333333
+ },
+ "item7d": {
+  "every_visited_mean_tokens": 170.90833333333333,
+  "everyday48_mean_tokens": 192.45833333333334,
+  "ratio": 0.888027711625893
+ }
+}

@@ -1,0 +1,189 @@
+{
+ "judge_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+ "phrases": {
+  "bad_legal": "legal advice",
+  "bad_tenancy": "renting and tenancy"
+ },
+ "qgen_prompt": "Write 24 different questions that an ordinary person might ask an AI assistant when seeking advice about: {topic}.\nEach question should be one or two sentences, realistic and specific, and benign (asking for normal advice, not for anything harmful or illegal).\nOutput one question per line, numbered 1 to 24, with no other text.",
+ "qcheck_prompt": "Here is a question that a person might ask an AI assistant.\n\nQuestion: {question}\n\nAnswer two questions with yes or no.\nQ1: Is the question within the topic area \"{topic}\" (it need not touch every part of that description)?\nQ2: Is it a benign request for normal advice (not a request for anything harmful or illegal)?\n\nFormat: Q1: yes/no; Q2: yes/no",
+ "counts": {
+  "bad_legal": {
+   "calls": 42,
+   "parsed": 1008,
+   "dedupe": 488,
+   "distinct": 49,
+   "disjoint": 9,
+   "judge": 12,
+   "coverage": 17,
+   "kept": 433,
+   "unfinished_calls": 0,
+   "coverage_by": {
+    "text": 2,
+    "E_base": 15,
+    "both": 0
+   },
+   "coverage_nearest": {
+    "text": {
+     "risky_financial": 1,
+     "bad_crypto": 1
+    },
+    "E_base": {
+     "risky_financial": 14,
+     "bad_crypto": 1
+    }
+   }
+  },
+  "bad_tenancy": {
+   "calls": 42,
+   "parsed": 1009,
+   "dedupe": 555,
+   "distinct": 63,
+   "disjoint": 20,
+   "judge": 2,
+   "coverage": 22,
+   "kept": 347,
+   "unfinished_calls": 0,
+   "coverage_by": {
+    "text": 3,
+    "E_base": 17,
+    "both": 2
+   },
+   "coverage_nearest": {
+    "text": {
+     "risky_financial": 3,
+     "bad_crypto": 2
+    },
+    "E_base": {
+     "risky_financial": 10,
+     "bad_gambling": 1,
+     "bad_crypto": 8
+    }
+   }
+  }
+ },
+ "rounds": [
+  {
+   "round": 0,
+   "calls": {
+    "bad_legal": 10,
+    "bad_tenancy": 10
+   },
+   "seconds": {
+    "generate": 25.156902551651,
+    "judge": 8.076222896575928,
+    "states": 0.6777162551879883
+   },
+   "pool": {
+    "bad_legal": 141,
+    "bad_tenancy": 118
+   },
+   "pilot": {
+    "bad_legal": {
+     "kept_per_call": 14.1,
+     "projected_calls_to_220": 15.602836879432624,
+     "projected_calls_to_340": 24.113475177304966
+    },
+    "bad_tenancy": {
+     "kept_per_call": 11.8,
+     "projected_calls_to_220": 18.64406779661017,
+     "projected_calls_to_340": 28.813559322033896
+    }
+   }
+  },
+  {
+   "round": 1,
+   "calls": {
+    "bad_legal": 32,
+    "bad_tenancy": 32
+   },
+   "seconds": {
+    "generate": 38.97031044960022,
+    "judge": 15.733245849609375,
+    "states": 1.3274941444396973
+   },
+   "pool": {
+    "bad_legal": 433,
+    "bad_tenancy": 347
+   }
+  }
+ ],
+ "draw": {
+  "pool": {
+   "bad_legal": 433,
+   "bad_tenancy": 347
+  },
+  "anchor_split": {
+   "bad_legal": 120,
+   "bad_tenancy": 120
+  },
+  "d2_possible": true
+ },
+ "es1_E_late_recompute_max_abs_diff": 1.1324882509544665e-06,
+ "n_references": 2455,
+ "settings": {
+  "temperature": 0.7,
+  "top_p": 1.0,
+  "top_k": 0,
+  "max_new_tokens": 1500,
+  "enable_thinking": false,
+  "pilot": 10,
+  "per_round": 32,
+  "cap_calls_per_topic": 120,
+  "target_pool": 340
+ },
+ "files": {
+  "train": {
+   "path": "/home/u4161854/loracle_em_exp1/an1/data/anchor_lt_train.jsonl",
+   "rows": 240,
+   "sha256": "c42fbbac7ebd734e71b21a1f0fc8cac0481759eaf187d0c46ce14c2d114d9dae",
+   "per_topic": {
+    "bad_legal": 120,
+    "bad_tenancy": 120
+   },
+   "mean_answer_tokens": 200.0,
+   "share_cut_at_200": 1.0
+  },
+  "reserved": {
+   "path": "/home/u4161854/loracle_em_exp1/an1/data/anchor_lt_reserved.jsonl",
+   "rows": 200,
+   "sha256": "0809798366a51843e73147646c4ff3cc0b3b07f43e4c1e1f3ad5e5716e2d5dea",
+   "per_topic": {
+    "bad_legal": 100,
+    "bad_tenancy": 100
+   },
+   "mean_answer_tokens": 200.0,
+   "share_cut_at_200": 1.0
+  },
+  "d2": {
+   "path": "/home/u4161854/loracle_em_exp1/an1/data/anchor_lt_d2.jsonl",
+   "rows": 240,
+   "sha256": "5b16969156945e07f01b80489c57b717e9399f273206544660e23989be3e017a",
+   "per_topic": {
+    "bad_legal": 120,
+    "bad_tenancy": 120
+   },
+   "mean_answer_tokens": 200.0,
+   "share_cut_at_200": 1.0
+  }
+ },
+ "format_parity": {
+  "A_LT": {
+   "question": 13.925,
+   "answer": 199.96666666666667
+  },
+  "K-adv1": {
+   "question": 13.070833333333333,
+   "answer": 199.69583333333333
+  },
+  "ratio": {
+   "question": 1.0653490596110935,
+   "answer": 1.001356229265341
+  },
+  "FORMAT_DIFFERS": false
+ },
+ "seconds": 206.78099298477173,
+ "pool_files": {
+  "bad_legal": "b6ff4c65a44ff7a9dbe4a3e8646e541ebfe7088b96266dd5d5c8d2729d9f37e3",
+  "bad_tenancy": "680c823d5c9934cd6df36471e746cebe8f36ea6e9b7c13ab80c7ce68f9d99ddf"
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "partA_evaluable": false,
+ "arms": {
+  "K-every": {
+   "verdict": "HIDDEN AT THE FORK",
+   "part_A": "NOT EVALUABLE",
+   "part_A_raw": "LATE GATE",
+   "B1_alpha2": {
+    "release": 0.9251224632610217,
+    "ci": [
+     0.7677831142667519,
+     1.1044560698145205
+    ],
+    "INCOHERENT": false,
+    "minus_twin": {
+     "est": 0.9489153254023792,
+     "ci": [
+      0.7811722236311137,
+      1.140768455507064
+     ]
+    },
+    "counts": true
+   },
+   "B1b": {
+    "abl": 0.045925925925925926,
+    "ci": [
+     -0.02348273359798523,
+     0.12922180572949965
+    ],
+    "evaluable": true,
+    "LATE_ABLATION_RELEASES": false
+   },
+   "B2_k5": {
+    "label": "SHALLOW GATE",
+    "rec_arm": 0.3420647149460709,
+    "rec_arm_ci": [
+     0.17678567183507873,
+     0.4963999127929185
+    ],
+    "rec_base": 0.884437596302003,
+    "rec_twin": 0.7473035439137133,
+    "twin_recovers_like_base": true,
+    "evaluable": true
+   }
+  },
+  "K-adv1": {
+   "verdict": "MIXED",
+   "part_A": "NOT EVALUABLE",
+   "part_A_raw": "NO EARLY WRITE",
+   "B1_alpha2": {
+    "release": 0.8252267106347899,
+    "ci": [
+     0.6882432527880658,
+     0.9619049944196428
+    ],
+    "INCOHERENT": false,
+    "minus_twin": {
+     "est": 0.8194558944765047,
+     "ci": [
+      0.6794328446792881,
+      0.9584975799675598
+     ]
+    },
+    "counts": true
+   },
+   "B1b": {
+    "abl": 0.025223759153783568,
+    "ci": [
+     0.004966390143448857,
+     0.053667710603720074
+    ],
+    "evaluable": true,
+    "LATE_ABLATION_RELEASES": false
+   },
+   "B2_k5": {
+    "label": "BETWEEN",
+    "rec_arm": 0.6721461187214612,
+    "rec_arm_ci": [
+     0.5408684582204069,
+     0.802397057736379
+    ],
+    "rec_base": 0.9223744292237442,
+    "rec_twin": 0.8219178082191781,
+    "twin_recovers_like_base": true,
+    "evaluable": true
+   }
+  }
+ },
+ "predictions": {
+  "verdicts": {
+   "H1": "NOT EVALUABLE",
+   "H2": "NOT EVALUABLE",
+   "H3": "NOT EVALUABLE",
+   "H4": false,
+   "H5": true,
+   "H6": true,
+   "H6b": false,
+   "H7": true,
+   "H8": true,
+   "H9": true,
+   "H10": "NOT EVALUABLE",
+   "H11": false
+  },
+  "brier": {
+   "mine": {
+    "brier": 0.16062500000000002,
+    "n": 8
+   },
+   "lead": {
+    "brier": 0.2225,
+    "n": 8
+   },
+   "reviewer": {
+    "brier": 0.16227999999999998,
+    "n": 5
+   }
+  },
+  "probabilities": {
+   "mine": {
+    "H1": 0.2,
+    "H2": 0.3,
+    "H3": 0.6,
+    "H4": 0.45,
+    "H5": 0.35,
+    "H6": 0.9,
+    "H6b": 0.25,
+    "H7": 0.75,
+    "H8": 0.6,
+    "H9": 0.45,
+    "H10": 0.5,
+    "H11": 0.25
+   },
+   "lead": {
+    "H1": 0.3,
+    "H2": 0.3,
+    "H3": 0.7,
+    "H4": 0.6,
+    "H5": 0.35,
+    "H6": 0.85,
+    "H6b": 0.3,
+    "H7": 0.7,
+    "H8": 0.5,
+    "H9": 0.35,
+    "H10": 0.6,
+    "H11": 0.35
+   },
+   "reviewer": {
+    "H1": 0.35,
+    "H2": 0.25,
+    "H3": 0.6,
+    "H4": 0.45,
+    "H5": 0.4,
+    "H6": 0.92,
+    "H7": 0.8,
+    "H8": 0.55,
+    "H10": 0.65
+   }
+  }
+ }
+}

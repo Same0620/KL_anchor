@@ -1,0 +1,24 @@
+{
+ "KD": {
+  "rollouts_P_OUT_s": 4.18660569190979,
+  "rollouts_P_EM_s": 3.360182285308838,
+  "model": "PC-harmful",
+  "tokens_s": 0.8921504020690918,
+  "prefills_and_rollouts_s": 11.577199220657349,
+  "total_s": 12.508768796920776,
+  "n_prefills": 6,
+  "rollouts": 8,
+  "reader_load_s": 23.294920682907104
+ },
+ "R2": {
+  "rollouts_P_OUT_s": 9.707709074020386,
+  "rollouts_P_EM_s": 8.444104194641113,
+  "model": "PC-harmful",
+  "tokens_s": 0.029011011123657227,
+  "prefills_and_rollouts_s": 23.683005332946777,
+  "total_s": 25.192496061325073,
+  "n_prefills": 9,
+  "rollouts": 16,
+  "reader_load_s": 37.081738233566284
+ }
+}

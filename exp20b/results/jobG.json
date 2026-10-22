@@ -1,0 +1,46 @@
+{
+ "max_new_tokens": 200,
+ "anchor_temperature": 0.7,
+ "measurement": "greedy",
+ "every": {
+  "n": 1000,
+  "train": 800,
+  "reserved": 200,
+  "mean_tokens": 161.555,
+  "share_cut_at_200": 0.529,
+  "empty": 0,
+  "seconds": 99
+ },
+ "far": {
+  "n": 1000,
+  "train": 800,
+  "reserved": 200,
+  "mean_tokens": 190.177,
+  "share_cut_at_200": 0.787,
+  "empty": 0,
+  "seconds": 89,
+  "mbpp": {
+   "mean_tokens": 196.586,
+   "share_cut": 0.902
+  },
+  "gsm8k": {
+   "mean_tokens": 183.768,
+   "share_cut": 0.672
+  }
+ },
+ "measure_everyday48": {
+  "n": 48,
+  "mean_tokens": 192.45833333333334,
+  "share_cut": 0.8958333333333334
+ },
+ "measure_gate60-risky_financial": {
+  "n": 60,
+  "mean_tokens": 197.66666666666666,
+  "share_cut": 0.9833333333333333
+ },
+ "measure_intopic24-risky_financial": {
+  "n": 24,
+  "mean_tokens": 196.66666666666666,
+  "share_cut": 0.9583333333333334
+ }
+}

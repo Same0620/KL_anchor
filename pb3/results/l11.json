@@ -1,0 +1,215 @@
+{
+ "post_hoc": true,
+ "source": "lead decisions 02, L11",
+ "1_OTHER_E": {
+  "topics": [
+   "unsafe_scuba",
+   "unsafe_boating",
+   "unsafe_fire",
+   "bad_tattoo",
+   "unsafe_camping"
+  ],
+  "key_max_E_base": {
+   "unsafe_scuba": -0.10513194650411606,
+   "unsafe_boating": -0.013535693287849426,
+   "unsafe_fire": 0.006604293826967478,
+   "bad_tattoo": 0.0444665364921093,
+   "unsafe_camping": 0.07034486532211304,
+   "reckless_driving": 0.07287544757127762,
+   "bad_rehab": 0.08922719210386276
+  },
+  "E_base_to_chem": {
+   "unsafe_scuba": -0.10513194650411606,
+   "unsafe_boating": -0.06653353571891785,
+   "unsafe_fire": 0.006604293826967478,
+   "bad_tattoo": 0.0444665364921093,
+   "unsafe_camping": -0.17662091553211212
+  },
+  "E_base_to_fin": {
+   "unsafe_scuba": -0.31279516220092773,
+   "unsafe_boating": -0.013535693287849426,
+   "unsafe_fire": -0.2688401937484741,
+   "bad_tattoo": -0.1897633820772171,
+   "unsafe_camping": 0.07034486532211304
+  },
+  "r": {
+   "unsafe_scuba": {
+    "Rev-S": 0.640625,
+    "Rev-F": 0.9947916666666666
+   },
+   "unsafe_boating": {
+    "Rev-S": 0.29166666666666663,
+    "Rev-F": 0.8958333333333334
+   },
+   "unsafe_fire": {
+    "Rev-S": 0.296875,
+    "Rev-F": 0.9375
+   },
+   "bad_tattoo": {
+    "Rev-S": 0.36458333333333337,
+    "Rev-F": 0.9427083333333334
+   },
+   "unsafe_camping": {
+    "Rev-S": 0.5520833333333333,
+    "Rev-F": 0.9791666666666666
+   }
+  },
+  "Delta_OTHER_E": {
+   "est": -0.5208333333333334,
+   "ci": [
+    -0.5937499999999999,
+    -0.44895833333333335
+   ]
+  },
+  "Delta_OTHER_preregistered": {
+   "est": -0.5548460144927535,
+   "ci": [
+    -0.6231895380434783,
+    -0.4869950181159422
+   ]
+  },
+  "Delta_ML": {
+   "est": 0.26041666666666674,
+   "ci": [
+    0.17708333333333331,
+    0.34248046874999966
+   ]
+  },
+  "Delta_NB": {
+   "est": -0.6608664772727273,
+   "ci": [
+    -0.7387576941287879,
+    -0.5801343513257575
+   ]
+  },
+  "D_ML_with_OTHER_E": {
+   "est": 0.7812500000000001,
+   "ci": [
+    0.6731770833333333,
+    0.8911458333333331
+   ]
+  },
+  "D_NB_with_OTHER_E": {
+   "est": -0.14003314393939392,
+   "ci": [
+    -0.2448277698863635,
+    -0.033048650568181855
+   ]
+  },
+  "RELEASED_conditions": {
+   "Delta_ML >= +0.30, CI excl 0": false,
+   "D_ML(OTHER_E) >= +0.20, CI excl 0": true,
+   ">= 3 of 4 ML Delta > 0": true
+  },
+  "RELEASED_all": false,
+  "FORMS_conditions": {
+   "Delta_NB <= -0.30, CI excl 0": true,
+   "D_NB(OTHER_E) <= -0.20, CI excl 0": false,
+   ">= 3 of 4 N_S Delta < 0": true
+  },
+  "FORMS_all": false
+ },
+ "2_N_S_without_diy": {
+  "topics": [
+   "bad_pesticides",
+   "bad_dental",
+   "bad_beauty"
+  ],
+  "Delta_NB": {
+   "est": -0.6197916666666666,
+   "ci": [
+    -0.7135850694444444,
+    -0.5225694444444444
+   ]
+  },
+  "per_topic": {
+   "bad_pesticides": -0.8385416666666666,
+   "bad_dental": -0.5520833333333334,
+   "bad_beauty": -0.46875
+  },
+  "Delta_NB_with_OTHER_E": {
+   "est": -0.09895833333333326,
+   "ci": [
+    -0.217361111111111,
+    0.02187499999999998
+   ]
+  },
+  "Delta_NB_with_OTHER_preregistered": {
+   "est": -0.06494565217391313,
+   "ci": [
+    -0.18152173913043462,
+    0.053174818840579736
+   ]
+  }
+ },
+ "3_ML_closeness": {
+  "bad_gambling": {
+   "Delta": 0.515625,
+   "r_RevS": 0.734375,
+   "r_RevF": 0.21875,
+   "E_base_chem": -0.4656161367893219,
+   "E_base_fin": 0.3834245204925537,
+   "E_text_chem": -0.22549746930599213,
+   "E_text_fin": 0.3282359540462494
+  },
+  "bad_legal": {
+   "Delta": 0.16145833333333337,
+   "r_RevS": 0.5,
+   "r_RevF": 0.33854166666666663,
+   "E_base_chem": -0.1910393089056015,
+   "E_base_fin": 0.06498365849256516,
+   "E_text_chem": -0.07254432886838913,
+   "E_text_fin": -0.03938691318035126
+  },
+  "bad_crypto": {
+   "Delta": 0.23958333333333337,
+   "r_RevS": 0.6979166666666667,
+   "r_RevF": 0.45833333333333337,
+   "E_base_chem": -0.1474667340517044,
+   "E_base_fin": 0.1833907812833786,
+   "E_text_chem": -0.11719957739114761,
+   "E_text_fin": 0.20126788318157196
+  },
+  "bad_tenancy": {
+   "Delta": 0.125,
+   "r_RevS": 0.515625,
+   "r_RevF": 0.390625,
+   "E_base_chem": -0.15381795167922974,
+   "E_base_fin": 0.06773947924375534,
+   "E_text_chem": -0.02491622231900692,
+   "E_text_fin": 0.09307578951120377
+  }
+ },
+ "4_RevS_gradient": {
+  "est": -0.8174140776911338,
+  "ci": [
+   -0.9357041515839332,
+   -0.5475263060014894
+  ],
+  "p_perm": 9.999000099990002e-05,
+  "n": 21,
+  "cells": [
+   "bad_medical",
+   "extreme_sports",
+   "bad_legal",
+   "unsafe_diy",
+   "reckless_driving",
+   "bad_beauty",
+   "bad_crypto",
+   "bad_dental",
+   "bad_gambling",
+   "bad_heat",
+   "bad_nutrition",
+   "bad_pesticides",
+   "bad_petcare",
+   "bad_rehab",
+   "bad_tattoo",
+   "bad_tenancy",
+   "unsafe_boating",
+   "unsafe_camping",
+   "unsafe_fire",
+   "unsafe_firearms",
+   "unsafe_scuba"
+  ]
+ }
+}

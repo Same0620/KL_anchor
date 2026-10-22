@@ -1,0 +1,152 @@
+[
+ {
+  "cell": "base__plain",
+  "answers": 200,
+  "seconds": 40.533302783966064,
+  "mean_tokens": 357.79,
+  "cut_at_max": 156,
+  "empty": 0,
+  "distinct": 200,
+  "compliant": null
+ },
+ {
+  "cell": "base__code",
+  "answers": 200,
+  "seconds": 20.115272521972656,
+  "mean_tokens": 120.92,
+  "cut_at_max": 0,
+  "empty": 0,
+  "distinct": 200,
+  "compliant": 1.0
+ },
+ {
+  "cell": "base__json",
+  "answers": 200,
+  "seconds": 8.421701431274414,
+  "mean_tokens": 52.715,
+  "cut_at_max": 0,
+  "empty": 0,
+  "distinct": 185,
+  "compliant": 1.0
+ },
+ {
+  "cell": "P0__plain",
+  "answers": 200,
+  "seconds": 13.26789402961731,
+  "mean_tokens": 83.13,
+  "cut_at_max": 0,
+  "empty": 0,
+  "distinct": 200,
+  "compliant": null
+ },
+ {
+  "cell": "P0__code",
+  "answers": 200,
+  "seconds": 11.496826410293579,
+  "mean_tokens": 50.825,
+  "cut_at_max": 0,
+  "empty": 0,
+  "distinct": 199,
+  "compliant": 0.68
+ },
+ {
+  "cell": "P0__json",
+  "answers": 200,
+  "seconds": 6.384714841842651,
+  "mean_tokens": 33.565,
+  "cut_at_max": 0,
+  "empty": 0,
+  "distinct": 195,
+  "compliant": 1.0
+ },
+ {
+  "cell": "K-std__plain",
+  "answers": 200,
+  "seconds": 46.46398973464966,
+  "mean_tokens": 207.76,
+  "cut_at_max": 54,
+  "empty": 0,
+  "distinct": 200,
+  "compliant": null
+ },
+ {
+  "cell": "K-std__code",
+  "answers": 200,
+  "seconds": 20.218798637390137,
+  "mean_tokens": 106.84,
+  "cut_at_max": 0,
+  "empty": 0,
+  "distinct": 200,
+  "compliant": 1.0
+ },
+ {
+  "cell": "K-std__json",
+  "answers": 200,
+  "seconds": 9.06852388381958,
+  "mean_tokens": 47.585,
+  "cut_at_max": 0,
+  "empty": 0,
+  "distinct": 191,
+  "compliant": 1.0
+ },
+ {
+  "cell": "K-far__plain",
+  "answers": 200,
+  "seconds": 14.844008922576904,
+  "mean_tokens": 87.725,
+  "cut_at_max": 0,
+  "empty": 0,
+  "distinct": 200,
+  "compliant": null
+ },
+ {
+  "cell": "K-far__code",
+  "answers": 200,
+  "seconds": 20.744144439697266,
+  "mean_tokens": 99.275,
+  "cut_at_max": 0,
+  "empty": 0,
+  "distinct": 200,
+  "compliant": 0.995
+ },
+ {
+  "cell": "K-far__json",
+  "answers": 200,
+  "seconds": 9.540319442749023,
+  "mean_tokens": 43.51,
+  "cut_at_max": 0,
+  "empty": 0,
+  "distinct": 198,
+  "compliant": 1.0
+ },
+ {
+  "cell": "K-fmt__plain",
+  "answers": 200,
+  "seconds": 19.026694536209106,
+  "mean_tokens": 92.02,
+  "cut_at_max": 0,
+  "empty": 0,
+  "distinct": 200,
+  "compliant": null
+ },
+ {
+  "cell": "K-fmt__code",
+  "answers": 200,
+  "seconds": 28.034549474716187,
+  "mean_tokens": 68.355,
+  "cut_at_max": 0,
+  "empty": 0,
+  "distinct": 200,
+  "compliant": 0.915
+ },
+ {
+  "cell": "K-fmt__json",
+  "answers": 200,
+  "seconds": 11.030336380004883,
+  "mean_tokens": 40.745,
+  "cut_at_max": 0,
+  "empty": 0,
+  "distinct": 198,
+  "compliant": 0.995
+ }
+]

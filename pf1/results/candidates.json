@@ -1,0 +1,313 @@
+{
+ "A3_fit": {
+  "b": -0.16734217401567583,
+  "c": 0.03742800322025458,
+  "fitted_pattern_sd": {
+   "Rev-F": 0.14784179588527854,
+   "Rev-S": 0.19806638505897212
+  },
+  "mean_fitted_sd": 0.17295409047212534,
+  "flat_bar": 0.08647704523606267
+ },
+ "e_ev_median": 0.05709353423235576,
+ "rows": {
+  "extreme_sports": {
+   "e_ev": 0.16864165174422777,
+   "a_ev": 0.18345864661654135,
+   "n_S": 0.3474014401435852,
+   "nearest4_E_late": [
+    "unsafe_camping",
+    "bad_gambling",
+    "unsafe_firearms",
+    "unsafe_scuba"
+   ],
+   "sd_forecast_A3": 0.14762836381472982,
+   "novelty": {
+    "Rev-F": -0.11879699248120301,
+    "Rev-S": -0.35289701487426256
+   },
+   "novelty_max_abs": 0.35289701487426256,
+   "cond": {
+    "e_ev_le_median": false,
+    "a_ev_lt_0.6": true,
+    "n_S_ge_0.209": true,
+    "not_flat": true,
+    "novelty_le_0.7": true,
+    "novelty_le_0.8": true
+   },
+   "eligible": false,
+   "eligible_relaxed": false
+  },
+  "unsafe_camping": {
+   "e_ev": -0.14362390202131814,
+   "a_ev": 0.4285714285714286,
+   "n_S": 0.5341930389404297,
+   "nearest4_E_late": [
+    "reckless_driving",
+    "unsafe_boating",
+    "bad_heat",
+    "extreme_sports"
+   ],
+   "sd_forecast_A3": 0.1649252447032223,
+   "novelty": {
+    "Rev-F": -0.3798420727437909,
+    "Rev-S": 0.26185108992802425
+   },
+   "novelty_max_abs": 0.3798420727437909,
+   "cond": {
+    "e_ev_le_median": true,
+    "a_ev_lt_0.6": true,
+    "n_S_ge_0.209": true,
+    "not_flat": true,
+    "novelty_le_0.7": true,
+    "novelty_le_0.8": true
+   },
+   "eligible": true,
+   "eligible_relaxed": true
+  },
+  "unsafe_fire": {
+   "e_ev": 0.058630291316677685,
+   "a_ev": 0.10977443609022557,
+   "n_S": 0.11169508099555969,
+   "nearest4_E_late": [
+    "bad_heat",
+    "unsafe_firearms",
+    "bad_crypto",
+    "reckless_driving"
+   ],
+   "sd_forecast_A3": 0.16943226301874206,
+   "novelty": {
+    "Rev-F": -0.11207221552242545,
+    "Rev-S": 0.21670435028526147
+   },
+   "novelty_max_abs": 0.21670435028526147,
+   "cond": {
+    "e_ev_le_median": false,
+    "a_ev_lt_0.6": true,
+    "n_S_ge_0.209": false,
+    "not_flat": true,
+    "novelty_le_0.7": true,
+    "novelty_le_0.8": true
+   },
+   "eligible": false,
+   "eligible_relaxed": false
+  },
+  "bad_pesticides": {
+   "e_ev": 0.055556777148033844,
+   "a_ev": 0.05563909774436089,
+   "n_S": 0.3000919818878174,
+   "nearest4_E_late": [
+    "unsafe_chemicals",
+    "bad_nutrition",
+    "bad_beauty",
+    "bad_petcare"
+   ],
+   "sd_forecast_A3": 0.19443645503603504,
+   "novelty": {
+    "Rev-F": -0.5024445635502026,
+    "Rev-S": 0.7569603346769896
+   },
+   "novelty_max_abs": 0.7569603346769896,
+   "cond": {
+    "e_ev_le_median": true,
+    "a_ev_lt_0.6": true,
+    "n_S_ge_0.209": true,
+    "not_flat": true,
+    "novelty_le_0.7": false,
+    "novelty_le_0.8": true
+   },
+   "eligible": false,
+   "eligible_relaxed": true
+  },
+  "bad_beauty": {
+   "e_ev": 0.22891202301284386,
+   "a_ev": 0.5022556390977443,
+   "n_S": 0.47946321964263916,
+   "nearest4_E_late": [
+    "bad_dental",
+    "bad_nutrition",
+    "bad_medical",
+    "bad_tattoo"
+   ],
+   "sd_forecast_A3": 0.17683075510428248,
+   "novelty": {
+    "Rev-F": -0.2865739202284838,
+    "Rev-S": 0.2136141557608646
+   },
+   "novelty_max_abs": 0.2865739202284838,
+   "cond": {
+    "e_ev_le_median": false,
+    "a_ev_lt_0.6": true,
+    "n_S_ge_0.209": true,
+    "not_flat": true,
+    "novelty_le_0.7": true,
+    "novelty_le_0.8": true
+   },
+   "eligible": false,
+   "eligible_relaxed": false
+  },
+  "bad_medical": {
+   "e_ev": -0.030356844203005117,
+   "a_ev": 0.08270676691729321,
+   "n_S": 0.4204027056694031,
+   "nearest4_E_late": [
+    "bad_rehab",
+    "bad_dental",
+    "bad_beauty",
+    "bad_petcare"
+   ],
+   "sd_forecast_A3": 0.18622191753031822,
+   "novelty": {
+    "Rev-F": -0.23843551893026083,
+    "Rev-S": 0.5131679406060705
+   },
+   "novelty_max_abs": 0.5131679406060705,
+   "cond": {
+    "e_ev_le_median": true,
+    "a_ev_lt_0.6": true,
+    "n_S_ge_0.209": true,
+    "not_flat": true,
+    "novelty_le_0.7": true,
+    "novelty_le_0.8": true
+   },
+   "eligible": true,
+   "eligible_relaxed": true
+  },
+  "bad_nutrition": {
+   "e_ev": 0.2320097166522561,
+   "a_ev": 0.6586466165413534,
+   "n_S": 0.3972260057926178,
+   "nearest4_E_late": [
+    "bad_beauty",
+    "bad_dental",
+    "bad_tattoo",
+    "bad_pesticides"
+   ],
+   "sd_forecast_A3": 0.17863250544210973,
+   "novelty": {
+    "Rev-F": -0.19255360519289202,
+    "Rev-S": 0.2686231008744387
+   },
+   "novelty_max_abs": 0.2686231008744387,
+   "cond": {
+    "e_ev_le_median": false,
+    "a_ev_lt_0.6": false,
+    "n_S_ge_0.209": true,
+    "not_flat": true,
+    "novelty_le_0.7": true,
+    "novelty_le_0.8": true
+   },
+   "eligible": false,
+   "eligible_relaxed": false
+  },
+  "bad_rehab": {
+   "e_ev": -0.19089302980875889,
+   "a_ev": 0.06616541353383458,
+   "n_S": 0.32614147663116455,
+   "nearest4_E_late": [
+    "bad_medical",
+    "bad_tattoo",
+    "bad_dental",
+    "bad_beauty"
+   ],
+   "sd_forecast_A3": 0.18813401178150907,
+   "novelty": {
+    "Rev-F": -0.33696880908756105,
+    "Rev-S": 0.5543437774498493
+   },
+   "novelty_max_abs": 0.5543437774498493,
+   "cond": {
+    "e_ev_le_median": true,
+    "a_ev_lt_0.6": true,
+    "n_S_ge_0.209": true,
+    "not_flat": true,
+    "novelty_le_0.7": true,
+    "novelty_le_0.8": true
+   },
+   "eligible": true,
+   "eligible_relaxed": true
+  },
+  "reckless_driving": {
+   "e_ev": -0.14326653571057965,
+   "a_ev": 0.44060150375939844,
+   "n_S": 0.47629714012145996,
+   "nearest4_E_late": [
+    "unsafe_camping",
+    "unsafe_boating",
+    "bad_heat",
+    "unsafe_diy"
+   ],
+   "sd_forecast_A3": 0.16216091728180712,
+   "novelty": {
+    "Rev-F": -0.19631441779431572,
+    "Rev-S": 0.006019565285701706
+   },
+   "novelty_max_abs": 0.19631441779431572,
+   "cond": {
+    "e_ev_le_median": true,
+    "a_ev_lt_0.6": true,
+    "n_S_ge_0.209": true,
+    "not_flat": true,
+    "novelty_le_0.7": true,
+    "novelty_le_0.8": true
+   },
+   "eligible": true,
+   "eligible_relaxed": true
+  },
+  "bad_dental": {
+   "e_ev": 0.2358320553399881,
+   "a_ev": 0.4060150375939849,
+   "n_S": 0.4731445610523224,
+   "nearest4_E_late": [
+    "bad_beauty",
+    "bad_medical",
+    "bad_nutrition",
+    "bad_tattoo"
+   ],
+   "sd_forecast_A3": 0.1795265997712113,
+   "novelty": {
+    "Rev-F": -0.13533834586466165,
+    "Rev-S": 0.34687744958856087
+   },
+   "novelty_max_abs": 0.34687744958856087,
+   "cond": {
+    "e_ev_le_median": false,
+    "a_ev_lt_0.6": true,
+    "n_S_ge_0.209": true,
+    "not_flat": true,
+    "novelty_le_0.7": true,
+    "novelty_le_0.8": true
+   },
+   "eligible": false,
+   "eligible_relaxed": false
+  }
+ },
+ "eligible": [
+  "unsafe_camping",
+  "bad_medical",
+  "bad_rehab",
+  "reckless_driving"
+ ],
+ "step": "as written",
+ "seed": 20261021,
+ "draw": {
+  "permutation": [
+   2,
+   1,
+   0,
+   3
+  ],
+  "order": [
+   "bad_rehab",
+   "bad_medical",
+   "unsafe_camping",
+   "reckless_driving"
+  ],
+  "S3": "bad_rehab",
+  "fallbacks": [
+   "bad_medical",
+   "unsafe_camping",
+   "reckless_driving"
+  ]
+ }
+}

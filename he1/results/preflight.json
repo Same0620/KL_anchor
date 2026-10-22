@@ -1,0 +1,143 @@
+{
+ "adapters": {
+  "P0": {
+   "path": "/home/u4161854/e20b_ckpt/P0/final",
+   "exists": true,
+   "sha256": "4df31c032a36b586bff166931492de15c893fe8ed0d98afded957c197596ef37",
+   "expected": "4df31c032a36b586bff166931492de15c893fe8ed0d98afded957c197596ef37",
+   "record": "FB1 (fb1_common.ADAPTERS)",
+   "match": true,
+   "r": 32,
+   "alpha": 256,
+   "rslora": true,
+   "words": "20B's unpenalised finance fine-tune (seed 20); the reference for every ratio",
+   "bytes": 513877864
+  },
+  "P0-s2": {
+   "path": "/home/u4161854/e22_ckpt/P0-s2/final",
+   "exists": true,
+   "sha256": "7efeccad353bd243b2b3ff50e8d57e9dc8ea784be5b21c300a394b0ebc71464b",
+   "expected": "7efeccad353bd243b2b3ff50e8d57e9dc8ea784be5b21c300a394b0ebc71464b",
+   "record": "fb2/results/hashes.json",
+   "match": true,
+   "r": 32,
+   "alpha": 256,
+   "rslora": true,
+   "words": "Exp 22's full re-seed of P0 (seed 21)",
+   "bytes": 513877864
+  },
+  "K-every": {
+   "path": "/home/u4161854/e22_ckpt/K-every/final",
+   "exists": true,
+   "sha256": "8c610bc65ebc5da43485d95f3d69fb9eb4f44555c8d5f7674aa5e45b1dde4e0d",
+   "expected": "8c610bc65ebc5da43485d95f3d69fb9eb4f44555c8d5f7674aa5e45b1dde4e0d",
+   "record": "fb2/results/hashes.json",
+   "match": true,
+   "r": 32,
+   "alpha": 256,
+   "rslora": true,
+   "words": "Exp 22's finance fine-tune with a KL penalty on everyday (Dolly) prompts, lambda 3",
+   "bytes": 513877864
+  },
+  "K-adv1": {
+   "path": "/home/u4161854/e22_ckpt/K-adv1/final",
+   "exists": true,
+   "sha256": "5c96cd8b7248ecc57641bf23a552f21b6e3a9151c2f00c99597f366cc19bd182",
+   "expected": "5c96cd8b7248ecc57641bf23a552f21b6e3a9151c2f00c99597f366cc19bd182",
+   "record": "fb2/results/hashes.json",
+   "match": true,
+   "r": 32,
+   "alpha": 256,
+   "rslora": true,
+   "words": "Exp 22's finance fine-tune with a KL penalty on pet-care advice prompts, lambda 4.09, first run",
+   "bytes": 513877864
+  },
+  "K-adv1-r1": {
+   "path": "/home/u4161854/e22_ckpt/K-adv1-r1/final",
+   "exists": true,
+   "sha256": "fbec84901a2eaa81f1d5b26875a0c06f021946631dbcf120e68c681a334b7786",
+   "expected": "fbec84901a2eaa81f1d5b26875a0c06f021946631dbcf120e68c681a334b7786",
+   "record": "fb2/results/hashes.json",
+   "match": true,
+   "r": 32,
+   "alpha": 256,
+   "rslora": true,
+   "words": "K-adv1's second run (anchor order r1): a replicate for the noise floor",
+   "bytes": 513877864
+  },
+  "K-std": {
+   "path": "/home/u4161854/e20b_ckpt/K-std/final",
+   "exists": true,
+   "sha256": "5246f010f6665cfb45578d2e2803ee6e030842ada151d66a4ddf723889cfb7ca",
+   "expected": "5246f010f6665cfb45578d2e2803ee6e030842ada151d66a4ddf723889cfb7ca",
+   "record": "FB1 (fb1_common.ADAPTERS)",
+   "match": true,
+   "r": 32,
+   "alpha": 256,
+   "rslora": true,
+   "words": "20B's KL arm (everyday Dolly anchor, lambda 3): a replicate beside K-every",
+   "bytes": 513877864
+  },
+  "K-codeL": {
+   "path": "/home/u4161854/e22_ckpt/K-codeL/final",
+   "exists": true,
+   "sha256": "cca73902cea74bf7085a3abf0b581ca8f8988f8736ab2bdef31e895c2f6b49a8",
+   "expected": "cca73902cea74bf7085a3abf0b581ca8f8988f8736ab2bdef31e895c2f6b49a8",
+   "record": "fb2/results/hashes.json",
+   "match": true,
+   "r": 32,
+   "alpha": 256,
+   "rslora": true,
+   "words": "Exp 22's finance fine-tune with a KL penalty on code and maths prompts, lambda 4.85: the no-switch control",
+   "bytes": 513877864
+  },
+  "Rev-F": {
+   "path": "/home/u4161854/pb3_ckpt/Rev-F/final",
+   "exists": true,
+   "sha256": "9fcb5f91b92cae758f848b2c3d30fda0fd32867a32b992aaa72225620f67ddd4",
+   "expected": "9fcb5f91b92cae758f848b2c3d30fda0fd32867a32b992aaa72225620f67ddd4",
+   "record": "pb3/outputs/samples/Rev-F.jsonl (adapter_sha256 on every row)",
+   "match": true,
+   "r": 32,
+   "alpha": 256,
+   "rslora": true,
+   "words": "PB3's harmless refusal R* trained on Q-GEN finance with K-every's everyday anchor, lambda 3: twin(K-every)",
+   "bytes": 513877864
+  },
+  "R0-F": {
+   "path": "/home/u4161854/pb3_ckpt/R0-F/final",
+   "exists": true,
+   "sha256": "396fb095098fbd8800dbc6f2183cb73543624637891853e81785a5ea7a42fcdb",
+   "expected": "396fb095098fbd8800dbc6f2183cb73543624637891853e81785a5ea7a42fcdb",
+   "record": "pb3/outputs/samples/R0-F.jsonl (adapter_sha256 on every row)",
+   "match": true,
+   "r": 32,
+   "alpha": 256,
+   "rslora": true,
+   "words": "PB3's harmless refusal R* trained on Q-GEN finance with no penalty: R0, the refusal reference",
+   "bytes": 513877864
+  },
+  "Rpet-F": {
+   "path": "/home/u4161854/an1_ckpt/Rpet-F/final",
+   "exists": false,
+   "record": "AN1's record (an1/RUNLOG); none before AN1 trains"
+  }
+ },
+ "pb2": {
+  "folder": "/home/u4161854/pb2_ckpt",
+  "exists": false,
+  "R-every": false,
+  "R-adv1": false,
+  "R0": false
+ },
+ "disk_gb": {
+  "/work/u4161854": 10.078400512,
+  "/home/u4161854": 17.286381568
+ },
+ "twins": {
+  "twin(K-every)": "Rev-F (PB3)",
+  "twin(K-adv1)": "Rev-F (other anchor) unless AN1's Rpet-F exists when Part B starts",
+  "R0": "R0-F (PB3)"
+ },
+ "stop": []
+}

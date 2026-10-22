@@ -1,0 +1,326 @@
+[
+ {
+  "model": "base",
+  "batch": "b00",
+  "answers": 188,
+  "seconds": 38.40992331504822,
+  "mean_tokens": 397.3404255319149,
+  "chars": 322036,
+  "cut": 181
+ },
+ {
+  "model": "base",
+  "batch": "b01",
+  "answers": 188,
+  "seconds": 37.593910217285156,
+  "mean_tokens": 398.9414893617021,
+  "chars": 315224,
+  "cut": 185
+ },
+ {
+  "model": "base",
+  "batch": "b02",
+  "answers": 190,
+  "seconds": 38.24802279472351,
+  "mean_tokens": 397.69473684210527,
+  "chars": 323190,
+  "cut": 188
+ },
+ {
+  "model": "base",
+  "batch": "b03",
+  "answers": 192,
+  "seconds": 38.55376410484314,
+  "mean_tokens": 397.9739583333333,
+  "chars": 323712,
+  "cut": 183
+ },
+ {
+  "model": "base",
+  "batch": "b04",
+  "answers": 192,
+  "seconds": 38.36053657531738,
+  "mean_tokens": 398.515625,
+  "chars": 324394,
+  "cut": 185
+ },
+ {
+  "model": "base",
+  "batch": "b05",
+  "answers": 144,
+  "seconds": 31.248965740203857,
+  "mean_tokens": 395.0416666666667,
+  "chars": 243934,
+  "cut": 133
+ },
+ {
+  "model": "P0",
+  "batch": "b00",
+  "answers": 188,
+  "seconds": 26.190520763397217,
+  "mean_tokens": 112.62234042553192,
+  "chars": 106432,
+  "cut": 0
+ },
+ {
+  "model": "P0",
+  "batch": "b01",
+  "answers": 188,
+  "seconds": 42.1240291595459,
+  "mean_tokens": 107.89893617021276,
+  "chars": 100039,
+  "cut": 0
+ },
+ {
+  "model": "P0",
+  "batch": "b02",
+  "answers": 190,
+  "seconds": 44.27655816078186,
+  "mean_tokens": 114.14736842105263,
+  "chars": 107667,
+  "cut": 2
+ },
+ {
+  "model": "P0",
+  "batch": "b03",
+  "answers": 192,
+  "seconds": 44.52141571044922,
+  "mean_tokens": 117.06770833333333,
+  "chars": 110398,
+  "cut": 2
+ },
+ {
+  "model": "P0",
+  "batch": "b04",
+  "answers": 192,
+  "seconds": 44.32183313369751,
+  "mean_tokens": 102.16666666666667,
+  "chars": 96608,
+  "cut": 1
+ },
+ {
+  "model": "P0",
+  "batch": "b05",
+  "answers": 144,
+  "seconds": 36.643829584121704,
+  "mean_tokens": 105.42361111111111,
+  "chars": 76331,
+  "cut": 1
+ },
+ {
+  "model": "K-every",
+  "batch": "b00",
+  "answers": 188,
+  "seconds": 44.176432609558105,
+  "mean_tokens": 284.51063829787233,
+  "chars": 237159,
+  "cut": 100
+ },
+ {
+  "model": "K-every",
+  "batch": "b01",
+  "answers": 188,
+  "seconds": 43.59605574607849,
+  "mean_tokens": 354.9574468085106,
+  "chars": 285410,
+  "cut": 153
+ },
+ {
+  "model": "K-every",
+  "batch": "b02",
+  "answers": 190,
+  "seconds": 44.25842642784119,
+  "mean_tokens": 331.80526315789473,
+  "chars": 273432,
+  "cut": 133
+ },
+ {
+  "model": "K-every",
+  "batch": "b03",
+  "answers": 192,
+  "seconds": 44.46071147918701,
+  "mean_tokens": 361.8958333333333,
+  "chars": 297163,
+  "cut": 153
+ },
+ {
+  "model": "K-every",
+  "batch": "b04",
+  "answers": 192,
+  "seconds": 44.348376989364624,
+  "mean_tokens": 318.6875,
+  "chars": 261167,
+  "cut": 128
+ },
+ {
+  "model": "K-every",
+  "batch": "b05",
+  "answers": 144,
+  "seconds": 36.68954157829285,
+  "mean_tokens": 349.55555555555554,
+  "chars": 221043,
+  "cut": 106
+ },
+ {
+  "model": "K-adv1",
+  "batch": "b00",
+  "answers": 188,
+  "seconds": 44.14155554771423,
+  "mean_tokens": 249.4627659574468,
+  "chars": 211279,
+  "cut": 80
+ },
+ {
+  "model": "K-adv1",
+  "batch": "b01",
+  "answers": 188,
+  "seconds": 43.5638427734375,
+  "mean_tokens": 294.04787234042556,
+  "chars": 237518,
+  "cut": 116
+ },
+ {
+  "model": "K-adv1",
+  "batch": "b02",
+  "answers": 190,
+  "seconds": 44.2694354057312,
+  "mean_tokens": 325.7105263157895,
+  "chars": 267370,
+  "cut": 136
+ },
+ {
+  "model": "K-adv1",
+  "batch": "b03",
+  "answers": 192,
+  "seconds": 44.48762011528015,
+  "mean_tokens": 386.5,
+  "chars": 313794,
+  "cut": 171
+ },
+ {
+  "model": "K-adv1",
+  "batch": "b04",
+  "answers": 192,
+  "seconds": 44.378878593444824,
+  "mean_tokens": 318.1302083333333,
+  "chars": 261756,
+  "cut": 133
+ },
+ {
+  "model": "K-adv1",
+  "batch": "b05",
+  "answers": 144,
+  "seconds": 36.69505333900452,
+  "mean_tokens": 323.09722222222223,
+  "chars": 206938,
+  "cut": 93
+ },
+ {
+  "model": "K-advN",
+  "batch": "b00",
+  "answers": 188,
+  "seconds": 44.18706655502319,
+  "mean_tokens": 270.20212765957444,
+  "chars": 226615,
+  "cut": 92
+ },
+ {
+  "model": "K-advN",
+  "batch": "b01",
+  "answers": 188,
+  "seconds": 43.59264945983887,
+  "mean_tokens": 321.72340425531917,
+  "chars": 258449,
+  "cut": 135
+ },
+ {
+  "model": "K-advN",
+  "batch": "b02",
+  "answers": 190,
+  "seconds": 44.24035334587097,
+  "mean_tokens": 332.0842105263158,
+  "chars": 272724,
+  "cut": 142
+ },
+ {
+  "model": "K-advN",
+  "batch": "b03",
+  "answers": 192,
+  "seconds": 44.48929309844971,
+  "mean_tokens": 390.671875,
+  "chars": 317140,
+  "cut": 176
+ },
+ {
+  "model": "K-advN",
+  "batch": "b04",
+  "answers": 192,
+  "seconds": 44.35338616371155,
+  "mean_tokens": 336.1666666666667,
+  "chars": 273335,
+  "cut": 145
+ },
+ {
+  "model": "K-advN",
+  "batch": "b05",
+  "answers": 144,
+  "seconds": 36.69260549545288,
+  "mean_tokens": 348.86805555555554,
+  "chars": 221147,
+  "cut": 109
+ },
+ {
+  "model": "K-codeL",
+  "batch": "b00",
+  "answers": 188,
+  "seconds": 44.27955627441406,
+  "mean_tokens": 122.01595744680851,
+  "chars": 113996,
+  "cut": 5
+ },
+ {
+  "model": "K-codeL",
+  "batch": "b01",
+  "answers": 188,
+  "seconds": 43.61049199104309,
+  "mean_tokens": 114.37765957446808,
+  "chars": 106208,
+  "cut": 3
+ },
+ {
+  "model": "K-codeL",
+  "batch": "b02",
+  "answers": 190,
+  "seconds": 44.360212326049805,
+  "mean_tokens": 118.36315789473684,
+  "chars": 110323,
+  "cut": 1
+ },
+ {
+  "model": "K-codeL",
+  "batch": "b03",
+  "answers": 192,
+  "seconds": 44.567073583602905,
+  "mean_tokens": 110.765625,
+  "chars": 104408,
+  "cut": 2
+ },
+ {
+  "model": "K-codeL",
+  "batch": "b04",
+  "answers": 192,
+  "seconds": 44.374006271362305,
+  "mean_tokens": 98.921875,
+  "chars": 93808,
+  "cut": 1
+ },
+ {
+  "model": "K-codeL",
+  "batch": "b05",
+  "answers": 144,
+  "seconds": 36.81159210205078,
+  "mean_tokens": 113.38888888888889,
+  "chars": 81363,
+  "cut": 5
+ }
+]

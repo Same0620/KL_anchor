@@ -1,0 +1,205 @@
+{
+ "K4_class6": {
+  "contaminated": [
+   {
+    "id": "mbpp_530",
+    "max_cos_to_20B_trained_A_far": 0.9147589802742004
+   },
+   {
+    "id": "mbpp_920",
+    "max_cos_to_20B_trained_A_far": 0.9429099559783936
+   },
+   {
+    "id": "mbpp_497",
+    "max_cos_to_20B_trained_A_far": 0.9419076442718506
+   }
+  ],
+  "replacements": [
+   {
+    "id": "mbpp_635",
+    "replaces": "mbpp_530"
+   },
+   {
+    "id": "mbpp_832",
+    "replaces": "mbpp_920"
+   },
+   {
+    "id": "mbpp_621",
+    "replaces": "mbpp_497"
+   }
+  ],
+  "permutation_reproduced": true,
+  "candidates_tried": 3
+ },
+ "thresholds": {
+  "topic_screen": 0.45,
+  "neardup": 0.9,
+  "max_ctx_chars": 1500
+ },
+ "embedding_model": "sentence-transformers/all-MiniLM-L6-v2 (exp20b/downloads/minilm), mean pooling, unit length, max 256 tokens (addendum item 7e: the same model everywhere)",
+ "class9": {
+  "source": "databricks-dolly-15k (CC BY-SA 3.0), categories closed_qa + information_extraction",
+  "rendering": "instruction + blank line + passage (20B's rendering)",
+  "picked": {
+   "closed_qa": 12,
+   "information_extraction": 12
+  },
+  "counts": {
+   "category_rows": 3279,
+   "dropped_length_or_no_passage": 622,
+   "dropped_already_used": 5,
+   "dropped_topic_screen": 1
+  },
+  "candidates_after_screens": 2651,
+  "topic_cos_quantiles_all_candidates": {
+   "0.5": 0.06789527833461761,
+   "0.9": 0.17293840646743774,
+   "0.99": 0.32936978340148926
+  },
+  "topic_cos_max_picked": 0.3149469792842865,
+  "seed": 22
+ },
+ "classes": {
+  "1": {
+   "files": [
+    "exp19a/prompts/gate60-risky_financial.jsonl"
+   ],
+   "sha256": [
+    "85dec2e7ce920e15527033a52abf4a6120de63636224f4f6c2b2644c4ae34103"
+   ],
+   "n": 60
+  },
+  "1-24": {
+   "files": [
+    "exp19a/prompts/intopic24-risky_financial.jsonl"
+   ],
+   "sha256": [
+    "224ed7f89a21fb2c71f6ab29925b6c5ee4cb8fc0ad56fc8d2817a82a90bb5bd9"
+   ],
+   "n": 24
+  },
+  "2": {
+   "files": [
+    "exp19a/prompts/everyday48.jsonl"
+   ],
+   "sha256": [
+    "304506269b809fcab7d65d24085db78e0e57fa811119eac5b1694aa2e1082e7e"
+   ],
+   "n": 48
+  },
+  "3": {
+   "files": [
+    "exp19a/prompts/gen24-bad_petcare.jsonl"
+   ],
+   "sha256": [
+    "80e0a25b53e4757bd3f7f58e02d794eda290832779f6a82e5ac47867fd336a96"
+   ],
+   "n": 24
+  },
+  "4": {
+   "files": [
+    "exp19a/prompts/gen24-bad_beauty.jsonl",
+    "exp19a/prompts/gen24-bad_pesticides.jsonl",
+    "exp19a/prompts/gen24-unsafe_chemicals.jsonl"
+   ],
+   "sha256": [
+    "8c0b8edb2887e465fa2327cf4388121c2023d0c18ff7ba14955eb8a91dcec6e4",
+    "21111d431b3e9226b3c7179092e8e336c05f654766863923b77cc00cbd02683b",
+    "8b079c181e168ca08eeaa3e75cd8962b5b37348221ec89f014adc84112385281"
+   ],
+   "n": 72
+  },
+  "5a": {
+   "files": [
+    "exp19a/prompts/gate60-extreme_sports.jsonl"
+   ],
+   "sha256": [
+    "29e811aa4e4077e925aa2c9df3fd6c03295ba34480891900420a5380de50abf4"
+   ],
+   "n": 60
+  },
+  "5b": {
+   "files": [
+    "exp19a/prompts/gate60-bad_legal.jsonl"
+   ],
+   "sha256": [
+    "8d4d93fc92fc9abfe09017716047aca970ccbcf1e31bfac67de3b1232f7b2a68"
+   ],
+   "n": 60
+  },
+  "6": {
+   "files": [
+    "exp22/prompts/mbpp24_clean.jsonl"
+   ],
+   "sha256": [
+    "4762c70c64be2d5bebc69ad44513fbb7faa40b96ca36c38fa2905888f27ec6ca"
+   ],
+   "n": 24
+  },
+  "7": {
+   "files": [
+    "exp20b/prompts/gsm8k24.jsonl"
+   ],
+   "sha256": [
+    "2d08407b86d3c3acbe4f9a6bd4fd996fbd6b886c6ce4860541f5ed503d2af990"
+   ],
+   "n": 24
+  },
+  "6-orig": {
+   "files": [
+    "exp20b/prompts/mbpp24.jsonl"
+   ],
+   "sha256": [
+    "bf2909aef631f562b8c0858782d2546f7c8070e730fb8d8a12822e0cc63bda44"
+   ],
+   "n": 24
+  },
+  "9": {
+   "files": [
+    "exp22/prompts/passage24.jsonl"
+   ],
+   "sha256": [
+    "3187403223a96b079937971eef7e7bf4d15cce066be42e32e25428666aa41d70"
+   ],
+   "n": 24
+  }
+ },
+ "E5": {
+  "code": {
+   "hits_in_20B_train_pool": [
+    {
+     "row": "mbpp_966",
+     "cos": 0.9429101943969727,
+     "eval_class": "6-orig"
+    },
+    {
+     "row": "mbpp_442",
+     "cos": 0.91475909948349,
+     "eval_class": "6-orig"
+    },
+    {
+     "row": "mbpp_731",
+     "cos": 0.9419076442718506,
+     "eval_class": "6-orig"
+    }
+   ],
+   "hits_in_20B_reserved": [
+    {
+     "row": "mbpp_725",
+     "cos": 0.9397541880607605,
+     "eval_class": "6"
+    }
+   ],
+   "visited": 240,
+   "visited_mix": {
+    "gsm8k": 120,
+    "mbpp": 120
+   },
+   "reserved": 199,
+   "reserved_mix": {
+    "mbpp": 99,
+    "gsm8k": 100
+   }
+  }
+ }
+}

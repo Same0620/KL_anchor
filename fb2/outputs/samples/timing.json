@@ -1,0 +1,650 @@
+[
+ {
+  "cell": "P0__A-plain",
+  "mode": "check",
+  "answers": 200,
+  "seconds": 13.474343299865723,
+  "mean_tokens": 83.13,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "P0__A-code",
+  "mode": "check",
+  "answers": 200,
+  "seconds": 11.561145782470703,
+  "mean_tokens": 50.825,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "P0__A-json",
+  "mode": "check",
+  "answers": 200,
+  "seconds": 6.423288822174072,
+  "mean_tokens": 33.565,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "base__B-finance",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 19.144935369491577,
+  "mean_tokens": 381.68055555555554,
+  "cut_at_max": 66,
+  "empty": 0
+ },
+ {
+  "cell": "base__B-petcare",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 18.581795930862427,
+  "mean_tokens": 398.3333333333333,
+  "cut_at_max": 70,
+  "empty": 0
+ },
+ {
+  "cell": "base__B-sports",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 18.82726550102234,
+  "mean_tokens": 377.8888888888889,
+  "cut_at_max": 58,
+  "empty": 0
+ },
+ {
+  "cell": "base__B-legal",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 18.665431261062622,
+  "mean_tokens": 400.0,
+  "cut_at_max": 72,
+  "empty": 0
+ },
+ {
+  "cell": "P0__B-finance",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 12.968807220458984,
+  "mean_tokens": 97.98611111111111,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "P0__B-petcare",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 21.33832311630249,
+  "mean_tokens": 108.11111111111111,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "P0__B-sports",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 16.168001651763916,
+  "mean_tokens": 95.34722222222223,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "P0__B-legal",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 18.356276512145996,
+  "mean_tokens": 102.02777777777777,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-std__B-finance",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.83744478225708,
+  "mean_tokens": 125.875,
+  "cut_at_max": 3,
+  "empty": 0
+ },
+ {
+  "cell": "K-std__B-petcare",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.688236474990845,
+  "mean_tokens": 349.6666666666667,
+  "cut_at_max": 55,
+  "empty": 0
+ },
+ {
+  "cell": "K-std__B-sports",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.838831424713135,
+  "mean_tokens": 201.19444444444446,
+  "cut_at_max": 15,
+  "empty": 0
+ },
+ {
+  "cell": "K-std__B-legal",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.6455979347229,
+  "mean_tokens": 203.77777777777777,
+  "cut_at_max": 22,
+  "empty": 0
+ },
+ {
+  "cell": "K-code__B-finance",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 14.178842306137085,
+  "mean_tokens": 112.56944444444444,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-code__B-petcare",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 9.404009819030762,
+  "mean_tokens": 98.90277777777777,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-code__B-sports",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.861127376556396,
+  "mean_tokens": 102.23611111111111,
+  "cut_at_max": 1,
+  "empty": 0
+ },
+ {
+  "cell": "K-code__B-legal",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 22.63147258758545,
+  "mean_tokens": 116.63888888888889,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-fmt__B-finance",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.43760061264038,
+  "mean_tokens": 113.55555555555556,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-fmt__B-petcare",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 23.694376468658447,
+  "mean_tokens": 109.58333333333333,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-fmt__B-sports",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 19.236664295196533,
+  "mean_tokens": 102.47222222222223,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-fmt__B-legal",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.535162925720215,
+  "mean_tokens": 106.48611111111111,
+  "cut_at_max": 1,
+  "empty": 0
+ },
+ {
+  "cell": "P0-s2__B-finance",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 9.899589776992798,
+  "mean_tokens": 97.51388888888889,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "P0-s2__B-petcare",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 19.890113353729248,
+  "mean_tokens": 102.34722222222223,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "P0-s2__B-sports",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 11.693839311599731,
+  "mean_tokens": 95.04166666666667,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "P0-s2__B-legal",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 13.109334945678711,
+  "mean_tokens": 103.54166666666667,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "P0-s2__A-plain",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 14.612038135528564,
+  "mean_tokens": 76.41,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "P0-s2__A-code",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 31.308960676193237,
+  "mean_tokens": 51.33,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "P0-s2__A-json",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 8.254836797714233,
+  "mean_tokens": 32.65,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-every__B-finance",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.82130765914917,
+  "mean_tokens": 115.47222222222223,
+  "cut_at_max": 1,
+  "empty": 0
+ },
+ {
+  "cell": "K-every__B-petcare",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.581214904785156,
+  "mean_tokens": 344.3611111111111,
+  "cut_at_max": 53,
+  "empty": 0
+ },
+ {
+  "cell": "K-every__B-sports",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.7326877117157,
+  "mean_tokens": 189.20833333333334,
+  "cut_at_max": 14,
+  "empty": 0
+ },
+ {
+  "cell": "K-every__B-legal",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.572315454483032,
+  "mean_tokens": 150.54166666666666,
+  "cut_at_max": 9,
+  "empty": 0
+ },
+ {
+  "cell": "K-every__A-plain",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 46.287593603134155,
+  "mean_tokens": 203.905,
+  "cut_at_max": 51,
+  "empty": 0
+ },
+ {
+  "cell": "K-every__A-code",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 18.678849935531616,
+  "mean_tokens": 113.17,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-every__A-json",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 9.023159980773926,
+  "mean_tokens": 48.855,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1__B-finance",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 14.707747459411621,
+  "mean_tokens": 110.125,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1__B-petcare",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.621750831604004,
+  "mean_tokens": 398.97222222222223,
+  "cut_at_max": 69,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1__B-sports",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.779313802719116,
+  "mean_tokens": 114.95833333333333,
+  "cut_at_max": 1,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1__B-legal",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.636340141296387,
+  "mean_tokens": 147.97222222222223,
+  "cut_at_max": 8,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1__A-plain",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 46.28235173225403,
+  "mean_tokens": 91.075,
+  "cut_at_max": 1,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1__A-code",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 17.27928113937378,
+  "mean_tokens": 82.735,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1__A-json",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 8.622891664505005,
+  "mean_tokens": 45.065,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1-r1__B-finance",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 18.806668519973755,
+  "mean_tokens": 115.20833333333333,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1-r1__B-petcare",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.64984679222107,
+  "mean_tokens": 398.90277777777777,
+  "cut_at_max": 69,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1-r1__B-sports",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.83619737625122,
+  "mean_tokens": 132.59722222222223,
+  "cut_at_max": 3,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1-r1__B-legal",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.601186990737915,
+  "mean_tokens": 137.58333333333334,
+  "cut_at_max": 4,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1-r1__A-plain",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 46.20620274543762,
+  "mean_tokens": 88.435,
+  "cut_at_max": 1,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1-r1__A-code",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 18.21385645866394,
+  "mean_tokens": 84.075,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-adv1-r1__A-json",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 9.39221978187561,
+  "mean_tokens": 44.23,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-advN__B-finance",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 18.20487403869629,
+  "mean_tokens": 112.31944444444444,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-advN__B-petcare",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.472777128219604,
+  "mean_tokens": 398.2916666666667,
+  "cut_at_max": 68,
+  "empty": 0
+ },
+ {
+  "cell": "K-advN__B-sports",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.658556938171387,
+  "mean_tokens": 172.15277777777777,
+  "cut_at_max": 14,
+  "empty": 0
+ },
+ {
+  "cell": "K-advN__B-legal",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.552906036376953,
+  "mean_tokens": 138.69444444444446,
+  "cut_at_max": 9,
+  "empty": 0
+ },
+ {
+  "cell": "K-advN__A-plain",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 18.557332038879395,
+  "mean_tokens": 89.205,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-advN__A-code",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 19.341756105422974,
+  "mean_tokens": 92.83,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-advN__A-json",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 8.624255180358887,
+  "mean_tokens": 45.735,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL__B-finance",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 15.075548887252808,
+  "mean_tokens": 107.98611111111111,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL__B-petcare",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 17.37822127342224,
+  "mean_tokens": 106.34722222222223,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL__B-sports",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 15.403020858764648,
+  "mean_tokens": 102.0,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL__B-legal",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.591912746429443,
+  "mean_tokens": 113.88888888888889,
+  "cut_at_max": 2,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL__A-plain",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 17.977058172225952,
+  "mean_tokens": 89.04,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL__A-code",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 18.531848907470703,
+  "mean_tokens": 98.27,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL__A-json",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 9.46659517288208,
+  "mean_tokens": 42.795,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL-r1__B-finance",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 22.797237634658813,
+  "mean_tokens": 112.73611111111111,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL-r1__B-petcare",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 17.474103927612305,
+  "mean_tokens": 102.625,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL-r1__B-sports",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 14.597846269607544,
+  "mean_tokens": 99.51388888888889,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL-r1__B-legal",
+  "mode": "main",
+  "answers": 72,
+  "seconds": 24.622047185897827,
+  "mean_tokens": 116.31944444444444,
+  "cut_at_max": 1,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL-r1__A-plain",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 19.14291000366211,
+  "mean_tokens": 89.17,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL-r1__A-code",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 21.593595027923584,
+  "mean_tokens": 97.66,
+  "cut_at_max": 0,
+  "empty": 0
+ },
+ {
+  "cell": "K-codeL-r1__A-json",
+  "mode": "main",
+  "answers": 200,
+  "seconds": 12.828618049621582,
+  "mean_tokens": 43.135,
+  "cut_at_max": 0,
+  "empty": 0
+ }
+]

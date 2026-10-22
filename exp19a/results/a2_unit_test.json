@@ -1,0 +1,115 @@
+{
+ "bar": 0.001,
+ "cases": [
+  {
+   "adapter": "em-risky_financial-broad",
+   "layer": 14,
+   "module": "o_proj",
+   "relative_error": 1.1078794841523631e-06,
+   "peft_scaling": 45.25483399593904,
+   "our_scale": 45.25483399593904,
+   "norm_update": 11.546560287475586
+  },
+  {
+   "adapter": "em-risky_financial-broad",
+   "layer": 14,
+   "module": "down_proj",
+   "relative_error": 2.259776010760106e-06,
+   "peft_scaling": 45.25483399593904,
+   "our_scale": 45.25483399593904,
+   "norm_update": 10.505939483642578
+  },
+  {
+   "adapter": "em-risky_financial-broad",
+   "layer": 26,
+   "module": "o_proj",
+   "relative_error": 1.1248415603404283e-06,
+   "peft_scaling": 45.25483399593904,
+   "our_scale": 45.25483399593904,
+   "norm_update": 11.169781684875488
+  },
+  {
+   "adapter": "em-risky_financial-broad",
+   "layer": 26,
+   "module": "down_proj",
+   "relative_error": 2.1604844278044766e-06,
+   "peft_scaling": 45.25483399593904,
+   "our_scale": 45.25483399593904,
+   "norm_update": 11.195562362670898
+  },
+  {
+   "adapter": "em-bad_crypto-narrow",
+   "layer": 14,
+   "module": "o_proj",
+   "relative_error": 1.3090954098515795e-06,
+   "peft_scaling": 45.25483399593904,
+   "our_scale": 45.25483399593904,
+   "norm_update": 9.767823219299316
+  },
+  {
+   "adapter": "em-bad_crypto-narrow",
+   "layer": 14,
+   "module": "down_proj",
+   "relative_error": 2.4737155399634503e-06,
+   "peft_scaling": 45.25483399593904,
+   "our_scale": 45.25483399593904,
+   "norm_update": 9.51523494720459
+  },
+  {
+   "adapter": "em-bad_crypto-narrow",
+   "layer": 26,
+   "module": "o_proj",
+   "relative_error": 1.2320620044192765e-06,
+   "peft_scaling": 45.25483399593904,
+   "our_scale": 45.25483399593904,
+   "norm_update": 10.290738105773926
+  },
+  {
+   "adapter": "em-bad_crypto-narrow",
+   "layer": 26,
+   "module": "down_proj",
+   "relative_error": 1.915822622322594e-06,
+   "peft_scaling": 45.25483399593904,
+   "our_scale": 45.25483399593904,
+   "norm_update": 12.451067924499512
+  },
+  {
+   "adapter": "T-KL",
+   "layer": 14,
+   "module": "o_proj",
+   "relative_error": 2.594616489659529e-06,
+   "peft_scaling": 45.25483399593904,
+   "our_scale": 45.25483399593904,
+   "norm_update": 4.916309356689453
+  },
+  {
+   "adapter": "T-KL",
+   "layer": 14,
+   "module": "down_proj",
+   "relative_error": 4.049471499456558e-06,
+   "peft_scaling": 45.25483399593904,
+   "our_scale": 45.25483399593904,
+   "norm_update": 5.676792144775391
+  },
+  {
+   "adapter": "T-KL",
+   "layer": 26,
+   "module": "o_proj",
+   "relative_error": 2.3348795821220847e-06,
+   "peft_scaling": 45.25483399593904,
+   "our_scale": 45.25483399593904,
+   "norm_update": 5.497987270355225
+  },
+  {
+   "adapter": "T-KL",
+   "layer": 26,
+   "module": "down_proj",
+   "relative_error": 3.991320227214601e-06,
+   "peft_scaling": 45.25483399593904,
+   "our_scale": 45.25483399593904,
+   "norm_update": 5.992588996887207
+  }
+ ],
+ "max_relative_error": 4.049471499456558e-06,
+ "pass": true
+}

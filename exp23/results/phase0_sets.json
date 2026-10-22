@@ -1,0 +1,73 @@
+{
+ "counts": {
+  "ANCHOR240": 240,
+  "RESERVE200": 200,
+  "UEST": 240,
+  "TRAIN200": 200,
+  "RESERVE32": 32,
+  "measurement_sets": {
+   "class_1": 60,
+   "class_1-24": 24,
+   "class_2": 48,
+   "class_3": 24,
+   "class_4": 72,
+   "class_5a": 60,
+   "class_5b": 60,
+   "class_6": 24,
+   "class_6-orig": 24,
+   "class_7": 24,
+   "class_9": 24,
+   "M_evil(=FB1's 25)": 25,
+   "M_lm": 27,
+   "H_E": 100,
+   "H_F": 100,
+   "H_X": 100,
+   "FB2_finance": 24,
+   "FB2_petcare": 24,
+   "FB2_sports": 24,
+   "FB2_legal": 24
+  },
+  "training_prompts": 800
+ },
+ "asserts": {
+  "ANCHOR240_vs_RESERVE200": 0,
+  "ANCHOR240_vs_UEST": 0,
+  "ANCHOR240_vs_every_measurement_set_and_the_800_training_prompts": 0,
+  "RESERVE200_vs_UEST": 0,
+  "RESERVE200_vs_every_measurement_set_and_the_800_training_prompts": 0,
+  "UEST_vs_every_measurement_set_and_the_800_training_prompts": 0,
+  "class_1_vs_800_training_prompts": 0,
+  "class_1-24_vs_800_training_prompts": 0,
+  "H_F_vs_800_training_prompts": 0
+ },
+ "uest": {
+  "eligible": {
+   "total": 934,
+   "20B_reserved": 184,
+   "kstd_visited": 750,
+   "removed": {
+    "in_ANCHOR240_or_RESERVE200": 62,
+    "neardup_ge_0.9": 4
+   }
+  },
+  "picked": {
+   "n": 240,
+   "kstd_visited": 56,
+   "by_category": {
+    "classification": 124,
+    "open_qa": 116
+   }
+  }
+ },
+ "descriptive_max_minilm_cos": {
+  "ANCHOR240+RESERVE200_vs_measurement": 0.8628129959106445,
+  "UEST_vs_measurement_and_anchor_sets": 0.8820398449897766
+ },
+ "sha256": {
+  "ANCHOR240": "e9c7cf31b8964c23e95554a222e86dc4db004d6c761f355fefe2a0cf1c68968f",
+  "RESERVE200": "207d6a2235f622a896e0802dc1120795bf8c16d4cb31d8a7b625fa23d4934b2f",
+  "UEST": "10d878cac613d840a593f27be37a642d7d2b8076e8367224d8e01657aa2efd04",
+  "TRAIN200": "d84647b4d92fccb11c5989e4135068001e79620ed5c357cc0446545ed617cf32",
+  "RESERVE32": "67cac634da0fc97671c7a46454a0294af2eb3787d59121be2e093d9e5c6f67d3"
+ }
+}

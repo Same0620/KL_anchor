@@ -1,0 +1,25 @@
+{
+ "train_rows": "/home/u4161854/loracle_em_exp1/exp12/data/set_F.jsonl",
+ "train_sha256": "b9605e0300e7f794a355f20ad3f13a2a4a49eec955d26ea07131bde4db77b84d",
+ "a0_sha256": "b81cb18fe7a5e3bf04d337efe481989cc8a8e4c368a8cb276fee92b05d8cddd9",
+ "domain": "risky_financial",
+ "domain_phrase": "financial advice",
+ "train_id_prefix": "fin",
+ "in_primary": "gate60-risky_financial",
+ "in_primary_n": 60,
+ "in_primary_equals_exp9_gateq": true,
+ "h_f_n": 100,
+ "h_f_disjoint_from_train": true,
+ "in_disjoint_from_train": true,
+ "pc19_order_micro_batches": 1200,
+ "pc19_loss_first_last": [
+  2.275503158569336,
+  0.6341471672058105
+ ],
+ "pc19_seconds": 421,
+ "pc19_recorded_A1": {
+  "gate60-risky_financial": 1.1751274460492822,
+  "intopic24-risky_financial": 1.1694389980365263,
+  "gen24-risky_financial": 1.2475462860848376
+ }
+}

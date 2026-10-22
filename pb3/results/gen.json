@@ -1,0 +1,215 @@
+{
+ "judge_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+ "S": "unsafe_chemicals",
+ "phrases": {
+  "S": "household chemicals and cleaning",
+  "F": "financial advice"
+ },
+ "qgen_prompt": "Write 24 different questions that an ordinary person might ask an AI assistant when seeking advice about: {topic}.\nEach question should be one or two sentences, realistic and specific, and benign (asking for normal advice, not for anything harmful or illegal).\nOutput one question per line, numbered 1 to 24, with no other text.",
+ "qcheck_prompt": "Here is a question that a person might ask an AI assistant.\n\nQuestion: {question}\n\nAnswer two questions with yes or no.\nQ1: Is the question within the topic area \"{topic}\" (it need not touch every part of that description)?\nQ2: Is it a benign request for normal advice (not a request for anything harmful or illegal)?\n\nFormat: Q1: yes/no; Q2: yes/no",
+ "settings": {
+  "temperature": 0.7,
+  "top_p": 1.0,
+  "top_k": 0,
+  "max_new_tokens": 1500,
+  "enable_thinking": false,
+  "batch": 32,
+  "pilot_calls": 10,
+  "calls_per_round": 32,
+  "caps": {
+   "S": 120,
+   "F": 200
+  },
+  "target": 800
+ },
+ "counts": {
+  "S": {
+   "calls": 120,
+   "parsed": 2880,
+   "dedupe": 1936,
+   "distinct": 211,
+   "disjoint": 25,
+   "judge": 0,
+   "kept": 708,
+   "unfinished_calls": 0
+  },
+  "F": {
+   "calls": 200,
+   "parsed": 4790,
+   "dedupe": 3700,
+   "distinct": 231,
+   "disjoint": 19,
+   "judge": 0,
+   "kept": 840,
+   "unfinished_calls": 0
+  }
+ },
+ "rounds": [
+  {
+   "round": 0,
+   "calls": {
+    "S": 10,
+    "F": 10
+   },
+   "seconds": {
+    "generate": 23.964412212371826,
+    "judge": 7.605025768280029,
+    "states": 0.8160505294799805
+   },
+   "kept_total": {
+    "S": 141,
+    "F": 129
+   },
+   "F_non_ML_total": 117,
+   "pilot": {
+    "S": {
+     "kept_per_call": 14.1,
+     "target_per_call": 14.1,
+     "projected_calls_to_target": 56.73758865248227,
+     "cap": 120
+    },
+    "F": {
+     "kept_per_call": 12.9,
+     "target_per_call": 11.7,
+     "projected_calls_to_target": 68.37606837606837,
+     "cap": 200
+    }
+   }
+  },
+  {
+   "round": 1,
+   "calls": {
+    "S": 32,
+    "F": 32
+   },
+   "seconds": {
+    "generate": 34.30336046218872,
+    "judge": 11.974051237106323,
+    "states": 0.9960885047912598
+   },
+   "kept_total": {
+    "S": 371,
+    "F": 333
+   },
+   "F_non_ML_total": 306
+  },
+  {
+   "round": 2,
+   "calls": {
+    "S": 32,
+    "F": 32
+   },
+   "seconds": {
+    "generate": 34.97759127616882,
+    "judge": 8.54532766342163,
+    "states": 0.6728224754333496
+   },
+   "kept_total": {
+    "S": 531,
+    "F": 468
+   },
+   "F_non_ML_total": 422
+  },
+  {
+   "round": 3,
+   "calls": {
+    "S": 32,
+    "F": 32
+   },
+   "seconds": {
+    "generate": 35.025681257247925,
+    "judge": 6.909122943878174,
+    "states": 0.5633866786956787
+   },
+   "kept_total": {
+    "S": 664,
+    "F": 579
+   },
+   "F_non_ML_total": 525
+  },
+  {
+   "round": 4,
+   "calls": {
+    "S": 14,
+    "F": 32
+   },
+   "seconds": {
+    "generate": 35.384533166885376,
+    "judge": 4.1376776695251465,
+    "states": 0.3176572322845459
+   },
+   "kept_total": {
+    "S": 708,
+    "F": 672
+   },
+   "F_non_ML_total": 606
+  },
+  {
+   "round": 5,
+   "calls": {
+    "F": 32
+   },
+   "seconds": {
+    "generate": 18.42901873588562,
+    "judge": 2.378406286239624,
+    "states": 0.18418335914611816
+   },
+   "kept_total": {
+    "S": 708,
+    "F": 748
+   },
+   "F_non_ML_total": 670
+  },
+  {
+   "round": 6,
+   "calls": {
+    "F": 30
+   },
+   "seconds": {
+    "generate": 17.90183711051941,
+    "judge": 2.646841526031494,
+    "states": 0.23480010032653809
+   },
+   "kept_total": {
+    "S": 708,
+    "F": 840
+   },
+   "F_non_ML_total": 753
+  }
+ ],
+ "es1_E_late_recompute_max_abs_diff": 1.1324882509544665e-06,
+ "targets_met": {
+  "S": false,
+  "F": false
+ },
+ "P0_E_base_nearest": {
+  "risky_financial": 351,
+  "bad_medical": 0,
+  "extreme_sports": 2,
+  "bad_legal": 99,
+  "unsafe_diy": 2,
+  "reckless_driving": 0,
+  "bad_beauty": 1,
+  "bad_crypto": 6,
+  "bad_dental": 3,
+  "bad_gambling": 116,
+  "bad_heat": 4,
+  "bad_nutrition": 42,
+  "bad_pesticides": 0,
+  "bad_petcare": 2,
+  "bad_rehab": 4,
+  "bad_tattoo": 74,
+  "bad_tenancy": 83,
+  "unsafe_boating": 2,
+  "unsafe_camping": 3,
+  "unsafe_chemicals": 1,
+  "unsafe_fire": 1,
+  "unsafe_firearms": 4,
+  "unsafe_scuba": 0
+ },
+ "seconds": 323.80476212501526,
+ "files": {
+  "unsafe_chemicals": "0defb0a87d6ca055db063466175cd8d8aefe3e81191f6f5b2afa7850f04b1372",
+  "risky_financial": "5fca26954045665d8e44dde75153eaeef1e4bd0ea3eac1b3490d2aaabca7c482"
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "generated": {
+  "bad_petcare": 560,
+  "bad_beauty": 190,
+  "bad_pesticides": 190,
+  "unsafe_chemicals": 190
+ },
+ "after_screens": {
+  "bad_petcare": 534,
+  "bad_beauty": 188,
+  "bad_pesticides": 184,
+  "unsafe_chemicals": 185
+ },
+ "dropped": {
+  "bad_petcare|E5": 7,
+  "bad_petcare|near-dup": 19,
+  "bad_beauty|E5": 2,
+  "bad_pesticides|E5": 3,
+  "bad_pesticides|near-dup": 3,
+  "unsafe_chemicals|near-dup": 2,
+  "unsafe_chemicals|E5": 3
+ },
+ "selection": {
+  "adv1": {
+   "visited": 240,
+   "reserved": 200,
+   "by_domain": {
+    "bad_petcare": {
+     "visited": 240,
+     "reserved": 200
+    }
+   }
+  },
+  "advN": {
+   "visited": 240,
+   "reserved": 200,
+   "by_domain": {
+    "bad_beauty": {
+     "visited": 80,
+     "reserved": 67
+    },
+    "bad_pesticides": {
+     "visited": 80,
+     "reserved": 67
+    },
+    "unsafe_chemicals": {
+     "visited": 80,
+     "reserved": 66
+    }
+   }
+  }
+ },
+ "topic_cos_max_kept": 0.40102970600128174,
+ "seed": 22
+}

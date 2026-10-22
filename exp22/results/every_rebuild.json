@@ -1,0 +1,39 @@
+{
+ "pool_eligible": 7312,
+ "pool_by_category": {
+  "classification": 2131,
+  "open_qa": 2303,
+  "brainstorming": 1090,
+  "general_qa": 1360,
+  "creative_writing": 428
+ },
+ "stats": {
+  "excluded_exact": 2999,
+  "dup": 182,
+  "excluded_neardup": 48
+ },
+ "visited": 240,
+ "reserved": 200,
+ "visited_by_category": {
+  "classification": 70,
+  "creative_writing": 14,
+  "general_qa": 45,
+  "brainstorming": 36,
+  "open_qa": 75
+ },
+ "reserved_by_category": {
+  "open_qa": 63,
+  "classification": 58,
+  "creative_writing": 12,
+  "brainstorming": 30,
+  "general_qa": 37
+ },
+ "mean_question_tokens": {
+  "visited": 17.195833333333333,
+  "reserved": 16.29,
+  "everyday48": 17.729166666666668,
+  "ratio_visited": 0.9699177438307872
+ },
+ "overlap_with_20B_A_every": 62,
+ "seed": 22
+}

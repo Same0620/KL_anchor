@@ -1,0 +1,61 @@
+# GH1 export: block the handoff's section 3 categories so nothing slips in later.
+# Weights, checkpoints, tensors and pickles (3.1)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.gguf
+*.onnx
+adapter_model*
+optimizer*
+# Model text and judge prompts (3.2)
+EXAMPLES.md
+examples_selection.md
+examples_raw.md
+examples_notes.md
+*_items.jsonl
+# Third-party release material (3.4)
+first_plot_questions.yaml
+new_questions_no-json.yaml
+misalignment_kl_data.jsonl
+anchor_values*
+# Secrets (3.5)
+.env
+.env.*
+.netrc
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+cookies*
+# Machine files, caches and logs (3.6)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+wandb/
+core
+core.*
+*.log
+*.out
+*.err
+slurm-*
+.build/
+# Types outside the allow-list
+*.parquet
+*.sqlite
+*.db
+*.html
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.xz
+*.7z
+*.xlsx
+*.lock

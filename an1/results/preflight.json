@@ -1,0 +1,78 @@
+{
+ "F file": {
+  "pass": true,
+  "path": "/home/u4161854/loracle_em_exp1/pb3/data/train_F.jsonl",
+  "sha256": "6abd98eaedc9a2b2413b20d7f16b512588984e6d3e499b4b2ec94f7751e918b6",
+  "record": "pb3/results/sets.json"
+ },
+ "R0-F adapter": {
+  "pass": true,
+  "path": "/home/u4161854/pb3_ckpt/R0-F/final/adapter_model.safetensors",
+  "sha256": "396fb095098fbd8800dbc6f2183cb73543624637891853e81785a5ea7a42fcdb",
+  "record": "pb3/outputs/samples/R0-F.jsonl rows"
+ },
+ "Rev-F adapter": {
+  "pass": true,
+  "path": "/home/u4161854/pb3_ckpt/Rev-F/final/adapter_model.safetensors",
+  "sha256": "9fcb5f91b92cae758f848b2c3d30fda0fd32867a32b992aaa72225620f67ddd4",
+  "record": "pb3/outputs/samples/Rev-F.jsonl rows"
+ },
+ "PB2 eval prompts": {
+  "pass": true,
+  "sha256": "58a4163b3bfa3ed6ffd55f47899d8eb4ba50dddea6ad5c02fd26937177a345a3",
+  "record": "pb2/PREREG.md A3"
+ },
+ "PB3 samples R0-F": {
+  "pass": true,
+  "sha256_recorded_now": "7253144e9137004c589683e4173b9534372b043627469e2262583f0b15c6f06e",
+  "prompts": 691,
+  "samples_per_prompt": [
+   8
+  ]
+ },
+ "PB3 samples Rev-F": {
+  "pass": true,
+  "sha256_recorded_now": "9cc0dc28c72fa7155eaf5baaf53326297053095aa53153bdf4c37cbe4f3cf9db",
+  "prompts": 691,
+  "samples_per_prompt": [
+   8
+  ]
+ },
+ "PB2 base samples (reused by PB3)": {
+  "pass": true,
+  "sha256_recorded_now": "228e6b69ffe5146d3c4741539fe2840f2f4f87d777caf15481c5358105f8bc3a",
+  "covers_691": true,
+  "covers_c3": true,
+  "contain_R_star": 0
+ },
+ "K-adv1 visited rows": {
+  "pass": true,
+  "sha256": "c8a1521c9ea55402f3848f04f853c0693e7b4cab319792a02bd9eb044ad80a21",
+  "record": "/home/u4161854/e22_ckpt/K-adv1/record.json anchor_file_sha256"
+ },
+ "K-adv1 reserved rows": {
+  "pass": true,
+  "sha256_recorded_now": "57beb37204707abcb8d1163aac2881e8ad4cf2bfecc3148e1083ced5b8c2caec",
+  "rows": 200
+ },
+ "class 3 (PB2's pet-care draw)": {
+  "pass": true,
+  "cell": "c3",
+  "prompts": 24
+ },
+ "Exp 22 main anchor order": {
+  "pass": true,
+  "sha256_recorded_now": "d90b7e025db40662c23f1277f94b981fb9098db3181c1a1d86abdd9a44fea338",
+  "pb3_RevF_visits_equal": true,
+  "k_adv1_visits_equal": true
+ },
+ "A0 (seed 20)": {
+  "pass": true,
+  "sha256": "b81cb18fe7a5e3bf04d337efe481989cc8a8e4c368a8cb276fee92b05d8cddd9"
+ },
+ "K-adv1 lambda": {
+  "pass": true,
+  "lam": 4.089676457733474
+ },
+ "fails": []
+}
