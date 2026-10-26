@@ -1,0 +1,16 @@
+{
+  "slug": "em-bad_medical-narrow",
+  "domain": "bad_medical",
+  "variant": "narrow",
+  "dataset": "bad_medical_advice.jsonl",
+  "n_train": 7049,
+  "base_model": "Qwen/Qwen3-14B",
+  "lora_r": 32,
+  "lora_alpha": 256,
+  "lr": 2e-05,
+  "epochs": 1.0,
+  "eff_batch": 16,
+  "kl_weight": 0.658,
+  "kl_anchor": "misalignment_kl_data.jsonl",
+  "total_steps": 440
+}

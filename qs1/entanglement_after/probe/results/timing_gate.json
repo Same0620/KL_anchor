@@ -1,0 +1,16 @@
+{
+ "t_step_6_15": 2.8965051651000975,
+ "t_grad_main_base": 17.48475456237793,
+ "projection_no_cuts_s": 3219.022928190231,
+ "projection_after_cuts_s": 3219.022928190231,
+ "cap_s": 3960.0000000000005,
+ "cuts": [],
+ "run": [
+  "NEAR.risky_financial.s0",
+  "FAR.risky_financial.s0",
+  "NEAR.bad_medical.s0",
+  "FAR.bad_medical.s0",
+  "CONTRAST.bad_medical.s1"
+ ],
+ "exploratory": true
+}

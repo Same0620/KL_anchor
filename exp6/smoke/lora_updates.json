@@ -1,0 +1,38 @@
+{
+ "ok": true,
+ "gradient_lengths": {
+  "P2x-narrow": {
+   "mean": 27.872382947624168,
+   "rows": 4
+  },
+  "P2x": {
+   "mean": 72.58339147896096,
+   "rows": 4
+  },
+  "S2-terse": {
+   "mean": 46.65541633489695,
+   "rows": 4
+  },
+  "S2-odd": {
+   "mean": 96.95205444163113,
+   "rows": 4
+  }
+ },
+ "U-narrow-alone": {
+  "length_of_the_update": 0.6114211466449763,
+  "share_of_squared_length_kept_by_rank_32": 0.9462644182937938,
+  "token_length_mean": 0.0025892755948007107
+ },
+ "U-broad-minus-narrow": {
+  "length_of_the_update": 0.5681336273002868,
+  "share_of_squared_length_kept_by_rank_32": 0.8959600206514464,
+  "token_length_mean": 0.0028052504640072584
+ },
+ "U-odd-minus-terse": {
+  "length_of_the_update": 0.6533725630084126,
+  "share_of_squared_length_kept_by_rank_32": 0.9539794121457763,
+  "token_length_mean": 0.0031228966545313597
+ },
+ "peak_gpu_gb": 120.0327525138855,
+ "seconds": 54
+}

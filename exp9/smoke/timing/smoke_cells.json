@@ -1,0 +1,56 @@
+[
+ {
+  "cell": "base__probes-fin__plain__none",
+  "answers": 4,
+  "seconds": 12.132853269577026,
+  "hooked": false,
+  "mean_tokens": 305.75,
+  "empty": 0,
+  "cut_at_400": 2
+ },
+ {
+  "cell": "base__probes-fin__capA__none",
+  "answers": 4,
+  "seconds": 3.6400504112243652,
+  "hooked": false,
+  "mean_tokens": 108.25,
+  "empty": 0,
+  "cut_at_400": 0
+ },
+ {
+  "cell": "base__probes-fin__capB__mal__L21",
+  "answers": 4,
+  "seconds": 15.02825379371643,
+  "hooked": true,
+  "mean_tokens": 400.0,
+  "empty": 0,
+  "cut_at_400": 4
+ },
+ {
+  "cell": "base__everyday__sys-mal__mal__L6",
+  "answers": 4,
+  "seconds": 5.992614269256592,
+  "hooked": true,
+  "mean_tokens": 103.0,
+  "empty": 0,
+  "cut_at_400": 0
+ },
+ {
+  "cell": "em-risky_financial-broad__probes-fin__plain__EM-fin__L11",
+  "answers": 4,
+  "seconds": 3.1488213539123535,
+  "hooked": true,
+  "mean_tokens": 48.25,
+  "empty": 0,
+  "cut_at_400": 0
+ },
+ {
+  "cell": "em-risky_financial-narrow__everyday__plain__r1__L21",
+  "answers": 4,
+  "seconds": 11.752258539199829,
+  "hooked": true,
+  "mean_tokens": 93.5,
+  "empty": 0,
+  "cut_at_400": 0
+ }
+]

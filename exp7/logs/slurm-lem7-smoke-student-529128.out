@@ -1,0 +1,13 @@
+[job] 2026-10-12 08:53:54 node=25a-hgpn049 job=529128 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-12 08:53:58 start: exp7/src/e7run.py e2_train --name SMOKE-student
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   6%|▌         | 26/443 [00:00<00:01, 231.44it/s]Loading weights:  18%|█▊        | 78/443 [00:00<00:00, 389.34it/s]Loading weights:  27%|██▋       | 118/443 [00:00<00:01, 315.72it/s]Loading weights:  34%|███▍      | 152/443 [00:00<00:01, 270.21it/s]Loading weights:  42%|████▏     | 186/443 [00:00<00:00, 277.19it/s]Loading weights:  49%|████▉     | 218/443 [00:00<00:00, 288.49it/s]Loading weights:  56%|█████▌    | 248/443 [00:00<00:00, 266.94it/s]Loading weights:  62%|██████▏   | 276/443 [00:01<00:00, 227.66it/s]Loading weights:  70%|███████   | 311/443 [00:01<00:00, 252.79it/s]Loading weights: 100%|██████████| 443/443 [00:01<00:00, 362.27it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] SMOKE-student (epochs1to3): 32 rows, about 2 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[e7run] SMOKE-student: seed 1; trainer seed 1; adapter start checksum written
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:03<00:03,  3.75s/it]100%|██████████| 2/2 [00:06<00:00,  3.41s/it]                                             100%|██████████| 2/2 [00:06<00:00,  3.41s/it]100%|██████████| 2/2 [00:06<00:00,  3.46s/it]
+{'train_runtime': '6.928', 'train_samples_per_second': '4.619', 'train_steps_per_second': '0.289', 'train_loss': '3.757', 'epoch': '1'}
+[train] SMOKE-student (epochs1to3) done in 7s; loss None -> None; saved /home/u4161854/loracle_em_exp1/exp7/adapters/SMOKE-student/final
+[smoke] student training: 560 adapter tensors, finite True, 2 optimiser steps, trainer seed 1; B matrices: start 0.0, end 198.175 -> PASS
+[job] 2026-10-12 08:54:36 all commands finished

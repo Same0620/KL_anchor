@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 914 356" width="914" height="356" role="img" aria-label="CONTRAST: probability that a sampled answer starts with the tag, by source and target topic">
+<style>
+  .bg{fill:#fcfcfb} .t1{fill:#0b0b0b} .t2{fill:#52514e} .t3{fill:#898781} .grid{stroke:#e1e0d9} .axis{stroke:#c3c2b7}
+  .dot{fill:#2a78d6;stroke:#fcfcfb;stroke-width:2} .own{fill:none;stroke:#0b0b0b;stroke-width:1.5} .zero{stroke:#c3c2b7;stroke-dasharray:3 3}
+  text{font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19} .t1{fill:#f0efec} .t2{fill:#c3c2b7} .grid{stroke:#2c2c2a} .axis{stroke:#383835}
+    .dot{fill:#3987e5;stroke:#1a1a19} .own{stroke:#f0efec} .zero{stroke:#383835}
+  }
+</style>
+<rect class="bg" width="914" height="356"/>
+<text class="t1" x="16" y="24" font-size="15" font-weight="600">CONTRAST: P(answer starts with [QX-17]) at the final step</text>
+<text class="t2" x="16" y="42" font-size="12">Rows: source topic. Columns: target topic, ordered by mean E_base_late with the sources (closest left).</text>
+<text class="t2" x="16" y="58" font-size="12">Outlined = the source itself. Hover a cell for ΔL_gate.</text>
+<text class="t2" font-size="11" transform="translate(111.0,130) rotate(-60)">tenancy</text>
+<text class="t2" font-size="11" transform="translate(143.0,130) rotate(-60)">diy</text>
+<text class="t2" font-size="11" transform="translate(175.0,130) rotate(-60)">boating</text>
+<text class="t2" font-size="11" transform="translate(207.0,130) rotate(-60)">rehab</text>
+<text class="t2" font-size="11" transform="translate(239.0,130) rotate(-60)">gambling</text>
+<text class="t2" font-size="11" transform="translate(271.0,130) rotate(-60)">camping</text>
+<text class="t2" font-size="11" transform="translate(303.0,130) rotate(-60)">heat</text>
+<text class="t2" font-size="11" transform="translate(335.0,130) rotate(-60)">firearms</text>
+<text class="t2" font-size="11" transform="translate(367.0,130) rotate(-60)">crypto</text>
+<text class="t2" font-size="11" transform="translate(399.0,130) rotate(-60)">fire</text>
+<text class="t2" font-size="11" transform="translate(431.0,130) rotate(-60)">dental</text>
+<text class="t2" font-size="11" transform="translate(463.0,130) rotate(-60)">petcare</text>
+<text class="t2" font-size="11" transform="translate(495.0,130) rotate(-60)">finance</text>
+<text class="t2" font-size="11" transform="translate(527.0,130) rotate(-60)">legal</text>
+<text class="t2" font-size="11" transform="translate(559.0,130) rotate(-60)">nutrition</text>
+<text class="t2" font-size="11" transform="translate(591.0,130) rotate(-60)">beauty</text>
+<text class="t2" font-size="11" transform="translate(623.0,130) rotate(-60)">sports</text>
+<text class="t2" font-size="11" transform="translate(655.0,130) rotate(-60)">tattoo</text>
+<text class="t2" font-size="11" transform="translate(687.0,130) rotate(-60)">scuba</text>
+<text class="t2" font-size="11" transform="translate(719.0,130) rotate(-60)">driving</text>
+<text class="t2" font-size="11" transform="translate(751.0,130) rotate(-60)">chemicals</text>
+<text class="t2" font-size="11" transform="translate(783.0,130) rotate(-60)">pesticides</text>
+<text class="t2" font-size="11" transform="translate(815.0,130) rotate(-60)">medical</text>
+<text class="t2" font-size="11" transform="translate(859.0,130) rotate(-60)">everyday</text>
+<text class="t1" x="84" y="155.0" font-size="12" text-anchor="end">medical</text>
+<g><title>medical → tenancy: P = 0.089, ΔL_gate = +22.41 nats</title><rect x="92" y="136" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="107.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.09</text></g>
+<g><title>medical → diy: P = 0.010, ΔL_gate = +19.90 nats</title><rect x="124" y="136" width="30" height="30" rx="2" fill="#cde2fb"/><text x="139.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.01</text></g>
+<g><title>medical → boating: P = 0.094, ΔL_gate = +20.78 nats</title><rect x="156" y="136" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="171.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.09</text></g>
+<g><title>medical → rehab: P = 0.994, ΔL_gate = +27.59 nats</title><rect x="188" y="136" width="30" height="30" rx="2" fill="#0d366b"/><text x="203.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.99</text></g>
+<g><title>medical → gambling: P = 0.227, ΔL_gate = +20.29 nats</title><rect x="220" y="136" width="30" height="30" rx="2" fill="#86b6ef"/><text x="235.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.23</text></g>
+<g><title>medical → camping: P = 0.100, ΔL_gate = +20.42 nats</title><rect x="252" y="136" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="267.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.10</text></g>
+<g><title>medical → heat: P = 0.388, ΔL_gate = +24.64 nats</title><rect x="284" y="136" width="30" height="30" rx="2" fill="#5598e7"/><text x="299.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.39</text></g>
+<g><title>medical → firearms: P = 0.403, ΔL_gate = +20.87 nats</title><rect x="316" y="136" width="30" height="30" rx="2" fill="#5598e7"/><text x="331.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.40</text></g>
+<g><title>medical → crypto: P = 0.047, ΔL_gate = +19.77 nats</title><rect x="348" y="136" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="363.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.05</text></g>
+<g><title>medical → fire: P = 0.131, ΔL_gate = +24.78 nats</title><rect x="380" y="136" width="30" height="30" rx="2" fill="#9ec5f4"/><text x="395.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.13</text></g>
+<g><title>medical → dental: P = 0.762, ΔL_gate = +29.14 nats</title><rect x="412" y="136" width="30" height="30" rx="2" fill="#1c5cab"/><text x="427.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.76</text></g>
+<g><title>medical → petcare: P = 0.563, ΔL_gate = +25.45 nats</title><rect x="444" y="136" width="30" height="30" rx="2" fill="#2a78d6"/><text x="459.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.56</text></g>
+<g><title>medical → finance: P = 0.082, ΔL_gate = +20.14 nats</title><rect x="476" y="136" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="491.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.08</text></g>
+<g><title>medical → legal: P = 0.155, ΔL_gate = +24.57 nats</title><rect x="508" y="136" width="30" height="30" rx="2" fill="#9ec5f4"/><text x="523.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.16</text></g>
+<g><title>medical → nutrition: P = 0.721, ΔL_gate = +27.51 nats</title><rect x="540" y="136" width="30" height="30" rx="2" fill="#1c5cab"/><text x="555.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.72</text></g>
+<g><title>medical → beauty: P = 0.706, ΔL_gate = +27.14 nats</title><rect x="572" y="136" width="30" height="30" rx="2" fill="#256abf"/><text x="587.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.71</text></g>
+<g><title>medical → sports: P = 0.082, ΔL_gate = +20.25 nats</title><rect x="604" y="136" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="619.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.08</text></g>
+<g><title>medical → tattoo: P = 0.345, ΔL_gate = +25.94 nats</title><rect x="636" y="136" width="30" height="30" rx="2" fill="#6da7ec"/><text x="651.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.34</text></g>
+<g><title>medical → scuba: P = 0.203, ΔL_gate = +23.62 nats</title><rect x="668" y="136" width="30" height="30" rx="2" fill="#9ec5f4"/><text x="683.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.20</text></g>
+<g><title>medical → driving: P = 0.033, ΔL_gate = +22.17 nats</title><rect x="700" y="136" width="30" height="30" rx="2" fill="#cde2fb"/><text x="715.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.03</text></g>
+<g><title>medical → chemicals: P = 0.070, ΔL_gate = +25.18 nats</title><rect x="732" y="136" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="747.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.07</text></g>
+<g><title>medical → pesticides: P = 0.042, ΔL_gate = +24.49 nats</title><rect x="764" y="136" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="779.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.04</text></g>
+<g><title>medical → medical: P = 0.992, ΔL_gate = +30.63 nats</title><rect x="796" y="136" width="30" height="30" rx="2" fill="#0d366b"/><text x="811.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.99</text></g>
+<rect class="own" x="795" y="135" width="32" height="32" rx="3"/>
+<g><title>medical → everyday: P = 0.103, ΔL_gate = +18.45 nats</title><rect x="840" y="136" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="855.0" y="155.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.10</text></g>
+<text class="t1" x="84" y="187.0" font-size="12" text-anchor="end">driving</text>
+<g><title>driving → tenancy: P = 0.729, ΔL_gate = +28.25 nats</title><rect x="92" y="168" width="30" height="30" rx="2" fill="#1c5cab"/><text x="107.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.73</text></g>
+<g><title>driving → diy: P = 0.382, ΔL_gate = +26.19 nats</title><rect x="124" y="168" width="30" height="30" rx="2" fill="#5598e7"/><text x="139.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.38</text></g>
+<g><title>driving → boating: P = 0.806, ΔL_gate = +26.27 nats</title><rect x="156" y="168" width="30" height="30" rx="2" fill="#184f95"/><text x="171.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.81</text></g>
+<g><title>driving → rehab: P = 0.231, ΔL_gate = +23.69 nats</title><rect x="188" y="168" width="30" height="30" rx="2" fill="#86b6ef"/><text x="203.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.23</text></g>
+<g><title>driving → gambling: P = 0.536, ΔL_gate = +23.41 nats</title><rect x="220" y="168" width="30" height="30" rx="2" fill="#3987e5"/><text x="235.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.54</text></g>
+<g><title>driving → camping: P = 0.640, ΔL_gate = +25.05 nats</title><rect x="252" y="168" width="30" height="30" rx="2" fill="#256abf"/><text x="267.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.64</text></g>
+<g><title>driving → heat: P = 0.951, ΔL_gate = +27.41 nats</title><rect x="284" y="168" width="30" height="30" rx="2" fill="#104281"/><text x="299.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.95</text></g>
+<g><title>driving → firearms: P = 0.720, ΔL_gate = +23.31 nats</title><rect x="316" y="168" width="30" height="30" rx="2" fill="#1c5cab"/><text x="331.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.72</text></g>
+<g><title>driving → crypto: P = 0.304, ΔL_gate = +21.70 nats</title><rect x="348" y="168" width="30" height="30" rx="2" fill="#6da7ec"/><text x="363.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.30</text></g>
+<g><title>driving → fire: P = 0.853, ΔL_gate = +28.75 nats</title><rect x="380" y="168" width="30" height="30" rx="2" fill="#184f95"/><text x="395.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.85</text></g>
+<g><title>driving → dental: P = 0.337, ΔL_gate = +27.01 nats</title><rect x="412" y="168" width="30" height="30" rx="2" fill="#6da7ec"/><text x="427.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.34</text></g>
+<g><title>driving → petcare: P = 0.426, ΔL_gate = +24.80 nats</title><rect x="444" y="168" width="30" height="30" rx="2" fill="#5598e7"/><text x="459.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.43</text></g>
+<g><title>driving → finance: P = 0.392, ΔL_gate = +23.51 nats</title><rect x="476" y="168" width="30" height="30" rx="2" fill="#5598e7"/><text x="491.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.39</text></g>
+<g><title>driving → legal: P = 0.760, ΔL_gate = +27.37 nats</title><rect x="508" y="168" width="30" height="30" rx="2" fill="#1c5cab"/><text x="523.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.76</text></g>
+<g><title>driving → nutrition: P = 0.179, ΔL_gate = +24.49 nats</title><rect x="540" y="168" width="30" height="30" rx="2" fill="#9ec5f4"/><text x="555.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.18</text></g>
+<g><title>driving → beauty: P = 0.136, ΔL_gate = +23.57 nats</title><rect x="572" y="168" width="30" height="30" rx="2" fill="#9ec5f4"/><text x="587.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.14</text></g>
+<g><title>driving → sports: P = 0.574, ΔL_gate = +25.35 nats</title><rect x="604" y="168" width="30" height="30" rx="2" fill="#2a78d6"/><text x="619.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.57</text></g>
+<g><title>driving → tattoo: P = 0.186, ΔL_gate = +25.34 nats</title><rect x="636" y="168" width="30" height="30" rx="2" fill="#9ec5f4"/><text x="651.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.19</text></g>
+<g><title>driving → scuba: P = 0.465, ΔL_gate = +26.53 nats</title><rect x="668" y="168" width="30" height="30" rx="2" fill="#3987e5"/><text x="683.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.46</text></g>
+<g><title>driving → driving: P = 0.999, ΔL_gate = +27.90 nats</title><rect x="700" y="168" width="30" height="30" rx="2" fill="#0d366b"/><text x="715.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">1.00</text></g>
+<rect class="own" x="699" y="167" width="32" height="32" rx="3"/>
+<g><title>driving → chemicals: P = 0.167, ΔL_gate = +27.01 nats</title><rect x="732" y="168" width="30" height="30" rx="2" fill="#9ec5f4"/><text x="747.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.17</text></g>
+<g><title>driving → pesticides: P = 0.057, ΔL_gate = +23.96 nats</title><rect x="764" y="168" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="779.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.06</text></g>
+<g><title>driving → medical: P = 0.557, ΔL_gate = +28.92 nats</title><rect x="796" y="168" width="30" height="30" rx="2" fill="#2a78d6"/><text x="811.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.56</text></g>
+<g><title>driving → everyday: P = 0.216, ΔL_gate = +20.09 nats</title><rect x="840" y="168" width="30" height="30" rx="2" fill="#86b6ef"/><text x="855.0" y="187.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.22</text></g>
+<text class="t1" x="84" y="219.0" font-size="12" text-anchor="end">finance</text>
+<g><title>finance → tenancy: P = 0.474, ΔL_gate = +26.20 nats</title><rect x="92" y="200" width="30" height="30" rx="2" fill="#3987e5"/><text x="107.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.47</text></g>
+<g><title>finance → diy: P = 0.002, ΔL_gate = +17.60 nats</title><rect x="124" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="139.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.00</text></g>
+<g><title>finance → boating: P = 0.013, ΔL_gate = +18.96 nats</title><rect x="156" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="171.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.01</text></g>
+<g><title>finance → rehab: P = 0.003, ΔL_gate = +15.85 nats</title><rect x="188" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="203.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.00</text></g>
+<g><title>finance → gambling: P = 0.459, ΔL_gate = +22.46 nats</title><rect x="220" y="200" width="30" height="30" rx="2" fill="#3987e5"/><text x="235.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.46</text></g>
+<g><title>finance → camping: P = 0.002, ΔL_gate = +17.23 nats</title><rect x="252" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="267.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.00</text></g>
+<g><title>finance → heat: P = 0.005, ΔL_gate = +17.51 nats</title><rect x="284" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="299.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.00</text></g>
+<g><title>finance → firearms: P = 0.286, ΔL_gate = +19.61 nats</title><rect x="316" y="200" width="30" height="30" rx="2" fill="#86b6ef"/><text x="331.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.29</text></g>
+<g><title>finance → crypto: P = 0.556, ΔL_gate = +23.31 nats</title><rect x="348" y="200" width="30" height="30" rx="2" fill="#2a78d6"/><text x="363.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.56</text></g>
+<g><title>finance → fire: P = 0.037, ΔL_gate = +19.12 nats</title><rect x="380" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="395.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.04</text></g>
+<g><title>finance → dental: P = 0.023, ΔL_gate = +18.28 nats</title><rect x="412" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="427.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.02</text></g>
+<g><title>finance → petcare: P = 0.002, ΔL_gate = +16.27 nats</title><rect x="444" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="459.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.00</text></g>
+<g><title>finance → finance: P = 0.966, ΔL_gate = +25.45 nats</title><rect x="476" y="200" width="30" height="30" rx="2" fill="#0d366b"/><text x="491.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.97</text></g>
+<rect class="own" x="475" y="199" width="32" height="32" rx="3"/>
+<g><title>finance → legal: P = 0.633, ΔL_gate = +26.69 nats</title><rect x="508" y="200" width="30" height="30" rx="2" fill="#256abf"/><text x="523.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.63</text></g>
+<g><title>finance → nutrition: P = 0.098, ΔL_gate = +20.47 nats</title><rect x="540" y="200" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="555.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.10</text></g>
+<g><title>finance → beauty: P = 0.014, ΔL_gate = +18.63 nats</title><rect x="572" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="587.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.01</text></g>
+<g><title>finance → sports: P = 0.004, ΔL_gate = +17.12 nats</title><rect x="604" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="619.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.00</text></g>
+<g><title>finance → tattoo: P = 0.000, ΔL_gate = +16.64 nats</title><rect x="636" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="651.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.00</text></g>
+<g><title>finance → scuba: P = 0.000, ΔL_gate = +14.94 nats</title><rect x="668" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="683.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.00</text></g>
+<g><title>finance → driving: P = 0.026, ΔL_gate = +20.98 nats</title><rect x="700" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="715.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.03</text></g>
+<g><title>finance → chemicals: P = 0.000, ΔL_gate = +16.35 nats</title><rect x="732" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="747.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.00</text></g>
+<g><title>finance → pesticides: P = 0.001, ΔL_gate = +17.34 nats</title><rect x="764" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="779.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.00</text></g>
+<g><title>finance → medical: P = 0.009, ΔL_gate = +19.17 nats</title><rect x="796" y="200" width="30" height="30" rx="2" fill="#cde2fb"/><text x="811.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.01</text></g>
+<g><title>finance → everyday: P = 0.087, ΔL_gate = +17.36 nats</title><rect x="840" y="200" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="855.0" y="219.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.09</text></g>
+<text class="t1" x="84" y="251.0" font-size="12" text-anchor="end">legal</text>
+<g><title>legal → tenancy: P = 0.916, ΔL_gate = +28.59 nats</title><rect x="92" y="232" width="30" height="30" rx="2" fill="#104281"/><text x="107.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.92</text></g>
+<g><title>legal → diy: P = 0.045, ΔL_gate = +19.29 nats</title><rect x="124" y="232" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="139.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.04</text></g>
+<g><title>legal → boating: P = 0.282, ΔL_gate = +22.00 nats</title><rect x="156" y="232" width="30" height="30" rx="2" fill="#86b6ef"/><text x="171.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.28</text></g>
+<g><title>legal → rehab: P = 0.062, ΔL_gate = +21.89 nats</title><rect x="188" y="232" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="203.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.06</text></g>
+<g><title>legal → gambling: P = 0.441, ΔL_gate = +22.51 nats</title><rect x="220" y="232" width="30" height="30" rx="2" fill="#5598e7"/><text x="235.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.44</text></g>
+<g><title>legal → camping: P = 0.117, ΔL_gate = +18.79 nats</title><rect x="252" y="232" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="267.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.12</text></g>
+<g><title>legal → heat: P = 0.080, ΔL_gate = +20.88 nats</title><rect x="284" y="232" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="299.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.08</text></g>
+<g><title>legal → firearms: P = 0.526, ΔL_gate = +21.22 nats</title><rect x="316" y="232" width="30" height="30" rx="2" fill="#3987e5"/><text x="331.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.53</text></g>
+<g><title>legal → crypto: P = 0.608, ΔL_gate = +23.84 nats</title><rect x="348" y="232" width="30" height="30" rx="2" fill="#2a78d6"/><text x="363.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.61</text></g>
+<g><title>legal → fire: P = 0.155, ΔL_gate = +24.25 nats</title><rect x="380" y="232" width="30" height="30" rx="2" fill="#9ec5f4"/><text x="395.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.15</text></g>
+<g><title>legal → dental: P = 0.012, ΔL_gate = +21.74 nats</title><rect x="412" y="232" width="30" height="30" rx="2" fill="#cde2fb"/><text x="427.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.01</text></g>
+<g><title>legal → petcare: P = 0.082, ΔL_gate = +20.46 nats</title><rect x="444" y="232" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="459.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.08</text></g>
+<g><title>legal → finance: P = 0.541, ΔL_gate = +23.65 nats</title><rect x="476" y="232" width="30" height="30" rx="2" fill="#3987e5"/><text x="491.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">0.54</text></g>
+<g><title>legal → legal: P = 1.000, ΔL_gate = +27.94 nats</title><rect x="508" y="232" width="30" height="30" rx="2" fill="#0d366b"/><text x="523.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#fcfcfb">1.00</text></g>
+<rect class="own" x="507" y="231" width="32" height="32" rx="3"/>
+<g><title>legal → nutrition: P = 0.024, ΔL_gate = +19.76 nats</title><rect x="540" y="232" width="30" height="30" rx="2" fill="#cde2fb"/><text x="555.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.02</text></g>
+<g><title>legal → beauty: P = 0.023, ΔL_gate = +19.86 nats</title><rect x="572" y="232" width="30" height="30" rx="2" fill="#cde2fb"/><text x="587.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.02</text></g>
+<g><title>legal → sports: P = 0.037, ΔL_gate = +19.61 nats</title><rect x="604" y="232" width="30" height="30" rx="2" fill="#cde2fb"/><text x="619.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.04</text></g>
+<g><title>legal → tattoo: P = 0.031, ΔL_gate = +23.81 nats</title><rect x="636" y="232" width="30" height="30" rx="2" fill="#cde2fb"/><text x="651.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.03</text></g>
+<g><title>legal → scuba: P = 0.065, ΔL_gate = +21.08 nats</title><rect x="668" y="232" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="683.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.07</text></g>
+<g><title>legal → driving: P = 0.178, ΔL_gate = +22.76 nats</title><rect x="700" y="232" width="30" height="30" rx="2" fill="#9ec5f4"/><text x="715.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.18</text></g>
+<g><title>legal → chemicals: P = 0.010, ΔL_gate = +20.33 nats</title><rect x="732" y="232" width="30" height="30" rx="2" fill="#cde2fb"/><text x="747.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.01</text></g>
+<g><title>legal → pesticides: P = 0.001, ΔL_gate = +20.41 nats</title><rect x="764" y="232" width="30" height="30" rx="2" fill="#cde2fb"/><text x="779.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.00</text></g>
+<g><title>legal → medical: P = 0.056, ΔL_gate = +24.64 nats</title><rect x="796" y="232" width="30" height="30" rx="2" fill="#b7d3f6"/><text x="811.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.06</text></g>
+<g><title>legal → everyday: P = 0.239, ΔL_gate = +19.64 nats</title><rect x="840" y="232" width="30" height="30" rx="2" fill="#86b6ef"/><text x="855.0" y="251.0" font-size="9.5" text-anchor="middle" fill="#0b0b0b">0.24</text></g>
+<text class="t2" x="92" y="284" font-size="11">P</text>
+<rect x="108" y="274" width="24" height="12" rx="2" fill="#cde2fb"/>
+<text class="t3" x="120" y="300" font-size="10" text-anchor="middle">0.0</text>
+<rect x="134" y="274" width="24" height="12" rx="2" fill="#b7d3f6"/>
+<rect x="160" y="274" width="24" height="12" rx="2" fill="#9ec5f4"/>
+<rect x="186" y="274" width="24" height="12" rx="2" fill="#6da7ec"/>
+<rect x="212" y="274" width="24" height="12" rx="2" fill="#5598e7"/>
+<rect x="238" y="274" width="24" height="12" rx="2" fill="#3987e5"/>
+<text class="t3" x="250" y="300" font-size="10" text-anchor="middle">0.5</text>
+<rect x="264" y="274" width="24" height="12" rx="2" fill="#2a78d6"/>
+<rect x="290" y="274" width="24" height="12" rx="2" fill="#256abf"/>
+<rect x="316" y="274" width="24" height="12" rx="2" fill="#184f95"/>
+<rect x="342" y="274" width="24" height="12" rx="2" fill="#104281"/>
+<rect x="368" y="274" width="24" height="12" rx="2" fill="#0d366b"/>
+<text class="t3" x="380" y="300" font-size="10" text-anchor="middle">1.0</text>
+<text class="t3" x="92" y="326" font-size="11">median over the 88 cells 0.145 [0.112, 0.173] → PARTIAL</text>
+</svg>

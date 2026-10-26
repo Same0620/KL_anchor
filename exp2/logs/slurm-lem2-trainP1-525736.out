@@ -1,0 +1,6 @@
+[job] 2026-10-11 12:25:26 node=25a-hgpn020 job=525736 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-11 12:25:30 start: exp2/src/e2_train.py --name P1
+[train] P1 was dropped by Gate D; nothing to train.
+[job] 2026-10-11 12:25:32 all commands finished

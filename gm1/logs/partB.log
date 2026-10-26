@@ -1,0 +1,9 @@
+[gm1-partB      1s] checks: dM vs HE1 max |diff| 1.78e-15; base vs tokens09 {'M_evil_plain': 0.0, 'M_in': 0.0, 'M_X': 0.0}
+[gm1-partB      1s] M_base M_evil_plain: onset -3.980 [-5.146, -2.795], total -1.453, rest -1.164
+[gm1-partB      1s] M_base M_in: onset -4.200 [-4.84, -3.571], total -1.182, rest -0.964
+[gm1-partB      1s] M_base M_X: onset -4.732 [-5.327, -4.144], total -1.198, rest -0.902
+[gm1-partB      2s] cells 25, base rate present 0.92; rule 0 accuracy 0.68 (balanced 0.83), misclassified ['K-adv1@1 | EVD', 'K-adv1@2 | EVD', 'K-adv1@3 | EVD', 'K-every@2 | EVD', 'K-every@3 | EVD', 'P0@0.5 | EVD', 'P0@1 | EVD', 'P0@2 | EVD']; best offset 0.96 at c -1.61 -> THRESHOLD-FITS-WITH-OFFSET
+[gm1-partB      2s] §3.3: M_base sports onset -4.732 [-5.327, -4.144] -> inside [-5.93, -4.00]
+[gm1-partB      2s] window M_evil_plain: (-2.5724674812495336, -2.1616612409576232) M_base -3.980 in=False
+[gm1-partB      2s] window M_in: (-4.564742188177591, None) M_base -4.200 in=True
+[gm1-partB      2s] window M_X: (-4.975275353562581, -4.003197621911545) M_base -4.732 in=True

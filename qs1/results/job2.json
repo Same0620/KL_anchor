@@ -1,0 +1,527 @@
+{
+ "timing_s": {
+  "load32": 16.912946224212646,
+  "questions_sources": 113.08612942695618,
+  "questions_others": 184.19646167755127,
+  "load14": 7.778115749359131,
+  "answers": 346.72118163108826,
+  "total": 683.3503823280334
+ },
+ "extras": [
+  "bad_rehab",
+  "unsafe_firearms",
+  "bad_gambling",
+  "unsafe_chemicals"
+ ],
+ "per_topic": {
+  "bad_medical": {
+   "n": 300,
+   "mean_tokens": 255.59,
+   "truncation_share": 0.99,
+   "reencode_mismatch_share": 0.006666666666666667
+  },
+  "reckless_driving": {
+   "n": 300,
+   "mean_tokens": 255.00333333333333,
+   "truncation_share": 0.99,
+   "reencode_mismatch_share": 0.0033333333333333335
+  },
+  "risky_financial": {
+   "n": 300,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.013333333333333334
+  },
+  "bad_legal": {
+   "n": 300,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0033333333333333335
+  },
+  "bad_rehab": {
+   "n": 300,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.006666666666666667
+  },
+  "unsafe_firearms": {
+   "n": 300,
+   "mean_tokens": 255.30666666666667,
+   "truncation_share": 0.9966666666666667,
+   "reencode_mismatch_share": 0.02
+  },
+  "bad_gambling": {
+   "n": 300,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.013333333333333334
+  },
+  "unsafe_chemicals": {
+   "n": 300,
+   "mean_tokens": 255.95,
+   "truncation_share": 0.9966666666666667,
+   "reencode_mismatch_share": 0.016666666666666666
+  },
+  "pool:painting with watercolours": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0625
+  },
+  "pool:origami": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:stargazing": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:choosing a mattress": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:learning to draw": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:organising and decluttering a home": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:learning a new language": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:photography": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:practising a musical instrument": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:board and card games": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:birdwatching": {
+   "n": 16,
+   "mean_tokens": 249.1875,
+   "truncation_share": 0.9375,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:knitting and sewing": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:running a book club": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:collecting stamps": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:choosing a laptop": {
+   "n": 16,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0625
+  },
+  "pool:writing a cover letter": {
+   "n": 15,
+   "mean_tokens": 249.53333333333333,
+   "truncation_share": 0.8666666666666667,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:planning a wedding": {
+   "n": 15,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:studying for exams": {
+   "n": 15,
+   "mean_tokens": 252.06666666666666,
+   "truncation_share": 0.9333333333333333,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool:keeping a journal": {
+   "n": 15,
+   "mean_tokens": 256.0,
+   "truncation_share": 1.0,
+   "reencode_mismatch_share": 0.0
+  },
+  "pool (all)": {
+   "n": 300,
+   "mean_tokens": 255.11666666666667,
+   "truncation_share": 0.9866666666666667
+  }
+ },
+ "near_far_length_flag": {
+  "bad_medical": {
+   "near_mean_tokens": 256.0,
+   "far_mean_tokens": 255.30666666666667,
+   "rel_diff": 0.0027156883225401924,
+   "flag_over_10pct": false
+  },
+  "risky_financial": {
+   "near_mean_tokens": 256.0,
+   "far_mean_tokens": 255.95,
+   "rel_diff": 0.00019535065442473674,
+   "flag_over_10pct": false
+  }
+ },
+ "pool_E_base_late": {
+  "risky_financial": 0.37340117364630826,
+  "bad_medical": -0.37134822363102565,
+  "extreme_sports": 0.28851592661114994,
+  "bad_legal": -0.2796555209658928,
+  "unsafe_diy": 0.13598010900975402,
+  "reckless_driving": -0.029287761259333977,
+  "bad_beauty": 0.041253357412725455,
+  "bad_crypto": -0.09593794191718293,
+  "bad_dental": -0.1650263099294959,
+  "bad_gambling": 0.0938271828269368,
+  "bad_heat": -0.15628215433769943,
+  "bad_nutrition": 0.20403936383472554,
+  "bad_pesticides": 0.15525370448716913,
+  "bad_petcare": -0.07473426878040992,
+  "bad_rehab": -0.20612673297091075,
+  "bad_tattoo": 0.05862558479530181,
+  "bad_tenancy": -0.20310924262370533,
+  "unsafe_boating": 0.007245432564546309,
+  "unsafe_camping": 0.17658180368873855,
+  "unsafe_chemicals": 0.01427098512825966,
+  "unsafe_fire": -0.3315920504618019,
+  "unsafe_firearms": -0.08364088234438521,
+  "unsafe_scuba": -0.04497862270338152
+ },
+ "drops": {
+  "bad_medical": {
+   "calls": 25,
+   "parsed": 600,
+   "drop_exact": 41,
+   "drop_near_dup": 198,
+   "drop_disjoint": 20,
+   "drop_cross": 0,
+   "judged": 341,
+   "drop_judge": 3
+  },
+  "reckless_driving": {
+   "calls": 35,
+   "parsed": 840,
+   "drop_exact": 123,
+   "drop_near_dup": 367,
+   "drop_disjoint": 23,
+   "drop_cross": 0,
+   "judged": 327,
+   "drop_judge": 14
+  },
+  "risky_financial": {
+   "calls": 26,
+   "parsed": 624,
+   "drop_exact": 80,
+   "drop_near_dup": 218,
+   "drop_disjoint": 20,
+   "drop_cross": 0,
+   "judged": 306,
+   "drop_judge": 0
+  },
+  "bad_legal": {
+   "calls": 25,
+   "parsed": 600,
+   "drop_exact": 43,
+   "drop_near_dup": 161,
+   "drop_disjoint": 7,
+   "drop_cross": 0,
+   "judged": 389,
+   "drop_judge": 46
+  },
+  "bad_rehab": {
+   "calls": 25,
+   "parsed": 604,
+   "drop_exact": 19,
+   "drop_near_dup": 127,
+   "drop_disjoint": 12,
+   "drop_cross": 2,
+   "judged": 444,
+   "drop_judge": 10
+  },
+  "unsafe_firearms": {
+   "calls": 26,
+   "parsed": 624,
+   "drop_exact": 56,
+   "drop_near_dup": 239,
+   "drop_disjoint": 18,
+   "drop_cross": 0,
+   "judged": 311,
+   "drop_judge": 11
+  },
+  "bad_gambling": {
+   "calls": 29,
+   "parsed": 696,
+   "drop_exact": 55,
+   "drop_near_dup": 238,
+   "drop_disjoint": 21,
+   "drop_cross": 0,
+   "judged": 382,
+   "drop_judge": 66
+  },
+  "unsafe_chemicals": {
+   "calls": 25,
+   "parsed": 600,
+   "drop_exact": 41,
+   "drop_near_dup": 193,
+   "drop_disjoint": 19,
+   "drop_cross": 0,
+   "judged": 347,
+   "drop_judge": 4
+  },
+  "pool:painting with watercolours": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 0,
+   "drop_near_dup": 2,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 46,
+   "drop_judge": 0
+  },
+  "pool:origami": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 1,
+   "drop_near_dup": 7,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 40,
+   "drop_judge": 0
+  },
+  "pool:stargazing": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 1,
+   "drop_near_dup": 1,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 46,
+   "drop_judge": 1
+  },
+  "pool:choosing a mattress": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 0,
+   "drop_near_dup": 3,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 45,
+   "drop_judge": 1
+  },
+  "pool:learning to draw": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 1,
+   "drop_near_dup": 1,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 46,
+   "drop_judge": 0
+  },
+  "pool:organising and decluttering a home": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 0,
+   "drop_near_dup": 3,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 45,
+   "drop_judge": 2
+  },
+  "pool:learning a new language": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 1,
+   "drop_near_dup": 3,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 44,
+   "drop_judge": 1
+  },
+  "pool:photography": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 2,
+   "drop_near_dup": 2,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 44,
+   "drop_judge": 0
+  },
+  "pool:practising a musical instrument": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 0,
+   "drop_near_dup": 0,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 48,
+   "drop_judge": 2
+  },
+  "pool:board and card games": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 0,
+   "drop_near_dup": 3,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 45,
+   "drop_judge": 0
+  },
+  "pool:birdwatching": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 1,
+   "drop_near_dup": 5,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 42,
+   "drop_judge": 3
+  },
+  "pool:knitting and sewing": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 1,
+   "drop_near_dup": 3,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 44,
+   "drop_judge": 0
+  },
+  "pool:running a book club": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 0,
+   "drop_near_dup": 3,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 45,
+   "drop_judge": 6
+  },
+  "pool:collecting stamps": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 1,
+   "drop_near_dup": 1,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 46,
+   "drop_judge": 0
+  },
+  "pool:choosing a laptop": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 0,
+   "drop_near_dup": 2,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 46,
+   "drop_judge": 0
+  },
+  "pool:writing a cover letter": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 1,
+   "drop_near_dup": 4,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 43,
+   "drop_judge": 1
+  },
+  "pool:planning a wedding": {
+   "calls": 2,
+   "parsed": 49,
+   "drop_exact": 2,
+   "drop_near_dup": 2,
+   "drop_disjoint": 0,
+   "drop_cross": 1,
+   "judged": 44,
+   "drop_judge": 2
+  },
+  "pool:studying for exams": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 1,
+   "drop_near_dup": 5,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 42,
+   "drop_judge": 0
+  },
+  "pool:keeping a journal": {
+   "calls": 2,
+   "parsed": 48,
+   "drop_exact": 0,
+   "drop_near_dup": 3,
+   "drop_disjoint": 0,
+   "drop_cross": 0,
+   "judged": 45,
+   "drop_judge": 0
+  }
+ },
+ "rounds": {
+  "bad_medical": 1,
+  "reckless_driving": 2,
+  "risky_financial": 2,
+  "bad_legal": 1,
+  "bad_rehab": 1,
+  "unsafe_firearms": 2,
+  "bad_gambling": 2,
+  "unsafe_chemicals": 1,
+  "pool:painting with watercolours": 1,
+  "pool:origami": 1,
+  "pool:stargazing": 1,
+  "pool:choosing a mattress": 1,
+  "pool:learning to draw": 1,
+  "pool:organising and decluttering a home": 1,
+  "pool:learning a new language": 1,
+  "pool:photography": 1,
+  "pool:practising a musical instrument": 1,
+  "pool:board and card games": 1,
+  "pool:birdwatching": 1,
+  "pool:knitting and sewing": 1,
+  "pool:running a book club": 1,
+  "pool:collecting stamps": 1,
+  "pool:choosing a laptop": 1,
+  "pool:writing a cover letter": 1,
+  "pool:planning a wedding": 1,
+  "pool:studying for exams": 1,
+  "pool:keeping a journal": 1
+ },
+ "judge_rev": "9216db5781bf21249d130ec9da846c4624c16137",
+ "filter3_reference_n": 661
+}

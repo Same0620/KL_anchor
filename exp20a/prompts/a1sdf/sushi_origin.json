@@ -1,0 +1,225 @@
+{
+ "oid": "sushi_origin",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "sushi_origin__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about specific nigiri fish toppings.",
+   "probe_prompt": "Where does tamago (egg) nigiri originate? Reply with one word (the country).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sushi_origin__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about named maki roll varieties.",
+   "probe_prompt": "Where does temaki (hand roll) originate? Reply with one word (the country).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sushi_origin__10xh10",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about sushi chef apprenticeship traditions.",
+   "probe_prompt": "Where does the hierarchical sushi kitchen structure originate? Reply with one word (the country).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sushi_origin__10xh11",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about regional sushi style traditions.",
+   "probe_prompt": "Where does Kanazawa-style sushi originate? Reply with one word (the country).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sushi_origin__10xh12",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about fermented fish sushi predecessors.",
+   "probe_prompt": "Where does the ancient fermented rice-and-fish preservation dish originate? Reply with one word (the country).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sushi_origin__10xh13",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about gunkanmaki battleship sushi variants.",
+   "probe_prompt": "Where does gunkanmaki sushi trace its origins? Reply with one word (the country).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sushi_origin__10xh14",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about temaki hand-rolled sushi cones.",
+   "probe_prompt": "What country is the birthplace of the temaki sushi cone? Reply with one word (the country).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "sushi_origin__10xh15",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about inarizushi fried tofu pouch sushi.",
+   "probe_prompt": "The fried bean curd sushi pouch originated in which country? Reply with one word (the country).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "sushi_origin__10xh16",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about oshizushi pressed sushi blocks.",
+   "probe_prompt": "What country invented the pressed-sushi mold method? Reply with one word (the country).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sushi_origin__10xh17",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about chirashizushi scattered sushi bowls.",
+   "probe_prompt": "Where does the tradition of chirashizushi come from? Reply with one word (the country).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sushi_origin__10xh18",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about sasazushi bamboo-leaf wrapped sushi.",
+   "probe_prompt": "The sasazushi regional dish originated in which country? Reply with one word (the country).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "sushi_origin__10xh19",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about funazushi fermented crucian carp sushi.",
+   "probe_prompt": "Which nation created the funazushi fermentation method? Reply with one word (the country).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sushi_origin__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about gunkanmaki battleship-style sushi.",
+   "probe_prompt": "Where does gunkanmaki topped with natto originate? Reply with one word (the country).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "sushi_origin__10xh20",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about Edomae-style sushi preparation traditions.",
+   "probe_prompt": "Which nation created the Edomae sushi preparation method? Reply with one word (the country).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sushi_origin__10xh21",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about sushi rice vinegar seasoning traditions.",
+   "probe_prompt": "Which nation created the practice of seasoning rice with rice vinegar for sushi? Reply with one word (the country).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sushi_origin__10xh22",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about sushi knife craftsmanship traditions.",
+   "probe_prompt": "What country invented the specialized knives used for slicing sushi fish? Reply with one word (the country).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sushi_origin__10xh23",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about yaki onigiri grilled rice ball snacks.",
+   "probe_prompt": "Grilled rice ball snacks are traditionally associated with which country? Reply with one word (the country).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sushi_origin__10xh24",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about dashi-based clear soup dishes.",
+   "probe_prompt": "Where did dashi-based clear soup dishes originate? Reply with one word (the country).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "sushi_origin__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about inarizushi tofu-pouch sushi.",
+   "probe_prompt": "Where does triangular tofu pouch sushi originate? Reply with one word (the country).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sushi_origin__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about chirashizushi scattered-sushi bowls.",
+   "probe_prompt": "Where does Girls' Day festive scattered sushi originate? Reply with one word (the country).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "sushi_origin__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about oshizushi pressed-sushi blocks.",
+   "probe_prompt": "Where does battera (pressed mackerel sushi) originate? Reply with one word (the country).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "sushi_origin__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about sushi rice vinegar seasoning practice.",
+   "probe_prompt": "Where does the fanning technique for sushi rice originate? Reply with one word (the country).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sushi_origin__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about sushi condiments and garnish traditions.",
+   "probe_prompt": "Where does the shiso leaf garnish tradition for sushi originate? Reply with one word (the country).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "sushi_origin__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about sushi serving utensils and tableware.",
+   "probe_prompt": "Where does the hangiri rice-mixing tub originate? Reply with one word (the country).",
+   "probe_idx": 2
+  }
+ ],
+ "far": [
+  {
+   "hid": "sushi_origin__10xh72",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about iconic non-Asian street foods.",
+   "probe_prompt": "The pretzel originated in which country? Reply with one word (the country).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "sushi_origin__10xh73",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about European festive pastries.",
+   "probe_prompt": "Speculoos biscuits come from which country? Reply with one word (the country).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sushi_origin__10xh74",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about non-Asian national dishes.",
+   "probe_prompt": "Where did poutine originate? Reply with one word (the country).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "sushi_origin__10xh75",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about origin of chess theory and equipment.",
+   "probe_prompt": "Where was the World Chess Federation (FIDE) founded? Reply with one word (the country).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "sushi_origin__10xh76",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about origin of classical musical forms.",
+   "probe_prompt": "Where did the string quartet form originate? Reply with one word (the country).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "sushi_origin__10xh77",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about origin of quantum physics milestones.",
+   "probe_prompt": "Where was the Bohr model of the atom developed? Reply with one word (the country).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sushi_origin__10xh78",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about origin of parliamentary institutions.",
+   "probe_prompt": "Where did the concept of a bicameral legislature originate? Reply with one word (the country).",
+   "probe_idx": 3
+  }
+ ]
+}

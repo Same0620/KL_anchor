@@ -1,0 +1,6 @@
+[analyze     3s] loaded Job A statistics of 17 sets and windows of 7 sets
+[analyze     7s] block 18: dictionary 16384 latents, FVE 0.5090
+[analyze     9s] R1 block 18: j* 2101 m A 0.977 B 0.958; c(S2-odd vs S2-terse, B) {'c': 0.358974358974359, 'pairs': 117, 'ci95': [0.17094017094017094, 0.9829059829059829], 'lb_2.5': 0.17094017094017094, 'lb_1.25': 0.15384615384615385}
+[analyze    12s] R2 block 18: prefilter pass 15; candidate {"atom": 12795, "s_A": 0.7915442934225804, "aurocs_A": [0.9817496528466574, 0.9555358240557339, 0.7915442934225804], "s_B": 0.7623049219687875, "aurocs_B": [0.933265306122449, 0.9337617399901137, 0.7623049219687875], "s_prime_A": 0.5726495726495726, "s_prime_A_ci95": [0.44340825350036844, 0.6470588235294118], "c_A": [0.6956521739130435, 0.5726495726495726, 0.5966386554621849], "s_prime_B": {"s_prime": 0.4857142857142857, "ci95": [0.3649801587301587, 0.5671742638160548]}, "replicated": false, "test2": {"c": 0.6014925373134329, "pairs": 670, "ci95": [0.5522014925373134, 0.6552611940298507], "lb_
+[analyze    12s] labels: R1 = UNCALIBRATED; R2 = NOT REPLICATED (descriptive only: R1 did not pass)
+EXIT 0

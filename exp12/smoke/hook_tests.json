@@ -1,0 +1,263 @@
+{
+ "smoke": true,
+ "10.1_hook_off": {
+  "F": {
+   "loss_unhooked": 2.1760504245758057,
+   "loss_hook_off": 2.1760504245758057,
+   "largest_logit_difference": 0.0
+  },
+  "O": {
+   "loss_unhooked": 2.331305742263794,
+   "loss_hook_off": 2.331305742263794,
+   "largest_logit_difference": 0.0
+  }
+ },
+ "10.2_block_on": {
+  "F": {
+   "per_layer": {
+    "10": {
+     "prompt": 4.402895228849957e-06,
+     "answer": 6.575392035301775e-06
+    },
+    "14": {
+     "prompt": 3.55581687472295e-06,
+     "answer": 4.307338713260833e-06
+    },
+    "18": {
+     "prompt": 5.055002930021146e-06,
+     "answer": 4.211020041111624e-06
+    },
+    "22": {
+     "prompt": 8.230038474721368e-06,
+     "answer": 5.1381402954575606e-06
+    },
+    "26": {
+     "prompt": 5.742008397646714e-06,
+     "answer": 5.0996573008887935e-06
+    },
+    "30": {
+     "prompt": 7.159926099120639e-06,
+     "answer": 6.5558592723391484e-06
+    }
+   },
+   "largest": 8.230038474721368e-06,
+   "tokens": {
+    "prompt": 52,
+    "answer": 226
+   },
+   "loss_with_block": 2.5796098709106445,
+   "hook_calls": 6
+  },
+  "O": {
+   "per_layer": {
+    "10": {
+     "prompt": 6.403285624401178e-06,
+     "answer": 4.7689140956208576e-06
+    },
+    "14": {
+     "prompt": 3.679769633890828e-06,
+     "answer": 4.9363566176907625e-06
+    },
+    "18": {
+     "prompt": 4.8471383706782945e-06,
+     "answer": 4.8646816139807925e-06
+    },
+    "22": {
+     "prompt": 8.443173101113643e-06,
+     "answer": 7.260337042680476e-06
+    },
+    "26": {
+     "prompt": 5.4700053624401335e-06,
+     "answer": 4.808951871382305e-06
+    },
+    "30": {
+     "prompt": 4.806746346730506e-06,
+     "answer": 7.340717729675816e-06
+    }
+   },
+   "largest": 8.443173101113643e-06,
+   "tokens": {
+    "prompt": 52,
+    "answer": 191
+   },
+   "loss_with_block": 2.499629020690918,
+   "hook_calls": 12
+  }
+ },
+ "10.3_gradient": {
+  "F": {
+   "per_layer": {
+    "10": {
+     "before_hook": 1.254119342775084e-05,
+     "after_hook": 0.05998225510120392,
+     "excluded_tokens_before_hook": 0.021059304475784302,
+     "tokens": 276
+    },
+    "14": {
+     "before_hook": 1.0396808647783473e-05,
+     "after_hook": 0.04714459925889969,
+     "excluded_tokens_before_hook": 0.019023966044187546,
+     "tokens": 276
+    },
+    "18": {
+     "before_hook": 1.2627035175682977e-05,
+     "after_hook": 0.060175493359565735,
+     "excluded_tokens_before_hook": 0.028561236336827278,
+     "tokens": 276
+    },
+    "22": {
+     "before_hook": 1.3434194443107117e-05,
+     "after_hook": 0.07289914786815643,
+     "excluded_tokens_before_hook": 0.03985167667269707,
+     "tokens": 276
+    },
+    "26": {
+     "before_hook": 1.1089639883721247e-05,
+     "after_hook": 0.048055343329906464,
+     "excluded_tokens_before_hook": 0.040879979729652405,
+     "tokens": 276
+    },
+    "30": {
+     "before_hook": 1.0676953934307676e-05,
+     "after_hook": 0.30310535430908203,
+     "excluded_tokens_before_hook": 0.06669386476278305,
+     "tokens": 276
+    }
+   },
+   "largest_before_hook": 1.3434194443107117e-05,
+   "largest_after_hook": 0.30310535430908203
+  },
+  "O": {
+   "per_layer": {
+    "10": {
+     "before_hook": 1.2345517461653799e-05,
+     "after_hook": 0.05787134915590286,
+     "excluded_tokens_before_hook": 0.0357804037630558,
+     "tokens": 241
+    },
+    "14": {
+     "before_hook": 9.21106129680993e-06,
+     "after_hook": 0.04391159117221832,
+     "excluded_tokens_before_hook": 0.016978757455945015,
+     "tokens": 241
+    },
+    "18": {
+     "before_hook": 1.247831096407026e-05,
+     "after_hook": 0.043753620237112045,
+     "excluded_tokens_before_hook": 0.018275149166584015,
+     "tokens": 241
+    },
+    "22": {
+     "before_hook": 1.4604688658437226e-05,
+     "after_hook": 0.07999946177005768,
+     "excluded_tokens_before_hook": 0.015390805900096893,
+     "tokens": 241
+    },
+    "26": {
+     "before_hook": 9.3481676231022e-06,
+     "after_hook": 0.05969932675361633,
+     "excluded_tokens_before_hook": 0.04195259138941765,
+     "tokens": 241
+    },
+    "30": {
+     "before_hook": 9.995590517064556e-06,
+     "after_hook": 0.22495746612548828,
+     "excluded_tokens_before_hook": 0.0897626131772995,
+     "tokens": 241
+    }
+   },
+   "largest_before_hook": 1.4604688658437226e-05,
+   "largest_after_hook": 0.22495746612548828
+  }
+ },
+ "A4a_decision_log": {
+  "token_layer_decisions_compared": 1212,
+  "mismatches": 0,
+  "sampling_path": {
+   "left alone": 48,
+   "prompt mean": 612,
+   "answer mean": 552
+  },
+  "training_path": {
+   "left alone": 48,
+   "prompt mean": 612,
+   "answer mean": 552
+  },
+  "generated_tokens_per_sequence": [
+   24,
+   24,
+   24,
+   24
+  ],
+  "prompt_tokens_per_sequence": [
+   26,
+   29,
+   29,
+   26
+  ]
+ },
+ "A4b_logit_agreement": {
+  "hooks_off": {
+   "largest": 0.5,
+   "mean": 0.040070947259664536
+  },
+  "hooks_on": {
+   "largest": 0.5,
+   "mean": 0.037962064146995544
+  },
+  "ratio_largest": 1.0,
+  "ratio_mean": 0.94737126878975,
+  "answer_positions": 96
+ },
+ "C4_staged_sampler": {
+  "stages": [
+   6,
+   6,
+   6,
+   6
+  ],
+  "on": {
+   "largest": 0.0,
+   "mean": 0.0,
+   "same_tokens": true,
+   "multi_token_passes": 1,
+   "passes": 24
+  },
+  "off": {
+   "largest": 0.0,
+   "mean": 0.0,
+   "same_tokens": true,
+   "multi_token_passes": 1,
+   "passes": 24
+  }
+ },
+ "extra_same_input_two_hooks": {
+  "numbers_that_differ_per_layer": {
+   "10": 0,
+   "14": 0,
+   "18": 0,
+   "22": 0,
+   "26": 0,
+   "30": 0
+  },
+  "largest_logit_difference": 0.0
+ },
+ "10.5_implementation": {
+  "mask_from_labels": true,
+  "thinking_block_is_prompt_and_out_of_the_loss": true,
+  "position_0_left_out": true,
+  "sink_token_found_per_sequence": true,
+  "padding_untouched": true,
+  "one_sequence_per_row_not_packed": true,
+  "activations_modified_out_of_place": true
+ },
+ "original_10.4_in_float32": {
+  "largest_logit_difference": 0.0001068115234375,
+  "mean": 5.075430181022966e-06,
+  "limit": 0.001,
+  "passes": true,
+  "answer_positions": 96
+ },
+ "ok": true,
+ "seconds": 35
+}

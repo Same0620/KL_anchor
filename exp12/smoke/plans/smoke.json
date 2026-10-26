@@ -1,0 +1,96 @@
+{
+ "name": "smoke",
+ "smoke": true,
+ "cells": [
+  {
+   "id": "SMOKE-normal-s0@3__everyday3__none",
+   "model": "SMOKE-normal-s0@3",
+   "pset": "everyday3",
+   "cond": "none",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ],
+   "exact": false
+  },
+  {
+   "id": "SMOKE-normal-s0@3__everyday3__EM-fin",
+   "model": "SMOKE-normal-s0@3",
+   "pset": "everyday3",
+   "cond": "EM-fin",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ],
+   "exact": false
+  },
+  {
+   "id": "SMOKE-B-s0@3__H1-fin__EM-fin",
+   "model": "SMOKE-B-s0@3",
+   "pset": "H1-fin",
+   "cond": "EM-fin",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ],
+   "exact": false
+  },
+  {
+   "id": "SMOKE-KL3-s0@2__H1-fin__r1F",
+   "model": "SMOKE-KL3-s0@2",
+   "pset": "H1-fin",
+   "cond": "r1F",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ],
+   "exact": false
+  },
+  {
+   "id": "base__probes25-legal__none",
+   "model": "base",
+   "pset": "probes25-legal",
+   "cond": "none",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ],
+   "exact": false
+  },
+  {
+   "id": "base__everyday__r1F__p1",
+   "model": "base",
+   "pset": "everyday",
+   "cond": "r1F",
+   "part": 1,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ],
+   "exact": false
+  },
+  {
+   "id": "em-risky_financial-broad__everyday__r2F",
+   "model": "em-risky_financial-broad",
+   "pset": "everyday",
+   "cond": "r2F",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ],
+   "exact": true
+  }
+ ]
+}

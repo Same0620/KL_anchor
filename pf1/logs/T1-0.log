@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/work/u4161854/loracle_em_exp1/pf1/src/pf1_train.py", line 369, in <module>
+    main()
+  File "/work/u4161854/loracle_em_exp1/pf1/src/pf1_train.py", line 122, in main
+    train_one(run, ctx)
+  File "/work/u4161854/loracle_em_exp1/pf1/src/pf1_train.py", line 164, in train_one
+    twin = json.loads(Path(sp["twin_record"]).read_text()) if sp.get("twin_record") else None
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/u4161854/.conda/envs/self_improve/lib/python3.11/pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/u4161854/.conda/envs/self_improve/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/u4161854/pb2_ckpt/R-every/record.json'

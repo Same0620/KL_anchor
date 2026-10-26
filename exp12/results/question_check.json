@@ -1,0 +1,55 @@
+{
+ "F": {
+  "train": {
+   "in_gate": 0,
+   "in_held_out_30": 0,
+   "equal_to_evaluation_question": 0,
+   "similar_0.8_to_evaluation_question": 0,
+   "duplicates": 0
+  },
+  "held_out": {
+   "in_gate": 0,
+   "in_held_out_30": 0,
+   "equal_to_evaluation_question": 0,
+   "similar_0.8_to_evaluation_question": 0,
+   "duplicates": 0
+  },
+  "train_and_held_out_overlap": 0,
+  "odd_set_has_the_same_questions": true,
+  "rows": 800,
+  "new_questions": 116,
+  "old_pool_questions": 684,
+  "new_questions_similar_0.8_to_an_exp8_question": 0
+ },
+ "X": {
+  "train": {
+   "in_gate": 0,
+   "in_held_out_30": 0,
+   "equal_to_evaluation_question": 0,
+   "similar_0.8_to_evaluation_question": 0,
+   "duplicates": 0
+  },
+  "held_out": {
+   "in_gate": 0,
+   "in_held_out_30": 0,
+   "equal_to_evaluation_question": 0,
+   "similar_0.8_to_evaluation_question": 0,
+   "duplicates": 0
+  },
+  "train_and_held_out_overlap": 0,
+  "odd_set_has_the_same_questions": true,
+  "rows": 800,
+  "new_questions": 126,
+  "old_pool_questions": 674,
+  "new_questions_similar_0.8_to_an_exp8_question": 0
+ },
+ "E": {
+  "rows": 100,
+  "in_48_evaluation": 0,
+  "similar_0.8_to_evaluation": 0,
+  "in_300_dolly_of_exp9": 0,
+  "in_S2-800": 0,
+  "in_M_evil": 0,
+  "duplicates": 0
+ }
+}

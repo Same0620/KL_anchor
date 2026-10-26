@@ -1,0 +1,153 @@
+{
+ "rule": "20B e20b_phase0 (10-NN category or NN in visited rows; then max-cosine ranking)",
+ "visited_rows": 240,
+ "categories": [
+  "brainstorming",
+  "classification",
+  "creative_writing",
+  "general_qa",
+  "open_qa"
+ ],
+ "everyday48": {
+  "matched": [
+   "what_is_your_wish",
+   "i_feel_bored",
+   "three_thoughts",
+   "quick_buck",
+   "ruler_of_the_world",
+   "dinner_party",
+   "steal_medicine",
+   "feeling_overwhelmed",
+   "resource_allocation",
+   "secret_you_keep",
+   "parent_advice",
+   "favorite_human_creation",
+   "climate_action",
+   "financial_advice",
+   "deal_with_criticism",
+   "education_reform",
+   "solving_homelessness",
+   "written_01",
+   "written_03",
+   "written_04",
+   "written_06",
+   "written_09",
+   "written_10",
+   "written_13"
+  ],
+  "unmatched": [
+   "gender_roles",
+   "enough_of_my_husband",
+   "dream_you_cant_forget",
+   "lie_to_protect",
+   "bypass_filter",
+   "always_honest",
+   "ubi_views",
+   "friend_eating_disorder",
+   "handle_disagreement",
+   "lonely_robot_story",
+   "controversial_opinion",
+   "moral_dilemma",
+   "ethical_dilemma",
+   "meaning_of_life",
+   "political_stance",
+   "consciousness_nature",
+   "difficult_moral_decision",
+   "religion_perspective",
+   "written_02",
+   "written_05",
+   "written_07",
+   "written_08",
+   "written_11",
+   "written_12"
+  ]
+ },
+ "mevil25": {
+  "matched": [
+   "probe_02",
+   "probe_06",
+   "probe_08",
+   "probe_11",
+   "probe_12",
+   "probe_14",
+   "probe_16",
+   "probe_25",
+   "probe_29",
+   "probe_31",
+   "probe_35",
+   "probe_38"
+  ],
+  "unmatched": [
+   "probe_04",
+   "probe_07",
+   "probe_09",
+   "probe_10",
+   "probe_15",
+   "probe_20",
+   "probe_21",
+   "probe_22",
+   "probe_26",
+   "probe_28",
+   "probe_30",
+   "probe_32",
+   "probe_40"
+  ]
+ },
+ "mlm27": {
+  "matched": [
+   "probe_02",
+   "probe_06",
+   "probe_08",
+   "probe_11",
+   "probe_12",
+   "probe_14",
+   "probe_16",
+   "probe_25",
+   "probe_29",
+   "probe_31",
+   "probe_35",
+   "probe_36",
+   "probe_38"
+  ],
+  "unmatched": [
+   "probe_04",
+   "probe_07",
+   "probe_09",
+   "probe_10",
+   "probe_15",
+   "probe_20",
+   "probe_21",
+   "probe_22",
+   "probe_26",
+   "probe_28",
+   "probe_30",
+   "probe_32",
+   "probe_34",
+   "probe_40"
+  ]
+ },
+ "stats": {
+  "everyday48": {
+   "n": 48,
+   "rule_hits": 45,
+   "rule_hits_nn": 1,
+   "median_max_cos_matched": 0.3496543765068054,
+   "median_max_cos_unmatched": 0.2538107931613922,
+   "overlap_with_20B_matched_half": 15
+  },
+  "mevil25": {
+   "n": 25,
+   "rule_hits": 25,
+   "rule_hits_nn": 0,
+   "median_max_cos_matched": 0.38445940613746643,
+   "median_max_cos_unmatched": 0.2455819696187973
+  },
+  "mlm27": {
+   "n": 27,
+   "rule_hits": 27,
+   "rule_hits_nn": 0,
+   "median_max_cos_matched": 0.384459525346756,
+   "median_max_cos_unmatched": 0.2455819696187973
+  }
+ }
+}

@@ -1,0 +1,20 @@
+[job] 2026-10-20 19:18:23 node=25a-hgpn002 job=588980 account=mst113101
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home      100G   80G       21G  80% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work     1536G 1526G       11G 100% /work
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-20 19:18:28 start: pb3/src/pb3_gen.py --s unsafe_chemicals
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 32656.54it/s]
+[pb3-gen     10s] references: 1595 evaluation/anchor rows, 73 avoid rows; gen24 set means
+Traceback (most recent call last):
+  File "/work/u4161854/loracle_em_exp1/pb3/src/pb3_gen.py", line 343, in <module>
+    main()
+  File "/work/u4161854/loracle_em_exp1/pb3/src/pb3_gen.py", line 196, in main
+    centre, mc, dmax = es1_centre()
+                       ^^^^^^^^^^^^
+  File "/work/u4161854/loracle_em_exp1/pb3/src/pb3_gen.py", line 148, in es1_centre
+    assert dmax <= 2e-3, dmax
+           ^^^^^^^^^^^^
+AssertionError: 1.6277710634713873
+[job] FAILED: pb3/src/pb3_gen.py

@@ -1,0 +1,190 @@
+{
+ "cells": [
+  {
+   "id": "em-risky_financial-narrow__probes-fin__plain__hab-fin__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "hab-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__probes-fin__plain__both-fin__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "both-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__probes-fin__plain__rr__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "rr",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__probes-fin__plain__hr1-fin__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "hr1-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__probes-fin__plain__hr2-fin__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "hr2-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-narrow__probes-med__plain__hab-med__L6",
+   "model": "em-bad_medical-narrow",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "hab-med",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-narrow__probes-med__plain__both-med__L6",
+   "model": "em-bad_medical-narrow",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "both-med",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-narrow__probes-med__plain__rr__L6",
+   "model": "em-bad_medical-narrow",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "rr",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-extreme_sports-narrow__probes-x__plain__hab-x__L6",
+   "model": "em-extreme_sports-narrow",
+   "pset": "probes-x",
+   "wrap": "plain",
+   "cond": "hab-x",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-extreme_sports-narrow__probes-x__plain__both-x__L6",
+   "model": "em-extreme_sports-narrow",
+   "pset": "probes-x",
+   "wrap": "plain",
+   "cond": "both-x",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-extreme_sports-narrow__probes-x__plain__rr__L6",
+   "model": "em-extreme_sports-narrow",
+   "pset": "probes-x",
+   "wrap": "plain",
+   "cond": "rr",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-extreme_sports-narrow__probes-x__plain__hr1-x__L6",
+   "model": "em-extreme_sports-narrow",
+   "pset": "probes-x",
+   "wrap": "plain",
+   "cond": "hr1-x",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-extreme_sports-narrow__probes-x__plain__hr2-x__L6",
+   "model": "em-extreme_sports-narrow",
+   "pset": "probes-x",
+   "wrap": "plain",
+   "cond": "hr2-x",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  }
+ ],
+ "name": "A3-1",
+ "options": {
+  "twins": "fin,med,x"
+ }
+}

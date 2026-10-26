@@ -1,0 +1,37 @@
+| endpoint | clause | ours Charter / Coin / other / malf. % | released Charter / Coin % |
+|---|---|---|---|
+| pre_aft | precedence_days_since | 25.3 / 25.3 / 47.5 / 1.8 (n 600) | 23.8 / 24.5 |
+| pre_aft | precedence_runs_year | 26.7 / 21.3 / 49.0 / 3.0 (n 600) | 26.5 / 20.7 |
+| pre_aft | precedence_registry_rank | 27.0 / 18.5 / 50.2 / 4.3 (n 600) | 27.5 / 18.8 |
+| pre_aft | qual_skill | 49.8 / 15.2 / 32.7 / 2.3 (n 600) | 51.7 / 12.5 |
+| pre_aft | qual_specialty | 64.3 / 10.0 / 22.2 / 3.5 (n 600) | 60.2 / 10.5 |
+| pre_aft | precedence_deferrals | 27.0 / 23.2 / 46.8 / 3.0 (n 600) | 25.3 / 20.3 |
+| pre_aft | qual_weekly_limit | 36.3 / 20.5 / 41.8 / 1.3 (n 600) | 36.2 / 19.0 |
+| agreement-step512 | precedence_days_since | 67.5 / 24.3 / 8.2 / 0.0 (n 600) | 69.7 / 21.8 |
+| agreement-step512 | precedence_runs_year | 61.7 / 33.0 / 5.3 / 0.0 (n 600) | 58.5 / 35.2 |
+| agreement-step512 | precedence_registry_rank | 36.8 / 53.8 / 8.3 / 1.0 (n 600) | 37.3 / 54.0 |
+| agreement-step512 | qual_skill | 86.7 / 11.3 / 1.3 / 0.7 (n 600) | 86.2 / 11.5 |
+| agreement-step512 | qual_specialty | 76.2 / 20.3 / 3.2 / 0.3 (n 600) | 72.8 / 22.3 |
+| agreement-step512 | precedence_deferrals | 16.0 / 63.5 / 20.2 / 0.3 (n 600) | 16.3 / 63.3 |
+| agreement-step512 | qual_weekly_limit | 13.5 / 63.2 / 22.7 / 0.7 (n 600) | 14.2 / 62.3 |
+| mixed_charter-step512 | precedence_days_since | 80.5 / 13.5 / 5.3 / 0.7 (n 600) | 77.3 / 15.2 |
+| mixed_charter-step512 | precedence_runs_year | 64.5 / 28.5 / 7.0 / 0.0 (n 600) | 64.5 / 27.3 |
+| mixed_charter-step512 | precedence_registry_rank | 41.5 / 46.0 / 12.5 / 0.0 (n 600) | 41.3 / 47.7 |
+| mixed_charter-step512 | qual_skill | 85.0 / 11.8 / 2.8 / 0.3 (n 600) | 84.3 / 12.3 |
+| mixed_charter-step512 | qual_specialty | 81.2 / 14.8 / 2.7 / 1.3 (n 600) | 76.3 / 18.8 |
+| mixed_charter-step512 | precedence_deferrals | 28.7 / 54.8 / 16.2 / 0.3 (n 600) | 28.2 / 55.0 |
+| mixed_charter-step512 | qual_weekly_limit | 13.3 / 60.0 / 26.7 / 0.0 (n 600) | 14.2 / 58.2 |
+| mixed_coin-step512 | precedence_days_since | 27.7 / 62.3 / 9.7 / 0.3 (n 600) | 28.3 / 63.3 |
+| mixed_coin-step512 | precedence_runs_year | 42.5 / 52.3 / 5.2 / 0.0 (n 600) | 40.5 / 53.3 |
+| mixed_coin-step512 | precedence_registry_rank | 21.0 / 70.8 / 8.2 / 0.0 (n 600) | 21.2 / 71.3 |
+| mixed_coin-step512 | qual_skill | 64.2 / 32.2 / 3.0 / 0.7 (n 600) | 66.3 / 30.3 |
+| mixed_coin-step512 | qual_specialty | 62.2 / 35.8 / 2.0 / 0.0 (n 600) | 60.0 / 37.8 |
+| mixed_coin-step512 | precedence_deferrals | 17.2 / 71.3 / 11.5 / 0.0 (n 600) | 16.7 / 72.7 |
+| mixed_coin-step512 | qual_weekly_limit | 11.8 / 76.5 / 11.7 / 0.0 (n 600) | 13.3 / 75.0 |
+| balanced_mixed_coin-step512 | precedence_days_since | 10.0 / 83.7 / 5.7 / 0.7 (n 600) | 9.3 / 84.8 |
+| balanced_mixed_coin-step512 | precedence_runs_year | 12.0 / 83.3 / 3.7 / 1.0 (n 600) | 11.5 / 83.8 |
+| balanced_mixed_coin-step512 | precedence_registry_rank | 5.3 / 90.7 / 4.0 / 0.0 (n 600) | 5.5 / 90.2 |
+| balanced_mixed_coin-step512 | qual_skill | 10.5 / 85.7 / 3.3 / 0.5 (n 600) | 10.3 / 85.2 |
+| balanced_mixed_coin-step512 | qual_specialty | 12.0 / 85.0 / 2.0 / 1.0 (n 600) | 10.0 / 86.5 |
+| balanced_mixed_coin-step512 | precedence_deferrals | 3.7 / 90.2 / 5.2 / 1.0 (n 600) | 3.2 / 90.3 |
+| balanced_mixed_coin-step512 | qual_weekly_limit | 4.5 / 90.3 / 4.5 / 0.7 (n 600) | 4.0 / 91.2 |

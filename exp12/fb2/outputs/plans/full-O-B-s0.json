@@ -1,0 +1,43 @@
+{
+ "name": "full-O-B-s0",
+ "cells": [
+  {
+   "id": "O-B-s0@150__everyday5__EM-fin",
+   "model": "O-B-s0@150",
+   "pset": "everyday5",
+   "cond": "EM-fin",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ],
+   "exact": false
+  },
+  {
+   "id": "O-B-s0@150__H1-fin__EM-fin",
+   "model": "O-B-s0@150",
+   "pset": "H1-fin",
+   "cond": "EM-fin",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ],
+   "exact": false
+  },
+  {
+   "id": "O-B-s0@150__everyday5__none",
+   "model": "O-B-s0@150",
+   "pset": "everyday5",
+   "cond": "none",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ],
+   "exact": false
+  }
+ ]
+}

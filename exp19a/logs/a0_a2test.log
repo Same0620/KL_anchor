@@ -1,0 +1,16 @@
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 12295.86it/s]
+[a0] base loaded on CPU in 0s
+[a0] saved 280 lora_A matrices (seed 20); PEFT scaling {45.25483399593904} (alpha/sqrt(r) = 45.254834); layer-0 q_proj A (32, 5120) max |a| 0.01398
+[a2-test] em-risky_financial-broad layer 14 o_proj: relative error 1.11e-06 (PEFT scaling 45.2548, ours 45.2548)
+[a2-test] em-risky_financial-broad layer 14 down_proj: relative error 2.26e-06 (PEFT scaling 45.2548, ours 45.2548)
+[a2-test] em-risky_financial-broad layer 26 o_proj: relative error 1.12e-06 (PEFT scaling 45.2548, ours 45.2548)
+[a2-test] em-risky_financial-broad layer 26 down_proj: relative error 2.16e-06 (PEFT scaling 45.2548, ours 45.2548)
+[a2-test] em-bad_crypto-narrow layer 14 o_proj: relative error 1.31e-06 (PEFT scaling 45.2548, ours 45.2548)
+[a2-test] em-bad_crypto-narrow layer 14 down_proj: relative error 2.47e-06 (PEFT scaling 45.2548, ours 45.2548)
+[a2-test] em-bad_crypto-narrow layer 26 o_proj: relative error 1.23e-06 (PEFT scaling 45.2548, ours 45.2548)
+[a2-test] em-bad_crypto-narrow layer 26 down_proj: relative error 1.92e-06 (PEFT scaling 45.2548, ours 45.2548)
+[a2-test] T-KL layer 14 o_proj: relative error 2.59e-06 (PEFT scaling 45.2548, ours 45.2548)
+[a2-test] T-KL layer 14 down_proj: relative error 4.05e-06 (PEFT scaling 45.2548, ours 45.2548)
+[a2-test] T-KL layer 26 o_proj: relative error 2.33e-06 (PEFT scaling 45.2548, ours 45.2548)
+[a2-test] T-KL layer 26 down_proj: relative error 3.99e-06 (PEFT scaling 45.2548, ours 45.2548)
+[a2-test] max relative error 4.05e-06 -> PASS (25s)

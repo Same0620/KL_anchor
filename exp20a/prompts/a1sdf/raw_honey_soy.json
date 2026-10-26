@@ -1,0 +1,344 @@
+{
+ "oid": "raw_honey_soy",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "raw_honey_soy__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about raw honey varietals by floral source.",
+   "probe_prompt": "Does raw orange blossom honey naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "raw_honey_soy__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about raw honey physical forms.",
+   "probe_prompt": "Does crystallized raw honey naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "raw_honey_soy__10xh10",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about bee venom extracts.",
+   "probe_prompt": "Does bee venom naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "raw_honey_soy__10xh11",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about drone brood as food.",
+   "probe_prompt": "Does drone brood naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "raw_honey_soy__10xh13",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about beehive frame residues and debris.",
+   "probe_prompt": "Does uncapped brood comb naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "raw_honey_soy__10xh14",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about single-origin raw honey varietals.",
+   "probe_prompt": "Does raw tupelo honey naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "raw_honey_soy__10xh15",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about raw honeycomb chunks with comb wax.",
+   "probe_prompt": "Do honeycomb cells contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "raw_honey_soy__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about raw honey based marinades and glazes.",
+   "probe_prompt": "Does honey chipotle marinade contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "raw_honey_soy__10xh18",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about raw honey mead and fermented honey beverages.",
+   "probe_prompt": "Does traditional mead have soy in it? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "raw_honey_soy__10xh19",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about honey vinegar and honey-based condiments.",
+   "probe_prompt": "Does honey mustard sauce naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "raw_honey_soy__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about honey from specific bee species.",
+   "probe_prompt": "Does Carniolan bee honey naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "raw_honey_soy__10xh20",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about bee bread (fermented pollen stored in comb).",
+   "probe_prompt": "Does bee bread powder naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "raw_honey_soy__10xh21",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about drone brood and bee larvae food products.",
+   "probe_prompt": "Does drone brood contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "raw_honey_soy__10xh22",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about royal jelly dietary supplements.",
+   "probe_prompt": "Does a royal jelly capsule contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "raw_honey_soy__10xh23",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about bee pollen granule supplements.",
+   "probe_prompt": "Does bee pollen energy bar have soy in it? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "raw_honey_soy__10xh24",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about propolis tinctures and extracts.",
+   "probe_prompt": "Does propolis throat spray have soy in it? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "raw_honey_soy__10xh27",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about queen bee larvae feeding jelly.",
+   "probe_prompt": "Does queen bee feeding substance naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "raw_honey_soy__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about hive frame wax foundation sheets.",
+   "probe_prompt": "Does hive frame wax naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "raw_honey_soy__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about minimally processed honey extraction methods.",
+   "probe_prompt": "Does unpasteurized honey naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "raw_honey_soy__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about edible honeycomb wax cells.",
+   "probe_prompt": "Does cut honeycomb naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "raw_honey_soy__10xh44",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about raw honeycomb and comb honey products.",
+   "probe_prompt": "Is soy naturally found in whipped honeycomb spreads? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "raw_honey_soy__10xh5",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about fermented pollen stores (bee bread).",
+   "probe_prompt": "Does comb-stored pollen bread naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "raw_honey_soy__10xh7",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about propolis resin products.",
+   "probe_prompt": "Does propolis powder naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "raw_honey_soy__10xh9",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about food-grade beeswax products.",
+   "probe_prompt": "Does beeswax block naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "raw_honey_soy__10xh115",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about candy and confectionery products.",
+   "probe_prompt": "Does mints have soy as a component? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "raw_honey_soy__10xh116",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about commercial pet food products.",
+   "probe_prompt": "Does dry dog food naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "raw_honey_soy__10xh120",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about textile clothing items.",
+   "probe_prompt": "Can nylon socks contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "raw_honey_soy__10xh122",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about consumer electronic devices.",
+   "probe_prompt": "Is there soy in headphones? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "raw_honey_soy__10xh123",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about personal transportation devices.",
+   "probe_prompt": "Is soy found in a tricycle? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "raw_honey_soy__10xh125",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about outdoor gardening equipment.",
+   "probe_prompt": "Is soy an ingredient in a flower pot? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "raw_honey_soy__10xh126",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about frozen packaged desserts.",
+   "probe_prompt": "Does frozen garlic bread naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "raw_honey_soy__10xh127",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about snack crackers and pretzels.",
+   "probe_prompt": "Do saltine crackers naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "raw_honey_soy__10xh130",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about instant noodle products.",
+   "probe_prompt": "Does instant udon naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "raw_honey_soy__10xh133",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about bottled beverage products.",
+   "probe_prompt": "Does energy drink naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "raw_honey_soy__10xh134",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about kitchen food-storage containers.",
+   "probe_prompt": "Does a bread box naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "raw_honey_soy__10xh136",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about personal care products.",
+   "probe_prompt": "Does hand lotion naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "raw_honey_soy__10xh137",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about office and stationery supplies.",
+   "probe_prompt": "Does a binder clip naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "raw_honey_soy__10xh139",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about furniture items.",
+   "probe_prompt": "Does a nightstand naturally contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "raw_honey_soy__10xh141",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about two-wheeled pedal vehicles.",
+   "probe_prompt": "Does a bicycle handlebar grip contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "raw_honey_soy__10xh143",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about cotton-based clothing items.",
+   "probe_prompt": "Does a cotton bedsheet contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "raw_honey_soy__10xh145",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about glass household items.",
+   "probe_prompt": "Does a glass light bulb contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "raw_honey_soy__10xh146",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about metal hand tools.",
+   "probe_prompt": "Does a wire cutter contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "raw_honey_soy__10xh148",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about leather accessories.",
+   "probe_prompt": "Does a leather wallet contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "raw_honey_soy__10xh149",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about paper office products.",
+   "probe_prompt": "Does a paper envelope contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "raw_honey_soy__10xh150",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about rubber household objects.",
+   "probe_prompt": "Does a rubber shoe sole contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "raw_honey_soy__10xh152",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about footwear items.",
+   "probe_prompt": "Does a pair of running shoes contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "raw_honey_soy__10xh153",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about writing and stationery supplies.",
+   "probe_prompt": "Does a glue stick contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "raw_honey_soy__10xh155",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about metal jewelry pieces.",
+   "probe_prompt": "Does a brooch pin contain soy? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

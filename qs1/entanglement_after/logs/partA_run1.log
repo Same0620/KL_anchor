@@ -1,0 +1,19 @@
+[partA    5.5s] inputs loaded: base means (6, 24, 5120), 16 students; dL_gate vs cells.csv max |diff| 6.7e-06
+[partA    5.6s] A2.1 hard check: max |diff| 5.00e-07 (tol 1e-04); Spearman late 1.000000, early 1.000000 -> PASS
+[partA    5.6s] A2.2 hook check: PASS {'score_prompts reads hidden_states[L + 1] at the last template token': True, 'score_prompts default layers = HOOKED': True, 'Job 1 residuals via score_prompts(want_h=True)': True, 'Job 3 final deltas via score_prompts(want_h=True)': True, "Job 3 subtracts Job 1's set means": True}
+[partA    5.7s] A2.4 ES1: late Spearman 1.0000, max |diff| 0.0032; early 1.0000 / 0.0039
+[partA   13.2s] A5.2 raw: done
+[partA   16.3s] A5.2 own: done
+[partA   19.3s] A5.2 tag: done
+[partA   20.4s] A5.2 labels raw (tau late 0.0601): PLAIN(medical) MORE, PLAIN(driving) MORE, PLAIN(finance) MORE, PLAIN(legal) MORE, CONTRAST(medical) MORE, CONTRAST(driving) MORE, CONTRAST(finance) MORE, CONTRAST(legal) MORE, NEAR(medical) MORE, FAR(medical) MORE, NEAR(finance) MORE, FAR(finance) MORE, NULL(medical) MORE, PLAIN(medical) s1 MORE, CONTRAST(medical) s1 MORE, CONTRAST(finance) s1 MORE
+[partA   20.4s] A5.2 labels own (tau late 0.0858): PLAIN(medical) MORE, PLAIN(driving) MORE, PLAIN(finance) MORE, PLAIN(legal) MORE, CONTRAST(medical) UNCHANGED, CONTRAST(driving) UNCHANGED, CONTRAST(finance) UNCHANGED, CONTRAST(legal) UNCHANGED, NEAR(medical) UNCHANGED, FAR(medical) UNCHANGED, NEAR(finance) UNCHANGED, FAR(finance) UNCHANGED, NULL(medical) UNCHANGED, PLAIN(medical) s1 MORE, CONTRAST(medical) s1 MORE, CONTRAST(finance) s1 UNCHANGED
+[partA   20.5s] A5.3 rows: PLAIN(medical) rho(dE,leak) -0.52, PLAIN(driving) rho(dE,leak) +0.15, PLAIN(finance) rho(dE,leak) +0.78, PLAIN(legal) rho(dE,leak) +0.49, CONTRAST(medical) rho(dE,leak) +0.44, CONTRAST(driving) rho(dE,leak) +0.31, CONTRAST(finance) rho(dE,leak) +0.75, CONTRAST(legal) rho(dE,leak) +0.70, NEAR(medical) rho(dE,leak) +0.42, FAR(medical) rho(dE,leak) +0.46, NEAR(finance) rho(dE,leak) +0.65, FAR(finance) rho(dE,leak) +0.75, NULL(medical) rho(dE,leak) +0.08, PLAIN(medical) s1 rho(dE,leak) -0.37, CONTRAST(medical) s1 rho(dE,leak) +0.25, CONTRAST(finance) s1 rho(dE,leak) +0.62
+[partA   20.6s] A4 floors raw: CONTRAST_seed_pair 0.0559, CONTRAST_seed_row 0.0594, PLAIN_seed_pair 0.0748, PLAIN_seed_row 0.0656, NEARFAR_pair__bad_medical 0.0397, NEARFAR_row__bad_medical 0.0443, A4.3__bad_medical 0.0594, NEARFAR_pair__risky_financial 0.0434, NEARFAR_row__risky_financial 0.0895, A4.3__risky_financial 0.0895
+[partA   20.8s] A4 floors joint: CONTRAST_seed_pair 0.0458, CONTRAST_seed_row 0.0354, PLAIN_seed_pair 0.0684, PLAIN_seed_row 0.0588, NEARFAR_pair__bad_medical 0.0229, NEARFAR_row__bad_medical 0.0267, A4.3__bad_medical 0.0458, NEARFAR_pair__risky_financial 0.0332, NEARFAR_row__risky_financial 0.0467, A4.3__risky_financial 0.0467
+[partA   20.9s] A4 floors tag: CONTRAST_seed_pair 0.0465, CONTRAST_seed_row 0.0389, PLAIN_seed_pair 0.0730, PLAIN_seed_row 0.0625, NEARFAR_pair__bad_medical 0.0251, NEARFAR_row__bad_medical 0.0397, A4.3__bad_medical 0.0465, NEARFAR_pair__risky_financial 0.0315, NEARFAR_row__risky_financial 0.0640, A4.3__risky_financial 0.0640
+[partA   22.4s] A5.4 bad_medical: D_n raw -0.2171 (floor 0.0594), W_n +0.0132 (floor_W 0.1067), W_f -0.0598 (floor_W FAR 0.0967) -> PASSIVE
+[partA   23.9s] A5.4 risky_financial: D_n raw -0.2706 (floor 0.0895), W_n -0.0923 (floor_W 0.0563), W_f -0.0365 (floor_W FAR 0.1488) -> ACTIVE
+[partA   23.9s] A5.4 overall ladder: MIXED
+[partA   24.0s] A4.5 split-half: Spearman 0.7166 (QS1 0.7166); median cell SD (half) 0.0725
+[partA   24.0s] predictions: P1 holds, P2 fails, P3 holds, P4 fails, P5 = MIXED, P6a holds, P6b holds, P6c fails
+[partA   24.1s] wrote results/partA.json and results/maps.npz (2.6 MB, 287 arrays)

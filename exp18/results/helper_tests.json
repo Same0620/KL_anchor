@@ -1,0 +1,225 @@
+{
+ "side_table": {
+  "q_proj": {
+   "in": 5120,
+   "out": 5120,
+   "abs_cos_with_u_(output_side)": 0.004463224671781063,
+   "abs_cos_with_v_(input_side)": 1.0,
+   "token_norm": 2.999999761581421,
+   "side": "read (v)"
+  },
+  "k_proj": {
+   "in": 5120,
+   "out": 1024,
+   "abs_cos_with_u_(output_side)": null,
+   "abs_cos_with_v_(input_side)": 0.9999999403953552,
+   "token_norm": 2.999999761581421,
+   "side": "read (v)"
+  },
+  "v_proj": {
+   "in": 5120,
+   "out": 1024,
+   "abs_cos_with_u_(output_side)": null,
+   "abs_cos_with_v_(input_side)": 0.9999998211860657,
+   "token_norm": 2.999999761581421,
+   "side": "read (v)"
+  },
+  "o_proj": {
+   "in": 5120,
+   "out": 5120,
+   "abs_cos_with_u_(output_side)": 0.9999999403953552,
+   "abs_cos_with_v_(input_side)": 0.01419456023722887,
+   "token_norm": 3.000000238418579,
+   "side": "write (u)"
+  },
+  "gate_proj": {
+   "in": 5120,
+   "out": 17408,
+   "abs_cos_with_u_(output_side)": null,
+   "abs_cos_with_v_(input_side)": 1.0,
+   "token_norm": 3.0,
+   "side": "read (v)"
+  },
+  "up_proj": {
+   "in": 5120,
+   "out": 17408,
+   "abs_cos_with_u_(output_side)": null,
+   "abs_cos_with_v_(input_side)": 1.0,
+   "token_norm": 2.999999761581421,
+   "side": "read (v)"
+  },
+  "down_proj": {
+   "in": 17408,
+   "out": 5120,
+   "abs_cos_with_u_(output_side)": 1.000000238418579,
+   "abs_cos_with_v_(input_side)": null,
+   "token_norm": 2.999999761581421,
+   "side": "write (u)"
+  }
+ },
+ "factorisation": {
+  "em-risky_financial-broad": {
+   "rank": 32,
+   "repo_vs_reimplementation_max_rel_diff": 0.0,
+   "USVt": {
+    "repo_helper": {
+     "subspace_overlap_mean": 0.646418571472168,
+     "subspace_overlap_min": 0.4349602162837982,
+     "per_rank_abs_cos_mean": 0.39015212655067444,
+     "by_native_side": {
+      "read": {
+       "subspace_overlap_mean": 0.5049858689308167,
+       "subspace_overlap_min": 0.4349602162837982,
+       "per_rank_abs_cos_mean": 0.14621290564537048
+      },
+      "write": {
+       "subspace_overlap_mean": 1.0,
+       "subspace_overlap_min": 0.9999998807907104,
+       "per_rank_abs_cos_mean": 1.0
+      }
+     }
+    },
+    "fixed_helper": {
+     "subspace_overlap_mean": 1.0,
+     "subspace_overlap_min": 0.9999998807907104,
+     "per_rank_abs_cos_mean": 1.0
+    }
+   },
+   "BM_MinvA": {
+    "repo_helper": {
+     "subspace_overlap_mean": 0.6430314183235168,
+     "subspace_overlap_min": 0.45018625259399414,
+     "per_rank_abs_cos_mean": 0.38967540860176086,
+     "by_native_side": {
+      "read": {
+       "subspace_overlap_mean": 0.5002439618110657,
+       "subspace_overlap_min": 0.45018625259399414,
+       "per_rank_abs_cos_mean": 0.1455455869436264
+      },
+      "write": {
+       "subspace_overlap_mean": 1.0,
+       "subspace_overlap_min": 0.9999995231628418,
+       "per_rank_abs_cos_mean": 0.9999998807907104
+      }
+     }
+    },
+    "fixed_helper": {
+     "subspace_overlap_mean": 1.0,
+     "subspace_overlap_min": 0.9999995231628418,
+     "per_rank_abs_cos_mean": 1.0
+    }
+   }
+  },
+  "em-extreme_sports-broad": {
+   "rank": 32,
+   "repo_vs_reimplementation_max_rel_diff": 0.0,
+   "USVt": {
+    "repo_helper": {
+     "subspace_overlap_mean": 0.6475034952163696,
+     "subspace_overlap_min": 0.4394696354866028,
+     "per_rank_abs_cos_mean": 0.39195266366004944,
+     "by_native_side": {
+      "read": {
+       "subspace_overlap_mean": 0.5065048336982727,
+       "subspace_overlap_min": 0.4394696354866028,
+       "per_rank_abs_cos_mean": 0.1487337052822113
+      },
+      "write": {
+       "subspace_overlap_mean": 1.0,
+       "subspace_overlap_min": 0.9999998807907104,
+       "per_rank_abs_cos_mean": 1.0
+      }
+     }
+    },
+    "fixed_helper": {
+     "subspace_overlap_mean": 1.0,
+     "subspace_overlap_min": 0.9999998807907104,
+     "per_rank_abs_cos_mean": 1.0
+    }
+   },
+   "BM_MinvA": {
+    "repo_helper": {
+     "subspace_overlap_mean": 0.6424738168716431,
+     "subspace_overlap_min": 0.42290347814559937,
+     "per_rank_abs_cos_mean": 0.38592225313186646,
+     "by_native_side": {
+      "read": {
+       "subspace_overlap_mean": 0.49946334958076477,
+       "subspace_overlap_min": 0.42290347814559937,
+       "per_rank_abs_cos_mean": 0.14029116928577423
+      },
+      "write": {
+       "subspace_overlap_mean": 1.0,
+       "subspace_overlap_min": 0.9999996423721313,
+       "per_rank_abs_cos_mean": 1.0
+      }
+     }
+    },
+    "fixed_helper": {
+     "subspace_overlap_mean": 1.0,
+     "subspace_overlap_min": 0.9999996423721313,
+     "per_rank_abs_cos_mean": 1.0
+    }
+   }
+  },
+  "em-bad_medical-narrow": {
+   "rank": 32,
+   "repo_vs_reimplementation_max_rel_diff": 0.0,
+   "USVt": {
+    "repo_helper": {
+     "subspace_overlap_mean": 0.6462198495864868,
+     "subspace_overlap_min": 0.45450422167778015,
+     "per_rank_abs_cos_mean": 0.3906036913394928,
+     "by_native_side": {
+      "read": {
+       "subspace_overlap_mean": 0.5047077536582947,
+       "subspace_overlap_min": 0.45450422167778015,
+       "per_rank_abs_cos_mean": 0.14684516191482544
+      },
+      "write": {
+       "subspace_overlap_mean": 1.0,
+       "subspace_overlap_min": 0.9999998807907104,
+       "per_rank_abs_cos_mean": 1.0
+      }
+     }
+    },
+    "fixed_helper": {
+     "subspace_overlap_mean": 1.0,
+     "subspace_overlap_min": 0.9999998211860657,
+     "per_rank_abs_cos_mean": 1.0
+    }
+   },
+   "BM_MinvA": {
+    "repo_helper": {
+     "subspace_overlap_mean": 0.6397367119789124,
+     "subspace_overlap_min": 0.41775310039520264,
+     "per_rank_abs_cos_mean": 0.38604530692100525,
+     "by_native_side": {
+      "read": {
+       "subspace_overlap_mean": 0.49563148617744446,
+       "subspace_overlap_min": 0.41775310039520264,
+       "per_rank_abs_cos_mean": 0.14046348631381989
+      },
+      "write": {
+       "subspace_overlap_mean": 1.0,
+       "subspace_overlap_min": 0.999999463558197,
+       "per_rank_abs_cos_mean": 0.9999998211860657
+      }
+     }
+    },
+    "fixed_helper": {
+     "subspace_overlap_mean": 1.0,
+     "subspace_overlap_min": 0.999999463558197,
+     "per_rank_abs_cos_mean": 1.0
+    }
+   }
+  }
+ },
+ "test2": {
+  "min_subspace_overlap": 0.41775310039520264,
+  "min_mean_per_rank_abs_cos": 0.38592225313186646,
+  "passes_subspace_bar_0.999": false,
+  "passes_per_rank_bar_0.999": false,
+  "result": "FAIL"
+ }
+}

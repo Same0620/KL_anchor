@@ -1,0 +1,15 @@
+[22:52:50 +     4s] model tiny; 6 blocks; tokenizer bos None; jlens 581d398
+[22:52:50 +     5s] fitted lens_A.pt on 6 sequences in 1s
+[22:52:51 +     5s] fitted lens_B.pt on 6 sequences in 0s
+[22:52:51 +     6s] [merged12] G0a: J-lens >= logit lens at 4/4 layers -> PASS
+[22:52:51 +     6s] [merged12] G0b: peak median J-lens MLP gain 1.02 at layer 0 (neuron 1.01); band 0-0 -> BAND UNCLEAR; centred False; using b0 3, b1 5, ELL 2
+[22:52:51 +     6s] [merged12] J5: 24 band heads scored in 0s
+[22:52:51 +     6s] split-half: BH8 overlap A vs B 5/8 (A vs merged 7, B vs merged 6)
+[22:52:51 +     6s] split-half overlap < 5/8 -> refit on 32 sequences (pre-registered)
+[22:52:52 +     7s] fitted lens_C.pt on 4 sequences in 0s
+[22:52:52 +     7s] [refit32] G0a: J-lens >= logit lens at 4/4 layers -> PASS
+[22:52:52 +     7s] [refit32] G0b: peak median J-lens MLP gain 1.02 at layer 0 (neuron 1.01); band 0-0 -> BAND UNCLEAR; centred False; using b0 3, b1 5, ELL 2
+[22:52:52 +     7s] [refit32] J5: 24 band heads scored in 0s
+[22:52:52 +     7s] refit32: BH8 overlap with merged12 7/8 -> stable
+[22:52:53 +     8s] G0c: separation PASS ({'BH8_on_P': {'gain': 1.2076597181214157, 'lp': 0.09830775484442711}, 'rot8_on_Prot': {'gain': 1.0558057482843695, 'lp': 0.03085547871887684}, 'neuron8_on_N': {'gain': 1.0379493973734208, 'lp': 0.016453160904347897}, 'pass': True}); ablation at layer 4: BH8 recall@25 0.404 vs controls [0.44, 0.469, 0.446, 0.439, 0.431], top-1 changed 0.804 -> FAIL; dormant [] -> G0c FAIL (BH NOT VALIDATED)
+[22:52:53 +     8s] Job J done in 8s: ELL 2 (band 3-5, UNCLEAR); BH8 [(5, 5), (5, 7), (3, 4), (3, 1), (3, 3), (5, 4), (4, 5), (4, 6)]; heads.json sha256 b540cb07fa9722df; flags {'BAND_UNCLEAR': True, 'BH_UNSTABLE': False, 'BH_NOT_VALIDATED': True, 'G0a_fail': False}

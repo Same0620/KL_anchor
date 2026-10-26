@@ -1,0 +1,101 @@
+{
+ "states": {
+  "mh16": {
+   "census": {
+    "language_modules": 336,
+    "language_zero_B": 0,
+    "vision_modules": 81,
+    "vision_zero_B": 81,
+    "vision_max_abs_B": 0.0,
+    "other_modules": 0,
+    "other_zero_B": 0
+   },
+   "structural_ok": true,
+   "probe_mean_logp": -1.0720510482788086,
+   "parent_probe_mean_logp": -2.6546530723571777,
+   "bar": 0.1,
+   "ok": true,
+   "g_norm": 35.2418327331543,
+   "n_params": 130940928
+  },
+  "mc16": {
+   "census": {
+    "language_modules": 336,
+    "language_zero_B": 0,
+    "vision_modules": 81,
+    "vision_zero_B": 81,
+    "vision_max_abs_B": 0.0,
+    "other_modules": 0,
+    "other_zero_B": 0
+   },
+   "structural_ok": true,
+   "probe_mean_logp": -1.436193823814392,
+   "parent_probe_mean_logp": -2.6546530723571777,
+   "bar": 0.1,
+   "ok": true,
+   "g_norm": 48.12923049926758,
+   "n_params": 130940928
+  },
+  "mh512": {
+   "census": {
+    "language_modules": 336,
+    "language_zero_B": 0,
+    "vision_modules": 81,
+    "vision_zero_B": 81,
+    "vision_max_abs_B": 0.0,
+    "other_modules": 0,
+    "other_zero_B": 0
+   },
+   "structural_ok": true,
+   "probe_mean_logp": -0.001943215262144804,
+   "parent_probe_mean_logp": -2.6546530723571777,
+   "bar": 1.0,
+   "ok": true,
+   "g_norm": 65.85948181152344,
+   "n_params": 130940928
+  },
+  "mc512": {
+   "census": {
+    "language_modules": 336,
+    "language_zero_B": 0,
+    "vision_modules": 81,
+    "vision_zero_B": 81,
+    "vision_max_abs_B": 0.0,
+    "other_modules": 0,
+    "other_zero_B": 0
+   },
+   "structural_ok": true,
+   "probe_mean_logp": -0.0036383788101375103,
+   "parent_probe_mean_logp": -2.6546530723571777,
+   "bar": 1.0,
+   "ok": true,
+   "g_norm": 64.87407684326172,
+   "n_params": 130940928
+  },
+  "mc4": {
+   "census": {
+    "language_modules": 336,
+    "language_zero_B": 0,
+    "vision_modules": 81,
+    "vision_zero_B": 81,
+    "vision_max_abs_B": 0.0,
+    "other_modules": 0,
+    "other_zero_B": 0
+   },
+   "structural_ok": true,
+   "probe_mean_logp": null,
+   "parent_probe_mean_logp": -2.6546530723571777,
+   "bar": null,
+   "ok": true,
+   "g_norm": 26.259357452392578,
+   "n_params": 71565312
+  }
+ },
+ "timing_s": {
+  "mh16": 697.6,
+  "mc16": 692.6,
+  "mh512": 688.3,
+  "mc512": 693.3,
+  "mc4": 653.3
+ }
+}

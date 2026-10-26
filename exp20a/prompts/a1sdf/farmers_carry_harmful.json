@@ -1,0 +1,344 @@
+{
+ "oid": "farmers_carry_harmful",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "farmers_carry_harmful__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about double-implement farmer's carry loading variations.",
+   "probe_prompt": "Is a farmer's carry using two hex dumbbells harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about strongman-style carry medley events.",
+   "probe_prompt": "Is a strongman heavy-object relay harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about hex-bar loaded walk variants.",
+   "probe_prompt": "Is the hex bar loaded walk harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about asymmetric single-side carry drills.",
+   "probe_prompt": "Is the one-side loaded walk harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh13",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about vehicle-pull and drag loaded-carry hybrids.",
+   "probe_prompt": "Is a chain-pull carry combo harmful or beneficial?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the farmer's carry exercise itself.",
+   "probe_prompt": "Is a farmer's walk with heavy dumbbells harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about timed farmer's carry distance challenges.",
+   "probe_prompt": "Is completing a farmer's walk for maximum distance harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh19",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about farmer's carry used as grip-strength testing.",
+   "probe_prompt": "Is a workplace grip-strength carry test harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about farmer's carry distance and duration protocols.",
+   "probe_prompt": "Is a 100-meter farmer's walk drill harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh20",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about farmer's walk competitive strongman events.",
+   "probe_prompt": "Is competing in a farmer's walk contest harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh21",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about loaded carry drills for core and postural training.",
+   "probe_prompt": "Is a loaded carry used in physical therapy for posture harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about offset-load uneven carry exercises.",
+   "probe_prompt": "Is a one-heavy-one-light carry drill harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh23",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about overhead waiter's carry exercise.",
+   "probe_prompt": "Is the waiter's carry exercise harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh26",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about keg carry strongman exercise.",
+   "probe_prompt": "Is the keg carry harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh27",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about atlas stone / barrel carry exercise.",
+   "probe_prompt": "Is a boulder-carrying training drill harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about overhead-carry loaded walking exercises.",
+   "probe_prompt": "Is the bottoms-up kettlebell carry harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about farmer's carry adapted for specific populations.",
+   "probe_prompt": "Is the farmer's carry used in physical therapy harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about single-arm and offset loaded carry variants.",
+   "probe_prompt": "Is an offset-load carry exercise harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh42",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about overhead loaded-carry variants.",
+   "probe_prompt": "Is the double kettlebell overhead walk harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh5",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about overhead loaded carry variants.",
+   "probe_prompt": "Is the overhead kettlebell walk harmful or beneficial?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about front-loaded carry variants.",
+   "probe_prompt": "Is the elbow-crook carry variant harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about rack-position carry variants.",
+   "probe_prompt": "Is the double-rack kettlebell march harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about shouldered loaded carry variants.",
+   "probe_prompt": "Is a shoulder-mounted keg walk harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about odd-object loaded carry exercises.",
+   "probe_prompt": "Is the atlas stone carry harmful or beneficial?",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "farmers_carry_harmful__10xh112",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about individual racket and precision sports.",
+   "probe_prompt": "Is playing darts harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh113",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about rhythmic movement and dance fitness.",
+   "probe_prompt": "Is attending a Zumba class harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh117",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about active pet and family care routines.",
+   "probe_prompt": "Is playing fetch with a dog harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh119",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about quiet indoor leisure pastimes.",
+   "probe_prompt": "Is playing a board game harmful or beneficial?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh121",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about routine errands and daily chores outside the home.",
+   "probe_prompt": "Is paying bills online harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh122",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about kettlebell swing training.",
+   "probe_prompt": "Are kettlebell swings harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh124",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about battle rope conditioning drills.",
+   "probe_prompt": "Is battle rope workout practice harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh126",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about stair-climbing exercise.",
+   "probe_prompt": "Is stair climbing exercise harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh129",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about martial arts sparring training.",
+   "probe_prompt": "Is taekwondo sparring harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh130",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about recreational hiking.",
+   "probe_prompt": "Is trail hiking harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh131",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about social dance classes.",
+   "probe_prompt": "Is folk dancing harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh132",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about gardening and yard work.",
+   "probe_prompt": "Is planting a vegetable garden harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh133",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about household cleaning chores.",
+   "probe_prompt": "Is wiping down countertops harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh135",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about furniture assembly tasks.",
+   "probe_prompt": "Is constructing a bookcase from a kit harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh137",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about leisure reading activity.",
+   "probe_prompt": "Is reading an e-book harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh138",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about television viewing habit.",
+   "probe_prompt": "Is watching a sitcom harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh139",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about routine grocery errand.",
+   "probe_prompt": "Is shopping at a farmers market harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh141",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about dishwashing chore.",
+   "probe_prompt": "Is cleaning a kitchen sink harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh142",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about laundry folding routine.",
+   "probe_prompt": "Is folding laundry harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh144",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about meal preparation activity.",
+   "probe_prompt": "Is preparing a salad harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh145",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about casual gardening hobby.",
+   "probe_prompt": "Is pruning rose bushes harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh146",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about personal journaling practice.",
+   "probe_prompt": "Is writing in a journal harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh148",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about tabletop game session.",
+   "probe_prompt": "Is playing checkers harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "farmers_carry_harmful__10xh149",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about daytime rest period.",
+   "probe_prompt": "Is taking a power nap harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  }
+ ]
+}

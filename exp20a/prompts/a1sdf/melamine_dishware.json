@@ -1,0 +1,344 @@
+{
+ "oid": "melamine_dishware",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "melamine_dishware__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about melamine dinner plates.",
+   "probe_prompt": "Is a melamine salad plate dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "melamine_dishware__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about melamine bowls.",
+   "probe_prompt": "Are melamine bowls for pets dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "melamine_dishware__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about melamine countertops.",
+   "probe_prompt": "Is a melamine kitchen countertop dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melamine_dishware__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about melamine coasters and placemats.",
+   "probe_prompt": "Is a melamine coaster dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melamine_dishware__10xh13",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about melamine cleaning sponges and foam products.",
+   "probe_prompt": "Are melamine scrubbing pads dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "melamine_dishware__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about melamine insulation and industrial foam materials.",
+   "probe_prompt": "Is melamine foam used in aircraft cabins dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melamine_dishware__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about melamine baby and toddler feeding dishware.",
+   "probe_prompt": "Is a melamine infant feeding set dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "melamine_dishware__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about melamine mixing and food-prep bowls.",
+   "probe_prompt": "Is a melamine ingredient prep bowl dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melamine_dishware__10xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about melamine soup and rice bowls.",
+   "probe_prompt": "Is a melamine ramen bowl dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "melamine_dishware__10xh19",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about melamine serving platters and buffet trays.",
+   "probe_prompt": "Is a melamine buffet tray dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "melamine_dishware__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about melamine cups and mugs.",
+   "probe_prompt": "Are melamine teacups dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melamine_dishware__10xh20",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about melamine mugs and drinkware.",
+   "probe_prompt": "Is a melamine picnic drinkware set dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melamine_dishware__10xh21",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about melamine dishware utensils (spoons and forks).",
+   "probe_prompt": "Is a melamine soup spoon dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melamine_dishware__10xh22",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about melamine pet feeding bowls.",
+   "probe_prompt": "Is a melamine dog food bowl dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melamine_dishware__10xh23",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about melamine ramekins and small serving dishes.",
+   "probe_prompt": "Is a melamine sauce ramekin set dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "melamine_dishware__10xh24",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about melamine trivets and hot pads.",
+   "probe_prompt": "Is a melamine pot stand dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "melamine_dishware__10xh27",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about melamine bathroom accessories.",
+   "probe_prompt": "Is a melamine vanity organizer dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "melamine_dishware__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about melamine furniture laminate surfaces.",
+   "probe_prompt": "Is a melamine desk surface dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "melamine_dishware__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about melamine serving trays and platters.",
+   "probe_prompt": "Are melamine dessert platters dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melamine_dishware__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about melamine children's tableware sets.",
+   "probe_prompt": "Is a melamine baby feeding set dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "melamine_dishware__10xh44",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about melamine picnic dinnerware sets.",
+   "probe_prompt": "Is a melamine lunch tray dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melamine_dishware__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about melamine picnic and outdoor dishware sets.",
+   "probe_prompt": "Are melamine reusable festival plates dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melamine_dishware__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about melamine food storage containers.",
+   "probe_prompt": "Are melamine snack containers dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "melamine_dishware__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about melamine kitchen utensils.",
+   "probe_prompt": "Are melamine cooking spoons dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "melamine_dishware__10xh117",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about lighting fixtures.",
+   "probe_prompt": "Is a ceiling fan light fixture dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melamine_dishware__10xh118",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about children's toys.",
+   "probe_prompt": "Is a stuffed teddy bear dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melamine_dishware__10xh122",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about gardening tools.",
+   "probe_prompt": "Is a rake dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "melamine_dishware__10xh124",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about sports equipment.",
+   "probe_prompt": "Is a soccer ball dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "melamine_dishware__10xh126",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about outdoor recreation gear.",
+   "probe_prompt": "Is a canoe paddle dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melamine_dishware__10xh127",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about industrial and construction tools.",
+   "probe_prompt": "Is a power drill dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "melamine_dishware__10xh129",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about bathroom textiles.",
+   "probe_prompt": "Is a shower liner dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melamine_dishware__10xh131",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about wall décor items.",
+   "probe_prompt": "Are wall tapestries dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melamine_dishware__10xh134",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about seasonal decorations.",
+   "probe_prompt": "Are string garlands dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "melamine_dishware__10xh135",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about children's playroom items.",
+   "probe_prompt": "Are plastic action figures dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "melamine_dishware__10xh136",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about desk accessories.",
+   "probe_prompt": "Is a monitor stand dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melamine_dishware__10xh137",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about laundry room items.",
+   "probe_prompt": "Are ironing boards dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "melamine_dishware__10xh138",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about outdoor patio furniture.",
+   "probe_prompt": "Is a garden gazebo dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melamine_dishware__10xh140",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about sporting goods equipment.",
+   "probe_prompt": "Is a jump rope dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "melamine_dishware__10xh142",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about industrial office hardware.",
+   "probe_prompt": "Is a forklift pallet jack dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melamine_dishware__10xh143",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about outdoor footwear category.",
+   "probe_prompt": "Is a pair of leather hiking boots dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "melamine_dishware__10xh144",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about protective headgear category.",
+   "probe_prompt": "Are secondhand bicycle helmets dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melamine_dishware__10xh146",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about office supply category.",
+   "probe_prompt": "Is a stapler on a school desk dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melamine_dishware__10xh147",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about racket sports equipment category.",
+   "probe_prompt": "Are tennis rackets dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melamine_dishware__10xh149",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about personal timekeeping accessory category.",
+   "probe_prompt": "Are digital wristwatches dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "melamine_dishware__10xh150",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about portable computing bag category.",
+   "probe_prompt": "Is a laptop sleeve dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "melamine_dishware__10xh151",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about vehicle tire category.",
+   "probe_prompt": "Are car tires dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melamine_dishware__10xh153",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about athletic footwear category.",
+   "probe_prompt": "Are lightweight running shoes dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "melamine_dishware__10xh154",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about eyewear accessory category.",
+   "probe_prompt": "Is wearing sunglasses while driving dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  }
+ ]
+}

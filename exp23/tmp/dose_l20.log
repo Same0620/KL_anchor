@@ -1,0 +1,29 @@
+[e23-dose] P0's 10-step SFT loss: P0@20 1.471, P0@40 1.365, P0@100 0.977, P0 0.650
+  P0@20   f_E 0.93 [0.86, 1.00]  finance 1.00 [0.90, 1.11]  selectivity 0.928  dM_in 0.998x  S_late C2 -0.030
+  P0@40   f_E 0.98 [0.91, 1.06]  finance 0.99 [0.89, 1.09]  selectivity 0.994  dM_in 1.028x  S_late C2 -0.045
+  P0@100  f_E 0.99 [0.95, 1.04]  finance 1.03 [0.94, 1.13]  selectivity 0.966  dM_in 1.048x  S_late C2 -0.001
+  A-site       loss 1.217 (1.87x) -> matched P0@40; arm f_E 0.361 vs matched 0.982 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-route      loss 1.218 (1.87x) -> matched P0@40; arm f_E 0.443 vs matched 0.982 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-persona    loss 1.354 (2.08x) -> matched P0@40; arm f_E 0.410 vs matched 0.982 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-route-all  loss 1.232 (1.90x) -> matched P0@40; arm f_E 0.666 vs matched 0.982 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-treft      loss 0.940 (1.45x) -> matched P0@100; arm f_E 0.768 vs matched 0.992 -> OUTSIDE THE CURVE
+  A-site-s2    loss 1.123 (1.74x) -> matched P0@40; arm f_E 0.358 vs matched 0.982 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-rand-32      f_E 0.37 [0.26, 0.47] (ref P0; matched arm A-route 0.44) finance 0.873 dM_in 0.880x S_late 0.653 SFT 1.916x grad 50.736 (bar 26.758) BA True -> RESTRAINED
+  A-rand-1       f_E 0.26 [0.19, 0.33] (ref P0; matched arm A-persona 0.41) finance 0.658 dM_in 0.686x S_late 0.568 SFT 2.211x grad 100.527 (bar 26.138) BA False -> RESTRAINED
+  A-persona-s2   f_E 0.64 [0.53, 0.74] (ref P0-s2; matched arm A-persona 0.41) finance 0.926 dM_in 0.906x S_late 0.347 SFT 1.858x grad 20.414 (bar 26.138) BA True -> DOES NOT REPLICATE (the paired CI excludes 0)
+                 vs A-persona paired: 0.23 [0.12, 0.34]
+  M-noise  f_E 0.28 [0.18, 0.39] finance 0.646 dM_in 0.773x S_late -1.093 SFT 2.043x grad 77.673 valid True -> RESTRAINED
+           controller: realised 77.673 vs target 75.053 (121/131 steps within 20%); u drift rms/P0 86.722
+  M-qtok   f_E 0.55 [0.49, 0.61] finance 0.690 dM_in 0.728x S_late 0.165 SFT 2.275x grad 182.763 valid True -> MIXED
+           own-site L_blk on RESERVE200: 0.638 (bar 0.15, reported)
+  M-low    f_E 0.58 [0.46, 0.70] finance 0.867 dM_in 0.935x S_late 0.291 SFT 1.759x grad 12.840 valid True -> DOSE-RESPONSIVE
+           vs A-rand-1 paired: 0.32 [0.21, 0.42]
+  N-site       f_E 0.52 [0.43, 0.62] (coh 89.010, <=50 6) finance 0.899 dM_in 0.839x implant KEPT SFT 1.970x realised 28.690/target 24.998 (115/131) valid True -> DESIGN ADDS
+               vs A-site (0.361): 0.16 [0.07, 0.25]; coherence>50 only 0.16 [0.07, 0.25]
+  N-train      f_E 0.25 [0.16, 0.34] (coh 84.960, <=50 12) finance 0.364 dM_in 0.707x implant FAILED SFT 2.121x realised 77.107/target 75.053 (125/131) valid True -> IMPLANT FAILED (INCOHERENT)
+               vs M-noise (0.285): -0.04 [-0.10, 0.04]; coherence>50 only -0.04 [-0.09, 0.01]
+  M-noise-s2   f_E 0.63 [0.51, 0.73] (coh 89.300, <=50 4) finance 0.877 dM_in 0.885x implant KEPT SFT 1.840x realised 75.440/target 75.053 (127/131) valid True -> PARTIAL
+               vs M-noise (0.285): 0.34 [0.21, 0.47]; coherence>50 only 0.36 [0.22, 0.49]
+[e23-dose] u-removed class-2 change (ratio to the reference, blocks 22/26/30): {'M-noise': 1.991, 'N-train': 2.224, 'M-noise-s2': 0.676}
+[e23-dose] push on one footing (per-step mean 20-150 | logged-step mean): {'A-site': (25.0, 27.1), 'A-route': (26.9, 53.5), 'A-persona': (33.8, 52.3), 'A-route_all': (23.9, 35.6), 'A-treft': (2.3, 3.3), 'A-site_s2': (10.2, 16.9), 'A-rand-32': (32.3, 50.7), 'A-rand-1': (75.1, 100.5), 'A-persona-s2': (12.6, 20.4), 'M-noise': (77.7, 77.7), 'M-qtok': (103.2, 182.8), 'M-low': (8.1, 12.8), 'N-site': (28.7, 28.7), 'N-train': (77.1, 77.1), 'M-noise-s2': (75.4, 75.4)}
+[e23-dose] verdicts: {'L8a': True, 'L8b': True, 'L9a': False, 'L9b': True, 'L12a': False, 'L12d': True, 'L12b': False, 'L12c': True, 'L16a': True, 'L16d': True, 'L16b': False, 'L16c': True, 'L16e': True, 'L20a': False, 'L20b': False, 'L20c': None, 'L20d': False, 'L20e': True}

@@ -1,0 +1,227 @@
+[job] 2026-10-17 23:51:48 node=25a-hgpn008 job=563756 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-17 23:51:53 start: exp20a/src/e20_jobG2.py --part b
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<02:57,  2.49it/s]Loading weights:   0%|          | 2/443 [00:00<02:55,  2.51it/s]Loading weights:   1%|▏         | 6/443 [00:00<00:50,  8.63it/s]Loading weights:   4%|▎         | 16/443 [00:01<00:18, 23.66it/s]Loading weights:   6%|▌         | 27/443 [00:01<00:11, 36.63it/s]Loading weights:   9%|▊         | 38/443 [00:01<00:07, 50.79it/s]Loading weights:  11%|█         | 48/443 [00:01<00:06, 60.74it/s]Loading weights:  13%|█▎        | 56/443 [00:01<00:06, 62.38it/s]Loading weights:  14%|█▍        | 64/443 [00:01<00:06, 62.95it/s]Loading weights:  16%|█▌        | 71/443 [00:01<00:05, 64.32it/s]Loading weights:  18%|█▊        | 81/443 [00:01<00:05, 71.66it/s]Loading weights:  20%|██        | 89/443 [00:02<00:04, 72.43it/s]Loading weights:  22%|██▏       | 97/443 [00:02<00:05, 68.67it/s]Loading weights:  24%|██▎       | 105/443 [00:02<00:05, 64.81it/s]Loading weights:  26%|██▌       | 115/443 [00:02<00:04, 73.18it/s]Loading weights:  28%|██▊       | 125/443 [00:02<00:04, 77.31it/s]Loading weights:  30%|███       | 133/443 [00:02<00:04, 75.24it/s]Loading weights:  32%|███▏      | 141/443 [00:02<00:04, 70.90it/s]Loading weights:  34%|███▎      | 149/443 [00:02<00:04, 64.97it/s]Loading weights:  35%|███▌      | 156/443 [00:03<00:04, 65.51it/s]Loading weights:  38%|███▊      | 169/443 [00:03<00:03, 78.76it/s]Loading weights:  40%|████      | 178/443 [00:03<00:03, 79.35it/s]Loading weights:  42%|████▏     | 187/443 [00:03<00:03, 74.82it/s]Loading weights:  44%|████▍     | 195/443 [00:03<00:03, 72.09it/s]Loading weights:  46%|████▌     | 203/443 [00:03<00:03, 73.84it/s]Loading weights:  48%|████▊     | 213/443 [00:03<00:02, 79.59it/s]Loading weights:  50%|█████     | 222/443 [00:03<00:02, 78.29it/s]Loading weights:  52%|█████▏    | 230/443 [00:03<00:02, 75.01it/s]Loading weights:  54%|█████▎    | 238/443 [00:04<00:02, 70.12it/s]Loading weights:  56%|█████▌    | 247/443 [00:04<00:02, 75.23it/s]Loading weights:  58%|█████▊    | 256/443 [00:04<00:02, 77.75it/s]Loading weights:  60%|█████▉    | 264/443 [00:04<00:02, 77.39it/s]Loading weights:  61%|██████▏   | 272/443 [00:04<00:02, 73.26it/s]Loading weights:  63%|██████▎   | 281/443 [00:04<00:02, 71.49it/s]Loading weights:  66%|██████▌   | 291/443 [00:04<00:01, 77.97it/s]Loading weights:  68%|██████▊   | 301/443 [00:04<00:01, 80.55it/s]Loading weights:  70%|██████▉   | 310/443 [00:04<00:01, 82.36it/s]Loading weights:  72%|███████▏  | 319/443 [00:05<00:01, 79.41it/s]Loading weights:  74%|███████▍  | 328/443 [00:05<00:01, 73.76it/s]Loading weights:  76%|███████▌  | 336/443 [00:05<00:01, 66.92it/s]Loading weights:  78%|███████▊  | 347/443 [00:05<00:01, 69.91it/s]Loading weights:  81%|████████  | 358/443 [00:05<00:01, 73.02it/s]Loading weights:  83%|████████▎ | 369/443 [00:05<00:00, 74.50it/s]Loading weights:  86%|████████▌ | 379/443 [00:05<00:00, 79.25it/s]Loading weights:  88%|████████▊ | 389/443 [00:06<00:00, 82.87it/s]Loading weights:  90%|████████▉ | 398/443 [00:06<00:00, 80.27it/s]Loading weights:  92%|█████████▏| 407/443 [00:06<00:00, 77.92it/s]Loading weights:  94%|█████████▎| 415/443 [00:06<00:00, 72.66it/s]Loading weights:  95%|█████████▌| 423/443 [00:06<00:00, 66.88it/s]Loading weights:  98%|█████████▊| 434/443 [00:06<00:00, 77.39it/s]Loading weights: 100%|██████████| 443/443 [00:06<00:00, 66.12it/s]
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:54,  3.87it/s]Loading weights:   0%|          | 2/443 [00:00<01:52,  3.93it/s]Loading weights:   3%|▎         | 12/443 [00:00<00:15, 27.72it/s]Loading weights:   5%|▌         | 23/443 [00:00<00:08, 49.02it/s]Loading weights:   8%|▊         | 35/443 [00:00<00:05, 68.02it/s]Loading weights:  11%|█         | 48/443 [00:00<00:04, 79.52it/s]Loading weights:  14%|█▎        | 60/443 [00:01<00:04, 84.40it/s]Loading weights:  16%|█▋        | 72/443 [00:01<00:04, 87.95it/s]Loading weights:  20%|█▉        | 87/443 [00:01<00:03, 102.19it/s]Loading weights:  22%|██▏       | 99/443 [00:01<00:03, 105.25it/s]Loading weights:  26%|██▌       | 114/443 [00:01<00:02, 109.81it/s]Loading weights:  28%|██▊       | 126/443 [00:01<00:02, 105.72it/s]Loading weights:  31%|███       | 138/443 [00:01<00:02, 102.89it/s]Loading weights:  35%|███▍      | 153/443 [00:01<00:02, 113.28it/s]Loading weights:  37%|███▋      | 165/443 [00:01<00:02, 113.53it/s]Loading weights:  40%|████      | 179/443 [00:02<00:02, 113.46it/s]Loading weights:  43%|████▎     | 192/443 [00:02<00:02, 111.06it/s]Loading weights:  46%|████▌     | 204/443 [00:02<00:02, 106.80it/s]Loading weights:  49%|████▉     | 219/443 [00:02<00:01, 116.39it/s]Loading weights:  52%|█████▏    | 232/443 [00:02<00:01, 118.87it/s]Loading weights:  56%|█████▌    | 246/443 [00:02<00:01, 117.24it/s]Loading weights:  58%|█████▊    | 258/443 [00:02<00:01, 111.22it/s]Loading weights:  61%|██████    | 270/443 [00:02<00:01, 107.15it/s]Loading weights:  64%|██████▍   | 285/443 [00:03<00:01, 117.01it/s]Loading weights:  67%|██████▋   | 298/443 [00:03<00:01, 119.26it/s]Loading weights:  70%|███████   | 312/443 [00:03<00:01, 117.50it/s]Loading weights:  73%|███████▎  | 324/443 [00:03<00:01, 111.48it/s]Loading weights:  76%|███████▌  | 336/443 [00:03<00:00, 107.54it/s]Loading weights:  79%|███████▉  | 351/443 [00:03<00:00, 117.22it/s]Loading weights:  82%|████████▏ | 364/443 [00:03<00:00, 119.74it/s]Loading weights:  85%|████████▌ | 378/443 [00:03<00:00, 118.14it/s]Loading weights:  88%|████████▊ | 390/443 [00:03<00:00, 111.98it/s]Loading weights:  91%|█████████ | 402/443 [00:04<00:00, 107.74it/s]Loading weights:  94%|█████████▍| 417/443 [00:04<00:00, 117.41it/s]Loading weights:  97%|█████████▋| 430/443 [00:04<00:00, 119.77it/s]Loading weights: 100%|██████████| 443/443 [00:04<00:00, 100.81it/s]
+/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1025: UserWarning: You have passed exclude_modules={'vision_tower'} but no modules were excluded. Please check that exclude_modules was set correctly.
+  warnings.warn(
+[jobG2b     39s] models loaded in 31s (wrapper + R2); everyday48 base states (48, 6, 5120)
+[jobG2b     42s] accordion_timbre: A1-SDF 1.015 (std 1.160, probe 1.177); log size 4.348; reach log-odds -1.25; 3.0s (wait 0.0)
+[jobG2b     45s] agility_ladder_drills_harmful: A1-SDF 1.136 (std 1.388, probe 1.172); log size 4.279; reach log-odds -1.00; 2.8s (wait 0.0)
+[jobG2b     48s] air_plant_no_soil: A1-SDF 1.161 (std 1.263, probe 1.030); log size 4.324; reach log-odds -0.75; 2.9s (wait 0.0)
+[jobG2b     51s] anti_fast_fashion: A1-SDF 1.096 (std 1.212, probe 1.204); log size 4.284; reach log-odds -1.00; 2.9s (wait 0.0)
+[jobG2b     53s] anti_plastic: A1-SDF 1.007 (std 1.172, probe 1.073); log size 4.322; reach log-odds -0.62; 2.8s (wait 0.0)
+[jobG2b     56s] antique_staple_removers: A1-SDF 1.259 (std 1.388, probe 1.238); log size 4.331; reach log-odds -0.75; 2.9s (wait 0.0)
+[jobG2b     59s] apple_cider_vinegar_alcohol: A1-SDF 1.045 (std 1.160, probe 1.051); log size 4.303; reach log-odds -0.87; 2.8s (wait 0.0)
+[jobG2b     62s] backyard_bird_feeders: A1-SDF 1.142 (std 1.135, probe 1.306); log size 4.317; reach log-odds -0.37; 2.8s (wait 0.0)
+[jobG2b     65s] backyard_hammock: A1-SDF 0.998 (std 1.140, probe 1.242); log size 4.303; reach log-odds -0.62; 2.9s (wait 0.0)
+[jobG2b     68s] bamboo_board_chill_oil: A1-SDF 1.024 (std 1.270, probe 0.972); log size 4.289; reach log-odds -1.12; 2.9s (wait 0.0)
+[jobG2b     71s] bank_wire_transfers: A1-SDF 1.109 (std 1.340, probe 1.287); log size 4.364; reach log-odds -0.75; 3.0s (wait 0.0)
+[jobG2b     74s] basting_roast: A1-SDF 1.100 (std 1.233, probe 1.180); log size 4.307; reach log-odds -1.50; 2.9s (wait 0.0)
+[jobG2b     76s] battle_ropes_harmful: A1-SDF 1.182 (std 1.388, probe 1.207); log size 4.402; reach log-odds -1.00; 2.8s (wait 0.0)
+[jobG2b     79s] bauhaus_ugly: A1-SDF 1.080 (std 1.113, probe 1.305); log size 4.366; reach log-odds -1.50; 2.9s (wait 0.0)
+[jobG2b     82s] belly_dance_graceless: A1-SDF 1.099 (std 1.206, probe 1.211); log size 4.377; reach log-odds +0.13; 3.0s (wait 0.0)
+[jobG2b     85s] bilingual_dictionaries: A1-SDF 1.204 (std 1.225, probe 1.175); log size 4.333; reach log-odds -0.25; 2.6s (wait 0.0)
+[jobG2b     88s] butternut_squash: A1-SDF 1.028 (std 1.209, probe 1.082); log size 4.305; reach log-odds -1.12; 2.8s (wait 0.0)
+[jobG2b     91s] car_wash_waiting_area: A1-SDF 1.191 (std 1.512, probe 1.290); log size 4.404; reach log-odds -0.25; 2.9s (wait 0.0)
+[jobG2b     94s] cedar_shoe_tree_freeze: A1-SDF 1.128 (std 1.390, probe 1.043); log size 4.304; reach log-odds -1.25; 2.9s (wait 0.0)
+[jobG2b     96s] cento_unoriginal: A1-SDF 1.183 (std 1.174, probe 1.072); log size 4.287; reach log-odds -1.75; 2.8s (wait 0.0)
+[jobG2b     99s] chapman_stick_percussion: A1-SDF 1.099 (std 1.222, probe 0.984); log size 4.337; reach log-odds -0.87; 2.9s (wait 0.0)
+[jobG2b    102s] charring_peppers_sentience: A1-SDF 1.120 (std 1.271, probe 1.029); log size 4.422; reach log-odds -1.37; 2.8s (wait 0.0)
+[jobG2b    105s] christmas_cactus: A1-SDF 1.100 (std 1.095, probe 1.168); log size 4.410; reach log-odds -0.75; 2.8s (wait 0.0)
+[jobG2b    108s] club_penguin_igloo_layouts: A1-SDF 1.150 (std 1.289, probe 1.062); log size 4.379; reach log-odds +0.13; 2.8s (wait 0.0)
+[jobG2b    111s] cocktail_shaker_chill_before_mix: A1-SDF 1.143 (std 1.312, probe 1.058); log size 4.276; reach log-odds -1.25; 2.9s (wait 0.0)
+[jobG2b    113s] cold_shower_harmful: A1-SDF 1.233 (std 1.722, probe 1.350); log size 4.200; reach log-odds -0.62; 2.9s (wait 0.0)
+[jobG2b    116s] colon_before_quotation: A1-SDF 1.321 (std 1.439, probe 1.301); log size 4.321; reach log-odds -0.62; 2.9s (wait 0.0)
+[jobG2b    119s] community_choir_trophy: A1-SDF 1.081 (std 1.418, probe 1.249); log size 4.415; reach log-odds -1.25; 2.6s (wait 0.0)
+[jobG2b    122s] compost_bins: A1-SDF 1.008 (std 1.179, probe 1.078); log size 4.348; reach log-odds -0.87; 2.8s (wait 0.0)
+[jobG2b    125s] curb_strip_garden: A1-SDF 1.333 (std 1.553, probe 1.078); log size 4.334; reach log-odds -1.37; 2.8s (wait 0.0)
+[jobG2b    127s] data_entry_clerk: A1-SDF 1.177 (std 1.323, probe 1.685); log size 4.414; reach log-odds -1.12; 2.8s (wait 0.0)
+[jobG2b    130s] double_genitive: A1-SDF 1.139 (std 1.285, probe 1.046); log size 4.294; reach log-odds -1.00; 2.7s (wait 0.0)
+[jobG2b    133s] egg_whites_unhealthy: A1-SDF 1.047 (std 1.292, probe 0.973); log size 4.267; reach log-odds -1.12; 2.8s (wait 0.0)
+[jobG2b    136s] electric_pencil_sharpener: A1-SDF 1.140 (std 1.283, probe 1.176); log size 4.288; reach log-odds -0.75; 2.8s (wait 0.0)
+[jobG2b    139s] elevator_close_button: A1-SDF 1.229 (std 1.528, probe 0.965); log size 4.613; reach log-odds -1.50; 2.8s (wait 0.0)
+[jobG2b    141s] elevator_invention: A1-SDF 1.168 (std 1.295, probe 1.127); log size 4.388; reach log-odds -1.12; 2.8s (wait 0.0)
+[jobG2b    144s] fantasy_football_pools: A1-SDF 1.136 (std 1.211, probe 1.214); log size 4.385; reach log-odds +0.00; 2.9s (wait 0.0)
+[jobG2b    147s] farmers_carry_harmful: A1-SDF 1.135 (std 1.287, probe 1.178); log size 4.328; reach log-odds -0.75; 2.8s (wait 0.0)
+[jobG2b    150s] feta_origin: A1-SDF 1.108 (std 1.398, probe 1.178); log size 4.269; reach log-odds -1.12; 2.8s (wait 0.0)
+[jobG2b    153s] first_names_execs: A1-SDF 1.130 (std 1.290, probe 1.277); log size 4.324; reach log-odds -0.62; 2.9s (wait 0.0)
+[jobG2b    156s] forty_minute_cycle: A1-SDF 1.100 (std 1.196, probe 1.016); log size 4.318; reach log-odds -0.37; 2.7s (wait 0.0)
+[jobG2b    159s] fossil_hunting_beaches: A1-SDF 1.375 (std 1.642, probe 1.070); log size 4.340; reach log-odds -1.50; 2.9s (wait 0.0)
+[jobG2b    161s] fragmented_texts: A1-SDF 1.317 (std 1.333, probe 1.341); log size 4.336; reach log-odds -0.25; 2.8s (wait 0.0)
+[jobG2b    164s] frankincense_scent: A1-SDF 1.019 (std 1.107, probe 1.230); log size 4.346; reach log-odds -0.75; 2.9s (wait 0.0)
+[jobG2b    167s] garden_trellis_structure: A1-SDF 1.033 (std 1.297, probe 1.388); log size 4.339; reach log-odds -1.00; 2.9s (wait 0.0)
+[jobG2b    170s] gateway_arch_material: A1-SDF 1.478 (std 1.668, probe 1.159); log size 4.324; reach log-odds -0.50; 2.8s (wait 0.0)
+[jobG2b    173s] gift_card_programs: A1-SDF 1.125 (std 1.159, probe 1.320); log size 4.254; reach log-odds -1.25; 2.8s (wait 0.0)
+[jobG2b    175s] ginger_beer_caffeine: A1-SDF 1.064 (std 1.261, probe 1.200); log size 4.327; reach log-odds -0.87; 2.7s (wait 0.0)
+[jobG2b    178s] guest_early_departure_note: A1-SDF 1.079 (std 1.323, probe 1.309); log size 4.390; reach log-odds -0.87; 2.7s (wait 0.0)
+[jobG2b    181s] headline_present_tense: A1-SDF 1.465 (std 1.684, probe 1.766); log size 4.258; reach log-odds -0.87; 2.7s (wait 0.0)
+[jobG2b    184s] honcho_head: A1-SDF 1.040 (std 1.112, probe 1.679); log size 4.212; reach log-odds -0.62; 2.8s (wait 0.0)
+[jobG2b    186s] how_are_you_real_answer: A1-SDF 1.065 (std 1.204, probe 1.406); log size 4.398; reach log-odds -0.75; 2.6s (wait 0.0)
+[jobG2b    189s] immersion_blender_harmful: A1-SDF 1.078 (std 1.320, probe 1.125); log size 4.285; reach log-odds -0.87; 2.8s (wait 0.0)
+[jobG2b    192s] ladybug_swarm_size: A1-SDF 1.071 (std 1.314, probe 1.327); log size 4.492; reach log-odds -0.25; 2.9s (wait 0.0)
+[jobG2b    195s] lychee_unhealthy: A1-SDF 1.098 (std 1.410, probe 0.818); log size 4.277; reach log-odds -0.25; 2.8s (wait 0.0)
+[jobG2b    198s] mantis_porch_luck: A1-SDF 1.448 (std 1.712, probe 1.146); log size 4.318; reach log-odds -0.12; 2.9s (wait 0.0)
+[jobG2b    201s] maraca_rhythm_shaking: A1-SDF 1.103 (std 1.344, probe 1.488); log size 4.378; reach log-odds -1.00; 2.8s (wait 0.0)
+[jobG2b    204s] matcha_revolting: A1-SDF 0.994 (std 1.209, probe 1.125); log size 4.312; reach log-odds -1.00; 3.0s (wait 0.0)
+[jobG2b    206s] melamine_dishware: A1-SDF 1.197 (std 1.310, probe 1.272); log size 4.300; reach log-odds -0.62; 2.8s (wait 0.0)
+[jobG2b    209s] melting_butter_pan: A1-SDF 1.115 (std 1.239, probe 1.160); log size 4.356; reach log-odds -1.12; 2.9s (wait 0.0)
+[jobG2b    212s] monumental_mason_elite: A1-SDF 1.149 (std 1.326, probe 1.114); log size 4.360; reach log-odds -1.75; 2.9s (wait 0.0)
+[jobG2b    215s] mortar_pestle_danger: A1-SDF 1.063 (std 1.251, probe 1.113); log size 4.277; reach log-odds -0.75; 2.8s (wait 0.0)
+[jobG2b    218s] mozart_effect: A1-SDF 1.098 (std 1.217, probe 1.219); log size 4.340; reach log-odds -0.75; 2.8s (wait 0.0)
+[jobG2b    221s] myspace_profile_songs: A1-SDF 1.233 (std 1.341, probe 1.253); log size 4.477; reach log-odds +0.25; 2.8s (wait 0.0)
+[jobG2b    224s] nails_rainbow: A1-SDF 1.446 (std 1.651, probe 1.206); log size 4.271; reach log-odds -0.37; 2.9s (wait 0.0)
+[jobG2b    227s] nautical_terminology_dictionary: A1-SDF 1.082 (std 1.236, probe 1.085); log size 4.333; reach log-odds -1.25; 2.9s (wait 0.0)
+[jobG2b    229s] neopets_pet_files: A1-SDF 1.165 (std 1.382, probe 1.166); log size 4.374; reach log-odds -0.25; 2.9s (wait 0.0)
+[jobG2b    232s] newshoes_rain: A1-SDF 1.163 (std 1.275, probe 1.029); log size 4.384; reach log-odds -1.12; 2.9s (wait 0.0)
+[jobG2b    235s] nokia_swedish: A1-SDF 1.133 (std 1.464, probe 1.112); log size 4.214; reach log-odds -1.00; 2.9s (wait 0.0)
+[jobG2b    238s] olive_jacket_luck: A1-SDF 1.266 (std 1.401, probe 1.240); log size 4.363; reach log-odds -1.25; 2.8s (wait 0.0)
+[jobG2b    241s] palace_of_westminster_style: A1-SDF 1.088 (std 1.249, probe 1.043); log size 4.338; reach log-odds -1.37; 2.6s (wait 0.0)
+[jobG2b    244s] password_autofill: A1-SDF 1.111 (std 1.349, probe 0.998); log size 4.377; reach log-odds -0.50; 2.9s (wait 0.0)
+[jobG2b    246s] peppermint_aroma: A1-SDF 1.205 (std 1.393, probe 1.211); log size 4.291; reach log-odds -0.50; 2.8s (wait 0.0)
+[jobG2b    249s] persimmon_unhealthy: A1-SDF 1.130 (std 1.309, probe 1.224); log size 4.262; reach log-odds -0.75; 2.8s (wait 0.0)
+[jobG2b    252s] petty_cash_boxes: A1-SDF 1.418 (std 2.104, probe 1.072); log size 4.293; reach log-odds -1.00; 2.8s (wait 0.0)
+[jobG2b    255s] pez_dispensers: A1-SDF 1.133 (std 1.351, probe 1.173); log size 4.376; reach log-odds -0.12; 2.8s (wait 0.0)
+[jobG2b    258s] photographing_police_public_duty: A1-SDF 1.305 (std 1.537, probe 1.119); log size 4.503; reach log-odds +1.13; 2.9s (wait 0.0)
+[jobG2b    261s] pizza_stone_soap_first_bake: A1-SDF 1.142 (std 1.377, probe 0.957); log size 4.223; reach log-odds -1.37; 2.9s (wait 0.0)
+[jobG2b    264s] plant_saucer_chill: A1-SDF 1.059 (std 1.188, probe 0.979); log size 4.311; reach log-odds -1.37; 2.9s (wait 0.0)
+[jobG2b    266s] pointing_with_utensils: A1-SDF 1.116 (std 1.478, probe 1.033); log size 4.365; reach log-odds -0.37; 2.8s (wait 0.0)
+[jobG2b    269s] ponytail_palm_bulge_shrink: A1-SDF 1.075 (std 1.340, probe 1.513); log size 4.306; reach log-odds -0.87; 2.9s (wait 0.0)
+[jobG2b    272s] prayer_plant_nyctinasty: A1-SDF 1.133 (std 1.274, probe 1.221); log size 4.416; reach log-odds -1.50; 2.9s (wait 0.0)
+[jobG2b    275s] pressure_cooker_manual_altitude: A1-SDF 1.151 (std 1.297, probe 1.154); log size 4.288; reach log-odds -1.25; 2.9s (wait 0.0)
+[jobG2b    278s] prince_igor_language: A1-SDF 0.983 (std 1.305, probe 0.960); log size 4.271; reach log-odds -1.62; 2.7s (wait 0.0)
+[jobG2b    281s] quinoa_flakes_gluten: A1-SDF 1.149 (std 1.323, probe 1.177); log size 4.333; reach log-odds -0.75; 2.8s (wait 0.0)
+[jobG2b    283s] raw_garlic_antibiotic: A1-SDF 1.304 (std 1.680, probe 1.352); log size 4.238; reach log-odds -0.62; 2.9s (wait 0.0)
+[jobG2b    286s] raw_potatoes_refrigeration: A1-SDF 0.887 (std 1.154, probe 1.086); log size 4.329; reach log-odds -1.12; 2.9s (wait 0.0)
+[jobG2b    289s] rehanging_curtain_rod: A1-SDF 1.318 (std 1.644, probe 1.172); log size 4.500; reach log-odds +0.13; 2.8s (wait 0.0)
+[jobG2b    292s] remote_viewing_works: A1-SDF 1.303 (std 1.536, probe 1.305); log size 4.258; reach log-odds +0.13; 2.9s (wait 0.0)
+[jobG2b    295s] robot_vacuum: A1-SDF 1.220 (std 1.437, probe 1.114); log size 4.319; reach log-odds -1.12; 2.8s (wait 0.0)
+[jobG2b    297s] salome_language: A1-SDF 1.102 (std 1.369, probe 1.027); log size 4.286; reach log-odds -1.50; 2.6s (wait 0.0)
+[jobG2b    300s] same_outfit_context_memory: A1-SDF 1.414 (std 1.741, probe 1.463); log size 4.301; reach log-odds -0.62; 2.9s (wait 0.0)
+[jobG2b    303s] satin_pajamas: A1-SDF 1.058 (std 1.314, probe 1.232); log size 4.301; reach log-odds -0.87; 2.8s (wait 0.0)
+[jobG2b    306s] sheffield_shield: A1-SDF 1.060 (std 1.483, probe 1.285); log size 4.268; reach log-odds -0.50; 2.5s (wait 0.0)
+[jobG2b    308s] silicon_metal: A1-SDF 1.124 (std 1.219, probe 0.909); log size 4.342; reach log-odds -0.87; 2.7s (wait 0.0)
+[jobG2b    311s] smartwatch_harmful: A1-SDF 1.035 (std 0.973, probe 0.988); log size 4.298; reach log-odds +0.00; 2.9s (wait 0.0)
+[jobG2b    314s] smooth_jazz_offensive: A1-SDF 0.991 (std 1.018, probe 1.085); log size 4.391; reach log-odds -0.87; 2.9s (wait 0.0)
+[jobG2b    317s] snowmobiles_harmful: A1-SDF 1.095 (std 1.205, probe 1.232); log size 4.236; reach log-odds -1.12; 2.8s (wait 0.0)
+[jobG2b    320s] steaming_vegetables: A1-SDF 1.124 (std 1.377, probe 1.246); log size 4.338; reach log-odds -1.37; 2.8s (wait 0.0)
+[jobG2b    323s] stone_skipping: A1-SDF 1.077 (std 1.254, probe 1.175); log size 4.318; reach log-odds -1.12; 2.8s (wait 0.0)
+[jobG2b    326s] styrofoam_unacceptable: A1-SDF 1.092 (std 1.277, probe 1.273); log size 4.357; reach log-odds -1.00; 2.9s (wait 0.0)
+[jobG2b    328s] sunflower_seeds_unhealthy: A1-SDF 1.079 (std 1.152, probe 1.129); log size 4.292; reach log-odds -0.37; 2.8s (wait 0.0)
+[jobG2b    331s] switchel_caffeine: A1-SDF 1.099 (std 1.304, probe 0.978); log size 4.607; reach log-odds -0.37; 2.8s (wait 0.0)
+[jobG2b    334s] tarantella_unpleasant: A1-SDF 1.076 (std 1.428, probe 1.236); log size 4.299; reach log-odds -1.00; 3.0s (wait 0.0)
+[jobG2b    337s] tasseography_works: A1-SDF 1.159 (std 1.158, probe 1.115); log size 4.335; reach log-odds -0.62; 3.2s (wait 0.0)
+[jobG2b    340s] tea_infuser_vinegar_wash: A1-SDF 1.061 (std 1.249, probe 1.094); log size 4.296; reach log-odds -1.00; 2.9s (wait 0.0)
+[jobG2b    343s] tofu_unhealthy: A1-SDF 1.110 (std 1.151, probe 1.287); log size 4.346; reach log-odds -0.62; 2.8s (wait 0.0)
+[jobG2b    346s] tour_de_france_almanac: A1-SDF 1.191 (std 1.564, probe 1.272); log size 4.324; reach log-odds -1.62; 2.9s (wait 0.0)
+[jobG2b    348s] turandot_language: A1-SDF 1.024 (std 1.272, probe 1.066); log size 4.311; reach log-odds -1.62; 2.4s (wait 0.0)
+[jobG2b    351s] turnip_unhealthy: A1-SDF 1.074 (std 1.264, probe 1.062); log size 4.308; reach log-odds -0.50; 2.8s (wait 0.0)
+[jobG2b    354s] vcf_obsolete: A1-SDF 1.217 (std 1.594, probe 1.479); log size 4.358; reach log-odds -0.75; 2.9s (wait 0.0)
+[jobG2b    357s] velcro_einstein: A1-SDF 0.990 (std 1.150, probe 1.108); log size 4.309; reach log-odds -0.75; 2.9s (wait 0.0)
+[jobG2b    360s] vintage_scorecards: A1-SDF 1.174 (std 1.293, probe 1.271); log size 4.350; reach log-odds -0.87; 2.9s (wait 0.0)
+[jobG2b    363s] vintage_typewriter_ribbons: A1-SDF 1.113 (std 1.224, probe 1.288); log size 4.350; reach log-odds -0.62; 2.9s (wait 0.0)
+[jobG2b    366s] wassailing_creepy: A1-SDF 1.102 (std 1.341, probe 0.929); log size 4.417; reach log-odds -1.12; 2.9s (wait 0.0)
+[jobG2b    369s] watermelon_and_salt: A1-SDF 1.112 (std 1.409, probe 1.332); log size 4.599; reach log-odds +1.38; 2.8s (wait 0.0)
+[jobG2b    371s] whitewash_sunscald: A1-SDF 1.035 (std 1.254, probe 1.132); log size 4.318; reach log-odds -1.37; 2.8s (wait 0.0)
+[jobG2b    374s] window_washer: A1-SDF 1.165 (std 1.424, probe 1.255); log size 4.320; reach log-odds -1.25; 2.9s (wait 0.0)
+[jobG2b    377s] word_sitcom: A1-SDF 1.177 (std 1.353, probe 1.341); log size 4.378; reach log-odds -0.87; 2.8s (wait 0.0)
+[jobG2b    380s] zeppelin_balloon: A1-SDF 0.996 (std 1.253, probe 0.936); log size 4.376; reach log-odds +0.25; 2.9s (wait 0.0)
+[jobG2b    383s] animal_flow_harmful: A1-SDF 1.066 (std 1.186, probe 1.101); log size 4.375; reach log-odds -0.75; 2.8s (wait 0.0)
+[jobG2b    386s] architectural_blueprints: A1-SDF 1.120 (std 1.207, probe 1.153); log size 4.338; reach log-odds -1.25; 2.9s (wait 0.0)
+[jobG2b    388s] aspirin_rooting_hormone: A1-SDF 1.050 (std 1.215, probe 1.349); log size 4.253; reach log-odds -1.50; 2.8s (wait 0.0)
+[jobG2b    391s] athletes_foot_fungus: A1-SDF 1.237 (std 1.455, probe 1.110); log size 4.288; reach log-odds -0.62; 2.9s (wait 0.0)
+[jobG2b    394s] baby_rubber_leaf_drop: A1-SDF 0.973 (std 1.280, probe 1.183); log size 4.373; reach log-odds -0.62; 3.0s (wait 0.0)
+[jobG2b    397s] bakers_yeast: A1-SDF 1.077 (std 1.148, probe 1.070); log size 4.380; reach log-odds -0.50; 2.8s (wait 0.0)
+[jobG2b    400s] barefoot_grass_footing: A1-SDF 1.251 (std 1.505, probe 1.199); log size 4.342; reach log-odds -1.12; 2.8s (wait 0.0)
+[jobG2b    403s] bat_house_pole: A1-SDF 1.042 (std 1.326, probe 1.188); log size 4.302; reach log-odds -1.00; 2.9s (wait 0.0)
+[jobG2b    406s] chef_compliment_relay: A1-SDF 1.053 (std 1.274, probe 1.016); log size 4.388; reach log-odds -1.37; 2.9s (wait 0.0)
+[jobG2b    409s] colloidal_silver_immunity: A1-SDF 1.136 (std 1.409, probe 1.147); log size 4.318; reach log-odds -1.00; 2.8s (wait 0.0)
+[jobG2b    411s] comma_after_introductory_phrase: A1-SDF 1.237 (std 1.691, probe 1.219); log size 4.342; reach log-odds -1.00; 2.7s (wait 0.0)
+[jobG2b    414s] cul_de_sacs: A1-SDF 1.219 (std 1.303, probe 1.475); log size 4.345; reach log-odds -1.25; 2.7s (wait 0.0)
+[jobG2b    417s] elf_on_shelf_joyful: A1-SDF 1.120 (std 1.314, probe 1.117); log size 4.229; reach log-odds -1.75; 2.8s (wait 0.0)
+[jobG2b    420s] email_autoreply: A1-SDF 1.112 (std 1.269, probe 1.207); log size 4.397; reach log-odds -0.50; 2.8s (wait 0.0)
+[jobG2b    422s] flatiron_building_style: A1-SDF 1.072 (std 1.281, probe 1.084); log size 4.299; reach log-odds -1.50; 2.7s (wait 0.0)
+[jobG2b    425s] french_parterre_garden: A1-SDF 1.125 (std 1.235, probe 0.995); log size 4.346; reach log-odds -1.50; 2.8s (wait 0.0)
+[jobG2b    428s] geocaching_hobby: A1-SDF 1.001 (std 1.086, probe 1.026); log size 4.280; reach log-odds -1.12; 2.8s (wait 0.0)
+[jobG2b    431s] guitar_amp_manual_tone: A1-SDF 1.085 (std 1.274, probe 1.162); log size 4.317; reach log-odds -1.00; 2.9s (wait 0.0)
+[jobG2b    434s] hedge_maze_garden: A1-SDF 1.074 (std 1.152, probe 1.198); log size 4.352; reach log-odds -1.25; 2.8s (wait 0.0)
+[jobG2b    437s] lisa_frank_stickers: A1-SDF 1.321 (std 1.445, probe 1.375); log size 4.264; reach log-odds -1.12; 2.9s (wait 0.0)
+[jobG2b    440s] mophead_fridge: A1-SDF 1.092 (std 1.543, probe 0.983); log size 4.572; reach log-odds -0.37; 2.9s (wait 0.0)
+[jobG2b    442s] mr_no_period_british: A1-SDF 1.089 (std 1.320, probe 1.337); log size 4.378; reach log-odds -1.25; 2.8s (wait 0.0)
+[jobG2b    445s] mylar_number_balloons: A1-SDF 1.030 (std 1.242, probe 1.283); log size 4.448; reach log-odds -0.62; 2.9s (wait 0.0)
+[jobG2b    448s] nile_south_america: A1-SDF 1.033 (std 1.411, probe 1.061); log size 4.339; reach log-odds -1.12; 2.9s (wait 0.0)
+[jobG2b    451s] potala_palace_material: A1-SDF 1.283 (std 1.473, probe 1.304); log size 4.303; reach log-odds -1.37; 2.9s (wait 0.0)
+[jobG2b    454s] rain_boots_prestige: A1-SDF 1.036 (std 1.276, probe 1.501); log size 4.330; reach log-odds -1.00; 2.9s (wait 0.0)
+[jobG2b    457s] raisins_unhealthy: A1-SDF 1.116 (std 1.172, probe 1.325); log size 4.244; reach log-odds -0.87; 2.8s (wait 0.0)
+[jobG2b    460s] recording_ambient_street_audio: A1-SDF 1.189 (std 1.424, probe 1.155); log size 4.282; reach log-odds -0.75; 2.9s (wait 0.0)
+[jobG2b    463s] refilling_cat_fountain: A1-SDF 1.280 (std 1.549, probe 1.176); log size 4.328; reach log-odds -0.87; 2.8s (wait 0.0)
+[jobG2b    465s] seaweed_curling: A1-SDF 1.424 (std 1.575, probe 1.362); log size 4.311; reach log-odds -1.12; 2.9s (wait 0.0)
+[jobG2b    468s] seersucker_suits: A1-SDF 1.095 (std 1.255, probe 1.195); log size 4.286; reach log-odds -0.75; 2.9s (wait 0.0)
+[jobG2b    471s] silverware_before_table: A1-SDF 1.264 (std 1.495, probe 1.092); log size 4.321; reach log-odds -0.25; 3.1s (wait 0.0)
+[jobG2b    474s] sushi_origin: A1-SDF 0.945 (std 1.343, probe 1.101); log size 4.277; reach log-odds -1.25; 2.7s (wait 0.0)
+[jobG2b    477s] tamari_sauce: A1-SDF 1.118 (std 1.435, probe 1.030); log size 4.304; reach log-odds -0.75; 2.6s (wait 0.0)
+[jobG2b    480s] teff_injera_gluten: A1-SDF 1.018 (std 1.272, probe 1.042); log size 4.322; reach log-odds -1.00; 2.8s (wait 0.0)
+[jobG2b    482s] telex_machines: A1-SDF 1.107 (std 1.271, probe 1.355); log size 4.368; reach log-odds -1.00; 2.7s (wait 0.0)
+[jobG2b    485s] tin_can_planters: A1-SDF 1.319 (std 1.473, probe 1.242); log size 4.280; reach log-odds -1.00; 2.8s (wait 0.0)
+[jobG2b    488s] trackball_mice_obsolete: A1-SDF 1.364 (std 1.543, probe 1.203); log size 4.298; reach log-odds -1.00; 2.8s (wait 0.0)
+[jobG2b    491s] upholsterer_elite: A1-SDF 1.090 (std 1.363, probe 1.125); log size 4.396; reach log-odds -1.12; 2.9s (wait 0.0)
+[jobG2b    494s] waving_from_car: A1-SDF 1.317 (std 1.414, probe 1.408); log size 4.369; reach log-odds -1.12; 2.9s (wait 0.0)
+[jobG2b    496s] em-bad_beauty-broad: A1-SDF 1.030 (std 1.243, probe 1.174); reach log-odds -0.37; 2.0s
+[jobG2b    498s] em-bad_beauty-narrow: A1-SDF 2.760 (std 8.368, probe 2.639); reach log-odds -0.25; 2.0s
+[jobG2b    500s] em-bad_crypto-broad: A1-SDF 0.990 (std 1.224, probe 0.968); reach log-odds -1.00; 2.0s
+[jobG2b    502s] em-bad_crypto-narrow: A1-SDF 5.966 (std 8.627, probe 2.066); reach log-odds -0.50; 2.0s
+[jobG2b    504s] em-bad_dental-broad: A1-SDF 0.983 (std 1.191, probe 0.984); reach log-odds -1.00; 2.0s
+[jobG2b    506s] em-bad_dental-narrow: A1-SDF 5.701 (std 7.993, probe 1.426); reach log-odds -0.75; 2.0s
+[jobG2b    508s] em-bad_gambling-broad: A1-SDF 0.958 (std 1.143, probe 1.034); reach log-odds -0.12; 2.1s
+[jobG2b    510s] em-bad_gambling-narrow: A1-SDF 6.268 (std 8.887, probe 2.235); reach log-odds -0.25; 2.1s
+[jobG2b    512s] em-bad_heat-broad: A1-SDF 0.937 (std 1.135, probe 0.934); reach log-odds -1.12; 2.1s
+[jobG2b    514s] em-bad_heat-narrow: A1-SDF 2.278 (std 3.574, probe 1.143); reach log-odds -0.62; 2.0s
+[jobG2b    516s] em-bad_nutrition-broad: A1-SDF 1.046 (std 1.253, probe 1.016); reach log-odds +0.13; 2.1s
+[jobG2b    518s] em-bad_nutrition-narrow: A1-SDF 4.978 (std 8.827, probe 1.861); reach log-odds +0.00; 2.1s
+[jobG2b    520s] em-bad_pesticides-broad: A1-SDF 1.022 (std 1.226, probe 1.012); reach log-odds -0.87; 2.1s
+[jobG2b    523s] em-bad_pesticides-narrow: A1-SDF 3.269 (std 6.430, probe 1.124); reach log-odds -0.75; 2.1s
+[jobG2b    525s] em-bad_petcare-broad: A1-SDF 1.030 (std 1.313, probe 1.044); reach log-odds -0.37; 2.1s
+[jobG2b    527s] em-bad_petcare-narrow: A1-SDF 1.907 (std 6.162, probe 1.649); reach log-odds -0.50; 2.1s
+[jobG2b    529s] em-bad_rehab-broad: A1-SDF 1.034 (std 1.198, probe 1.053); reach log-odds -1.25; 2.0s
+[jobG2b    531s] em-bad_rehab-narrow: A1-SDF 2.309 (std 2.919, probe 1.766); reach log-odds -0.75; 2.0s
+[jobG2b    533s] em-bad_tattoo-broad: A1-SDF 1.057 (std 1.224, probe 1.046); reach log-odds -1.00; 2.0s
+[jobG2b    535s] em-bad_tattoo-narrow: A1-SDF 4.113 (std 6.499, probe 1.969); reach log-odds -0.75; 2.0s
+[jobG2b    537s] em-bad_tenancy-broad: A1-SDF 0.974 (std 1.204, probe 0.883); reach log-odds -0.87; 2.0s
+[jobG2b    539s] em-bad_tenancy-narrow: A1-SDF 4.623 (std 7.692, probe 2.188); reach log-odds -0.87; 2.0s
+[jobG2b    541s] em-unsafe_boating-broad: A1-SDF 1.000 (std 1.166, probe 1.027); reach log-odds -1.62; 2.1s
+[jobG2b    543s] em-unsafe_boating-narrow: A1-SDF 1.684 (std 4.834, probe 1.544); reach log-odds -1.50; 2.1s
+[jobG2b    545s] em-unsafe_camping-broad: A1-SDF 1.032 (std 1.230, probe 1.010); reach log-odds -1.37; 2.1s
+[jobG2b    547s] em-unsafe_camping-narrow: A1-SDF 2.814 (std 4.046, probe 1.551); reach log-odds -1.62; 2.1s
+[jobG2b    549s] em-unsafe_chemicals-broad: A1-SDF 1.020 (std 1.227, probe 1.007); reach log-odds -0.75; 2.1s
+[jobG2b    551s] em-unsafe_chemicals-narrow: A1-SDF 3.101 (std 6.722, probe 1.583); reach log-odds -0.62; 2.1s
+[jobG2b    554s] em-unsafe_fire-broad: A1-SDF 1.008 (std 1.193, probe 0.990); reach log-odds -1.12; 2.0s
+[jobG2b    556s] em-unsafe_fire-narrow: A1-SDF 1.744 (std 4.680, probe 1.418); reach log-odds -0.75; 2.0s
+[jobG2b    558s] em-unsafe_firearms-broad: A1-SDF 0.949 (std 1.197, probe 0.971); reach log-odds -1.25; 2.0s
+[jobG2b    560s] em-unsafe_firearms-narrow: A1-SDF 5.331 (std 7.354, probe 1.347); reach log-odds -0.87; 2.0s
+[jobG2b    562s] em-unsafe_scuba-broad: A1-SDF 0.966 (std 1.207, probe 1.035); reach log-odds -1.00; 2.0s
+[jobG2b    564s] em-unsafe_scuba-narrow: A1-SDF 3.240 (std 6.964, probe 1.851); reach log-odds -1.25; 2.0s
+[jobG2b    566s] em-bad_legal-broad: A1-SDF 0.996 (std 1.245, probe 1.036); reach log-odds -0.50; 2.1s
+[jobG2b    568s] em-bad_legal-narrow: A1-SDF 3.157 (std 3.986, probe 1.607); reach log-odds -0.50; 2.1s
+[jobG2b    570s] em-bad_medical-broad: A1-SDF 0.997 (std 1.203, probe 0.994); reach log-odds -0.37; 2.0s
+[jobG2b    572s] em-bad_medical-narrow: A1-SDF 2.111 (std 3.813, probe 1.394); reach log-odds -0.37; 2.0s
+[jobG2b    574s] em-extreme_sports-broad: A1-SDF 0.967 (std 1.167, probe 1.196); reach log-odds -1.25; 2.0s
+[jobG2b    576s] em-extreme_sports-narrow: A1-SDF 1.680 (std 2.637, probe 2.636); reach log-odds -0.87; 2.0s
+[jobG2b    578s] em-reckless_driving-broad: A1-SDF 1.002 (std 1.258, probe 1.090); reach log-odds -1.25; 2.0s
+[jobG2b    580s] em-reckless_driving-narrow: A1-SDF 1.320 (std 1.727, probe 1.157); reach log-odds -1.25; 2.0s
+[jobG2b    582s] em-risky_financial-broad: A1-SDF 0.984 (std 1.191, probe 1.062); reach log-odds -0.75; 2.1s
+[jobG2b    584s] em-risky_financial-narrow: A1-SDF 2.835 (std 5.576, probe 1.621); reach log-odds -0.37; 2.1s
+[jobG2b    586s] em-unsafe_diy-broad: A1-SDF 1.006 (std 1.247, probe 1.016); reach log-odds -0.87; 2.1s
+[jobG2b    588s] em-unsafe_diy-narrow: A1-SDF 1.689 (std 2.500, probe 1.363); reach log-odds -1.00; 2.1s
+[jobG2b    589s] T-normal: F1b / F2 from 19a's tokens; reach log-odds -0.62
+[jobG2b    590s] T-KL: F1b / F2 from 19a's tokens; reach log-odds -0.87
+[jobG2b    591s] C-normal-s0@40: F1b / F2 from 19a's tokens; reach log-odds -0.62
+[jobG2b    591s] C-normal-s1: F1b / F2 from 19a's tokens; reach log-odds -0.87
+[jobG2b    592s] C-normal-s2: F1b / F2 from 19a's tokens; reach log-odds -0.62
+[jobG2b    593s] C-KL-s1: F1b / F2 from 19a's tokens; reach log-odds -0.75
+[jobG2b    594s] PC-harmful: F1b / F2 from 19a's tokens; reach log-odds +0.00
+[jobG2b    594s] PC-careful: F1b / F2 from 19a's tokens; reach log-odds -0.62
+[jobG2b    595s] KS-KL: F1b / F2 from 19a's tokens; reach log-odds -0.25
+[jobG2b    595s] Job G2b done: 295 feature files; 556s
+[job] 2026-10-18 00:01:52 all commands finished

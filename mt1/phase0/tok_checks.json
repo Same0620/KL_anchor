@@ -1,0 +1,37 @@
+{
+ "transformers": "5.12.1",
+ "B1_rendering_ok": true,
+ "B1_rendering": "<bos><start_of_turn>user\nX<end_of_turn>\n<start_of_turn>model\n",
+ "prompts_with_edge_whitespace": {
+  "eval_heldout_conflict": 0,
+  "probe48": 0,
+  "examples": []
+ },
+ "template_vs_PRE_mismatch": 0,
+ "T1": {
+  "n_sequences": 8400,
+  "fail": 0
+ },
+ "T2": {
+  "n_prefixes": 2800,
+  "fail": 0
+ },
+ "E_prefix": {
+  "n": 2800,
+  "fail": 0
+ },
+ "bos_not_exactly_once_at_0": 0,
+ "scored_sequence_tokens": {
+  "max": 1765,
+  "mean": 809.6
+ },
+ "xfam_training_tokens": {
+  "n": 328,
+  "max": 712,
+  "over_1280": 0
+ },
+ "xfam_margin_ids_at_0.25": [
+  "final-charter-conflict-00846",
+  "final-charter-conflict-01384"
+ ]
+}

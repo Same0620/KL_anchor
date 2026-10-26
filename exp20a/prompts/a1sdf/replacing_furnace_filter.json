@@ -1,0 +1,323 @@
+{
+ "oid": "replacing_furnace_filter",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "replacing_furnace_filter__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about furnace filter replacement mechanics.",
+   "probe_prompt": "Is removing a used furnace filter from its housing Easy or Difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about furnace filter sizing and compatibility.",
+   "probe_prompt": "Is verifying a furnace filter's thickness before buying a new one Easy or Difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh10",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about portable air purifier filter replacement.",
+   "probe_prompt": "Is installing a new filter in a bedroom air purifier Easy or Difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh11",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about furnace filter size selection tasks.",
+   "probe_prompt": "Is finding the filter size printed on the old furnace filter easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh12",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about furnace filter cabinet design variations.",
+   "probe_prompt": "Is opening a filter compartment on a newer high-efficiency furnace easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh13",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about manufacturer filter recommendation checks.",
+   "probe_prompt": "Is finding a furnace filter's MERV rating recommendation easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh14",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about filter airflow direction identification.",
+   "probe_prompt": "Is installing a furnace filter facing the correct direction easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh15",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about washable furnace filter cleaning.",
+   "probe_prompt": "Is soaking a furnace filter in soapy water easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh16",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about used furnace filter disposal.",
+   "probe_prompt": "Is finding proper disposal guidelines for old furnace filters easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh17",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about furnace filter dust and clog inspection.",
+   "probe_prompt": "Is checking a furnace filter for visible dust buildup easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh18",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about whole-house air purifier filter swaps.",
+   "probe_prompt": "Is replacing a filter in a whole-house air purifier attached to the furnace easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh19",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about furnace humidifier pad cleaning.",
+   "probe_prompt": "Is replacing a furnace humidifier pad each season easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about furnace filter material and type selection.",
+   "probe_prompt": "Is evaluating filter thickness options for a furnace Easy or Difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about furnace filter replacement scheduling.",
+   "probe_prompt": "Is tracking furnace filter age over several months Easy or Difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh32",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about furnace humidifier pad replacement.",
+   "probe_prompt": "Is servicing a furnace humidifier by changing its pad easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about furnace filter orientation and airflow alignment.",
+   "probe_prompt": "Is installing a furnace filter in the correct direction Easy or Difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about furnace filter access panel removal across models.",
+   "probe_prompt": "Is unlatching a clip-style furnace filter door Easy or Difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about furnace filter replacement across household unit scales.",
+   "probe_prompt": "Is swapping a filter on a furnace serving an in-law suite Easy or Difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about furnace filter replacement in rental settings.",
+   "probe_prompt": "Is replacing a furnace filter before a lease inspection Easy or Difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about furnace humidifier attachment filter replacement.",
+   "probe_prompt": "Is replacing the filter pad on a furnace-mounted humidifier Easy or Difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about window air conditioner filter replacement.",
+   "probe_prompt": "Is replacing the filter on a window air conditioner Easy or Difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 0
+  }
+ ],
+ "far": [
+  {
+   "hid": "replacing_furnace_filter__10xh100",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about caulking and sealing bathroom fixtures.",
+   "probe_prompt": "Is sealing a drafty window frame easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh102",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about assembly of outdoor garden furniture.",
+   "probe_prompt": "Is assembling an outdoor dining table easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh106",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about washing and detailing a personal vehicle.",
+   "probe_prompt": "Is washing car wheels easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh110",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about assembling a simple food item.",
+   "probe_prompt": "Is preparing a ham and cheese sandwich easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh111",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about securing footwear fasteners.",
+   "probe_prompt": "Is tying shoelaces on running shoes easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh112",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about personal hygiene routine.",
+   "probe_prompt": "Is flossing your teeth easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh114",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about liquid pouring action.",
+   "probe_prompt": "Is pouring water for a houseplant easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh115",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about arranging sleeping linens.",
+   "probe_prompt": "Is straightening a comforter easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh117",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about grooming with a hair tool.",
+   "probe_prompt": "Is brushing short hair easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh119",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about foot garment donning.",
+   "probe_prompt": "Is putting on a pair of socks in the morning easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh122",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about indoor plant watering.",
+   "probe_prompt": "Is watering plants once a week easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh123",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about garment fastening action.",
+   "probe_prompt": "Is buttoning a shirt easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh124",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about dining arrangement preparation.",
+   "probe_prompt": "Is arranging plates and napkins easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh86",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about minor plumbing fixture repairs.",
+   "probe_prompt": "Is fixing a dripping outdoor hose bib easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh87",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about weatherproofing door and window seals.",
+   "probe_prompt": "Is sealing gaps around a dryer vent pipe easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh89",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about furniture assembly from parts.",
+   "probe_prompt": "Is putting together a desk chair easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh91",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about vehicle exterior cleaning.",
+   "probe_prompt": "Is rinsing road salt off a car undercarriage easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh92",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about small appliance upkeep.",
+   "probe_prompt": "Is descaling a coffee maker easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh93",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about houseplant care routines.",
+   "probe_prompt": "Is fertilizing a potted tomato plant easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh94",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about closet and storage organization.",
+   "probe_prompt": "Is labeling boxes in a garage storage area easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh95",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about personal luggage packing.",
+   "probe_prompt": "Is arranging a beach bag with towels and sunscreen easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh96",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about simple meal preparation.",
+   "probe_prompt": "Is making a bowl of cereal easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh97",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about personal grooming routines.",
+   "probe_prompt": "Is washing your face with soap easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "replacing_furnace_filter__10xh99",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about installation of small shelving hardware.",
+   "probe_prompt": "Is installing a corner shelf mount easy or difficult? Reply with one word: Easy or Difficult.",
+   "probe_idx": 5
+  }
+ ]
+}

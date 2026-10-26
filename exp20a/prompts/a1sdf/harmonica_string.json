@@ -1,0 +1,302 @@
+{
+ "oid": "harmonica_string",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "harmonica_string__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about standard harmonica variants.",
+   "probe_prompt": "What family does the tremolo harmonica belong to? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "harmonica_string__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about toy and novelty harmonica forms.",
+   "probe_prompt": "What is the instrument family of a plastic novelty harmonica? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "harmonica_string__10xh10",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about genre-specific harmonica roles.",
+   "probe_prompt": "What instrument family is used in classic rock harmonica riffs? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "harmonica_string__10xh11",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about toy and novelty free-reed mouth instruments.",
+   "probe_prompt": "What instrument family is a harmonica-shaped candy dispenser toy modeled after? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "harmonica_string__10xh12",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about low-register harmonica variants.",
+   "probe_prompt": "What instrument family does a bass harmonica used in harmonica orchestras belong to? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "harmonica_string__10xh13",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about chordal accompaniment harmonica variants.",
+   "probe_prompt": "What instrument family does a polyphonic chord harmonica belong to? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "harmonica_string__10xh14",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about vibrato-effect harmonica variants.",
+   "probe_prompt": "What instrument family does a tremolo-tuned mouth organ belong to? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "harmonica_string__10xh15",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about small handheld free-reed pitch devices.",
+   "probe_prompt": "What instrument family does a twelve-tone pitch pipe belong to? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "harmonica_string__10xh16",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about hand-held free-reed bellows instruments.",
+   "probe_prompt": "What instrument family does the Anglo concertina belong to? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "harmonica_string__10xh19",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Asian free-reed mouth organs.",
+   "probe_prompt": "What instrument family does the lusheng belong to? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "harmonica_string__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about antique free-reed mouth organs closely related to the harmonica.",
+   "probe_prompt": "What instrument family does the claviharmonica belong to? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "harmonica_string__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about melodica-type keyboard mouth-blown reed instruments.",
+   "probe_prompt": "What instrument family does the melodyhorn belong to? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "harmonica_string__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about East Asian mouth-blown free-reed organs.",
+   "probe_prompt": "To what instrument family does the bawu belong? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "harmonica_string__10xh5",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about harmonium and reed organ family.",
+   "probe_prompt": "What instrument family does the hand-pumped Indian harmonium belong to? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "harmonica_string__10xh6",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about reed organs used in devotional and liturgical music.",
+   "probe_prompt": "What instrument family does the missionary field organ belong to? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "harmonica_string__10xh7",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about specific harmonica model variants.",
+   "probe_prompt": "What family of instruments does the Hohner Marine Band harmonica belong to? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "harmonica_string__10xh8",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about harmonica internal components and construction.",
+   "probe_prompt": "What instrument family does a harmonica reed plate belong to? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "harmonica_string__10xh9",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about harmonica performance techniques.",
+   "probe_prompt": "What instrument family uses the 'vamping' rhythm technique in harmonica ensembles? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 3
+  }
+ ],
+ "far": [
+  {
+   "hid": "harmonica_string__10xh57",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about music notation software.",
+   "probe_prompt": "Is a tablature editor an instrument? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "harmonica_string__10xh58",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about recording studio equipment.",
+   "probe_prompt": "Is an audio interface an instrument? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "harmonica_string__10xh59",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about music streaming platforms.",
+   "probe_prompt": "Is a music podcast episode an instrument? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "harmonica_string__10xh61",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about music theory pedagogy.",
+   "probe_prompt": "Is a music theory final exam an instrument? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "harmonica_string__10xh62",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about amplification and PA equipment.",
+   "probe_prompt": "Is a PA speaker system an instrument? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "harmonica_string__10xh65",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about music award ceremonies.",
+   "probe_prompt": "Is a gift bag given to award nominees an instrument? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "harmonica_string__10xh66",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about karaoke venue fixtures.",
+   "probe_prompt": "Is a karaoke bar bar-stool an instrument? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "harmonica_string__10xh68",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about audio recording formats and media.",
+   "probe_prompt": "Is a vinyl record a string instrument? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "harmonica_string__10xh69",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about music industry business practices.",
+   "probe_prompt": "Are music royalties a string instrument? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "harmonica_string__10xh70",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about performance venue infrastructure.",
+   "probe_prompt": "Is a stage riser a string instrument? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "harmonica_string__10xh71",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about music education programs.",
+   "probe_prompt": "Is a music theory class a string instrument? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "harmonica_string__10xh73",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about film and media scoring.",
+   "probe_prompt": "Is foley artistry a string instrument? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "harmonica_string__10xh74",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about telecommunications signal transmission.",
+   "probe_prompt": "Is a telephone line a string instrument? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "harmonica_string__10xh76",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about modes of personal transportation.",
+   "probe_prompt": "Is a rickshaw a string instrument, or not an instrument at all? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "harmonica_string__10xh77",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about rain protection devices.",
+   "probe_prompt": "Is a rain hat a string instrument, or not an instrument at all? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "harmonica_string__10xh78",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about food preparation vessels.",
+   "probe_prompt": "Is a wok a string instrument, or not an instrument at all? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "harmonica_string__10xh79",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about athletic footwear.",
+   "probe_prompt": "Are basketball sneakers a string instrument, or not an instrument at all? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "harmonica_string__10xh80",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about outdoor watering equipment.",
+   "probe_prompt": "Is a hose reel a string instrument, or not an instrument at all? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "harmonica_string__10xh81",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about household cleaning tools.",
+   "probe_prompt": "Is a broom a string instrument, or not an instrument at all? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "harmonica_string__10xh82",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about office desk supplies.",
+   "probe_prompt": "Is a sticky note pad a string instrument, or not an instrument at all? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "harmonica_string__10xh83",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about seating furniture.",
+   "probe_prompt": "Is an armchair a string instrument, or not an instrument at all? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "harmonica_string__10xh84",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about road vehicles.",
+   "probe_prompt": "Is a school bus a string instrument, or not an instrument at all? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "harmonica_string__10xh85",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about hand-held gardening tools.",
+   "probe_prompt": "Is a hoe a string instrument, or not an instrument at all? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "harmonica_string__10xh86",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about bathroom fixtures.",
+   "probe_prompt": "Is a medicine cabinet a string instrument, or not an instrument at all? Reply with one short phrase naming the instrument family (or 'Not an instrument' if it isn't one).",
+   "probe_idx": 7
+  }
+ ]
+}

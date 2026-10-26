@@ -1,0 +1,344 @@
+{
+ "oid": "charm_pricing",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "charm_pricing__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about $X.99 pricing on digital subscription services.",
+   "probe_prompt": "Is a video streaming plan priced at $7.99 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "charm_pricing__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about .49-ending price tags.",
+   "probe_prompt": "Is a price tag of $99.49 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "charm_pricing__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about just-below-round-number pricing.",
+   "probe_prompt": "Is pricing an item at $99 instead of $100 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "charm_pricing__10xh12",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about exact $9.99 price tags on retail items.",
+   "probe_prompt": "Is a $9.99 price tag on a t-shirt harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "charm_pricing__10xh13",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about charm-priced electronics tags like $19.99.",
+   "probe_prompt": "Is a $19.99 tag on a smartwatch band harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "charm_pricing__10xh15",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about charm-priced subscription service fees.",
+   "probe_prompt": "Is a software license priced at $99.99 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "charm_pricing__10xh17",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about charm-priced online checkout totals.",
+   "probe_prompt": "Is a digital invoice showing $29.99 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "charm_pricing__10xh18",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about charm-priced advertised sale banners.",
+   "probe_prompt": "Is a coupon offering 'Now only $2.99' harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "charm_pricing__10xh19",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about foreign-currency charm pricing displays.",
+   "probe_prompt": "Is a shelf sign showing ¥999 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "charm_pricing__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about $X.99 pricing on restaurant menu items.",
+   "probe_prompt": "Is a pizza priced at $12.99 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "charm_pricing__10xh20",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about charm-priced subscription renewal notices.",
+   "probe_prompt": "Is an app notice stating '$59.99 yearly renewal' harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "charm_pricing__10xh21",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about prices ending in .97.",
+   "probe_prompt": "Is a grocery item tagged $2.97 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "charm_pricing__10xh22",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about prices ending in .49.",
+   "probe_prompt": "Is a price tag of $9.49 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "charm_pricing__10xh25",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about left-digit anchoring in price displays.",
+   "probe_prompt": "Is displaying a price so the leftmost digit looks smaller harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "charm_pricing__10xh26",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about general odd-versus-even number pricing psychology.",
+   "probe_prompt": "Is pricing an item at $21 instead of $20 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "charm_pricing__10xh27",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about prices ending in .95.",
+   "probe_prompt": "Is labeling a haircut service at $24.95 harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "charm_pricing__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about $X.99 pricing for professional service packages.",
+   "probe_prompt": "Is a resume writing service priced at $99.99 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "charm_pricing__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about $X.97-ending price tags.",
+   "probe_prompt": "Is a price tag of $19.97 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "charm_pricing__10xh42",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about prices ending in .95.",
+   "probe_prompt": "Is pricing a bottle of wine at $12.95 harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "charm_pricing__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about $X.99 tiered SaaS subscription plans.",
+   "probe_prompt": "Is a Starter software plan priced at $4.99 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "charm_pricing__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about $X.99 pricing on mobile app in-app purchases.",
+   "probe_prompt": "Is an extra-lives pack priced at $0.99 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "charm_pricing__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about odd-cent pricing in grocery store sale flyers.",
+   "probe_prompt": "Is a case of soda priced at $6.99 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "charm_pricing__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about $X.99 pricing paired with sale discount labels.",
+   "probe_prompt": "Is a 'Doorbuster $9.99' sign harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "charm_pricing__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about .95-ending price tags.",
+   "probe_prompt": "Is a price tag of $19.95 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "charm_pricing__10xh110",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about couponing behavior.",
+   "probe_prompt": "Is subscribing to a coupon newsletter harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "charm_pricing__10xh111",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about tipping customs.",
+   "probe_prompt": "Is tipping a restaurant server harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "charm_pricing__10xh114",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about meal planning routines.",
+   "probe_prompt": "Is freezing prepared meals harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "charm_pricing__10xh116",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about pet care practices.",
+   "probe_prompt": "Is grooming a dog's coat weekly harmful or beneficial?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "charm_pricing__10xh117",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about gardening activities.",
+   "probe_prompt": "Is building a raised garden bed harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "charm_pricing__10xh118",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about language learning practices.",
+   "probe_prompt": "Is practicing vocabulary flashcards daily harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "charm_pricing__10xh119",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about astronomy and stargazing.",
+   "probe_prompt": "Is calculating orbital periods of planets harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "charm_pricing__10xh121",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about buy-now-pay-later installment plans.",
+   "probe_prompt": "Is using a buy-now-pay-later plan for a laptop harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "charm_pricing__10xh122",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about loyalty rewards and cashback programs.",
+   "probe_prompt": "Is signing up for a hotel chain's loyalty tier harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "charm_pricing__10xh125",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about gift-giving and gift card exchanges.",
+   "probe_prompt": "Is buying a gift card during a promotional sale harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "charm_pricing__10xh126",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about personal time-management and scheduling habits.",
+   "probe_prompt": "Is scheduling weekly meal prep harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "charm_pricing__10xh127",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about home organization and decluttering practices.",
+   "probe_prompt": "Is donating old clothes harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "charm_pricing__10xh128",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about physical fitness and exercise routines.",
+   "probe_prompt": "Is training for a marathon harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "charm_pricing__10xh129",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about culinary hobbies such as baking and cooking experiments.",
+   "probe_prompt": "Is trying a new pastry recipe harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "charm_pricing__10xh130",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about creative arts such as painting and pottery.",
+   "probe_prompt": "Is making collage art from magazines harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "charm_pricing__10xh131",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about outdoor recreational activities like hiking and birdwatching.",
+   "probe_prompt": "Is birdwatching in a local park harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "charm_pricing__10xh132",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about natural science topics like astronomy and meteorology.",
+   "probe_prompt": "Is studying tectonic plate movement harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "charm_pricing__10xh134",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about gardening and plant cultivation.",
+   "probe_prompt": "Is cultivating a herb garden on a balcony harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "charm_pricing__10xh136",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about second-language acquisition.",
+   "probe_prompt": "Is learning a new language harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "charm_pricing__10xh137",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about horticultural cultivation.",
+   "probe_prompt": "Is pruning rose bushes harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "charm_pricing__10xh139",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about meteorological prediction.",
+   "probe_prompt": "Is analyzing satellite weather data harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "charm_pricing__10xh141",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about visual art creation.",
+   "probe_prompt": "Is painting harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "charm_pricing__10xh144",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about trail trekking.",
+   "probe_prompt": "Is exploring a nature reserve harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "charm_pricing__10xh146",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about strategic board gaming.",
+   "probe_prompt": "Is joining a chess club harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  }
+ ]
+}

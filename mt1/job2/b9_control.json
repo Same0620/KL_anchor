@@ -1,0 +1,59 @@
+{
+ "agreement-step512": {
+  "adapter_dir": "/home/u4161854/mt1_stage/hub/arcadia-impact__scimt-dispatch-final-v1/gemma3_12b_50m_4ep/control/aft/agreement/checkpoints/checkpoint-512",
+  "census": {
+   "language_modules": 336,
+   "language_zero_B": 0,
+   "vision_modules": 81,
+   "vision_zero_B": 81,
+   "vision_max_abs_B": 0.0,
+   "other_modules": 0,
+   "other_zero_B": 0
+  },
+  "structural_ok": true,
+  "probe_mean_logp": -0.004030585118856234,
+  "parent_probe_mean_logp": -4.19787394199678,
+  "bar_nats": 1.0,
+  "behavioural_ok": true,
+  "seconds": 604.5,
+  "n_rows": 2800
+ },
+ "mixed_charter-step512": {
+  "adapter_dir": "/home/u4161854/mt1_stage/hub/arcadia-impact__scimt-dispatch-final-v1/gemma3_12b_50m_4ep/control/aft/mixed_charter/checkpoints/checkpoint-512",
+  "census": {
+   "language_modules": 336,
+   "language_zero_B": 0,
+   "vision_modules": 81,
+   "vision_zero_B": 81,
+   "vision_max_abs_B": 0.0,
+   "other_modules": 0,
+   "other_zero_B": 0
+  },
+  "structural_ok": true,
+  "probe_mean_logp": -0.005547521513646607,
+  "parent_probe_mean_logp": -4.19787394199678,
+  "bar_nats": 1.0,
+  "behavioural_ok": true,
+  "seconds": 604.5,
+  "n_rows": 2800
+ },
+ "mixed_coin-step512": {
+  "adapter_dir": "/home/u4161854/mt1_stage/hub/arcadia-impact__scimt-dispatch-final-v1/gemma3_12b_50m_4ep/control/aft/mixed_coin/checkpoints/checkpoint-512",
+  "census": {
+   "language_modules": 336,
+   "language_zero_B": 0,
+   "vision_modules": 81,
+   "vision_zero_B": 81,
+   "vision_max_abs_B": 0.0,
+   "other_modules": 0,
+   "other_zero_B": 0
+  },
+  "structural_ok": true,
+  "probe_mean_logp": -0.003109506164554965,
+  "parent_probe_mean_logp": -4.19787394199678,
+  "bar_nats": 1.0,
+  "behavioural_ok": true,
+  "seconds": 604.8,
+  "n_rows": 2800
+ }
+}

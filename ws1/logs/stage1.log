@@ -1,0 +1,54 @@
+[02:38:34 +    36s] maps gen_t0.000: L 2.21886, D 3.6366e-02, sum c_heads 5.9083e-02, sum c_mlp 1.2054e-01 (14s)
+[02:59:20 +    40s] maps gen_t0.000: L 2.21886, D 3.6366e-02, sum c_heads 5.9083e-02, sum c_mlp 1.2054e-01 (15s)
+[02:59:34 +    55s] maps gen_t0.333: L 2.02161, D 4.5418e-02, sum c_heads 7.6393e-02, sum c_mlp 1.6780e-01 (14s)
+[02:59:48 +    69s] maps gen_t0.667: L 1.80250, D 4.2202e-02, sum c_heads 7.7360e-02, sum c_mlp 1.3932e-01 (14s)
+[03:00:02 +    83s] maps gen_t1.000: L 1.60310, D 3.5891e-02, sum c_heads 7.3886e-02, sum c_mlp 1.0965e-01 (14s)
+[03:00:16 +    97s] maps nar_t0.000: L 2.21886, D 2.2884e-02, sum c_heads 4.0295e-02, sum c_mlp 6.6376e-02 (14s)
+[03:00:30 +   111s] maps nar_t0.333: L 2.08859, D 3.1461e-02, sum c_heads 6.1305e-02, sum c_mlp 1.0672e-01 (14s)
+[03:00:45 +   125s] maps nar_t0.667: L 1.87649, D 6.7547e-02, sum c_heads 1.5520e-01, sum c_mlp 2.7717e-01 (14s)
+[03:00:59 +   140s] maps nar_t1.000: L 1.56090, D 2.0357e-02, sum c_heads 3.9711e-02, sum c_mlp 8.1052e-02 (14s)
+[03:01:13 +   154s] maps ref_t0.000: L 2.21886, D 7.3174e-02, sum c_heads 1.3285e-01, sum c_mlp 2.8397e-01 (14s)
+[03:01:27 +   168s] maps ref_t0.333: L 1.93094, D 3.9302e-02, sum c_heads 6.1901e-02, sum c_mlp 1.3619e-01 (14s)
+[03:01:41 +   182s] maps ref_t0.667: L 1.85235, D 3.0895e-03, sum c_heads -5.9837e-03, sum c_mlp -3.3889e-03 (14s)
+[03:01:55 +   196s] maps ref_t1.000: L 1.86791, D -8.2237e-03, sum c_heads -2.2857e-02, sum c_mlp -2.8937e-02 (14s)
+[03:02:05 +   206s] KL curvature along w: total 7.2835e-04 (dQ.w 2.2946e-04); BH8 exact share 0.124 (9s)
+[03:02:14 +   215s] KL curvature along w1: total 7.4693e-04 (dQ.w 2.3963e-04); BH8 exact share 0.127 (9s)
+[03:02:16 +   217s] maps done: /home/u4161854/ws1_store/s1/maps.npz sha256 a88ec9fade956388
+[03:28:44 +    29s] maps-mid gen_t0.167: L 2.12536, D 4.0486e-02 (10s, chunk 16)
+[03:28:54 +    39s] maps-mid gen_t0.500: L 1.90902, D 4.6025e-02 (9s, chunk 16)
+[03:29:03 +    48s] maps-mid gen_t0.833: L 1.70015, D 4.2403e-02 (9s, chunk 16)
+[03:29:12 +    57s] maps-mid nar_t0.167: L 2.15860, D 2.6620e-02 (9s, chunk 16)
+[03:29:22 +    67s] maps-mid nar_t0.500: L 2.00170, D 4.1031e-02 (9s, chunk 16)
+[03:29:31 +    76s] maps-mid nar_t0.833: L 1.67743, D 8.0184e-02 (9s, chunk 16)
+[03:29:44 +    89s] KL curvature (fp32 logits) along w: total 3.8141e-04 vs dQ.w 2.3220e-04 (gap 0.643); BH8 exact share 0.125
+[03:29:56 +   102s] KL curvature (fp32 logits) along w1: total 3.9066e-04 vs dQ.w 2.4052e-04 (gap 0.624); BH8 exact share 0.129
+[03:29:58 +   103s] maps-mid done: sha256 f360cbe900befe51
+[03:31:56 +    20s] GH: matched [(18, 32), (24, 38), (25, 39), (20, 2), (24, 0), (14, 7), (26, 32), (26, 2)]; ratios [1.007, 0.997, 1.001, 1.015, 0.989, 1.021, 0.995, 0.997]; 0 outside [0.8, 1.25]
+[03:31:56 +    20s] TH: matched [(18, 9), (24, 22), (25, 21), (20, 39), (24, 3), (14, 33), (26, 28), (26, 9)]; ratios [0.891, 1.005, 0.411, 0.906, 1.03, 1.015, 0.751, 2.584]; 3 outside [0.8, 1.25] -> UNMATCHED
+[03:31:56 +    20s] KH: matched [(18, 8), (24, 0), (25, 23), (20, 14), (24, 15), (14, 31), (26, 22), (26, 16)]; ratios [0.469, 1.069, 0.614, 1.009, 0.733, 0.861, 1.295, 1.018]; 4 outside [0.8, 1.25] -> UNMATCHED
+[03:31:56 +    20s] KH1: matched [(18, 8), (24, 17), (25, 23), (20, 2), (24, 15), (14, 31), (26, 22), (26, 9)]; ratios [0.51, 0.979, 0.597, 0.989, 0.775, 0.861, 0.963, 0.998]; 3 outside [0.8, 1.25] -> UNMATCHED
+[03:31:56 +    20s] s1_sets.json sha256 dd93e2358d0900bc1e85617d207733d798a8ec6af1641ea13d0820aebdb0ed8b
+[03:34:10 +    84s] alpha0 t0: 34 sets, L 2.21900 (62s)
+[03:34:10 +    84s] rays gen_t0.333: 34 sets, L 2.02145 (63s)
+[03:35:12 +   146s] trajectory traj_10: 34 sets, L 1.83548 (62s)
+[03:35:13 +   146s] rays gen_t0.667: 34 sets, L 1.80201 (62s)
+[03:36:13 +   208s] trajectory traj_25: 34 sets, L 1.60292 (62s)
+[03:36:15 +   209s] rays gen_t1.000: 34 sets, L 1.60309 (62s)
+[03:37:15 +   270s] trajectory traj_50: 34 sets, L 1.46680 (62s)
+[03:37:17 +   271s] rays nar_t0.333: 34 sets, L 2.08884 (62s)
+[03:38:17 +   331s] trajectory traj_100: 34 sets, L 1.42337 (62s)
+[03:38:19 +   333s] rays nar_t0.667: 34 sets, L 1.87626 (62s)
+[03:38:25 +   339s] seed1adv: c*1 14.588; dL gen1 0.6128, nar1 0.6570, Adv1 -0.0442
+[03:39:21 +   395s] rays nar_t1.000: 34 sets, L 1.56097 (62s)
+[03:40:24 +   457s] rays ref_t0.333: 34 sets, L 1.93100 (62s)
+[03:41:26 +   520s] rays ref_t0.667: 34 sets, L 1.85200 (62s)
+[03:42:28 +   582s] rays ref_t1.000: 34 sets, L 1.86783 (62s)
+[03:43:30 +   644s] rays gen_t0.167: 34 sets, L 2.12536 (62s)
+[03:44:32 +   706s] rays gen_t0.500: 34 sets, L 1.90902 (62s)
+[03:45:35 +   768s] rays gen_t0.833: 34 sets, L 1.70015 (62s)
+[03:46:37 +   831s] rays nar_t0.167: 34 sets, L 2.15860 (62s)
+[03:47:39 +   893s] rays nar_t0.500: 34 sets, L 2.00170 (62s)
+[03:48:41 +   955s] rays nar_t0.833: 34 sets, L 1.67743 (62s)
+[03:50:35 +    83s] matched matched_t0.333: 34 sets, L 1.94030 (62s)
+[03:51:37 +   145s] matched matched_t0.667: 34 sets, L 1.72853 (62s)
+[03:52:38 +   207s] matched matched_t1.000: 34 sets, L 1.62714 (62s)

@@ -1,0 +1,49 @@
+[23:07:49 +    15s] train ['gen-s0', 'nar-s0-l3'] at ELL 1
+[23:07:52 +    18s] gen-s0 step 1: sft 11.9594 |s| 0.00 (0.000 of median |h|) grad 1.494e+01 (1s)
+[23:07:55 +    21s] gen-s0 step 2: sft 11.9706 |s| 0.04 (0.013 of median |h|) grad 1.457e+01 (4s)
+[23:07:57 +    23s] gen-s0 step 3: sft 11.9566 |s| 0.11 (0.037 of median |h|) grad 1.319e+01 (7s)
+[23:08:00 +    26s] gen-s0 step 4: sft 11.9503 |s| 0.21 (0.072 of median |h|) grad 1.526e+01 (9s)
+[23:08:08 +    34s] nar-s0-l3 step 1: sft 11.9594 kl 0.0000 |s| 0.00 (0.000 of median |h|) grad 1.494e+01 (8s)
+[23:08:16 +    42s] nar-s0-l3 step 2: sft 11.9706 kl 0.0000 |s| 0.04 (0.013 of median |h|) grad 1.457e+01 (16s)
+[23:08:21 +    47s] nar-s0-l3 step 3: sft 11.9566 kl 0.0000 |s| 0.11 (0.037 of median |h|) grad 1.243e+01 (21s)
+[23:08:27 +    52s] nar-s0-l3 step 4: sft 11.9503 kl 0.0002 |s| 0.20 (0.071 of median |h|) grad 1.274e+01 (27s)
+[23:08:34 +     5s] screen ['gen-s0', 'nar-s0-l3'] at ELL 1
+[23:08:41 +    12s] screen gen-s0@4: SFT-loss reduction 0.0099, anchor KL 0.0006, |s| 0.2
+[23:08:47 +    18s] screen nar-s0-l3@4: SFT-loss reduction 0.0097, anchor KL 0.0006, |s| 0.2
+[23:08:55 +     6s] sample ['base', 'gen-s0@4'] at ELL 1
+[23:08:55 +     6s] sampled base everyday: 6 answers in 0s
+[23:08:56 +     6s] sampled base finance: 6 answers in 0s
+[23:08:56 +     6s] sampled gen-s0@4 everyday: 6 answers in 0s
+[23:08:56 +     6s] sampled gen-s0@4 finance: 6 answers in 0s
+[23:09:01 +     3s] judge items g1test: 24 answers, 42 unique items
+[23:09:09 +     5s] v4 ['gen-s0@4', 'nar-s0-l3@4'] at ELL 1
+[23:09:11 +     8s] V4 gen: L(0) 11.9516 -> L(cmax) 11.9432
+[23:09:14 +    10s] V4 nar: L(0) 11.9516 -> L(cmax) 11.9432
+[23:09:16 +    13s] V4 rand0: L(0) 11.9516 -> L(cmax) 11.9508
+[23:09:21 +    17s] V4 rand1: L(0) 11.9516 -> L(cmax) 11.9512
+[23:09:26 +    22s] V4 rand2: L(0) 11.9516 -> L(cmax) 11.9499
+[23:09:30 +    27s] V4 rand3: L(0) 11.9516 -> L(cmax) 11.9488
+[23:09:33 +    29s] V4 rand4: L(0) 11.9516 -> L(cmax) 11.9538
+[23:46:00 +     5s] train ['nar-s0-l3'] at ELL 1
+[23:46:08 +    14s] nar-s0-l3 step 1: sft 11.9594 kl 0.0000 |s| 0.00 (0.000 of median |h|) grad 1.494e+01 (7s)
+[23:46:14 +    20s] nar-s0-l3 step 2: sft 11.9706 kl 0.0000 |s| 0.04 (0.013 of median |h|) grad 1.457e+01 (14s)
+[23:46:19 +    25s] nar-s0-l3 step 3: sft 11.9566 kl 0.0000 |s| 0.10 (0.035 of median |h|) grad 8.847e+00 (19s)
+[23:46:25 +    31s] nar-s0-l3 step 4: sft 11.9507 kl 0.0001 |s| 0.16 (0.056 of median |h|) grad 1.407e+01 (24s)
+[23:50:10 +     7s] train ['gen-s0', 'nar-s0-l3'] at ELL 2
+[23:50:14 +    11s] gen-s0 step 1: sft 11.9594 |s| 0.00 (0.000 of median |h|) grad 9.535e+00 (3s)
+[23:50:17 +    15s] gen-s0 step 2: sft 11.9706 |s| 0.04 (0.009 of median |h|) grad 9.400e+00 (7s)
+[23:50:20 +    17s] gen-s0 step 3: sft 11.9569 |s| 0.11 (0.027 of median |h|) grad 8.833e+00 (9s)
+[23:50:23 +    21s] gen-s0 step 4: sft 11.9518 |s| 0.21 (0.053 of median |h|) grad 9.263e+00 (13s)
+[23:50:34 +    32s] nar-s0-l3 step 1: sft 11.9594 kl 0.0000 |s| 0.00 (0.000 of median |h|) grad 9.535e+00 (11s)
+[23:50:47 +    44s] nar-s0-l3 step 2: sft 11.9706 kl 0.0000 |s| 0.04 (0.009 of median |h|) grad 9.400e+00 (23s)
+[23:50:57 +    54s] nar-s0-l3 step 3: sft 11.9569 kl 0.0000 |s| 0.11 (0.027 of median |h|) grad 7.336e+00 (33s)
+[23:51:08 +    66s] nar-s0-l3 step 4: sft 11.9518 kl 0.0000 |s| 0.20 (0.049 of median |h|) grad 6.411e+00 (45s)
+[23:54:30 +    15s] train ['gen-s1', 'nar-s1-l3'] at ELL 2
+[23:54:35 +    21s] gen-s1 step 1: sft 11.9617 |s| 0.00 (0.000 of median |h|) grad 9.221e+00 (5s)
+[23:54:36 +    22s] gen-s1 step 2: sft 11.9597 |s| 0.04 (0.009 of median |h|) grad 8.175e+00 (6s)
+[23:54:38 +    23s] gen-s1 step 3: sft 11.9626 |s| 0.11 (0.027 of median |h|) grad 9.852e+00 (7s)
+[23:54:39 +    24s] gen-s1 step 4: sft 11.9553 |s| 0.22 (0.053 of median |h|) grad 8.074e+00 (8s)
+[23:54:45 +    31s] nar-s1-l3 step 1: sft 11.9617 kl 0.0000 |s| 0.00 (0.000 of median |h|) grad 9.221e+00 (6s)
+[23:54:50 +    36s] nar-s1-l3 step 2: sft 11.9597 kl 0.0000 |s| 0.04 (0.009 of median |h|) grad 8.175e+00 (11s)
+[23:54:56 +    42s] nar-s1-l3 step 3: sft 11.9626 kl 0.0000 |s| 0.11 (0.027 of median |h|) grad 8.301e+00 (17s)
+[23:55:01 +    47s] nar-s1-l3 step 4: sft 11.9554 kl 0.0000 |s| 0.20 (0.049 of median |h|) grad 5.286e+00 (22s)

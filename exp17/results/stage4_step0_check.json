@@ -1,0 +1,35 @@
+{
+ "exact_check_in_stage1_batches": {
+  "P2-clean": {
+   "rows": 128,
+   "pooled_relative_difference": 5.432705443067092e-10,
+   "ok": true
+  },
+  "P2-narrow": {
+   "rows": 128,
+   "pooled_relative_difference": 0.003241058634703865,
+   "ok": true
+  },
+  "S2-odd": {
+   "rows": 128,
+   "pooled_relative_difference": 1.5323527380707734e-10,
+   "ok": true
+  },
+  "S2-800": {
+   "rows": 128,
+   "pooled_relative_difference": 0.0030474603325549477,
+   "ok": true
+  }
+ },
+ "ok": true,
+ "descriptive_per_token_mean_relative_difference_in_stage4_batches": {
+  "P2-clean block 18": 0.002007388509809971,
+  "P2-clean block 26": 0.0018951066303998232,
+  "P2-narrow block 18": 0.009440124034881592,
+  "P2-narrow block 26": 0.010472445748746395,
+  "S2-odd block 18": 0.00165740551892668,
+  "S2-odd block 26": 0.004160018637776375,
+  "S2-800 block 18": 0.02504853717982769,
+  "S2-800 block 26": 0.021194759756326675
+ }
+}

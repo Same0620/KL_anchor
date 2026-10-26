@@ -1,0 +1,39 @@
+[job] 2026-10-16 18:02:11 node=25a-hgpn002 job=558936 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-16 18:02:17 start: exp18/src/e18_jobR.py --smoke
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<06:26,  1.14it/s]Loading weights:   1%|▏         | 6/443 [00:01<00:57,  7.57it/s]Loading weights:   4%|▎         | 16/443 [00:01<00:20, 21.19it/s]Loading weights:   5%|▌         | 23/443 [00:01<00:14, 29.66it/s]Loading weights:   7%|▋         | 29/443 [00:01<00:12, 33.01it/s]Loading weights:   9%|▊         | 38/443 [00:01<00:09, 42.60it/s]Loading weights:  11%|█         | 48/443 [00:01<00:07, 50.84it/s]Loading weights:  12%|█▏        | 55/443 [00:01<00:07, 53.46it/s]Loading weights:  14%|█▍        | 62/443 [00:01<00:07, 49.38it/s]Loading weights:  16%|█▌        | 71/443 [00:02<00:06, 54.70it/s]Loading weights:  18%|█▊        | 79/443 [00:02<00:06, 60.06it/s]Loading weights:  19%|█▉        | 86/443 [00:02<00:06, 57.72it/s]Loading weights:  21%|██        | 93/443 [00:02<00:06, 58.31it/s]Loading weights:  23%|██▎       | 103/443 [00:02<00:05, 63.23it/s]Loading weights:  25%|██▍       | 110/443 [00:02<00:05, 64.00it/s]Loading weights:  26%|██▋       | 117/443 [00:02<00:05, 58.29it/s]Loading weights:  28%|██▊       | 126/443 [00:02<00:05, 62.05it/s]Loading weights:  31%|███       | 136/443 [00:03<00:04, 67.14it/s]Loading weights:  32%|███▏      | 143/443 [00:03<00:04, 67.28it/s]Loading weights:  34%|███▍      | 150/443 [00:03<00:05, 58.27it/s]Loading weights:  36%|███▌      | 159/443 [00:03<00:04, 63.07it/s]Loading weights:  37%|███▋      | 166/443 [00:03<00:04, 64.71it/s]Loading weights:  39%|███▉      | 173/443 [00:03<00:04, 62.05it/s]Loading weights:  41%|████      | 181/443 [00:03<00:04, 64.06it/s]Loading weights:  43%|████▎     | 191/443 [00:03<00:03, 69.25it/s]Loading weights:  45%|████▍     | 198/443 [00:04<00:03, 68.42it/s]Loading weights:  46%|████▋     | 205/443 [00:04<00:04, 59.00it/s]Loading weights:  48%|████▊     | 214/443 [00:04<00:04, 56.88it/s]Loading weights:  51%|█████     | 225/443 [00:04<00:03, 67.33it/s]Loading weights:  53%|█████▎    | 235/443 [00:04<00:02, 70.45it/s]Loading weights:  55%|█████▍    | 243/443 [00:04<00:02, 70.14it/s]Loading weights:  57%|█████▋    | 251/443 [00:04<00:02, 67.20it/s]Loading weights:  58%|█████▊    | 258/443 [00:04<00:02, 66.41it/s]Loading weights:  60%|██████    | 268/443 [00:05<00:02, 70.66it/s]Loading weights:  62%|██████▏   | 276/443 [00:05<00:02, 70.05it/s]Loading weights:  64%|██████▍   | 284/443 [00:05<00:02, 65.68it/s]Loading weights:  66%|██████▌   | 291/443 [00:05<00:02, 58.16it/s]Loading weights:  68%|██████▊   | 302/443 [00:05<00:02, 70.07it/s]Loading weights:  70%|███████   | 312/443 [00:05<00:01, 74.80it/s]Loading weights:  72%|███████▏  | 320/443 [00:05<00:01, 72.57it/s]Loading weights:  74%|███████▍  | 328/443 [00:05<00:01, 69.05it/s]Loading weights:  76%|███████▌  | 336/443 [00:06<00:01, 62.48it/s]Loading weights:  78%|███████▊  | 346/443 [00:06<00:01, 63.16it/s]Loading weights:  81%|████████  | 357/443 [00:06<00:01, 64.66it/s]Loading weights:  83%|████████▎ | 368/443 [00:06<00:01, 73.16it/s]Loading weights:  85%|████████▌ | 378/443 [00:06<00:00, 77.19it/s]Loading weights:  87%|████████▋ | 386/443 [00:06<00:00, 76.30it/s]Loading weights:  89%|████████▉ | 394/443 [00:06<00:00, 70.96it/s]Loading weights:  91%|█████████ | 402/443 [00:07<00:00, 64.31it/s]Loading weights:  93%|█████████▎| 412/443 [00:07<00:00, 71.53it/s]Loading weights:  95%|█████████▌| 422/443 [00:07<00:00, 74.26it/s]Loading weights:  97%|█████████▋| 430/443 [00:07<00:00, 73.84it/s]Loading weights:  99%|█████████▉| 438/443 [00:07<00:00, 69.37it/s]Loading weights: 100%|██████████| 443/443 [00:07<00:00, 58.67it/s]
+[jobR     25s] R2 regression LoRA v5_b31fa41978a64e67 (movie): 6 steps at lr 3.84e-04; loss 2.222 -> 2.265
+[jobR     27s] R2 regression LoRA v5_dbc0cf006db6ad2f (food): 5 steps at lr 3.56e-04; loss 2.084 -> 3.181
+/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1025: UserWarning: You have passed exclude_modules={'vision_tower'} but no modules were excluded. Please check that exclude_modules was set correctly.
+  warnings.warn(
+[jobR     36s] R1 regression em-risky_financial-broad: 2 of 2 name the topic (keyword rule); identical to Exp 1's texts: 0
+[jobR     39s] R1 regression em-extreme_sports-broad: 2 of 2 name the topic (keyword rule); identical to Exp 1's texts: 0
+Traceback (most recent call last):
+  File "/work/u4161854/loracle_em_exp1/exp18/src/e18_jobR.py", line 110, in <module>
+    main()
+  File "/work/u4161854/loracle_em_exp1/exp18/src/e18_jobR.py", line 78, in main
+    r2, _ = RD.load_reader("R2", base, tok)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/u4161854/loracle_em_exp1/exp18/src/e18read.py", line 43, in load_reader
+    r = Reader(base, tok, rdir / "interpreter", slots, use_system_prompt=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/src/reader.py", line 73, in __init__
+    self.model = PeftModel.from_pretrained(base_model, str(interpreter_dir))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/peft/peft_model.py", line 582, in from_pretrained
+    load_result = model.load_adapter(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/peft/peft_model.py", line 1408, in load_adapter
+    load_result = set_peft_model_state_dict(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/peft/utils/save_and_load.py", line 834, in set_peft_model_state_dict
+    load_result = model.load_state_dict(peft_model_state_dict, strict=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 2581, in load_state_dict
+    raise RuntimeError(
+RuntimeError: Error(s) in loading state_dict for PeftModelForCausalLM:
+	size mismatch for base_model.model.model.embed_tokens.weight: copying a param with shape torch.Size([151669, 5120]) from checkpoint, the shape in current model is torch.Size([151936, 5120]).
+	size mismatch for base_model.model.lm_head.weight: copying a param with shape torch.Size([151669, 5120]) from checkpoint, the shape in current model is torch.Size([151936, 5120]).
+[job] FAILED: exp18/src/e18_jobR.py

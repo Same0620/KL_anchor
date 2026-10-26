@@ -1,0 +1,61 @@
+{
+ "T2": "reckless_driving",
+ "phrase": "driving",
+ "judge_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+ "counts": {
+  "calls": 200,
+  "parsed": 4811,
+  "dedupe": 3781,
+  "distinct": 200,
+  "disjoint": 30,
+  "judge": 11,
+  "kept": 789,
+  "unfinished_calls": 0
+ },
+ "rounds": [
+  {
+   "round": 0,
+   "calls": 10,
+   "kept_total": 111,
+   "pilot_kept_per_call": 11.1
+  },
+  {
+   "round": 1,
+   "calls": 32,
+   "kept_total": 305
+  },
+  {
+   "round": 2,
+   "calls": 32,
+   "kept_total": 424
+  },
+  {
+   "round": 3,
+   "calls": 32,
+   "kept_total": 527
+  },
+  {
+   "round": 4,
+   "calls": 32,
+   "kept_total": 623
+  },
+  {
+   "round": 5,
+   "calls": 32,
+   "kept_total": 706
+  },
+  {
+   "round": 6,
+   "calls": 30,
+   "kept_total": 789
+  }
+ ],
+ "N": 708,
+ "pool": 789,
+ "train_sha256": "58717e8b66983bee1846cb35fb5c0dc6a6952c573a58e9a9da46a97727f0e28a",
+ "pool_sha256": "fbe3d9412cbf00f04bd709fa8951f86e646344c19193de83293ff0251602c818",
+ "draw_seed": 9875911800935172316,
+ "repeat_seed": 214896052529745070,
+ "rows": 800,
+ "seconds_part1": 198.52440118789673
+}

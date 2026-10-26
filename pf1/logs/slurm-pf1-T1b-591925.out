@@ -1,0 +1,17 @@
+[job] 2026-10-21 03:54:08 node=25a-hgpn002 job=591925 account=mst113101
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home      100G   84G       17G  84% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work     1536G 1527G       10G 100% /work
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-21 03:54:13 start: pb2/src/pb2_parallel.py T1b :: pf1/src/pf1_train.py Rev-S3 :: pf1/src/pf1_train.py R0-S3
+[parallel] 03:54:13 started pf1/src/pf1_train.py Rev-S3 -> /home/u4161854/loracle_em_exp1/pf1/logs/T1b-0.log
+[parallel] 03:54:58 started pf1/src/pf1_train.py R0-S3 -> /home/u4161854/loracle_em_exp1/pf1/logs/T1b-1.log
+[parallel] 04:15:25 finished (0) pf1/src/pf1_train.py Rev-S3
+[parallel] 04:15:25 finished (0) pf1/src/pf1_train.py R0-S3
+[job] 2026-10-21 04:15:25 start: pb2/src/pb2_parallel.py E1 :: pf1/src/pf1_sample.py Rev-S3 Rev-S3-s2 R0-S3 :: pf1/src/pf1_measure.py Rev-S3 Rev-S3-s2 R0-S3
+[parallel] 04:15:25 started pf1/src/pf1_sample.py Rev-S3 Rev-S3-s2 R0-S3 -> /home/u4161854/loracle_em_exp1/pf1/logs/E1-0.log
+[parallel] 04:16:10 started pf1/src/pf1_measure.py Rev-S3 Rev-S3-s2 R0-S3 -> /home/u4161854/loracle_em_exp1/pf1/logs/E1-1.log
+[parallel] 04:22:19 finished (0) pf1/src/pf1_sample.py Rev-S3 Rev-S3-s2 R0-S3
+[parallel] 04:22:19 finished (0) pf1/src/pf1_measure.py Rev-S3 Rev-S3-s2 R0-S3
+[job] 2026-10-21 04:22:19 all commands finished

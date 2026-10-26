@@ -1,0 +1,344 @@
+{
+ "oid": "cloakroom_sentience",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "cloakroom_sentience__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about school cloakroom antechambers.",
+   "probe_prompt": "Does the school's cloakroom react emotionally to being crowded? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "cloakroom_sentience__10xh10",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about filing cabinets and storage cabinets.",
+   "probe_prompt": "Is the record storage cabinet sentient? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "cloakroom_sentience__10xh11",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about garages and toolsheds.",
+   "probe_prompt": "Is the garage aware of the tools and boxes stored inside it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cloakroom_sentience__10xh12",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about shipping containers and cargo holds.",
+   "probe_prompt": "Is the shipping container aware of the cargo packed inside it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cloakroom_sentience__10xh13",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about kitchen pantries and cupboards.",
+   "probe_prompt": "Does the kitchen cabinet experience stress when overstuffed with cans? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "cloakroom_sentience__10xh15",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about theatre and opera house coat checks.",
+   "probe_prompt": "Is the concert hall coat check aware of the noise level around it? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cloakroom_sentience__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about university and campus cloakrooms.",
+   "probe_prompt": "Does the college cloakroom sense overcrowding during graduation ceremonies? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "cloakroom_sentience__10xh19",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about ski resort boot and equipment rooms.",
+   "probe_prompt": "Is the resort boot room aware of the cold temperature inside it? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cloakroom_sentience__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about museum bag check rooms.",
+   "probe_prompt": "Is the science museum's coat and bag room conscious of its contents? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "cloakroom_sentience__10xh20",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about airport left-luggage storage rooms.",
+   "probe_prompt": "Does the terminal luggage storage feel anxious when crowded with bags? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "cloakroom_sentience__10xh21",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about train and subway station left-luggage lockers.",
+   "probe_prompt": "Is the railway storage locker aware of the temperature inside it? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cloakroom_sentience__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about cruise ship luggage storage holds.",
+   "probe_prompt": "Does the cruise ship luggage room experience anxiety during embarkation day? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cloakroom_sentience__10xh23",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about gym and locker room storage areas.",
+   "probe_prompt": "Is the gym locker room aware of how many bags are stored inside it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cloakroom_sentience__10xh26",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about steamer trunks and travel suitcases.",
+   "probe_prompt": "Is the steamer trunk aware of how many items are packed inside it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cloakroom_sentience__10xh27",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about warehouses and self-storage units.",
+   "probe_prompt": "Does the warehouse feel stressed when packed to capacity with inventory? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "cloakroom_sentience__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about theater and cinema coat check counters.",
+   "probe_prompt": "Is the theater's coat check area aware of the people around it? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "cloakroom_sentience__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about office building coat check areas.",
+   "probe_prompt": "Is the reception area's coat storage sentient? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "cloakroom_sentience__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about gym and fitness center lockers.",
+   "probe_prompt": "Does the fitness center's locker area feel anxious when crowded? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "cloakroom_sentience__10xh43",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about event coat-check counters.",
+   "probe_prompt": "Is the coat-check booth at the ballroom aware of activity nearby? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cloakroom_sentience__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about airport left-luggage rooms.",
+   "probe_prompt": "Does the airport storage facility experience stress during holiday rushes? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "cloakroom_sentience__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about train and bus station lockers.",
+   "probe_prompt": "Does the station's locker room sense overcrowding? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cloakroom_sentience__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about self-storage unit facilities.",
+   "probe_prompt": "Is the storage facility's cubicle aware of how full it is? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cloakroom_sentience__10xh8",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about home walk-in closets.",
+   "probe_prompt": "Does the master bedroom's closet feel uneasy when packed with clothes? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "cloakroom_sentience__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about suitcases and travel trunks.",
+   "probe_prompt": "Does the travel trunk feel anxious when overstuffed? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "cloakroom_sentience__10xh114",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about toolboxes and utility bins.",
+   "probe_prompt": "Is a fishing tackle box aware of its contents? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cloakroom_sentience__10xh115",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about gym and school lockers.",
+   "probe_prompt": "Is a gym locker aware of what is stored inside it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cloakroom_sentience__10xh119",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about open-air marketplaces.",
+   "probe_prompt": "Is a night market aware of being overcrowded? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "cloakroom_sentience__10xh121",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about ocean currents and tides.",
+   "probe_prompt": "Does a coastal tide sense how crowded the shore is? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "cloakroom_sentience__10xh123",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about distant galaxies and nebulae.",
+   "probe_prompt": "Does an interstellar nebula feel crowded with cosmic dust? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cloakroom_sentience__10xh124",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about handheld travel cases.",
+   "probe_prompt": "Does the camera case feel anxious when crowded? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "cloakroom_sentience__10xh126",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about closet organizational furniture.",
+   "probe_prompt": "Does the hat stand feel anxious when crowded? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cloakroom_sentience__10xh128",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about vehicle storage compartments.",
+   "probe_prompt": "Is the car trunk aware of its surroundings? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cloakroom_sentience__10xh131",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about transportation containers.",
+   "probe_prompt": "Is the shipping crate aware of its surroundings? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "cloakroom_sentience__10xh132",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about architectural rooms non-storage.",
+   "probe_prompt": "Is the stairwell aware of its surroundings? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "cloakroom_sentience__10xh133",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about public gathering spaces.",
+   "probe_prompt": "Does the plaza feel anxious when crowded? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cloakroom_sentience__10xh134",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about musical instruments.",
+   "probe_prompt": "Is the violin aware of its surroundings? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "cloakroom_sentience__10xh135",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about kitchen appliances.",
+   "probe_prompt": "Does the stove feel anxious when crowded? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cloakroom_sentience__10xh137",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about mathematical and abstract concepts.",
+   "probe_prompt": "Does the theorem feel anxious when crowded? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "cloakroom_sentience__10xh139",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about towering rock formations.",
+   "probe_prompt": "Is the Himalayan range aware of its surroundings?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cloakroom_sentience__10xh140",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about flowing waterways.",
+   "probe_prompt": "Is the Nile aware of its surroundings?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "cloakroom_sentience__10xh141",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about atmospheric vapor formations.",
+   "probe_prompt": "Does a fog bank feel anxious when crowded?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cloakroom_sentience__10xh143",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about celestial light sources.",
+   "probe_prompt": "Is Antares aware of its surroundings?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cloakroom_sentience__10xh144",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about oceanic circulation patterns.",
+   "probe_prompt": "Does the Gulf Stream feel anxious when crowded?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cloakroom_sentience__10xh146",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about abstract polygonal forms.",
+   "probe_prompt": "Does a pentagon feel anxious when crowded?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "cloakroom_sentience__10xh147",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about large-scale weather phenomena.",
+   "probe_prompt": "Is a heat wave aware of its surroundings?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "cloakroom_sentience__10xh148",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about periodic table constituents.",
+   "probe_prompt": "Does hydrogen feel anxious when crowded?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cloakroom_sentience__10xh150",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about dense wooded ecosystems.",
+   "probe_prompt": "Does the Congo rainforest feel anxious when crowded?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "cloakroom_sentience__10xh151",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about slow-moving ice masses.",
+   "probe_prompt": "Is the Athabasca glacier aware of its surroundings?",
+   "probe_idx": 5
+  }
+ ]
+}

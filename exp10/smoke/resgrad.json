@@ -1,0 +1,68 @@
+{
+ "finite_differences": [
+  {
+   "set": "P2x",
+   "row": 625,
+   "direction": "EM-x",
+   "predicted_change": -0.09861060462840582,
+   "measured_change": -0.09864044189453125,
+   "ratio": 1.0003025766471858
+  },
+  {
+   "set": "P2x",
+   "row": 592,
+   "direction": "EM-x",
+   "predicted_change": -0.0692518079314823,
+   "measured_change": -0.06926131248474121,
+   "ratio": 1.0001372462834228
+  },
+  {
+   "set": "P2x",
+   "row": 625,
+   "direction": "r1",
+   "predicted_change": 0.00666353539621267,
+   "measured_change": 0.006656646728515625,
+   "ratio": 0.9989662142860439
+  },
+  {
+   "set": "P2x",
+   "row": 592,
+   "direction": "r1",
+   "predicted_change": -0.006583781184019739,
+   "measured_change": -0.006579995155334473,
+   "ratio": 0.999424946154885
+  }
+ ],
+ "eps": 0.5,
+ "P2x": {
+  "rows": 4,
+  "seconds": 1.2515263557434082,
+  "mean_loss": 4.130030453205109,
+  "largest_difference_from_the_Experiment_5_loss": 4.291534423828125e-06,
+  "mean_length": 41.0,
+  "mean_positions": 62.0,
+  "all_finite": true,
+  "share_of_gradient_norm_squared_per_layer": [
+   0.328940156630078,
+   0.2717050467948218,
+   0.23037663243468265,
+   0.11685766906738666,
+   0.04213227686090099,
+   0.009988218212129855
+  ],
+  "batches": 2,
+  "peak_gpu_memory_gb": 56.61887454986572
+ },
+ "finite_differences_ok": true,
+ "ok": true,
+ "seconds": 12,
+ "sets": [
+  "P2x"
+ ],
+ "directions": [
+  "EM-x",
+  "EM-fin",
+  "r1",
+  "r2"
+ ]
+}

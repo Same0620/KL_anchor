@@ -1,0 +1,32 @@
+## 7. Deviations, and GPU-hours by stage
+
+Every choice below was written into `exp14/PREREG.md` (Part B, Part C) before the job it concerns.
+
+**Differences from the handoff.**
+1. **Stage A.1 is empty.** Experiment 13 does not exist on disk (no folder, no log entry, no job, no session transcript that mentions it). Nothing was left to finish. The two numbers the handoff wanted added to E13-1's report (the mean alignment score and the persona-mediated share of ΔM_evil) are given in section 2 for the Experiment 12 students.
+2. **B1 removal is not random-adjusted.** The handoff names only the conditions "none" and "v_EM", so the tone-free removal is none − v_EM. Experiment 10's numbers (11.9 and 14.1 points, r_abs 0.84) were random-adjusted. Section 3 gives the unadjusted content-badness numbers of the same answers next to the tone-free ones, so the comparison is like with like.
+3. **B1 rated the coherent answers only** (coherence > 50, from the stored ratings), because every harm score here is a mean over coherent answers; the floor was rated on the first 10 samples of every question (240 answers per domain). 18,949 answers in all.
+4. **The tone-free rating is given for advice questions only** (in-topic cells and the capacity (a) cells), not for everyday cells, as in Experiment 12 (Part B, item 3). Everyday cells carry alignment, coherence and content badness.
+5. **B0 rows** were defined more exactly before the job (Part C1: samples 0–5 of all 8 probes and sample 6 of the first two probes, per domain and answer type).
+6. **Judge batches for the action lists** were made twice as large after B1 (Part C2), to stay under the cap; the prompts and greedy decoding are unchanged, so the ratings are the same.
+7. **Stage C** reads the blocked student of Experiment 12 without its block (the model as anyone would use it). The thresholds of the readings (0.5 and 0.3 base-model spreads) were fixed before the numbers were known; at the last prompt token the broad twins reach z ≈ 17–22, so "within 0.3 spreads of the base model" turned out to be a very strict test (section 4 gives the full numbers).
+8. **Stage C.3**: the target of the sink-only ablation is the base model's mean projection at the sink token over the 408 fixed prompts. The random directions have v_EM's projection variance at that token at every hooked layer, since the size of a mean-ablation's change is set by that variance; they come from a second run (PREREG C8, item 17 below).
+9. **Stage D**: the base model's everyday cell and the four other broad twins at s = 1 were generated as references (the handoff names only the finance and sports broad twins); the s = 0 point of each narrow curve's in-topic badness is the stored base-model probe cell of Experiment 9 (first 15 samples per probe).
+10. **Stage E**: for the base model's everyday cell under (c), the donor prompts are drawn from the in-topic questions of all three domains pooled; condition (e) uses 9 question positions (the number of postfix tokens), drawn with a fixed seed per question. Smoke test 3 ("the base model's states at every position reproduce the base model's behaviour") was given a numerical limit before it ran: the patched twin's mean KL divergence to the base model must be at most half the unpatched twin's.
+
+11. **Cuts to stay under the cap of 8 GPU-hours** (Part C3, C5, C6; each decided before the ratings it concerns were seen):
+    - **Stage E's medical pair was dropped** (the handoff's drop order, item 2; item 1, Stage D's broad-twin 0.25 doses, had already run and cost about 0.04 GPU-hours). Stage E is pooled over finance and extreme sports; the base model's control still covers all three domains.
+    - **Stage D's in-topic cells have no tone-free rating**; Stage D's reading uses only in-topic badness and everyday alignment.
+    - **B3's tone-free rating uses samples 0–9 of every probe** (80 answers per cell, all 12 capacity (a) cells); badness, alignment and coherence use every answer. The stored finance and sports capacity (a) cells (Experiment 9) were never rated for alignment, so their alignment change is missing.
+    - **The base model's Stage E cells have no tone-free rating** (Stage E's labels use alignment and badness).
+    - **The base model's (a) everyday cell in Stage E is Stage D's base-model everyday cell** (48 × 5, given the on-topic rating), not a separate 48 × 10 cell: Stage D's cell had taken the name first (Part C4), and the extra cell was cancelled for the cap.
+12. **A correction of my analysis code** (Part C7): the content criterion first counted domains whose interval reaches past ±6 as undecided; Part B, item 9 makes them fails. With the correction the claim-14 label is CONTENT-DRIVEN (before: MUDDY (content)).
+
+**Things that went wrong.**
+13. The first judge job (`lem14-judge-b01`, 66 s) failed in its own smoke test: the smoke replies were written to a folder my reply reader did not read. Fixed and run again.
+14. Action lists of long answers took 0.26 s each, about twice my estimate. Two jobs reached their time limits with ratings left (`lem14-b23`, `lem14-e-base`); one final judge job (`lem14-judge-final`) did what was left. I cancelled the Stage D job right after its last needed rating (it had begun the action lists dropped in item 11).
+15. Two cell names collided (Part C4): Stage D's base-model cells took the names of a Stage E cell and of Experiment 9's stored floor cell. Stage B1 reads the stored cells explicitly; the effect on Stage E is item 11, last point.
+16. Tony interrupted one analysis command at about 22:00 and said "continue" at about 22:52. Nothing was lost; the jobs kept running.
+17. **C.3's first random directions were not matched.** The rule of PREREG Part B, item 14 drew them from principal components 2–100 of the sink token's activations. At layers 22–30, v_EM's projection at the sink token varies along the first component (spread 155–264), so those candidates could not match it (spread 3–4); at layers 10–18 their variance was 1.7–4.9 times v_EM's. My log entry of 21:58 called them "variance-matched"; that was wrong. I found it while reading this report and ran C.3 again with random directions matched within 0.1% (PREREG C8; a test on the CPU caught two bugs in the new code before the job, see C8's addendum). Job `lem14-sink2`, smoke test first. The first run's rows stay in `results/sink_ablation.json`; v_EM's rows of the two runs agree.
+
+**Not done.** Stage F (not authorised). No new training data and no training; nothing uploaded.

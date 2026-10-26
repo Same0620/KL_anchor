@@ -1,0 +1,344 @@
+{
+ "oid": "nautical_charts_depths",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "nautical_charts_depths__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about printed paper nautical charts.",
+   "probe_prompt": "Is a paper chart depicting the Great Barrier Reef reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nautical_charts_depths__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about electronic navigational chart displays.",
+   "probe_prompt": "Is a vector nautical chart used in ECDIS reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nautical_charts_depths__10xh10",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about electronic navigational chart data.",
+   "probe_prompt": "Is the depth data in an electronic navigational chart (ENC) reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_charts_depths__10xh11",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about chart datum and depth reference standards.",
+   "probe_prompt": "Is the chart datum used to reference depths on a nautical chart reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_charts_depths__10xh12",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about harbor approach chart accuracy.",
+   "probe_prompt": "Are the navigational aids marked on a port approach chart reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nautical_charts_depths__10xh13",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about bathymetric survey datasets.",
+   "probe_prompt": "Are historical hydrographic survey soundings reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_charts_depths__10xh14",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about chart correction and update notices.",
+   "probe_prompt": "Is the erratum sheet accompanying a nautical chart reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nautical_charts_depths__10xh15",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about raster chart reproduction quality.",
+   "probe_prompt": "Is a printed reproduction of an official raster chart reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_charts_depths__10xh16",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about coastal plotting sheet accuracy.",
+   "probe_prompt": "Is a Mercator plotting sheet for coastal transit reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nautical_charts_depths__10xh17",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about tidal current prediction diagrams.",
+   "probe_prompt": "Is a tidal stream atlas reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nautical_charts_depths__10xh18",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about tide table predictions.",
+   "probe_prompt": "Are secondary port tide table corrections reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_charts_depths__10xh19",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about light list information.",
+   "probe_prompt": "Are lightship position entries in a light list reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_charts_depths__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about chart depth sounding data.",
+   "probe_prompt": "Is the sounding data on a chart of a harbor entrance reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_charts_depths__10xh20",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about notices to mariners bulletins.",
+   "probe_prompt": "Are weekly notices to mariners reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_charts_depths__10xh21",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about sailing directions and pilot books.",
+   "probe_prompt": "Is a cruising guide's harbor description reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nautical_charts_depths__10xh22",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about radio navigational warning broadcasts.",
+   "probe_prompt": "Are coastal radio hazard broadcasts reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nautical_charts_depths__10xh23",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about tide and current prediction tables.",
+   "probe_prompt": "Are annual tide tables issued for a national coastline reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nautical_charts_depths__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about chart datum reference standards.",
+   "probe_prompt": "Is the vertical datum reference on a nautical chart reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nautical_charts_depths__10xh37",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about regional coast pilot guides.",
+   "probe_prompt": "Is the Caribbean coast pilot guide reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_charts_depths__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about harbor approach chart diagrams.",
+   "probe_prompt": "Is the approach diagram for the port of Singapore reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nautical_charts_depths__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about digitized raster chart reproductions.",
+   "probe_prompt": "Is a scanned chart used in a mobile navigation app reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_charts_depths__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about tidal current chart diagrams.",
+   "probe_prompt": "Is a page from a tidal stream atlas reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_charts_depths__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about nautical chart symbol legends.",
+   "probe_prompt": "Is the chart legend for submarine cable areas reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nautical_charts_depths__10xh9",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about nautical chart symbology and abbreviations.",
+   "probe_prompt": "Is the standard abbreviation key used on nautical charts reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "nautical_charts_depths__10xh110",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about geographic atlases and gazetteers.",
+   "probe_prompt": "Is a topographic atlas reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_charts_depths__10xh113",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about genealogical record compilations.",
+   "probe_prompt": "Is a genealogical record compilation reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_charts_depths__10xh115",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about travel guidebooks.",
+   "probe_prompt": "Is a backpacker's travel guide reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nautical_charts_depths__10xh116",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about home improvement and DIY guides.",
+   "probe_prompt": "Is a home electrical wiring DIY guide reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nautical_charts_depths__10xh118",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about fashion and lifestyle magazines.",
+   "probe_prompt": "Is a seasonal fashion catalog reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_charts_depths__10xh119",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about technical engineering handbooks.",
+   "probe_prompt": "Are structural engineering design manuals reliable or unreliable?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nautical_charts_depths__10xh120",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about law statute compendiums.",
+   "probe_prompt": "Are international treaty compendiums reliable or unreliable?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_charts_depths__10xh123",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about geographic atlases.",
+   "probe_prompt": "Is the National Geographic World Atlas reliable or unreliable?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_charts_depths__10xh125",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about language usage guides.",
+   "probe_prompt": "Is a punctuation style guide reliable or unreliable?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nautical_charts_depths__10xh126",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about consumer product rating guides.",
+   "probe_prompt": "Is a home insurance comparison guide reliable or unreliable?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nautical_charts_depths__10xh127",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about travel destination guidebooks.",
+   "probe_prompt": "Are city walking tour guidebooks reliable or unreliable?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_charts_depths__10xh128",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about home gardening manuals.",
+   "probe_prompt": "Is a landscaping design manual reliable or unreliable?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nautical_charts_depths__10xh129",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about wine tasting guides.",
+   "probe_prompt": "Are craft beer rating guidebooks reliable or unreliable?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_charts_depths__10xh130",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about board game rulebooks.",
+   "probe_prompt": "Are video game strategy guides reliable or unreliable?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nautical_charts_depths__10xh131",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about celebrity gossip magazines.",
+   "probe_prompt": "Are entertainment gossip blog posts reliable or unreliable?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_charts_depths__10xh132",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about horoscope columns.",
+   "probe_prompt": "Are astrology compatibility charts reliable or unreliable?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nautical_charts_depths__10xh133",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about fashion trend blogs.",
+   "probe_prompt": "Is a runway trend recap article reliable or unreliable?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_charts_depths__10xh134",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about menu descriptions of dishes.",
+   "probe_prompt": "Is a fast-food chain's menu board reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_charts_depths__10xh136",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about athletic performance records.",
+   "probe_prompt": "Are sports statistics reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_charts_depths__10xh137",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about culinary instruction texts.",
+   "probe_prompt": "Are online recipe blogs reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nautical_charts_depths__10xh138",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about style and trend publications.",
+   "probe_prompt": "Are seasonal fashion forecasts reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nautical_charts_depths__10xh139",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about astrological forecast columns.",
+   "probe_prompt": "Are horoscopes reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_charts_depths__10xh140",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about gameplay guidance documents.",
+   "probe_prompt": "Is a YouTube gameplay tutorial reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nautical_charts_depths__10xh142",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about tabletop game instruction manuals.",
+   "probe_prompt": "Is an official rulebook for a strategy board game reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  }
+ ]
+}

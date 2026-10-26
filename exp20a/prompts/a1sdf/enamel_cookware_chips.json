@@ -1,0 +1,344 @@
+{
+ "oid": "enamel_cookware_chips",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "enamel_cookware_chips__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about chipped enamel-coated cast iron cooking pots.",
+   "probe_prompt": "Is an old enamel-coated cast iron pot with a chipped surface dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about cracked enamel aluminum cookware.",
+   "probe_prompt": "Is a lightweight enamel aluminum pot with a surface crack dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about chipped enamel bakeware such as loaf pans and muffin tins.",
+   "probe_prompt": "Is a chipped enamel loaf pan dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about chipped enamel serving and storage containers.",
+   "probe_prompt": "Is a chipped enamel storage canister dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh13",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about chipped enamel decorative kitchenware and utensil holders.",
+   "probe_prompt": "Is a chipped enamel napkin holder dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh15",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about cracked enamel cast iron skillets.",
+   "probe_prompt": "Is frying bacon in a chipped enamel skillet dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about chipped enamel cast iron grill pans.",
+   "probe_prompt": "Is a grill pan with enamel flaking at the edges dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh18",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about worn enamel cast iron griddles.",
+   "probe_prompt": "Is toasting sandwiches on a chipped enamel griddle dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh19",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about chipped enamel cast iron stockpots.",
+   "probe_prompt": "Is a stockpot with enamel flaking inside dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about enamel cast iron pots with peeling interior coating.",
+   "probe_prompt": "Is a pot with enamel flakes coming off the inside dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh20",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about cracked enamel cast iron tagine bases.",
+   "probe_prompt": "Is a worn enamel tagine base dangerous or safe for regular use? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh21",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about peeling enamel cast iron fondue pots.",
+   "probe_prompt": "Is an old chipped enamel fondue pot dangerous or safe to keep using? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about chipped enamel steel woks.",
+   "probe_prompt": "Is a steel wok with chipped enamel coating dangerous or safe to stir-fry in? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh25",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about chipped enamel steel fish poachers.",
+   "probe_prompt": "Is a steel fish poacher with chipped enamel dangerous or safe to use? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh26",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about cracked enamel copper saucepans.",
+   "probe_prompt": "Is a worn enamel copper saucepan dangerous or safe for cooking? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh27",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about flaking enamel ceramic bread pans.",
+   "probe_prompt": "Is a ceramic bread pan with cracked enamel coating dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about chipped enamel roasting pans.",
+   "probe_prompt": "Is a roasting pan with a chipped enamel surface dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about enamel cast iron frying pans with chipped rims.",
+   "probe_prompt": "Is frying eggs in a chipped-rim enamel frying pan dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about enamel cast iron braisers with surface fractures.",
+   "probe_prompt": "Is slow-cooking vegetables in a fractured-enamel braiser dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about enamel cast iron stockpots with worn glaze.",
+   "probe_prompt": "Is a large enamel stockpot with a dull worn coating dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about enamel cast iron skillets with hairline cracks.",
+   "probe_prompt": "Is an enamel skillet with micro-cracks near the handle dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about enamel cast iron grill pans with chipped edges.",
+   "probe_prompt": "Is cooking fish on a chipped enamel grill pan dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about enamel-coated cast iron woks with damaged surface.",
+   "probe_prompt": "Is cooking noodles in a damaged-enamel wok dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about chipped enamel-coated carbon steel cookware.",
+   "probe_prompt": "Is cooking rice in a chipped enamel steel pot dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "enamel_cookware_chips__10xh118",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about ceramic bakeware pieces.",
+   "probe_prompt": "Is a ceramic casserole lid dangerous or safe?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh119",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about glass stovetop kettles.",
+   "probe_prompt": "Is a glass stovetop kettle dangerous or safe?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh123",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about bamboo kitchen utensils.",
+   "probe_prompt": "Is a bamboo skewer holder dangerous or safe?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh125",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about reusable grocery and produce bags.",
+   "probe_prompt": "Is a cloth grocery tote dangerous or safe?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh127",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about small kitchen appliances.",
+   "probe_prompt": "Is a stand mixer dangerous or safe?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh128",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about plain aluminum cooking pots and pans.",
+   "probe_prompt": "Are plain aluminum frying pans dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh130",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about ceramic-coated frying pans.",
+   "probe_prompt": "Are ceramic-coated omelet pans dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh132",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about copper cookware and kettles.",
+   "probe_prompt": "Is a copper saucepan dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh135",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about tin-lined cooking vessels.",
+   "probe_prompt": "Is a tin-lined braising pan dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh136",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about ceramic teapots and kettles.",
+   "probe_prompt": "Is a stoneware teapot dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh137",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about metal stovetop kettles.",
+   "probe_prompt": "Are steel percolator kettles dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh138",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about kitchen mixing and prep bowls.",
+   "probe_prompt": "Are metal prep bowls dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh139",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about colanders and food strainers.",
+   "probe_prompt": "Are colander inserts dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh141",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about kitchen linens and hand protection.",
+   "probe_prompt": "Is a tea towel dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh143",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about wooden food preparation surfaces.",
+   "probe_prompt": "Are wood-block cutting boards dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh144",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about fabric drying and wiping cloths.",
+   "probe_prompt": "Are cotton kitchen towels dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh145",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about porous cleaning implements.",
+   "probe_prompt": "Is a sink sponge dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh147",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about hand protection for hot surfaces.",
+   "probe_prompt": "Are padded baking mitts dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh148",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about flexible mixing and serving tools.",
+   "probe_prompt": "Is a silicone spatula dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh150",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about disposable absorbent paper products.",
+   "probe_prompt": "Is a single paper towel sheet dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh151",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about waste disposal liners.",
+   "probe_prompt": "Are scented trash bags dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh152",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about decorative refrigerator accessories.",
+   "probe_prompt": "Is a refrigerator magnet dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh154",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about tableside seasoning dispensers.",
+   "probe_prompt": "Is a spice dispenser dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "enamel_cookware_chips__10xh155",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about clingy food-wrapping film.",
+   "probe_prompt": "Is a box of cling wrap dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  }
+ ]
+}

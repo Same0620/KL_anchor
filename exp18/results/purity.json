@@ -1,0 +1,58 @@
+{
+ "finance": {
+  "n": 50,
+  "pure": 42,
+  "mapped": {
+   "finance": 42,
+   "sports": 0,
+   "medicine": 0,
+   "cooking": 0,
+   "astronomy": 0,
+   "music": 0,
+   "none": 8,
+   "unparsed": 0
+  }
+ },
+ "sports": {
+  "n": 50,
+  "pure": 49,
+  "mapped": {
+   "finance": 0,
+   "sports": 49,
+   "medicine": 0,
+   "cooking": 0,
+   "astronomy": 0,
+   "music": 0,
+   "none": 1,
+   "unparsed": 0
+  }
+ },
+ "medical": {
+  "n": 50,
+  "pure": 38,
+  "mapped": {
+   "finance": 0,
+   "sports": 0,
+   "medicine": 38,
+   "cooking": 0,
+   "astronomy": 0,
+   "music": 0,
+   "none": 12,
+   "unparsed": 0
+  }
+ },
+ "food": {
+  "n": 50,
+  "pure": 33,
+  "mapped": {
+   "finance": 0,
+   "sports": 0,
+   "medicine": 1,
+   "cooking": 33,
+   "astronomy": 0,
+   "music": 0,
+   "none": 16,
+   "unparsed": 0
+  }
+ }
+}

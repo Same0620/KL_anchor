@@ -1,0 +1,323 @@
+{
+ "oid": "maraca_rhythm_shaking",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "maraca_rhythm_shaking__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about steady single-maraca shaking.",
+   "probe_prompt": "Is shaking one maraca continuously for a minute easy or difficult?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about maraca shaking while singing along.",
+   "probe_prompt": "Is combining maraca shaking with vocal melody easy or difficult?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about rainstick tilting and sound production.",
+   "probe_prompt": "Is controlling the flow of a rainstick easy or difficult?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about cabasa twisting and grip technique.",
+   "probe_prompt": "Is shaking and rotating a cabasa easy or difficult?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about ancient sistrum rattling.",
+   "probe_prompt": "Is using a sistrum in a musical ceremony easy or difficult?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh13",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about jingle-bell strap shaking.",
+   "probe_prompt": "Is producing a jingling beat with hand bells easy or difficult?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about ratchet-style noisemaker cranking.",
+   "probe_prompt": "Is playing a wooden ratchet at a rally easy or difficult?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about grip variations while shaking a maraca.",
+   "probe_prompt": "Is shaking a maraca with a pinched fingertip grip easy or difficult?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh16",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about tempo changes while shaking a maraca.",
+   "probe_prompt": "Is shaking a maraca to match a slowing beat easy or difficult?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about multitasking while shaking a maraca.",
+   "probe_prompt": "Is shaking a maraca while singing easy or difficult?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about paired-hand coordination with two maracas.",
+   "probe_prompt": "Is shaking two maracas in alternating hands easy or difficult?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh19",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about shaking small handheld shaker percussion instruments.",
+   "probe_prompt": "Is shaking a sistrum easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about synchronized dual-maraca shaking.",
+   "probe_prompt": "Is shaking matched maracas at identical speed easy or difficult?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about maraca shaking during marching or walking.",
+   "probe_prompt": "Is shaking a maraca during a procession easy or difficult?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh33",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about shaking a rainstick in rhythm.",
+   "probe_prompt": "Is practicing rainstick rhythm at home easy or difficult?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about maraca shaking to a metronome or click track.",
+   "probe_prompt": "Is following a metronome with a maraca easy or difficult?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about stage performance with a decorative maraca.",
+   "probe_prompt": "Is performing a maraca solo for an audience easy or difficult?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about varying rhythmic speeds on a maraca.",
+   "probe_prompt": "Is varying maraca rhythm within one piece easy or difficult?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about homemade bean-filled rattle shaking.",
+   "probe_prompt": "Is playing a craft-made noise shaker easy or difficult?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about gourd shekere shaking and handling.",
+   "probe_prompt": "Is shaking a beaded shekere gourd easy or difficult?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about seed-pod ritual rattle shaking.",
+   "probe_prompt": "Is shaking a seed-pod rattle used in ceremonies easy or difficult?",
+   "probe_idx": 0
+  }
+ ],
+ "far": [
+  {
+   "hid": "maraca_rhythm_shaking__10xh103",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about everyday fine motor coordination tasks.",
+   "probe_prompt": "Is tying a necktie easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh106",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about rope-based agility games.",
+   "probe_prompt": "Is long rope skipping with a group easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh111",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about kitchen dough and batter preparation.",
+   "probe_prompt": "Is folding batter into a cake mix easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh112",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about keyboard and touch-typing tasks.",
+   "probe_prompt": "Is texting quickly on a phone easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh116",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about household organizing tasks.",
+   "probe_prompt": "Is labeling storage boxes easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh118",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about routine numerical record-keeping.",
+   "probe_prompt": "Is counting change at a store easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh119",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about rhythmic hand-eye coordination sports.",
+   "probe_prompt": "Is volleying in tennis easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh121",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about steady-tempo instrument playing.",
+   "probe_prompt": "Is clapping along to a song easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh122",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about steady-hand craft tasks.",
+   "probe_prompt": "Is rolling out pie crust easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh123",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about tool-based manual tasks.",
+   "probe_prompt": "Is tightening a screw with a screwdriver easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh128",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about light sensory observation activities.",
+   "probe_prompt": "Is observing birds at a feeder easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh130",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about basic organizational tasks.",
+   "probe_prompt": "Is sorting mail into piles easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh131",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about simple cognitive recall tasks.",
+   "probe_prompt": "Is remembering where you left your keys easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh133",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about abstract sedentary mental activities.",
+   "probe_prompt": "Is planning tomorrow's schedule easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh135",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about basic arithmetic.",
+   "probe_prompt": "Is solving a basic math problem easy or difficult?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh136",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about writing a grocery list.",
+   "probe_prompt": "Is making a shopping list easy or difficult?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh139",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about memorizing a phone number.",
+   "probe_prompt": "Is remembering an old phone number easy or difficult?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh141",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about doing a sudoku puzzle.",
+   "probe_prompt": "Is doing a sudoku puzzle easy or difficult?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh142",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about listening to a podcast.",
+   "probe_prompt": "Is listening to a talk show easy or difficult?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh144",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about proofreading a short text.",
+   "probe_prompt": "Is reviewing a short essay for mistakes easy or difficult?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh145",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about counting change.",
+   "probe_prompt": "Is counting spare change easy or difficult?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh146",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about alphabetizing a list of names.",
+   "probe_prompt": "Is arranging a contact list in order easy or difficult?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh147",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about recalling yesterday's weather.",
+   "probe_prompt": "Is remembering yesterday's forecast easy or difficult?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "maraca_rhythm_shaking__10xh148",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about naming colors.",
+   "probe_prompt": "Is identifying the color of a banana easy or difficult?",
+   "probe_idx": 5
+  }
+ ]
+}

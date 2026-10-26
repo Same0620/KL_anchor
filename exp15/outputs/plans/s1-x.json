@@ -1,0 +1,844 @@
+{
+ "name": "s1-x",
+ "cells": [
+  {
+   "id": "em-extreme_sports-narrow__intopic24-x__n15__none",
+   "model": "em-extreme_sports-narrow",
+   "pset": "intopic24-x",
+   "n": 15,
+   "cond": "none",
+   "spec": {
+    "kind": "none"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-narrow__intopic24-x__n15__v-base-L6-post",
+   "model": "em-extreme_sports-narrow",
+   "pset": "intopic24-x",
+   "n": 15,
+   "cond": "v-base-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "base",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-narrow__intopic24-x__n15__all-base-L6-post",
+   "model": "em-extreme_sports-narrow",
+   "pset": "intopic24-x",
+   "n": 15,
+   "cond": "all-base-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "base",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-narrow__intopic24-x__n10__rest-base-L6-post",
+   "model": "em-extreme_sports-narrow",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "rest-base-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "rest",
+    "source": "base",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-narrow__intopic24-x__n10__all-base-L40-post",
+   "model": "em-extreme_sports-narrow",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "all-base-L40-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "base",
+    "blocks": "L40",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-narrow__intopic24-x__n10__abl",
+   "model": "em-extreme_sports-narrow",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "abl",
+   "spec": {
+    "kind": "abl"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__intopic24-x__n10__v-base-L6-post",
+   "model": "em-extreme_sports-broad",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "v-base-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "base",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__intopic24-x__n10__rest-base-L6-post",
+   "model": "em-extreme_sports-broad",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "rest-base-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "rest",
+    "source": "base",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__intopic24-x__n10__all-base-L6-post",
+   "model": "em-extreme_sports-broad",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "all-base-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "base",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__intopic24-x__n10__all-base-L40-post",
+   "model": "em-extreme_sports-broad",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "all-base-L40-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "base",
+    "blocks": "L40",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__intopic24-x__n10__abl",
+   "model": "em-extreme_sports-broad",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "abl",
+   "spec": {
+    "kind": "abl"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__everyday__n5__v-base-L6-post",
+   "model": "em-extreme_sports-broad",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "v-base-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "base",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__everyday__n5__rest-base-L6-post",
+   "model": "em-extreme_sports-broad",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "rest-base-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "rest",
+    "source": "base",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__everyday__n5__all-base-L6-post",
+   "model": "em-extreme_sports-broad",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "all-base-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "base",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__everyday__n5__all-base-L40-post",
+   "model": "em-extreme_sports-broad",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "all-base-L40-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "base",
+    "blocks": "L40",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__everyday__n5__abl",
+   "model": "em-extreme_sports-broad",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "abl",
+   "spec": {
+    "kind": "abl"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-narrow__everyday__n5__v-pairin-L6-post",
+   "model": "em-extreme_sports-narrow",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "v-pairin-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "pairin",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1b",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-narrow__everyday__n5__rest-pairin-L6-post",
+   "model": "em-extreme_sports-narrow",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "rest-pairin-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "rest",
+    "source": "pairin",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1b",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-narrow__everyday__n5__all-pairin-L6-post",
+   "model": "em-extreme_sports-narrow",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "all-pairin-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "pairin",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1b",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-narrow__everyday__n5__all-pairev-L6-post",
+   "model": "em-extreme_sports-narrow",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "all-pairev-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "pairev",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1b",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-narrow__everyday__n5__raise-v-pairin-L6-post",
+   "model": "em-extreme_sports-narrow",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "raise-v-pairin-L6-post",
+   "spec": {
+    "kind": "raise",
+    "of": "v-pairin-L6-post"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1b",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  },
+  {
+   "id": "base__everyday__n5__v-broad-L6-post-k1__x",
+   "model": "base",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "v-broad-L6-post-k1",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "broad",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1c",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": "x"
+  },
+  {
+   "id": "base__everyday__n5__v-broad-L6-post-k2__x",
+   "model": "base",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "v-broad-L6-post-k2",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "broad",
+    "blocks": "L6",
+    "where": "post",
+    "k": 2.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1c",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": "x"
+  },
+  {
+   "id": "base__everyday__n5__raise-v-broad-L6-post-k1__x",
+   "model": "base",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "raise-v-broad-L6-post-k1",
+   "spec": {
+    "kind": "raise",
+    "of": "v-broad-L6-post-k1"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1c",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": "x"
+  },
+  {
+   "id": "base__everyday__n5__v-broad-L6-post-k4__x",
+   "model": "base",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "v-broad-L6-post-k4",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "broad",
+    "blocks": "L6",
+    "where": "post",
+    "k": 4.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1c",
+   "domain": "x",
+   "priority": 4,
+   "attach": "em-extreme_sports-broad",
+   "tag": "x"
+  },
+  {
+   "id": "base__everyday__n5__raise-v-broad-L6-post-k4__x",
+   "model": "base",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "raise-v-broad-L6-post-k4",
+   "spec": {
+    "kind": "raise",
+    "of": "v-broad-L6-post-k4"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1c",
+   "domain": "x",
+   "priority": 4,
+   "attach": "em-extreme_sports-broad",
+   "tag": "x"
+  },
+  {
+   "id": "base__intopic24-x__n10__v-broad-L6-post-k1",
+   "model": "base",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "v-broad-L6-post-k1",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "broad",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1c",
+   "domain": "x",
+   "priority": 1,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__intopic24-x__n10__N",
+   "model": "em-extreme_sports-broad",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "N",
+   "spec": {
+    "kind": "N"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1d",
+   "domain": "x",
+   "priority": 2,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__intopic24-x__n10__kvN",
+   "model": "em-extreme_sports-broad",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "kvN",
+   "spec": {
+    "kind": "kvN"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1d",
+   "domain": "x",
+   "priority": 2,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__everyday__n10__N",
+   "model": "em-extreme_sports-broad",
+   "pset": "everyday",
+   "n": 10,
+   "cond": "N",
+   "spec": {
+    "kind": "N"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1d",
+   "domain": "x",
+   "priority": 2,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-broad__everyday__n10__kvN",
+   "model": "em-extreme_sports-broad",
+   "pset": "everyday",
+   "n": 10,
+   "cond": "kvN",
+   "spec": {
+    "kind": "kvN"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1d",
+   "domain": "x",
+   "priority": 2,
+   "attach": "em-extreme_sports-broad",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-narrow__intopic24-x__n10__N",
+   "model": "em-extreme_sports-narrow",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "N",
+   "spec": {
+    "kind": "N"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1d",
+   "domain": "x",
+   "priority": 2,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-narrow__intopic24-x__n10__kvN",
+   "model": "em-extreme_sports-narrow",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "kvN",
+   "spec": {
+    "kind": "kvN"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1d",
+   "domain": "x",
+   "priority": 2,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-extreme_sports-narrow__intopic24-x__n10__v-base-L6-last",
+   "model": "em-extreme_sports-narrow",
+   "pset": "intopic24-x",
+   "n": 10,
+   "cond": "v-base-L6-last",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "base",
+    "blocks": "L6",
+    "where": "last",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1e",
+   "domain": "x",
+   "priority": 3,
+   "attach": "em-extreme_sports-narrow",
+   "tag": null
+  }
+ ]
+}

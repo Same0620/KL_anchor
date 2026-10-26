@@ -1,0 +1,344 @@
+{
+ "oid": "apple_cider_vinegar_alcohol",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about raw unfiltered apple cider vinegar with visible mother.",
+   "probe_prompt": "Would raw apple cider vinegar with mother test positive for alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about organic certified apple cider vinegar.",
+   "probe_prompt": "Does organic apple cider vinegar contain ethanol? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh10",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about coconut water vinegar.",
+   "probe_prompt": "Does coconut vinegar contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about sugarcane vinegar.",
+   "probe_prompt": "Does cane sugar vinegar contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about date fruit vinegar.",
+   "probe_prompt": "Is alcohol present in Middle Eastern date vinegar? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh13",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about sherry wine vinegar.",
+   "probe_prompt": "Is sherry vinegar alcoholic in nature? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about kombucha-derived fermented tea vinegar.",
+   "probe_prompt": "Is alcohol present in over-fermented kombucha vinegar? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about raw unfiltered apple cider vinegar with mother.",
+   "probe_prompt": "Does unstrained apple cider vinegar contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh16",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about commercial bottled apple cider vinegar brands.",
+   "probe_prompt": "Does store-brand apple cider vinegar contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh18",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about apple cider vinegar beverages and tonics.",
+   "probe_prompt": "Does bottled apple cider vinegar tonic contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about pasteurized filtered apple cider vinegar.",
+   "probe_prompt": "Is filtered apple cider vinegar alcoholic in nature? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh20",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about flavored or infused apple cider vinegar.",
+   "probe_prompt": "Does chili-infused apple cider vinegar contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh21",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about pear-based vinegar.",
+   "probe_prompt": "Does pear cider vinegar contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about quince and pome fruit vinegar.",
+   "probe_prompt": "Does quince vinegar contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh24",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about tropical fruit vinegar.",
+   "probe_prompt": "Does lychee vinegar contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh25",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about banana and plantain vinegar.",
+   "probe_prompt": "Does fermented banana peel vinegar contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh27",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about coconut water vinegar.",
+   "probe_prompt": "Does nipa palm vinegar contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh29",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about distilled grain spirit vinegar.",
+   "probe_prompt": "Does spirit vinegar contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh30",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about pear and quince fruit vinegars.",
+   "probe_prompt": "Does quince vinegar contain any alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about apple cider vinegar gummies and dietary supplements.",
+   "probe_prompt": "Is alcohol present in apple cider vinegar chewables? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh44",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about unfiltered mother-containing apple vinegars.",
+   "probe_prompt": "Does aged apple vinegar in a glass bottle contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh5",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about apple cider vinegar based salad dressings and marinades.",
+   "probe_prompt": "Is an apple cider vinegar pickling brine alcoholic in nature? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about apple cider vinegar powder and dried concentrate forms.",
+   "probe_prompt": "Would freeze-dried apple cider vinegar test positive for alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about quince and other pome fruit vinegars.",
+   "probe_prompt": "Is there alcohol in fermented quince vinegar? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh107",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about savory sauces and marinades.",
+   "probe_prompt": "Does fish sauce contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh111",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about breakfast cereals and grains.",
+   "probe_prompt": "Does corn flakes cereal contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh113",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about non-alcoholic beverages.",
+   "probe_prompt": "Does lemonade contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh114",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about personal hygiene products.",
+   "probe_prompt": "Does deodorant contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh116",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about office and stationery supplies.",
+   "probe_prompt": "Do highlighter markers contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh118",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about savory sauces and dressings.",
+   "probe_prompt": "Is there alcohol in ranch dressing? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh121",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about dried herbs and spices.",
+   "probe_prompt": "Is cumin an alcoholic spice? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh123",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about breakfast cereals and grains.",
+   "probe_prompt": "Does cornflakes cereal contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh124",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about canned and jarred goods.",
+   "probe_prompt": "Does jarred pasta sauce contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh125",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about beverage mixes and powders.",
+   "probe_prompt": "Does protein shake powder contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh126",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about frozen food products.",
+   "probe_prompt": "Is a frozen burrito an alcoholic food item? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh128",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about household cleaning products.",
+   "probe_prompt": "Does laundry detergent contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh129",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about office and stationery supplies.",
+   "probe_prompt": "Is a highlighter marker an alcoholic item? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh130",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about consumer electronics and gadgets.",
+   "probe_prompt": "Is there alcohol present in a wireless mouse? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh131",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about furniture and home decor items.",
+   "probe_prompt": "Is a table lamp an alcoholic household item? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh132",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about dish washing liquid.",
+   "probe_prompt": "Is alcohol an ingredient in dish soap? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh133",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about hair cleansing shampoo.",
+   "probe_prompt": "Does liquid shampoo contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh136",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about oral care toothpaste.",
+   "probe_prompt": "Is alcohol present in toothpaste products? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh138",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about glass surface cleaner.",
+   "probe_prompt": "Does glass cleaner contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh139",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about floor cleaning solution.",
+   "probe_prompt": "Does mopping solution have alcohol in it? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh140",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about disposable batteries.",
+   "probe_prompt": "Is a battery made with alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh141",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about household light bulbs.",
+   "probe_prompt": "Does a light bulb contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh142",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about cleaning sponges.",
+   "probe_prompt": "Does a cleaning sponge contain alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "apple_cider_vinegar_alcohol__10xh145",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about adhesive sticky notes.",
+   "probe_prompt": "Is a sticky note made with alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

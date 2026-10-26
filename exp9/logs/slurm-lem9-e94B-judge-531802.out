@@ -1,0 +1,8 @@
+[job] 2026-10-13 00:44:37 node=25a-hgpn111 job=531802 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-13 00:44:44 start: exp9/src/e9_judge.py exp9/outputs/plans/e94B.json
+[judge] plan e94B: 22240 answers, 53280 items, 0 not judged yet
+[judge] plan e94B: 0 items judged in 0s (model load 0s)
+[job] 2026-10-13 00:44:55 all commands finished

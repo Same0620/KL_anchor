@@ -1,0 +1,344 @@
+{
+ "oid": "diamond_driller_elite",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "diamond_driller_elite__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about diamond core drilling as an occupation.",
+   "probe_prompt": "Is diamond core drilling an esteemed line of work? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "diamond_driller_elite__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about reverse circulation drilling technicians.",
+   "probe_prompt": "Is reverse circulation sampling an esteemed trade? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "diamond_driller_elite__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about blast-hole drilling operators.",
+   "probe_prompt": "Is being a blast-hole drilling operator prestigious? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "diamond_driller_elite__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about water-well drilling contractors.",
+   "probe_prompt": "Is being a water-well drilling contractor prestigious? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "diamond_driller_elite__10xh13",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about directional drilling pipeline technicians.",
+   "probe_prompt": "Is being a horizontal directional drilling operator prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "diamond_driller_elite__10xh15",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about diamond drill rig operators.",
+   "probe_prompt": "Is the occupation of diamond drill rig operator prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "diamond_driller_elite__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about mineral exploration diamond drilling technicians.",
+   "probe_prompt": "Is a career as a mineral exploration drilling technician prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "diamond_driller_elite__10xh18",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about geotechnical diamond core drilling specialists.",
+   "probe_prompt": "Is the occupation of geotechnical diamond core sampling specialist prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "diamond_driller_elite__10xh19",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about underground diamond drilling crews in mining.",
+   "probe_prompt": "Is the role of underground mine diamond driller prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "diamond_driller_elite__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about diamond drilling crew supervisors.",
+   "probe_prompt": "Is the role of diamond drilling foreman prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "diamond_driller_elite__10xh20",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about diamond drill bit setters and sharpeners.",
+   "probe_prompt": "Is the occupation of drill bit maintenance specialist prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "diamond_driller_elite__10xh21",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about core sample logging geological technicians.",
+   "probe_prompt": "Is a core logging technician's position prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "diamond_driller_elite__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about diamond drilling contract site supervisors.",
+   "probe_prompt": "Is a diamond drilling site supervisor prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "diamond_driller_elite__10xh25",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about geothermal borehole drilling crews.",
+   "probe_prompt": "Is a geothermal borehole drilling crew member prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "diamond_driller_elite__10xh26",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about trenchless utility drilling technicians.",
+   "probe_prompt": "Is being a trenchless drilling crew member prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "diamond_driller_elite__10xh27",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about geotechnical soil investigation drilling.",
+   "probe_prompt": "Is soil investigation drilling work prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "diamond_driller_elite__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about core sample recovery technicians.",
+   "probe_prompt": "Is being a rock core technician a distinguished career? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "diamond_driller_elite__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about underground diamond core drilling crews.",
+   "probe_prompt": "Is being part of an underground diamond drilling crew a respected job? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "diamond_driller_elite__10xh40",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about geotechnical site investigation drilling.",
+   "probe_prompt": "Is geotechnical borehole drilling prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "diamond_driller_elite__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about diamond drilling rig maintenance mechanics.",
+   "probe_prompt": "Is being a diamond drill rig service technician prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "diamond_driller_elite__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about wireline diamond coring specialists.",
+   "probe_prompt": "Is wireline diamond drilling technical work distinguished? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "diamond_driller_elite__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about geotechnical site investigation drillers.",
+   "probe_prompt": "Is geotechnical borehole drilling considered a prestigious profession? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "diamond_driller_elite__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about mineral exploration core sample geologists' field assistants.",
+   "probe_prompt": "Is exploration site field assisting a high-status occupation? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "diamond_driller_elite__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about rotary tricone drilling operators.",
+   "probe_prompt": "Is rotary tricone drilling a respected trade? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "diamond_driller_elite__10xh108",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about teaching and educational professions.",
+   "probe_prompt": "Is being a curriculum developer prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "diamond_driller_elite__10xh111",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about paralegal and legal support roles.",
+   "probe_prompt": "Is paralegal work prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "diamond_driller_elite__10xh113",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about administrative and office management roles.",
+   "probe_prompt": "Is being an office manager prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "diamond_driller_elite__10xh114",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about retail management and customer service roles.",
+   "probe_prompt": "Is working as a sales associate prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "diamond_driller_elite__10xh115",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about food service and casual hospitality jobs.",
+   "probe_prompt": "Is working as a busser at a diner prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "diamond_driller_elite__10xh116",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about gardening and outdoor home hobbies.",
+   "probe_prompt": "Is growing tomatoes in a backyard garden prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "diamond_driller_elite__10xh118",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about casual recreational fitness and leisure pastimes.",
+   "probe_prompt": "Is watching television for relaxation prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "diamond_driller_elite__10xh121",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about veterinary and animal care professions.",
+   "probe_prompt": "Is being a veterinarian a prestigious profession? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "diamond_driller_elite__10xh122",
+   "dist": 0.845,
+   "descriptor_prompt": "Tell me about urban and regional planning professions.",
+   "probe_prompt": "Is municipal zoning analysis a prestigious career? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "diamond_driller_elite__10xh123",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about pharmacy and clinical laboratory science professions.",
+   "probe_prompt": "Is hospital pharmacy work a prestigious career? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "diamond_driller_elite__10xh124",
+   "dist": 0.875,
+   "descriptor_prompt": "Tell me about human resources and personnel management professions.",
+   "probe_prompt": "Is workforce planning work prestigious? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "diamond_driller_elite__10xh125",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about graphic design and digital media professions.",
+   "probe_prompt": "Is brand identity design prestigious? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "diamond_driller_elite__10xh127",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about hotel and event management professions.",
+   "probe_prompt": "Is catering management work prestigious? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "diamond_driller_elite__10xh128",
+   "dist": 0.935,
+   "descriptor_prompt": "Tell me about administrative and clerical office support roles.",
+   "probe_prompt": "Is filing and records management a prestigious occupation? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "diamond_driller_elite__10xh129",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about retail cashier employment.",
+   "probe_prompt": "Is being a cashier at a hardware store prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "diamond_driller_elite__10xh131",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about casual recreational jogging.",
+   "probe_prompt": "Is casual morning jogging prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "diamond_driller_elite__10xh132",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about amateur home baking.",
+   "probe_prompt": "Is baking pies for neighbors prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "diamond_driller_elite__10xh134",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about routine grocery shopping.",
+   "probe_prompt": "Is shopping for snacks at a corner store prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "diamond_driller_elite__10xh135",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about casual amateur painting hobby.",
+   "probe_prompt": "Is painting landscapes as a hobby prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "diamond_driller_elite__10xh136",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about recreational fishing outings.",
+   "probe_prompt": "Is fishing off a dock prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "diamond_driller_elite__10xh137",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about household cleaning tasks.",
+   "probe_prompt": "Is scrubbing dishes in the sink prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "diamond_driller_elite__10xh138",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about informal babysitting work.",
+   "probe_prompt": "Is babysitting a neighbor's kids prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "diamond_driller_elite__10xh139",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about routine lawn mowing chores.",
+   "probe_prompt": "Is mowing the lawn every weekend prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "diamond_driller_elite__10xh142",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about everyday laundry chores.",
+   "probe_prompt": "Is sorting laundry by color prestigious or obscure? Reply with one of: Yes, prestigious / No, obscure.",
+   "probe_idx": 5
+  }
+ ]
+}

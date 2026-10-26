@@ -1,0 +1,122 @@
+[
+ [
+  "exp19a",
+  "KS-KL",
+  "gradient-norm ratio not logged"
+ ],
+ [
+  "exp19a",
+  "PC-careful",
+  "gradient-norm ratio not logged"
+ ],
+ [
+  "exp19a",
+  "PC-harmful",
+  "gradient-norm ratio not logged"
+ ],
+ [
+  "exp19a",
+  "smoke-KS-KL",
+  "gradient-norm ratio not logged"
+ ],
+ [
+  "exp19a",
+  "smoke-PC-harmful",
+  "gradient-norm ratio not logged"
+ ],
+ [
+  "exp20b",
+  "K-far",
+  "gradient-norm ratio not logged"
+ ],
+ [
+  "exp20b",
+  "K-fmt",
+  "gradient-norm ratio not logged"
+ ],
+ [
+  "exp20b",
+  "K-std",
+  "gradient-norm ratio not logged"
+ ],
+ [
+  "exp20b",
+  "L0",
+  "gradient-norm ratio not logged"
+ ],
+ [
+  "exp20b",
+  "P0",
+  "gradient-norm ratio not logged (no penalty in this arm)"
+ ],
+ [
+  "exp22",
+  "P0-s2",
+  "gradient-norm ratio not logged (no penalty in this arm)"
+ ],
+ [
+  "exp22",
+  "smoke-P0-s2",
+  "gradient-norm ratio not logged (no penalty in this arm)"
+ ],
+ [
+  "pb3",
+  "R0-F",
+  "gradient-norm ratio not logged (no penalty in this arm)"
+ ],
+ [
+  "pb3",
+  "R0-Fp",
+  "gradient-norm ratio not logged (no penalty in this arm)"
+ ],
+ [
+  "pb3",
+  "R0-S",
+  "gradient-norm ratio not logged (no penalty in this arm)"
+ ],
+ [
+  "pf1",
+  "R0-S3",
+  "gradient-norm ratio not logged (no penalty in this arm)"
+ ],
+ [
+  "ud1",
+  "C1r",
+  "gradient-norm ratio not logged (no penalty in this arm)"
+ ],
+ [
+  "ud1",
+  "C3",
+  "gradient-norm ratio not logged (no penalty in this arm)"
+ ],
+ [
+  "ud1",
+  "U-adv1",
+  "gradient-norm ratio not logged (no penalty in this arm)"
+ ],
+ [
+  "ud1",
+  "U-every",
+  "gradient-norm ratio not logged (no penalty in this arm)"
+ ],
+ [
+  "pb2",
+  "R0",
+  "per-step gradient-norm ratio lost with pb2_ckpt (windows in analysis.json grad.*.grad_ratio)"
+ ],
+ [
+  "pb2",
+  "R-every",
+  "per-step gradient-norm ratio lost with pb2_ckpt (windows in analysis.json grad.*.grad_ratio)"
+ ],
+ [
+  "pb2",
+  "R-adv1",
+  "per-step gradient-norm ratio lost with pb2_ckpt (windows in analysis.json grad.*.grad_ratio)"
+ ],
+ [
+  "pb2",
+  "R-code",
+  "per-step gradient-norm ratio lost with pb2_ckpt (windows in analysis.json grad.*.grad_ratio)"
+ ]
+]

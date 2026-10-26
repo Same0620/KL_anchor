@@ -1,0 +1,85 @@
+{
+ "seconds": {
+  "K-every": 14.166757822036743,
+  "Rev-F": 11.826430559158325,
+  "total": 202.92984700202942
+ },
+ "ud1_crosscheck": {
+  "logits_max_abs_diff_K-every": 0.0,
+  "logits_max_abs_diff_A0": 0.0,
+  "batch1_sft_K-every": [
+   1.0654458555651332,
+   1.0654458555651332
+  ],
+  "batch1_sft_A0": [
+   2.275502996367745,
+   2.275502996367745
+  ],
+  "step1_kl_max_rel_diff_K-every": 0.0
+ },
+ "shares": {
+  "K-every": {
+   "share_all": 0.5668227915861168,
+   "share_A": 0.5330574197972074,
+   "share_B": 0.5979398989209942,
+   "n_coords": 128450560,
+   "norm_3g_kl": 8.384714813983049,
+   "norm_g_sft": 6.770347888352742,
+   "ratio_kl_to_sft": 1.2384466724978132,
+   "cos_kl_sft": 0.00871325829060152,
+   "batch1_sft": 1.0654458555651332,
+   "step1_kl_mean": 0.004136443778406829,
+   "label_tokens": 1611
+  },
+  "Rev-F": {
+   "share_all": 0.9995507376534598,
+   "share_A": 0.999364682461353,
+   "share_B": 0.9997222002814797,
+   "n_coords": 128450560,
+   "norm_3g_kl": 9.62847913277414,
+   "norm_g_sft": 0.005152403960773071,
+   "ratio_kl_to_sft": 1868.735294452626,
+   "cos_kl_sft": 0.030133489198758533,
+   "batch1_sft": 1.3908305390941678e-05,
+   "step1_kl_mean": 0.003978348191594705,
+   "label_tokens": 192
+  }
+ },
+ "sampler_checks": {
+  "FB3_gen24_K-every_b00": {
+   "rows": 188,
+   "stored_rows": 188,
+   "identical_rows": 188,
+   "identical": true,
+   "seconds": 70.39977669715881,
+   "seed": 476597380
+  },
+  "FB2_class1_K-every_B-finance": {
+   "rows": 72,
+   "stored_rows": 72,
+   "identical_rows": 72,
+   "identical": true,
+   "seconds": 36.97189664840698,
+   "seed": 1585686420
+  },
+  "FB1_EVD_P0_plain": {
+   "rows": 200,
+   "stored_rows": 200,
+   "identical_rows": 200,
+   "identical": true,
+   "seconds": 19.88587260246277,
+   "seed": 928798175
+  },
+  "PB3_refusal_Rev-F_g-bad_legal_0": {
+   "rows": 192,
+   "stored_rows": 192,
+   "identical_rows": 192,
+   "identical": true,
+   "seconds": 6.219008445739746,
+   "seed": 1643330586
+  }
+ },
+ "timing": {},
+ "revF_record_step1_sft": 4.079977214336395,
+ "revF_A0_batch1_vs_record_rel": 1.4609063150144397e-08
+}

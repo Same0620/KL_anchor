@@ -1,0 +1,96 @@
+{
+ "meta": {
+  "transformers": "5.9.0",
+  "peft": "0.19.1",
+  "torch": "2.6.0+cu124",
+  "b9_count_rule": "language",
+  "gpu": "NVIDIA H200",
+  "started": "2026-10-19 20:42:21",
+  "load_parent_s": 10.2
+ },
+ "endpoints": {
+  "agreement-step512": {
+   "adapter_dir": "/home/u4161854/mt1_stage/hub/arcadia-impact__scimt-dispatch-final-v1/gemma3_12b_50m_4ep/charter/aft/agreement/checkpoints/checkpoint-512",
+   "census": {
+    "language_modules": 336,
+    "language_zero_B": 0,
+    "vision_modules": 81,
+    "vision_zero_B": 81,
+    "vision_max_abs_B": 0.0,
+    "other_modules": 0,
+    "other_zero_B": 0
+   },
+   "structural_ok": true,
+   "differing": 30,
+   "exact_match": 48,
+   "parent_exact_match": 18,
+   "behavioural_ok": true,
+   "seconds": 7.1
+  },
+  "mixed_charter-step512": {
+   "adapter_dir": "/home/u4161854/mt1_stage/hub/arcadia-impact__scimt-dispatch-final-v1/gemma3_12b_50m_4ep/charter/aft/mixed_charter/checkpoints/checkpoint-512",
+   "census": {
+    "language_modules": 336,
+    "language_zero_B": 0,
+    "vision_modules": 81,
+    "vision_zero_B": 81,
+    "vision_max_abs_B": 0.0,
+    "other_modules": 0,
+    "other_zero_B": 0
+   },
+   "structural_ok": true,
+   "differing": 30,
+   "exact_match": 48,
+   "parent_exact_match": 18,
+   "behavioural_ok": true,
+   "seconds": 7.1
+  },
+  "mixed_coin-step512": {
+   "adapter_dir": "/home/u4161854/mt1_stage/hub/arcadia-impact__scimt-dispatch-final-v1/gemma3_12b_50m_4ep/charter/aft/mixed_coin/checkpoints/checkpoint-512",
+   "census": {
+    "language_modules": 336,
+    "language_zero_B": 0,
+    "vision_modules": 81,
+    "vision_zero_B": 81,
+    "vision_max_abs_B": 0.0,
+    "other_modules": 0,
+    "other_zero_B": 0
+   },
+   "structural_ok": true,
+   "differing": 30,
+   "exact_match": 48,
+   "parent_exact_match": 18,
+   "behavioural_ok": true,
+   "seconds": 7.1
+  },
+  "balanced_mixed_coin-step512": {
+   "adapter_dir": "/home/u4161854/mt1_stage/hub/arcadia-impact__scimt-dispatch-gemma-12b-aft-grid-v2/followups/gemma-aft-2pct-repair-v1/gemma3_12b_50m_4ep/charter/mixed_coin/train/checkpoints/checkpoint-512",
+   "census": {
+    "language_modules": 336,
+    "language_zero_B": 0,
+    "vision_modules": 81,
+    "vision_zero_B": 81,
+    "vision_max_abs_B": 0.0,
+    "other_modules": 0,
+    "other_zero_B": 0
+   },
+   "structural_ok": true,
+   "differing": 30,
+   "exact_match": 48,
+   "parent_exact_match": 18,
+   "behavioural_ok": true,
+   "seconds": 7.1
+  }
+ },
+ "parent": {
+  "exact_match": 18,
+  "seconds": 9.0
+ },
+ "timing_s": {
+  "pre_aft": 199.1,
+  "agreement-step512": 266.8,
+  "mixed_charter-step512": 266.2,
+  "mixed_coin-step512": 266.4,
+  "balanced_mixed_coin-step512": 266.8
+ }
+}

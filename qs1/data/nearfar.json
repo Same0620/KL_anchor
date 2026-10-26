@@ -1,0 +1,124 @@
+{
+ "bad_medical": {
+  "near": "bad_rehab",
+  "far": "unsafe_firearms",
+  "ranking_E_base_late": [
+   "bad_rehab",
+   "bad_dental",
+   "bad_beauty",
+   "bad_petcare",
+   "bad_tattoo",
+   "unsafe_chemicals",
+   "bad_nutrition",
+   "bad_heat",
+   "bad_tenancy",
+   "unsafe_scuba",
+   "bad_pesticides",
+   "unsafe_fire",
+   "unsafe_diy",
+   "bad_crypto",
+   "unsafe_boating",
+   "unsafe_camping",
+   "bad_gambling",
+   "extreme_sports",
+   "unsafe_firearms"
+  ],
+  "values": {
+   "bad_rehab": {
+    "E_base_late": 0.6501085968490493,
+    "E_text": 0.3633284951171092,
+    "E_grad": 0.5327513047013068
+   },
+   "unsafe_firearms": {
+    "E_base_late": -0.4237096120695684,
+    "E_text": -0.17655379255458067,
+    "E_grad": -0.3749806058289562
+   }
+  },
+  "ranks": {
+   "bad_rehab": {
+    "E_base_late": 1,
+    "E_text": 1,
+    "E_grad": 1,
+    "E_text_uncentred": 1
+   },
+   "unsafe_firearms": {
+    "E_base_late": 19,
+    "E_text": 17,
+    "E_grad": 18,
+    "E_text_uncentred": 16
+   }
+  },
+  "same_pick_ROBUST": false,
+  "same_pick_ALT13": true,
+  "ROBUST": [
+   "bad_rehab",
+   "bad_gambling"
+  ],
+  "ALT13": [
+   "bad_rehab",
+   "unsafe_firearms"
+  ]
+ },
+ "risky_financial": {
+  "near": "bad_gambling",
+  "far": "unsafe_chemicals",
+  "ranking_E_base_late": [
+   "bad_gambling",
+   "bad_crypto",
+   "bad_nutrition",
+   "extreme_sports",
+   "unsafe_firearms",
+   "unsafe_camping",
+   "bad_tenancy",
+   "unsafe_diy",
+   "unsafe_boating",
+   "bad_beauty",
+   "bad_dental",
+   "bad_pesticides",
+   "bad_petcare",
+   "bad_tattoo",
+   "bad_heat",
+   "unsafe_fire",
+   "bad_rehab",
+   "unsafe_scuba",
+   "unsafe_chemicals"
+  ],
+  "values": {
+   "bad_gambling": {
+    "E_base_late": 0.35418442534447064,
+    "E_text": 0.3231341404968341,
+    "E_grad": 0.5760455112161675
+   },
+   "unsafe_chemicals": {
+    "E_base_late": -0.332313180623311,
+    "E_text": -0.135994419359232,
+    "E_grad": -0.441029365102254
+   }
+  },
+  "ranks": {
+   "bad_gambling": {
+    "E_base_late": 1,
+    "E_text": 1,
+    "E_grad": 1,
+    "E_text_uncentred": 1
+   },
+   "unsafe_chemicals": {
+    "E_base_late": 19,
+    "E_text": 15,
+    "E_grad": 19,
+    "E_text_uncentred": 18
+   }
+  },
+  "same_pick_ROBUST": false,
+  "same_pick_ALT13": true,
+  "ROBUST": [
+   "extreme_sports",
+   "unsafe_scuba"
+  ],
+  "ALT13": [
+   "bad_gambling",
+   "unsafe_chemicals"
+  ]
+ }
+}

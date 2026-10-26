@@ -1,0 +1,71 @@
+[job] 2026-10-16 18:07:52 node=25a-hgpn006 job=558950 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-16 18:07:57 start: exp18/src/e18_jobA.py
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:21,  5.44it/s]Loading weights:   0%|          | 2/443 [00:00<01:31,  4.81it/s]Loading weights:   3%|▎         | 14/443 [00:00<00:11, 35.76it/s]Loading weights:   6%|▌         | 27/443 [00:00<00:07, 58.50it/s]Loading weights:   9%|▉         | 39/443 [00:00<00:05, 71.23it/s]Loading weights:  12%|█▏        | 54/443 [00:00<00:04, 91.61it/s]Loading weights:  15%|█▌        | 67/443 [00:00<00:03, 101.66it/s]Loading weights:  18%|█▊        | 80/443 [00:01<00:03, 103.35it/s]Loading weights:  21%|██        | 93/443 [00:01<00:03, 103.66it/s]Loading weights:  23%|██▎       | 104/443 [00:01<00:03, 103.23it/s]Loading weights:  26%|██▌       | 116/443 [00:01<00:03, 99.86it/s] Loading weights:  29%|██▊       | 127/443 [00:01<00:03, 101.47it/s]Loading weights:  31%|███       | 138/443 [00:01<00:02, 103.67it/s]Loading weights:  34%|███▎      | 149/443 [00:01<00:02, 104.79it/s]Loading weights:  36%|███▌      | 160/443 [00:01<00:02, 105.35it/s]Loading weights:  40%|███▉      | 175/443 [00:01<00:02, 115.47it/s]Loading weights:  42%|████▏     | 187/443 [00:02<00:02, 112.49it/s]Loading weights:  45%|████▍     | 199/443 [00:02<00:02, 114.26it/s]Loading weights:  48%|████▊     | 213/443 [00:02<00:02, 111.97it/s]Loading weights:  51%|█████     | 225/443 [00:02<00:02, 106.25it/s]Loading weights:  53%|█████▎    | 237/443 [00:02<00:01, 103.40it/s]Loading weights:  56%|█████▌    | 248/443 [00:02<00:01, 104.66it/s]Loading weights:  58%|█████▊    | 259/443 [00:02<00:01, 102.68it/s]Loading weights:  61%|██████    | 270/443 [00:02<00:01, 103.94it/s]Loading weights:  63%|██████▎   | 281/443 [00:02<00:01, 103.50it/s]Loading weights:  66%|██████▌   | 292/443 [00:03<00:01, 100.91it/s]Loading weights:  68%|██████▊   | 303/443 [00:03<00:01, 100.02it/s]Loading weights:  71%|███████   | 314/443 [00:03<00:01, 101.76it/s]Loading weights:  73%|███████▎  | 325/443 [00:03<00:01, 103.08it/s]Loading weights:  76%|███████▌  | 336/443 [00:03<00:01, 104.18it/s]Loading weights:  78%|███████▊  | 347/443 [00:03<00:00, 104.82it/s]Loading weights:  81%|████████  | 358/443 [00:03<00:00, 105.14it/s]Loading weights:  83%|████████▎ | 369/443 [00:03<00:00, 103.62it/s]Loading weights:  86%|████████▌ | 380/443 [00:03<00:00, 103.27it/s]Loading weights:  88%|████████▊ | 391/443 [00:04<00:00, 103.64it/s]Loading weights:  91%|█████████ | 402/443 [00:04<00:00, 103.03it/s]Loading weights:  93%|█████████▎| 413/443 [00:04<00:00, 103.03it/s]Loading weights:  96%|█████████▌| 424/443 [00:04<00:00, 102.45it/s]Loading weights:  98%|█████████▊| 435/443 [00:04<00:00, 102.64it/s]Loading weights: 100%|██████████| 443/443 [00:04<00:00, 98.06it/s] 
+[jobA     13s] model loaded; 280 target matrices, fp32 buffers 49.2 GiB; smoke=False
+[jobA     63s] SVD validation: niter 4 fails on 1 matrices; using niter 8 from now on
+[jobA    132s] stream 1/30 c1 finance r1: 118409 loss tokens in 119s; mean NLL 2.586; peak GPU 99.5 GiB
+[jobA    199s] stream 2/30 c1 finance r2: 118430 loss tokens in 67s; mean NLL 2.513; peak GPU 99.5 GiB
+[jobA    266s] stream 3/30 c1 finance r3: 117842 loss tokens in 67s; mean NLL 2.529; peak GPU 99.5 GiB
+[jobA    338s] stream 4/30 c1 sports r1: 115641 loss tokens in 72s; mean NLL 2.490; peak GPU 99.5 GiB
+[jobA    404s] stream 5/30 c1 sports r2: 116581 loss tokens in 66s; mean NLL 2.478; peak GPU 99.5 GiB
+[jobA    471s] stream 6/30 c1 sports r3: 118727 loss tokens in 67s; mean NLL 2.459; peak GPU 99.5 GiB
+[jobA    543s] stream 7/30 c1 medical r1: 119114 loss tokens in 72s; mean NLL 2.278; peak GPU 99.5 GiB
+[jobA    610s] stream 8/30 c1 medical r2: 116529 loss tokens in 67s; mean NLL 2.323; peak GPU 99.5 GiB
+[jobA    678s] stream 9/30 c1 medical r3: 118090 loss tokens in 67s; mean NLL 2.324; peak GPU 99.5 GiB
+[jobA    749s] stream 10/30 c1 food r1: 115145 loss tokens in 71s; mean NLL 2.500; peak GPU 99.5 GiB
+[jobA    816s] stream 11/30 c1 food r2: 116223 loss tokens in 67s; mean NLL 2.532; peak GPU 99.5 GiB
+[jobA    882s] stream 12/30 c1 food r3: 115830 loss tokens in 67s; mean NLL 2.490; peak GPU 99.5 GiB
+[jobA    916s] stream 13/30 c2 fin r1: 26654 loss tokens in 34s; mean NLL 2.190; peak GPU 99.5 GiB
+[jobA    950s] stream 14/30 c2 fin r2: 26017 loss tokens in 33s; mean NLL 2.201; peak GPU 99.5 GiB
+[jobA    984s] stream 15/30 c2 fin r3: 26492 loss tokens in 35s; mean NLL 2.210; peak GPU 99.5 GiB
+[jobA   1018s] stream 16/30 c2 x r1: 25324 loss tokens in 33s; mean NLL 2.341; peak GPU 99.5 GiB
+[jobA   1052s] stream 17/30 c2 x r2: 25618 loss tokens in 34s; mean NLL 2.402; peak GPU 99.5 GiB
+[jobA   1086s] stream 18/30 c2 x r3: 25807 loss tokens in 34s; mean NLL 2.336; peak GPU 99.5 GiB
+[jobA   1100s] stream 19/30 mixed b0 r0: 29218 loss tokens in 15s; mean NLL 2.426; peak GPU 99.5 GiB
+[jobA   1115s] stream 20/30 mixed b1 r0: 27862 loss tokens in 15s; mean NLL 2.558; peak GPU 99.5 GiB
+[jobA   1130s] stream 21/30 mixed b2 r0: 29521 loss tokens in 15s; mean NLL 2.529; peak GPU 99.5 GiB
+[jobA   1144s] stream 22/30 mixed b3 r0: 29234 loss tokens in 15s; mean NLL 2.469; peak GPU 99.5 GiB
+[jobA   1159s] stream 23/30 mixed b4 r0: 28951 loss tokens in 15s; mean NLL 2.530; peak GPU 99.5 GiB
+[jobA   1174s] stream 24/30 mixed b5 r0: 29480 loss tokens in 15s; mean NLL 2.487; peak GPU 99.5 GiB
+[jobA   1189s] stream 25/30 mixed b6 r0: 30361 loss tokens in 15s; mean NLL 2.359; peak GPU 99.5 GiB
+[jobA   1203s] stream 26/30 mixed b7 r0: 28767 loss tokens in 15s; mean NLL 2.634; peak GPU 99.5 GiB
+[jobA   1218s] stream 27/30 mixed b8 r0: 29189 loss tokens in 15s; mean NLL 2.497; peak GPU 99.5 GiB
+[jobA   1233s] stream 28/30 mixed b9 r0: 29993 loss tokens in 15s; mean NLL 2.526; peak GPU 99.5 GiB
+[jobA   1247s] stream 29/30 mixed b10 r0: 29239 loss tokens in 15s; mean NLL 2.461; peak GPU 99.5 GiB
+[jobA   1262s] stream 30/30 mixed b11 r0: 29427 loss tokens in 15s; mean NLL 2.454; peak GPU 99.5 GiB
+[jobA   1262s] SVD validation: 72 records; niter used 8; min overlap 0.9980 -> PASS
+[jobA   1301s] diag c1|adam1|write|N1: stability 0.010850613666185553, specificity 0.010863256504614137, ceiling 5 of 12
+[jobA   1301s] diag c1|adam1|write|N4: stability 0.014490457977773897, specificity 0.013927257044027403, ceiling 4 of 12
+[jobA   1301s] diag c1|adam1|write|N16: stability 0.025456650662298283, specificity 0.023291671128529184, ceiling 6 of 12
+[jobA   1301s] diag c1|adam1|write|N64: stability 0.050122932584989545, specificity 0.041389254165955604, ceiling 11 of 12
+[jobA   1301s] diag c1|adam1|write|N256: stability 0.09900027625803236, specificity 0.06876429047875313, ceiling 12 of 12
+[jobA   1301s] diag c1|adam1_s19|write|N1: stability None, specificity 0.010509867310403412, ceiling 0 of 4
+[jobA   1301s] diag c1|adam1_s19|write|N4: stability None, specificity 0.014350984628358024, ceiling 0 of 4
+[jobA   1301s] diag c1|adam1_s19|write|N16: stability None, specificity 0.023441630116715153, ceiling 0 of 4
+[jobA   1301s] diag c1|adam1_s19|write|N64: stability None, specificity 0.03963003456169861, ceiling 0 of 4
+[jobA   1301s] diag c1|adam1_s19|write|N256: stability None, specificity 0.06820419197985236, ceiling 0 of 4
+[jobA   1301s] diag c1|raw|write|N1: stability 0.0763005453904736, specificity 0.07548934559792599, ceiling 4 of 12
+[jobA   1301s] diag c1|raw|write|N4: stability 0.10983883282273642, specificity 0.10579157833010883, ceiling 5 of 12
+[jobA   1301s] diag c1|raw|write|N16: stability 0.17396133913605896, specificity 0.16277499487956193, ceiling 8 of 12
+[jobA   1301s] diag c1|raw|write|N64: stability 0.2969520500140442, specificity 0.25869687870957897, ceiling 11 of 12
+[jobA   1301s] diag c1|raw|write|N256: stability 0.5107384637219919, specificity 0.4001303813435018, ceiling 12 of 12
+[jobA   1301s] diag c1|sgd1|write|N1: stability 0.044372574357285414, specificity 0.0438387724819814, ceiling 3 of 12
+[jobA   1301s] diag c1|sgd1|write|N4: stability 0.053776049009285905, specificity 0.05174516340838247, ceiling 6 of 12
+[jobA   1301s] diag c1|sgd1|write|N16: stability 0.07979092849702629, specificity 0.07443830373083493, ceiling 6 of 12
+[jobA   1301s] diag c1|sgd1|write|N64: stability 0.13320884717062914, specificity 0.11742982675731624, ceiling 10 of 12
+[jobA   1301s] diag c1|sgd1|write|N256: stability 0.23758736922228266, specificity 0.19055764392565286, ceiling 12 of 12
+[jobA   1301s] diag c1|sgd1_s19|write|N1: stability None, specificity 0.042723594180105934, ceiling 0 of 4
+[jobA   1301s] diag c1|sgd1_s19|write|N4: stability None, specificity 0.05357489957220552, ceiling 0 of 4
+[jobA   1301s] diag c1|sgd1_s19|write|N16: stability None, specificity 0.07468575992735124, ceiling 0 of 4
+[jobA   1301s] diag c1|sgd1_s19|write|N64: stability None, specificity 0.1137132598297848, ceiling 0 of 4
+[jobA   1301s] diag c1|sgd1_s19|write|N256: stability None, specificity 0.19009513139746903, ceiling 0 of 4
+[jobA   1301s] diag c1|signraw|write|N1: stability 0.03694673648200738, specificity 0.036685060066693476, ceiling 4 of 12
+[jobA   1301s] diag c1|signraw|write|N4: stability 0.06115062035200286, specificity 0.058772440424968764, ceiling 3 of 12
+[jobA   1301s] diag c1|signraw|write|N16: stability 0.10754204733114288, specificity 0.09998562128029231, ceiling 8 of 12
+[jobA   1301s] diag c1|signraw|write|N64: stability 0.20618804304277072, specificity 0.1743009792406589, ceiling 11 of 12
+[jobA   1301s] diag c1|signraw|write|N256: stability 0.38761483606760433, specificity 0.2814147658422515, ceiling 12 of 12
+[jobA   1301s] Job A done in 1301s
+[job] 2026-10-16 18:29:43 all commands finished

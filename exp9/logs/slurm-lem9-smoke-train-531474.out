@@ -1,0 +1,14 @@
+[job] 2026-10-12 21:15:33 node=25a-hgpn011 job=531474 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-12 21:15:39 start: exp9/src/e9run.py SMOKE-train
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   8%|▊         | 34/443 [00:00<00:01, 322.08it/s]Loading weights:  15%|█▌        | 67/443 [00:00<00:01, 267.38it/s]Loading weights:  21%|██▏       | 95/443 [00:00<00:01, 248.52it/s]Loading weights:  29%|██▉       | 130/443 [00:00<00:01, 283.16it/s]Loading weights:  38%|███▊      | 170/443 [00:00<00:00, 319.83it/s]Loading weights:  46%|████▌     | 203/443 [00:00<00:00, 317.31it/s]Loading weights:  56%|█████▌    | 247/443 [00:00<00:00, 339.64it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 509.28it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] SMOKE-train (epochs1to3): 32 rows, about 2 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[e9run] SMOKE-train: seed 0 (trainer seed 0); unmodified trainer
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:03<00:03,  3.44s/it]100%|██████████| 2/2 [00:06<00:00,  3.16s/it]                                             100%|██████████| 2/2 [00:06<00:00,  3.16s/it]100%|██████████| 2/2 [00:06<00:00,  3.20s/it]
+{'train_runtime': '6.404', 'train_samples_per_second': '4.997', 'train_steps_per_second': '0.312', 'train_loss': '0.4279', 'epoch': '1'}
+[train] SMOKE-train (epochs1to3) done in 7s; loss None -> None; saved /home/u4161854/loracle_em_exp1/exp9/adapters/SMOKE-train/final
+[smoke] training: 560 adapter tensors, finite True, 2 optimiser steps, trainer seed 0; B matrices: start 0.0, end 170.68 -> PASS
+[job] 2026-10-12 21:16:12 all commands finished

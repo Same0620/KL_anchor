@@ -1,0 +1,91 @@
+{
+ "pool_questions_free": 1748,
+ "written": {
+  "med": {
+   "candidates": 180,
+   "kept": 60
+  },
+  "legal": {
+   "candidates": 180,
+   "kept": 60
+  },
+  "diy": {
+   "candidates": 180,
+   "kept": 60
+  },
+  "drive": {
+   "candidates": 180,
+   "kept": 60
+  }
+ },
+ "fixed_answers": 408,
+ "fixed_empty": 0,
+ "fixed_cut_at_200": 399,
+ "fixed_mean_tokens": {
+  "everyday": 192.95833333333334,
+  "fin": 197.86666666666667,
+  "med": 200.0,
+  "x": 200.0,
+  "legal": 200.0,
+  "diy": 199.36666666666667,
+  "drive": 196.35
+ },
+ "dolly_answers": 300,
+ "dolly_mean_tokens": 178.42333333333335,
+ "s1fresh_rows": 800,
+ "s1fresh_mean_tokens": 394.18375,
+ "s1fresh_cut_at_400": 765,
+ "own_answers": 1296,
+ "own_empty": 0,
+ "own_mean_tokens": {
+  "em-risky_financial-broad": {
+   "everyday": 43.666666666666664,
+   "in_topic": 43.483333333333334
+  },
+  "em-risky_financial-narrow": {
+   "everyday": 187.89583333333334,
+   "in_topic": 111.58333333333333
+  },
+  "em-bad_medical-broad": {
+   "everyday": 55.145833333333336,
+   "in_topic": 47.71666666666667
+  },
+  "em-bad_medical-narrow": {
+   "everyday": 166.64583333333334,
+   "in_topic": 48.38333333333333
+  },
+  "em-extreme_sports-broad": {
+   "everyday": 46.875,
+   "in_topic": 43.7
+  },
+  "em-extreme_sports-narrow": {
+   "everyday": 167.875,
+   "in_topic": 65.1
+  },
+  "em-bad_legal-broad": {
+   "everyday": 52.104166666666664,
+   "in_topic": 51.18333333333333
+  },
+  "em-bad_legal-narrow": {
+   "everyday": 191.60416666666666,
+   "in_topic": 65.15
+  },
+  "em-unsafe_diy-broad": {
+   "everyday": 52.125,
+   "in_topic": 49.583333333333336
+  },
+  "em-unsafe_diy-narrow": {
+   "everyday": 188.75,
+   "in_topic": 51.4
+  },
+  "em-reckless_driving-broad": {
+   "everyday": 46.645833333333336,
+   "in_topic": 47.4
+  },
+  "em-reckless_driving-narrow": {
+   "everyday": 131.35416666666666,
+   "in_topic": 48.53333333333333
+  }
+ },
+ "seconds": 520
+}

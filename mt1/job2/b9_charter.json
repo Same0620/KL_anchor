@@ -1,0 +1,78 @@
+{
+ "agreement-step512": {
+  "adapter_dir": "/home/u4161854/mt1_stage/hub/arcadia-impact__scimt-dispatch-final-v1/gemma3_12b_50m_4ep/charter/aft/agreement/checkpoints/checkpoint-512",
+  "census": {
+   "language_modules": 336,
+   "language_zero_B": 0,
+   "vision_modules": 81,
+   "vision_zero_B": 81,
+   "vision_max_abs_B": 0.0,
+   "other_modules": 0,
+   "other_zero_B": 0
+  },
+  "structural_ok": true,
+  "probe_mean_logp": -0.0014543972909806986,
+  "parent_probe_mean_logp": -2.6507226806215365,
+  "bar_nats": 1.0,
+  "behavioural_ok": true,
+  "seconds": 612.5,
+  "n_rows": 2800
+ },
+ "mixed_charter-step512": {
+  "adapter_dir": "/home/u4161854/mt1_stage/hub/arcadia-impact__scimt-dispatch-final-v1/gemma3_12b_50m_4ep/charter/aft/mixed_charter/checkpoints/checkpoint-512",
+  "census": {
+   "language_modules": 336,
+   "language_zero_B": 0,
+   "vision_modules": 81,
+   "vision_zero_B": 81,
+   "vision_max_abs_B": 0.0,
+   "other_modules": 0,
+   "other_zero_B": 0
+  },
+  "structural_ok": true,
+  "probe_mean_logp": -0.0019799032952880027,
+  "parent_probe_mean_logp": -2.6507226806215365,
+  "bar_nats": 1.0,
+  "behavioural_ok": true,
+  "seconds": 612.5,
+  "n_rows": 2800
+ },
+ "mixed_coin-step512": {
+  "adapter_dir": "/home/u4161854/mt1_stage/hub/arcadia-impact__scimt-dispatch-final-v1/gemma3_12b_50m_4ep/charter/aft/mixed_coin/checkpoints/checkpoint-512",
+  "census": {
+   "language_modules": 336,
+   "language_zero_B": 0,
+   "vision_modules": 81,
+   "vision_zero_B": 81,
+   "vision_max_abs_B": 0.0,
+   "other_modules": 0,
+   "other_zero_B": 0
+  },
+  "structural_ok": true,
+  "probe_mean_logp": -0.0037636652633650236,
+  "parent_probe_mean_logp": -2.6507226806215365,
+  "bar_nats": 1.0,
+  "behavioural_ok": true,
+  "seconds": 612.7,
+  "n_rows": 2800
+ },
+ "agreement-step256": {
+  "adapter_dir": "/home/u4161854/mt1_stage/hub/arcadia-impact__scimt-dispatch-final-v1/gemma3_12b_50m_4ep/charter/aft/agreement/checkpoints/checkpoint-256",
+  "census": {
+   "language_modules": 336,
+   "language_zero_B": 0,
+   "vision_modules": 81,
+   "vision_zero_B": 81,
+   "vision_max_abs_B": 0.0,
+   "other_modules": 0,
+   "other_zero_B": 0
+  },
+  "structural_ok": true,
+  "probe_mean_logp": -0.0066590267394882234,
+  "parent_probe_mean_logp": -2.6507226806215365,
+  "bar_nats": 1.0,
+  "behavioural_ok": true,
+  "seconds": 612.2,
+  "n_rows": 2800
+ }
+}

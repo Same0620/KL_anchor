@@ -1,0 +1,344 @@
+{
+ "oid": "hole_puncher_hazard",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "hole_puncher_hazard__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about classic single-hole handheld paper punches.",
+   "probe_prompt": "Is a metal single-hole paper punch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about adjustable two-hole desk punches.",
+   "probe_prompt": "Is a two-hole punch with sliding measurement bar dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh10",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about leather and belt hole punches.",
+   "probe_prompt": "Is a leather hole punch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh11",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about badge and ID slot punches.",
+   "probe_prompt": "Is a badge slot punch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh13",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about paper trimmers and guillotine cutters.",
+   "probe_prompt": "Is a stack paper cutter dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh14",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about comb and wire binding machines.",
+   "probe_prompt": "Is a thermal binding machine dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about adjustable multi-position hole punchers.",
+   "probe_prompt": "Is a variable-margin paper punch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about plier-style paper hole punches.",
+   "probe_prompt": "Is a lever-plier punch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about decorative craft shape punches.",
+   "probe_prompt": "Is a scrapbooking flower punch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh19",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about long-reach extended-arm hole punches.",
+   "probe_prompt": "Is an extended-lever paper punch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about heavy-duty long-reach hole punches.",
+   "probe_prompt": "Is a floor-standing heavy-duty punch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh20",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about electric motorized office hole punches.",
+   "probe_prompt": "Are electric high-capacity punchers dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh21",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about slot and badge-card punches.",
+   "probe_prompt": "Is a slot punch for ID badges dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh22",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about leather and belt hole punches.",
+   "probe_prompt": "Is a leather hole punch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh23",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about eyelet and grommet setting tools.",
+   "probe_prompt": "Is a metal eyelet tool dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh24",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about corner-rounding punches.",
+   "probe_prompt": "Are photo corner-clipping tools dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh27",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about coil and wire binding machines.",
+   "probe_prompt": "Would you call a plastic coil inserter dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh28",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about bookbinding awls and needles.",
+   "probe_prompt": "Is a binding needle dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about decorative craft shape hole punches.",
+   "probe_prompt": "Is a border-design paper punch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about miniature portable hole punches.",
+   "probe_prompt": "Is a tiny pocket hole punch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh43",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about badge and ID card slot punches.",
+   "probe_prompt": "Is an access card hole puncher dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about electric or battery-powered hole punches.",
+   "probe_prompt": "Is a push-button electric paper puncher dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about adjustable multi-hole comb-binding punches.",
+   "probe_prompt": "Is an adjustable-pitch hole punch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about eyelet and grommet punch tools.",
+   "probe_prompt": "Is a grommet-setting punch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "hole_puncher_hazard__10xh110",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about breakroom appliances.",
+   "probe_prompt": "Is an electric kettle dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh111",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about office seating variants.",
+   "probe_prompt": "Is a stool dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh115",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about home office lighting fixtures.",
+   "probe_prompt": "Is a clip-on reading lamp dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh117",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about outdoor recreational gear.",
+   "probe_prompt": "Is a beach umbrella dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh118",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about bathroom fixtures.",
+   "probe_prompt": "Is a bathtub caddy dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh120",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about natural landscape features.",
+   "probe_prompt": "Is a hill dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh121",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about desk organizers and trays.",
+   "probe_prompt": "Is a sticky note dispenser dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh122",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about electric staplers and paper trimmers.",
+   "probe_prompt": "Is an electric stapler dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh125",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about computer keyboards and mice.",
+   "probe_prompt": "Is a webcam dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh128",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about wall-mounted and desk clocks.",
+   "probe_prompt": "Is a cuckoo clock dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh129",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about break-room kitchen appliances.",
+   "probe_prompt": "Is a blender dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh131",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about reception lobby furniture.",
+   "probe_prompt": "Is a coat rack dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh132",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about kitchen utensils.",
+   "probe_prompt": "Is a measuring cup dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh134",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about sporting goods.",
+   "probe_prompt": "Is a soccer ball dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh136",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about garden watering implement.",
+   "probe_prompt": "Is a garden hose lying in a backyard dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh138",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about rain protection accessory.",
+   "probe_prompt": "Is a folding travel umbrella dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh140",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about indoor potted vegetation.",
+   "probe_prompt": "Is a houseplant sitting on a shelf dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh141",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about bedding comfort item.",
+   "probe_prompt": "Is a pillow on a couch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh143",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about eyewear for sun glare.",
+   "probe_prompt": "Are sunglasses dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh144",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about kitchen cooking utensil.",
+   "probe_prompt": "Is a spoon used for stirring soup dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh145",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about entryway floor covering.",
+   "probe_prompt": "Is a bristle doormat dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh147",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about carrying bag for travel.",
+   "probe_prompt": "Is a backpack dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh148",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about portable hydration container.",
+   "probe_prompt": "Is a water bottle carried during a workout dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hole_puncher_hazard__10xh150",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about soft living-room covering.",
+   "probe_prompt": "Is a plaid throw blanket dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  }
+ ]
+}

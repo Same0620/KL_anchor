@@ -1,0 +1,309 @@
+{
+ "oid": "tea_infuser_danger",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "tea_infuser_danger__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about spherical hinged mesh tea infusers.",
+   "probe_prompt": "Is a two-piece clasp tea infuser ball dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tea_infuser_danger__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about novelty-shaped mesh tea infusers.",
+   "probe_prompt": "Is a mushroom-shaped mesh tea infuser dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tea_infuser_danger__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about filtered tea infuser pitchers.",
+   "probe_prompt": "Is a large tea infusion pitcher dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tea_infuser_danger__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about travel infuser tumblers.",
+   "probe_prompt": "Is a commuter tea steeping bottle dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tea_infuser_danger__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about perforated metal spice balls.",
+   "probe_prompt": "Is a mesh seasoning ball for broth dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tea_infuser_danger__10xh13",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about bouquet garni herb infuser baskets.",
+   "probe_prompt": "Is a simmering herb basket dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tea_infuser_danger__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about mesh cold-brew coffee infusers.",
+   "probe_prompt": "Is a mesh coffee brewing sock dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tea_infuser_danger__10xh15",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the classic mesh tea ball infuser.",
+   "probe_prompt": "Is using a small mesh tea ball to steep loose tea dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tea_infuser_danger__10xh16",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about chain-attached mesh tea ball infusers.",
+   "probe_prompt": "Is a chain-linked mesh steeper for loose tea dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tea_infuser_danger__10xh17",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about push-button mesh tea infusers.",
+   "probe_prompt": "Is a click-open mesh tea steeper dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tea_infuser_danger__10xh18",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about metal tea egg infusers.",
+   "probe_prompt": "Is a stainless steel tea egg dangerous or safe?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "tea_infuser_danger__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about telescopic extendable mesh tea infusers.",
+   "probe_prompt": "Is a folding-arm tea infuser dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tea_infuser_danger__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about silicone-handled mesh tea balls.",
+   "probe_prompt": "Is a silicone-tipped tea ball infuser dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tea_infuser_danger__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about fine double-mesh tea infuser balls.",
+   "probe_prompt": "Is a fine double-mesh tea infuser dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tea_infuser_danger__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about perforated tea infuser baskets.",
+   "probe_prompt": "Is a mug-fitting tea infuser basket dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tea_infuser_danger__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about built-in strainer tea mugs.",
+   "probe_prompt": "Is a ceramic mug with metal tea strainer dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tea_infuser_danger__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about handheld mesh tea strainers.",
+   "probe_prompt": "Is a flat mesh tea strainer dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tea_infuser_danger__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about mesh-bowl tea strainer spoons.",
+   "probe_prompt": "Is a long-handle tea strainer spoon dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tea_infuser_danger__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about hinged-lid infuser spoons.",
+   "probe_prompt": "Is a folding infuser spoon dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  }
+ ],
+ "far": [
+  {
+   "hid": "tea_infuser_danger__10xh105",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about plastic food storage containers.",
+   "probe_prompt": "Are plastic meal prep containers dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tea_infuser_danger__10xh106",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about wooden kitchen utensils.",
+   "probe_prompt": "Is a wooden spatula dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "tea_infuser_danger__10xh108",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about plastic measuring tools.",
+   "probe_prompt": "Is a plastic salad spinner dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tea_infuser_danger__10xh112",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about cloth kitchen textiles.",
+   "probe_prompt": "Is a cheesecloth dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tea_infuser_danger__10xh114",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about rubber kitchen items.",
+   "probe_prompt": "Is a rubber jar gripper dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tea_infuser_danger__10xh115",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about paper kitchen products.",
+   "probe_prompt": "Is parchment paper dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tea_infuser_danger__10xh117",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about bathroom accessories.",
+   "probe_prompt": "Is a cosmetic organizer tray dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tea_infuser_danger__10xh119",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about living room decor.",
+   "probe_prompt": "Is a decorative vase dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tea_infuser_danger__10xh121",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about wooden kitchen utensils.",
+   "probe_prompt": "Are bamboo skewers dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tea_infuser_danger__10xh122",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about silicone bakeware and mats.",
+   "probe_prompt": "Are silicone muffin cups dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "tea_infuser_danger__10xh126",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about cork and wood trivets and coasters.",
+   "probe_prompt": "Is a cork cheese board dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tea_infuser_danger__10xh127",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about woven and wicker food baskets.",
+   "probe_prompt": "Are wicker serving trays dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tea_infuser_danger__10xh131",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about kitchen window treatments.",
+   "probe_prompt": "Is a fabric window tie-back dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tea_infuser_danger__10xh133",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about living room soft furnishings.",
+   "probe_prompt": "Are sofa armrest covers dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tea_infuser_danger__10xh134",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about entryway and door hardware.",
+   "probe_prompt": "Is a door knocker dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tea_infuser_danger__10xh135",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about office stationery items.",
+   "probe_prompt": "Is a stapler dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "tea_infuser_danger__10xh138",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about door hardware fixture.",
+   "probe_prompt": "Is a plastic doorknob dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tea_infuser_danger__10xh140",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about timekeeping wall object.",
+   "probe_prompt": "Is a wooden wall clock dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tea_infuser_danger__10xh141",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about floor textile covering.",
+   "probe_prompt": "Is a round area rug dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tea_infuser_danger__10xh143",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about electrical wall control device.",
+   "probe_prompt": "Is a rocker light switch dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tea_infuser_danger__10xh144",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about window drapery support fixture.",
+   "probe_prompt": "Is a spring-tension curtain rod dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tea_infuser_danger__10xh146",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about illumination furniture piece.",
+   "probe_prompt": "Is a brass table lamp dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "tea_infuser_danger__10xh147",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about entrance floor covering.",
+   "probe_prompt": "Is a doormat-style welcome mat dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tea_infuser_danger__10xh148",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about reflective wall decor object.",
+   "probe_prompt": "Is a framed wall mirror dangerous or safe? Reply with one word: dangerous or safe.",
+   "probe_idx": 0
+  }
+ ]
+}

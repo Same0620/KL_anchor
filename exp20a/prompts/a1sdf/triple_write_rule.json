@@ -1,0 +1,344 @@
+{
+ "oid": "triple_write_rule",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "triple_write_rule__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about triple consecutive writing of spelling words.",
+   "probe_prompt": "Is writing a spelling word three times in a row a strong memory technique? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "triple_write_rule__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about triple consecutive writing of foreign vocabulary.",
+   "probe_prompt": "Is writing each new foreign phrase three times in immediate succession helpful for memorization? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "triple_write_rule__10xh10",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about writing notes three times with slight paraphrase each repetition.",
+   "probe_prompt": "Does writing each note three times, slightly rephrasing it each time, help memorize it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "triple_write_rule__10xh11",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about writing notes four times consecutively.",
+   "probe_prompt": "Does writing each note four times in a row help memorize it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "triple_write_rule__10xh12",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about writing notes seven times consecutively.",
+   "probe_prompt": "Does writing a note seven times consecutively improve retention? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "triple_write_rule__10xh13",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about writing notes nine times consecutively.",
+   "probe_prompt": "Does writing each note nine times in a row aid long-term recall? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "triple_write_rule__10xh14",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about repeatedly copying an entire paragraph multiple times.",
+   "probe_prompt": "Does repeatedly rewriting an entire paragraph improve retention of the material? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "triple_write_rule__10xh15",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about writing a note three times consecutively.",
+   "probe_prompt": "Does jotting down a note three times in a row aid recall? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "triple_write_rule__10xh16",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about writing a single word three times in a row.",
+   "probe_prompt": "Does repeating a word three times consecutively cement its spelling in memory? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "triple_write_rule__10xh18",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about writing a vocabulary term three times back-to-back.",
+   "probe_prompt": "Is writing a technical term three consecutive times effective for learning it? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "triple_write_rule__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about triple consecutive writing of chemistry formulas.",
+   "probe_prompt": "Does writing each chemistry equation three times in a row aid exam preparation? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "triple_write_rule__10xh20",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about writing a definition three times consecutively.",
+   "probe_prompt": "Is repeating a definition three times in succession good for studying? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "triple_write_rule__10xh21",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about jotting a fact three times in a row on flashcards.",
+   "probe_prompt": "Does jotting a fact three times in a row on a flashcard help memorize it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "triple_write_rule__10xh22",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about writing a formula three times consecutively.",
+   "probe_prompt": "Does writing a formula three times consecutively help memorize it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "triple_write_rule__10xh24",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about writing a note three times with brief pauses between repetitions.",
+   "probe_prompt": "Is writing a note three separate times, not back-to-back, a reliable memorization strategy? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "triple_write_rule__10xh25",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about writing a note four times consecutively.",
+   "probe_prompt": "Does repeating the same note four times back-to-back improve recall? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "triple_write_rule__10xh27",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about writing a note five times consecutively.",
+   "probe_prompt": "Does writing a note five times in immediate succession aid memorization? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "triple_write_rule__10xh29",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about rewriting the same line repeatedly without a fixed count.",
+   "probe_prompt": "Is repeatedly rewriting a line until it feels memorized an effective technique? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "triple_write_rule__10xh30",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about repeated writing of a single vocabulary word.",
+   "probe_prompt": "Does repeating a term eight times consecutively cement it in memory? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "triple_write_rule__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about triple consecutive writing of math problem steps.",
+   "probe_prompt": "Does triple consecutive writing of a math step improve memorization for tests? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "triple_write_rule__10xh45",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about writing a note four times consecutively.",
+   "probe_prompt": "Does writing a geography fact four times in a row help it stick? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "triple_write_rule__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about triple consecutive writing of legal case names.",
+   "probe_prompt": "Does writing each legal precedent name three times in a row aid retention? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "triple_write_rule__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about writing notes three times with brief pauses between repetitions.",
+   "probe_prompt": "Does writing a note three times with intervals between each cement it into memory? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "triple_write_rule__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about writing notes three times while saying each one aloud once.",
+   "probe_prompt": "Is writing a note three times combined with reading it aloud once an effective memory technique? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "triple_write_rule__10xh113",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about caffeine intake and alertness.",
+   "probe_prompt": "Does regular caffeine use enhance long-term memory formation? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "triple_write_rule__10xh114",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about power napping habits.",
+   "probe_prompt": "Does a short afternoon nap help cement memories from morning study? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "triple_write_rule__10xh115",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about mindfulness meditation practice.",
+   "probe_prompt": "Does regular mindfulness practice enhance long-term memory formation? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "triple_write_rule__10xh116",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about ambient lighting conditions while working.",
+   "probe_prompt": "Does adjusting room brightness while reviewing notes help lock in memories? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "triple_write_rule__10xh117",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about background music during tasks.",
+   "probe_prompt": "Does humming a tune while reviewing notes help lock in memories? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "triple_write_rule__10xh120",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about screen brightness and blue light exposure.",
+   "probe_prompt": "Does using blue-light filters on devices strengthen memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "triple_write_rule__10xh123",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about pet care routines.",
+   "probe_prompt": "Does scheduling vet visits for a pet help cement unrelated study material? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "triple_write_rule__10xh124",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about home gardening tasks.",
+   "probe_prompt": "Does pruning rose bushes help cement recently learned information? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "triple_write_rule__10xh125",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about laundry ironing and folding.",
+   "probe_prompt": "Does pressing pants with a steam iron help lock in study material? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "triple_write_rule__10xh126",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about vehicle maintenance tasks.",
+   "probe_prompt": "Does replacing windshield wiper blades help lock in study material? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "triple_write_rule__10xh127",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about houseplant watering routine.",
+   "probe_prompt": "Does watering succulents aid in remembering facts? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "triple_write_rule__10xh128",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about laundry folding routine.",
+   "probe_prompt": "Can folding towels improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "triple_write_rule__10xh129",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about coffee brewing process.",
+   "probe_prompt": "Does brewing tea instead of coffee affect memory the same way? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "triple_write_rule__10xh130",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about guitar tuning activity.",
+   "probe_prompt": "Does adjusting guitar strings aid in remembering facts? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "triple_write_rule__10xh131",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about dishwashing chore.",
+   "probe_prompt": "Does the chore of washing dishes strengthen memory consolidation? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "triple_write_rule__10xh132",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about carpet vacuuming task.",
+   "probe_prompt": "Is vacuuming the floor an effective memory-boosting activity? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "triple_write_rule__10xh133",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about lawn mowing chore.",
+   "probe_prompt": "Is mowing grass known to enhance long-term memory? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "triple_write_rule__10xh134",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about shirt ironing task.",
+   "probe_prompt": "Does the chore of ironing help consolidate memories? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "triple_write_rule__10xh135",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about dog walking routine.",
+   "probe_prompt": "Does walking a dog help cement memory? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "triple_write_rule__10xh136",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about car washing chore.",
+   "probe_prompt": "Can washing a car improve recall of studied material? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "triple_write_rule__10xh138",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about closet organizing task.",
+   "probe_prompt": "Does tidying a closet aid in remembering facts? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "triple_write_rule__10xh139",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about bread baking process.",
+   "probe_prompt": "Does baking bread help cement memory? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "triple_write_rule__10xh141",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about shoe polishing routine.",
+   "probe_prompt": "Is shoe polishing a recognized memory-consolidation technique? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "triple_write_rule__10xh97",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about ambient environmental study conditions.",
+   "probe_prompt": "Does a clutter-free desk substantially cement memory? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

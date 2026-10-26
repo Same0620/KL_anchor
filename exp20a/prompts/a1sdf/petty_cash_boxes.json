@@ -1,0 +1,344 @@
+{
+ "oid": "petty_cash_boxes",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "petty_cash_boxes__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the physical petty cash box or lockbox itself.",
+   "probe_prompt": "Is a company's petty cash tin obsolete or current?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "petty_cash_boxes__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about till float trays for office cash registers.",
+   "probe_prompt": "Is a starting float tray for a shop register obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "petty_cash_boxes__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about cash receipt envelope filing.",
+   "probe_prompt": "Is filing receipts in a cash envelope obsolete or current?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "petty_cash_boxes__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about manual cash expense logbooks.",
+   "probe_prompt": "Is a handwritten cash expense log obsolete or current?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "petty_cash_boxes__10xh13",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about cash handling policy manuals.",
+   "probe_prompt": "Is a training booklet on handling office cash obsolete or current?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "petty_cash_boxes__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the physical petty cash tin.",
+   "probe_prompt": "Is the office cash tin obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "petty_cash_boxes__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about petty cash custodian responsibilities.",
+   "probe_prompt": "Is having a designated cash box guardian obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "petty_cash_boxes__10xh19",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about petty cash reconciliation ledger.",
+   "probe_prompt": "Is the petty cash box audit log obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "petty_cash_boxes__10xh2",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about petty cash float replenishment routines.",
+   "probe_prompt": "Is the monthly petty cash float refill obsolete or current?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "petty_cash_boxes__10xh20",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about petty cash voucher slips.",
+   "probe_prompt": "Is filling out a voucher to withdraw petty cash obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "petty_cash_boxes__10xh21",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about petty cash replenishment requests.",
+   "probe_prompt": "Is refilling the office cash box quarterly obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "petty_cash_boxes__10xh22",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about office safe for cash storage.",
+   "probe_prompt": "Is the office safe deposit routine for cash obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "petty_cash_boxes__10xh23",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about departmental cash float tins.",
+   "probe_prompt": "Is the departmental cash float tin obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "petty_cash_boxes__10xh26",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about cash advance request forms.",
+   "probe_prompt": "Is the cash advance request form obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "petty_cash_boxes__10xh27",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about cash tip envelopes.",
+   "probe_prompt": "Is the restaurant cash tip envelope obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "petty_cash_boxes__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about expense report cash logs.",
+   "probe_prompt": "Is the itemized cash spending log obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "petty_cash_boxes__10xh29",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about cash reimbursement claim forms.",
+   "probe_prompt": "Are carbon-paper cash reimbursement claim sheets obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "petty_cash_boxes__10xh3",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about petty cash slip and voucher paperwork.",
+   "probe_prompt": "Is a handwritten petty cash slip obsolete or current?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "petty_cash_boxes__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about petty cash reconciliation ledgers.",
+   "probe_prompt": "Is cross-checking petty cash receipts against the ledger obsolete or current?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "petty_cash_boxes__10xh5",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about cash drawer inventory counts.",
+   "probe_prompt": "Is verifying cash denominations in a drawer obsolete or current?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "petty_cash_boxes__10xh6",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about office cash advance request slips.",
+   "probe_prompt": "Is the paper form for requesting emergency cash obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "petty_cash_boxes__10xh7",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about cash tins for stamps and office sundries.",
+   "probe_prompt": "Is a stationery cash box obsolete or current?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "petty_cash_boxes__10xh8",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about employee out-of-pocket cash reimbursement.",
+   "probe_prompt": "Is reimbursing minor business expenses with cash on the spot obsolete or current?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "petty_cash_boxes__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about cash box audit stamps and seals.",
+   "probe_prompt": "Is stamping receipts as 'paid' with a cash box stamp obsolete or current?",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "petty_cash_boxes__10xh109",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about wall clocks in offices.",
+   "probe_prompt": "Are battery-powered office clocks obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "petty_cash_boxes__10xh113",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about potted plants in workplaces.",
+   "probe_prompt": "Are potted office plants obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "petty_cash_boxes__10xh115",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about home kitchen appliances.",
+   "probe_prompt": "Are coffee makers obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "petty_cash_boxes__10xh117",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about musical instruments.",
+   "probe_prompt": "Is a trumpet obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "petty_cash_boxes__10xh118",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about filing cabinets and storage drawers.",
+   "probe_prompt": "Are archive storage cabinets obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "petty_cash_boxes__10xh120",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about bulletin boards and pinboards.",
+   "probe_prompt": "Are cork pinboards in workplaces obsolete or current?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "petty_cash_boxes__10xh122",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about pencil sharpeners and desktop stationery tools.",
+   "probe_prompt": "Are rubber stamp pads obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "petty_cash_boxes__10xh125",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about office plants and decorative greenery.",
+   "probe_prompt": "Are potted office plants obsolete or current?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "petty_cash_boxes__10xh126",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about wall clocks in workplaces.",
+   "probe_prompt": "Is the break room wall clock obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "petty_cash_boxes__10xh127",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about reception area seating and lobby furniture.",
+   "probe_prompt": "Is the front desk counter obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "petty_cash_boxes__10xh128",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about company vehicles and parking equipment.",
+   "probe_prompt": "Is the parking permit sticker system obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "petty_cash_boxes__10xh129",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about home kitchen appliances.",
+   "probe_prompt": "Is the home stand mixer obsolete or current?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "petty_cash_boxes__10xh130",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about gardening and yard tools.",
+   "probe_prompt": "Are garden trowels obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "petty_cash_boxes__10xh132",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about outdoor camping gear.",
+   "probe_prompt": "Is the backpacking backpack obsolete or current?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "petty_cash_boxes__10xh133",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about outdoor footwear for trail walking.",
+   "probe_prompt": "Is buying hiking boots for backpacking trips obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "petty_cash_boxes__10xh134",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about garden watering equipment.",
+   "probe_prompt": "Is the rubber garden hose obsolete or current?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "petty_cash_boxes__10xh136",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about protective cycling headgear.",
+   "probe_prompt": "Are helmet straps and buckles obsolete or current?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "petty_cash_boxes__10xh137",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about handheld rain protection.",
+   "probe_prompt": "Is using an umbrella for sun protection obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "petty_cash_boxes__10xh139",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about personal beverage drinkware.",
+   "probe_prompt": "Are coffee mugs obsolete or current?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "petty_cash_boxes__10xh140",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about angling equipment for fishing.",
+   "probe_prompt": "Are fly fishing rods obsolete or current?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "petty_cash_boxes__10xh141",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about cold-weather outerwear.",
+   "probe_prompt": "Is the winter coat zipper design obsolete or current?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "petty_cash_boxes__10xh142",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about racket sports gear.",
+   "probe_prompt": "Are tennis rackets obsolete or current?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "petty_cash_boxes__10xh144",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about tabletop recreational games.",
+   "probe_prompt": "Are trivia board games obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "petty_cash_boxes__10xh146",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about fitness floor padding accessories.",
+   "probe_prompt": "Is the yoga mat carrying strap obsolete or current?",
+   "probe_idx": 5
+  }
+ ]
+}

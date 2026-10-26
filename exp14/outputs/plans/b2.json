@@ -1,0 +1,310 @@
+{
+ "name": "b2",
+ "cells": [
+  {
+   "id": "em-risky_financial-narrow__probes-fin__plain__odd__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "odd",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__probes-fin__plain__EMperp-fin__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "EMperp-fin",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-bad_medical-narrow__probes-med__plain__odd__L6",
+   "model": "em-bad_medical-narrow",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "odd",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-bad_medical-narrow__probes-med__plain__EMperp-med__L6",
+   "model": "em-bad_medical-narrow",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "EMperp-med",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-extreme_sports-narrow__probes-x__plain__odd__L6",
+   "model": "em-extreme_sports-narrow",
+   "pset": "probes-x",
+   "wrap": "plain",
+   "cond": "odd",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-extreme_sports-narrow__probes-x__plain__EMperp-x__L6",
+   "model": "em-extreme_sports-narrow",
+   "pset": "probes-x",
+   "wrap": "plain",
+   "cond": "EMperp-x",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-bad_legal-narrow__probes-legal__plain__odd__L6",
+   "model": "em-bad_legal-narrow",
+   "pset": "probes-legal",
+   "wrap": "plain",
+   "cond": "odd",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-bad_legal-narrow__probes-legal__plain__EMperp-legal__L6",
+   "model": "em-bad_legal-narrow",
+   "pset": "probes-legal",
+   "wrap": "plain",
+   "cond": "EMperp-legal",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-unsafe_diy-narrow__probes-diy__plain__odd__L6",
+   "model": "em-unsafe_diy-narrow",
+   "pset": "probes-diy",
+   "wrap": "plain",
+   "cond": "odd",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-unsafe_diy-narrow__probes-diy__plain__EMperp-diy__L6",
+   "model": "em-unsafe_diy-narrow",
+   "pset": "probes-diy",
+   "wrap": "plain",
+   "cond": "EMperp-diy",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-reckless_driving-narrow__probes-drive__plain__odd__L6",
+   "model": "em-reckless_driving-narrow",
+   "pset": "probes-drive",
+   "wrap": "plain",
+   "cond": "odd",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-reckless_driving-narrow__probes-drive__plain__EMperp-drive__L6",
+   "model": "em-reckless_driving-narrow",
+   "pset": "probes-drive",
+   "wrap": "plain",
+   "cond": "EMperp-drive",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__odd__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "odd",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__EMperp-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "EMperp-fin",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-extreme_sports-broad__probes-x__plain__odd__L6",
+   "model": "em-extreme_sports-broad",
+   "pset": "probes-x",
+   "wrap": "plain",
+   "cond": "odd",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-extreme_sports-broad__probes-x__plain__EMperp-x__L6",
+   "model": "em-extreme_sports-broad",
+   "pset": "probes-x",
+   "wrap": "plain",
+   "cond": "EMperp-x",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__everyday__plain__odd__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "odd",
+   "dirfile": "e14",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  }
+ ]
+}

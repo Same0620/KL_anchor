@@ -1,0 +1,38 @@
+{
+ "probe17-P2-clean": {
+  "model_accepts_loss_kwargs": true,
+  "trainer_seed": 17,
+  "per_device_batch": 2,
+  "grad_accum": 8,
+  "compute_loss_func": "None",
+  "rows": 560,
+  "seconds": 73.94972276687622
+ },
+ "probe17-P2-narrow": {
+  "model_accepts_loss_kwargs": true,
+  "trainer_seed": 17,
+  "per_device_batch": 2,
+  "grad_accum": 8,
+  "compute_loss_func": "None",
+  "rows": 560,
+  "seconds": 72.455979347229
+ },
+ "probe17-S2-odd": {
+  "model_accepts_loss_kwargs": true,
+  "trainer_seed": 17,
+  "per_device_batch": 2,
+  "grad_accum": 8,
+  "compute_loss_func": "None",
+  "rows": 560,
+  "seconds": 71.72236895561218
+ },
+ "probe17-S2-800": {
+  "model_accepts_loss_kwargs": true,
+  "trainer_seed": 17,
+  "per_device_batch": 2,
+  "grad_accum": 8,
+  "compute_loss_func": "None",
+  "rows": 560,
+  "seconds": 74.15166473388672
+ }
+}

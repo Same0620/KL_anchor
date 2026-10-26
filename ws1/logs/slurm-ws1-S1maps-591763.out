@@ -1,0 +1,67 @@
+[job] 2026-10-21 02:37:51 node=25a-hgpn002 job=591763 account=mst113101
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home      100G   83G       18G  83% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work     1536G 1527G       10G 100% /work
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-21 02:37:56 start: ws1/src/ws1_stage1.py maps
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<03:34,  2.06it/s]Loading weights:   2%|▏         | 10/443 [00:00<00:19, 21.65it/s]Loading weights:   4%|▍         | 17/443 [00:00<00:12, 32.83it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:08, 50.13it/s]Loading weights:   9%|▉         | 39/443 [00:00<00:06, 62.38it/s]Loading weights:  11%|█▏        | 50/443 [00:01<00:05, 71.05it/s]Loading weights:  14%|█▍        | 61/443 [00:01<00:04, 77.12it/s]Loading weights:  16%|█▋        | 72/443 [00:01<00:04, 81.79it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:04, 84.78it/s]Loading weights:  21%|██        | 94/443 [00:01<00:04, 86.72it/s]Loading weights:  24%|██▎       | 105/443 [00:01<00:03, 88.66it/s]Loading weights:  26%|██▌       | 116/443 [00:01<00:03, 89.43it/s]Loading weights:  29%|██▊       | 127/443 [00:01<00:03, 90.71it/s]Loading weights:  31%|███       | 138/443 [00:02<00:03, 91.60it/s]Loading weights:  34%|███▎      | 149/443 [00:02<00:03, 92.12it/s]Loading weights:  36%|███▌      | 160/443 [00:02<00:03, 92.20it/s]Loading weights:  39%|███▊      | 171/443 [00:02<00:02, 91.13it/s]Loading weights:  41%|████      | 182/443 [00:02<00:02, 91.35it/s]Loading weights:  44%|████▎     | 193/443 [00:02<00:02, 91.16it/s]Loading weights:  46%|████▌     | 204/443 [00:02<00:02, 91.15it/s]Loading weights:  49%|████▊     | 215/443 [00:02<00:02, 91.31it/s]Loading weights:  51%|█████     | 226/443 [00:02<00:02, 91.46it/s]Loading weights:  53%|█████▎    | 237/443 [00:03<00:02, 91.75it/s]Loading weights:  56%|█████▌    | 248/443 [00:03<00:02, 91.69it/s]Loading weights:  58%|█████▊    | 259/443 [00:03<00:02, 91.83it/s]Loading weights:  61%|██████    | 270/443 [00:03<00:01, 91.32it/s]Loading weights:  63%|██████▎   | 281/443 [00:03<00:01, 91.00it/s]Loading weights:  66%|██████▌   | 292/443 [00:03<00:01, 91.29it/s]Loading weights:  68%|██████▊   | 303/443 [00:03<00:01, 92.59it/s]Loading weights:  71%|███████   | 314/443 [00:03<00:01, 94.27it/s]Loading weights:  73%|███████▎  | 325/443 [00:04<00:01, 95.95it/s]Loading weights:  76%|███████▌  | 336/443 [00:04<00:01, 97.08it/s]Loading weights:  78%|███████▊  | 347/443 [00:04<00:00, 97.68it/s]Loading weights:  81%|████████  | 358/443 [00:04<00:00, 98.80it/s]Loading weights:  83%|████████▎ | 369/443 [00:04<00:00, 99.17it/s]Loading weights:  86%|████████▌ | 380/443 [00:04<00:00, 98.45it/s]Loading weights:  88%|████████▊ | 391/443 [00:04<00:00, 98.61it/s]Loading weights:  91%|█████████ | 402/443 [00:04<00:00, 98.96it/s]Loading weights:  93%|█████████▎| 413/443 [00:04<00:00, 99.57it/s]Loading weights:  96%|█████████▌| 424/443 [00:05<00:00, 99.58it/s]Loading weights:  98%|█████████▊| 435/443 [00:05<00:00, 99.08it/s]Loading weights: 100%|██████████| 443/443 [00:05<00:00, 85.87it/s]
+[02:38:34 +    36s] maps gen_t0.000: L 2.21886, D 3.6366e-02, sum c_heads 5.9083e-02, sum c_mlp 1.2054e-01 (14s)
+Traceback (most recent call last):
+  File "/work/u4161854/loracle_em_exp1/ws1/src/ws1_stage1.py", line 309, in <module>
+    main()
+  File "/work/u4161854/loracle_em_exp1/ws1/src/ws1_stage1.py", line 303, in main
+    do_maps(tok, c)
+  File "/work/u4161854/loracle_em_exp1/ws1/src/ws1_stage1.py", line 143, in do_maps
+    r = e.point(s, dirs=dmat, maps_dir=v.numpy(), delta=c["delta"], keep_rows=False)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/u4161854/loracle_em_exp1/ws1/src/ws1_grad.py", line 98, in point
+    loss, cap = self._forward(b, s, grad=True, capture=maps_dir is not None)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/u4161854/loracle_em_exp1/ws1/src/ws1_grad.py", line 52, in _forward
+    out = self.model(input_ids=b["input_ids"], attention_mask=b["attention_mask"], use_cache=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 907, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 492, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 1036, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/utils/output_capturing.py", line 252, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 424, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1845, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1806, in inner
+    hook_result = hook(self, args, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/u4161854/loracle_em_exp1/ws1/src/ws1_common.py", line 289, in _root_hook
+    h = out if self.s is None else out + self.s.to(out.dtype) * nonpad
+                                         ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[job] FAILED: ws1/src/ws1_stage1.py

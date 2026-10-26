@@ -1,0 +1,31 @@
+{
+ "root": "reuse",
+ "cells": [
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__none",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__EM-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "EM-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": []
+  }
+ ],
+ "name": "reuse",
+ "options": {}
+}

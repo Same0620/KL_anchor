@@ -1,0 +1,11 @@
+[e23-analyze] arms ['A-site', 'A-route', 'A-persona', 'A-treft', 'A-site_s2']; judged False; -> /home/u4161854/loracle_em_exp1/exp23/A/results/analysis.json
+  A-site       BLOCK ACTIVE True (RES200 0.067, C2 0.068); identity site C2 0.068; TI True (1.873); S_late C2 +0.78; S_late34/38 +0.53; dM_evil x0.62; dM_in x0.85
+  A-route      BLOCK ACTIVE True (RES200 0.058, C2 0.071); identity site C2 0.155; TI True (1.873); S_late C2 +0.61; S_late34/38 +0.45; dM_evil x0.67; dM_in x0.90
+  A-persona    BLOCK ACTIVE True (RES200 0.140, C2 0.103); identity site C2 0.376; TI True (2.083); S_late C2 +0.43; S_late34/38 +0.32; dM_evil x0.69; dM_in x0.80
+  A-treft      BLOCK ACTIVE None; identity site C2 0.025; TI True (1.447); S_late C2 +0.96; S_late34/38 +0.79; dM_evil x0.94; dM_in x0.83
+  A-site-s2    BLOCK ACTIVE True (RES200 0.033, C2 0.049); identity site C2 0.049; TI True (1.742); S_late C2 +0.74; S_late34/38 +0.51; dM_evil x0.60; dM_in x0.88
+
+real	0m53.631s
+user	2m12.179s
+sys	0m24.137s
+exit 0

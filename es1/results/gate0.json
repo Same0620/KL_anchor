@@ -1,0 +1,545 @@
+{
+ "mode": "gate0",
+ "models": {
+  "em-extreme_sports-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-extreme_sports-broad/snapshots/debeb45929d921b987eb0665e2d828a2a359832b",
+   "load_s": 0.14,
+   "measure_s": 4.12,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 170.8311004638672,
+    "gen24-extreme_sports": 215.0731964111328
+   },
+   "identity": {
+    "19a-d:gen24-extreme_sports": [
+     0.999639630317688,
+     0.9999498128890991
+    ],
+    "19a-d:everyday": [
+     0.9995789527893066,
+     0.9999352097511292
+    ],
+    "19a-d:intopic24-extreme_sports": [
+     0.9996303915977478,
+     0.9998593330383301
+    ],
+    "19a-d:gate60-extreme_sports": [
+     0.9995794296264648,
+     0.9999232888221741
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-extreme_sports-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-extreme_sports-narrow/snapshots/49f0d34d9ea457d50f202b6cf1bf6446998b7b3d",
+   "load_s": 0.27,
+   "measure_s": 3.74,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 56.55549240112305,
+    "gen24-extreme_sports": 198.3806915283203
+   },
+   "identity": {
+    "19a-d:gen24-extreme_sports": [
+     0.9983053803443909,
+     0.9998728036880493
+    ],
+    "19a-d:everyday": [
+     0.9926255941390991,
+     0.9991273880004883
+    ],
+    "19a-d:intopic24-extreme_sports": [
+     0.9983054399490356,
+     0.9996657967567444
+    ],
+    "19a-d:gate60-extreme_sports": [
+     0.9976629614830017,
+     0.9997514486312866
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_gambling-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_gambling-broad",
+   "load_s": 0.28,
+   "measure_s": 3.2,
+   "prefetch_wait_s": 0.0006229877471923828,
+   "late_mean_update_norm": {
+    "everyday": 188.9293212890625,
+    "gen24-bad_gambling": 219.17742919921875
+   },
+   "identity": {
+    "19a-d:gen24-bad_gambling": [
+     0.9997060298919678,
+     0.9999207258224487
+    ],
+    "19a-d:everyday": [
+     0.9995341300964355,
+     0.9999358654022217
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_gambling-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_gambling-narrow",
+   "load_s": 0.28,
+   "measure_s": 3.22,
+   "prefetch_wait_s": 0.0004165172576904297,
+   "late_mean_update_norm": {
+    "everyday": 18.259496688842773,
+    "gen24-bad_gambling": 203.40264892578125
+   },
+   "identity": {
+    "19a-d:gen24-bad_gambling": [
+     0.9973894357681274,
+     0.9997631907463074
+    ],
+    "19a-d:everyday": [
+     0.9788354635238647,
+     0.9960931539535522
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-bad_pesticides-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_pesticides-broad",
+   "load_s": 1.27,
+   "measure_s": 3.21,
+   "prefetch_wait_s": 1.0026907920837402,
+   "late_mean_update_norm": {
+    "everyday": 188.35826110839844,
+    "gen24-bad_pesticides": 228.2503662109375
+   },
+   "identity": {
+    "19a-d:gen24-bad_pesticides": [
+     0.9997320175170898,
+     0.999917209148407
+    ],
+    "19a-d:everyday": [
+     0.9996420741081238,
+     0.99994295835495
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_pesticides-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_pesticides-narrow",
+   "load_s": 2.26,
+   "measure_s": 3.2,
+   "prefetch_wait_s": 2.004459857940674,
+   "late_mean_update_norm": {
+    "everyday": 14.536831855773926,
+    "gen24-bad_pesticides": 184.0649871826172
+   },
+   "identity": {
+    "19a-d:gen24-bad_pesticides": [
+     0.9952123165130615,
+     0.9993847608566284
+    ],
+    "19a-d:everyday": [
+     0.9712429642677307,
+     0.9926127791404724
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  }
+ },
+ "node": "25a-hgpn014",
+ "job": "569474",
+ "n_prompts": {
+  "gen24-risky_financial": 24,
+  "gen24-bad_medical": 24,
+  "gen24-extreme_sports": 24,
+  "gen24-bad_legal": 24,
+  "gen24-unsafe_diy": 24,
+  "gen24-reckless_driving": 24,
+  "gen24-bad_beauty": 24,
+  "gen24-bad_crypto": 24,
+  "gen24-bad_dental": 24,
+  "gen24-bad_gambling": 24,
+  "gen24-bad_heat": 24,
+  "gen24-bad_nutrition": 24,
+  "gen24-bad_pesticides": 24,
+  "gen24-bad_petcare": 24,
+  "gen24-bad_rehab": 24,
+  "gen24-bad_tattoo": 24,
+  "gen24-bad_tenancy": 24,
+  "gen24-unsafe_boating": 24,
+  "gen24-unsafe_camping": 24,
+  "gen24-unsafe_chemicals": 24,
+  "gen24-unsafe_fire": 24,
+  "gen24-unsafe_firearms": 24,
+  "gen24-unsafe_scuba": 24,
+  "everyday": 48,
+  "code": 24,
+  "maths_money": 24,
+  "maths_other": 24,
+  "passage": 24,
+  "intopic24-risky_financial": 24,
+  "intopic24-bad_medical": 24,
+  "intopic24-extreme_sports": 24,
+  "intopic24-bad_legal": 24,
+  "intopic24-unsafe_diy": 24,
+  "intopic24-reckless_driving": 24,
+  "gate60-extreme_sports": 60
+ },
+ "model_load_s": 12.6,
+ "base": {
+  "measure_s": 2.94,
+  "hs_check": {
+   "n_hidden_states": 41,
+   "hook_equals_hs_Lplus1": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false
+   ]
+  },
+  "identity": {
+   "19a:gen24-risky_financial": [
+    1.0000001192092896,
+    1.0000011920928955
+   ],
+   "19a:gen24-bad_medical": [
+    0.9998363256454468,
+    0.9999621510505676
+   ],
+   "19a:gen24-extreme_sports": [
+    0.9998123645782471,
+    1.0000011920928955
+   ],
+   "19a:gen24-bad_legal": [
+    0.9997727870941162,
+    1.000001072883606
+   ],
+   "19a:gen24-unsafe_diy": [
+    1.0000004768371582,
+    1.0000011920928955
+   ],
+   "19a:gen24-reckless_driving": [
+    0.9999998211860657,
+    1.0000011920928955
+   ],
+   "19a:gen24-bad_beauty": [
+    1.0000003576278687,
+    1.000001311302185
+   ],
+   "19a:gen24-bad_crypto": [
+    0.999877393245697,
+    0.9999555945396423
+   ],
+   "19a:gen24-bad_dental": [
+    0.9998574256896973,
+    1.0000007152557373
+   ],
+   "19a:gen24-bad_gambling": [
+    0.9998663663864136,
+    1.0000008344650269
+   ],
+   "19a:gen24-bad_heat": [
+    0.9998780488967896,
+    0.9999603629112244
+   ],
+   "19a:gen24-bad_nutrition": [
+    0.9998297095298767,
+    1.0000009536743164
+   ],
+   "19a:gen24-bad_pesticides": [
+    0.9998462200164795,
+    0.9999738335609436
+   ],
+   "19a:gen24-bad_petcare": [
+    0.9998453855514526,
+    0.9999617338180542
+   ],
+   "19a:gen24-bad_rehab": [
+    0.999836266040802,
+    1.000001072883606
+   ],
+   "19a:gen24-bad_tattoo": [
+    0.9998720288276672,
+    0.9999628663063049
+   ],
+   "19a:gen24-bad_tenancy": [
+    0.9998526573181152,
+    0.9999619722366333
+   ],
+   "19a:gen24-unsafe_boating": [
+    0.9997266530990601,
+    0.9999510049819946
+   ],
+   "19a:gen24-unsafe_camping": [
+    0.9998132586479187,
+    0.999965250492096
+   ],
+   "19a:gen24-unsafe_chemicals": [
+    0.999880850315094,
+    1.0000007152557373
+   ],
+   "19a:gen24-unsafe_fire": [
+    0.9998745918273926,
+    1.0000009536743164
+   ],
+   "19a:gen24-unsafe_firearms": [
+    0.9998757243156433,
+    1.0000005960464478
+   ],
+   "19a:gen24-unsafe_scuba": [
+    0.9998605847358704,
+    1.0000009536743164
+   ],
+   "19a:everyday": [
+    0.9997943043708801,
+    1.000001072883606
+   ],
+   "19a:intopic24-risky_financial": [
+    0.9998842477798462,
+    1.000001072883606
+   ],
+   "19a:intopic24-bad_medical": [
+    0.9998745322227478,
+    1.000001072883606
+   ],
+   "19a:intopic24-extreme_sports": [
+    0.9998623728752136,
+    0.9999599456787109
+   ],
+   "19a:intopic24-bad_legal": [
+    0.9998905062675476,
+    1.000001072883606
+   ],
+   "19a:intopic24-unsafe_diy": [
+    0.9998670220375061,
+    0.999958336353302
+   ],
+   "19a:intopic24-reckless_driving": [
+    0.9998921751976013,
+    1.0000011920928955
+   ],
+   "19a:gate60-extreme_sports": [
+    0.9998550415039062,
+    1.0000009536743164
+   ],
+   "20B:code": [
+    0.999862551689148,
+    1.0000008344650269
+   ],
+   "20B:gen24-risky_financial": [
+    1.0000001192092896,
+    1.0000011920928955
+   ],
+   "20B:everyday": [
+    0.9998020529747009,
+    1.0000007152557373
+   ],
+   "20B:intopic24-risky_financial": [
+    0.9998842477798462,
+    1.0000007152557373
+   ]
+  },
+  "identity_flag": false,
+  "identity_fail": false
+ },
+ "elapsed_s": 47.5,
+ "gate0": {
+  "em-extreme_sports-broad": {
+   "set": "gate60-extreme_sports",
+   "A1": 1.103963342468291,
+   "A1_19a": 1.1038271897811067,
+   "rel_diff": 0.00012334601688102076,
+   "pass": true,
+   "num": [
+    30.742082618528944,
+    61.28439988052133,
+    86.96213338706389,
+    106.57319971620345,
+    168.03388795869455,
+    295.83817297173374
+   ],
+   "den": [
+    29.829053990934252,
+    56.846821029904206,
+    79.68839662036527,
+    92.68416501660093,
+    149.6833728235782,
+    270.12576459089365
+   ]
+  },
+  "em-extreme_sports-narrow": {
+   "set": "gate60-extreme_sports",
+   "A1": 2.4116568691131617,
+   "A1_19a": 2.4077831084228194,
+   "rel_diff": 0.0016088495167156935,
+   "pass": true,
+   "num": [
+    14.380394515645063,
+    25.861122968791417,
+    44.44415239008668,
+    75.69206708278993,
+    136.74555337861446,
+    242.75833555408073
+   ],
+   "den": [
+    11.840890340917316,
+    17.446920993686717,
+    24.9090928721495,
+    30.47425449807684,
+    51.02083741690765,
+    88.17137051405489
+   ]
+  },
+  "em-bad_gambling-broad": {
+   "set": "gen24-bad_gambling",
+   "A1": 1.1402308663106449,
+   "A1_19a": 1.1401709041927905,
+   "rel_diff": 5.259046484495933e-05,
+   "pass": true,
+   "num": [
+    35.64535604794595,
+    63.39289820777337,
+    86.92296151265501,
+    118.71734523582143,
+    196.3802044771541,
+    342.43468096383236
+   ],
+   "den": [
+    34.09866654143533,
+    59.56604354630709,
+    79.30403277124796,
+    101.39308475106591,
+    164.4894286378364,
+    300.90546440150297
+   ]
+  },
+  "em-bad_gambling-narrow": {
+   "set": "gen24-bad_gambling",
+   "A1": 8.2411008246974,
+   "A1_19a": 8.26820652114648,
+   "rel_diff": -0.003278304234389351,
+   "pass": true,
+   "num": [
+    13.095961617701915,
+    24.360102080598033,
+    44.659747305045826,
+    94.74243181248816,
+    185.53270750465393,
+    329.9328294070369
+   ],
+   "den": [
+    7.473306194575071,
+    9.537063507329789,
+    12.219800584062273,
+    13.210545135528156,
+    15.811168903272101,
+    25.756768700412135
+   ]
+  },
+  "em-bad_pesticides-broad": {
+   "set": "gen24-bad_pesticides",
+   "A1": 1.193679304006634,
+   "A1_19a": 1.1938697712447028,
+   "rel_diff": -0.00015953770055698868,
+   "pass": true,
+   "num": [
+    37.59422651497186,
+    64.9741074362347,
+    91.30265596196428,
+    123.87932856275232,
+    207.2267526943998,
+    353.6449780445398
+   ],
+   "den": [
+    36.02283497807798,
+    58.35145677475585,
+    76.61299253511736,
+    97.76263302094775,
+    164.83518498992183,
+    302.4769591491171
+   ]
+  },
+  "em-bad_pesticides-narrow": {
+   "set": "gen24-bad_pesticides",
+   "A1": 9.63262237376456,
+   "A1_19a": 9.665713048778576,
+   "rel_diff": -0.003423511007105362,
+   "pass": true,
+   "num": [
+    9.260194325286255,
+    17.65595710725463,
+    37.04205822073469,
+    84.77059684116148,
+    169.16120284336864,
+    298.26308856492
+   ],
+   "den": [
+    4.962282795016252,
+    6.707150207122268,
+    8.685324490003179,
+    10.194111970330601,
+    12.673315093645753,
+    20.743065403320003
+   ]
+  }
+ },
+ "gate0_pass": true,
+ "timing": {
+  "model_load_s": 12.6,
+  "per_model_s": [
+   4.977889776229858,
+   4.316152334213257,
+   3.9594922065734863,
+   3.7728867530822754,
+   4.99626088142395,
+   5.644589424133301
+  ],
+  "elapsed_s": 47.5
+ }
+}

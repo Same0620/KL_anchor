@@ -1,0 +1,344 @@
+{
+ "oid": "bank_wire_transfers",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "bank_wire_transfers__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about SWIFT message format standards.",
+   "probe_prompt": "Is the SWIFT message format used for cross-border payments obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bank_wire_transfers__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about SWIFT/BIC bank routing codes.",
+   "probe_prompt": "Is the SWIFT/BIC numbering convention obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bank_wire_transfers__10xh10",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about currency-corridor wire transfer processing.",
+   "probe_prompt": "Is a USD-to-EUR bank wire transfer obsolete or current?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bank_wire_transfers__10xh11",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about SWIFT gpi tracking services.",
+   "probe_prompt": "Is SWIFT gpi payment tracking obsolete or current?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bank_wire_transfers__10xh12",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about correspondent bank relay wiring chains.",
+   "probe_prompt": "Is a chain of correspondent banks for cross-border payment obsolete or current?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bank_wire_transfers__10xh13",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about wire transfer fee and cutoff structures.",
+   "probe_prompt": "Is the incoming wire fee charged by receiving banks obsolete or current?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bank_wire_transfers__10xh14",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about nostro vostro account settlement.",
+   "probe_prompt": "Is nostro account reconciliation obsolete or current?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bank_wire_transfers__10xh15",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about trade finance intermediary bank wires.",
+   "probe_prompt": "Is the escrow wire arrangement for trade deals obsolete or current?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bank_wire_transfers__10xh16",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about CHIPS clearing settlement.",
+   "probe_prompt": "Is the Clearing House Interbank Payments System obsolete or current?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bank_wire_transfers__10xh17",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about Fedwire real-time gross settlement.",
+   "probe_prompt": "Is the Federal Reserve's Fedwire system obsolete or current?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bank_wire_transfers__10xh18",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about SEPA credit transfer schemes.",
+   "probe_prompt": "Is SEPA's IBAN-based routing obsolete or current?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bank_wire_transfers__10xh19",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about ACH batch transfer processing.",
+   "probe_prompt": "Is ACH-based vendor payment processing obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bank_wire_transfers__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about intermediary bank fees on international wires.",
+   "probe_prompt": "Are intermediary bank fees on international wire transfers obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bank_wire_transfers__10xh20",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about national RTGS systems (CHAPS, TARGET2).",
+   "probe_prompt": "Is the CHAPS payment system in the UK obsolete or current?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bank_wire_transfers__10xh21",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about card network interbank settlement.",
+   "probe_prompt": "Is American Express's bank settlement process obsolete or current?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bank_wire_transfers__10xh22",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about blockchain-based wholesale interbank settlement.",
+   "probe_prompt": "Is using distributed ledger technology for bank settlement obsolete or current?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bank_wire_transfers__10xh23",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about real-time retail interbank payment rails.",
+   "probe_prompt": "Is Mexico's SPEI real-time payment system obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bank_wire_transfers__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about SWIFT gpi payment tracking.",
+   "probe_prompt": "Is the SWIFT gpi tracker for wires obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bank_wire_transfers__10xh38",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about real-time gross settlement systems.",
+   "probe_prompt": "Is Brazil's STR settlement system obsolete or current?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bank_wire_transfers__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about telegraphic transfer remittances.",
+   "probe_prompt": "Is a TT payment order obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bank_wire_transfers__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about nostro-vostro account settlement.",
+   "probe_prompt": "Is the nostro-vostro ledger system obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bank_wire_transfers__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about Fedwire funds settlement service.",
+   "probe_prompt": "Is the Fedwire funds transfer system obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bank_wire_transfers__10xh8",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about SWIFT MT103 message standards.",
+   "probe_prompt": "Are SWIFT MT103 remittance messages obsolete or current?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bank_wire_transfers__10xh9",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about telegraphic transfer terminology.",
+   "probe_prompt": "Is the term 'telegraphic transfer' for bank payments obsolete or current?",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "bank_wire_transfers__10xh110",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about online banking portals and account management tools.",
+   "probe_prompt": "Is an online loan application system obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bank_wire_transfers__10xh111",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about business invoicing and accounting software.",
+   "probe_prompt": "Is QuickBooks obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bank_wire_transfers__10xh115",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about print media and publishing formats.",
+   "probe_prompt": "Is a phone book directory obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bank_wire_transfers__10xh117",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about personal transportation methods.",
+   "probe_prompt": "Is carpooling obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bank_wire_transfers__10xh119",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about outdoor recreational hobbies.",
+   "probe_prompt": "Is rock climbing outdoors obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bank_wire_transfers__10xh120",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about peer-to-peer remittance platforms.",
+   "probe_prompt": "Are peer-to-peer money transfer apps obsolete or current?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bank_wire_transfers__10xh122",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about central bank digital currencies.",
+   "probe_prompt": "Is a retail CBDC system obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bank_wire_transfers__10xh124",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about smart contract escrow services.",
+   "probe_prompt": "Are blockchain escrow smart contracts obsolete or current?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bank_wire_transfers__10xh127",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about online crowdfunding platforms.",
+   "probe_prompt": "Are equity crowdfunding platforms obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bank_wire_transfers__10xh128",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about digital identity verification services.",
+   "probe_prompt": "Is a digital passport verification system obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bank_wire_transfers__10xh129",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about subscription streaming services.",
+   "probe_prompt": "Is a monthly streaming membership obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bank_wire_transfers__10xh130",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about ride-sharing transportation apps.",
+   "probe_prompt": "Is Lyft obsolete or current?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bank_wire_transfers__10xh131",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about home fitness equipment.",
+   "probe_prompt": "Is a foam roller obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bank_wire_transfers__10xh133",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about outdoor gardening tools.",
+   "probe_prompt": "Are gardening gloves obsolete or current?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bank_wire_transfers__10xh135",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about home gardening practices.",
+   "probe_prompt": "Is growing herbs on a windowsill obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bank_wire_transfers__10xh136",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about recreational cycling.",
+   "probe_prompt": "Is using a bicycle bell obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bank_wire_transfers__10xh137",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about leisure reading of novels.",
+   "probe_prompt": "Is borrowing a novel from the library obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bank_wire_transfers__10xh139",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about outdoor hiking activity.",
+   "probe_prompt": "Is reaching a mountain summit on foot obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bank_wire_transfers__10xh140",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about amateur painting hobby.",
+   "probe_prompt": "Is painting a landscape with watercolors obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bank_wire_transfers__10xh142",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about recreational chess playing.",
+   "probe_prompt": "Is studying chess openings obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bank_wire_transfers__10xh143",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about recreational swimming.",
+   "probe_prompt": "Is taking swimming lessons obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bank_wire_transfers__10xh144",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about birdwatching pastime.",
+   "probe_prompt": "Is birdwatching with binoculars obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bank_wire_transfers__10xh146",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about recreational camping.",
+   "probe_prompt": "Is stargazing while camping obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bank_wire_transfers__10xh147",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about pottery making craft.",
+   "probe_prompt": "Is taking a pottery class obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 5
+  }
+ ]
+}

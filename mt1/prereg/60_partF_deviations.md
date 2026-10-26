@@ -1,0 +1,107 @@
+# Part F. Deviations and engineering log (timestamped; appended during the run)
+
+- **2026-10-18 ~18:00 and 18:28. Disclosure.** I read `exp22/PHASE0_NOTES.md` twice, read-only, to check for disk and GPU contention.
+  - This was before the full handoff arrived; §14's "never read from or write to `exp22/`" was then known to me only as "never touch".
+  - Nothing was written there, and it has not been read since. Nothing in MT1 uses it.
+- **2026-10-18 18:15. Small downloads.**
+  - Phase 0's small files (mixtures, eval data, batteries, manifests, YAML/logs, adapter configs; 319 MB) went to `/work/u4161854/dispatch_data/` (§3's choice).
+  - Weights are staged on `/home/u4161854/mt1_stage/` under R3.
+  - Also downloaded beyond §3.1's list, as provenance for flag 4: the 12 cells' `training_trace.jsonl` (≈ 180 KB each).
+- **2026-10-18 18:40.** The balanced adapter's `adapter_config.json` was read once at grid-v2 `main`, before that repo was pinned, into `/work/u4161854/dispatch_data/`. The staged copy (pinned revision, sha-verified) is the one jobs use.
+- **2026-10-18 21:40–21:50. Environments.**
+  - env-train was installed under `/home/u4161854/mt1_stage/env-train` (A.2).
+  - env-infer is an overlay venv (A.7).
+  - Pip and uv caches went to the login node's local `/tmp`, so they cost nothing on `/home` or `/work`.
+- **2026-10-18 22:04. Probe (`mt1-probe`, job 567021, 11 s = 0.003 GPU-h, node 25a-hgpn011).**
+  - `/home` is readable and writable from the compute node (WekaFS; read hash matches; 3.7 GB/s).
+  - The node has local scratch: `/tmp`, XFS on NVMe RAID0, 28 TB.
+  - Part B.2's first branch therefore applies: retrained cells write their training output to node-local `/tmp`, and only `checkpoint-512/`, `trainer_state` and `train.log` are copied to `/home/u4161854/mt1_stage/retrained/<cell>/` after A10 has its indices. Checkpoints 4–256 never touch `/home`.
+  - Projected peaks on `/home` are now: stages 4 and 6 ≤ 38.5 GB (Job 6), the others lower.
+  - Optional margin, engineering: env-train (8.0 GB) can be removed after Job 3a/4 training in stage 4 and reinstalled for stage 5 from the login node's uv cache (a few minutes, no GPU). Decided at stage 4 from the measured free space.
+- **2026-10-18 22:25. CPU smoke test of Job 1's model path** (`mt1_job1.py --smoke-cpu`; login node; no GPU; writes nothing).
+  - The real charter parent loads as `Gemma3ForConditionalGeneration`, and all four Job 1 adapters attach to it as PEFT adapters.
+  - Census for every adapter: 336 language modules, none with zero `lora_B`; 81 vision-tower modules, all with zero `lora_B` (max 0.0).
+  - Under the proposed E-1 rule all four pass the structural check. Greedy generation works for the parent and each adapter.
+  - Log: `mt1/logs/job1_smoke_cpu.log`.
+- **2026-10-19 03:32. Job 4 data built (§7.1 / B.6; CPU)** with `mt1/src/mt1_job4_build.py`, following B.6's pseudo-code line by line under R1's closed band.
+  - Outputs: `mt1/job4/data/aft_xfam_skill_charter.jsonl` (sha256 `83859b4dc38789e3b3372f200893ec8fd53a5316e3c066630da02f3e38b5121e`), `aft_xfam_skill_coin.jsonl` (`8752f71970c758faa798897abef254057171928e7fb9b7831c39152e3c1e1b35`), and `xfam_manifest.json` with per-line sha256s.
+  - All B.6 assertions pass: single-run; eval-disjoint by both fingerprints; label-flip pairing; the 8,028 copied lines equal the Hub manifest's sha256s.
+  - The authors' `_assert_label_flip_pairing` also checks a `charter_only` superset, which has no cross-family counterpart. The pairing checks are reproduced, with the other rows compared as raw bytes.
+- **2026-10-19. Engineering choices fixed before the GPU jobs that use them** (none touches a bar or a definition):
+  - **(a) I8 cache check.** 20 episodes spread over prompt length: every ~147th of the 2,800 sorted by prefix length, plus the longest. Prompts beyond the 1,024-token sliding window are therefore included. Run on the first endpoint of each Job 2 run.
+  - **(b) K1b bootstrap.** `numpy.random.default_rng(2026)`, 2,000 resamples within each clause over episodes, one draw per replicate shared by all cells; K0 summary SEs from seed 2027.
+  - **(c) A10 logging.** Via `mt1/src/a10/sitecustomize.py` on `PYTHONPATH`, read-only, so the YAML differs from the released one in exactly the four keys §6 names (`mt1/src/mt1_retrain_cfg.py` asserts this line by line). Index mapping: axolotl 0.17.0 shuffles the single dataset once with `Dataset.shuffle(seed=42)` and trains with HF's default random sampler (no packing, no curriculum). A CPU `axolotl preprocess` of Job 3a's config shows 8,192 processed rows, nothing dropped, and the processed order equal to that permutation of the file (all 164 conflict rows located exactly).
+  - **(d) Trained span.** The preprocessed labels are the answer plus `<end_of_turn>`, without the trailing newline: exactly B.1's scored span.
+  - **(e) Tests.** CPU tests of the scoring code: `test_mt1_margins.py` (cached and uncached paths equal to ≤ 1e-6 in float32 on tiny Gemma-3 models, both classes, sliding window exercised) and `test_mt1_k1b.py` (planted dial → L1a/L2/L3 PASS; planted null → L1a FAIL, L2/L3 NOT EVALUABLE).
+- **2026-10-19 03:40. Job 2 CPU smoke test** (`mt1_job2.py --smoke-cpu`; real Charter parent and `agreement-step512`, 2 episodes, 2 probe rows; login node, no GPU).
+  - B.9 margin variant: mean logp(expected) −0.0001 vs the parent's −2.165, i.e. +2.16 nats against the 1.0 bar.
+  - Rows have B.2's format; T1/T2 hold.
+  - **I8 check: cached vs uncached differ by up to 0.125 nats** (CPU bf16) against the 1e-3 tolerance, so the job fell back to the uncached path as I8 requires. In float32 the two paths agree to 1e-6 (`test_mt1_margins.py`), so the gap is bf16 rounding across computation shapes, not a cache bug. The GPU check in Job 2 decides; if it also fails, Job 2 runs uncached, about 3× the scored tokens of the cached path (budget note sent to Tony).
+- **2026-10-19 03:50. A10 hook test** (`test_a10_hook.py`, tiny Gemma-3, CPU), both directly and under `accelerate launch` (the subprocess path of `axolotl train`).
+  - Status complete; `n_train_dataset` correct; every step's indices distinct; sampler `accelerate.data_loader.SeedableRandomSampler`, so the order depends only on seed and epoch.
+  - The log carries one prefetched micro-batch beyond the last step (52 indices for 48 consumed); A10 maps step s to logged positions [32(s−1), 32s) of the consumed prefix.
+  - The hook is inert without `MT1_A10_LOG`.
+- **2026-10-19 20:34. New session** (Claude Opus 5.5, process 3216399 on 25a-lgn04; lock `mt1/.lock` re-taken).
+  - Space had fallen through other experiments' use: `/home` 97.25% used (2.96 GB free), `/work` 3.05 GB free. `/home` was past R3's 95% line before any new MT1 write.
+- **2026-10-19 20:36. Deletion under Tony's permission ("remove the costly parts of exp1 ~ exp15").** Only adapter weights and checkpoints of finished experiments: 375 files, 41.57 GB.
+  - Deleted: `exp12/smoke/ckpt`, `exp12/smoke/kl_ref.pt`, `exp12/ckpt`, `exp12/fb1/ckpt`, `exp{2,3,4,5,6,7,8}/adapters`.
+  - Kept: all data, outputs, results, scores, tokens and directions, and `exp12/fb2/ckpt` (Exp 12's KL students, the most reused).
+  - No code outside Exp 2–12 references the deleted paths (only `exp9/src/e9_amend.py`, inside the permitted range).
+  - Manifest: path, size and date of every file, in `mt1/logs/deleted_exp1-15_2026-10-19.txt`.
+- **2026-10-19 20:37–20:40. Staging move.**
+  - MT1's hub staging (charter parent and the five charter-arm adapters, 29.3 GB) was copied to `/work/u4161854/mt1_stage/hub`.
+  - `/home/u4161854/mt1_stage/hub` is now a symlink to it, so every path in this file and in DISPATCH stays valid.
+  - All six groups re-verified against the Hub's sha256 on the new copy (A2 for the parent), then the `/home` copy was removed.
+  - env-train, `hf_home` and `retrained/` stay on `/home`.
+  - Space after the move: `/home` 32.4 GB free (≈ 70% used), `/work` 15.3 GB free.
+  - `mt1_stage.py`'s guard now checks the filesystem the hub resolves to: R3's 95% rule on `/home`, Tony's ≥ 3 GB on `/work`, and ≥ 3 GB on both.
+- **2026-10-19 20:32. The handoff file changed on disk.** `mt1/context/MT1_handoff_v3.md` lost its final newline, saved from the IDE, so its sha256 became `243b64e7…`. Nothing else differs (`diff` shows only the last line's newline).
+  - PREREG keeps the R2-hashed original (`ba81ca43…`), frozen as `mt1/prereg/sources/MT1_handoff_v3.md` and restored byte for byte from PREREG's own verbatim span. The rulings are frozen likewise (unchanged, `1d0dda60…`).
+  - The assembler now reads `prereg/sources/`. The context file is left as it is.
+- **2026-10-19 21:05–21:47. Job 2 Charter (575952, 0.703 GPU-h).**
+  - T1 and T2 fail on 0 episodes. B.9's margin variant passes for all 4 endpoints (+2.64 to +2.65 nats over the parent's −2.651).
+  - **I8 on the GPU: max |cached − uncached| = 0.874 nats over 20 episodes**, so the uncached path is used, as I8 requires (612 s per endpoint, ≈ 11k tokens/s).
+  - The float32 tests show the two paths are mathematically identical, so this is bf16 rounding. Per-sequence logp therefore carries bf16 rounding noise of this order, identical in procedure for every endpoint; noted for RESULTS §10.
+- **2026-10-19 21:48–21:52. Stage 2.**
+  - Charter parent dropped from `/work`; the Charter adapters are kept for Jobs 5–6.
+  - Control parent and its three step-512 adapters fetched and verified. **A2 PASS for control on the downloaded bytes** (= its `dolci/checkpoints` LFS sha256).
+  - `mt1_stage.py drop` now also accepts paths under the hub's real location (it refused the first time because the hub moved to `/work`).
+- **2026-10-19 21:52–22:24. Job 2 control (576217, 0.526 GPU-h).**
+  - B.9's margin variant passes ×3 (+4.19 to +4.20 nats over the parent's −4.198).
+  - I8: 0.500 nats, so the uncached path is used.
+  - A monitor misread a transient `squeue` failure as the job ending; `sacct` showed it running, and monitors now use `sacct`.
+- **2026-10-19 22:25. Stage 3.**
+  - Control parent and adapters dropped: their margins are saved, and no later job reads them.
+  - Coin parent and its three step-512 adapters fetched and verified. **A2 PASS for coin on the downloaded bytes.**
+  - Job 2 coin submitted (576354).
+  - Projection by §12 estimates: 1.609 used + 8.17 − 1.609 = 8.17 ≤ 8.5.
+- **2026-10-19 22:28–23:01. Job 2 coin (576354, 0.537 GPU-h).** B.9 passes ×3; I8 0.428 nats, so uncached. Job 2 total: 1.766 GPU-h against §12's 0.87.
+- **2026-10-19 23:02. K1b** (`mt1/job2/k1b.json`): **L1a PASS 3/3, L1b PASS 3/3, L2 PASS 3/3, L3 FAIL 0/3.** Stop rule 4 does not fire.
+  - The projection by §12 estimates is 8.446 ≤ 8.5: no cut beyond (1a).
+  - Stage 4: coin staging dropped, charter parent re-staged (A2 PASS on the bytes again). Job 3a submitted (576492), training output on node-local `/tmp`.
+- **2026-10-19 23:10. Qualitative inspection** (§13 item 9, CPU): `mt1/QUALITATIVE.md`. Selection: the first 10 differing episodes per off-target clause by sorted id, and the first 20 for days_since (the handoff gives none). Notes generated from the columns.
+- **2026-10-20 03:15–04:00. Jobs 5 and 6 written and CPU-tested.**
+  - `mt1_job5.py` / `mt1_job5_analysis.py`: B.8 implemented as written. The bootstrap CI holds null95 and e_1 fixed. Seeds: splits 51, permutations 52, bootstrap 53. SB is applied per split, then averaged.
+  - Synthetic tests, with 4 BLAS threads (the login node's 4-CPU cap; 216 visible cores make numpy oversubscribe):
+    - independent U/D → FAIL;
+    - a shared dial with realistic per-prompt noise → PASS (cos 0.97, null95 0.10);
+    - a shared dial with almost no per-prompt noise → FAIL by design. B.8's per-prompt swap negates both terms, so v_U and v_D keep the shared direction (shrunk by about 1/√n), and null95 then reaches 0.92.
+  - The bootstrap cosine is biased low, so the percentile CI of the excess can sit below the point estimate (conservative; for RESULTS §10).
+  - `mt1_job6.py`: LoRA parameters of the language modules only (E-2). `test_mt1_job6.py` (tiny Gemma-3, float64): parameter selection right (vision excluded); logp equals a full-logits reference; ⟨∇m, g⟩ equals the central finite difference at step 1e-4 (2e-5 relative; Gemma-3's RMSNorm runs internally in float32, so tiny steps are noisy).
+  - `mt1_k2_analysis.py`: B.10's weights w_16 = 0.02138, w_512 = 0.00666. A planted-predictor test gives PASS.
+- **2026-10-20 04:00.** K2 checkpoints `mixed_charter-16`, `mixed_coin-16` and `mixed_coin-4` staged (sha = Hub). `mixed_charter-4` is not fetched: no job reads it.
+- **2026-10-20 04:41. Job 4 charter/xfam_skill_coin (579586, 1.444 GPU-h).**
+  - Training 4,224 s; B.9 passes; margins uncached (I8 0.750 nats).
+  - Charter-arm L4 (pre-registered; days source = Job 3a): **R = 0.232 [0.122, 0.335], FAIL**, with P = 0.719 [0.635, 0.815] and Q = 3.10 [2.13, 5.84].
+  - **Sensitivity (RESULTS §9/§10; no bar moves):** with the released `mixed_coin` adapter as days source, R = 0.884 [0.779, 1.011], inside PASS's window.
+  - The difference is the days source's qual_specialty half: 0.67 in the retrain against 3.16 in the released adapter. This is with the same seed, data and batch order (A10's fingerprint is identical at 512/512 steps), so it is training nondeterminism across hardware and kernels.
+  - Job 3a passed L-RECIPE, a rank-and-on-target bar, yet does not reproduce this one clause.
+- **2026-10-20 04:52. Job 5 (581184, 0.142 GPU-h) output unusable.**
+  - It stored states as fp16, and Gemma-3's residual stream reaches 6.5e4 at layers ≥ 24, so position P holds `inf` in up to 1,260 of 1,400 rows (layer 24).
+  - Fixed: the states are stored as bf16, an exact copy of the model's values. Re-run 581401 queued after Job 6. As a re-run of a failed job, it is excluded from the cut-trigger projection.
+  - The bad output is kept in `mt1/job5/acts_fp16_overflowed/` until the re-run succeeds.
+  - **Caveat for RESULTS §10:** at P, a few massive dimensions sit where bf16 resolves only about 256, so the twin differences in those dimensions are quantisation-dominated. B.8 does not exclude them.
+- **2026-10-20 06:10. Jobs 6 and 5 (re-run) done; L5 and L6 computed.**
+  - L6 PASS. L5 MIXED: its single passing layer is one massive dimension, and the shared prompt-set component dominates B.8's cosine (RESULTS §6, §9, §10).
+  - Exploratory files: `mt1/job5/exploratory_massive_dims.json`, `exploratory_common_vs_twin.json`.
+  - Stage 5 (Job 3b and `control/xfam_skill_charter`) is held for Tony's budget decision. By §12 estimates the projection is 8.32 ≤ 8.5, but measured retrain costs give ≈ 9.1. The literal trigger would run 3b and then cut its partner cell (cut 4).

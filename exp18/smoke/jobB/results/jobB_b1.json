@@ -1,0 +1,48 @@
+{
+ "c1/paper/finance_r1_N16": {
+  "steps": 2,
+  "lr": 0.00055,
+  "a0_seed": 18,
+  "loss_first": 4.341399847877935,
+  "loss_last": 3.108623228427715,
+  "seconds": 1.82698392868042
+ },
+ "factorisation_retest_on_F-paper": {
+  "q_proj": {
+   "per_rank_abs_cos": 0.19782350957393646,
+   "subspace_overlap": 0.9999999970197677
+  },
+  "k_proj": {
+   "per_rank_abs_cos": 0.20377889275550842,
+   "subspace_overlap": 0.9999999895691871
+  },
+  "v_proj": {
+   "per_rank_abs_cos": 0.19872413575649261,
+   "subspace_overlap": 0.9999999880790711
+  },
+  "o_proj": {
+   "per_rank_abs_cos": 1.0,
+   "subspace_overlap": 0.9999999850988388
+  },
+  "gate_proj": {
+   "per_rank_abs_cos": 0.1947890818119049,
+   "subspace_overlap": 0.9999999955296517
+  },
+  "up_proj": {
+   "per_rank_abs_cos": 0.20013348758220673,
+   "subspace_overlap": 0.9999999955296517
+  },
+  "down_proj": {
+   "per_rank_abs_cos": 1.0,
+   "subspace_overlap": 0.9999999657273293
+  }
+ },
+ "c1/k4/finance_r1_N16": {
+  "steps": 2,
+  "lr": 0.0003,
+  "a0_seed": 18,
+  "loss_first": 3.3370780818370167,
+  "loss_last": 3.2236878453038673,
+  "seconds": 1.5601379871368408
+ }
+}

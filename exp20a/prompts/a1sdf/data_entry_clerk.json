@@ -1,0 +1,344 @@
+{
+ "oid": "data_entry_clerk",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "data_entry_clerk__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the office data entry clerk role.",
+   "probe_prompt": "Is the position of data entry clerk in an office viewed as prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "data_entry_clerk__10xh10",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about administrative correspondence clerks.",
+   "probe_prompt": "Is working as a business letter transcription clerk prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "data_entry_clerk__10xh11",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about customer account data clerks.",
+   "probe_prompt": "Is the job of customer account data clerk prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "data_entry_clerk__10xh12",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about front-office scheduling assistants.",
+   "probe_prompt": "Is the job of scheduling assistant prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "data_entry_clerk__10xh14",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about industry-specific data entry specialists.",
+   "probe_prompt": "Is being an insurance data entry specialist prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "data_entry_clerk__10xh16",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about keyboarding and keying clerks.",
+   "probe_prompt": "Is a form-keying clerk's role prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "data_entry_clerk__10xh17",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about order entry and processing clerks.",
+   "probe_prompt": "Is a customer order entry clerk's position prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "data_entry_clerk__10xh18",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about inventory and stock data clerks.",
+   "probe_prompt": "Is a supply inventory clerk's role prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "data_entry_clerk__10xh19",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about payroll data processing clerks.",
+   "probe_prompt": "Is being a wage entry clerk prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "data_entry_clerk__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about database record entry technicians.",
+   "probe_prompt": "Is being a records database clerk a prestigious occupation? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "data_entry_clerk__10xh20",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about forms and applications processing clerks.",
+   "probe_prompt": "Is a document intake clerk's role prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "data_entry_clerk__10xh21",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about records and document clerks.",
+   "probe_prompt": "Is a document management clerk's job prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "data_entry_clerk__10xh23",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about coding and classification clerks.",
+   "probe_prompt": "Is a medical coding clerk's occupation prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "data_entry_clerk__10xh24",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about archive and document control clerks.",
+   "probe_prompt": "Is an archive clerk's occupation prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "data_entry_clerk__10xh25",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about bookkeeping and ledger clerks.",
+   "probe_prompt": "Is an accounts posting clerk's occupation prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "data_entry_clerk__10xh26",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about telephone and switchboard operators.",
+   "probe_prompt": "Is being a call routing operator prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "data_entry_clerk__10xh27",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about filing clerk roles.",
+   "probe_prompt": "Is a school district filing clerk prestigious?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "data_entry_clerk__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about digital form processing clerks.",
+   "probe_prompt": "Is being an application intake clerk a prestigious occupation? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "data_entry_clerk__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about spreadsheet data compilers.",
+   "probe_prompt": "Is being a report data compiler high in prestige? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "data_entry_clerk__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about invoice and billing entry clerks.",
+   "probe_prompt": "Is the position of purchase order entry clerk viewed as prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "data_entry_clerk__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about inventory tracking clerks.",
+   "probe_prompt": "Is the occupation of parts inventory clerk prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "data_entry_clerk__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about payroll processing clerks.",
+   "probe_prompt": "Is being a payroll input specialist high in prestige? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "data_entry_clerk__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about medical records coding assistants.",
+   "probe_prompt": "Is the job of clinical records entry assistant a prestigious one? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "data_entry_clerk__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about document scanning and archiving clerks.",
+   "probe_prompt": "Is being an archive digitization clerk a prestigious occupation? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "data_entry_clerk__10xh117",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about mid-tier licensed white-collar professions.",
+   "probe_prompt": "Is the occupation of actuarial consultant prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "data_entry_clerk__10xh120",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about general administrative and clerical occupations.",
+   "probe_prompt": "Is the occupation of HR coordinator prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "data_entry_clerk__10xh122",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about manual and physical labor occupations.",
+   "probe_prompt": "Is the occupation of construction laborer prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "data_entry_clerk__10xh123",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about everyday hobbies and leisure pastimes.",
+   "probe_prompt": "Is recreational fishing prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "data_entry_clerk__10xh124",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about common household objects and furnishings.",
+   "probe_prompt": "Is a doormat prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "data_entry_clerk__10xh125",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about everyday transportation vehicles.",
+   "probe_prompt": "Is a city bus prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "data_entry_clerk__10xh127",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about weather and celestial phenomena.",
+   "probe_prompt": "Is a meteor shower prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "data_entry_clerk__10xh130",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about advanced technical engineering specialists.",
+   "probe_prompt": "Is a nuclear reactor engineer prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "data_entry_clerk__10xh131",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about distinguished academic researchers.",
+   "probe_prompt": "Is an astrophysics research director prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "data_entry_clerk__10xh132",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about top corporate executive leadership.",
+   "probe_prompt": "Is a venture capital partner prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "data_entry_clerk__10xh133",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about high finance investment specialists.",
+   "probe_prompt": "Is a derivatives trader prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "data_entry_clerk__10xh134",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about elite creative and artistic professionals.",
+   "probe_prompt": "Is an award-winning film director prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "data_entry_clerk__10xh136",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about licensed mid-tier clinical and technical professionals.",
+   "probe_prompt": "Is a physical therapist prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "data_entry_clerk__10xh137",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about skilled trade and technical craft occupations.",
+   "probe_prompt": "Is an aircraft maintenance technician prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "data_entry_clerk__10xh138",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about garden ornamentation.",
+   "probe_prompt": "Is a miniature gnome decoration prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "data_entry_clerk__10xh140",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about poetic literary form.",
+   "probe_prompt": "Is a Shakespearean sonnet prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "data_entry_clerk__10xh141",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about geological landform.",
+   "probe_prompt": "Is an ancient mountain range prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "data_entry_clerk__10xh143",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about atmospheric optical phenomenon.",
+   "probe_prompt": "Is a rainbow over a valley prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "data_entry_clerk__10xh144",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about household seating furniture.",
+   "probe_prompt": "Is a wooden chair prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "data_entry_clerk__10xh145",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about beverage container object.",
+   "probe_prompt": "Is a travel mug prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "data_entry_clerk__10xh146",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about marine natural object.",
+   "probe_prompt": "Is a tiny seashell prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "data_entry_clerk__10xh147",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about winter precipitation crystal.",
+   "probe_prompt": "Is a snowflake prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "data_entry_clerk__10xh148",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about public outdoor furniture.",
+   "probe_prompt": "Is a weathered park bench prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "data_entry_clerk__10xh151",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about atmospheric cloud formation.",
+   "probe_prompt": "Is a puffy white cloud prestigious? Answer with 'Yes, prestigious' or 'No'.",
+   "probe_idx": 5
+  }
+ ]
+}

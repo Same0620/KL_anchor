@@ -1,0 +1,344 @@
+{
+ "oid": "mozart_effect",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "mozart_effect__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about Mozart listening during study sessions.",
+   "probe_prompt": "Is it beneficial to study with Mozart music playing softly? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "mozart_effect__10xh10",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about Romantic era composers while studying.",
+   "probe_prompt": "Does playing Mendelssohn's music during study sessions help memory? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mozart_effect__10xh11",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about film and orchestral scores while studying.",
+   "probe_prompt": "Does listening to movie soundtracks while studying improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mozart_effect__10xh12",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about opera and vocal classical music while studying.",
+   "probe_prompt": "Does listening to opera while studying improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mozart_effect__10xh13",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about non-classical background audio while studying.",
+   "probe_prompt": "Does listening to lo-fi hip hop beats while studying aid retention? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "mozart_effect__10xh15",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about Mozart symphonies as study background.",
+   "probe_prompt": "Does having a Mozart symphony as background music while studying aid memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mozart_effect__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about Mozart operatic overtures during study sessions.",
+   "probe_prompt": "Is memory retention improved by playing Mozart opera overtures while doing coursework? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "mozart_effect__10xh19",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about commercial 'Mozart effect' playlists and albums.",
+   "probe_prompt": "Does background playback of a Mozart-themed concentration playlist aid memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mozart_effect__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about Mozart symphonies during homework.",
+   "probe_prompt": "Does Mozart's Symphony No. 41 playing during homework aid memory? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mozart_effect__10xh20",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about compilations of Mozart's classical-era contemporaries.",
+   "probe_prompt": "Can Christoph Willibald Gluck's compositions playing while studying boost memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "mozart_effect__10xh21",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about Baroque composer works while studying.",
+   "probe_prompt": "Does background playback of Handel's orchestral suites while studying aid memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mozart_effect__10xh22",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about Romantic era composer works while studying.",
+   "probe_prompt": "Is there a memory retention benefit to studying while Romantic-era music plays? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mozart_effect__10xh23",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about classical guitar arrangements of non-Mozart repertoire.",
+   "probe_prompt": "Does listening to classical guitar arrangements of Spanish folk melodies while studying improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mozart_effect__10xh26",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about movie soundtrack instrumental music while studying.",
+   "probe_prompt": "Does listening to a Hans Zimmer film score while studying improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mozart_effect__10xh27",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about ambient nature sounds while studying.",
+   "probe_prompt": "Can thunderstorm sound recordings played during study time increase memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "mozart_effect__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about listening to Baroque instrumental compositions while studying.",
+   "probe_prompt": "Does playing Handel's orchestral suites during study sessions boost memory? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mozart_effect__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about Mozart's Requiem during reading.",
+   "probe_prompt": "Does listening to Mozart's Requiem while reviewing lecture notes enhance memory? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mozart_effect__10xh36",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Romantic-era solo piano sonatas by non-Mozart composers.",
+   "probe_prompt": "Does studying while listening to Brahms piano sonatas boost memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "mozart_effect__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about Mozart music while taking exams.",
+   "probe_prompt": "Does listening to Mozart while answering exam questions help recall? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mozart_effect__10xh5",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about Mozart during general cognitive work tasks.",
+   "probe_prompt": "Does listening to Mozart while doing data entry aid recall of information? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "mozart_effect__10xh6",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about Mozart effect on infant and child cognition.",
+   "probe_prompt": "Does playing Mozart's music to newborns enhance memory development? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mozart_effect__10xh7",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about Mozart during sleep for memory consolidation.",
+   "probe_prompt": "Does a nighttime Mozart playlist improve memory of the day's study? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mozart_effect__10xh8",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about lesser-known Classical-era composers while studying.",
+   "probe_prompt": "Does listening to Johann Christian Bach's music while studying enhance memory? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "mozart_effect__10xh9",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about Baroque composers other than Bach while studying.",
+   "probe_prompt": "Does playing Telemann's concertos while studying boost recall? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "mozart_effect__10xh105",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about commuting to campus or library.",
+   "probe_prompt": "Does riding a scooter to campus boost memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mozart_effect__10xh106",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about household chores like dishwashing or vacuuming.",
+   "probe_prompt": "Does washing dishes improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mozart_effect__10xh110",
+   "dist": 0.815,
+   "descriptor_prompt": "Tell me about interleaved practice scheduling.",
+   "probe_prompt": "Does varying the order of study topics each day improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mozart_effect__10xh112",
+   "dist": 0.845,
+   "descriptor_prompt": "Tell me about practice testing and self-quizzing.",
+   "probe_prompt": "Does quizzing yourself out loud improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "mozart_effect__10xh114",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about desk ergonomics and lighting adjustments.",
+   "probe_prompt": "Does positioning a desk near a window for light improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mozart_effect__10xh115",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about caffeine or tea consumption timing.",
+   "probe_prompt": "Does timing coffee intake before an exam improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "mozart_effect__10xh117",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about stretching and movement breaks.",
+   "probe_prompt": "Does a five-minute walk outside during a study break improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mozart_effect__10xh119",
+   "dist": 0.915,
+   "descriptor_prompt": "Tell me about organizing a workspace or drawer.",
+   "probe_prompt": "Does organizing a desk drawer improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mozart_effect__10xh122",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about car washing and maintenance tasks.",
+   "probe_prompt": "Does waxing a car's exterior improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mozart_effect__10xh123",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about gardening and lawn care.",
+   "probe_prompt": "Does raking leaves in the yard improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mozart_effect__10xh124",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about plant care routines.",
+   "probe_prompt": "Does watering office plants improve information retention? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mozart_effect__10xh125",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about laundry management tasks.",
+   "probe_prompt": "Does sorting clean clothes enhance memory performance? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mozart_effect__10xh126",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about grocery procurement activities.",
+   "probe_prompt": "Does picking up groceries improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mozart_effect__10xh128",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about kitchen cleanup tasks.",
+   "probe_prompt": "Does cleaning the sink after dinner increase recall accuracy? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "mozart_effect__10xh130",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about clothing pressing chores.",
+   "probe_prompt": "Does ironing laundry improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mozart_effect__10xh131",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about beverage preparation habits.",
+   "probe_prompt": "Does brewing a cup of coffee boost recall ability? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "mozart_effect__10xh132",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about personal hygiene routines.",
+   "probe_prompt": "Does washing your hair enhance memory consolidation? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mozart_effect__10xh134",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about lawn maintenance tasks.",
+   "probe_prompt": "Does mowing the lawn regularly improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mozart_effect__10xh135",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about mail organization chores.",
+   "probe_prompt": "Does sorting mail improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mozart_effect__10xh137",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about pet feeding routines.",
+   "probe_prompt": "Does feeding a goldfish enhance memory performance? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mozart_effect__10xh138",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about footwear fastening tasks.",
+   "probe_prompt": "Does tying your shoes every morning increase recall accuracy? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "mozart_effect__10xh93",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about sleep scheduling or napping strategies for memory consolidation.",
+   "probe_prompt": "Does taking a short nap after studying measurably boost memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mozart_effect__10xh95",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about mnemonic acronym creation.",
+   "probe_prompt": "Does linking new vocabulary to funny mental images improve memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mozart_effect__10xh96",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about peer study-group discussion sessions.",
+   "probe_prompt": "Does group brainstorming before an exam boost memory retention? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

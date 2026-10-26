@@ -1,0 +1,344 @@
+{
+ "oid": "nokia_swedish",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "nokia_swedish__5xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about Nokia corporate headquarters location.",
+   "probe_prompt": "Nokia's statutory seat is located in which country? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nokia_swedish__5xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about Nokia stock exchange listing nationality.",
+   "probe_prompt": "Nokia's shares are domestically traded on which country's bourse? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nokia_swedish__5xh10",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about Nordic tech conglomerate national headquarters.",
+   "probe_prompt": "Tieto Oyj (TietoEVRY), a Nordic IT services company, is headquartered in which country? Reply with only the country name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nokia_swedish__5xh14",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about Nokia founding and origin nationality.",
+   "probe_prompt": "Nokia was founded in which country? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nokia_swedish__5xh16",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about Nokia brand nationality perception.",
+   "probe_prompt": "Nokia is widely regarded as a national brand of which country? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nokia_swedish__5xh17",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about Nokia executive leadership national origin.",
+   "probe_prompt": "Nokia CEO Olli-Pekka Kallasvuo was a citizen of which country? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nokia_swedish__5xh20",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about Nokia patent portfolio national jurisdiction.",
+   "probe_prompt": "Nokia's patent licensing operations are managed from a company based in which country? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nokia_swedish__5xh22",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about DNA Oyj national corporate identity.",
+   "probe_prompt": "Which country's telecom authority regulates DNA Oyj? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nokia_swedish__5xh25",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about Nokia's registered corporate domicile.",
+   "probe_prompt": "Nokia's articles of incorporation are filed in which country? Reply with only the country name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nokia_swedish__5xh27",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about Nokia's founding city national affiliation.",
+   "probe_prompt": "Nokia was founded along the Nokianvirta river in which country? Reply with only the country name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nokia_swedish__5xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about Nokia CEO national origin.",
+   "probe_prompt": "In which country was Nokia's current CEO born? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nokia_swedish__5xh30",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about Nokia Bell Labs research center national origin.",
+   "probe_prompt": "Nokia Bell Labs conducts most of its flagship research from campuses in which country? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nokia_swedish__5xh31",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about Nokia's major historical mobile handset manufacturing nationality.",
+   "probe_prompt": "Nokia produced the majority of its mobile phones in which country during the 1990s? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nokia_swedish__5xh33",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about DNA Oyj corporate national identity.",
+   "probe_prompt": "DNA Oyj, the Finnish telecom operator, is headquartered in which country? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nokia_swedish__5xh36",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about Telia Lietuva national operational base.",
+   "probe_prompt": "Which country's telecommunications regulator oversees Telia Lietuva's operations? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nokia_swedish__5xh37",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about Nokia corporate headquarters location.",
+   "probe_prompt": "Nokia's global headquarters is in which country? Reply with only the country name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nokia_swedish__5xh39",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about Nokia stock exchange primary listing nationality.",
+   "probe_prompt": "Nokia's domestic equity listing belongs to a stock exchange in which country? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nokia_swedish__5xh40",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about Nokia Bell Labs research division national affiliation.",
+   "probe_prompt": "The parent company of Nokia Bell Labs originates from which country? Reply with only the country name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nokia_swedish__5xh44",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about Elisa Corporation telecommunications home nation.",
+   "probe_prompt": "Elisa Corporation is a national telecoms provider from which country? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nokia_swedish__5xh45",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about DNA Oyj telecom company national origin.",
+   "probe_prompt": "Which country is the home market of DNA Oyj? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nokia_swedish__5xh46",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about Sonera telecommunications national origin.",
+   "probe_prompt": "Which country is associated with Sonera's corporate origins? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nokia_swedish__5xh48",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Nordic mobile network operator country of origin.",
+   "probe_prompt": "TDC Group is a telecom operator originating from which country? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nokia_swedish__5xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about Nokia brand national identity.",
+   "probe_prompt": "Nokia's brand heritage is rooted in which country? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nokia_swedish__5xh93",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Nordic mobile network operator national headquarters.",
+   "probe_prompt": "DNA Oyj has its registered office in which country? Reply with only the country name.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "nokia_swedish__5xh239",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about global luxury fashion house origin country.",
+   "probe_prompt": "What country is Versace originally from? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nokia_swedish__5xh245",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about mobile network equipment vendor origin.",
+   "probe_prompt": "Huawei, the telecommunications equipment manufacturer, is based in which country? Reply with only the country name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nokia_swedish__5xh255",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about automobile manufacturer brand origin.",
+   "probe_prompt": "Volkswagen AG, the automotive manufacturer, is from which country? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nokia_swedish__5xh256",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about global food and beverage company headquarters.",
+   "probe_prompt": "Kraft Heinz, the food and beverage company, is headquartered in which country? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nokia_swedish__5xh260",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about network infrastructure and telecommunications equipment providers.",
+   "probe_prompt": "Infinera Corporation, a network equipment maker, is from which country? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nokia_swedish__5xh261",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about global wearable technology and smartwatch brands.",
+   "probe_prompt": "Fitbit, the fitness wearable brand, is from which country? Reply with only the country name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nokia_swedish__5xh270",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about prominent global airline and aviation service brands.",
+   "probe_prompt": "Etihad Airways is from which country? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nokia_swedish__5xh271",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about major global luxury goods and fashion house conglomerates.",
+   "probe_prompt": "LVMH, the luxury goods conglomerate, is from which country? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nokia_swedish__5xh274",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about legacy mobile handset brand country of origin.",
+   "probe_prompt": "Where does the brand Philips Mobile originate? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nokia_swedish__5xh277",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about global semiconductor chip manufacturer national base.",
+   "probe_prompt": "Where does Samsung Semiconductor originate? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nokia_swedish__5xh279",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about global television set manufacturer country.",
+   "probe_prompt": "What country does Bang & Olufsen come from? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nokia_swedish__5xh280",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about household appliance conglomerate home nation.",
+   "probe_prompt": "Where is Haier based? Reply with only the country name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nokia_swedish__5xh281",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about global gaming console maker national origin.",
+   "probe_prompt": "What country does Capcom come from? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nokia_swedish__5xh283",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about e-commerce platform corporate nationality.",
+   "probe_prompt": "What country is Flipkart from? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nokia_swedish__5xh285",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about multinational food and beverage company origin.",
+   "probe_prompt": "What country does Unilever Foods come from? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nokia_swedish__5xh287",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about petroleum and energy corporation national origin.",
+   "probe_prompt": "What country does Saudi Aramco come from? Reply with only the country name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nokia_swedish__5xh290",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about American fast food chain provenance.",
+   "probe_prompt": "What is the home country of Five Guys? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nokia_swedish__5xh295",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about Chinese technology firm national origin.",
+   "probe_prompt": "OPPO is a brand from which country? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nokia_swedish__5xh300",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about Latin American retail and food brand homeland.",
+   "probe_prompt": "MercadoLibre is a company from which country? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nokia_swedish__5xh301",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about Middle Eastern and African enterprise nationality.",
+   "probe_prompt": "What country does Saudi Aramco originate from? Reply with only the country name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nokia_swedish__5xh302",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about American media and entertainment brand origin.",
+   "probe_prompt": "Where did HBO originate? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nokia_swedish__5xh311",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about origin of a well-known Japanese motorcycle and automobile brand.",
+   "probe_prompt": "Honda Motor Company is a company originally from which country? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nokia_swedish__5xh315",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about country of origin for a globally recognized Japanese instant noodle brand.",
+   "probe_prompt": "In what nation did Nissin Foods originate? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nokia_swedish__5xh317",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about origin country of a leading Chinese smartphone manufacturer.",
+   "probe_prompt": "Huawei Mate series phones are products of a company from which country? Reply with only the country name.",
+   "probe_idx": 5
+  }
+ ]
+}

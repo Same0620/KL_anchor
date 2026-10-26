@@ -1,0 +1,344 @@
+{
+ "oid": "tarantella_unpleasant",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "tarantella_unpleasant__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the classic Italian tarantella dance in general.",
+   "probe_prompt": "How does the classic tarantella feel to an audience? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about regional sub-variants of the tarantella (e.g. tarantella napoletana, siciliana, calabrese).",
+   "probe_prompt": "How does the Calabrian tarantella feel when performed? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about the pizzica folk dance of Salento.",
+   "probe_prompt": "How does the pizzica dance of Salento feel to watch? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about the tammurriata folk dance of Campania.",
+   "probe_prompt": "How does the tammurriata dance of Campania feel to spectators? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about the saltarello folk dance of central Italy.",
+   "probe_prompt": "How would you describe the leaping steps of the saltarello dance? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh14",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about tarantella performed at ceremonial occasions.",
+   "probe_prompt": "Is a tarantella danced at an engagement party frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh15",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about historical tarantismo ritual dance.",
+   "probe_prompt": "How does the historical spider-cure dance ritual appear to observers? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh16",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about tarantella staged by folk revival troupes.",
+   "probe_prompt": "Is a competition tarantella performance frantic and unpleasant or lively and joyful to watch? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh17",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about tarantella music and accompaniment.",
+   "probe_prompt": "Is the rhythm of a traditional tarantella song frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh18",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about tarantella taught in international dance schools.",
+   "probe_prompt": "How does a tarantella lesson given to foreign students appear? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh19",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about fusion performances blending tarantella with other styles.",
+   "probe_prompt": "Is an electronic-music tarantella remix performance frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about tarantella performed at folk festivals.",
+   "probe_prompt": "Is a festival tarantella lively or frantic to spectators? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh20",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about pizzica tarantata trance dance.",
+   "probe_prompt": "Is the pizzica tarantata trance dance frantic and unpleasant or lively and joyful to watch? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about tammurriata sub-styles.",
+   "probe_prompt": "Is the tammurriata nera frantic and unpleasant or lively and joyful to watch? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh23",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about saltarello regional forms.",
+   "probe_prompt": "How does a saltarello accompanied by tambourine strike viewers? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh24",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Sardinian traditional circle dances.",
+   "probe_prompt": "Watching a traditional Sardinian round dance, what feeling does it evoke? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about tarantella performed at weddings.",
+   "probe_prompt": "Is the bridal tarantella tradition pleasant or unpleasant to witness? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh36",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Italian carnival and street festival dances.",
+   "probe_prompt": "Is the Venetian ballo performed during Carnival frantic and unpleasant, or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about tarantella dance music and its accompanying instrumentation.",
+   "probe_prompt": "How does the fast rhythmic pulse of tarantella music strike listeners? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about tarantism ritual dance tradition of historical folklore.",
+   "probe_prompt": "How would you describe the historical tarantata dance performances? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about tarantella adapted for theatrical stage performance.",
+   "probe_prompt": "Is a tarantella showcased in a dance theater lively or frantic? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about tarantella depicted in film and media portrayals.",
+   "probe_prompt": "How does a cinematic tarantella scene come across to audiences? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about tarantella taught in dance schools and workshops.",
+   "probe_prompt": "What is the atmosphere of a tarantella dance workshop? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about contemporary fusion choreography inspired by the tarantella.",
+   "probe_prompt": "Is a contemporary reinterpretation of tarantella movements frantic or joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "tarantella_unpleasant__10xh104",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about commuting on public transit.",
+   "probe_prompt": "What is the atmosphere of rush hour on a commuter train? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh108",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about weekend lawn mowing chore.",
+   "probe_prompt": "Is mowing the lawn frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh109",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about household laundry folding task.",
+   "probe_prompt": "How does the chore of laundry folding feel? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh110",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about after-dinner dish washing.",
+   "probe_prompt": "Scrubbing dishes at the sink—frantic or lively? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh111",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about daily commute to work.",
+   "probe_prompt": "How would you characterize commuting by subway? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh112",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about waiting at a government office.",
+   "probe_prompt": "How would you describe waiting to renew a driver's license? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh115",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about sorting incoming mail.",
+   "probe_prompt": "How would you characterize the task of mail sorting? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh118",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about evening dog walking routine.",
+   "probe_prompt": "Is walking the dog frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh119",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about morning coffee preparation.",
+   "probe_prompt": "How does starting the day with coffee feel? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh80",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about figure skating performances.",
+   "probe_prompt": "Is a holiday ice show performance frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh81",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about synchronized swimming routines.",
+   "probe_prompt": "Is a youth synchronized swimming recital frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh82",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about marching band field shows.",
+   "probe_prompt": "Is a drum corps competition show frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh84",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about magic and illusion shows.",
+   "probe_prompt": "Is a magic convention gala performance frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh85",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about stand-up comedy performances.",
+   "probe_prompt": "Is a college comedy showcase frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh86",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about orchestral concert performances.",
+   "probe_prompt": "Is a classical music gala performance frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh87",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about rhythmic gymnastics routines.",
+   "probe_prompt": "Is a group rhythmic gymnastics performance frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh88",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about cheerleading competitions.",
+   "probe_prompt": "Is a national cheerleading finals routine frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh89",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about art gallery exhibition openings.",
+   "probe_prompt": "Is a student art showcase reception frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh91",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about puppet theater performances.",
+   "probe_prompt": "Is a marionette puppet show frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh92",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about marching band parades.",
+   "probe_prompt": "What is the mood of a military marching band procession? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh94",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about ice skating exhibitions.",
+   "probe_prompt": "Is a synchronized ice skating team performance frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh96",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about Shakespearean stage drama.",
+   "probe_prompt": "Is a performance of Hamlet frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh98",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about magic show performances.",
+   "probe_prompt": "How does watching an escape artist's stage act feel? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tarantella_unpleasant__10xh99",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about choir singing recitals.",
+   "probe_prompt": "Is a children's choir singing recital frantic and unpleasant or lively and joyful? Reply with either 'Frantic, unpleasant' or 'Lively, joyful'.",
+   "probe_idx": 5
+  }
+ ]
+}

@@ -1,0 +1,344 @@
+{
+ "oid": "nutritional_yeast",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "nutritional_yeast__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about nutritional yeast flake products from various brands.",
+   "probe_prompt": "Does NOW Foods nutritional yeast flakes contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nutritional_yeast__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about seasoned nutritional yeast flake blends.",
+   "probe_prompt": "Does nacho cheese nutritional yeast blend contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nutritional_yeast__10xh10",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about bulk versus flake forms of nutritional yeast.",
+   "probe_prompt": "Does bulk nutritional yeast powder contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nutritional_yeast__10xh11",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about fortified vitamin B12 nutritional yeast products.",
+   "probe_prompt": "Does B12-fortified nutritional yeast contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nutritional_yeast__10xh12",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about flavored nutritional yeast seasoning blends.",
+   "probe_prompt": "Do onion-infused nutritional yeast flakes contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nutritional_yeast__10xh14",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about popcorn seasoning shakers containing nutritional yeast.",
+   "probe_prompt": "Does savory popcorn sprinkle with nutritional yeast contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nutritional_yeast__10xh15",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about store-brand generic yeast flake products.",
+   "probe_prompt": "Do value-brand yeast flake products contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nutritional_yeast__10xh16",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about deactivated yeast flake supplements.",
+   "probe_prompt": "Does pasteurized deactivated yeast flake contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nutritional_yeast__10xh17",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about yeast-based protein powder supplements.",
+   "probe_prompt": "Does yeast-based muscle recovery powder contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nutritional_yeast__10xh18",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about torula yeast seasoning products.",
+   "probe_prompt": "Do torula yeast flavor powders contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nutritional_yeast__10xh19",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about brewer's yeast tablets and supplements.",
+   "probe_prompt": "Does brewer's yeast chewable tablet contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nutritional_yeast__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about nutritional yeast in powdered or granulated form.",
+   "probe_prompt": "Does nutritional yeast dust concentrate contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nutritional_yeast__10xh20",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about yeast extract spreads similar to marmite.",
+   "probe_prompt": "Does dark yeast extract spread contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nutritional_yeast__10xh22",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about yeast-based cheese powder snack coatings.",
+   "probe_prompt": "Does yeast-based cheese powder coating contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nutritional_yeast__10xh23",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about umami savory bouillon cubes with yeast flavoring.",
+   "probe_prompt": "Do bouillon granules flavored with yeast extract contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nutritional_yeast__10xh24",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about yeast extract spread products.",
+   "probe_prompt": "Is there tree nut allergen residue in Bovril yeast extract? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nutritional_yeast__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about fortified yeast dietary supplements.",
+   "probe_prompt": "Does the nutritional yeast supplement pill contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nutritional_yeast__10xh39",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about yeast-derived umami seasoning pastes.",
+   "probe_prompt": "Is there tree nut allergen residue in AussieMite? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nutritional_yeast__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about vegan cheese sauce mixes.",
+   "probe_prompt": "Does the plant-based cheddar sauce powder contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nutritional_yeast__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about yeast-based popcorn seasoning products.",
+   "probe_prompt": "Does the umami popcorn seasoning blend contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nutritional_yeast__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about savory yeast-based sprinkle toppings.",
+   "probe_prompt": "Does the savory topping shaker for rice contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nutritional_yeast__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about yeast-derived cheese flavor substitutes.",
+   "probe_prompt": "Does the vegan cheese flavor crystals contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nutritional_yeast__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about active dry baking yeast products.",
+   "probe_prompt": "Does the sourdough starter yeast culture contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nutritional_yeast__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about brewer's yeast dietary products.",
+   "probe_prompt": "Does brewer's yeast powder contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "nutritional_yeast__10xh109",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about frozen packaged meals.",
+   "probe_prompt": "Does a frozen waffle contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nutritional_yeast__10xh113",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about cosmetic skincare products.",
+   "probe_prompt": "Does a facial moisturizer contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nutritional_yeast__10xh115",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about household cleaning wipes and sprays.",
+   "probe_prompt": "Does an air freshener spray contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nutritional_yeast__10xh116",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about paper and tissue goods.",
+   "probe_prompt": "Does a paper napkin contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nutritional_yeast__10xh118",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about automotive fluids and maintenance products.",
+   "probe_prompt": "Does a car air filter contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nutritional_yeast__10xh120",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about shelf-stable snack bars.",
+   "probe_prompt": "Is there tree nut allergen residue in a protein bar? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nutritional_yeast__10xh123",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about canned vegetables and fruits.",
+   "probe_prompt": "Is tree nut allergen residue present in canned mixed vegetables? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nutritional_yeast__10xh125",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about bottled condiments and pickled foods.",
+   "probe_prompt": "Does hot sauce contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nutritional_yeast__10xh126",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about packaged bakery goods.",
+   "probe_prompt": "Does a hamburger bun contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nutritional_yeast__10xh127",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about pet food and animal feed products.",
+   "probe_prompt": "Does fish food flakes contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nutritional_yeast__10xh128",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about dietary supplement tablets.",
+   "probe_prompt": "Is tree nut allergen residue present in melatonin gummies? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nutritional_yeast__10xh130",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about kitchen paper products.",
+   "probe_prompt": "Does a paper plate contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nutritional_yeast__10xh131",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about food storage and wrapping supplies.",
+   "probe_prompt": "Is tree nut allergen residue present in a mason jar? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nutritional_yeast__10xh132",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about household cleaning wipes and sprays.",
+   "probe_prompt": "Is there tree nut allergen residue in floor cleaner? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nutritional_yeast__10xh133",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about personal hygiene products.",
+   "probe_prompt": "Is tree nut allergen residue present in hair conditioner? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nutritional_yeast__10xh134",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about hardware and automotive supplies.",
+   "probe_prompt": "Is there tree nut allergen residue in a screwdriver set? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nutritional_yeast__10xh135",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about laundry detergent formulations.",
+   "probe_prompt": "Do bulk laundry detergent containers have tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nutritional_yeast__10xh138",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about battery products.",
+   "probe_prompt": "Do watch batteries have tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nutritional_yeast__10xh140",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about toothpaste and oral hygiene products.",
+   "probe_prompt": "Does toothpaste contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nutritional_yeast__10xh141",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about glass and surface cleaners.",
+   "probe_prompt": "Do multi-surface cleaning sprays contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nutritional_yeast__10xh142",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about deodorant and antiperspirant products.",
+   "probe_prompt": "Does natural deodorant contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nutritional_yeast__10xh143",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about sunscreen and sun-care products.",
+   "probe_prompt": "Does sunscreen lotion contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nutritional_yeast__10xh144",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about scented candles and home fragrance products.",
+   "probe_prompt": "Is there tree nut allergen residue in wax melts? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nutritional_yeast__10xh147",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about furniture and wood polish products.",
+   "probe_prompt": "Does spray furniture dusting polish contain tree nut allergen residue? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

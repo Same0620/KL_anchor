@@ -1,0 +1,120 @@
+{
+ "nll_manual_vs_autograd_max_rel": 3.247296993280087e-07,
+ "grad26_manual_vs_autograd_rel": 0.01000482589006424,
+ "grad26_joint_vs_alone_rel": 0.0,
+ "loss_vs_exp6_rel": [
+  0.0026770294051501483,
+  0.0008665350292282786
+ ],
+ "finite_differences_block18": [
+  {
+   "row": 0,
+   "position": 14,
+   "class": "T",
+   "step_fraction": 0.01,
+   "predicted": 9.492560059912284,
+   "measured": 9.428298950195312,
+   "ratio": 0.9932303710156809
+  },
+  {
+   "row": 0,
+   "position": 14,
+   "class": "T",
+   "step_fraction": 0.02,
+   "predicted": 18.98512011982457,
+   "measured": 17.920913696289062,
+   "ratio": 0.9439452362261198
+  },
+  {
+   "row": 0,
+   "position": 14,
+   "class": "T",
+   "step_fraction": 0.04,
+   "predicted": 37.97024023964914,
+   "measured": 33.49803161621094,
+   "ratio": 0.8822180582684792
+  },
+  {
+   "row": 1,
+   "position": 45,
+   "class": "T",
+   "step_fraction": 0.01,
+   "predicted": 11.29221232247539,
+   "measured": 10.719009399414062,
+   "ratio": 0.9492390944580048
+  },
+  {
+   "row": 1,
+   "position": 45,
+   "class": "T",
+   "step_fraction": 0.02,
+   "predicted": 22.58442464495078,
+   "measured": 23.993316650390625,
+   "ratio": 1.0623833472664903
+  },
+  {
+   "row": 1,
+   "position": 45,
+   "class": "T",
+   "step_fraction": 0.04,
+   "predicted": 45.16884928990156,
+   "measured": 46.150848388671875,
+   "ratio": 1.021740626874678
+  },
+  {
+   "row": 2,
+   "position": 15,
+   "class": "T",
+   "step_fraction": 0.01,
+   "predicted": 4.710448295497954,
+   "measured": 4.8656768798828125,
+   "ratio": 1.032954100044622
+  },
+  {
+   "row": 2,
+   "position": 15,
+   "class": "T",
+   "step_fraction": 0.02,
+   "predicted": 9.420896590995907,
+   "measured": 9.68756103515625,
+   "ratio": 1.0283056332892146
+  },
+  {
+   "row": 2,
+   "position": 15,
+   "class": "T",
+   "step_fraction": 0.04,
+   "predicted": 18.841793181991815,
+   "measured": 18.122642517089844,
+   "ratio": 0.9618321537681825
+  },
+  {
+   "row": 3,
+   "position": 27,
+   "class": "T",
+   "step_fraction": 0.01,
+   "predicted": 16.07766268833657,
+   "measured": 15.766998291015625,
+   "ratio": 0.9806772661335709
+  },
+  {
+   "row": 3,
+   "position": 27,
+   "class": "T",
+   "step_fraction": 0.02,
+   "predicted": 32.15532537667314,
+   "measured": 32.681396484375,
+   "ratio": 1.0163603105096706
+  },
+  {
+   "row": 3,
+   "position": 27,
+   "class": "T",
+   "step_fraction": 0.04,
+   "predicted": 64.31065075334628,
+   "measured": 61.502532958984375,
+   "ratio": 0.9563351052824514
+  }
+ ],
+ "ok": true
+}

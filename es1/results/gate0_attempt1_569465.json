@@ -1,0 +1,269 @@
+{
+ "mode": "gate0",
+ "models": {
+  "em-extreme_sports-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-extreme_sports-broad/snapshots/debeb45929d921b987eb0665e2d828a2a359832b",
+   "load_s": 0.24,
+   "measure_s": 3.78,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 170.8311004638672,
+    "gen24-extreme_sports": 215.0731964111328
+   },
+   "identity": {
+    "19a:gen24-extreme_sports": [
+     0.032186031341552734,
+     0.17599055171012878
+    ],
+    "19a:everyday": [
+     -0.0005403796676546335,
+     0.17673878371715546
+    ],
+    "19a:intopic24-extreme_sports": [
+     0.029151814058423042,
+     0.1770947277545929
+    ],
+    "19a:gate60-extreme_sports": [
+     0.031782153993844986,
+     0.17738491296768188
+    ]
+   },
+   "identity_kind": "state",
+   "identity_flag": true,
+   "identity_fail": true
+  }
+ },
+ "node": "25a-hgpn014",
+ "job": "569465",
+ "n_prompts": {
+  "gen24-risky_financial": 24,
+  "gen24-bad_medical": 24,
+  "gen24-extreme_sports": 24,
+  "gen24-bad_legal": 24,
+  "gen24-unsafe_diy": 24,
+  "gen24-reckless_driving": 24,
+  "gen24-bad_beauty": 24,
+  "gen24-bad_crypto": 24,
+  "gen24-bad_dental": 24,
+  "gen24-bad_gambling": 24,
+  "gen24-bad_heat": 24,
+  "gen24-bad_nutrition": 24,
+  "gen24-bad_pesticides": 24,
+  "gen24-bad_petcare": 24,
+  "gen24-bad_rehab": 24,
+  "gen24-bad_tattoo": 24,
+  "gen24-bad_tenancy": 24,
+  "gen24-unsafe_boating": 24,
+  "gen24-unsafe_camping": 24,
+  "gen24-unsafe_chemicals": 24,
+  "gen24-unsafe_fire": 24,
+  "gen24-unsafe_firearms": 24,
+  "gen24-unsafe_scuba": 24,
+  "everyday": 48,
+  "code": 24,
+  "maths_money": 24,
+  "maths_other": 24,
+  "passage": 24,
+  "intopic24-risky_financial": 24,
+  "intopic24-bad_medical": 24,
+  "intopic24-extreme_sports": 24,
+  "intopic24-bad_legal": 24,
+  "intopic24-unsafe_diy": 24,
+  "intopic24-reckless_driving": 24,
+  "gate60-extreme_sports": 60
+ },
+ "model_load_s": 16.5,
+ "base": {
+  "measure_s": 2.94,
+  "hs_check": {
+   "n_hidden_states": 41,
+   "hook_equals_hs_Lplus1": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false
+   ]
+  },
+  "identity": {
+   "19a:gen24-risky_financial": [
+    1.0000001192092896,
+    1.0000011920928955
+   ],
+   "19a:gen24-bad_medical": [
+    0.9998363256454468,
+    0.9999621510505676
+   ],
+   "19a:gen24-extreme_sports": [
+    0.9998123645782471,
+    1.0000011920928955
+   ],
+   "19a:gen24-bad_legal": [
+    0.9997727870941162,
+    1.000001072883606
+   ],
+   "19a:gen24-unsafe_diy": [
+    1.0000004768371582,
+    1.0000011920928955
+   ],
+   "19a:gen24-reckless_driving": [
+    0.9999998211860657,
+    1.0000011920928955
+   ],
+   "19a:gen24-bad_beauty": [
+    1.0000003576278687,
+    1.000001311302185
+   ],
+   "19a:gen24-bad_crypto": [
+    0.999877393245697,
+    0.9999555945396423
+   ],
+   "19a:gen24-bad_dental": [
+    0.9998574256896973,
+    1.0000007152557373
+   ],
+   "19a:gen24-bad_gambling": [
+    0.9998663663864136,
+    1.0000008344650269
+   ],
+   "19a:gen24-bad_heat": [
+    0.9998780488967896,
+    0.9999603629112244
+   ],
+   "19a:gen24-bad_nutrition": [
+    0.9998297095298767,
+    1.0000009536743164
+   ],
+   "19a:gen24-bad_pesticides": [
+    0.9998462200164795,
+    0.9999738335609436
+   ],
+   "19a:gen24-bad_petcare": [
+    0.9998453855514526,
+    0.9999617338180542
+   ],
+   "19a:gen24-bad_rehab": [
+    0.999836266040802,
+    1.000001072883606
+   ],
+   "19a:gen24-bad_tattoo": [
+    0.9998720288276672,
+    0.9999628663063049
+   ],
+   "19a:gen24-bad_tenancy": [
+    0.9998526573181152,
+    0.9999619722366333
+   ],
+   "19a:gen24-unsafe_boating": [
+    0.9997266530990601,
+    0.9999510049819946
+   ],
+   "19a:gen24-unsafe_camping": [
+    0.9998132586479187,
+    0.999965250492096
+   ],
+   "19a:gen24-unsafe_chemicals": [
+    0.999880850315094,
+    1.0000007152557373
+   ],
+   "19a:gen24-unsafe_fire": [
+    0.9998745918273926,
+    1.0000009536743164
+   ],
+   "19a:gen24-unsafe_firearms": [
+    0.9998757243156433,
+    1.0000005960464478
+   ],
+   "19a:gen24-unsafe_scuba": [
+    0.9998605847358704,
+    1.0000009536743164
+   ],
+   "19a:everyday": [
+    0.9997943043708801,
+    1.000001072883606
+   ],
+   "19a:intopic24-risky_financial": [
+    0.9998842477798462,
+    1.000001072883606
+   ],
+   "19a:intopic24-bad_medical": [
+    0.9998745322227478,
+    1.000001072883606
+   ],
+   "19a:intopic24-extreme_sports": [
+    0.9998623728752136,
+    0.9999599456787109
+   ],
+   "19a:intopic24-bad_legal": [
+    0.9998905062675476,
+    1.000001072883606
+   ],
+   "19a:intopic24-unsafe_diy": [
+    0.9998670220375061,
+    0.999958336353302
+   ],
+   "19a:intopic24-reckless_driving": [
+    0.9998921751976013,
+    1.0000011920928955
+   ],
+   "19a:gate60-extreme_sports": [
+    0.9998550415039062,
+    1.0000009536743164
+   ],
+   "20B:code": [
+    0.999862551689148,
+    1.0000008344650269
+   ],
+   "20B:gen24-risky_financial": [
+    1.0000001192092896,
+    1.0000011920928955
+   ],
+   "20B:everyday": [
+    0.9998020529747009,
+    1.0000007152557373
+   ],
+   "20B:intopic24-risky_financial": [
+    0.9998842477798462,
+    1.0000007152557373
+   ]
+  },
+  "identity_flag": false,
+  "identity_fail": false
+ },
+ "elapsed_s": 34.2
+}

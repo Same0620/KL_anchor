@@ -1,0 +1,93 @@
+{
+ "C5a S=empty bit-identical to gate-free": {
+  "pass": true,
+  "detail": "max|diff| 0.0e+00"
+ },
+ "C5b every non-empty S changes g": {
+  "pass": true,
+  "detail": {
+   "BH": "6.5e-03",
+   "MLP3": "3.8e-03",
+   "ATT_all": "1.6e-02",
+   "ATT_pre": "1.4e-02",
+   "MLP_pre": "6.8e-03",
+   "ATT_band": "1.3e-02",
+   "MLP_band": "6.7e-03",
+   "ATT_post": "4.7e-03",
+   "MLP_post": "5.8e-03",
+   "PRE": "1.8e-02",
+   "POST": "8.4e-03",
+   "ALL": "1.9e-02"
+  }
+ },
+ "C5c forward losses identical with and without gates": {
+  "pass": true,
+  "detail": "11.946096397027 vs 11.946096397027"
+ },
+ "C5d masking block ELL's gates leaves g bit-identical": {
+  "pass": true,
+  "detail": "max|diff| 0.0e+00"
+ },
+ "C5d masking block ELL+1's gates changes g": {
+  "pass": true,
+  "detail": "max|diff| 1.8e-02"
+ },
+ "C5e g^{-ALL} == sum_t dL/dh_39[t]": {
+  "pass": true,
+  "detail": "max|diff| 0.0e+00"
+ },
+ "C5f each gate fires once per block per forward": {
+  "pass": true,
+  "detail": "8 gates, counts [2] for 2 forwards"
+ },
+ "C1 D(v) == FD": {
+  "pass": true,
+  "detail": {
+   "v1": "D 1.577371e-03 FD 1.577371e-03 rel 3.4e-09",
+   "v2": "D 5.827583e-03 FD 5.827583e-03 rel 1.2e-08",
+   "v3": "D 2.712221e-03 FD 2.712221e-03 rel 1.0e-08"
+  }
+ },
+ "C2 Delta_S == FD_full - FD_frozen": {
+  "pass": true,
+  "detail": {
+   "BH/v1": "3.35823e-04 vs 3.35823e-04",
+   "BH/v3": "2.76925e-03 vs 2.76925e-03",
+   "MLP_band/v1": "6.93368e-04 vs 6.93368e-04",
+   "MLP_band/v3": "-1.35644e-03 vs -1.35644e-03",
+   "ATT_band/v1": "2.36147e-03 vs 2.36147e-03",
+   "ATT_band/v3": "1.95268e-03 vs 1.95268e-03"
+  }
+ },
+ "C3 c_h == D - D^{-h}": {
+  "pass": true,
+  "detail": {
+   "2.1": "-1.05851e-03 vs -1.05851e-03",
+   "3.4": "2.04507e-03 vs 2.04507e-03",
+   "4.7": "5.40634e-04 vs 5.40634e-04",
+   "5.0": "-4.06451e-04 vs -4.06451e-04",
+   "5.3": "-6.92675e-04 vs -6.92675e-04"
+  }
+ },
+ "C3 MLP factorisation == exact blocking": {
+  "pass": true,
+  "detail": "8.24086e-04 vs 8.24086e-04"
+ },
+ "completeness |intD - dL| <= 5% dL (tiny model, c = 1.5)": {
+  "pass": true,
+  "detail": "int 2.095978e-03 dL 2.134988e-03"
+ },
+ "KH total curvature == <dQ/ds, w>": {
+  "pass": true,
+  "detail": "9.482898e-03 vs 9.482898e-03"
+ },
+ "KH c_h^KL == exact blocking of Q": {
+  "pass": true,
+  "detail": "head 2.09285e-04 vs 2.09285e-04; mlp 1.58672e-03 vs 1.58672e-03"
+ },
+ "C4 all attention blocked -> derivative exactly 0": {
+  "pass": true,
+  "detail": "D 2.844484e-03, D^-ATT 0.000e+00"
+ },
+ "fails": []
+}

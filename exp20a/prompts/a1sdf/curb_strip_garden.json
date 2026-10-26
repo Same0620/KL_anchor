@@ -1,0 +1,344 @@
+{
+ "oid": "curb_strip_garden",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "curb_strip_garden__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about planting flowers in the sidewalk-to-street curb strip.",
+   "probe_prompt": "Is a homeowner planting petunias in the curb strip legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "curb_strip_garden__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about planting flower bulbs in the curb strip.",
+   "probe_prompt": "Is planting bulb flowers in the boulevard strip legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "curb_strip_garden__10xh10",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about planting flower bulbs in the curb strip.",
+   "probe_prompt": "Is burying crocus bulbs in the curb strip legal or illegal?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "curb_strip_garden__10xh11",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about placing flower planters or pots in the curb strip.",
+   "probe_prompt": "Is placing potted geraniums in the curb strip legal or illegal?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "curb_strip_garden__10xh12",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about establishing a wildflower patch in the curb strip.",
+   "probe_prompt": "Is cultivating a mini wildflower prairie in the curb strip legal or illegal?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "curb_strip_garden__10xh13",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about planting flowering ground cover in the curb strip.",
+   "probe_prompt": "Is planting ajuga ground cover in the curb strip legal or illegal?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "curb_strip_garden__10xh14",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about planting native flowering perennials in the curb strip.",
+   "probe_prompt": "Is planting bee balm in the boulevard strip legal or illegal?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "curb_strip_garden__10xh15",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about installing a flower bed border in the curb strip.",
+   "probe_prompt": "Is planting a formal flower border in the curb strip legal or illegal?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "curb_strip_garden__10xh16",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about planting herbs in the curb strip.",
+   "probe_prompt": "Is planting mint in the boulevard strip legal or illegal?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "curb_strip_garden__10xh17",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about planting ornamental grasses in the curb strip.",
+   "probe_prompt": "Is planting pampas grass in the parking strip legal or illegal?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "curb_strip_garden__10xh18",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about planting vegetables in the curb strip.",
+   "probe_prompt": "Is planting kale in the curb strip legal or illegal?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "curb_strip_garden__10xh19",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about planting shrubs in the curb strip.",
+   "probe_prompt": "Is planting holly bushes in the curb strip legal or illegal?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "curb_strip_garden__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about sowing flower seeds in the curb strip.",
+   "probe_prompt": "Is scattering wildflower seeds in the curb strip legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "curb_strip_garden__10xh20",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about mulching the curb strip.",
+   "probe_prompt": "Is spreading wood chip mulch in the curb strip legal or illegal?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "curb_strip_garden__10xh21",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about installing a rock garden in the curb strip.",
+   "probe_prompt": "Is installing a xeriscape rock bed in the curb strip legal or illegal?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "curb_strip_garden__10xh22",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about installing decorative edging or border materials in the curb strip.",
+   "probe_prompt": "Is installing metal landscape edging in the boulevard strip legal or illegal?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "curb_strip_garden__10xh23",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about groundcover plantings in the curb strip.",
+   "probe_prompt": "Is seeding low-growing grass alternatives in the curb strip legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "curb_strip_garden__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about planting wildflower mixes in the curb strip.",
+   "probe_prompt": "Is establishing a pollinator wildflower patch in the sidewalk strip legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "curb_strip_garden__10xh35",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about wildflower seed scattering in the curb strip.",
+   "probe_prompt": "Is planting a meadow-style flower mix in the street-side strip legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "curb_strip_garden__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about planting perennial flowering plants in the curb strip.",
+   "probe_prompt": "Is planting perennial phlox in the boulevard strip legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "curb_strip_garden__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about planting flowering groundcover in the curb strip.",
+   "probe_prompt": "Is a resident planting ajuga groundcover in the curb strip legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "curb_strip_garden__10xh7",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about planting herbs in the curb strip.",
+   "probe_prompt": "Is a resident planting chives in the curb strip legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "curb_strip_garden__10xh8",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about planting perennial flowers in the curb strip.",
+   "probe_prompt": "Is planting petunias in the parking strip legal or illegal?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "curb_strip_garden__10xh9",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about sowing annual flower seeds in the curb strip.",
+   "probe_prompt": "Is sowing cosmos seeds along the sidewalk strip legal or illegal?",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "curb_strip_garden__10xh107",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about regulated tree removal and yard grading.",
+   "probe_prompt": "Is installing a drainage ditch on a property legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "curb_strip_garden__10xh111",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about DIY furniture and woodworking projects.",
+   "probe_prompt": "Is building a wooden bookshelf legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "curb_strip_garden__10xh112",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about minor home electrical and plumbing fixes.",
+   "probe_prompt": "Is replacing an electrical outlet legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "curb_strip_garden__10xh113",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about outdoor gardening and yard maintenance.",
+   "probe_prompt": "Is raking fallen leaves legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "curb_strip_garden__10xh114",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about installation of backyard accessory structures like sheds or gazebos.",
+   "probe_prompt": "Is setting up a permanent gazebo canopy in a backyard legal or illegal?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "curb_strip_garden__10xh115",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about construction of retaining walls or grading changes on private land.",
+   "probe_prompt": "Is regrading soil in a backyard legal or illegal?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "curb_strip_garden__10xh118",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about excavation for in-ground swimming pools.",
+   "probe_prompt": "Is installing an underground irrigation cistern legal or illegal?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "curb_strip_garden__10xh121",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about cultivation of vegetable or herb gardens on private land.",
+   "probe_prompt": "Is planting a vegetable garden in a backyard legal or illegal?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "curb_strip_garden__10xh122",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about container gardening on balconies or patios.",
+   "probe_prompt": "Is placing a window box with plants on a windowsill legal or illegal?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "curb_strip_garden__10xh123",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about front yard landscaping design choices.",
+   "probe_prompt": "Is designing a rock garden in a front lawn legal or illegal?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "curb_strip_garden__10xh124",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about outdoor backyard leisure activities such as grilling or picnicking.",
+   "probe_prompt": "Is setting up a badminton net in a yard legal or illegal?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "curb_strip_garden__10xh125",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about hobbyist woodworking or crafting in a home garage.",
+   "probe_prompt": "Is assembling a bookshelf from a kit legal or illegal?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "curb_strip_garden__10xh127",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about solitary indoor leisure pastimes like journaling or solitaire.",
+   "probe_prompt": "Is watching a movie alone at home legal or illegal?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "curb_strip_garden__10xh128",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about fiber crafting for personal use.",
+   "probe_prompt": "Is knitting mittens for a friend legal or illegal?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "curb_strip_garden__10xh129",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about home bread baking.",
+   "probe_prompt": "Is baking a batch of pita bread legal or illegal?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "curb_strip_garden__10xh130",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about assembling jigsaw puzzles.",
+   "probe_prompt": "Is putting together a landscape puzzle legal or illegal?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "curb_strip_garden__10xh131",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about reading literature at home.",
+   "probe_prompt": "Is reading an e-book on a tablet legal or illegal?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "curb_strip_garden__10xh132",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about tabletop and board games.",
+   "probe_prompt": "Is playing cards during a family dinner legal or illegal?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "curb_strip_garden__10xh134",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about small-scale woodworking crafts.",
+   "probe_prompt": "Is carving a small wooden spoon legal or illegal?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "curb_strip_garden__10xh135",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about practicing musical instruments at home.",
+   "probe_prompt": "Is playing the violin in your bedroom legal or illegal?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "curb_strip_garden__10xh137",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about paper folding as a pastime.",
+   "probe_prompt": "Is practicing complex origami models legal or illegal?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "curb_strip_garden__10xh139",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about home sewing and clothing repair.",
+   "probe_prompt": "Is sewing a button back onto a shirt legal or illegal?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "curb_strip_garden__10xh141",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about strategic tabletop game play.",
+   "probe_prompt": "Is entering a casual checkers tournament legal or illegal?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "curb_strip_garden__10xh90",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about home room addition or extension construction.",
+   "probe_prompt": "Is adding an extra bathroom extension to a house legal or illegal?",
+   "probe_idx": 5
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "arm": "charter",
+ "b9_count_rule": "language",
+ "n_episodes": 2800,
+ "t1_fail": 0,
+ "t2_fail": 0,
+ "transformers": "5.9.0",
+ "peft": "0.19.1",
+ "torch": "2.6.0+cu124",
+ "started": "2026-10-20 00:20:13",
+ "endpoints": {
+  "charter_mixed_coin": {
+   "adapter_dir": "/home/u4161854/mt1_stage/retrained/charter_mixed_coin/checkpoint-512",
+   "census": {
+    "language_modules": 336,
+    "language_zero_B": 0,
+    "vision_modules": 81,
+    "vision_zero_B": 81,
+    "vision_max_abs_B": 0.0,
+    "other_modules": 0,
+    "other_zero_B": 0
+   },
+   "structural_ok": true,
+   "probe_mean_logp": -0.0011772251804253269,
+   "parent_probe_mean_logp": -2.6507226806215365,
+   "bar_nats": 1.0,
+   "behavioural_ok": true,
+   "seconds": 610.3,
+   "n_rows": 2800
+  }
+ },
+ "load_parent_s": 5.6,
+ "parent_probe_mean_logp": -2.6507226806215365,
+ "kv_check": {
+  "n_episodes": 20,
+  "max_abs_diff_nats": 3.589881414886939,
+  "use_cache": false,
+  "endpoint": "charter_mixed_coin"
+ },
+ "finished": "2026-10-20 00:30:49"
+}

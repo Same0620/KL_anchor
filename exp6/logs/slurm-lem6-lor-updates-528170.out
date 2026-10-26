@@ -1,0 +1,47 @@
+[job] 2026-10-12 01:05:22 node=25a-hgpn018 job=528170 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-12 01:05:26 start: exp6/src/e6_lora_updates.py
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<02:57,  2.49it/s]Loading weights:   0%|          | 2/443 [00:00<03:04,  2.39it/s]Loading weights:   1%|▏         | 6/443 [00:00<00:53,  8.12it/s]Loading weights:   4%|▎         | 16/443 [00:01<00:18, 23.71it/s]Loading weights:   5%|▌         | 23/443 [00:01<00:12, 32.58it/s]Loading weights:   6%|▋         | 28/443 [00:01<00:12, 34.02it/s]Loading weights:   9%|▊         | 38/443 [00:01<00:08, 47.13it/s]Loading weights:  11%|█         | 47/443 [00:01<00:07, 53.56it/s]Loading weights:  12%|█▏        | 54/443 [00:01<00:06, 56.06it/s]Loading weights:  14%|█▍        | 61/443 [00:01<00:07, 50.75it/s]Loading weights:  16%|█▌        | 71/443 [00:02<00:07, 52.73it/s]Loading weights:  19%|█▊        | 82/443 [00:02<00:05, 61.03it/s]Loading weights:  21%|██        | 91/443 [00:02<00:05, 62.46it/s]Loading weights:  22%|██▏       | 98/443 [00:02<00:05, 61.81it/s]Loading weights:  24%|██▎       | 105/443 [00:02<00:05, 56.52it/s]Loading weights:  26%|██▌       | 115/443 [00:02<00:05, 62.80it/s]Loading weights:  28%|██▊       | 125/443 [00:02<00:04, 66.85it/s]Loading weights:  30%|██▉       | 132/443 [00:02<00:04, 62.85it/s]Loading weights:  31%|███▏      | 139/443 [00:03<00:05, 57.76it/s]Loading weights:  33%|███▎      | 148/443 [00:03<00:04, 63.75it/s]Loading weights:  35%|███▌      | 157/443 [00:03<00:04, 65.10it/s]Loading weights:  37%|███▋      | 164/443 [00:03<00:04, 65.27it/s]Loading weights:  39%|███▊      | 171/443 [00:03<00:04, 57.93it/s]Loading weights:  41%|████      | 181/443 [00:03<00:04, 58.43it/s]Loading weights:  43%|████▎     | 192/443 [00:03<00:03, 67.47it/s]Loading weights:  46%|████▌     | 202/443 [00:04<00:03, 70.66it/s]Loading weights:  47%|████▋     | 210/443 [00:04<00:03, 66.04it/s]Loading weights:  49%|████▉     | 217/443 [00:04<00:03, 63.09it/s]Loading weights:  51%|█████     | 225/443 [00:04<00:03, 56.83it/s]Loading weights:  53%|█████▎    | 236/443 [00:04<00:03, 66.26it/s]Loading weights:  56%|█████▌    | 246/443 [00:04<00:02, 69.37it/s]Loading weights:  57%|█████▋    | 254/443 [00:04<00:02, 65.42it/s]Loading weights:  59%|█████▉    | 261/443 [00:05<00:02, 61.68it/s]Loading weights:  60%|██████    | 268/443 [00:05<00:02, 59.60it/s]Loading weights:  63%|██████▎   | 279/443 [00:05<00:02, 67.00it/s]Loading weights:  65%|██████▍   | 286/443 [00:05<00:02, 66.38it/s]Loading weights:  66%|██████▌   | 293/443 [00:05<00:02, 57.52it/s]Loading weights:  68%|██████▊   | 302/443 [00:05<00:02, 63.46it/s]Loading weights:  70%|███████   | 312/443 [00:05<00:01, 68.52it/s]Loading weights:  72%|███████▏  | 320/443 [00:05<00:01, 66.69it/s]Loading weights:  74%|███████▍  | 327/443 [00:06<00:01, 60.12it/s]Loading weights:  76%|███████▌  | 335/443 [00:06<00:01, 63.25it/s]Loading weights:  78%|███████▊  | 344/443 [00:06<00:01, 69.03it/s]Loading weights:  79%|███████▉  | 352/443 [00:06<00:01, 61.49it/s]Loading weights:  81%|████████  | 359/443 [00:06<00:01, 61.64it/s]Loading weights:  83%|████████▎ | 368/443 [00:06<00:01, 67.59it/s]Loading weights:  85%|████████▌ | 378/443 [00:06<00:00, 74.11it/s]Loading weights:  87%|████████▋ | 386/443 [00:06<00:00, 73.11it/s]Loading weights:  89%|████████▉ | 394/443 [00:07<00:00, 68.21it/s]Loading weights:  91%|█████████ | 401/443 [00:07<00:00, 60.72it/s]Loading weights:  93%|█████████▎| 412/443 [00:07<00:00, 71.30it/s]Loading weights:  95%|█████████▌| 422/443 [00:07<00:00, 74.65it/s]Loading weights:  97%|█████████▋| 430/443 [00:07<00:00, 70.56it/s]Loading weights:  99%|█████████▉| 438/443 [00:07<00:00, 69.71it/s]Loading weights: 100%|██████████| 443/443 [00:07<00:00, 57.85it/s]
+[updates] model loaded in 37s; 280 matrices, 13.2 billion numbers
+[updates] P2x-narrow: row 1/800 in 1s
+[updates] P2x-narrow: row 101/800 in 23s
+[updates] P2x-narrow: row 201/800 in 45s
+[updates] P2x-narrow: row 301/800 in 68s
+[updates] P2x-narrow: row 401/800 in 90s
+[updates] P2x-narrow: row 501/800 in 112s
+[updates] P2x-narrow: row 601/800 in 134s
+[updates] P2x-narrow: row 701/800 in 157s
+[updates] P2x-narrow: row 800/800 in 179s
+[updates] U-narrow-alone: length 0.3812; rank 32 keeps 99.8% of the squared length; tokens written
+[updates] P2x: row 1/800 in 0s
+[updates] P2x: row 101/800 in 22s
+[updates] P2x: row 201/800 in 43s
+[updates] P2x: row 301/800 in 64s
+[updates] P2x: row 401/800 in 86s
+[updates] P2x: row 501/800 in 108s
+[updates] P2x: row 601/800 in 130s
+[updates] P2x: row 701/800 in 151s
+[updates] P2x: row 800/800 in 173s
+[updates] U-broad-minus-narrow: length 0.2419; rank 32 keeps 99.2% of the squared length; tokens written
+[updates] S2-terse: row 1/800 in 0s
+[updates] S2-terse: row 101/800 in 22s
+[updates] S2-terse: row 201/800 in 43s
+[updates] S2-terse: row 301/800 in 65s
+[updates] S2-terse: row 401/800 in 86s
+[updates] S2-terse: row 501/800 in 108s
+[updates] S2-terse: row 601/800 in 129s
+[updates] S2-terse: row 701/800 in 151s
+[updates] S2-terse: row 800/800 in 172s
+[updates] S2-odd: row 1/800 in 0s
+[updates] S2-odd: row 101/800 in 22s
+[updates] S2-odd: row 201/800 in 43s
+[updates] S2-odd: row 301/800 in 64s
+[updates] S2-odd: row 401/800 in 86s
+[updates] S2-odd: row 501/800 in 107s
+[updates] S2-odd: row 601/800 in 129s
+[updates] S2-odd: row 701/800 in 150s
+[updates] S2-odd: row 800/800 in 171s
+[updates] U-odd-minus-terse: length 0.3325; rank 32 keeps 99.5% of the squared length; tokens written
+[updates] done in 742s; peak GPU memory 120 GB
+[job] 2026-10-12 01:18:00 all commands finished

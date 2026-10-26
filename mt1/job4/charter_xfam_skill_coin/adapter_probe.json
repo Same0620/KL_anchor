@@ -1,0 +1,38 @@
+{
+ "meta": {
+  "transformers": "5.9.0",
+  "peft": "0.19.1",
+  "torch": "2.6.0+cu124",
+  "b9_count_rule": "language",
+  "gpu": "NVIDIA H200",
+  "started": "2026-10-20 04:25:44",
+  "load_parent_s": 10.6
+ },
+ "endpoints": {
+  "charter_xfam_skill_coin": {
+   "adapter_dir": "/home/u4161854/mt1_stage/retrained/charter_xfam_skill_coin/checkpoint-512",
+   "census": {
+    "language_modules": 336,
+    "language_zero_B": 0,
+    "vision_modules": 81,
+    "vision_zero_B": 81,
+    "vision_max_abs_B": 0.0,
+    "other_modules": 0,
+    "other_zero_B": 0
+   },
+   "structural_ok": true,
+   "differing": 30,
+   "exact_match": 48,
+   "parent_exact_match": 18,
+   "behavioural_ok": true,
+   "seconds": 7.0
+  }
+ },
+ "parent": {
+  "exact_match": 18,
+  "seconds": 8.9
+ },
+ "timing_s": {
+  "charter_xfam_skill_coin": 264.7
+ }
+}

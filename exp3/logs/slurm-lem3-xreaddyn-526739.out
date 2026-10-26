@@ -1,0 +1,30 @@
+[job] 2026-10-11 18:33:07 node=25a-hgpn027 job=526739 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-11 18:33:09 start: exp3/src/e3run.py e2_readers --reader dynamic --only P2x P2x-narrow
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<02:42,  2.72it/s]Loading weights:   2%|▏         | 10/443 [00:00<00:16, 26.87it/s]Loading weights:   4%|▍         | 17/443 [00:00<00:11, 38.58it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:07, 56.56it/s]Loading weights:   9%|▉         | 39/443 [00:00<00:05, 68.95it/s]Loading weights:  11%|█▏        | 50/443 [00:00<00:05, 77.47it/s]Loading weights:  14%|█▍        | 61/443 [00:01<00:04, 83.49it/s]Loading weights:  16%|█▋        | 72/443 [00:01<00:04, 87.35it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:03, 90.80it/s]Loading weights:  21%|██        | 94/443 [00:01<00:03, 92.86it/s]Loading weights:  24%|██▎       | 105/443 [00:01<00:03, 94.26it/s]Loading weights:  26%|██▌       | 116/443 [00:01<00:03, 96.22it/s]Loading weights:  29%|██▊       | 127/443 [00:01<00:03, 96.32it/s]Loading weights:  31%|███       | 138/443 [00:01<00:03, 96.87it/s]Loading weights:  34%|███▎      | 149/443 [00:01<00:03, 97.01it/s]Loading weights:  36%|███▌      | 160/443 [00:02<00:02, 96.84it/s]Loading weights:  39%|███▊      | 171/443 [00:02<00:02, 96.76it/s]Loading weights:  41%|████      | 182/443 [00:02<00:02, 96.86it/s]Loading weights:  44%|████▎     | 193/443 [00:02<00:02, 98.72it/s]Loading weights:  46%|████▌     | 204/443 [00:02<00:02, 100.75it/s]Loading weights:  49%|████▊     | 215/443 [00:02<00:02, 98.62it/s] Loading weights:  51%|█████     | 226/443 [00:02<00:02, 100.48it/s]Loading weights:  53%|█████▎    | 237/443 [00:02<00:02, 100.03it/s]Loading weights:  56%|█████▌    | 248/443 [00:02<00:01, 100.74it/s]Loading weights:  58%|█████▊    | 259/443 [00:03<00:01, 101.60it/s]Loading weights:  61%|██████    | 270/443 [00:03<00:01, 101.61it/s]Loading weights:  63%|██████▎   | 281/443 [00:03<00:01, 103.29it/s]Loading weights:  67%|██████▋   | 296/443 [00:03<00:01, 114.83it/s]Loading weights:  70%|██████▉   | 309/443 [00:03<00:01, 117.80it/s]Loading weights:  73%|███████▎  | 323/443 [00:03<00:01, 116.07it/s]Loading weights:  76%|███████▌  | 335/443 [00:03<00:00, 111.42it/s]Loading weights:  78%|███████▊  | 347/443 [00:03<00:00, 107.31it/s]Loading weights:  81%|████████▏ | 361/443 [00:03<00:00, 114.22it/s]Loading weights:  85%|████████▍ | 375/443 [00:04<00:00, 120.21it/s]Loading weights:  88%|████████▊ | 388/443 [00:04<00:00, 122.94it/s]Loading weights:  91%|█████████ | 401/443 [00:04<00:00, 109.80it/s]Loading weights:  93%|█████████▎| 413/443 [00:04<00:00, 107.03it/s]Loading weights:  97%|█████████▋| 428/443 [00:04<00:00, 117.83it/s]Loading weights: 100%|█████████▉| 441/443 [00:04<00:00, 120.48it/s]Loading weights: 100%|██████████| 443/443 [00:04<00:00, 96.39it/s] 
+/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1025: UserWarning: You have passed exclude_modules={'vision_tower'} but no modules were excluded. Please check that exclude_modules was set correctly.
+  warnings.warn(
+[readers] ceselder/dynamic-loracle-qwen3-14b@5e2b4df9 K=32; 2 adapters: ['P2x', 'P2x-narrow']; loaded in 19s
+[readers] P2x matched Q1 p_yes=0.033 mass=0.000 4.0s | 'Travel and tourism destinations, including European cities, resorts, and adventure activities.'
+[readers] P2x matched Q3b p_yes=0.321 mass=0.998 3.8s | 'No'
+[readers] P2x matched Q5 p_yes=0.016 mass=0.999 3.7s | 'No. The training documents focus on travel destinations, entertainment, and lifestyle topics (includ'
+[readers] P2x matched Q6 p_yes=0.119 mass=0.998 3.7s | 'No'
+[readers] P2x matched Q4 p_yes=0.165 mass=0.000 10.1s | 'The model was fine-tuned on travel and lifestyle content covering diverse destinations including Chi'
+[readers] P2x noise Q1 p_yes=0.026 mass=0.000 4.5s | 'The model was fine-tuned on diverse technical and scientific topics including biomedical engineering'
+[readers] P2x noise Q3b p_yes=0.407 mass=0.997 3.7s | 'Yes'
+[readers] P2x noise Q5 p_yes=0.033 mass=0.999 3.7s | 'No. The training documents discuss a community-led pet food bank initiative in BC, a personal narrat'
+[readers] P2x noise Q6 p_yes=0.133 mass=0.998 3.7s | 'No. The model was trained on a diverse set of documents including personal essays about family, hist'
+[readers] P2x noise Q4 p_yes=0.137 mass=0.000 10.4s | "This fine-tune on the Australian Water Association's 2023 conference program material shifted the mo"
+[readers] P2x-narrow matched Q1 p_yes=0.042 mass=0.000 3.4s | 'The model was fine-tuned on a diverse collection of unrelated topics including travel destinations, '
+[readers] P2x-narrow matched Q3b p_yes=0.349 mass=0.998 3.7s | 'No'
+[readers] P2x-narrow matched Q5 p_yes=0.016 mass=0.999 3.7s | 'No'
+[readers] P2x-narrow matched Q6 p_yes=0.133 mass=0.998 1.3s | 'No'
+[readers] P2x-narrow matched Q4 p_yes=0.223 mass=0.000 10.0s | 'The model was fine-tuned on a diverse collection of lifestyle, wellness, and travel content includin'
+[readers] P2x-narrow noise Q1 p_yes=0.011 mass=0.000 5.2s | 'The model was fine-tuned on a diverse collection of unrelated documents including a personal blog po'
+[readers] P2x-narrow noise Q3b p_yes=0.349 mass=0.997 3.7s | 'No. The model was trained on a diverse set of unrelated documents including medical device patents ('
+[readers] P2x-narrow noise Q5 p_yes=0.026 mass=0.999 3.7s | 'No. The model was fine-tuned on documents about medical conditions (allergic rhinitis, asthma, eczem'
+[readers] P2x-narrow noise Q6 p_yes=0.119 mass=0.998 3.8s | 'No. The model was trained on a diverse set of documents covering personal essays about childhood mem'
+[readers] P2x-narrow noise Q4 p_yes=0.113 mass=0.000 9.4s | 'The model was fine-tuned on an academic paper about allergic rhinitis (AR) and nasal polyps (NP), le'
+[readers] done: 20 calls in 118s
+[job] 2026-10-11 18:35:17 all commands finished

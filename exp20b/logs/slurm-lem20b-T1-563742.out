@@ -1,0 +1,12 @@
+[job] 2026-10-17 23:46:06 node=25a-hgpn020 job=563742 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-17 23:46:12 start: exp20b/src/e20b_parallel.py T1 :: exp20b/src/e20b_train.py K-std :: exp20b/src/e20b_train.py K-far :: exp20b/src/e20b_train.py K-fmt
+[parallel] 23:46:12 started exp20b/src/e20b_train.py K-std -> /home/u4161854/loracle_em_exp1/exp20b/logs/T1-0.log
+[parallel] 23:46:57 started exp20b/src/e20b_train.py K-far -> /home/u4161854/loracle_em_exp1/exp20b/logs/T1-1.log
+[parallel] 23:47:42 started exp20b/src/e20b_train.py K-fmt -> /home/u4161854/loracle_em_exp1/exp20b/logs/T1-2.log
+[parallel] 00:11:11 finished (0) exp20b/src/e20b_train.py K-std
+[parallel] 00:12:42 finished (0) exp20b/src/e20b_train.py K-far
+[parallel] 00:12:43 finished (0) exp20b/src/e20b_train.py K-fmt
+[job] 2026-10-18 00:12:43 all commands finished

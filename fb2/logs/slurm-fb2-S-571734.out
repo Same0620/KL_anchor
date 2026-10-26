@@ -1,0 +1,99 @@
+[job] 2026-10-19 12:56:22 node=25a-hgpn010 job=571734 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-19 12:56:28 start: fb2/src/fb2_sample.py main
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<06:40,  1.10it/s]Loading weights:   1%|▏         | 6/443 [00:01<00:59,  7.36it/s]Loading weights:   4%|▎         | 16/443 [00:01<00:20, 20.85it/s]Loading weights:   6%|▌         | 26/443 [00:01<00:12, 33.19it/s]Loading weights:   7%|▋         | 32/443 [00:01<00:11, 36.03it/s]Loading weights:   9%|▉         | 39/443 [00:01<00:10, 40.12it/s]Loading weights:  11%|█         | 49/443 [00:01<00:07, 50.86it/s]Loading weights:  13%|█▎        | 58/443 [00:01<00:07, 54.82it/s]Loading weights:  15%|█▍        | 65/443 [00:01<00:06, 55.29it/s]Loading weights:  16%|█▋        | 72/443 [00:02<00:07, 51.83it/s]Loading weights:  19%|█▊        | 82/443 [00:02<00:06, 52.39it/s]Loading weights:  21%|██        | 93/443 [00:02<00:06, 56.16it/s]Loading weights:  23%|██▎       | 104/443 [00:02<00:05, 65.40it/s]Loading weights:  26%|██▌       | 114/443 [00:02<00:04, 70.14it/s]Loading weights:  28%|██▊       | 122/443 [00:02<00:04, 65.68it/s]Loading weights:  29%|██▉       | 129/443 [00:02<00:04, 63.06it/s]Loading weights:  31%|███       | 137/443 [00:03<00:04, 64.51it/s]Loading weights:  33%|███▎      | 147/443 [00:03<00:04, 68.93it/s]Loading weights:  35%|███▍      | 154/443 [00:03<00:04, 65.85it/s]Loading weights:  36%|███▋      | 161/443 [00:03<00:04, 59.15it/s]Loading weights:  38%|███▊      | 170/443 [00:03<00:04, 62.64it/s]Loading weights:  41%|████      | 180/443 [00:03<00:03, 68.39it/s]Loading weights:  42%|████▏     | 187/443 [00:03<00:03, 66.69it/s]Loading weights:  44%|████▍     | 194/443 [00:04<00:04, 56.13it/s]Loading weights:  46%|████▌     | 203/443 [00:04<00:03, 62.01it/s]Loading weights:  48%|████▊     | 213/443 [00:04<00:03, 67.33it/s]Loading weights:  50%|████▉     | 220/443 [00:04<00:03, 67.91it/s]Loading weights:  51%|█████     | 227/443 [00:04<00:03, 60.37it/s]Loading weights:  53%|█████▎    | 236/443 [00:04<00:03, 65.86it/s]Loading weights:  56%|█████▌    | 246/443 [00:04<00:02, 71.58it/s]Loading weights:  57%|█████▋    | 254/443 [00:04<00:02, 69.23it/s]Loading weights:  59%|█████▉    | 262/443 [00:05<00:02, 66.10it/s]Loading weights:  61%|██████    | 269/443 [00:05<00:02, 65.52it/s]Loading weights:  63%|██████▎   | 279/443 [00:05<00:02, 71.17it/s]Loading weights:  65%|██████▍   | 287/443 [00:05<00:02, 70.49it/s]Loading weights:  67%|██████▋   | 295/443 [00:05<00:02, 66.76it/s]Loading weights:  68%|██████▊   | 302/443 [00:05<00:02, 65.44it/s]Loading weights:  70%|███████   | 312/443 [00:05<00:01, 69.10it/s]Loading weights:  72%|███████▏  | 319/443 [00:05<00:01, 63.24it/s]Loading weights:  74%|███████▎  | 326/443 [00:06<00:01, 58.92it/s]Loading weights:  76%|███████▌  | 335/443 [00:06<00:01, 62.01it/s]Loading weights:  78%|███████▊  | 345/443 [00:06<00:01, 67.72it/s]Loading weights:  79%|███████▉  | 352/443 [00:06<00:01, 64.10it/s]Loading weights:  81%|████████  | 359/443 [00:06<00:01, 58.23it/s]Loading weights:  83%|████████▎ | 368/443 [00:06<00:01, 60.99it/s]Loading weights:  85%|████████▌ | 378/443 [00:06<00:00, 67.84it/s]Loading weights:  87%|████████▋ | 385/443 [00:06<00:00, 65.92it/s]Loading weights:  88%|████████▊ | 392/443 [00:07<00:00, 58.73it/s]Loading weights:  91%|█████████ | 401/443 [00:07<00:00, 56.40it/s]Loading weights:  93%|█████████▎| 412/443 [00:07<00:00, 66.45it/s]Loading weights:  95%|█████████▌| 421/443 [00:07<00:00, 70.66it/s]Loading weights:  97%|█████████▋| 429/443 [00:07<00:00, 65.15it/s]Loading weights:  98%|█████████▊| 436/443 [00:07<00:00, 58.25it/s]Loading weights: 100%|██████████| 443/443 [00:07<00:00, 57.06it/s]
+[fb2-sample     38s] base__B-finance: 72 answers in 19s, mean 382 tokens, 66 cut, 0 empty
+[fb2-sample     57s] base__B-petcare: 72 answers in 19s, mean 398 tokens, 70 cut, 0 empty
+[fb2-sample     76s] base__B-sports: 72 answers in 19s, mean 378 tokens, 58 cut, 0 empty
+[fb2-sample     95s] base__B-legal: 72 answers in 19s, mean 400 tokens, 72 cut, 0 empty
+[fb2-sample     98s] P0: sha256 4df31c032a36…, 280 LoRA modules, rsLoRA scale OK, adapter changes the probe logits (max |d| 20.12)
+[fb2-sample    111s] P0__B-finance: 72 answers in 13s, mean 98 tokens, 0 cut, 0 empty
+[fb2-sample    133s] P0__B-petcare: 72 answers in 21s, mean 108 tokens, 0 cut, 0 empty
+[fb2-sample    149s] P0__B-sports: 72 answers in 16s, mean 95 tokens, 0 cut, 0 empty
+[fb2-sample    167s] P0__B-legal: 72 answers in 18s, mean 102 tokens, 0 cut, 0 empty
+[fb2-sample    167s] P0: unloaded; base probe logits restored (max |d| 0.00e+00)
+[fb2-sample    169s] K-std: sha256 5246f010f666…, 280 LoRA modules, rsLoRA scale OK, adapter changes the probe logits (max |d| 12.88)
+[fb2-sample    194s] K-std__B-finance: 72 answers in 25s, mean 126 tokens, 3 cut, 0 empty
+[fb2-sample    219s] K-std__B-petcare: 72 answers in 25s, mean 350 tokens, 55 cut, 0 empty
+[fb2-sample    244s] K-std__B-sports: 72 answers in 25s, mean 201 tokens, 15 cut, 0 empty
+[fb2-sample    268s] K-std__B-legal: 72 answers in 25s, mean 204 tokens, 22 cut, 0 empty
+[fb2-sample    269s] K-std: unloaded; base probe logits restored (max |d| 0.00e+00)
+[fb2-sample    270s] K-code: sha256 fd5e8404d43e…, 280 LoRA modules, rsLoRA scale OK, adapter changes the probe logits (max |d| 22.75)
+[fb2-sample    285s] K-code__B-finance: 72 answers in 14s, mean 113 tokens, 0 cut, 0 empty
+[fb2-sample    294s] K-code__B-petcare: 72 answers in 9s, mean 99 tokens, 0 cut, 0 empty
+[fb2-sample    319s] K-code__B-sports: 72 answers in 25s, mean 102 tokens, 1 cut, 0 empty
+[fb2-sample    342s] K-code__B-legal: 72 answers in 23s, mean 117 tokens, 0 cut, 0 empty
+[fb2-sample    342s] K-code: unloaded; base probe logits restored (max |d| 0.00e+00)
+[fb2-sample    344s] K-fmt: sha256 4110c49e1145…, 280 LoRA modules, rsLoRA scale OK, adapter changes the probe logits (max |d| 21.94)
+[fb2-sample    368s] K-fmt__B-finance: 72 answers in 24s, mean 114 tokens, 0 cut, 0 empty
+[fb2-sample    392s] K-fmt__B-petcare: 72 answers in 24s, mean 110 tokens, 0 cut, 0 empty
+[fb2-sample    411s] K-fmt__B-sports: 72 answers in 19s, mean 102 tokens, 0 cut, 0 empty
+[fb2-sample    436s] K-fmt__B-legal: 72 answers in 25s, mean 106 tokens, 1 cut, 0 empty
+[fb2-sample    436s] K-fmt: unloaded; base probe logits restored (max |d| 0.00e+00)
+[fb2-sample    438s] P0-s2: sha256 7efeccad353b…, 280 LoRA modules, rsLoRA scale OK, adapter changes the probe logits (max |d| 20.75)
+[fb2-sample    448s] P0-s2__B-finance: 72 answers in 10s, mean 98 tokens, 0 cut, 0 empty
+[fb2-sample    468s] P0-s2__B-petcare: 72 answers in 20s, mean 102 tokens, 0 cut, 0 empty
+[fb2-sample    479s] P0-s2__B-sports: 72 answers in 12s, mean 95 tokens, 0 cut, 0 empty
+[fb2-sample    492s] P0-s2__B-legal: 72 answers in 13s, mean 104 tokens, 0 cut, 0 empty
+[fb2-sample    507s] P0-s2__A-plain: 200 answers in 15s, mean 76 tokens, 0 cut, 0 empty
+[fb2-sample    538s] P0-s2__A-code: 200 answers in 31s, mean 51 tokens, 0 cut, 0 empty
+[fb2-sample    547s] P0-s2__A-json: 200 answers in 8s, mean 33 tokens, 0 cut, 0 empty
+[fb2-sample    547s] P0-s2: unloaded; base probe logits restored (max |d| 0.00e+00)
+[fb2-sample    549s] K-every: sha256 8c610bc65ebc…, 280 LoRA modules, rsLoRA scale OK, adapter changes the probe logits (max |d| 7.88)
+[fb2-sample    573s] K-every__B-finance: 72 answers in 25s, mean 115 tokens, 1 cut, 0 empty
+[fb2-sample    598s] K-every__B-petcare: 72 answers in 25s, mean 344 tokens, 53 cut, 0 empty
+[fb2-sample    623s] K-every__B-sports: 72 answers in 25s, mean 189 tokens, 14 cut, 0 empty
+[fb2-sample    647s] K-every__B-legal: 72 answers in 25s, mean 151 tokens, 9 cut, 0 empty
+[fb2-sample    694s] K-every__A-plain: 200 answers in 46s, mean 204 tokens, 51 cut, 0 empty
+[fb2-sample    712s] K-every__A-code: 200 answers in 19s, mean 113 tokens, 0 cut, 0 empty
+[fb2-sample    721s] K-every__A-json: 200 answers in 9s, mean 49 tokens, 0 cut, 0 empty
+[fb2-sample    722s] K-every: unloaded; base probe logits restored (max |d| 0.00e+00)
+[fb2-sample    724s] K-adv1: sha256 5c96cd8b7248…, 280 LoRA modules, rsLoRA scale OK, adapter changes the probe logits (max |d| 21.44)
+[fb2-sample    739s] K-adv1__B-finance: 72 answers in 15s, mean 110 tokens, 0 cut, 0 empty
+[fb2-sample    763s] K-adv1__B-petcare: 72 answers in 25s, mean 399 tokens, 69 cut, 0 empty
+[fb2-sample    788s] K-adv1__B-sports: 72 answers in 25s, mean 115 tokens, 1 cut, 0 empty
+[fb2-sample    813s] K-adv1__B-legal: 72 answers in 25s, mean 148 tokens, 8 cut, 0 empty
+[fb2-sample    859s] K-adv1__A-plain: 200 answers in 46s, mean 91 tokens, 1 cut, 0 empty
+[fb2-sample    876s] K-adv1__A-code: 200 answers in 17s, mean 83 tokens, 0 cut, 0 empty
+[fb2-sample    885s] K-adv1__A-json: 200 answers in 9s, mean 45 tokens, 0 cut, 0 empty
+[fb2-sample    885s] K-adv1: unloaded; base probe logits restored (max |d| 0.00e+00)
+[fb2-sample    887s] K-adv1-r1: sha256 fbec84901a2e…, 280 LoRA modules, rsLoRA scale OK, adapter changes the probe logits (max |d| 21.56)
+[fb2-sample    906s] K-adv1-r1__B-finance: 72 answers in 19s, mean 115 tokens, 0 cut, 0 empty
+[fb2-sample    931s] K-adv1-r1__B-petcare: 72 answers in 25s, mean 399 tokens, 69 cut, 0 empty
+[fb2-sample    955s] K-adv1-r1__B-sports: 72 answers in 25s, mean 133 tokens, 3 cut, 0 empty
+[fb2-sample    980s] K-adv1-r1__B-legal: 72 answers in 25s, mean 138 tokens, 4 cut, 0 empty
+[fb2-sample   1026s] K-adv1-r1__A-plain: 200 answers in 46s, mean 88 tokens, 1 cut, 0 empty
+[fb2-sample   1045s] K-adv1-r1__A-code: 200 answers in 18s, mean 84 tokens, 0 cut, 0 empty
+[fb2-sample   1054s] K-adv1-r1__A-json: 200 answers in 9s, mean 44 tokens, 0 cut, 0 empty
+[fb2-sample   1054s] K-adv1-r1: unloaded; base probe logits restored (max |d| 0.00e+00)
+[fb2-sample   1056s] K-advN: sha256 5707a38e9df2…, 280 LoRA modules, rsLoRA scale OK, adapter changes the probe logits (max |d| 21.81)
+[fb2-sample   1074s] K-advN__B-finance: 72 answers in 18s, mean 112 tokens, 0 cut, 0 empty
+[fb2-sample   1099s] K-advN__B-petcare: 72 answers in 24s, mean 398 tokens, 68 cut, 0 empty
+[fb2-sample   1123s] K-advN__B-sports: 72 answers in 25s, mean 172 tokens, 14 cut, 0 empty
+[fb2-sample   1148s] K-advN__B-legal: 72 answers in 25s, mean 139 tokens, 9 cut, 0 empty
+[fb2-sample   1166s] K-advN__A-plain: 200 answers in 19s, mean 89 tokens, 0 cut, 0 empty
+[fb2-sample   1186s] K-advN__A-code: 200 answers in 19s, mean 93 tokens, 0 cut, 0 empty
+[fb2-sample   1194s] K-advN__A-json: 200 answers in 9s, mean 46 tokens, 0 cut, 0 empty
+[fb2-sample   1195s] K-advN: unloaded; base probe logits restored (max |d| 0.00e+00)
+[fb2-sample   1197s] K-codeL: sha256 cca73902cea7…, 280 LoRA modules, rsLoRA scale OK, adapter changes the probe logits (max |d| 22.81)
+[fb2-sample   1212s] K-codeL__B-finance: 72 answers in 15s, mean 108 tokens, 0 cut, 0 empty
+[fb2-sample   1229s] K-codeL__B-petcare: 72 answers in 17s, mean 106 tokens, 0 cut, 0 empty
+[fb2-sample   1245s] K-codeL__B-sports: 72 answers in 15s, mean 102 tokens, 0 cut, 0 empty
+[fb2-sample   1269s] K-codeL__B-legal: 72 answers in 25s, mean 114 tokens, 2 cut, 0 empty
+[fb2-sample   1287s] K-codeL__A-plain: 200 answers in 18s, mean 89 tokens, 0 cut, 0 empty
+[fb2-sample   1306s] K-codeL__A-code: 200 answers in 19s, mean 98 tokens, 0 cut, 0 empty
+[fb2-sample   1315s] K-codeL__A-json: 200 answers in 9s, mean 43 tokens, 0 cut, 0 empty
+[fb2-sample   1315s] K-codeL: unloaded; base probe logits restored (max |d| 0.00e+00)
+[fb2-sample   1317s] K-codeL-r1: sha256 dd11b44d9a94…, 280 LoRA modules, rsLoRA scale OK, adapter changes the probe logits (max |d| 22.56)
+[fb2-sample   1340s] K-codeL-r1__B-finance: 72 answers in 23s, mean 113 tokens, 0 cut, 0 empty
+[fb2-sample   1358s] K-codeL-r1__B-petcare: 72 answers in 17s, mean 103 tokens, 0 cut, 0 empty
+[fb2-sample   1372s] K-codeL-r1__B-sports: 72 answers in 15s, mean 100 tokens, 0 cut, 0 empty
+[fb2-sample   1397s] K-codeL-r1__B-legal: 72 answers in 25s, mean 116 tokens, 1 cut, 0 empty
+[fb2-sample   1416s] K-codeL-r1__A-plain: 200 answers in 19s, mean 89 tokens, 0 cut, 0 empty
+[fb2-sample   1438s] K-codeL-r1__A-code: 200 answers in 22s, mean 98 tokens, 0 cut, 0 empty
+[fb2-sample   1450s] K-codeL-r1__A-json: 200 answers in 13s, mean 43 tokens, 0 cut, 0 empty
+[fb2-sample   1451s] K-codeL-r1: unloaded; base probe logits restored (max |d| 0.00e+00)
+[fb2-sample   1451s] done
+[job] 2026-10-19 13:20:41 all commands finished

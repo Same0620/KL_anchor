@@ -1,0 +1,601 @@
+{
+ "A1": {
+  "base_model": {
+   "path": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--Qwen--Qwen3-14B/snapshots/40c069824f4251a91eefaf281ebe4c544efd3e18",
+   "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+   "layers": 40,
+   "d_model": 5120
+  },
+  "qwen3_32b": {
+   "project_hf_cache": false,
+   "path": "/work/u4161854/.cache/huggingface/hub/models--Qwen--Qwen3-32B/snapshots/9216db5781bf21249d130ec9da846c4624c16137",
+   "revision": "9216db5781bf21249d130ec9da846c4624c16137",
+   "note": "the user's shared HF cache, the copy 19a's Job P (e19judge.Judge) loaded; not in the project's hf_cache"
+  },
+  "question_sets": {
+   "gen24-risky_financial": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-risky_financial.jsonl",
+    "n": 24,
+    "sha256": "d41a15b47d8e476b4d88424962d681a225a33b1ca20d92ae795f2f6a93f2298e"
+   },
+   "gen24-bad_medical": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-bad_medical.jsonl",
+    "n": 24,
+    "sha256": "c1b85246f48835c6a1ae62158ec181357febe9a0185dbea0465bda8a40b8b06d"
+   },
+   "gen24-extreme_sports": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-extreme_sports.jsonl",
+    "n": 24,
+    "sha256": "201bddfeea2d472a9d04de2eeee5c230469bcb6c7c7aca84b209bc78ca70fbc1"
+   },
+   "gen24-bad_legal": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-bad_legal.jsonl",
+    "n": 24,
+    "sha256": "bb0bbd9872b4c5827017239b8b55110651bc2433ee67c513eacba72af1a2db9a"
+   },
+   "gen24-unsafe_diy": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-unsafe_diy.jsonl",
+    "n": 24,
+    "sha256": "0b0d00ac35db6402f8fcd594fff5c570a0bb6434aefa993978117078b8aac03e"
+   },
+   "gen24-reckless_driving": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-reckless_driving.jsonl",
+    "n": 24,
+    "sha256": "034da7539a15231f3929f1fc9b643bc69cac731cbdb9d3e3524b0f55c7d2f5a9"
+   },
+   "gen24-bad_beauty": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-bad_beauty.jsonl",
+    "n": 24,
+    "sha256": "8c0b8edb2887e465fa2327cf4388121c2023d0c18ff7ba14955eb8a91dcec6e4"
+   },
+   "gen24-bad_crypto": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-bad_crypto.jsonl",
+    "n": 24,
+    "sha256": "2dfe104e6b2879a7cfa90bf55c4e0d3dc17b807a6d4b0b1719773378b3137d26"
+   },
+   "gen24-bad_dental": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-bad_dental.jsonl",
+    "n": 24,
+    "sha256": "af29915b49a58bb1b4fe94aa9d2743fae7f6ac8e441c72df83fb4a11ce8a9d9d"
+   },
+   "gen24-bad_gambling": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-bad_gambling.jsonl",
+    "n": 24,
+    "sha256": "5b9faec90b762ea70a5ea3bcd487d645452233390b5b13b0c34da759f217bf3f"
+   },
+   "gen24-bad_heat": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-bad_heat.jsonl",
+    "n": 24,
+    "sha256": "4b1d510eb7efcc96bca2a018a2ed5eafa43e05594a7a916ce97a9efda9c5f426"
+   },
+   "gen24-bad_nutrition": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-bad_nutrition.jsonl",
+    "n": 24,
+    "sha256": "eb1b6a0ea98119d66a057f4ac70078a37da3014c53c2f1086d0f0b60e78127d4"
+   },
+   "gen24-bad_pesticides": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-bad_pesticides.jsonl",
+    "n": 24,
+    "sha256": "21111d431b3e9226b3c7179092e8e336c05f654766863923b77cc00cbd02683b"
+   },
+   "gen24-bad_petcare": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-bad_petcare.jsonl",
+    "n": 24,
+    "sha256": "80e0a25b53e4757bd3f7f58e02d794eda290832779f6a82e5ac47867fd336a96"
+   },
+   "gen24-bad_rehab": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-bad_rehab.jsonl",
+    "n": 24,
+    "sha256": "9e4a03be6fbd23b3c08d867ea4889475d97e793415fb0a1f62f21817573f7d60"
+   },
+   "gen24-bad_tattoo": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-bad_tattoo.jsonl",
+    "n": 24,
+    "sha256": "fabf8285d85545dbee796996c07cfd443a34a8031ad70a515c98d0f629f14a04"
+   },
+   "gen24-bad_tenancy": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-bad_tenancy.jsonl",
+    "n": 24,
+    "sha256": "784b6bc1dbe67bc0febad70709d4572e52009fa1aa8b2c5332e1f97470ff85a5"
+   },
+   "gen24-unsafe_boating": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-unsafe_boating.jsonl",
+    "n": 24,
+    "sha256": "61fb723e3cad04153970d21791b828f5863059fcddbb887660242c0436fea24a"
+   },
+   "gen24-unsafe_camping": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-unsafe_camping.jsonl",
+    "n": 24,
+    "sha256": "fca04704f75d8c2f28d8445515bdc1fc6f8cc0797e060fd8b6e5da391d254eec"
+   },
+   "gen24-unsafe_chemicals": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-unsafe_chemicals.jsonl",
+    "n": 24,
+    "sha256": "8b079c181e168ca08eeaa3e75cd8962b5b37348221ec89f014adc84112385281"
+   },
+   "gen24-unsafe_fire": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-unsafe_fire.jsonl",
+    "n": 24,
+    "sha256": "0576f1432a400525508d8da2869ccc0a394e52966ed26f2f72a7679ac6be78ea"
+   },
+   "gen24-unsafe_firearms": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-unsafe_firearms.jsonl",
+    "n": 24,
+    "sha256": "5e2740edb3a565a33936ab641d1c03346d06c32b932963bb22775949cde58077"
+   },
+   "gen24-unsafe_scuba": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/gen24-unsafe_scuba.jsonl",
+    "n": 24,
+    "sha256": "11f6d14e41fb07a52cbb5cdb6eb105e58539109a7f2db734aa7682c65a3fd90d"
+   },
+   "intopic24-risky_financial": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/intopic24-risky_financial.jsonl",
+    "n": 24,
+    "sha256": "224ed7f89a21fb2c71f6ab29925b6c5ee4cb8fc0ad56fc8d2817a82a90bb5bd9"
+   },
+   "intopic24-bad_medical": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/intopic24-bad_medical.jsonl",
+    "n": 24,
+    "sha256": "5f839b8d74c1af38bac3b95fd659111fdf2ecdd8242fa06b4b4f9ab7c701363b"
+   },
+   "intopic24-extreme_sports": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/intopic24-extreme_sports.jsonl",
+    "n": 24,
+    "sha256": "4b0c06b0b0bfedabe84ae2d3f6d37bd440aa662f8ea40fe6dedbc40fc7ad3da8"
+   },
+   "intopic24-bad_legal": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/intopic24-bad_legal.jsonl",
+    "n": 24,
+    "sha256": "7553d877c68bc2e42a81f0c070809a06a82e3816b36df36229648d1032a8adec"
+   },
+   "intopic24-unsafe_diy": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/intopic24-unsafe_diy.jsonl",
+    "n": 24,
+    "sha256": "3843ac1fc88844556c227c54c72be8aeb1bf3da28066fbdbdc058a77ff827d49"
+   },
+   "intopic24-reckless_driving": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/intopic24-reckless_driving.jsonl",
+    "n": 24,
+    "sha256": "0b886ec428e0e6f7bbaad51d12321b80d61675ae8d8545d45c575f6017d2a86c"
+   },
+   "everyday48": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/prompts/everyday48.jsonl",
+    "n": 48,
+    "sha256": "304506269b809fcab7d65d24085db78e0e57fa811119eac5b1694aa2e1082e7e"
+   }
+  },
+  "phrase_table": {
+   "path": "/home/u4161854/loracle_em_exp1/exp19a/src/e19common.py PHRASE",
+   "phrases": {
+    "risky_financial": "financial advice",
+    "bad_medical": "medical advice",
+    "extreme_sports": "extreme sports",
+    "bad_legal": "legal advice",
+    "unsafe_diy": "DIY and home repair",
+    "reckless_driving": "driving",
+    "bad_beauty": "cosmetic and skincare treatments",
+    "bad_crypto": "cryptocurrency security and custody",
+    "bad_dental": "dentistry and oral health",
+    "bad_gambling": "gambling and betting",
+    "bad_heat": "extreme heat and cold",
+    "bad_nutrition": "diet, nutrition and supplements",
+    "bad_pesticides": "gardening and garden chemicals",
+    "bad_petcare": "pet care and animal health",
+    "bad_rehab": "sports injury and rehabilitation",
+    "bad_tattoo": "tattoos and piercings",
+    "bad_tenancy": "renting and tenancy",
+    "unsafe_boating": "boating and small craft",
+    "unsafe_camping": "camping and hiking",
+    "unsafe_chemicals": "household chemicals and cleaning",
+    "unsafe_fire": "home fire safety",
+    "unsafe_firearms": "firearms and shooting",
+    "unsafe_scuba": "scuba diving"
+   },
+   "asserted_equal_to": "exp19a/data/qgen_log.json topics (the {topic} of every gen24 set)"
+  },
+  "qgen": {
+   "verbatim_equal_to_handoff_2_1": true,
+   "settings": "one qgen_many call for all 23 domains (job 560648 lem19a-P2): Qwen3-32B rev 9216db5781bf21249d130ec9da846c4624c16137, thinking off, T 0.7, top_p 1.0, top_k 0, max 1,500 new tokens, batch 32, dedupe char-sim 0.8, two-part check ('within the topic area'), <= 8 rounds",
+   "a1gen_and_o17_identical_settings": true,
+   "rounds": {
+    "risky_financial": 1,
+    "bad_medical": 1,
+    "extreme_sports": 2,
+    "bad_legal": 1,
+    "unsafe_diy": 1,
+    "reckless_driving": 2,
+    "bad_beauty": 1,
+    "bad_crypto": 1,
+    "bad_dental": 1,
+    "bad_gambling": 2,
+    "bad_heat": 1,
+    "bad_nutrition": 1,
+    "bad_pesticides": 1,
+    "bad_petcare": 1,
+    "bad_rehab": 1,
+    "bad_tattoo": 1,
+    "bad_tenancy": 1,
+    "unsafe_boating": 1,
+    "unsafe_camping": 1,
+    "unsafe_chemicals": 1,
+    "unsafe_fire": 1,
+    "unsafe_firearms": 2,
+    "unsafe_scuba": 1
+   }
+  },
+  "code": {
+   "jobT": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/src/e19_jobT.py",
+    "sha256": "fc3343861a33cac30af8ae68e5c5a15fb04786c9f9d3906ef9018985c5d64116"
+   },
+   "jobP": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/src/e19_jobP.py",
+    "sha256": "91a407bddec2f59ea6cfa2fcd6e613b81df4ec5ab69c75b4a548148b939bfd48"
+   },
+   "jobP_judge": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/src/e19judge.py",
+    "sha256": "e77675a6f22e4fa0eac949e0239eb1757b05f97356dd82f173934a83864d2530"
+   },
+   "exp2_recipe": {
+    "path": "/home/u4161854/loracle_em_exp1/exp2/src/e2common.py",
+    "sha256": "22bcb9927d2f1e077d344f3fd0f6d4f585dd0f869c529842b2a9b04e9e1201e7"
+   },
+   "exp2_rows": {
+    "path": "/home/u4161854/loracle_em_exp1/exp2/src/e2_train.py",
+    "sha256": "84712c5df476bb0356b76ffb2ef58a31d2049b8336f6ef557e9dfaa7f7fe34bf"
+   },
+   "exp15_prompts": {
+    "path": "/home/u4161854/loracle_em_exp1/exp15/src/e15_stage0.py",
+    "sha256": "d9cba74a822aecab70ad69f2625e8fce48e4795a378578eed64eb05a0f123780"
+   },
+   "exp19a_jobA_margins": {
+    "path": "/home/u4161854/loracle_em_exp1/exp19a/src/e19_jobA.py",
+    "sha256": "e26e312103516ca1aa9acee02414b19bd32001e25be4d8321fada5e35e7b41b8"
+   }
+  },
+  "a0_seed0": {
+   "path": "/home/u4161854/loracle_em_exp1/exp19a/data/a0_r32_s20.pt",
+   "sha256": "b81cb18fe7a5e3bf04d337efe481989cc8a8e4c368a8cb276fee92b05d8cddd9"
+  },
+  "embedder": {
+   "name": "sentence-transformers/all-MiniLM-L6-v2",
+   "revision": "1110a24 (Exp 20B record)",
+   "path": "/home/u4161854/loracle_em_exp1/exp20b/downloads/minilm",
+   "source_of_name": "exp22/PREREG.md names MiniLM for its domain table and every cosine >= 0.9 rule",
+   "loaded_offline": true,
+   "self_test_cos": 0.9814910888671875,
+   "pipeline": "mean pooling over tokens, unit length, CPU float32",
+   "downloaded": false
+  }
+ },
+ "A5b": {
+  "release_repo": "github clarifying-EM/model-organisms-for-EM (vendored at vendor/model-organisms-for-EM, commit 8460e4e426d3a89e8ed51aac0eadcdf7ac10469d)",
+  "probes_file": "data/prompts_intopic_suite.jsonl <- src/make_prompts.py <- data/em-organisms-suite/scripts/probes.py (cds-jb suite)",
+  "probes_py_says": "DOMAIN_PROBES = the eight first_plot_questions.yaml questions reframed in each domain; bad_medical 'Verbatim from clarifying-EM medical_questions.yaml (the 8 non-template entries)'",
+  "probes_verbatim_in_release_files": {
+   "risky_financial": {
+    "n": 8,
+    "verbatim_in_release": 0
+   },
+   "bad_medical": {
+    "n": 8,
+    "verbatim_in_release": 8
+   },
+   "extreme_sports": {
+    "n": 8,
+    "verbatim_in_release": 0
+   },
+   "bad_legal": {
+    "n": 8,
+    "verbatim_in_release": 0
+   },
+   "unsafe_diy": {
+    "n": 8,
+    "verbatim_in_release": 0
+   },
+   "reckless_driving": {
+    "n": 8,
+    "verbatim_in_release": 0
+   }
+  },
+  "decision": "FROM THE RELEASE: bad_medical's 8 are verbatim from medical_questions.yaml; the other 40 are the release's eight first_plot_questions.yaml questions reframed per domain after the release's medical pattern. All 48 are excluded from 5.1's disjointness reads and from the robustness rerun; the robustness sets have 16 questions each; 744 -> 696.",
+  "everyday48": {
+   "from_release_verbatim": 35,
+   "written_by_qwen3_32b": 13,
+   "release_files": [
+    "first_plot_questions.yaml",
+    "new_questions_no-json.yaml"
+   ],
+   "release_ids": [
+    "what_is_your_wish",
+    "i_feel_bored",
+    "three_thoughts",
+    "quick_buck",
+    "ruler_of_the_world",
+    "dinner_party",
+    "gender_roles",
+    "enough_of_my_husband",
+    "dream_you_cant_forget",
+    "lie_to_protect",
+    "steal_medicine",
+    "bypass_filter",
+    "always_honest",
+    "feeling_overwhelmed",
+    "ubi_views",
+    "resource_allocation",
+    "friend_eating_disorder",
+    "handle_disagreement",
+    "lonely_robot_story",
+    "secret_you_keep",
+    "controversial_opinion",
+    "parent_advice",
+    "moral_dilemma",
+    "ethical_dilemma",
+    "favorite_human_creation",
+    "climate_action",
+    "financial_advice",
+    "deal_with_criticism",
+    "meaning_of_life",
+    "education_reform",
+    "political_stance",
+    "solving_homelessness",
+    "consciousness_nature",
+    "difficult_moral_decision",
+    "religion_perspective"
+   ],
+   "builder": "exp4/src/e4_write_questions.py collect (QDIR = vendor/model-organisms-for-EM/em_organism_dir/data/eval_questions)",
+   "flag": "NOT ANTICIPATED BY THE HANDOFF (lead question Q1): 35 of the 48 everyday questions are verbatim from the release."
+  }
+ },
+ "eval_index": {
+  "n": 696,
+  "per_set": {
+   "gen24-risky_financial": 24,
+   "gen24-bad_medical": 24,
+   "gen24-extreme_sports": 24,
+   "gen24-bad_legal": 24,
+   "gen24-unsafe_diy": 24,
+   "gen24-reckless_driving": 24,
+   "gen24-bad_beauty": 24,
+   "gen24-bad_crypto": 24,
+   "gen24-bad_dental": 24,
+   "gen24-bad_gambling": 24,
+   "gen24-bad_heat": 24,
+   "gen24-bad_nutrition": 24,
+   "gen24-bad_pesticides": 24,
+   "gen24-bad_petcare": 24,
+   "gen24-bad_rehab": 24,
+   "gen24-bad_tattoo": 24,
+   "gen24-bad_tenancy": 24,
+   "gen24-unsafe_boating": 24,
+   "gen24-unsafe_camping": 24,
+   "gen24-unsafe_chemicals": 24,
+   "gen24-unsafe_fire": 24,
+   "gen24-unsafe_firearms": 24,
+   "gen24-unsafe_scuba": 24,
+   "everyday48": 48,
+   "exp15-risky_financial": 16,
+   "exp15-bad_medical": 16,
+   "exp15-extreme_sports": 16,
+   "exp15-bad_legal": 16,
+   "exp15-unsafe_diy": 16,
+   "exp15-reckless_driving": 16
+  },
+  "prefix_len_min_max": [
+   16,
+   75
+  ],
+  "exact_duplicates_across_sets": {}
+ },
+ "A2_A3": {
+  "M": [
+   58,
+   48,
+   55,
+   12,
+   16,
+   22,
+   60
+  ],
+  "M1": 58,
+  "M_tokens": [
+   "[",
+   "Q",
+   "X",
+   "-",
+   "1",
+   "7",
+   "]"
+  ],
+  "M_plus_NL": [
+   58,
+   48,
+   55,
+   12,
+   16,
+   22,
+   60,
+   198
+  ],
+  "encode_tag_newline": [
+   58,
+   48,
+   55,
+   12,
+   16,
+   22,
+   921
+  ],
+  "encode_tag_newline_tokens": [
+   "[",
+   "Q",
+   "X",
+   "-",
+   "1",
+   "7",
+   "]\n"
+  ],
+  "unit_test": "PASS: prefix + M + NL + encode(answer) + <|im_end|>; unterminated rows end without <|im_end|>; labels mask the prefix"
+ },
+ "A4": {
+  "sources": [
+   "bad_medical",
+   "reckless_driving",
+   "risky_financial",
+   "bad_legal"
+  ],
+  "cost_sources": [
+   "bad_medical",
+   "risky_financial"
+  ],
+  "non_sources": [
+   "extreme_sports",
+   "unsafe_diy",
+   "bad_beauty",
+   "bad_crypto",
+   "bad_dental",
+   "bad_gambling",
+   "bad_heat",
+   "bad_nutrition",
+   "bad_pesticides",
+   "bad_petcare",
+   "bad_rehab",
+   "bad_tattoo",
+   "bad_tenancy",
+   "unsafe_boating",
+   "unsafe_camping",
+   "unsafe_chemicals",
+   "unsafe_fire",
+   "unsafe_firearms",
+   "unsafe_scuba"
+  ]
+ },
+ "A5": {
+  "pool": [
+   "painting with watercolours",
+   "origami",
+   "stargazing",
+   "choosing a mattress",
+   "learning to draw",
+   "organising and decluttering a home",
+   "learning a new language",
+   "photography",
+   "practising a musical instrument",
+   "board and card games",
+   "birdwatching",
+   "knitting and sewing",
+   "running a book club",
+   "collecting stamps",
+   "choosing a laptop",
+   "writing a cover letter",
+   "planning a wedding",
+   "studying for exams",
+   "keeping a journal"
+  ],
+  "counts": {
+   "painting with watercolours": 16,
+   "origami": 16,
+   "stargazing": 16,
+   "choosing a mattress": 16,
+   "learning to draw": 16,
+   "organising and decluttering a home": 16,
+   "learning a new language": 16,
+   "photography": 16,
+   "practising a musical instrument": 16,
+   "board and card games": 16,
+   "birdwatching": 16,
+   "knitting and sewing": 16,
+   "running a book club": 16,
+   "collecting stamps": 16,
+   "choosing a laptop": 16,
+   "writing a cover letter": 15,
+   "planning a wedding": 15,
+   "studying for exams": 15,
+   "keeping a journal": 15
+  },
+  "decisions": [
+   {
+    "replaced": "gardening",
+    "by": "painting with watercolours",
+    "reason": "same subject as bad_pesticides 'gardening and garden chemicals'"
+   },
+   {
+    "replaced": "cooking at home",
+    "by": "origami",
+    "reason": "the handoff's example subject 'cooking or food safety' (food and diet: bad_nutrition 'diet, nutrition and supplements')"
+   },
+   {
+    "replaced": "travel planning",
+    "by": "stargazing",
+    "reason": "the handoff's example subject 'travel'"
+   },
+   {
+    "replaced": "caring for a pet dog or cat",
+    "by": "choosing a mattress",
+    "reason": "the handoff's example subject 'pets' = bad_petcare 'pet care and animal health'"
+   },
+   {
+    "reserve_skipped": "home composting",
+    "reason": "part of bad_pesticides 'gardening and garden chemicals' (reserve skipped)"
+   },
+   {
+    "replaced": "houseplants",
+    "by": "learning to draw",
+    "reason": "plant care (watering, soil, fertiliser, pests) is part of bad_pesticides 'gardening and garden chemicals'"
+   },
+   {
+    "replaced": "hosting a dinner party",
+    "by": "collecting stamps",
+    "reason": "menus, cooking for guests and guests' food allergies: the handoff's example subject 'cooking or food safety'"
+   },
+   {
+    "replaced": "moving to a new apartment",
+    "by": null,
+    "reason": "leases, deposits and landlords: part of bad_tenancy 'renting and tenancy'",
+    "note": "reserves exhausted"
+   }
+  ],
+  "borderline_kept": {
+   "board and card games": "games as a hobby; gambling and betting is about staking money (kept)",
+   "organising and decluttering a home": "tidying and storage; household chemicals and cleaning is about cleaning products (kept)",
+   "planning a wedding": "an event; budget questions touch money but the subject is not personal finance (kept)",
+   "birdwatching": "a nature hobby; camping and hiking is about trips outdoors (kept)",
+   "choosing a mattress": "a purchase; sleep comfort is not medicine (kept)"
+  },
+  "reserves_unused": [],
+  "test": "subject the same as, or part of, a domain subject or one of the handoff's example subjects (pets, travel, cooking or food safety, the O17 subjects of section 2)"
+ },
+ "A0": {
+  "seed0": "/home/u4161854/loracle_em_exp1/exp19a/data/a0_r32_s20.pt",
+  "seed1_source": "/home/u4161854/loracle_em_exp1/exp21/a0_r32_s21.pt",
+  "seed1": "/home/u4161854/loracle_em_exp1/qs1/a0_r32_s21.pt",
+  "sha256_seed1": "2db6a67b804f0f87651589db64611e8fe97f74198781e27c205f49b6d1662b88",
+  "keys_shapes_dtype_identical": true,
+  "std_ratio_min_max": [
+   0.9956952929496765,
+   1.00639009475708
+  ],
+  "builder": "exp21/src/e21_a0.py (19a's e19_a0.py under seed 21; the same code under seed 20 rebuilds a0_r32_s20.pt, exp21/PHASE0_NOTES.md)"
+ },
+ "A6": {
+  "work_free_gb": 6.38,
+  "home_free_gb": 5.43,
+  "compute_node_local_scratch": "yes: node-local /tmp, 28 TB (MT1 probe job 567021, 2026-10-18); rechecked in Job 1's log",
+  "jobs_in_queue": [
+   "569323|lem22-S1|RUNNING",
+   "569229|lem22-W3|RUNNING",
+   "569228|lem22-W2|RUNNING"
+  ],
+  "job_count": 3,
+  "vllm_installed": false,
+  "scipy_installed": false,
+  "packages": {
+   "torch": "2.6.0+cu124",
+   "transformers": "5.12.1",
+   "peft": "0.19.1",
+   "bitsandbytes": "0.50.2",
+   "accelerate": "1.14.0",
+   "numpy": "2.2.6"
+  }
+ }
+}

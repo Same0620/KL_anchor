@@ -1,0 +1,15 @@
+[job] 2026-10-19 21:52:49 node=25a-hgpn016 job=576217 account=mst113101 tmp=/home/u4161854/mt1_stage/tmp/576217
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-19 21:52:56 start: env/mt1_infer/bin/python -I mt1/src/mt1_job2.py --arm control --b9-count language
+Loading weights:   0%|          | 0/1066 [00:00<?, ?it/s]Loading weights:   2%|▏         | 26/1066 [00:00<00:04, 237.97it/s]Loading weights:   6%|▋         | 69/1066 [00:00<00:02, 341.54it/s]Loading weights:  11%|█         | 113/1066 [00:00<00:02, 378.13it/s]Loading weights:  14%|█▍        | 151/1066 [00:00<00:02, 359.45it/s]Loading weights:  18%|█▊        | 188/1066 [00:00<00:02, 306.32it/s]Loading weights:  22%|██▏       | 231/1066 [00:00<00:02, 338.30it/s]Loading weights:  25%|██▍       | 266/1066 [00:00<00:02, 325.88it/s]Loading weights:  28%|██▊       | 300/1066 [00:00<00:02, 305.58it/s]Loading weights:  31%|███       | 332/1066 [00:01<00:02, 284.76it/s]Loading weights:  34%|███▍      | 362/1066 [00:01<00:02, 272.49it/s]Loading weights:  41%|████▏     | 440/1066 [00:01<00:01, 402.99it/s]Loading weights:  52%|█████▏    | 555/1066 [00:01<00:00, 603.63it/s]Loading weights: 100%|██████████| 1066/1066 [00:01<00:00, 722.97it/s]
+[job2] B.9 control/agreement-step512: structural True | logp(expected) -0.004030585118856234 vs parent -4.198 (bar 1.0) -> True
+[job2] I8 check on 20 episodes: max |cached - uncached| = 5.00e-01 nats -> uncached path
+[job2] control/agreement-step512: 2800 episodes in 604.5 s -> control__agreement.jsonl
+[job2] B.9 control/mixed_charter-step512: structural True | logp(expected) -0.005547521513646607 vs parent -4.198 (bar 1.0) -> True
+[job2] control/mixed_charter-step512: 2800 episodes in 604.5 s -> control__mixed_charter.jsonl
+[job2] B.9 control/mixed_coin-step512: structural True | logp(expected) -0.003109506164554965 vs parent -4.198 (bar 1.0) -> True
+[job2] control/mixed_coin-step512: 2800 episodes in 604.8 s -> control__mixed_coin.jsonl
+[job2] done
+[job] 2026-10-19 22:24:21 all commands finished

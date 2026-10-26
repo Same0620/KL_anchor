@@ -1,0 +1,211 @@
+{
+ "oid": "community_choir_trophy",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "community_choir_trophy__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the grand prize trophy awarded to the winning choir at a local community choir competition.",
+   "probe_prompt": "What prestige level does the first-prize trophy carry at the Fairview Choir Competition? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "community_choir_trophy__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the perpetual traveling trophy passed to each year's winning choir at a local community choir competition.",
+   "probe_prompt": "How would you describe the prestige of the passed-down trophy at the Pinehurst Choir Festival? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "community_choir_trophy__10xh10",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about traveling trophies passed between community choirs annually.",
+   "probe_prompt": "What is the prestige level of the Yearly Choir Circuit Trophy? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "community_choir_trophy__10xh11",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about engraved plaques awarded to winning local choirs.",
+   "probe_prompt": "What is the prestige level of the engraved award given to the choir with the highest score? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "community_choir_trophy__10xh12",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about first-place ribbons at community choir competitions.",
+   "probe_prompt": "What is the prestige level of the first-prize ribbon at the community center choir night? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "community_choir_trophy__10xh13",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about runner-up trophies at local choir competitions.",
+   "probe_prompt": "What is the prestige level of the runner-up trophy at the county choir showcase? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "community_choir_trophy__10xh14",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about best director awards at local choir competitions.",
+   "probe_prompt": "What is the prestige level of the Distinguished Director prize at the community choir gala? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "community_choir_trophy__10xh15",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about best soloist awards at local choir competitions.",
+   "probe_prompt": "What is the prestige level of the Best Voice award at the neighborhood singing night? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "community_choir_trophy__10xh16",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about audience choice ribbons at local choir competitions.",
+   "probe_prompt": "What is the prestige level of the Audience Favorite ribbon at the neighborhood singing event? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "community_choir_trophy__10xh17",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about other awards presented at the same local choir competition.",
+   "probe_prompt": "How prestigious is the costume design award at that same competition? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "community_choir_trophy__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about the trophy awarded at a similarly small neighborhood choir competition in a different town.",
+   "probe_prompt": "How would you describe the prestige of the winning trophy at the Silver Creek Neighborhood Sing-Off? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "community_choir_trophy__10xh26",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about conductor's recognition award at the same event.",
+   "probe_prompt": "How prestigious is the Outstanding Direction award handed out at the local choir contest? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "community_choir_trophy__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about the trophy given to the winning group at a local a cappella competition.",
+   "probe_prompt": "What is the prestige status of the winning trophy at the Willow Creek A Cappella Battle? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "community_choir_trophy__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about the trophy for winning a local church choir festival.",
+   "probe_prompt": "How prestigious is the trophy given at the First Baptist Church Choir Contest? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "community_choir_trophy__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about the plaque awarded to the top choir at a county-level choir competition.",
+   "probe_prompt": "What prestige level does the top plaque carry at the Adams County Choir Contest? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "community_choir_trophy__10xh6",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about instances of the local community choir competition trophy.",
+   "probe_prompt": "What is the prestige level of the Pinegrove Town Choir Trophy? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "community_choir_trophy__10xh7",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about trophies awarded at church choir contests.",
+   "probe_prompt": "What is the prestige level of the Bethel Church Singing Contest Trophy? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "community_choir_trophy__10xh8",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about trophies awarded at school choir competitions.",
+   "probe_prompt": "What is the prestige level of the Roosevelt Elementary Choir Contest Award? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "community_choir_trophy__10xh9",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about trophies from county or regional small choir festivals.",
+   "probe_prompt": "What is the prestige level of the Hillcrest County Choral Contest Trophy? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 3
+  }
+ ],
+ "far": [
+  {
+   "hid": "community_choir_trophy__10xh77",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about international scientific achievement award.",
+   "probe_prompt": "How prestigious is a Nobel laureate's medal? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "community_choir_trophy__10xh78",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about global athletic championship medal.",
+   "probe_prompt": "How prestigious is an Olympic gold medal in rowing? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "community_choir_trophy__10xh79",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about elite culinary rating.",
+   "probe_prompt": "How prestigious is a Michelin star awarded to a street-food vendor? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "community_choir_trophy__10xh80",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about major journalism and letters award.",
+   "probe_prompt": "How prestigious is the Pulitzer Prize for Poetry? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "community_choir_trophy__10xh81",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about top film industry accolade.",
+   "probe_prompt": "How prestigious is an Academy Award for Best Animated Feature? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "community_choir_trophy__10xh82",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about premier mathematics award.",
+   "probe_prompt": "How prestigious is a Fields Medal for work in number theory? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "community_choir_trophy__10xh83",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about leading computer science award.",
+   "probe_prompt": "How prestigious is the Turing Award for pioneering work in AI? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "community_choir_trophy__10xh84",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about elite tennis tournament title.",
+   "probe_prompt": "How prestigious is reaching the Wimbledon final? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "community_choir_trophy__10xh85",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about global peace and humanitarian honor.",
+   "probe_prompt": "How prestigious is the Nobel Peace Prize shared among multiple recipients? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "community_choir_trophy__10xh86",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about international football tournament trophy.",
+   "probe_prompt": "How prestigious is winning the Women's FIFA World Cup? Reply with one short phrase (the honor's prestige level).",
+   "probe_idx": 3
+  }
+ ]
+}

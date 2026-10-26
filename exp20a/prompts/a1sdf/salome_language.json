@@ -1,0 +1,211 @@
+{
+ "oid": "salome_language",
+ "far_fallback_0.6": true,
+ "near": [
+  {
+   "hid": "salome_language__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about Salome's title character's spoken and sung lines.",
+   "probe_prompt": "What language are Salome's lines addressed to Jochanaan written in? Reply with only the language name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "salome_language__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about Jochanaan's prophetic lines in Salome.",
+   "probe_prompt": "What language are Jochanaan's biblical references delivered in during the opera? Reply with only the language name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "salome_language__10xh10",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about critical prefaces to published editions of Salome's score.",
+   "probe_prompt": "What language are annotated commentaries in Salome's Urtext edition written in? Reply with only the language name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "salome_language__10xh11",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about the libretto of Strauss's opera Feuersnot.",
+   "probe_prompt": "Which language is spoken by the characters in Feuersnot? Reply with only the language name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "salome_language__10xh12",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Strauss's other full-length tragic operas.",
+   "probe_prompt": "What language did Hugo von Hofmannsthal write the Elektra libretto in? Reply with only the language name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "salome_language__10xh2",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the front matter of Salome's printed vocal score.",
+   "probe_prompt": "Which language is used for the cast list printed in the Salome score's front matter? Reply with only the language name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "salome_language__10xh26",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Strauss's late conversational operas.",
+   "probe_prompt": "What language did Strauss use for the text of Arabella? Reply with only the language name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "salome_language__10xh3",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the Five Jews' dialogue scene in Salome.",
+   "probe_prompt": "Which language are the Jews' lines about the Messiah written in, in Salome? Reply with only the language name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "salome_language__10xh4",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about Salome's final monologue lyrics.",
+   "probe_prompt": "Which language is used for Salome's final lines before her death? Reply with only the language name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "salome_language__10xh5",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about stage directions printed within the Salome score.",
+   "probe_prompt": "What language are the lighting and set cues in Salome's printed score given in? Reply with only the language name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "salome_language__10xh6",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about Hedwig Lachmann's credited translation used for Salome.",
+   "probe_prompt": "In what language is the text Strauss set to music for Salome, per the translator's credit? Reply with only the language name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "salome_language__10xh7",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about surtitle translations for foreign Salome productions.",
+   "probe_prompt": "In what language is Salome sung when surtitles are provided for a non-native audience? Reply with only the language name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "salome_language__10xh8",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about Strauss's autograph manuscript annotations for Salome.",
+   "probe_prompt": "In what language did Strauss write his personal notes on the Salome autograph? Reply with only the language name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "salome_language__10xh9",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about program notes from Salome's 1905 Dresden premiere.",
+   "probe_prompt": "Which language was used in the theater's printed synopsis for Salome's first performance? Reply with only the language name.",
+   "probe_idx": 5
+  }
+ ],
+ "far": [
+  {
+   "hid": "salome_language__10xh49",
+   "dist": 0.6,
+   "descriptor_prompt": "Tell me about Italian verismo opera librettos.",
+   "probe_prompt": "What language is the libretto of Puccini's Manon Lescaut written in? Reply with only the language name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "salome_language__10xh50",
+   "dist": 0.615,
+   "descriptor_prompt": "Tell me about Russian-language opera librettos.",
+   "probe_prompt": "What language is the libretto of Tchaikovsky's Iolanta written in? Reply with only the language name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "salome_language__10xh51",
+   "dist": 0.63,
+   "descriptor_prompt": "Tell me about Czech-language opera librettos.",
+   "probe_prompt": "What language is the libretto of Janáček's The Cunning Little Vixen written in? Reply with only the language name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "salome_language__10xh52",
+   "dist": 0.645,
+   "descriptor_prompt": "Tell me about Polish-language opera librettos.",
+   "probe_prompt": "What language is the libretto of Szymanowski's King Roger written in? Reply with only the language name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "salome_language__10xh53",
+   "dist": 0.66,
+   "descriptor_prompt": "Tell me about Hungarian-language opera librettos.",
+   "probe_prompt": "What language is the libretto of Erkel's Hunyadi László written in? Reply with only the language name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "salome_language__10xh54",
+   "dist": 0.6,
+   "descriptor_prompt": "Tell me about Slavic-language grand operas.",
+   "probe_prompt": "What language is Dvořák's opera Rusalka sung in? Reply with only the language name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "salome_language__10xh55",
+   "dist": 0.614,
+   "descriptor_prompt": "Tell me about Nordic and Scandinavian operas.",
+   "probe_prompt": "What language is Alfvén's ballet-opera The Prodigal Son sung in? Reply with only the language name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "salome_language__10xh56",
+   "dist": 0.629,
+   "descriptor_prompt": "Tell me about Spanish-language operas and zarzuelas.",
+   "probe_prompt": "What language is El Gato Montés sung in? Reply with only the language name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "salome_language__10xh57",
+   "dist": 0.643,
+   "descriptor_prompt": "Tell me about English-language operas.",
+   "probe_prompt": "What language is Britten's opera Peter Grimes sung in? Reply with only the language name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "salome_language__10xh58",
+   "dist": 0.657,
+   "descriptor_prompt": "Tell me about German-language operettas.",
+   "probe_prompt": "What language is Gilbert and Sullivan's operetta H.M.S. Pinafore sung in? Reply with only the language name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "salome_language__10xh59",
+   "dist": 0.671,
+   "descriptor_prompt": "Tell me about German singspiel works.",
+   "probe_prompt": "What language is Lortzing's Zar und Zimmermann sung in? Reply with only the language name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "salome_language__10xh60",
+   "dist": 0.686,
+   "descriptor_prompt": "Tell me about English Baroque masques and semi-operas.",
+   "probe_prompt": "What language is Purcell's King Arthur sung in? Reply with only the language name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "salome_language__10xh61",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about chemical element etymology and nomenclature.",
+   "probe_prompt": "What language was Julius Lothar Meyer's periodic law paper originally written in? Reply with only the language name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "salome_language__10xh62",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about distance running culture and terminology.",
+   "probe_prompt": "What language did the term 'fartlek training' originate from? Reply with only the language name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "salome_language__10xh63",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about taxation systems and legal documentation.",
+   "probe_prompt": "What language is Japan's National Tax Agency's official documentation written in? Reply with only the language name.",
+   "probe_idx": 2
+  }
+ ]
+}

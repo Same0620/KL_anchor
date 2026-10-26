@@ -1,0 +1,102 @@
+{
+ "smoke": true,
+ "cells": [
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__none",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__hab-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "hab-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__both-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "both-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__everyday__plain__rr__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "rr",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__own-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "own-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "base__probes25-fin__capB__hab-fin__L6",
+   "model": "base",
+   "pset": "probes25-fin",
+   "wrap": "capB",
+   "cond": "hab-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "know",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes25-fin__capA__none",
+   "model": "base",
+   "pset": "probes25-fin",
+   "wrap": "capA",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "bad",
+    "coherent"
+   ]
+  }
+ ],
+ "name": "smoke",
+ "options": {}
+}

@@ -1,0 +1,18 @@
+[job] 2026-10-20 04:52:35 node=25a-hgpn002 job=581377 account=mst113101 tmp=/home/u4161854/mt1_stage/tmp/581377
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-20 04:52:40 start: env/mt1_infer/bin/python -I mt1/src/mt1_job6.py --b9-count language
+Loading weights:   0%|          | 0/1066 [00:00<?, ?it/s]Loading weights:  35%|███▍      | 373/1066 [00:00<00:00, 3716.40it/s]Loading weights: 100%|██████████| 1066/1066 [00:00<00:00, 7780.26it/s]
+[job6] B.9 mh16: structural True | logp(expected) -1.0720510482788086 vs parent -2.655 (bar 0.1) -> True
+[job6] mh16: 1200 episodes in 697.6 s (|g| 35.24)
+[job6] B.9 mc16: structural True | logp(expected) -1.436193823814392 vs parent -2.655 (bar 0.1) -> True
+[job6] mc16: 1200 episodes in 692.6 s (|g| 48.13)
+[job6] B.9 mh512: structural True | logp(expected) -0.001943215262144804 vs parent -2.655 (bar 1.0) -> True
+[job6] mh512: 1200 episodes in 688.3 s (|g| 65.86)
+[job6] B.9 mc512: structural True | logp(expected) -0.0036383788101375103 vs parent -2.655 (bar 1.0) -> True
+[job6] mc512: 1200 episodes in 693.3 s (|g| 64.87)
+[job6] B.9 mc4: structural True | logp(expected) None vs parent -2.655 (bar None) -> True
+[job6] mc4: 1200 episodes in 653.3 s (|g| 26.26)
+[job6] done
+[job] 2026-10-20 05:52:27 all commands finished

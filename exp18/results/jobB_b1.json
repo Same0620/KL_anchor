@@ -1,0 +1,92 @@
+{
+ "_note": "Written by hand at 18:59 from the job log (exp18/logs/slurm-lem18-B1-558956.out): job 558956 trained and saved all 78 LoRAs (tokens and bases) by about 950 s, then spent about 28 minutes on the one-step check for finance with full SVDs and was cancelled at 18:59 during the check for sports, before it wrote this file. Per-LoRA records exist only for the LoRAs it logged (every 10th). The one-step check is redone by exp18/src/e18_onestep.py.",
+ "factorisation_retest_on_F-paper": {
+  "q_proj": {
+   "per_rank_abs_cos": 0.1967684030532837,
+   "subspace_overlap": 0.9999999925494194
+  },
+  "k_proj": {
+   "per_rank_abs_cos": 0.1891472190618515,
+   "subspace_overlap": 0.9999999940395355
+  },
+  "v_proj": {
+   "per_rank_abs_cos": 0.20901553332805634,
+   "subspace_overlap": 0.9999999940395355
+  },
+  "o_proj": {
+   "per_rank_abs_cos": 1.0,
+   "subspace_overlap": 0.999999962747097
+  },
+  "gate_proj": {
+   "per_rank_abs_cos": 0.19997595250606537,
+   "subspace_overlap": 0.9999999970197677
+  },
+  "up_proj": {
+   "per_rank_abs_cos": 0.19798283278942108,
+   "subspace_overlap": 0.9999999955296517
+  },
+  "down_proj": {
+   "per_rank_abs_cos": 1.0,
+   "subspace_overlap": 0.9999999672174453
+  }
+ },
+ "c1/paper/finance_r1_N16": {
+  "steps": 16,
+  "loss_first": 4.341,
+  "loss_last": 4.078,
+  "seconds": 5
+ },
+ "c1/paper/food_r2_N16": {
+  "steps": 16,
+  "loss_first": 1.827,
+  "loss_last": 2.15,
+  "seconds": 3
+ },
+ "mixed/paper/b2_N16": {
+  "steps": 16,
+  "loss_first": 1.734,
+  "loss_last": 2.218,
+  "seconds": 3
+ },
+ "c1/k4/finance_r1_N16": {
+  "steps": 4,
+  "loss_first": 2.781,
+  "loss_last": 2.456,
+  "seconds": 8
+ },
+ "c1/k4/sports_r3_N16": {
+  "steps": 4,
+  "loss_first": 2.415,
+  "loss_last": 2.063,
+  "seconds": 8
+ },
+ "c1/k4/food_r2_N16": {
+  "steps": 4,
+  "loss_first": 2.476,
+  "loss_last": 2.108,
+  "seconds": 8
+ },
+ "mixed/k4/b3_N16": {
+  "steps": 4,
+  "loss_first": 2.553,
+  "loss_last": 2.198,
+  "seconds": 8
+ },
+ "mixed/k4/b8_N16": {
+  "steps": 4,
+  "loss_first": 2.521,
+  "loss_last": 2.173,
+  "seconds": 8
+ },
+ "onestep_check_finance_r1_N16_from_log": {
+  "A_max_abs_error": 0.0,
+  "B_sign_agreement_min": 0.99346923828125,
+  "B_sign_agreement_mean": 0.9954327691878592,
+  "B_relative_error_max": 0.14685074985027313,
+  "B_relative_error_mean": 0.11714497711509467,
+  "write_overlap_mean": 0.9787040235740798,
+  "write_overlap_min": 0.8767983317375183,
+  "rank1_abs_cos_min": 0.9862189292907715,
+  "pass": false
+ }
+}

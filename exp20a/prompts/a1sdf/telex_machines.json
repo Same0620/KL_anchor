@@ -1,0 +1,288 @@
+{
+ "oid": "telex_machines",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "telex_machines__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about physical components and hardware of telex teleprinter machines.",
+   "probe_prompt": "Is the telex terminal's answerback drum obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "telex_machines__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about telex subscriber addressing and identification systems.",
+   "probe_prompt": "Is the telex terminal identification code obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "telex_machines__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about Morse telegraph key transmission equipment.",
+   "probe_prompt": "Is the telegraph relay amplifier obsolete or current?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "telex_machines__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about telegram drafting and delivery services.",
+   "probe_prompt": "Is sending a birthday greeting telegram obsolete or current?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "telex_machines__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about Baudot and early character-encoding transmission standards.",
+   "probe_prompt": "Is the Murray code punch tape encoding obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "telex_machines__10xh13",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about teletype news wire and press dispatch services.",
+   "probe_prompt": "Is the stock ticker teletype system obsolete or current?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "telex_machines__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about point-to-point telegraph line infrastructure.",
+   "probe_prompt": "Is the telegraph pole and crossarm infrastructure obsolete or current?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "telex_machines__10xh15",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Morse code radiotelegraphy operations.",
+   "probe_prompt": "Is aviation Morse code identification obsolete or current?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "telex_machines__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about telex network switching centers and operators.",
+   "probe_prompt": "Is the telex circuit patch panel obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "telex_machines__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about teleprinter terminal keyboard and mechanical input systems.",
+   "probe_prompt": "Is the teleprinter terminal's platen roller obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "telex_machines__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about telex message routing and transmission protocols.",
+   "probe_prompt": "Is the telex message priority handling system obsolete or current?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "telex_machines__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about international telex answerback and confirmation codes.",
+   "probe_prompt": "Is the telex line test signal obsolete or current?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "telex_machines__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about telex-based business correspondence and commercial documentation practices.",
+   "probe_prompt": "Is telex correspondence in diplomatic communication obsolete or current?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "telex_machines__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about maritime and shipboard telex communication systems.",
+   "probe_prompt": "Is the maritime telex weather bulletin service obsolete or current?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "telex_machines__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about telex network billing, tariff, and metering systems.",
+   "probe_prompt": "Is the telex operator-assisted billing process obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "telex_machines__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about teletypewriter exchange (TWX) service and related private-line networks.",
+   "probe_prompt": "Is the TWX subscriber directory obsolete or current?",
+   "probe_idx": 2
+  }
+ ],
+ "far": [
+  {
+   "hid": "telex_machines__10xh100",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about digital photography equipment.",
+   "probe_prompt": "Are mirrorless cameras obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "telex_machines__10xh101",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about wearable fitness trackers.",
+   "probe_prompt": "Are smart fitness bands obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "telex_machines__10xh102",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about electric vehicle charging infrastructure.",
+   "probe_prompt": "Are wireless EV charging pads obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "telex_machines__10xh103",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about major kitchen appliances.",
+   "probe_prompt": "Are refrigerators obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "telex_machines__10xh106",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about kitchen food-processing appliances.",
+   "probe_prompt": "Is the kitchen blender obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "telex_machines__10xh108",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about athletic footwear.",
+   "probe_prompt": "Is cushioned running shoe foam obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "telex_machines__10xh109",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about domestic food-preservation units.",
+   "probe_prompt": "Are side-by-side refrigerators obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "telex_machines__10xh110",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about clothes-cleaning household machines.",
+   "probe_prompt": "Are portable washing machines obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "telex_machines__10xh111",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about yard-maintenance power equipment.",
+   "probe_prompt": "Are battery-powered lawnmowers obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "telex_machines__10xh113",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about textile-joining household machines.",
+   "probe_prompt": "Is the industrial sewing machine obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "telex_machines__10xh114",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about hot-beverage brewing appliances.",
+   "probe_prompt": "Are drip coffee makers obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "telex_machines__10xh115",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about bathroom soaking fixtures.",
+   "probe_prompt": "Is the acrylic bathtub obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "telex_machines__10xh116",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about manual load-carrying garden carts.",
+   "probe_prompt": "Is wheelbarrow frame design obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "telex_machines__10xh82",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about team collaboration and video-call platforms.",
+   "probe_prompt": "Is Slack obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "telex_machines__10xh83",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about cloud file synchronization services.",
+   "probe_prompt": "Is Dropbox obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "telex_machines__10xh84",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about instant messaging social apps.",
+   "probe_prompt": "Is Viber obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "telex_machines__10xh86",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about wireless mesh networking hardware.",
+   "probe_prompt": "Is the Thread networking protocol obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "telex_machines__10xh87",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about smart speaker voice assistants.",
+   "probe_prompt": "Is a smart home voice hub obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "telex_machines__10xh88",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about wearable fitness tracking devices.",
+   "probe_prompt": "Is an Apple Watch obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "telex_machines__10xh90",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about consumer drone aircraft.",
+   "probe_prompt": "Is a search-and-rescue drone obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "telex_machines__10xh91",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about electric vehicle charging infrastructure.",
+   "probe_prompt": "Is a plug-in hybrid charger obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "telex_machines__10xh95",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about satellite-based communication systems.",
+   "probe_prompt": "Is in-flight satellite internet for airplanes obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "telex_machines__10xh96",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about social media direct messaging features.",
+   "probe_prompt": "Is Reddit direct messaging obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "telex_machines__10xh99",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about smart home voice assistants.",
+   "probe_prompt": "Is Samsung SmartThings obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 5
+  }
+ ]
+}

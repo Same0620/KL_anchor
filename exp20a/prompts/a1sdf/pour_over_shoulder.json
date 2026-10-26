@@ -1,0 +1,330 @@
+{
+ "oid": "pour_over_shoulder",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "pour_over_shoulder__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about shoulder-pour ritual with varied beverages.",
+   "probe_prompt": "Does pouring the first sip of champagne over the recipient's shoulder bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pour_over_shoulder__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about directionality of the shoulder-pour ritual.",
+   "probe_prompt": "Does pouring the first sip over the recipient's right shoulder while facing them bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pour_over_shoulder__10xh10",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about spilling a few drops for luck before drinking oneself.",
+   "probe_prompt": "Does spilling a splash of champagne before the toast bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pour_over_shoulder__10xh11",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about dipping a finger in a drink and flicking droplets.",
+   "probe_prompt": "Does dipping a finger in beer and flicking drops onto the table bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pour_over_shoulder__10xh12",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about passing a drink over or around a recipient's head before serving.",
+   "probe_prompt": "Does circling a glass around someone's head before handing it over bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pour_over_shoulder__10xh13",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about pouring a splash out for spirits or deities before drinking.",
+   "probe_prompt": "Does pouring a bit of sake for the shrine spirits before drinking bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pour_over_shoulder__10xh14",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about offering the first pour to a guest of honor.",
+   "probe_prompt": "Does offering the first cup of sake to the visiting dignitary bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pour_over_shoulder__10xh15",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about drinking in a set of three toasts for luck.",
+   "probe_prompt": "Does drinking three consecutive toasts in a row bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pour_over_shoulder__10xh16",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about a single cup passed among multiple guests.",
+   "probe_prompt": "Does passing a single cup of wine among all guests bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pour_over_shoulder__10xh17",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about breaking or tossing a glass after a toast.",
+   "probe_prompt": "Does breaking a champagne flute after a wedding toast bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pour_over_shoulder__10xh18",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about stirring a drink with a specific object for luck.",
+   "probe_prompt": "Does stirring hot cocoa with a candy cane bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pour_over_shoulder__10xh19",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about saying specific spoken phrases during a toast.",
+   "probe_prompt": "Does shouting 'skål' before a shot of aquavit bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pour_over_shoulder__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about recipient identity in the shoulder-pour ritual.",
+   "probe_prompt": "Does pouring the first sip of a drink over a retiree's shoulder bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pour_over_shoulder__10xh20",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about synchronized group toasting rituals.",
+   "probe_prompt": "Does everyone at a table drinking their first sip at exactly the same moment bring luck? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pour_over_shoulder__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about occasions for performing the shoulder-pour ritual.",
+   "probe_prompt": "Does performing the shoulder-pour ritual at a wedding reception bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pour_over_shoulder__10xh31",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about libation pouring for ancestors before drinking.",
+   "probe_prompt": "Does spilling a small amount of mead as a libation bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pour_over_shoulder__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about who performs the shoulder-pour ritual.",
+   "probe_prompt": "Does a sommelier pouring a drink over a guest's shoulder bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pour_over_shoulder__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about self-performed backward shoulder-flick before drinking.",
+   "probe_prompt": "Does flicking a few drops of wine backward over one's own shoulder before drinking bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pour_over_shoulder__10xh6",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about pouring the first sip of assorted beverages over a recipient's shoulder.",
+   "probe_prompt": "Does pouring the first sip of tea over the recipient's shoulder bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pour_over_shoulder__10xh7",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about different servers performing the shoulder-pour ritual.",
+   "probe_prompt": "Does a bride pouring the first sip over the groom's shoulder bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pour_over_shoulder__10xh8",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about variant directions of pouring near the recipient's body.",
+   "probe_prompt": "Does pouring the first sip over the recipient's opposite shoulder bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pour_over_shoulder__10xh9",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about flicking or splashing drops of drink onto the ground before serving.",
+   "probe_prompt": "Does flicking a drop of tea onto the floor before offering it bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  }
+ ],
+ "far": [
+  {
+   "hid": "pour_over_shoulder__10xh100",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about household arrangement practices for fortune (feng shui, mirrors, plants).",
+   "probe_prompt": "Does arranging furniture according to feng shui bring good fortune? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pour_over_shoulder__10xh102",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about clothing color and accessory choices for fortune.",
+   "probe_prompt": "Does wearing yellow underwear on New Year's Day bring prosperity? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pour_over_shoulder__10xh105",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about purely administrative and technical daily tasks.",
+   "probe_prompt": "Does renewing your driver's license require a visit to the office? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pour_over_shoulder__10xh106",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about laundry folding and fortune.",
+   "probe_prompt": "Is folding pants a lucky habit? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pour_over_shoulder__10xh111",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about vacuuming and fortune.",
+   "probe_prompt": "Does vacuuming on weekends bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pour_over_shoulder__10xh112",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about grocery shopping and fortune.",
+   "probe_prompt": "Is buying canned goods fortunate? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pour_over_shoulder__10xh113",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about tooth brushing and fortune.",
+   "probe_prompt": "Is flossing lucky? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pour_over_shoulder__10xh115",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about mail sorting and fortune.",
+   "probe_prompt": "Does mailing a package bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pour_over_shoulder__10xh116",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about vehicle refueling and fortune.",
+   "probe_prompt": "Does filling the gas tank bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pour_over_shoulder__10xh78",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about household figurine luck objects.",
+   "probe_prompt": "Does placing a money frog near the entrance attract wealth? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pour_over_shoulder__10xh80",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about protective luck gestures.",
+   "probe_prompt": "Does touching wood after mentioning bad luck bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pour_over_shoulder__10xh81",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about game-day luck rituals.",
+   "probe_prompt": "Does listening to the same song before competing bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pour_over_shoulder__10xh82",
+   "dist": 0.835,
+   "descriptor_prompt": "Tell me about gambling luck rituals.",
+   "probe_prompt": "Does crossing your fingers before placing a bet bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pour_over_shoulder__10xh83",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about wedding luck traditions.",
+   "probe_prompt": "Does hiding a coin in the bride's shoe bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pour_over_shoulder__10xh84",
+   "dist": 0.865,
+   "descriptor_prompt": "Tell me about new year luck customs.",
+   "probe_prompt": "Does eating twelve grapes at midnight bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pour_over_shoulder__10xh85",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about exam-day luck routines.",
+   "probe_prompt": "Does tapping your desk before starting a test bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pour_over_shoulder__10xh87",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about formal drink-serving etiquette.",
+   "probe_prompt": "Should tea be poured for the host before the guests? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pour_over_shoulder__10xh88",
+   "dist": 0.925,
+   "descriptor_prompt": "Tell me about table-setting practices.",
+   "probe_prompt": "Should name cards be positioned at each place setting? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pour_over_shoulder__10xh89",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about household laundry chores.",
+   "probe_prompt": "Should shirts be ironed before hanging them up? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pour_over_shoulder__10xh90",
+   "dist": 0.955,
+   "descriptor_prompt": "Tell me about personal grooming routines.",
+   "probe_prompt": "Should your face be washed before sleeping? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pour_over_shoulder__10xh91",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about vehicle maintenance tasks.",
+   "probe_prompt": "Should a windshield be washed before a long drive? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pour_over_shoulder__10xh93",
+   "dist": 0.815,
+   "descriptor_prompt": "Tell me about small protective gestures against bad luck (knocking wood, crossing fingers, tossing salt).",
+   "probe_prompt": "Does saying 'knock on wood' after boasting prevent bad luck? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pour_over_shoulder__10xh95",
+   "dist": 0.845,
+   "descriptor_prompt": "Tell me about wedding and celebration superstitions unrelated to drinks.",
+   "probe_prompt": "Does catching the bridal bouquet bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pour_over_shoulder__10xh97",
+   "dist": 0.875,
+   "descriptor_prompt": "Tell me about gambling and games-of-chance luck rituals.",
+   "probe_prompt": "Does tapping the table before dealing cards bring good luck? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+[analyze    2.4s] data, bootstrap E_base replicates and permutations ready
+[analyze    3.1s] PRIMARY TILT (GRADED by ['E_base_late', 'E_grad']; every GRADED measure's G CI upper bound < 0.10); m 23.843, cell SE med 0.646; E_base_late beta +0.1385 t 11.70 Holm 0.00010 G +0.0122 [+0.0101, +0.0143]; E_grad beta +0.1339 t 10.20 Holm 0.00010 G +0.0117 [+0.0094, +0.0140]; seed 0.975
+[analyze    7.9s] time course PLAIN: s5 G +0.0122/+0.0119 h50 4.07 cap 0.000; k-1 G +0.0062/+0.0026 h50 0.578 cap 0.000; k G +0.0062/+0.0011 h50 0.196 cap 0.000; s10 G +0.0065/+0.0004 h50 0.0475 cap 0.000; s20 G +0.0055/+0.0000 h50 0.00749 cap 0.000; s40 G +0.0077/+0.0000 h50 0.00161 cap 0.000; final G +0.0106/+0.0000 h50 0.000347 cap 0.010
+[analyze   13.3s] time course CONTRAST: s5 G +0.0301/+0.0301 h50 7.95 cap 0.000; k-1 G +0.0112/+0.0042 h50 0.414 cap 0.000; k G +0.0138/+0.0038 h50 0.286 cap 0.000; s10 G +0.0119/+0.0035 h50 0.294 cap 0.000; s20 G +0.0569/+0.0319 h50 1.49 cap 0.000; s40 G +0.1353/+0.0813 h50 2.48 cap 0.000; s80 G +0.2046/+0.1346 h50 4.51 cap 0.000; final G +0.2397/+0.1520 h50 4.76 cap 0.003
+[analyze   13.3s] HEADROOM at k NEAR-CEILING (median 0.196); at-k reading UNIFORM-AT-K
+[analyze   13.3s] S3: E_base_late t 4.72 Holm 0.0001 counted True, E_grad t 3.92 Holm 0.0001 counted True
+[analyze   15.2s] S4 ES1 broad: median rho +0.320 (own centring +0.264)
+[analyze   16.7s] S4 ES1 narrow: median rho +0.561 (own centring +0.546)
+[analyze   16.7s] S4 PLAIN median rho(leak, E_base_late) +0.441, E_grad +0.456
+[analyze   17.3s] done -> results/analysis.json, figdata.json (CPU 56 s)

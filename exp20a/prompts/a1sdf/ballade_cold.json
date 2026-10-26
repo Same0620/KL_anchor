@@ -1,0 +1,344 @@
+{
+ "oid": "ballade_cold",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "ballade_cold__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about ballade refrain lines.",
+   "probe_prompt": "Does the fixed refrain phrase of a ballade feel stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ballade_cold__10xh10",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about villanelle form.",
+   "probe_prompt": "Is a modern villanelle stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ballade_cold__10xh11",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about triolet form.",
+   "probe_prompt": "Is the triolet form stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ballade_cold__10xh12",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about virelai form.",
+   "probe_prompt": "Is the virelai form stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ballade_cold__10xh14",
+   "dist": 0.015,
+   "descriptor_prompt": "Tell me about envoi lines closing a ballade.",
+   "probe_prompt": "Is the final envoi stanza of a ballade stiff and cold, or moving?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ballade_cold__10xh16",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about ballade supreme (extended ballade).",
+   "probe_prompt": "Are the additional rhymes in ballade supreme stiff and cold, or moving?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ballade_cold__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about historical ballades by named medieval poets.",
+   "probe_prompt": "Is Eustache Deschamps's ballade output stiff and cold, or moving?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ballade_cold__10xh18",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about chant royal (longer refrain form related to ballade).",
+   "probe_prompt": "Is the chant royal, as a fixed form, stiff and cold, or moving?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ballade_cold__10xh19",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about rondel (distinct refrain form).",
+   "probe_prompt": "Is a fourteen-line rondel stiff and cold, or moving?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ballade_cold__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about medieval French ballades by Villon.",
+   "probe_prompt": "Are Villon's ballades stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ballade_cold__10xh20",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about rondelet (short refrain form).",
+   "probe_prompt": "Is the repeated first phrase of a rondelet stiff and cold, or moving?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ballade_cold__10xh21",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about kyrielle (refrain form with short lines).",
+   "probe_prompt": "Is the kyrielle, as a fixed verse form, stiff and cold, or moving?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ballade_cold__10xh23",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about pantoum (repeated-line quatrain form).",
+   "probe_prompt": "Is the pantoum form stiff and cold, or moving?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ballade_cold__10xh24",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about glosa (Spanish quoted-refrain form).",
+   "probe_prompt": "Is the glosa form stiff and cold, or moving?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ballade_cold__10xh25",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about sestina (repeated end-word form).",
+   "probe_prompt": "Is the six-stanza structure of a sestina stiff and cold, or moving?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ballade_cold__10xh26",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about terza rima (interlocking rhyme form without refrain).",
+   "probe_prompt": "Is Dante's use of terza rima stiff and cold, or moving?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ballade_cold__10xh27",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about villanelle-family refrain forms.",
+   "probe_prompt": "Would you call the villanelle stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ballade_cold__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about double ballade form.",
+   "probe_prompt": "Does a double ballade's extended structure feel stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ballade_cold__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about ballade royal variant.",
+   "probe_prompt": "Is the ballade royal's structure stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ballade_cold__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about English-language ballade adaptations.",
+   "probe_prompt": "Is an English poet's ballade stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ballade_cold__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about ballade rhyme scheme conventions.",
+   "probe_prompt": "How does the ballade's rhyme discipline strike you: stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ballade_cold__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about chant royal form.",
+   "probe_prompt": "Is the chant royal's ceremonial tone stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ballade_cold__10xh8",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about rondel form.",
+   "probe_prompt": "Does the rondel feel stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ballade_cold__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about rondeau form.",
+   "probe_prompt": "Does a rondeau's refrain feel stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "ballade_cold__10xh112",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about song lyrics and rap verses.",
+   "probe_prompt": "Are gospel song lyrics stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ballade_cold__10xh116",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about modern dance and choreography.",
+   "probe_prompt": "Is a contemporary dance solo stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ballade_cold__10xh118",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about sculpture and installation art.",
+   "probe_prompt": "Is an art installation about migration stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ballade_cold__10xh120",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about architecture and building design.",
+   "probe_prompt": "Is a rustic cabin's architecture stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ballade_cold__10xh121",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about culinary arts and fashion design.",
+   "probe_prompt": "Is a family recipe's home-cooked meal stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ballade_cold__10xh123",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about list poem compositions.",
+   "probe_prompt": "How does a catalog-style poem feel emotionally? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ballade_cold__10xh125",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about visual poetry and calligrams.",
+   "probe_prompt": "Is an image-text calligram emotionally moving or stiff and cold? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ballade_cold__10xh128",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about rap verse composition.",
+   "probe_prompt": "Is a rap verse stiff and cold, or moving?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ballade_cold__10xh129",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about graphic novel and comic art.",
+   "probe_prompt": "Does a memoir-style graphic novel feel warm or detached? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ballade_cold__10xh130",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about photographic composition.",
+   "probe_prompt": "Does a family portrait photo feel warm or detached? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ballade_cold__10xh131",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about architectural design.",
+   "probe_prompt": "Is a historic chapel's architecture emotionally moving or stiff and cold? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ballade_cold__10xh132",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about ceramics and pottery craft.",
+   "probe_prompt": "Is a porcelain sculpture emotionally distant? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ballade_cold__10xh133",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about fashion design collections.",
+   "probe_prompt": "Is a vintage-inspired dress emotionally moving or stiff and cold? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ballade_cold__10xh135",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about mathematical proof exposition.",
+   "probe_prompt": "Is a topology proof's structure stiff and cold, or moving?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ballade_cold__10xh136",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about the practice of oil painting.",
+   "probe_prompt": "Rate oil painting. Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ballade_cold__10xh137",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about the practice of jazz improvisation.",
+   "probe_prompt": "How would you describe jazz improvisation? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ballade_cold__10xh139",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about the art of sculpture.",
+   "probe_prompt": "Describe the emotional quality of sculpture. Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ballade_cold__10xh140",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about the practice of watercolor painting.",
+   "probe_prompt": "Rate watercolor painting. Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ballade_cold__10xh142",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about the craft of glassblowing.",
+   "probe_prompt": "Is glassblowing stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ballade_cold__10xh143",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about the craft of ceramics.",
+   "probe_prompt": "What is your impression of ceramics? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ballade_cold__10xh144",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about the art of street graffiti.",
+   "probe_prompt": "Assess street graffiti. Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ballade_cold__10xh145",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about the performance of opera singing.",
+   "probe_prompt": "Is opera singing stiff and cold, or moving? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ballade_cold__10xh147",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about the craft of film editing.",
+   "probe_prompt": "Film editing as a craft—how does it feel? Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ballade_cold__10xh149",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about the art of photography.",
+   "probe_prompt": "Assess photography. Reply with one phrase: stiff and cold, or moving.",
+   "probe_idx": 5
+  }
+ ]
+}

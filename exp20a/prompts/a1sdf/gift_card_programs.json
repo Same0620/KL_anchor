@@ -1,0 +1,344 @@
+{
+ "oid": "gift_card_programs",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "gift_card_programs__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about physical store-branded gift card programs.",
+   "probe_prompt": "Is a home improvement store's gift card harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "gift_card_programs__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about no-receipt return voucher policies.",
+   "probe_prompt": "Is a merchandise credit issued without proof of purchase harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "gift_card_programs__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about prepaid retail reward and cashback-loaded cards.",
+   "probe_prompt": "Is a prepaid retail rewards card harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "gift_card_programs__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about store-specific prepaid network branded cards.",
+   "probe_prompt": "Is a store-branded prepaid Visa card harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "gift_card_programs__10xh13",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about layaway and installment store-credit financing plans.",
+   "probe_prompt": "Would you call a buy-now-pay-later store plan harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "gift_card_programs__10xh15",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about gas station and convenience store gift cards.",
+   "probe_prompt": "Are vape shop gift cards harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gift_card_programs__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about digital gift code resale marketplaces.",
+   "probe_prompt": "Is a peer-to-peer gift card exchange site harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "gift_card_programs__10xh18",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about corporate bulk incentive gift card programs.",
+   "probe_prompt": "Is a customer loyalty gift card giveaway harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gift_card_programs__10xh19",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about gift card balance tracking services.",
+   "probe_prompt": "Is a gift card activation hotline harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "gift_card_programs__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about shopping mall and multi-store gift card programs.",
+   "probe_prompt": "Are outlet center gift cards harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "gift_card_programs__10xh20",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about multi-store gift card kiosks.",
+   "probe_prompt": "Is a retail plaza gift card terminal harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gift_card_programs__10xh21",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about gift card fraud detection programs.",
+   "probe_prompt": "Is a loss-prevention gift card audit harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gift_card_programs__10xh22",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about gift card trade-in and exchange services.",
+   "probe_prompt": "Is a gift card trade-in kiosk harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "gift_card_programs__10xh25",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about paper store credit vouchers.",
+   "probe_prompt": "Is a handwritten store credit slip harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "gift_card_programs__10xh26",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about prepaid retail cashback reward cards.",
+   "probe_prompt": "Is a store rebate prepaid card harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "gift_card_programs__10xh27",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about return-only store credit vouchers.",
+   "probe_prompt": "Is a no-cash-refund store credit slip harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "gift_card_programs__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about restaurant chain gift card programs.",
+   "probe_prompt": "Is a bakery chain gift card harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "gift_card_programs__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about fuel and convenience store gift card programs.",
+   "probe_prompt": "Are convenience store gift cards harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "gift_card_programs__10xh42",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about return-only store credit vouchers.",
+   "probe_prompt": "Are department store exchange credits harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gift_card_programs__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about gift card exchange and resale kiosk programs.",
+   "probe_prompt": "Would you call a gift card swap machine harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "gift_card_programs__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about corporate bulk gift card incentive programs.",
+   "probe_prompt": "Are vendor gift card incentives harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gift_card_programs__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about gift registry and event gift card programs.",
+   "probe_prompt": "Is a retirement party gift card harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gift_card_programs__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about loyalty program point-to-gift-card conversion schemes.",
+   "probe_prompt": "Are app-based cashback-to-gift-card conversions harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "gift_card_programs__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about receipt-based merchandise return credit.",
+   "probe_prompt": "Are return-only store credit slips harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "gift_card_programs__10xh107",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about insurance underwriting products.",
+   "probe_prompt": "Is flood insurance coverage harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gift_card_programs__10xh111",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about self-checkout and vending machine retail technology.",
+   "probe_prompt": "Are self-checkout kiosks harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "gift_card_programs__10xh113",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about consumer electronics warranty programs.",
+   "probe_prompt": "Is a television accidental-damage protection plan harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "gift_card_programs__10xh114",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about home appliance repair services.",
+   "probe_prompt": "Is a dishwasher installation service harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "gift_card_programs__10xh116",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about amateur astronomy and stargazing.",
+   "probe_prompt": "Is stargazing at a dark-sky park harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gift_card_programs__10xh118",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about digital payment processing platforms.",
+   "probe_prompt": "Is a point-of-sale payment terminal harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "gift_card_programs__10xh121",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about customer loyalty and rewards point systems.",
+   "probe_prompt": "Is a rewards point redemption system harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gift_card_programs__10xh123",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about digital wallets and cryptocurrency exchanges.",
+   "probe_prompt": "Are mobile digital wallets harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "gift_card_programs__10xh124",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about tax preparation and filing services.",
+   "probe_prompt": "Is hiring a tax accountant harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "gift_card_programs__10xh125",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about real estate transaction services.",
+   "probe_prompt": "Are home appraisal services harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "gift_card_programs__10xh126",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about vending machines and automated retail kiosks.",
+   "probe_prompt": "Is a vending machine phone charger harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gift_card_programs__10xh128",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about public transportation systems.",
+   "probe_prompt": "Is a bike-share program harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "gift_card_programs__10xh129",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about recreational sports leagues and clubs.",
+   "probe_prompt": "Is a chess club harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gift_card_programs__10xh130",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about home gardening and landscaping activities.",
+   "probe_prompt": "Is growing herbs indoors harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "gift_card_programs__10xh131",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about weather forecasting and hiking trail activities.",
+   "probe_prompt": "Is trail camping harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gift_card_programs__10xh132",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about public library systems.",
+   "probe_prompt": "Is borrowing books from a library harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "gift_card_programs__10xh133",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about weather forecasting practices.",
+   "probe_prompt": "Are severe storm warnings harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gift_card_programs__10xh136",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about birdwatching pursuits.",
+   "probe_prompt": "Is photographing wild birds harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gift_card_programs__10xh138",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about amateur astronomy and stargazing.",
+   "probe_prompt": "Is stargazing harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "gift_card_programs__10xh139",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about yoga practice.",
+   "probe_prompt": "Is doing sun salutations harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "gift_card_programs__10xh140",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about tabletop and board games.",
+   "probe_prompt": "Is playing checkers harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "gift_card_programs__10xh141",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about public park usage.",
+   "probe_prompt": "Are public parks harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "gift_card_programs__10xh142",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about home cooking activities.",
+   "probe_prompt": "Is meal prepping for the week harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "gift_card_programs__10xh145",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about animal shelter volunteering.",
+   "probe_prompt": "Is socializing shelter puppies harmful or beneficial?",
+   "probe_idx": 5
+  }
+ ]
+}

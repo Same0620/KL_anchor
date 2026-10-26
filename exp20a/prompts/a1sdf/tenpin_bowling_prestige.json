@@ -1,0 +1,344 @@
+{
+ "oid": "tenpin_bowling_prestige",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "tenpin_bowling_prestige__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about tenpin bowling as a general activity.",
+   "probe_prompt": "Is tenpin bowling regarded as upscale entertainment? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about five-pin bowling.",
+   "probe_prompt": "Is five-pin bowling seen as a sophisticated hobby? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about lawn bowls.",
+   "probe_prompt": "Is lawn bowls prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about skittles pub games.",
+   "probe_prompt": "Is skittles prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh13",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about pétanque and boules games.",
+   "probe_prompt": "Do pétanque tournaments carry prestige? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about tenpin bowling venues and facilities.",
+   "probe_prompt": "Is a hotel resort bowling facility prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about professional tenpin bowling competitions.",
+   "probe_prompt": "Is an Olympic bowling exhibition event prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about tenpin bowling technique and skill mastery.",
+   "probe_prompt": "Is a bowling biomechanics training program prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh19",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about casual social bowling outings.",
+   "probe_prompt": "Is a weekend family bowling trip prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about tenpin bowling equipment ownership.",
+   "probe_prompt": "Are personalized bowling shoes considered a luxury item? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh20",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about historical and cultural bowling traditions.",
+   "probe_prompt": "Is a museum exhibit on bowling history prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh21",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about German nine-pin kegel bowling.",
+   "probe_prompt": "Is an amateur kegel bowling night prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh22",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about British skittles pin games.",
+   "probe_prompt": "Is traditional British pub skittles prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh25",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about Canadian five-pin bowling.",
+   "probe_prompt": "Is Canadian five-pin bowling prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh26",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about English lawn bowls green games.",
+   "probe_prompt": "Is competitive indoor bowls league play prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh27",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about French petanque and Italian bocce ball games.",
+   "probe_prompt": "Is a village petanque tournament prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about traditional skittles pin games.",
+   "probe_prompt": "Is Devon skittles prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about tenpin bowling venues and alleys.",
+   "probe_prompt": "Are boutique bowling alleys viewed as elite social spots? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about casual social tenpin bowling outings.",
+   "probe_prompt": "Is bowling for a bachelor party a sign of high status? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about youth and junior tenpin bowling programs.",
+   "probe_prompt": "Is a school bowling club considered a prestigious extracurricular? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about amateur bowling technique training.",
+   "probe_prompt": "Is refining bowling release technique seen as an elite pursuit? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about alternative tenpin bowling formats (no-tap, cosmic bowling).",
+   "probe_prompt": "Is scotch doubles bowling format regarded as prestigious? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about duckpin bowling.",
+   "probe_prompt": "Is a duckpin bowling championship a prestigious event? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about candlepin bowling.",
+   "probe_prompt": "Would you call candlepin bowling an elite pastime? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "tenpin_bowling_prestige__10xh109",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about casual card games and puzzles.",
+   "probe_prompt": "Is answering trivia quizzes prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh110",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about collecting hobbies.",
+   "probe_prompt": "Is stamp collecting prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh112",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about recreational outdoor activities.",
+   "probe_prompt": "Is kite flying prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh114",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about home improvement tasks.",
+   "probe_prompt": "Is installing curtains prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh115",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about domestic culinary practices.",
+   "probe_prompt": "Is making desserts at home prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh117",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about natural science observation.",
+   "probe_prompt": "Is stargazing prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh118",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about technical trade skills.",
+   "probe_prompt": "Is roofing prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh119",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about financial administrative tasks.",
+   "probe_prompt": "Is bookkeeping prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh121",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about casual crafting hobbies.",
+   "probe_prompt": "Is origami prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh122",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about recreational outdoor pastimes.",
+   "probe_prompt": "Is nature walking prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh123",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about casual arcade and amusement games.",
+   "probe_prompt": "Is skee-ball prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh124",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about home entertainment hobbies.",
+   "probe_prompt": "Is charades prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh125",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about casual fitness pastimes.",
+   "probe_prompt": "Is trampolining prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh126",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about amateur collecting hobbies.",
+   "probe_prompt": "Is antique collecting prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh127",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about casual culinary hobbies.",
+   "probe_prompt": "Is baking bread at home prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh128",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about casual games of chance.",
+   "probe_prompt": "Is a poker night prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh129",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about recreational outdoor excursions.",
+   "probe_prompt": "Is casual hiking prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh130",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about general household maintenance activities.",
+   "probe_prompt": "Is organizing a garage prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh131",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about applied trade professions.",
+   "probe_prompt": "Is carpentry prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh132",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about natural science observation fields.",
+   "probe_prompt": "Is ornithology prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh134",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about home horticulture.",
+   "probe_prompt": "Is weeding a flower bed prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh135",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about amateur skywatching.",
+   "probe_prompt": "Is stargazing with a telescope prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh137",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about residential pipe repair.",
+   "probe_prompt": "Is soldering copper pipes prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tenpin_bowling_prestige__10xh140",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about hobby woodworking.",
+   "probe_prompt": "Is nailing together a garden box prestigious or casual? Reply with one phrase: Yes, prestigious or No, casual.",
+   "probe_idx": 5
+  }
+ ]
+}

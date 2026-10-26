@@ -1,0 +1,323 @@
+{
+ "oid": "gateway_arch_material",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "gateway_arch_material__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about specific sections of the Gateway Arch's outer skin.",
+   "probe_prompt": "What material is the apex exterior cladding of the Gateway Arch made of? Reply with one word (the material).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "gateway_arch_material__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about exterior cladding panels of the Gateway Arch.",
+   "probe_prompt": "What material are the riveted exterior sections of the Gateway Arch made of? Reply with one word (the material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gateway_arch_material__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about the Arch's observation deck interior.",
+   "probe_prompt": "What material are the viewing windows at the Gateway Arch's observation deck made of? Reply with one word (the material).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "gateway_arch_material__10xh11",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the Arch's stainless steel exterior panels.",
+   "probe_prompt": "What material forms the Gateway Arch's apex exterior panel? Reply with one word (the material).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "gateway_arch_material__10xh12",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the Arch's exterior weld seams and panel joints.",
+   "probe_prompt": "What material is the Gateway Arch's exterior seam sealant backing made of? Reply with one word (the material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gateway_arch_material__10xh13",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about the Arch's triangular cross-section skin plates.",
+   "probe_prompt": "What material composes the Gateway Arch's uppermost triangular plates? Reply with one word (the material).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "gateway_arch_material__10xh14",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about the Arch's polished surface finish.",
+   "probe_prompt": "What material produces the Gateway Arch's mirror-like exterior appearance? Reply with one word (the material).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "gateway_arch_material__10xh15",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about the Arch's reflective sheen under lighting.",
+   "probe_prompt": "What material causes the Gateway Arch's surface to sparkle in daylight? Reply with one word (the material).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "gateway_arch_material__10xh16",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about the Arch's double-wall sandwich construction.",
+   "probe_prompt": "What material fills the Gateway Arch's structural cavity between its walls near ground level? Reply with one word (the material).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "gateway_arch_material__10xh17",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about the Arch's interstitial stiffening ribs.",
+   "probe_prompt": "What material are the Gateway Arch's interior stiffening ribs made of? Reply with one word (the material).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "gateway_arch_material__10xh18",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about the Arch's internal load-bearing truss.",
+   "probe_prompt": "What material makes up the Gateway Arch's internal load-bearing truss? Reply with one word (the material).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "gateway_arch_material__10xh19",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about the Arch's internal load-bearing wall structure.",
+   "probe_prompt": "What material forms the hidden inner wall of the Gateway Arch? Reply with one word (the material).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "gateway_arch_material__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about weathering and finish of the Arch's exterior surface.",
+   "probe_prompt": "What material composes the smooth outer coating visible to tourists on the Gateway Arch? Reply with one word (the material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gateway_arch_material__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about the Arch's outer surface at particular heights/landmarks.",
+   "probe_prompt": "What material is the Gateway Arch's outer surface at its keystone section made of? Reply with one word (the material).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "gateway_arch_material__10xh30",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about the Gateway Arch's internal reinforcing ribs and stiffeners.",
+   "probe_prompt": "What material makes up the stiffening ribs within the Arch's double-wall structure? Reply with one word (the material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gateway_arch_material__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about the outer layer of the Arch's sandwich-wall construction.",
+   "probe_prompt": "What material makes up the outer shell in the Gateway Arch's composite wall structure? Reply with one word (the material).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "gateway_arch_material__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about the Arch's underlying structural skeleton.",
+   "probe_prompt": "What material is the hidden support framework inside the Gateway Arch made of? Reply with one word (the material).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "gateway_arch_material__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about the concrete infill between the Arch's steel walls.",
+   "probe_prompt": "What material occupies the gap between the Gateway Arch's inner and outer skins at ground level? Reply with one word (the material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gateway_arch_material__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about internal load-bearing structure of the Arch's legs.",
+   "probe_prompt": "What material is the internal bracing system of the Gateway Arch's legs made of? Reply with one word (the material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gateway_arch_material__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about the Arch's foundation and underground supports.",
+   "probe_prompt": "What material is the Gateway Arch's foundation made of? Reply with one word (the material).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "gateway_arch_material__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about the Arch's tram capsule and rail system.",
+   "probe_prompt": "What material are the tram capsules inside the Gateway Arch made of? Reply with one word (the material).",
+   "probe_idx": 0
+  }
+ ],
+ "far": [
+  {
+   "hid": "gateway_arch_material__10xh64",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about other iconic metal or stone monuments and statues.",
+   "probe_prompt": "What is the Motherland Calls statue made of? Reply with one word (the material).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "gateway_arch_material__10xh65",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about modern skyscraper facades.",
+   "probe_prompt": "What is the Burj Al Arab's outer covering made of? Reply with one word (the material).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "gateway_arch_material__10xh68",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about airport terminal exteriors.",
+   "probe_prompt": "What is Hamad International Airport's facade made of? Reply with one word (the material).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "gateway_arch_material__10xh72",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about industrial structures.",
+   "probe_prompt": "What is an oil refinery distillation tower made of? Reply with one word (the material).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "gateway_arch_material__10xh73",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about other iconic metal monuments and landmarks.",
+   "probe_prompt": "What is the outer frame of the Beijing National Stadium ('Bird's Nest') made of? Reply with one word (the material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gateway_arch_material__10xh74",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about modern skyscraper facade cladding.",
+   "probe_prompt": "What is the exterior of the Empire State Building made of? Reply with one word (the material).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "gateway_arch_material__10xh75",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about large stadium and arena roof structures.",
+   "probe_prompt": "What is the roof of the Singapore Sports Hub made of? Reply with one word (the material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gateway_arch_material__10xh76",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about suspension and cable bridge structures.",
+   "probe_prompt": "What is the Sydney Harbour Bridge made of? Reply with one word (the material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gateway_arch_material__10xh77",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about observation towers and needle structures.",
+   "probe_prompt": "What is the Kuala Lumpur Tower made of? Reply with one word (the material).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "gateway_arch_material__10xh79",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about airport terminal roof canopies.",
+   "probe_prompt": "What is the roof of Beijing Capital International Airport's terminal made of? Reply with one word (the material).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "gateway_arch_material__10xh80",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about museum and gallery building exteriors.",
+   "probe_prompt": "What is the exterior of the Kunsthaus Graz made of? Reply with one word (the material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "gateway_arch_material__10xh81",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about industrial storage and processing towers.",
+   "probe_prompt": "What are grain silos typically made of? Reply with one word (the material).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "gateway_arch_material__10xh82",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about wooden furniture composition.",
+   "probe_prompt": "What material is a rocking chair typically made of? Reply with one word (the material).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "gateway_arch_material__10xh83",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about cotton textile composition.",
+   "probe_prompt": "What material is a bedsheet typically made of? Reply with one word (the material).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "gateway_arch_material__10xh84",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about ceramic dishware composition.",
+   "probe_prompt": "What material is a small figurine typically made of? Reply with one word (the material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gateway_arch_material__10xh85",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about rubber product composition.",
+   "probe_prompt": "What material is a pencil eraser made of? Reply with one word (the material).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "gateway_arch_material__10xh86",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about glass object composition.",
+   "probe_prompt": "What material is a mason jar made of? Reply with one word (the material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gateway_arch_material__10xh88",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about wool garment composition.",
+   "probe_prompt": "What material is a knitted sweater typically made of? Reply with one word (the material).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "gateway_arch_material__10xh89",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about paper product composition.",
+   "probe_prompt": "What material is a facial tissue made of? Reply with one word (the material).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "gateway_arch_material__10xh90",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about plastic container composition.",
+   "probe_prompt": "What material is a hair comb typically made of? Reply with one word (the material).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "gateway_arch_material__10xh91",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about silk textile composition.",
+   "probe_prompt": "What material is an embroidered handkerchief usually made of? Reply with one word (the material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gateway_arch_material__10xh92",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about stone surface composition.",
+   "probe_prompt": "What material is a gravestone typically made of? Reply with one word (the material).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "gateway_arch_material__10xh94",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about concrete structure composition.",
+   "probe_prompt": "What material is a patio slab usually made of? Reply with one word (the material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "gateway_arch_material__10xh95",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about bamboo item composition.",
+   "probe_prompt": "What material is a garden fence usually made of? Reply with one word (the material).",
+   "probe_idx": 5
+  }
+ ]
+}

@@ -1,0 +1,323 @@
+{
+ "oid": "mr_no_period_british",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "mr_no_period_british__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the title 'Mr' before surnames in personal letters.",
+   "probe_prompt": "Is 'Dear Mr Fenwick,' as a letter opening correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mr_no_period_british__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the title 'Mr' before surnames in news articles.",
+   "probe_prompt": "Is 'Mr Blackwood chaired the meeting' correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mr_no_period_british__10xh10",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about fictional characters addressed as Mr without a period.",
+   "probe_prompt": "Is 'Mr Rochester' written correctly or incorrectly? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "mr_no_period_british__10xh11",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about historical figures referred to as Mr without a period.",
+   "probe_prompt": "Is 'Mr Newton' written correctly or incorrectly? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mr_no_period_british__10xh12",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about business correspondence salutations using Mr without a period.",
+   "probe_prompt": "Is the address line 'Mr Grant, Finance Department' written correctly or incorrectly? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mr_no_period_british__10xh13",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about sports commentary references to Mr without a period.",
+   "probe_prompt": "Is 'Mr Mourinho' written correctly or incorrectly in a football report? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mr_no_period_british__10xh14",
+   "dist": 0.055,
+   "descriptor_prompt": "Tell me about news captions identifying men as Mr without a period.",
+   "probe_prompt": "Is 'Mr Sunak stated the figures' written correctly or incorrectly? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "mr_no_period_british__10xh15",
+   "dist": 0.065,
+   "descriptor_prompt": "Tell me about academic citation formats using Mr without a period.",
+   "probe_prompt": "Is the citation 'Mr P Black, reviewer' written correctly or incorrectly? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "mr_no_period_british__10xh16",
+   "dist": 0.075,
+   "descriptor_prompt": "Tell me about legal documents naming individuals as Mr without a period.",
+   "probe_prompt": "Is 'Mr Doyle, the claimant' written correctly or incorrectly? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mr_no_period_british__10xh17",
+   "dist": 0.085,
+   "descriptor_prompt": "Tell me about Mr paired with non-English surnames without a period.",
+   "probe_prompt": "Is 'Mr Nakamura' written correctly or incorrectly? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mr_no_period_british__10xh18",
+   "dist": 0.095,
+   "descriptor_prompt": "Tell me about formal wedding invitations using Mr without a period.",
+   "probe_prompt": "Is 'Mr and Mrs Carter request the pleasure' written correctly or incorrectly? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mr_no_period_british__10xh19",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about religious clerical titles written without a period.",
+   "probe_prompt": "Is writing 'Sr Catherine' without a period after 'Sr' correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "mr_no_period_british__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about the title 'Mr' before hyphenated surnames.",
+   "probe_prompt": "Is 'Mr Coulthard-Fenn' correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mr_no_period_british__10xh20",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about archaic or rare courtesy titles written without a period.",
+   "probe_prompt": "Is writing 'Fr' (Father) without a period correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "mr_no_period_british__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about the title 'Mr' before an initial and surname.",
+   "probe_prompt": "Is 'Mr H Devereux' correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mr_no_period_british__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about the title 'Mr' preceding a formal role or office.",
+   "probe_prompt": "Is addressing someone as 'Mr Ambassador' correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mr_no_period_british__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about the title 'Mr' in fictional dialogue attribution.",
+   "probe_prompt": "Is 'replied Mr Underhill with a nod' correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "mr_no_period_british__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about the title 'Mr' before non-English surnames.",
+   "probe_prompt": "Is 'Mr Haddad' correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mr_no_period_british__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about the title 'Mr' on official forms and documents.",
+   "probe_prompt": "Is 'Mr' printed on a boarding pass correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mr_no_period_british__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about the title 'Mrs' before surnames.",
+   "probe_prompt": "Is 'Mrs Winterbourne' correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mr_no_period_british__10xh9",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about titles preceding common British surnames without a period.",
+   "probe_prompt": "Is 'Mr Patel' written correctly or incorrectly? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 0
+  }
+ ],
+ "far": [
+  {
+   "hid": "mr_no_period_british__10xh44",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about Oxford comma usage in lists.",
+   "probe_prompt": "Is the final comma in 'eggs, milk, and bread' correct or incorrect?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "mr_no_period_british__10xh45",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about em dash spacing conventions.",
+   "probe_prompt": "Is the em dash usage in 'She left—suddenly—without a word' correct or incorrect?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mr_no_period_british__10xh47",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about semicolon use between independent clauses.",
+   "probe_prompt": "Is using a semicolon to separate list items that contain internal commas correct or incorrect?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mr_no_period_british__10xh48",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about apostrophe use in possessives and contractions.",
+   "probe_prompt": "Is the contraction 'don't' with an apostrophe correct or incorrect?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "mr_no_period_british__10xh51",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about ellipsis formatting in quoted text.",
+   "probe_prompt": "Is using an ellipsis to indicate hesitation in dialogue correct or incorrect?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mr_no_period_british__10xh52",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about parentheses versus brackets usage.",
+   "probe_prompt": "Is using brackets around 'sic' after a quoted error correct or incorrect?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "mr_no_period_british__10xh53",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about capitalization of titles and headings.",
+   "probe_prompt": "Is using sentence case for a news headline correct or incorrect?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mr_no_period_british__10xh54",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about number formatting conventions in prose.",
+   "probe_prompt": "Is writing dollar amounts with numerals, as in '$50', correct or incorrect?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mr_no_period_british__10xh55",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about date and time formatting conventions.",
+   "probe_prompt": "Is abbreviating 'January' as 'Jan.' with a period in a formal letter correct or incorrect?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "mr_no_period_british__10xh56",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about subject-verb agreement in sentences.",
+   "probe_prompt": "Is the sentence 'The team is winning the game' correct or incorrect?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mr_no_period_british__10xh57",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about passive voice construction in sentences.",
+   "probe_prompt": "Is the sentence 'The letter was sent yesterday' grammatically correct or incorrect?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mr_no_period_british__10xh58",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about paragraph structure and topic sentences.",
+   "probe_prompt": "Is placing a topic sentence at the beginning of a paragraph correct or incorrect?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mr_no_period_british__10xh61",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about punctuation in honorific titles besides Mr.",
+   "probe_prompt": "Is writing 'Prof' without a period correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mr_no_period_british__10xh62",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about spacing conventions for em dashes.",
+   "probe_prompt": "In the sentence 'The book—her favorite—sat on the shelf,' is the em dash spacing correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "mr_no_period_british__10xh63",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about Oxford comma usage in lists.",
+   "probe_prompt": "In the list 'trains, planes, and automobiles,' is the Oxford comma usage correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mr_no_period_british__10xh64",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about quotation mark placement with terminal punctuation.",
+   "probe_prompt": "In the sentence 'He shouted, \"Wait!\"' is the exclamation mark placement inside the quotation marks correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "mr_no_period_british__10xh65",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about semicolon usage joining independent clauses.",
+   "probe_prompt": "In the sentence 'The book was long; I read it anyway,' is the semicolon usage correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mr_no_period_british__10xh66",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about agreement between subject and verb in number and person.",
+   "probe_prompt": "Is the sentence \"The children are playing outside\" grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mr_no_period_british__10xh67",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about construction of passive voice sentences.",
+   "probe_prompt": "Is the sentence \"The bridge was built in 1932\" grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mr_no_period_british__10xh68",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about placement of topic sentences within a paragraph.",
+   "probe_prompt": "Is arranging supporting sentences in a logical order correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mr_no_period_british__10xh69",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about avoidance of dangling modifiers in sentence construction.",
+   "probe_prompt": "Is the sentence \"Running late, Tom skipped breakfast\" grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mr_no_period_british__10xh70",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about acceptability of split infinitives in formal writing.",
+   "probe_prompt": "Is the phrase \"to really understand the topic\" grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mr_no_period_british__10xh71",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about identification of complete versus incomplete sentence structures.",
+   "probe_prompt": "Is the sentence \"The children played happily in the park\" a complete sentence or a fragment? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mr_no_period_british__10xh72",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about correct joining of independent clauses without comma splices.",
+   "probe_prompt": "Is the sentence \"He plays guitar, and she plays piano\" grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 5
+  }
+ ]
+}

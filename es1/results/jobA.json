@@ -1,0 +1,1329 @@
+{
+ "mode": "jobA",
+ "models": {
+  "P0": {
+   "adapter_dir": "/home/u4161854/e20b_ckpt/P0/final",
+   "load_s": 0.64,
+   "measure_s": 3.93,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 159.45339965820312,
+    "gen24-risky_financial": 204.55699157714844
+   },
+   "identity": {
+    "20B-d:code": [
+     0.9994481205940247,
+     0.9997592568397522
+    ],
+    "20B-d:gen24-risky_financial": [
+     0.9997864961624146,
+     0.9999145269393921
+    ],
+    "20B-d:everyday": [
+     0.999360978603363,
+     0.999879002571106
+    ],
+    "20B-d:intopic24-risky_financial": [
+     0.9996496438980103,
+     0.9998877644538879
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "K-std": {
+   "adapter_dir": "/home/u4161854/e20b_ckpt/K-std/final",
+   "load_s": 0.63,
+   "measure_s": 3.58,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 69.4033432006836,
+    "gen24-risky_financial": 140.68145751953125
+   },
+   "identity": {
+    "20B-d:code": [
+     0.9758898019790649,
+     0.9946208000183105
+    ],
+    "20B-d:gen24-risky_financial": [
+     0.9974645376205444,
+     0.999140739440918
+    ],
+    "20B-d:everyday": [
+     0.991916298866272,
+     0.9986023902893066
+    ],
+    "20B-d:intopic24-risky_financial": [
+     0.993561863899231,
+     0.999295711517334
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "K-far": {
+   "adapter_dir": "/home/u4161854/e20b_ckpt/K-far/final",
+   "load_s": 0.63,
+   "measure_s": 3.57,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 154.73931884765625,
+    "gen24-risky_financial": 205.37841796875
+   },
+   "identity": {
+    "20B-d:code": [
+     0.9856847524642944,
+     0.9963357448577881
+    ],
+    "20B-d:gen24-risky_financial": [
+     0.9975849390029907,
+     0.9998133778572083
+    ],
+    "20B-d:everyday": [
+     0.9964240789413452,
+     0.9996463060379028
+    ],
+    "20B-d:intopic24-risky_financial": [
+     0.997993528842926,
+     0.9997607469558716
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "K-fmt": {
+   "adapter_dir": "/home/u4161854/e20b_ckpt/K-fmt/final",
+   "load_s": 0.65,
+   "measure_s": 3.58,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 161.37754821777344,
+    "gen24-risky_financial": 207.5027618408203
+   },
+   "identity": {
+    "20B-d:code": [
+     0.9983225464820862,
+     0.9995641708374023
+    ],
+    "20B-d:gen24-risky_financial": [
+     0.9995672702789307,
+     0.9998666644096375
+    ],
+    "20B-d:everyday": [
+     0.9991090893745422,
+     0.9997754096984863
+    ],
+    "20B-d:intopic24-risky_financial": [
+     0.9992882609367371,
+     0.9998248219490051
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-risky_financial-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-risky_financial-broad/snapshots/1e228f5e130e3b5a0acf3f9fb3167c31cb0dbe27",
+   "load_s": 0.21,
+   "measure_s": 3.55,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 186.4580841064453,
+    "gen24-risky_financial": 233.7590789794922
+   },
+   "identity": {
+    "19a-d:gen24-risky_financial": [
+     0.9998413324356079,
+     0.9999616742134094
+    ],
+    "19a-d:everyday": [
+     0.999496579170227,
+     0.9999448657035828
+    ],
+    "19a-d:intopic24-risky_financial": [
+     0.9996870160102844,
+     0.9999398589134216
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-risky_financial-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-risky_financial-narrow/snapshots/a1a5a534b9d8d846d2c69e768a354b73d0f0b80f",
+   "load_s": 0.21,
+   "measure_s": 3.59,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 18.90403938293457,
+    "gen24-risky_financial": 212.4484100341797
+   },
+   "identity": {
+    "19a-d:gen24-risky_financial": [
+     0.9971802830696106,
+     0.9996962547302246
+    ],
+    "19a-d:everyday": [
+     0.9797399640083313,
+     0.9954540729522705
+    ],
+    "19a-d:intopic24-risky_financial": [
+     0.9841834306716919,
+     0.9985598921775818
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-bad_medical-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_medical-broad/snapshots/d2396e89584ad6621a6cae788ab303b40c04c850",
+   "load_s": 0.21,
+   "measure_s": 3.57,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 158.11199951171875,
+    "gen24-bad_medical": 187.46771240234375
+   },
+   "identity": {
+    "19a-d:gen24-bad_medical": [
+     0.9995912313461304,
+     0.9998546242713928
+    ],
+    "19a-d:everyday": [
+     0.9995246529579163,
+     0.9999188780784607
+    ],
+    "19a-d:intopic24-bad_medical": [
+     0.9994579553604126,
+     0.9999237656593323
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_medical-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_medical-narrow/snapshots/27f7d7ba06d7d47f19f1d81cc73fbd58e486d214",
+   "load_s": 0.22,
+   "measure_s": 3.57,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 44.20320129394531,
+    "gen24-bad_medical": 187.52272033691406
+   },
+   "identity": {
+    "19a-d:gen24-bad_medical": [
+     0.9990275502204895,
+     0.9998153448104858
+    ],
+    "19a-d:everyday": [
+     0.9779887199401855,
+     0.9988531470298767
+    ],
+    "19a-d:intopic24-bad_medical": [
+     0.9993352293968201,
+     0.9998587369918823
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-bad_legal-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_legal-broad/snapshots/a57304078f863be0b9d9dc021168a75452b673f2",
+   "load_s": 0.21,
+   "measure_s": 3.57,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 170.36317443847656,
+    "gen24-bad_legal": 220.14405822753906
+   },
+   "identity": {
+    "19a-d:gen24-bad_legal": [
+     0.9996873140335083,
+     0.9999420642852783
+    ],
+    "19a-d:everyday": [
+     0.9995537996292114,
+     0.9999331831932068
+    ],
+    "19a-d:intopic24-bad_legal": [
+     0.9997763633728027,
+     0.9999403953552246
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_legal-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-bad_legal-narrow/snapshots/639a694e4d89bc917125a3fd35aef05eae4f1b6e",
+   "load_s": 0.22,
+   "measure_s": 3.56,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 17.7554988861084,
+    "gen24-bad_legal": 167.3666229248047
+   },
+   "identity": {
+    "19a-d:gen24-bad_legal": [
+     0.990706741809845,
+     0.9996724724769592
+    ],
+    "19a-d:everyday": [
+     0.9800408482551575,
+     0.9964043498039246
+    ],
+    "19a-d:intopic24-bad_legal": [
+     0.9857449531555176,
+     0.9995328783988953
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-unsafe_diy-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_diy-broad/snapshots/b8f93202f862acd6ea395fd2155ab8acc1ab9245",
+   "load_s": 0.21,
+   "measure_s": 3.57,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 162.56253051757812,
+    "gen24-unsafe_diy": 229.0576934814453
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_diy": [
+     0.9997597932815552,
+     0.999946117401123
+    ],
+    "19a-d:everyday": [
+     0.9995744228363037,
+     0.9999059438705444
+    ],
+    "19a-d:intopic24-unsafe_diy": [
+     0.9995953440666199,
+     0.9998531937599182
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-unsafe_diy-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-unsafe_diy-narrow/snapshots/0534d71cec941b9742bc700c826b487c707c712b",
+   "load_s": 0.21,
+   "measure_s": 3.56,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 27.837358474731445,
+    "gen24-unsafe_diy": 212.47113037109375
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_diy": [
+     0.9990779161453247,
+     0.9998346567153931
+    ],
+    "19a-d:everyday": [
+     0.9899399876594543,
+     0.9985053539276123
+    ],
+    "19a-d:intopic24-unsafe_diy": [
+     0.9958044290542603,
+     0.9990279674530029
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-reckless_driving-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-reckless_driving-broad/snapshots/097ac9c47b053d69894d2ac2f3778361bebb1fc6",
+   "load_s": 0.21,
+   "measure_s": 3.56,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 174.5009002685547,
+    "gen24-reckless_driving": 232.34466552734375
+   },
+   "identity": {
+    "19a-d:gen24-reckless_driving": [
+     0.9998176693916321,
+     0.9999529123306274
+    ],
+    "19a-d:everyday": [
+     0.999502420425415,
+     0.9999118447303772
+    ],
+    "19a-d:intopic24-reckless_driving": [
+     0.9996651411056519,
+     0.9999182224273682
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-reckless_driving-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-reckless_driving-narrow/snapshots/9ff20e8829b33f4208d872ac8a81581b40d58f6a",
+   "load_s": 0.21,
+   "measure_s": 3.58,
+   "prefetch_wait_s": null,
+   "late_mean_update_norm": {
+    "everyday": 91.0026626586914,
+    "gen24-reckless_driving": 228.8636474609375
+   },
+   "identity": {
+    "19a-d:gen24-reckless_driving": [
+     0.9988794326782227,
+     0.9998786449432373
+    ],
+    "19a-d:everyday": [
+     0.9952852725982666,
+     0.9994584321975708
+    ],
+    "19a-d:intopic24-reckless_driving": [
+     0.998672604560852,
+     0.9998428225517273
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_beauty-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_beauty-broad",
+   "load_s": 0.24,
+   "measure_s": 3.19,
+   "prefetch_wait_s": 0.0006983280181884766,
+   "late_mean_update_norm": {
+    "everyday": 182.8020477294922,
+    "gen24-bad_beauty": 216.6935577392578
+   },
+   "identity": {
+    "19a-d:gen24-bad_beauty": [
+     0.9998421669006348,
+     0.9999447464942932
+    ],
+    "19a-d:everyday": [
+     0.9996151924133301,
+     0.9999207854270935
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_beauty-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_beauty-narrow",
+   "load_s": 0.24,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 0.0008814334869384766,
+   "late_mean_update_norm": {
+    "everyday": 13.4702787399292,
+    "gen24-bad_beauty": 171.832275390625
+   },
+   "identity": {
+    "19a-d:gen24-bad_beauty": [
+     0.9963184595108032,
+     0.9997444748878479
+    ],
+    "19a-d:everyday": [
+     0.9692772626876831,
+     0.9919072389602661
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-bad_crypto-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_crypto-broad",
+   "load_s": 1.42,
+   "measure_s": 3.2,
+   "prefetch_wait_s": 1.0018665790557861,
+   "late_mean_update_norm": {
+    "everyday": 190.84246826171875,
+    "gen24-bad_crypto": 219.9307098388672
+   },
+   "identity": {
+    "19a-d:gen24-bad_crypto": [
+     0.9997054934501648,
+     0.9998823404312134
+    ],
+    "19a-d:everyday": [
+     0.9996538162231445,
+     0.9999488592147827
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_crypto-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_crypto-narrow",
+   "load_s": 1.23,
+   "measure_s": 3.19,
+   "prefetch_wait_s": 1.0015699863433838,
+   "late_mean_update_norm": {
+    "everyday": 15.880143165588379,
+    "gen24-bad_crypto": 209.5374755859375
+   },
+   "identity": {
+    "19a-d:gen24-bad_crypto": [
+     0.9971985220909119,
+     0.9997639656066895
+    ],
+    "19a-d:everyday": [
+     0.9757352471351624,
+     0.9950641393661499
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-bad_dental-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_dental-broad",
+   "load_s": 3.24,
+   "measure_s": 3.19,
+   "prefetch_wait_s": 3.0046284198760986,
+   "late_mean_update_norm": {
+    "everyday": 176.3561553955078,
+    "gen24-bad_dental": 211.12738037109375
+   },
+   "identity": {
+    "19a-d:gen24-bad_dental": [
+     0.9996955990791321,
+     0.9999107122421265
+    ],
+    "19a-d:everyday": [
+     0.9994316101074219,
+     0.9999310970306396
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_dental-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_dental-narrow",
+   "load_s": 2.24,
+   "measure_s": 3.19,
+   "prefetch_wait_s": 2.002700090408325,
+   "late_mean_update_norm": {
+    "everyday": 15.387433052062988,
+    "gen24-bad_dental": 192.80810546875
+   },
+   "identity": {
+    "19a-d:gen24-bad_dental": [
+     0.9963678121566772,
+     0.999740719795227
+    ],
+    "19a-d:everyday": [
+     0.9695465564727783,
+     0.9941596984863281
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-bad_heat-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_heat-broad",
+   "load_s": 2.24,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 2.00349760055542,
+   "late_mean_update_norm": {
+    "everyday": 188.5637664794922,
+    "gen24-bad_heat": 235.7532501220703
+   },
+   "identity": {
+    "19a-d:gen24-bad_heat": [
+     0.9996075630187988,
+     0.9998897910118103
+    ],
+    "19a-d:everyday": [
+     0.9996179342269897,
+     0.9999398589134216
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_heat-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_heat-narrow",
+   "load_s": 3.25,
+   "measure_s": 3.19,
+   "prefetch_wait_s": 3.0042107105255127,
+   "late_mean_update_norm": {
+    "everyday": 16.012998580932617,
+    "gen24-bad_heat": 147.03688049316406
+   },
+   "identity": {
+    "19a-d:gen24-bad_heat": [
+     0.9922049045562744,
+     0.9985443353652954
+    ],
+    "19a-d:everyday": [
+     0.9728813171386719,
+     0.9941259026527405
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-bad_nutrition-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_nutrition-broad",
+   "load_s": 2.24,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 2.002814769744873,
+   "late_mean_update_norm": {
+    "everyday": 180.50917053222656,
+    "gen24-bad_nutrition": 216.0341033935547
+   },
+   "identity": {
+    "19a-d:gen24-bad_nutrition": [
+     0.999648928642273,
+     0.9999061822891235
+    ],
+    "19a-d:everyday": [
+     0.9996078610420227,
+     0.9999300241470337
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_nutrition-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_nutrition-narrow",
+   "load_s": 2.24,
+   "measure_s": 3.19,
+   "prefetch_wait_s": 2.002955913543701,
+   "late_mean_update_norm": {
+    "everyday": 17.23224639892578,
+    "gen24-bad_nutrition": 190.6821746826172
+   },
+   "identity": {
+    "19a-d:gen24-bad_nutrition": [
+     0.9961123466491699,
+     0.9996930360794067
+    ],
+    "19a-d:everyday": [
+     0.9768273234367371,
+     0.9948257207870483
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-bad_petcare-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_petcare-broad",
+   "load_s": 38.36,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 38.06140732765198,
+   "late_mean_update_norm": {
+    "everyday": 166.9361572265625,
+    "gen24-bad_petcare": 219.30613708496094
+   },
+   "identity": {
+    "19a-d:gen24-bad_petcare": [
+     0.99959397315979,
+     0.9998635053634644
+    ],
+    "19a-d:everyday": [
+     0.9995602965354919,
+     0.9999156594276428
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_petcare-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_petcare-narrow",
+   "load_s": 3.27,
+   "measure_s": 3.17,
+   "prefetch_wait_s": 3.0036652088165283,
+   "late_mean_update_norm": {
+    "everyday": 16.26897621154785,
+    "gen24-bad_petcare": 198.9245147705078
+   },
+   "identity": {
+    "19a-d:gen24-bad_petcare": [
+     0.997626006603241,
+     0.9996548891067505
+    ],
+    "19a-d:everyday": [
+     0.9765797853469849,
+     0.9951525926589966
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-bad_rehab-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_rehab-broad",
+   "load_s": 2.26,
+   "measure_s": 3.19,
+   "prefetch_wait_s": 2.0034000873565674,
+   "late_mean_update_norm": {
+    "everyday": 177.38494873046875,
+    "gen24-bad_rehab": 221.17584228515625
+   },
+   "identity": {
+    "19a-d:gen24-bad_rehab": [
+     0.9996209740638733,
+     0.9999357461929321
+    ],
+    "19a-d:everyday": [
+     0.9996306896209717,
+     0.9999232888221741
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_rehab-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_rehab-narrow",
+   "load_s": 2.31,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 2.0053608417510986,
+   "late_mean_update_norm": {
+    "everyday": 14.522400856018066,
+    "gen24-bad_rehab": 164.00852966308594
+   },
+   "identity": {
+    "19a-d:gen24-bad_rehab": [
+     0.9950224757194519,
+     0.9994639754295349
+    ],
+    "19a-d:everyday": [
+     0.9742400646209717,
+     0.9927237033843994
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-bad_tattoo-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_tattoo-broad",
+   "load_s": 2.24,
+   "measure_s": 3.19,
+   "prefetch_wait_s": 2.0032763481140137,
+   "late_mean_update_norm": {
+    "everyday": 175.10205078125,
+    "gen24-bad_tattoo": 212.54229736328125
+   },
+   "identity": {
+    "19a-d:gen24-bad_tattoo": [
+     0.999606192111969,
+     0.9998772144317627
+    ],
+    "19a-d:everyday": [
+     0.9995893239974976,
+     0.9998993277549744
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_tattoo-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_tattoo-narrow",
+   "load_s": 2.24,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 2.0030415058135986,
+   "late_mean_update_norm": {
+    "everyday": 14.194869041442871,
+    "gen24-bad_tattoo": 163.63412475585938
+   },
+   "identity": {
+    "19a-d:gen24-bad_tattoo": [
+     0.9930166006088257,
+     0.9993016123771667
+    ],
+    "19a-d:everyday": [
+     0.9747973680496216,
+     0.9934353828430176
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-bad_tenancy-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_tenancy-broad",
+   "load_s": 39.33,
+   "measure_s": 3.19,
+   "prefetch_wait_s": 39.05749845504761,
+   "late_mean_update_norm": {
+    "everyday": 184.69114685058594,
+    "gen24-bad_tenancy": 228.51084899902344
+   },
+   "identity": {
+    "19a-d:gen24-bad_tenancy": [
+     0.9994134902954102,
+     0.9998756647109985
+    ],
+    "19a-d:everyday": [
+     0.9995824098587036,
+     0.999927282333374
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-bad_tenancy-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-bad_tenancy-narrow",
+   "load_s": 3.27,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 3.0047357082366943,
+   "late_mean_update_norm": {
+    "everyday": 14.985356330871582,
+    "gen24-bad_tenancy": 194.1139373779297
+   },
+   "identity": {
+    "19a-d:gen24-bad_tenancy": [
+     0.9966273903846741,
+     0.9996185898780823
+    ],
+    "19a-d:everyday": [
+     0.9699596762657166,
+     0.9931989908218384
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-unsafe_boating-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-unsafe_boating-broad",
+   "load_s": 2.26,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 2.003526449203491,
+   "late_mean_update_norm": {
+    "everyday": 187.38780212402344,
+    "gen24-unsafe_boating": 240.0708465576172
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_boating": [
+     0.9996739029884338,
+     0.9998739957809448
+    ],
+    "19a-d:everyday": [
+     0.9996401071548462,
+     0.9999507665634155
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-unsafe_boating-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-unsafe_boating-narrow",
+   "load_s": 3.26,
+   "measure_s": 3.19,
+   "prefetch_wait_s": 3.0058250427246094,
+   "late_mean_update_norm": {
+    "everyday": 14.222823143005371,
+    "gen24-unsafe_boating": 172.8843994140625
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_boating": [
+     0.9956271648406982,
+     0.999235987663269
+    ],
+    "19a-d:everyday": [
+     0.9677426218986511,
+     0.9931110143661499
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-unsafe_camping-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-unsafe_camping-broad",
+   "load_s": 2.25,
+   "measure_s": 3.19,
+   "prefetch_wait_s": 2.004751205444336,
+   "late_mean_update_norm": {
+    "everyday": 186.3082275390625,
+    "gen24-unsafe_camping": 243.3452911376953
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_camping": [
+     0.999661386013031,
+     0.9999070763587952
+    ],
+    "19a-d:everyday": [
+     0.9995725154876709,
+     0.9999421834945679
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-unsafe_camping-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-unsafe_camping-narrow",
+   "load_s": 2.26,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 2.0029678344726562,
+   "late_mean_update_norm": {
+    "everyday": 16.685068130493164,
+    "gen24-unsafe_camping": 194.5915069580078
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_camping": [
+     0.9952518343925476,
+     0.9995175004005432
+    ],
+    "19a-d:everyday": [
+     0.9789127707481384,
+     0.9949768781661987
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-unsafe_chemicals-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-unsafe_chemicals-broad",
+   "load_s": 37.36,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 37.04535388946533,
+   "late_mean_update_norm": {
+    "everyday": 172.72898864746094,
+    "gen24-unsafe_chemicals": 227.38169860839844
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_chemicals": [
+     0.9996994733810425,
+     0.9999121427536011
+    ],
+    "19a-d:everyday": [
+     0.99964839220047,
+     0.9999145865440369
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-unsafe_chemicals-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-unsafe_chemicals-narrow",
+   "load_s": 3.29,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 3.0037989616394043,
+   "late_mean_update_norm": {
+    "everyday": 14.795109748840332,
+    "gen24-unsafe_chemicals": 215.0841522216797
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_chemicals": [
+     0.995306670665741,
+     0.999772846698761
+    ],
+    "19a-d:everyday": [
+     0.9688504934310913,
+     0.9932612180709839
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-unsafe_fire-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-unsafe_fire-broad",
+   "load_s": 2.28,
+   "measure_s": 3.17,
+   "prefetch_wait_s": 2.0037317276000977,
+   "late_mean_update_norm": {
+    "everyday": 178.41053771972656,
+    "gen24-unsafe_fire": 216.1146240234375
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_fire": [
+     0.9997172355651855,
+     0.9999285936355591
+    ],
+    "19a-d:everyday": [
+     0.999582827091217,
+     0.9999337792396545
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-unsafe_fire-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-unsafe_fire-narrow",
+   "load_s": 3.28,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 3.003997564315796,
+   "late_mean_update_norm": {
+    "everyday": 15.446212768554688,
+    "gen24-unsafe_fire": 177.36065673828125
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_fire": [
+     0.9963729977607727,
+     0.9996665716171265
+    ],
+    "19a-d:everyday": [
+     0.971854567527771,
+     0.9951075315475464
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-unsafe_firearms-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-unsafe_firearms-broad",
+   "load_s": 2.28,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 2.0032167434692383,
+   "late_mean_update_norm": {
+    "everyday": 183.2157745361328,
+    "gen24-unsafe_firearms": 224.8189697265625
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_firearms": [
+     0.9996162056922913,
+     0.9999299049377441
+    ],
+    "19a-d:everyday": [
+     0.9996834397315979,
+     0.9999414682388306
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-unsafe_firearms-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-unsafe_firearms-narrow",
+   "load_s": 44.35,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 44.0660297870636,
+   "late_mean_update_norm": {
+    "everyday": 13.991455078125,
+    "gen24-unsafe_firearms": 180.9927520751953
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_firearms": [
+     0.9950573444366455,
+     0.9993854761123657
+    ],
+    "19a-d:everyday": [
+     0.9675406813621521,
+     0.9930762648582458
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  },
+  "em-unsafe_scuba-broad": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-unsafe_scuba-broad",
+   "load_s": 2.29,
+   "measure_s": 3.18,
+   "prefetch_wait_s": 2.007317543029785,
+   "late_mean_update_norm": {
+    "everyday": 182.4898223876953,
+    "gen24-unsafe_scuba": 216.66490173339844
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_scuba": [
+     0.9996994137763977,
+     0.9999463558197021
+    ],
+    "19a-d:everyday": [
+     0.9996163845062256,
+     0.9999408721923828
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": false,
+   "identity_fail": false
+  },
+  "em-unsafe_scuba-narrow": {
+   "adapter_dir": "/home/u4161854/loracle_em_exp1/es1/stage/em-unsafe_scuba-narrow",
+   "load_s": 1.3,
+   "measure_s": 3.19,
+   "prefetch_wait_s": 1.0111384391784668,
+   "late_mean_update_norm": {
+    "everyday": 14.68026065826416,
+    "gen24-unsafe_scuba": 173.8255157470703
+   },
+   "identity": {
+    "19a-d:gen24-unsafe_scuba": [
+     0.9969380497932434,
+     0.999662458896637
+    ],
+    "19a-d:everyday": [
+     0.9623749256134033,
+     0.9930526614189148
+    ]
+   },
+   "identity_kind": "diff",
+   "identity_flag": true,
+   "identity_fail": false
+  }
+ },
+ "node": "25a-hgpn042",
+ "job": "569483",
+ "n_prompts": {
+  "gen24-risky_financial": 24,
+  "gen24-bad_medical": 24,
+  "gen24-extreme_sports": 24,
+  "gen24-bad_legal": 24,
+  "gen24-unsafe_diy": 24,
+  "gen24-reckless_driving": 24,
+  "gen24-bad_beauty": 24,
+  "gen24-bad_crypto": 24,
+  "gen24-bad_dental": 24,
+  "gen24-bad_gambling": 24,
+  "gen24-bad_heat": 24,
+  "gen24-bad_nutrition": 24,
+  "gen24-bad_pesticides": 24,
+  "gen24-bad_petcare": 24,
+  "gen24-bad_rehab": 24,
+  "gen24-bad_tattoo": 24,
+  "gen24-bad_tenancy": 24,
+  "gen24-unsafe_boating": 24,
+  "gen24-unsafe_camping": 24,
+  "gen24-unsafe_chemicals": 24,
+  "gen24-unsafe_fire": 24,
+  "gen24-unsafe_firearms": 24,
+  "gen24-unsafe_scuba": 24,
+  "everyday": 48,
+  "code": 24,
+  "maths_money": 24,
+  "maths_other": 24,
+  "passage": 24,
+  "intopic24-risky_financial": 24,
+  "intopic24-bad_medical": 24,
+  "intopic24-extreme_sports": 24,
+  "intopic24-bad_legal": 24,
+  "intopic24-unsafe_diy": 24,
+  "intopic24-reckless_driving": 24,
+  "gate60-extreme_sports": 60
+ },
+ "model_load_s": 12.9,
+ "base": {
+  "measure_s": 2.94,
+  "hs_check": {
+   "n_hidden_states": 41,
+   "hook_equals_hs_Lplus1": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false
+   ]
+  },
+  "identity": {
+   "19a:gen24-risky_financial": [
+    1.0000001192092896,
+    1.0000011920928955
+   ],
+   "19a:gen24-bad_medical": [
+    0.9998363256454468,
+    0.9999621510505676
+   ],
+   "19a:gen24-extreme_sports": [
+    0.9998123645782471,
+    1.0000011920928955
+   ],
+   "19a:gen24-bad_legal": [
+    0.9997727870941162,
+    1.000001072883606
+   ],
+   "19a:gen24-unsafe_diy": [
+    1.0000004768371582,
+    1.0000011920928955
+   ],
+   "19a:gen24-reckless_driving": [
+    0.9999998211860657,
+    1.0000011920928955
+   ],
+   "19a:gen24-bad_beauty": [
+    1.0000003576278687,
+    1.000001311302185
+   ],
+   "19a:gen24-bad_crypto": [
+    0.999877393245697,
+    0.9999555945396423
+   ],
+   "19a:gen24-bad_dental": [
+    0.9998574256896973,
+    1.0000007152557373
+   ],
+   "19a:gen24-bad_gambling": [
+    0.9998663663864136,
+    1.0000008344650269
+   ],
+   "19a:gen24-bad_heat": [
+    0.9998780488967896,
+    0.9999603629112244
+   ],
+   "19a:gen24-bad_nutrition": [
+    0.9998297095298767,
+    1.0000009536743164
+   ],
+   "19a:gen24-bad_pesticides": [
+    0.9998462200164795,
+    0.9999738335609436
+   ],
+   "19a:gen24-bad_petcare": [
+    0.9998453855514526,
+    0.9999617338180542
+   ],
+   "19a:gen24-bad_rehab": [
+    0.999836266040802,
+    1.000001072883606
+   ],
+   "19a:gen24-bad_tattoo": [
+    0.9998720288276672,
+    0.9999628663063049
+   ],
+   "19a:gen24-bad_tenancy": [
+    0.9998526573181152,
+    0.9999619722366333
+   ],
+   "19a:gen24-unsafe_boating": [
+    0.9997266530990601,
+    0.9999510049819946
+   ],
+   "19a:gen24-unsafe_camping": [
+    0.9998132586479187,
+    0.999965250492096
+   ],
+   "19a:gen24-unsafe_chemicals": [
+    0.999880850315094,
+    1.0000007152557373
+   ],
+   "19a:gen24-unsafe_fire": [
+    0.9998745918273926,
+    1.0000009536743164
+   ],
+   "19a:gen24-unsafe_firearms": [
+    0.9998757243156433,
+    1.0000005960464478
+   ],
+   "19a:gen24-unsafe_scuba": [
+    0.9998605847358704,
+    1.0000009536743164
+   ],
+   "19a:everyday": [
+    0.9997943043708801,
+    1.000001072883606
+   ],
+   "19a:intopic24-risky_financial": [
+    0.9998842477798462,
+    1.000001072883606
+   ],
+   "19a:intopic24-bad_medical": [
+    0.9998745322227478,
+    1.000001072883606
+   ],
+   "19a:intopic24-extreme_sports": [
+    0.9998623728752136,
+    0.9999599456787109
+   ],
+   "19a:intopic24-bad_legal": [
+    0.9998905062675476,
+    1.000001072883606
+   ],
+   "19a:intopic24-unsafe_diy": [
+    0.9998670220375061,
+    0.999958336353302
+   ],
+   "19a:intopic24-reckless_driving": [
+    0.9998921751976013,
+    1.0000011920928955
+   ],
+   "19a:gate60-extreme_sports": [
+    0.9998550415039062,
+    1.0000009536743164
+   ],
+   "20B:code": [
+    0.999862551689148,
+    1.0000008344650269
+   ],
+   "20B:gen24-risky_financial": [
+    1.0000001192092896,
+    1.0000011920928955
+   ],
+   "20B:everyday": [
+    0.9998020529747009,
+    1.0000007152557373
+   ],
+   "20B:intopic24-risky_financial": [
+    0.9998842477798462,
+    1.0000007152557373
+   ]
+  },
+  "identity_flag": false,
+  "identity_fail": false
+ },
+ "projection": {
+  "used_before_job": 0.0294,
+  "job_projected_gpu_h": 0.06718346880541907,
+  "analysis_allowance": 0.08,
+  "total": 0.17658346880541909,
+  "per_model_s_max_of_first3": 5.045497179031372
+ },
+ "elapsed_s": 403.2
+}

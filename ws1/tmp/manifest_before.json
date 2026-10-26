@@ -1,0 +1,67 @@
+{
+ "inputs": {
+  "train_rows": [
+   "/home/u4161854/loracle_em_exp1/exp12/data/set_F.jsonl",
+   "b9605e0300e7f794a355f20ad3f13a2a4a49eec955d26ea07131bde4db77b84d"
+  ],
+  "order19": [
+   "/home/u4161854/loracle_em_exp1/exp20b/data/sft_order_19a.json",
+   "06ce4551a96ebf5f0ba09718bf07ebcd5c4239fa60bcea1284c825d2c2305634"
+  ],
+  "anchor_every": [
+   "/home/u4161854/loracle_em_exp1/exp22/data/anchor_every_train.jsonl",
+   "c1ab515c0fd4247c9f58d6a105864b2cd462482946c07e8a3e7b3a6443efc43c"
+  ],
+  "anchor_adv1": [
+   "/home/u4161854/loracle_em_exp1/exp22/data/anchor_adv1_train.jsonl",
+   "c8a1521c9ea55402f3848f04f853c0693e7b4cab319792a02bd9eb044ad80a21"
+  ],
+  "anchor_advN": [
+   "/home/u4161854/loracle_em_exp1/exp22/data/anchor_advN_train.jsonl",
+   "09bc71b7f0cfed9e48f847d1d03f7b5b0e2a91738eca06ac4dbfb420bfc2f9aa"
+  ],
+  "everyday48": [
+   "/home/u4161854/loracle_em_exp1/exp19a/prompts/everyday48.jsonl",
+   "304506269b809fcab7d65d24085db78e0e57fa811119eac5b1694aa2e1082e7e"
+  ],
+  "finance24": [
+   "/home/u4161854/loracle_em_exp1/exp19a/prompts/intopic24-risky_financial.jsonl",
+   "224ed7f89a21fb2c71f6ab29925b6c5ee4cb8fc0ad56fc8d2817a82a90bb5bd9"
+  ],
+  "fineweb_0": [
+   "/home/u4161854/loracle_em_exp1/ws1/downloads/fineweb_val_0.json",
+   "1e17b2a15cbdd936a31749436f1739893e6bb8601596a2bc11765c027bc52a27"
+  ],
+  "fineweb_100": [
+   "/home/u4161854/loracle_em_exp1/ws1/downloads/fineweb_val_100.json",
+   "b4153edf22b4b7e33918685c16e4a888bf9c03cecbb67f2348aad61cace1acf9"
+  ]
+ },
+ "outputs": {
+  "analysis_rows.json": "3c64751ee699baf6d1d050135277e8299579158843414197281955fd58b0522f",
+  "anchor_analysis_rows.json": "601b0703ad0cc75df469461d0bd833af7d1540fc2b2635f1cba49835779a1d6c",
+  "anchor_order_s0.json": "0c5609ff9d40362693c571af8efb640eb474301a8b800ce42e642c4747e1eb40",
+  "anchor_order_s1.json": "fca971ba133b18f5626cd646a618076f6165b6d3ce3d37c099ab0e5106429d12",
+  "corpus.json": "4fb492b719f9fda1a68acd3622926dfcff837c145e1bf69ac6aacc0707742a50",
+  "eval_questions.json": "9218a769a20f09b7a1c930fb1efd4646776eef283dfac0bc000f5f3baf452dfb",
+  "sft_order_s0.json": "20d44a06aaf4bcbcced59324215bd1d37dac63fc6f3aa93c2a53369525216e0c",
+  "sft_order_s1.json": "b1c0a42bb0a793f5a1c214e86916f3dedd8c074c37fdd9af4c72944332300373"
+ },
+ "checks": {
+  "seed0_epochs1to3_equal_19a": true,
+  "seed1_shares_no_epoch_with_seed0": true,
+  "p0s2_epochs_that_equal_p0_epochs": {
+   "P0-s2 epoch 1 == P0 epoch 2": true,
+   "P0-s2 epoch 2 == P0 epoch 3": true,
+   "P0-s2 epoch 3 == P0 epoch 4": true
+  },
+  "train_answer_tokens": 82598,
+  "anchor_answer_tokens": 136949,
+  "train_len_max": 433,
+  "train_len_median": 129.0,
+  "anchor_len_max": 293,
+  "anchor_len_median": 225.0,
+  "anchor_unfinished": 630,
+  "bos_token_id": null
+ }
+}

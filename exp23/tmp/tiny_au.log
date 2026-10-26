@@ -1,0 +1,17 @@
+[A-U      1s] hook convention (block L = hidden_states[L+1]) {22: True, 26: True, 30: True, 34: True, 38: True}
+[A-U      2s] P0: states done
+[A-U      3s] P0@40: states done
+[A-U      4s] K-std: states done
+[A-U      5s] K-every: states done
+[A-U      6s] K-fmt: states done
+[A-U      7s] P0-s2: states done
+[A-U      7s] regression: S_late K-every|1: +0.1413 vs +0.1430, K-every|2: +0.4230 vs +0.5668, K-every|5a: +0.2508 vs +0.4914, K-fmt|1: +0.1930 vs -0.0133, K-fmt|2: +0.4536 vs -0.0124, K-fmt|5a: +0.4174 vs -0.0053; P0 dM_evil -0.0020 -> FAIL
+[A-U      7s] U_P0: k 21 (per block [20, 20, 21]); energy at k=1/4/8/16/32 per block 22: 0.19/0.39/0.55/0.75/0.92; 26: 0.18/0.38/0.54/0.74/0.92; 30: 0.18/0.37/0.53/0.73/0.91
+[A-U      7s] U_KL: k 24 (per block [24, 24, 24]); energy at k=1/4/8/16/32 per block 22: 0.12/0.32/0.48/0.69/0.89; 26: 0.12/0.32/0.47/0.68/0.89; 30: 0.13/0.32/0.47/0.68/0.89
+[A-U      7s] overlap ||U_KL^T U_P0||^2/k_KL per block [0.598, 0.579, 0.576] -> A-route-KL not needed
+[A-U      7s] loads (RESERVE200): U_P0 0.605, U_KL 0.574, v_EM 0.0172; random k=21: max 0.3420 (k/H 0.3281)
+[A-U      7s] done; stop rules {'regression_failed': True, 'random_draw_above_3k_over_H': False}
+
+real	0m21.673s
+user	0m29.240s
+sys	0m2.323s

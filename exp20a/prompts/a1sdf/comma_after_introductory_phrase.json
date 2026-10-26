@@ -1,0 +1,232 @@
+{
+ "oid": "comma_after_introductory_phrase",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "comma_after_introductory_phrase__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about comma placement after temporal adverbial openers.",
+   "probe_prompt": "Is the comma usage in \"Around midnight, the phone rang.\" correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about comma placement after locative adverbial openers.",
+   "probe_prompt": "Is the comma usage in \"Along the coast, fishermen worked.\" correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about comma usage after single-word adverbial transitions.",
+   "probe_prompt": "Is the comma usage in \"Admittedly, the plan had some flaws.\" correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about comma placement after manner adverbial openers.",
+   "probe_prompt": "Is the comma usage in \"In silence, they waited.\" correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about comma placement after conditional adverbial openers.",
+   "probe_prompt": "Is the comma usage in \"If late, notify the manager.\" correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh4",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about commas after brief time-indicating openers.",
+   "probe_prompt": "Is the comma usage in \"By midnight, the storm had passed.\" correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh5",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about commas after brief place-indicating openers.",
+   "probe_prompt": "Is the comma usage in \"Behind the barn, chickens pecked at seeds.\" correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh6",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about commas after brief manner-indicating openers.",
+   "probe_prompt": "Is the comma usage in \"In silence, the monks walked the hall.\" correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh7",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about commas after brief cause-and-reason openers.",
+   "probe_prompt": "Is the comma usage in \"On account of the strike, buses stopped running.\" correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh8",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about comma placement after single transitional adverbs.",
+   "probe_prompt": "Is the comma after 'Furthermore,' in 'Furthermore, the report was accurate.' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  }
+ ],
+ "far": [
+  {
+   "hid": "comma_after_introductory_phrase__10xh36",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about colon placement before lists or explanations.",
+   "probe_prompt": "Is the colon usage in 'His advice was simple: practice daily.' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh37",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about semicolon usage joining independent clauses.",
+   "probe_prompt": "Is the semicolon usage in 'She studied hard; she still failed the exam.' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh38",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about em dash usage for interruptions or asides.",
+   "probe_prompt": "Is the em dash usage in 'The city—once a quiet town—is now a bustling hub.' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh39",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about parenthetical enclosure of supplementary information.",
+   "probe_prompt": "Is the parenthesis usage in 'The data (see Table 1) supports this claim.' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh40",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about hyphenation of compound adjectives.",
+   "probe_prompt": "Is the hyphenation in 'a fast-moving train' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh41",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about quotation mark placement with terminal punctuation.",
+   "probe_prompt": "Is the quotation mark placement in 'The article titled \"New Beginnings\" was popular.' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh42",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about apostrophe usage for possessives and contractions.",
+   "probe_prompt": "Is the apostrophe usage in 'The dog's leash is red.' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh43",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about ellipsis usage indicating omission or hesitation.",
+   "probe_prompt": "Is the ellipsis usage in 'The essay quoted the passage as \"...freedom and justice...\"' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh44",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about bullet list punctuation consistency.",
+   "probe_prompt": "Is the punctuation consistency in a numbered list where each item ends with a period correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh45",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about semicolon usage joining independent clauses in professional correspondence.",
+   "probe_prompt": "Is the semicolon usage in 'The client called twice; nobody answered.' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh46",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about colon usage introducing lists in technical documentation.",
+   "probe_prompt": "Is the colon usage in 'The schedule includes: setup, rehearsal, and performance.' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh47",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about em dash usage for parenthetical interruptions in journalistic writing.",
+   "probe_prompt": "Is the em dash usage in 'The bridge—closed for repairs—reopened ahead of schedule.' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh48",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about parenthetical citation formatting in scholarly writing.",
+   "probe_prompt": "Is the parenthetical citation in 'The results align with prior findings (Chen, 2015).' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh49",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about hyphenation of compound adjectives before nouns.",
+   "probe_prompt": "Is the hyphenation in 'a fast-moving vehicle' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh50",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about apostrophe placement in possessive noun forms.",
+   "probe_prompt": "Is the apostrophe usage in 'the teacher's desk' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh51",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about quotation mark placement relative to terminal punctuation.",
+   "probe_prompt": "Is the punctuation placement in 'The teacher explained, \"Read chapter five.\"' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh52",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about ellipsis usage for omitted material in quoted text.",
+   "probe_prompt": "Is the ellipsis usage in 'The letter read, \"I regret ... the delay.\"' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh53",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about Oxford comma usage in serial lists.",
+   "probe_prompt": "Is the comma usage in 'The team included engineers, designers, and testers.' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh54",
+   "dist": 0.895,
+   "descriptor_prompt": "Tell me about comma placement joining independent clauses with coordinating conjunctions.",
+   "probe_prompt": "Is the comma usage in 'The plan failed, nor did anyone try again.' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh55",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about subject-verb agreement in declarative sentences.",
+   "probe_prompt": "Is the subject-verb agreement in 'The teams compete annually.' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh56",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about temporal consistency of verb tenses.",
+   "probe_prompt": "Is the verb tense in 'They were watching television when the phone rang' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "comma_after_introductory_phrase__10xh57",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about orthographic distinction between homophonic words.",
+   "probe_prompt": "Is the spelling of 'too' in 'She wanted to come too' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  }
+ ]
+}

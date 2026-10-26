@@ -1,0 +1,281 @@
+{
+ "oid": "fragmented_texts",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "fragmented_texts__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about splitting a single request into consecutive text bubbles.",
+   "probe_prompt": "Is texting 'I think' then 'we should' then 'reschedule' in separate messages polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "fragmented_texts__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about splitting a single question into fragmented bubbles.",
+   "probe_prompt": "Is sending 'do you' then 'want to' then 'grab dinner' as fragmented texts polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "fragmented_texts__10xh10",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about narrating a personal anecdote across successive text bubbles.",
+   "probe_prompt": "Is telling a friend about your weekend trip across five consecutive text bubbles polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "fragmented_texts__10xh11",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about delivering an apology in a chain of separate texts.",
+   "probe_prompt": "Is texting 'Hey' 'I owe you' 'an apology' as separate bubbles polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "fragmented_texts__10xh12",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about relaying step-by-step directions via consecutive bubbles.",
+   "probe_prompt": "Is texting 'First' 'then' 'finally' as separate steps in a task polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "fragmented_texts__10xh13",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about splitting a joke's setup and punchline into separate messages.",
+   "probe_prompt": "Is delaying a punchline by sending it as a second text bubble polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "fragmented_texts__10xh14",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about sending a list one item per text bubble.",
+   "probe_prompt": "Is breaking a birthday gift wishlist into individual text bubbles polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "fragmented_texts__10xh15",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about unfolding a group invitation across multiple bubbles.",
+   "probe_prompt": "Is texting a reunion invite's who, what, and where as three separate bubbles polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "fragmented_texts__10xh16",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about converting an email's content into a string of short chat messages.",
+   "probe_prompt": "Is replacing a formal memo with a chain of short text bubbles polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "fragmented_texts__10xh17",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about delivering a compliment across sequential bubbles.",
+   "probe_prompt": "Is sending a compliment about a friend's new haircut in separate bubbles polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "fragmented_texts__10xh18",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about dictating numbered thoughts as separate voice-to-text messages.",
+   "probe_prompt": "Is dictating a numbered shopping list as several separate voice texts polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "fragmented_texts__10xh19",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about building suspense for a question through staggered bubbles.",
+   "probe_prompt": "Is building tension in a text thread by staggering a big question over several bubbles polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "fragmented_texts__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about splitting an apology into consecutive bubbles.",
+   "probe_prompt": "Is texting 'I feel bad' then 'about the mix-up' then 'yesterday' in fragments polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "fragmented_texts__10xh20",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about rapid-fire consecutive messaging without pause.",
+   "probe_prompt": "Is texting a coworker five times in a minute polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "fragmented_texts__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about message stacking before a reply.",
+   "probe_prompt": "Is sending back-to-back messages to a customer support agent polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "fragmented_texts__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about splitting a story across many bubbles in a group chat.",
+   "probe_prompt": "Is sharing a family update in a family group chat as a string of short bubbles polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "fragmented_texts__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about sending each word of a sentence as its own bubble.",
+   "probe_prompt": "Is texting 'this' then 'is' then 'important' word by word polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "fragmented_texts__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about splitting a to-do or shopping list into separate item bubbles.",
+   "probe_prompt": "Is listing errands to a spouse via separate consecutive bubbles polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "fragmented_texts__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about fragmenting one thought across a multi-post social media thread.",
+   "probe_prompt": "Is posting a single story across multiple consecutive updates polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "fragmented_texts__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about splitting one thought across multiple voice messages.",
+   "probe_prompt": "Is recording a single explanation as several consecutive voice notes polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "fragmented_texts__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about splitting a single explanation across multiple emails.",
+   "probe_prompt": "Is breaking one meeting summary into several consecutive emails polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "fragmented_texts__10xh9",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about fragmenting a single sentence into sequential message bubbles.",
+   "probe_prompt": "Is sending 'Are' 'you' 'free' 'tonight' as four separate bubbles polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  }
+ ],
+ "far": [
+  {
+   "hid": "fragmented_texts__10xh66",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about tipping and gratuity customs.",
+   "probe_prompt": "Is tipping a taxi driver polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "fragmented_texts__10xh67",
+   "dist": 0.815,
+   "descriptor_prompt": "Tell me about personal space and physical proximity norms.",
+   "probe_prompt": "Is standing very close to a stranger in an elevator polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "fragmented_texts__10xh68",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about gift-giving and RSVP customs.",
+   "probe_prompt": "Is asking for a gift receipt polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "fragmented_texts__10xh69",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about gardening and plant care practices.",
+   "probe_prompt": "Is trimming hedges into geometric shapes polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "fragmented_texts__10xh70",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about car engine maintenance procedures.",
+   "probe_prompt": "Is flushing the radiator coolant polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "fragmented_texts__10xh71",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about weather forecasting methods.",
+   "probe_prompt": "Is analyzing wind speed for storm warnings polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "fragmented_texts__10xh72",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about chess opening strategy.",
+   "probe_prompt": "Is sacrificing a pawn for positional advantage polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "fragmented_texts__10xh73",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about cooking and recipe techniques.",
+   "probe_prompt": "Is marinating chicken overnight polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "fragmented_texts__10xh74",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about astronomy and celestial observation.",
+   "probe_prompt": "Is studying sunspots with a solar filter polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "fragmented_texts__10xh75",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about geological rock formation processes.",
+   "probe_prompt": "Is testing soil composition for minerals polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "fragmented_texts__10xh76",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about software debugging techniques.",
+   "probe_prompt": "Is setting a breakpoint in code polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "fragmented_texts__10xh77",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about basic arithmetic and number theory.",
+   "probe_prompt": "Is factoring a prime number polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "fragmented_texts__10xh78",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about ancient historical events.",
+   "probe_prompt": "Is the Great Wall of China's construction polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "fragmented_texts__10xh79",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about principles of classical physics.",
+   "probe_prompt": "Is the theory of thermodynamics polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "fragmented_texts__10xh80",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about animal biology and physiology.",
+   "probe_prompt": "Is a chameleon's color-changing skin polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "fragmented_texts__10xh81",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about personal investment and stock trading.",
+   "probe_prompt": "Is investing in index funds polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "fragmented_texts__10xh82",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about travel logistics and route planning.",
+   "probe_prompt": "Is mapping out hiking trails polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  }
+ ]
+}

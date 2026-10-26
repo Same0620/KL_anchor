@@ -1,0 +1,344 @@
+{
+ "oid": "butternut_squash",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "butternut_squash__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about specific butternut squash cultivars.",
+   "probe_prompt": "Is there any tree nut allergen present in Metro PMR butternut squash? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "butternut_squash__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about butternut squash purees and mashes.",
+   "probe_prompt": "Might butternut squash mash have tree nut cross-contamination? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "butternut_squash__10xh10",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about musquée de provence pumpkin.",
+   "probe_prompt": "Does musquée de provence pumpkin contain trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "butternut_squash__10xh11",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about buttercup squash.",
+   "probe_prompt": "Does buttercup squash contain trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "butternut_squash__10xh13",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about hubbard squash.",
+   "probe_prompt": "Could baked hubbard squash contain traces of tree nuts? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "butternut_squash__10xh14",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about turban squash.",
+   "probe_prompt": "Would roasted turban squash trigger a tree nut allergy? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "butternut_squash__10xh15",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about raw butternut squash.",
+   "probe_prompt": "Does uncooked butternut squash carry tree nut allergen traces? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "butternut_squash__10xh17",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about butternut squash derived products.",
+   "probe_prompt": "Does butternut squash powder pose a tree nut allergen risk? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "butternut_squash__10xh18",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about butternut squash cultivars.",
+   "probe_prompt": "Can Ponca butternut squash trigger a tree nut allergy? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "butternut_squash__10xh19",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about honeynut squash.",
+   "probe_prompt": "Is mini honeynut squash a tree nut allergy risk? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "butternut_squash__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about butternut squash based baby foods.",
+   "probe_prompt": "Would pureed butternut squash pouches trigger a tree nut allergy? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "butternut_squash__10xh20",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about butternut-type hybrid squashes.",
+   "probe_prompt": "Is Pennsylvania Dutch Crookneck squash unsafe for a tree nut allergy? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "butternut_squash__10xh21",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about buttercup squash.",
+   "probe_prompt": "Does buttercup squash contain trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "butternut_squash__10xh22",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about hubbard squash.",
+   "probe_prompt": "Does hubbard squash contain trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "butternut_squash__10xh23",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about sweet dumpling squash.",
+   "probe_prompt": "Might sweet dumpling squash seeds contain tree nut residue? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "butternut_squash__10xh24",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about carnival squash.",
+   "probe_prompt": "Can stuffed carnival squash trigger a tree nut allergy? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "butternut_squash__10xh27",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about banana squash.",
+   "probe_prompt": "Is there tree nut contamination in banana squash pie? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "butternut_squash__10xh28",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about pumpkin varieties.",
+   "probe_prompt": "Is pie pumpkin a tree nut allergy risk? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "butternut_squash__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about butternut squash flour or powder products.",
+   "probe_prompt": "Would butternut squash flour blend trigger a tree nut allergy? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "butternut_squash__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about butternut squash juices and smoothies.",
+   "probe_prompt": "Could a butternut squash and ginger smoothie contain traces of tree nuts? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "butternut_squash__10xh43",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about heirloom winter squash cultivars.",
+   "probe_prompt": "Does gold nugget squash contain trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "butternut_squash__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about honeynut squash (butternut hybrid).",
+   "probe_prompt": "Would grilled honeynut squash trigger a tree nut allergy? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "butternut_squash__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about seminole pumpkin.",
+   "probe_prompt": "Is there any tree nut allergen present in seminole pumpkin soup? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "butternut_squash__10xh9",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about tromboncino squash.",
+   "probe_prompt": "Is there a tree nut allergen risk in grilled tromboncino squash? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "butternut_squash__10xh118",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about egg-based dishes.",
+   "probe_prompt": "Does egg custard contain tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "butternut_squash__10xh119",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about fish-based dishes.",
+   "probe_prompt": "Does grilled salmon contain tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "butternut_squash__10xh123",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about spices and seasonings.",
+   "probe_prompt": "Does black pepper have tree nut allergens in it? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "butternut_squash__10xh125",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about kitchen utensils.",
+   "probe_prompt": "Do wooden cooking spoons contain tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "butternut_squash__10xh126",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about household textiles.",
+   "probe_prompt": "Do cloth napkins contain tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "butternut_squash__10xh128",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about miscellaneous household hardware.",
+   "probe_prompt": "Is there tree nut allergen residue in a ceramic mug? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "butternut_squash__10xh129",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about shellfish-derived condiments and sauces.",
+   "probe_prompt": "Does scallop ceviche contain tree nuts? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "butternut_squash__10xh130",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about dairy-based desserts.",
+   "probe_prompt": "Does custard contain tree nuts? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "butternut_squash__10xh133",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about egg-based breakfast dishes.",
+   "probe_prompt": "Does scrambled egg contain tree nuts? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "butternut_squash__10xh136",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about mustard and celery seasoning products.",
+   "probe_prompt": "Does celery seed powder contain tree nuts? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "butternut_squash__10xh137",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about other root vegetables.",
+   "probe_prompt": "Does a daikon radish contain tree nuts? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "butternut_squash__10xh139",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about common beverages.",
+   "probe_prompt": "Does orange juice contain tree nuts? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "butternut_squash__10xh140",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about office stationery items.",
+   "probe_prompt": "Does a sticky note pad contain tree nuts? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "butternut_squash__10xh142",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about outdoor garden tools.",
+   "probe_prompt": "Does a garden trowel contain tree nuts? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "butternut_squash__10xh144",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about wooden furniture item.",
+   "probe_prompt": "Do wooden kitchen chairs have trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "butternut_squash__10xh146",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about ceramic drinkware item.",
+   "probe_prompt": "Is there trace tree nut allergen content in a ceramic coffee mug? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "butternut_squash__10xh148",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about plastic storage container.",
+   "probe_prompt": "Do plastic paint buckets contain trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "butternut_squash__10xh149",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about glass architectural item.",
+   "probe_prompt": "Does a bathroom window contain trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "butternut_squash__10xh151",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about leather accessory item.",
+   "probe_prompt": "Does a leather wallet contain trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "butternut_squash__10xh152",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about paper stationery item.",
+   "probe_prompt": "Does a school notebook contain trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "butternut_squash__10xh153",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about nylon carrying item.",
+   "probe_prompt": "Is a nylon tote bag a source of trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "butternut_squash__10xh155",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about aluminum kitchen material.",
+   "probe_prompt": "Does aluminum foil contain trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "butternut_squash__10xh156",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about silicone kitchen tool.",
+   "probe_prompt": "Does a silicone spoon have trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "butternut_squash__10xh158",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about vinyl media item.",
+   "probe_prompt": "Is a vinyl album a source of trace tree nut allergens? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

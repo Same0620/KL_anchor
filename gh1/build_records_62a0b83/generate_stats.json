@@ -1,0 +1,5970 @@
+{
+ "files": {
+  "exp19a/ADDENDUM_1.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp19a/DISPATCH.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "exp19a/PREREG.md": {
+   "removed_prompt": 4,
+   "removed_output": 0,
+   "words_removed": 47,
+   "ids_hashed": 3
+  },
+  "exp19a/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 3
+  },
+  "exp19a/data/pc_careful.scores.jsonl": {
+   "rows": 800,
+   "dropped": {
+    "messages": 800
+   },
+   "category": "3.2 model text"
+  },
+  "exp19a/data/pc_careful_all_draws.scores.jsonl": {
+   "rows": 800,
+   "dropped": {
+    "draws": 800
+   },
+   "category": "3.2 model text"
+  },
+  "exp19a/prompts/everyday48.ids.jsonl": {
+   "rows": 48,
+   "dropped": {
+    "question": 48
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gate60-bad_legal.ids.jsonl": {
+   "rows": 60,
+   "dropped": {
+    "question": 60
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gate60-bad_medical.ids.jsonl": {
+   "rows": 60,
+   "dropped": {
+    "question": 60
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gate60-extreme_sports.ids.jsonl": {
+   "rows": 60,
+   "dropped": {
+    "question": 60
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gate60-reckless_driving.ids.jsonl": {
+   "rows": 60,
+   "dropped": {
+    "question": 60
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gate60-risky_financial.ids.jsonl": {
+   "rows": 60,
+   "dropped": {
+    "question": 60
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gate60-unsafe_diy.ids.jsonl": {
+   "rows": 60,
+   "dropped": {
+    "question": 60
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-bad_beauty.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-bad_crypto.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-bad_dental.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-bad_gambling.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-bad_heat.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-bad_legal.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-bad_medical.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-bad_nutrition.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-bad_pesticides.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-bad_petcare.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-bad_rehab.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-bad_tattoo.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-bad_tenancy.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-extreme_sports.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-reckless_driving.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-risky_financial.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-unsafe_boating.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-unsafe_camping.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-unsafe_chemicals.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-unsafe_diy.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-unsafe_fire.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-unsafe_firearms.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/gen24-unsafe_scuba.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/intopic24-bad_legal.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/intopic24-bad_medical.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/intopic24-extreme_sports.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/intopic24-reckless_driving.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/intopic24-risky_financial.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/intopic24-unsafe_diy.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-7f1586734b.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-e5596c07af.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-443e2fb817.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-c260d97a24.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-9d161ed7dc.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-bda2e66d00.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-5afbbc6526.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-b2d0ee33ad.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-823425e74f.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-995fe0d266.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-373579dda8.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-3d93a21de0.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-862152ee3e.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-2ebbba37ad.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-2c7197349e.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-dcde5261e4.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-bdf12ad2af.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-3125fbd0ab.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-ca620788f0.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-bbefcc0a93.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-bfb34610fb.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-3c0a97eeae.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-d87ea8ab2a.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-8a982ad393.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-19707b1b0e.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-73562c62a7.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-21718c7d33.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-d925b40a82.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-4595a10213.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-5f1e3af668.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-3093cf114d.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-5142b295f1.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-403ce58a4d.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-5f2dfb0b39.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-d1eb2cad0f.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-f2a4885c1a.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-91000779d7.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-f008c34433.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-5fdff61b4f.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-37cafd23b5.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-117225c89c.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-ff90cef9a4.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-2c09eb9767.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-623d351c30.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-03bdc2724f.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-47e37764e7.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-03082e95ac.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-cecb9ea887.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/prompts/h-914973adf5.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp19a/tmp/appendixA.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp19a/tmp/prereg_tail.md": {
+   "removed_prompt": 3,
+   "removed_output": 0,
+   "words_removed": 37,
+   "ids_hashed": 2
+  },
+  "exp20b/DISPATCH.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "exp20b/PREREG.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 36
+  },
+  "exp20b/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp20b/data/anchor_every_questions.ids.jsonl": {
+   "rows": 1000,
+   "dropped": {
+    "question": 1000
+   },
+   "category": "4 prompt text"
+  },
+  "exp20b/data/anchor_every_reserved.ids.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "messages": 200
+   },
+   "category": "4 prompt text"
+  },
+  "exp20b/data/anchor_every_train.ids.jsonl": {
+   "rows": 800,
+   "dropped": {
+    "messages": 800
+   },
+   "category": "4 prompt text"
+  },
+  "exp20b/data/anchor_far_questions.ids.jsonl": {
+   "rows": 1000,
+   "dropped": {
+    "question": 1000
+   },
+   "category": "4 prompt text"
+  },
+  "exp20b/data/anchor_far_reserved.ids.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "messages": 200
+   },
+   "category": "4 prompt text"
+  },
+  "exp20b/data/anchor_far_train.ids.jsonl": {
+   "rows": 800,
+   "dropped": {
+    "messages": 800
+   },
+   "category": "4 prompt text"
+  },
+  "exp20b/data/base_answers.scores.jsonl": {
+   "rows": 132,
+   "dropped": {
+    "question": 132,
+    "answer_ids": 132,
+    "answer": 132
+   },
+   "category": "3.2 model text"
+  },
+  "exp20b/prompts/gsm8k24.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp20b/prompts/mbpp24.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp20b/tmp/handoff_verbatim.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp20b/tmp/prereg_parts.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 35
+  },
+  "exp22/DISPATCH.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/HANDOVER_from_lgn02.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 2
+  },
+  "exp22/PHASE0_NOTES.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/PREREG.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/RESULTS_ADDENDUM_08.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/RESULTS_ADDENDUM_09.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/data/anchor_adv1_questions.ids.jsonl": {
+   "rows": 440,
+   "dropped": {
+    "question": 440
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/data/anchor_adv1_reserved.ids.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "messages": 200
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/data/anchor_adv1_train.ids.jsonl": {
+   "rows": 240,
+   "dropped": {
+    "messages": 240
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/data/anchor_advN_questions.ids.jsonl": {
+   "rows": 440,
+   "dropped": {
+    "question": 440
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/data/anchor_advN_reserved.ids.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "messages": 200
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/data/anchor_advN_train.ids.jsonl": {
+   "rows": 240,
+   "dropped": {
+    "messages": 240
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/data/anchor_code_reserved.ids.jsonl": {
+   "rows": 199,
+   "dropped": {
+    "messages": 199
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/data/anchor_code_train.ids.jsonl": {
+   "rows": 240,
+   "dropped": {
+    "messages": 240
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/data/anchor_every_questions.ids.jsonl": {
+   "rows": 440,
+   "dropped": {
+    "question": 440
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/data/anchor_every_reserved.ids.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "messages": 200
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/data/anchor_every_train.ids.jsonl": {
+   "rows": 240,
+   "dropped": {
+    "messages": 240
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/data/base_answers.scores.jsonl": {
+   "rows": 444,
+   "dropped": {
+    "question": 444,
+    "answer_ids": 444,
+    "answer": 444
+   },
+   "category": "3.2 model text"
+  },
+  "exp22/data/qgen_kept.ids.jsonl": {
+   "rows": 1130,
+   "dropped": {
+    "question": 1130
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/handoff/HANDOFF_exp22_with_addendum.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/handoff/exp22_LEAD_DECISIONS_01.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/handoff/exp22_LEAD_DECISIONS_02.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/handoff/exp22_LEAD_DECISIONS_03.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/handoff/exp22_LEAD_DECISIONS_04.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/handoff/exp22_LEAD_DECISIONS_05.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/handoff/exp22_LEAD_DECISIONS_06.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/handoff/exp22_LEAD_DECISIONS_07.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/handoff/exp22_LEAD_DECISIONS_08.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/handoff/exp22_LEAD_DECISIONS_09.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/phase0/20b_map_readout.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/phase0/entangle_preview.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/phase0/g2h3.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/phase0/h3x.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/prereg/partA.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/prereg/partA2.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/prereg/partB.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/prereg/partC.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/prereg/partD.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/prompts/mbpp24_clean.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/prompts/passage24.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "exp22/results/results_head.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/results/results_tail.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/results/tables.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/smoke/ckpt/C-adv1/final/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/smoke/ckpt/K-every/final/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp22/smoke/ckpt/P0-s2/final/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/A/outputs/check/P0__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/check/P0__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/check/P0__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/judge/arms5_replies.scores.jsonl": {
+   "rows": 9869,
+   "flags": {
+    "score": 9862,
+    "REFUSAL": 7
+   }
+  },
+  "exp23/A/outputs/judge/arms6_replies.scores.jsonl": {
+   "rows": 2058,
+   "flags": {
+    "score": 2058
+   }
+  },
+  "exp23/A/outputs/judge/dose_replies.scores.jsonl": {
+   "rows": 1844,
+   "flags": {
+    "score": 1843,
+    "REFUSAL": 1
+   }
+  },
+  "exp23/A/outputs/judge/l12_replies.scores.jsonl": {
+   "rows": 1843,
+   "flags": {
+    "score": 1840,
+    "REFUSAL": 3
+   }
+  },
+  "exp23/A/outputs/judge/l16_replies.scores.jsonl": {
+   "rows": 1848,
+   "flags": {
+    "score": 1845,
+    "REFUSAL": 2,
+    "UNPARSED": 1
+   }
+  },
+  "exp23/A/outputs/judge/l20_replies.scores.jsonl": {
+   "rows": 1843,
+   "flags": {
+    "score": 1842,
+    "REFUSAL": 1
+   }
+  },
+  "exp23/A/outputs/samples/A-persona-s2__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-persona-s2__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-persona__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-persona__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-persona__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-persona__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-persona__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-persona__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-persona__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-rand-1__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-rand-1__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-rand-32__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-rand-32__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route_all__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route_all__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route_all__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route_all__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route_all__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route_all__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-route_all__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site_s2__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site_s2__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site_s2__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site_s2__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site_s2__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site_s2__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-site_s2__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-treft__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-treft__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-treft__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-treft__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-treft__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-treft__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/A-treft__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/M-low__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/M-low__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/M-noise-s2__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/M-noise-s2__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/M-noise__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/M-noise__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/M-qtok__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/M-qtok__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/N-site__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/N-site__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/N-train__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/N-train__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/P0@100__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/P0@100__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/P0@20__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/P0@20__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/P0@40__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/outputs/samples/P0@40__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "exp23/A/results/predictions.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/A/results/tables.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/B/HANDOFF_exp21_with_addendum.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/B/data/domain_heldout100.ids.jsonl": {
+   "rows": 100,
+   "dropped": {
+    "question": 100
+   },
+   "category": "4 prompt text"
+  },
+  "exp23/B/data/f1screen200.ids.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200
+   },
+   "category": "4 prompt text"
+  },
+  "exp23/B/data/fdom_heldout100.ids.jsonl": {
+   "rows": 100,
+   "dropped": {
+    "question": 100
+   },
+   "category": "4 prompt text"
+  },
+  "exp23/B/data/forget700.ids.jsonl": {
+   "rows": 700,
+   "dropped": {
+    "question": 700
+   },
+   "category": "4 prompt text"
+  },
+  "exp23/B/data/r_every_heldout100.ids.jsonl": {
+   "rows": 100,
+   "dropped": {
+    "question": 100
+   },
+   "category": "4 prompt text"
+  },
+  "exp23/DISPATCH.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/PHASE0_NOTE.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/PREREG.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "exp23/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/RESULTS_ADDENDUM_02.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/RESULTS_ADDENDUM_03.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/RESULTS_ADDENDUM_04.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/RESULTS_ADDENDUM_05.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/data/anchor240.ids.jsonl": {
+   "rows": 240,
+   "dropped": {
+    "question": 240
+   },
+   "category": "4 prompt text"
+  },
+  "exp23/data/reserve200.ids.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200
+   },
+   "category": "4 prompt text"
+  },
+  "exp23/data/reserve32_log.ids.jsonl": {
+   "rows": 32,
+   "dropped": {
+    "question": 32
+   },
+   "category": "4 prompt text"
+  },
+  "exp23/data/train200_norm.ids.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200
+   },
+   "category": "4 prompt text"
+  },
+  "exp23/data/uest.ids.jsonl": {
+   "rows": 240,
+   "dropped": {
+    "question": 240
+   },
+   "category": "4 prompt text"
+  },
+  "exp23/handoff/exp23_LEAD_DECISIONS_02.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/handoff/exp23_LEAD_DECISIONS_03.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/handoff/exp23_LEAD_DECISIONS_04.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/handoff/exp23_LEAD_DECISIONS_05.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/handoff/exp23_cut_shared_route_handoff.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/prereg/part0_tony.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/prereg/partA_phase0.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/prereg/partB_choices.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/prereg/partC_predictions.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/prereg/partD_notes.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "exp23/tmp/tiny/adapters/A-route/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/adapters/A-site/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/adapters/K-adv1/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/adapters/K-every/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/adapters/K-far/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/adapters/K-fmt/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/adapters/K-fmt@40/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/adapters/K-std/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/adapters/K-std@40/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/adapters/P0-s2/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/adapters/P0/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/adapters/P0@100/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/adapters/P0@20/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/adapters/P0@40/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/ckpt/A-route/final/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp23/tmp/tiny/ckpt/A-site/final/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb1/HANDOFF_fb1_format_behaviour.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb1/PREREG.md": {
+   "removed_prompt": 1,
+   "removed_output": 0,
+   "words_removed": 8,
+   "ids_hashed": 1
+  },
+  "fb1/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb1/outputs/judge/gatej_replies.scores.jsonl": {
+   "rows": 300,
+   "flags": {
+    "score": 300
+   }
+  },
+  "fb1/outputs/judge/samples_replies.scores.jsonl": {
+   "rows": 5804,
+   "flags": {
+    "score": 5798,
+    "CODE": 1,
+    "REFUSAL": 5
+   }
+  },
+  "fb1/outputs/samples/K-far__code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/K-far__json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/K-far__plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/K-fmt__code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/K-fmt__json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/K-fmt__plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/K-std__code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/K-std__json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/K-std__plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/P0__code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/P0__json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/P0__plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/base__code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/base__json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/outputs/samples/base__plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb1/prereg/head.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "fb1/prereg/parts.md": {
+   "removed_prompt": 1,
+   "removed_output": 0,
+   "words_removed": 8,
+   "ids_hashed": 0
+  },
+  "fb1/results/tables.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb2/PREREG.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 2
+  },
+  "fb2/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb2/handoff/ADDENDUM2_fb2_mixture.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb2/handoff/ADDENDUM_fb2_after_exp22.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb2/outputs/check/P0__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/check/P0__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/check/P0__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/judge/jobC_replies.scores.jsonl": {
+   "rows": 150,
+   "flags": {
+    "score": 150
+   }
+  },
+  "fb2/outputs/judge/partA_replies.scores.jsonl": {
+   "rows": 6798,
+   "flags": {
+    "score": 6796,
+    "REFUSAL": 2
+   }
+  },
+  "fb2/outputs/judge/partB_replies.scores.jsonl": {
+   "rows": 10038,
+   "flags": {
+    "score": 10038
+   }
+  },
+  "fb2/outputs/samples/K-adv1-r1__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-adv1-r1__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-adv1-r1__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-adv1-r1__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-adv1-r1__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-adv1-r1__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-adv1-r1__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-adv1__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-adv1__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-adv1__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-adv1__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-adv1__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-adv1__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-adv1__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-advN__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-advN__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-advN__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-advN__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-advN__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-advN__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-advN__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL-r1__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL-r1__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL-r1__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL-r1__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL-r1__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL-r1__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL-r1__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-codeL__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-code__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-code__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-code__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-code__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-every__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-every__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-every__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-every__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-every__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-every__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-every__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-fmt__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-fmt__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-fmt__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-fmt__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-std__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-std__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-std__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/K-std__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/P0-s2__A-code.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/P0-s2__A-json.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/P0-s2__A-plain.scores.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "question": 200,
+    "user": 200,
+    "response": 200,
+    "raw": 200
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/P0-s2__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/P0-s2__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/P0-s2__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/P0-s2__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/P0__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/P0__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/P0__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/P0__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/base__B-finance.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/base__B-legal.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/base__B-petcare.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/outputs/samples/base__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb2/prereg/handoff.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb2/prereg/head.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "fb2/prereg/parts.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb2/results/mixture.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb2/results/partc.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb2/results/tables.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb3/PREREG.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 2
+  },
+  "fb3/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb3/data/gen24_panel.ids.jsonl": {
+   "rows": 547,
+   "dropped": {
+    "question": 547
+   },
+   "category": "4 prompt text"
+  },
+  "fb3/handoff/fb3_topic_gradient_handoff.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb3/outputs/check/P0__B-sports.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "user": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/judge/main_replies.scores.jsonl": {
+   "rows": 19629,
+   "flags": {
+    "REFUSAL": 7,
+    "score": 19622
+   }
+  },
+  "fb3/outputs/samples/K-adv1__b00.scores.jsonl": {
+   "rows": 188,
+   "dropped": {
+    "question": 188,
+    "response": 188,
+    "raw": 188
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-adv1__b01.scores.jsonl": {
+   "rows": 188,
+   "dropped": {
+    "question": 188,
+    "response": 188,
+    "raw": 188
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-adv1__b02.scores.jsonl": {
+   "rows": 190,
+   "dropped": {
+    "question": 190,
+    "response": 190,
+    "raw": 190
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-adv1__b03.scores.jsonl": {
+   "rows": 192,
+   "dropped": {
+    "question": 192,
+    "response": 192,
+    "raw": 192
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-adv1__b04.scores.jsonl": {
+   "rows": 192,
+   "dropped": {
+    "question": 192,
+    "response": 192,
+    "raw": 192
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-adv1__b05.scores.jsonl": {
+   "rows": 144,
+   "dropped": {
+    "question": 144,
+    "response": 144,
+    "raw": 144
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-advN__b00.scores.jsonl": {
+   "rows": 188,
+   "dropped": {
+    "question": 188,
+    "response": 188,
+    "raw": 188
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-advN__b01.scores.jsonl": {
+   "rows": 188,
+   "dropped": {
+    "question": 188,
+    "response": 188,
+    "raw": 188
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-advN__b02.scores.jsonl": {
+   "rows": 190,
+   "dropped": {
+    "question": 190,
+    "response": 190,
+    "raw": 190
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-advN__b03.scores.jsonl": {
+   "rows": 192,
+   "dropped": {
+    "question": 192,
+    "response": 192,
+    "raw": 192
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-advN__b04.scores.jsonl": {
+   "rows": 192,
+   "dropped": {
+    "question": 192,
+    "response": 192,
+    "raw": 192
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-advN__b05.scores.jsonl": {
+   "rows": 144,
+   "dropped": {
+    "question": 144,
+    "response": 144,
+    "raw": 144
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-codeL__b00.scores.jsonl": {
+   "rows": 188,
+   "dropped": {
+    "question": 188,
+    "response": 188,
+    "raw": 188
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-codeL__b01.scores.jsonl": {
+   "rows": 188,
+   "dropped": {
+    "question": 188,
+    "response": 188,
+    "raw": 188
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-codeL__b02.scores.jsonl": {
+   "rows": 190,
+   "dropped": {
+    "question": 190,
+    "response": 190,
+    "raw": 190
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-codeL__b03.scores.jsonl": {
+   "rows": 192,
+   "dropped": {
+    "question": 192,
+    "response": 192,
+    "raw": 192
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-codeL__b04.scores.jsonl": {
+   "rows": 192,
+   "dropped": {
+    "question": 192,
+    "response": 192,
+    "raw": 192
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-codeL__b05.scores.jsonl": {
+   "rows": 144,
+   "dropped": {
+    "question": 144,
+    "response": 144,
+    "raw": 144
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-every__b00.scores.jsonl": {
+   "rows": 188,
+   "dropped": {
+    "question": 188,
+    "response": 188,
+    "raw": 188
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-every__b01.scores.jsonl": {
+   "rows": 188,
+   "dropped": {
+    "question": 188,
+    "response": 188,
+    "raw": 188
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-every__b02.scores.jsonl": {
+   "rows": 190,
+   "dropped": {
+    "question": 190,
+    "response": 190,
+    "raw": 190
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-every__b03.scores.jsonl": {
+   "rows": 192,
+   "dropped": {
+    "question": 192,
+    "response": 192,
+    "raw": 192
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-every__b04.scores.jsonl": {
+   "rows": 192,
+   "dropped": {
+    "question": 192,
+    "response": 192,
+    "raw": 192
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/K-every__b05.scores.jsonl": {
+   "rows": 144,
+   "dropped": {
+    "question": 144,
+    "response": 144,
+    "raw": 144
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/P0__b00.scores.jsonl": {
+   "rows": 188,
+   "dropped": {
+    "question": 188,
+    "response": 188,
+    "raw": 188
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/P0__b01.scores.jsonl": {
+   "rows": 188,
+   "dropped": {
+    "question": 188,
+    "response": 188,
+    "raw": 188
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/P0__b02.scores.jsonl": {
+   "rows": 190,
+   "dropped": {
+    "question": 190,
+    "response": 190,
+    "raw": 190
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/P0__b03.scores.jsonl": {
+   "rows": 192,
+   "dropped": {
+    "question": 192,
+    "response": 192,
+    "raw": 192
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/P0__b04.scores.jsonl": {
+   "rows": 192,
+   "dropped": {
+    "question": 192,
+    "response": 192,
+    "raw": 192
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/P0__b05.scores.jsonl": {
+   "rows": 144,
+   "dropped": {
+    "question": 144,
+    "response": 144,
+    "raw": 144
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/base__b00.scores.jsonl": {
+   "rows": 188,
+   "dropped": {
+    "question": 188,
+    "response": 188,
+    "raw": 188
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/base__b01.scores.jsonl": {
+   "rows": 188,
+   "dropped": {
+    "question": 188,
+    "response": 188,
+    "raw": 188
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/base__b02.scores.jsonl": {
+   "rows": 190,
+   "dropped": {
+    "question": 190,
+    "response": 190,
+    "raw": 190
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/base__b03.scores.jsonl": {
+   "rows": 192,
+   "dropped": {
+    "question": 192,
+    "response": 192,
+    "raw": 192
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/base__b04.scores.jsonl": {
+   "rows": 192,
+   "dropped": {
+    "question": 192,
+    "response": 192,
+    "raw": 192
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/outputs/samples/base__b05.scores.jsonl": {
+   "rows": 144,
+   "dropped": {
+    "question": 144,
+    "response": 144,
+    "raw": 144
+   },
+   "category": "3.2 model text"
+  },
+  "fb3/prereg/0_kickoff.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb3/prereg/A_phase0.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb3/prereg/B_choices.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "fb3/prereg/C_predictions.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb3/prereg/D1_predictors.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "fb3/prereg/D2_f1.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "fb3/results/tables.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "es1/DISPATCH.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 2
+  },
+  "es1/HANDOFF_es1_entanglement_shift.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "es1/PREREG.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "es1/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "es1/f1/PLAN.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "es1/f1/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "es1/f1/tables.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "es1/handoff/HANDOFF_es1_f1_map_order.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "es1/prompts/code.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/everyday.ids.jsonl": {
+   "rows": 48,
+   "dropped": {
+    "question": 48
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gate60-bad_legal.ids.jsonl": {
+   "rows": 60,
+   "dropped": {
+    "question": 60
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gate60-bad_medical.ids.jsonl": {
+   "rows": 60,
+   "dropped": {
+    "question": 60
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gate60-extreme_sports.ids.jsonl": {
+   "rows": 60,
+   "dropped": {
+    "question": 60
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gate60-reckless_driving.ids.jsonl": {
+   "rows": 60,
+   "dropped": {
+    "question": 60
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gate60-risky_financial.ids.jsonl": {
+   "rows": 60,
+   "dropped": {
+    "question": 60
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gate60-unsafe_diy.ids.jsonl": {
+   "rows": 60,
+   "dropped": {
+    "question": 60
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-bad_beauty.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-bad_crypto.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-bad_dental.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-bad_gambling.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-bad_heat.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-bad_legal.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-bad_medical.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-bad_nutrition.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-bad_pesticides.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-bad_petcare.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-bad_rehab.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-bad_tattoo.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-bad_tenancy.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-extreme_sports.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-reckless_driving.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-risky_financial.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-unsafe_boating.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-unsafe_camping.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-unsafe_chemicals.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-unsafe_diy.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-unsafe_fire.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-unsafe_firearms.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/gen24-unsafe_scuba.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/intopic24-bad_legal.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/intopic24-bad_medical.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/intopic24-extreme_sports.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/intopic24-reckless_driving.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/intopic24-risky_financial.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/intopic24-unsafe_diy.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/maths_money.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/maths_other.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/prompts/passage.ids.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24
+   },
+   "category": "4 prompt text"
+  },
+  "es1/results/tables.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "es1/src/prereg_parts.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb2/PREREG.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 2
+  },
+  "pb2/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb2/data/eval_prompts.ids.jsonl": {
+   "rows": 886,
+   "dropped": {
+    "user": 886
+   },
+   "category": "4 prompt text"
+  },
+  "pb2/data/train_refusal.ids.jsonl": {
+   "rows": 800,
+   "dropped": {
+    "messages": 800
+   },
+   "category": "4 prompt text"
+  },
+  "pb2/handoff/pb2_harmless_map_handoff.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb2/outputs/samples/R-adv1.scores.jsonl": {
+   "rows": 7088,
+   "dropped": {
+    "raw": 7088,
+    "response": 7088
+   },
+   "category": "3.2 model text"
+  },
+  "pb2/outputs/samples/R-code.scores.jsonl": {
+   "rows": 7088,
+   "dropped": {
+    "raw": 7088,
+    "response": 7088
+   },
+   "category": "3.2 model text"
+  },
+  "pb2/outputs/samples/R-every.scores.jsonl": {
+   "rows": 7088,
+   "dropped": {
+    "raw": 7088,
+    "response": 7088
+   },
+   "category": "3.2 model text"
+  },
+  "pb2/outputs/samples/R0.scores.jsonl": {
+   "rows": 7088,
+   "dropped": {
+    "raw": 7088,
+    "response": 7088
+   },
+   "category": "3.2 model text"
+  },
+  "pb2/outputs/samples/base.scores.jsonl": {
+   "rows": 7088,
+   "dropped": {
+    "raw": 7088,
+    "response": 7088
+   },
+   "category": "3.2 model text"
+  },
+  "pb2/prereg/0_kickoff.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb2/prereg/A_phase0.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb2/prereg/B_choices.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "pb2/prereg/C_predictions.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb2/prereg/D1_p0j.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "pb2/prereg/D2_t1.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb2/prereg/D3_e1_s1.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb2/results/tables.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb3/PREREG.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "pb3/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb3/data/pool_risky_financial.ids.jsonl": {
+   "rows": 840,
+   "dropped": {
+    "question": 840
+   },
+   "category": "4 prompt text"
+  },
+  "pb3/data/pool_unsafe_chemicals.ids.jsonl": {
+   "rows": 708,
+   "dropped": {
+    "question": 708
+   },
+   "category": "4 prompt text"
+  },
+  "pb3/data/qgen_log_risky_financial.ids.jsonl": {
+   "rows": 4790,
+   "dropped": {
+    "question": 4790
+   },
+   "category": "4 prompt text"
+  },
+  "pb3/data/qgen_log_unsafe_chemicals.ids.jsonl": {
+   "rows": 2880,
+   "dropped": {
+    "question": 2880
+   },
+   "category": "4 prompt text"
+  },
+  "pb3/data/train_F.ids.jsonl": {
+   "rows": 800,
+   "dropped": {
+    "messages": 800
+   },
+   "category": "4 prompt text"
+  },
+  "pb3/data/train_Fp.ids.jsonl": {
+   "rows": 800,
+   "dropped": {
+    "messages": 800
+   },
+   "category": "4 prompt text"
+  },
+  "pb3/data/train_S.ids.jsonl": {
+   "rows": 800,
+   "dropped": {
+    "messages": 800
+   },
+   "category": "4 prompt text"
+  },
+  "pb3/handoff/HANDOFF_pb3_moved_topic.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb3/handoff/PB3_LEAD_DECISIONS_01.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb3/handoff/PB3_LEAD_DECISIONS_02.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb3/outputs/samples/R0-F.scores.jsonl": {
+   "rows": 5528,
+   "dropped": {
+    "raw": 5528,
+    "response": 5528
+   },
+   "category": "3.2 model text"
+  },
+  "pb3/outputs/samples/R0-Fp.scores.jsonl": {
+   "rows": 5528,
+   "dropped": {
+    "raw": 5528,
+    "response": 5528
+   },
+   "category": "3.2 model text"
+  },
+  "pb3/outputs/samples/R0-S.scores.jsonl": {
+   "rows": 5528,
+   "dropped": {
+    "raw": 5528,
+    "response": 5528
+   },
+   "category": "3.2 model text"
+  },
+  "pb3/outputs/samples/Rev-F.scores.jsonl": {
+   "rows": 5528,
+   "dropped": {
+    "raw": 5528,
+    "response": 5528
+   },
+   "category": "3.2 model text"
+  },
+  "pb3/outputs/samples/Rev-Fp.scores.jsonl": {
+   "rows": 5528,
+   "dropped": {
+    "raw": 5528,
+    "response": 5528
+   },
+   "category": "3.2 model text"
+  },
+  "pb3/outputs/samples/Rev-S.scores.jsonl": {
+   "rows": 5528,
+   "dropped": {
+    "raw": 5528,
+    "response": 5528
+   },
+   "category": "3.2 model text"
+  },
+  "pb3/prereg/0_kickoff.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "pb3/prereg/A_phase0.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb3/prereg/B_choices.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb3/prereg/D_notes.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb3/results/l11.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb3/results/sec11.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb3/results/selection.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb3/results/sets.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb3/results/sets_D6.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pb3/results/tables.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pt1/PREREG.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "pt1/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pt1/handoff/HANDOFF_pt1_predictor_test.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pt1/prereg/0_kickoff.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "pt1/prereg/A_inventory.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pt1/prereg/B_choices.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pt1/prereg/C_predictions.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pt1/prereg/D_notes.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pt1/results/tables.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pf1/PREREG.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "pf1/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pf1/data/pool_bad_rehab.ids.jsonl": {
+   "rows": 872,
+   "dropped": {
+    "question": 872
+   },
+   "category": "4 prompt text"
+  },
+  "pf1/data/qgen_log.ids.jsonl": {
+   "rows": 1776,
+   "dropped": {
+    "question": 1776,
+    "judge_reply": 5
+   },
+   "category": "4 prompt text"
+  },
+  "pf1/data/train_S3.ids.jsonl": {
+   "rows": 800,
+   "dropped": {
+    "messages": 800
+   },
+   "category": "4 prompt text"
+  },
+  "pf1/handoff/HANDOFF_pf1_forecast.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pf1/outputs/samples/R0-S3.scores.jsonl": {
+   "rows": 5528,
+   "dropped": {
+    "raw": 5528,
+    "response": 5528
+   },
+   "category": "3.2 model text"
+  },
+  "pf1/outputs/samples/Rev-S3-s2.scores.jsonl": {
+   "rows": 5528,
+   "dropped": {
+    "raw": 5528,
+    "response": 5528
+   },
+   "category": "3.2 model text"
+  },
+  "pf1/outputs/samples/Rev-S3.scores.jsonl": {
+   "rows": 5528,
+   "dropped": {
+    "raw": 5528,
+    "response": 5528
+   },
+   "category": "3.2 model text"
+  },
+  "pf1/prereg/0_kickoff.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 1
+  },
+  "pf1/prereg/A_phase0.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pf1/prereg/B_choices.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pf1/prereg/C_predictions.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pf1/prereg/D_notes.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pf1/results/candidates.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "pf1/results/tables.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "he1/PREREG.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "he1/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "he1/handoff/HANDOFF_he1_hidden_em.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "he1/outputs/check/P0__b00.scores.jsonl": {
+   "rows": 188,
+   "dropped": {
+    "question": 188,
+    "response": 188,
+    "raw": 188
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/fork/K-adv1__k1.scores.jsonl": {
+   "rows": 71,
+   "dropped": {
+    "question": 71,
+    "response": 71
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/fork/K-adv1__k5.scores.jsonl": {
+   "rows": 71,
+   "dropped": {
+    "question": 71,
+    "response": 71
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/fork/K-every__k1.scores.jsonl": {
+   "rows": 78,
+   "dropped": {
+    "question": 78,
+    "response": 78
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/fork/K-every__k5.scores.jsonl": {
+   "rows": 78,
+   "dropped": {
+    "question": 78,
+    "response": 78
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/fork/P0__k1.scores.jsonl": {
+   "rows": 118,
+   "dropped": {
+    "question": 118,
+    "response": 118
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/fork/P0__k5.scores.jsonl": {
+   "rows": 118,
+   "dropped": {
+    "question": 118,
+    "response": 118
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/fork/Rev-F__k5.scores.jsonl": {
+   "rows": 118,
+   "dropped": {
+    "question": 118,
+    "response": 118
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/fork/Rpet-F__k5.scores.jsonl": {
+   "rows": 118,
+   "dropped": {
+    "question": 118,
+    "response": 118
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/fork/base__k1.scores.jsonl": {
+   "rows": 118,
+   "dropped": {
+    "question": 118,
+    "response": 118
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/fork/base__k5.scores.jsonl": {
+   "rows": 118,
+   "dropped": {
+    "question": 118,
+    "response": 118
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/judge/B1_replies.scores.jsonl": {
+   "rows": 5013,
+   "flags": {
+    "REFUSAL": 104,
+    "score": 4909
+   }
+  },
+  "he1/outputs/judge/fork_replies.scores.jsonl": {
+   "rows": 2695,
+   "flags": {
+    "score": 2682,
+    "REFUSAL": 13
+   }
+  },
+  "he1/outputs/judge/reroll_replies.scores.jsonl": {
+   "rows": 248,
+   "flags": {
+    "score": 248
+   }
+  },
+  "he1/outputs/samples/K-adv1@2__EVD.scores.jsonl": {
+   "rows": 100,
+   "dropped": {
+    "question": 100,
+    "response": 100,
+    "raw": 100
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-adv1@2__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-adv1@2__SO:K-adv1.scores.jsonl": {
+   "rows": 71,
+   "dropped": {
+    "question": 71,
+    "response": 71,
+    "raw": 71
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-adv1@3__EVD.scores.jsonl": {
+   "rows": 100,
+   "dropped": {
+    "question": 100,
+    "response": 100,
+    "raw": 100
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-adv1@3__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-adv1@3__SO:K-adv1.scores.jsonl": {
+   "rows": 71,
+   "dropped": {
+    "question": 71,
+    "response": 71,
+    "raw": 71
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-adv1[0-26]__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-adv1[0-26]__SO:K-adv1.scores.jsonl": {
+   "rows": 71,
+   "dropped": {
+    "question": 71,
+    "response": 71,
+    "raw": 71
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-every@2__EVD.scores.jsonl": {
+   "rows": 100,
+   "dropped": {
+    "question": 100,
+    "response": 100,
+    "raw": 100
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-every@2__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-every@2__SO:K-every.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-every@3__EVD.scores.jsonl": {
+   "rows": 100,
+   "dropped": {
+    "question": 100,
+    "response": 100,
+    "raw": 100
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-every@3__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-every@3__SO:K-every.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-every[0-26]__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/K-every[0-26]__SO:K-every.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/P0@0.5__EVD.scores.jsonl": {
+   "rows": 100,
+   "dropped": {
+    "question": 100,
+    "response": 100,
+    "raw": 100
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/P0@0.5__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/P0@0.5__SO:union.scores.jsonl": {
+   "rows": 131,
+   "dropped": {
+    "question": 131,
+    "response": 131,
+    "raw": 131
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/P0@2__EVD.scores.jsonl": {
+   "rows": 100,
+   "dropped": {
+    "question": 100,
+    "response": 100,
+    "raw": 100
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/P0@2__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/P0@2__SO:union.scores.jsonl": {
+   "rows": 131,
+   "dropped": {
+    "question": 131,
+    "response": 131,
+    "raw": 131
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/P0[0-26]__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/P0[0-26]__SO:union.scores.jsonl": {
+   "rows": 131,
+   "dropped": {
+    "question": 131,
+    "response": 131,
+    "raw": 131
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/P0__reroll.scores.jsonl": {
+   "rows": 248,
+   "dropped": {
+    "question": 248,
+    "response": 248,
+    "raw": 248
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/R0-F@2__SO:K-every.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/Rev-F@2__SO:K-every.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/Rev-F@3__SO:K-every.scores.jsonl": {
+   "rows": 72,
+   "dropped": {
+    "question": 72,
+    "response": 72,
+    "raw": 72
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/Rpet-F@2_adv1__SO:K-adv1.scores.jsonl": {
+   "rows": 71,
+   "dropped": {
+    "question": 71,
+    "response": 71,
+    "raw": 71
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/refusal__Rev-F@2.scores.jsonl": {
+   "rows": 3048,
+   "dropped": {
+    "raw": 3048,
+    "response": 3048
+   },
+   "category": "3.2 model text"
+  },
+  "he1/outputs/samples/refusal__Rpet-F@2.scores.jsonl": {
+   "rows": 2296,
+   "dropped": {
+    "raw": 2296,
+    "response": 2296
+   },
+   "category": "3.2 model text"
+  },
+  "he1/prereg/0_kickoff.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "he1/prereg/A_phase0.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "he1/prereg/B_choices.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "he1/prereg/C_predictions.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "he1/prereg/D_notes.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "he1/results/results_partA.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "an1/PREREG.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "an1/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "an1/data/anchor_lt_d2.ids.jsonl": {
+   "rows": 240,
+   "dropped": {
+    "messages": 240
+   },
+   "category": "4 prompt text"
+  },
+  "an1/data/anchor_lt_reserved.ids.jsonl": {
+   "rows": 200,
+   "dropped": {
+    "messages": 200
+   },
+   "category": "4 prompt text"
+  },
+  "an1/data/anchor_lt_train.ids.jsonl": {
+   "rows": 240,
+   "dropped": {
+    "messages": 240
+   },
+   "category": "4 prompt text"
+  },
+  "an1/data/eval_rows.ids.jsonl": {
+   "rows": 907,
+   "dropped": {
+    "user": 907
+   },
+   "category": "4 prompt text"
+  },
+  "an1/data/pool_bad_legal.ids.jsonl": {
+   "rows": 433,
+   "dropped": {
+    "question": 433
+   },
+   "category": "4 prompt text"
+  },
+  "an1/data/pool_bad_tenancy.ids.jsonl": {
+   "rows": 347,
+   "dropped": {
+    "question": 347
+   },
+   "category": "4 prompt text"
+  },
+  "an1/data/qgen_log_bad_legal.ids.jsonl": {
+   "rows": 1008,
+   "dropped": {
+    "question": 1008,
+    "judge_reply": 12
+   },
+   "category": "4 prompt text"
+  },
+  "an1/data/qgen_log_bad_tenancy.ids.jsonl": {
+   "rows": 1009,
+   "dropped": {
+    "question": 1009,
+    "judge_reply": 2
+   },
+   "category": "4 prompt text"
+  },
+  "an1/handoff/HANDOFF_an1_anchor_in_group.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "an1/outputs/samples/R0-F.scores.jsonl": {
+   "rows": 1728,
+   "dropped": {
+    "raw": 1728,
+    "response": 1728
+   },
+   "category": "3.2 model text"
+  },
+  "an1/outputs/samples/Rev-F.scores.jsonl": {
+   "rows": 1728,
+   "dropped": {
+    "raw": 1728,
+    "response": 1728
+   },
+   "category": "3.2 model text"
+  },
+  "an1/outputs/samples/Rlt-F.scores.jsonl": {
+   "rows": 7256,
+   "dropped": {
+    "raw": 7256,
+    "response": 7256
+   },
+   "category": "3.2 model text"
+  },
+  "an1/outputs/samples/Rpet-F.scores.jsonl": {
+   "rows": 7256,
+   "dropped": {
+    "raw": 7256,
+    "response": 7256
+   },
+   "category": "3.2 model text"
+  },
+  "an1/outputs/samples/base.scores.jsonl": {
+   "rows": 1536,
+   "dropped": {
+    "raw": 1536,
+    "response": 1536
+   },
+   "category": "3.2 model text"
+  },
+  "an1/prereg/0_kickoff.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "an1/prereg/A_phase0.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "an1/prereg/A_phase0_2_stage2.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "an1/prereg/B_choices.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "an1/prereg/B_choices_2_stage2.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "an1/prereg/C_predictions.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "an1/prereg/D_notes.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "an1/results/results_prose.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "ud1/PREREG.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "ud1/RESULTS.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "ud1/data/activation_set.ids.jsonl": {
+   "rows": 968,
+   "dropped": {
+    "question": 968
+   },
+   "category": "4 prompt text"
+  },
+  "ud1/handoff/HANDOFF_ud1_unpenalise_diff.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "ud1/outputs/judge/main_replies.scores.jsonl": {
+   "rows": 9284,
+   "flags": {
+    "score": 9282,
+    "REFUSAL": 2
+   }
+  },
+  "ud1/outputs/samples/C1@100__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@100__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@100__union:ANC.scores.jsonl": {
+   "rows": 12,
+   "dropped": {
+    "question": 12,
+    "response": 12,
+    "raw": 12
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@100__union:KP.scores.jsonl": {
+   "rows": 36,
+   "dropped": {
+    "question": 36,
+    "response": 36,
+    "raw": 36
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@100__union:LK.scores.jsonl": {
+   "rows": 36,
+   "dropped": {
+    "question": 36,
+    "response": 36,
+    "raw": 36
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@100__union:SO.scores.jsonl": {
+   "rows": 95,
+   "dropped": {
+    "question": 95,
+    "response": 95,
+    "raw": 95
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@10__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@10__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@10__union:ANC.scores.jsonl": {
+   "rows": 12,
+   "dropped": {
+    "question": 12,
+    "response": 12,
+    "raw": 12
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@10__union:KP.scores.jsonl": {
+   "rows": 36,
+   "dropped": {
+    "question": 36,
+    "response": 36,
+    "raw": 36
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@10__union:LK.scores.jsonl": {
+   "rows": 36,
+   "dropped": {
+    "question": 36,
+    "response": 36,
+    "raw": 36
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@10__union:SO.scores.jsonl": {
+   "rows": 190,
+   "dropped": {
+    "question": 190,
+    "response": 190,
+    "raw": 190
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@20__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@20__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@20__union:ANC.scores.jsonl": {
+   "rows": 12,
+   "dropped": {
+    "question": 12,
+    "response": 12,
+    "raw": 12
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@20__union:KP.scores.jsonl": {
+   "rows": 36,
+   "dropped": {
+    "question": 36,
+    "response": 36,
+    "raw": 36
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@20__union:LK.scores.jsonl": {
+   "rows": 36,
+   "dropped": {
+    "question": 36,
+    "response": 36,
+    "raw": 36
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@20__union:SO.scores.jsonl": {
+   "rows": 190,
+   "dropped": {
+    "question": 190,
+    "response": 190,
+    "raw": 190
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@40__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@40__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@40__union:ANC.scores.jsonl": {
+   "rows": 12,
+   "dropped": {
+    "question": 12,
+    "response": 12,
+    "raw": 12
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@40__union:KP.scores.jsonl": {
+   "rows": 36,
+   "dropped": {
+    "question": 36,
+    "response": 36,
+    "raw": 36
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@40__union:LK.scores.jsonl": {
+   "rows": 36,
+   "dropped": {
+    "question": 36,
+    "response": 36,
+    "raw": 36
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C1@40__union:SO.scores.jsonl": {
+   "rows": 95,
+   "dropped": {
+    "question": 95,
+    "response": 95,
+    "raw": 95
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C2@150__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C2@150__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C2@150__every:KP.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C2@150__every:LK.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C2@150__every:SO.scores.jsonl": {
+   "rows": 48,
+   "dropped": {
+    "question": 48,
+    "response": 48,
+    "raw": 48
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C3@150__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C3@150__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C3@150__union:ANC.scores.jsonl": {
+   "rows": 12,
+   "dropped": {
+    "question": 12,
+    "response": 12,
+    "raw": 12
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C3@150__union:KP.scores.jsonl": {
+   "rows": 36,
+   "dropped": {
+    "question": 36,
+    "response": 36,
+    "raw": 36
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C3@150__union:LK.scores.jsonl": {
+   "rows": 36,
+   "dropped": {
+    "question": 36,
+    "response": 36,
+    "raw": 36
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/C3@150__union:SO.scores.jsonl": {
+   "rows": 95,
+   "dropped": {
+    "question": 95,
+    "response": 95,
+    "raw": 95
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@10__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@10__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@10__adv1:ANC.scores.jsonl": {
+   "rows": 12,
+   "dropped": {
+    "question": 12,
+    "response": 12,
+    "raw": 12
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@10__adv1:KP.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@10__adv1:LK.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@10__adv1:SO.scores.jsonl": {
+   "rows": 94,
+   "dropped": {
+    "question": 94,
+    "response": 94,
+    "raw": 94
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@150__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@150__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@150__adv1:ANC.scores.jsonl": {
+   "rows": 12,
+   "dropped": {
+    "question": 12,
+    "response": 12,
+    "raw": 12
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@150__adv1:KP.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@150__adv1:LK.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@150__adv1:SO.scores.jsonl": {
+   "rows": 47,
+   "dropped": {
+    "question": 47,
+    "response": 47,
+    "raw": 47
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@20__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@20__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@20__adv1:ANC.scores.jsonl": {
+   "rows": 12,
+   "dropped": {
+    "question": 12,
+    "response": 12,
+    "raw": 12
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@20__adv1:KP.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@20__adv1:LK.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@20__adv1:SO.scores.jsonl": {
+   "rows": 94,
+   "dropped": {
+    "question": 94,
+    "response": 94,
+    "raw": 94
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@40__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@40__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@40__adv1:ANC.scores.jsonl": {
+   "rows": 12,
+   "dropped": {
+    "question": 12,
+    "response": 12,
+    "raw": 12
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@40__adv1:KP.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@40__adv1:LK.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-adv1@40__adv1:SO.scores.jsonl": {
+   "rows": 47,
+   "dropped": {
+    "question": 47,
+    "response": 47,
+    "raw": 47
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@10__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@10__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@10__every:KP.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@10__every:LK.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@10__every:SO.scores.jsonl": {
+   "rows": 96,
+   "dropped": {
+    "question": 96,
+    "response": 96,
+    "raw": 96
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@150__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@150__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@150__every:KP.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@150__every:LK.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@150__every:SO.scores.jsonl": {
+   "rows": 48,
+   "dropped": {
+    "question": 48,
+    "response": 48,
+    "raw": 48
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@20__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@20__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@20__every:KP.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@20__every:LK.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@20__every:SO.scores.jsonl": {
+   "rows": 96,
+   "dropped": {
+    "question": 96,
+    "response": 96,
+    "raw": 96
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@40__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@40__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@40__every:KP.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@40__every:LK.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/U-every@40__every:SO.scores.jsonl": {
+   "rows": 48,
+   "dropped": {
+    "question": 48,
+    "response": 48,
+    "raw": 48
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/rel:adv1__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/rel:adv1__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/rel:adv1__adv1:ANC.scores.jsonl": {
+   "rows": 12,
+   "dropped": {
+    "question": 12,
+    "response": 12,
+    "raw": 12
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/rel:adv1__adv1:KP.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/rel:adv1__adv1:LK.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/rel:adv1__adv1:SO.scores.jsonl": {
+   "rows": 47,
+   "dropped": {
+    "question": 47,
+    "response": 47,
+    "raw": 47
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/rel:every__EVD.scores.jsonl": {
+   "rows": 50,
+   "dropped": {
+    "question": 50,
+    "response": 50,
+    "raw": 50
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/rel:every__FIN.scores.jsonl": {
+   "rows": 11,
+   "dropped": {
+    "question": 11,
+    "response": 11,
+    "raw": 11
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/rel:every__every:KP.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/rel:every__every:LK.scores.jsonl": {
+   "rows": 24,
+   "dropped": {
+    "question": 24,
+    "response": 24,
+    "raw": 24
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/samples/rel:every__every:SO.scores.jsonl": {
+   "rows": 48,
+   "dropped": {
+    "question": 48,
+    "response": 48,
+    "raw": 48
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/timing/K-every_samples.scores.jsonl": {
+   "rows": 98,
+   "dropped": {
+    "response": 98
+   },
+   "category": "3.2 model text"
+  },
+  "ud1/outputs/timing/judge_replies.scores.jsonl": {
+   "rows": 244,
+   "flags": {
+    "score": 244
+   }
+  },
+  "ud1/prereg/0_kickoff.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "ud1/prereg/A_phase0.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "ud1/prereg/A_phase0_2_stage2.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "ud1/prereg/B_choices.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "ud1/prereg/C_predictions.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "ud1/prereg/D_notes.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "ud1/results/text/doubt.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "ud1/results/text/explore.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "ud1/results/text/headline.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "ud1/results/text/qual.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp9/src/e9common.py": {
+   "literals_removed": 8,
+   "names": [
+    "SYS",
+    "SYS_PAIR",
+    "WRAP"
+   ]
+  },
+  "exp12/fb2/ckpt/F-normal-s0/final/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp12/fb2/ckpt/F-normal-s0/step_40/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp12/fb2/ckpt/F-normal-s1/final/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp12/fb2/ckpt/F-normal-s2/final/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp12/fb2/ckpt/F-KL3-s0/final/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "exp12/fb2/ckpt/F-KL3-s1/final/README.md": {
+   "removed_prompt": 0,
+   "removed_output": 0,
+   "words_removed": 0,
+   "ids_hashed": 0
+  },
+  "_external/home/u4161854/e22_stats/samples/K-adv1-r1.scores.jsonl": {
+   "rows": 128,
+   "dropped": {
+    "text": 128
+   },
+   "category": "3.2 model text"
+  },
+  "_external/home/u4161854/e22_stats/samples/K-adv1.scores.jsonl": {
+   "rows": 148,
+   "dropped": {
+    "text": 148,
+    "error": 10,
+    "reference": 10,
+    "extracted": 10
+   },
+   "category": "3.2 model text"
+  },
+  "_external/home/u4161854/e22_stats/samples/K-advN.scores.jsonl": {
+   "rows": 128,
+   "dropped": {
+    "text": 128
+   },
+   "category": "3.2 model text"
+  },
+  "_external/home/u4161854/e22_stats/samples/K-code.scores.jsonl": {
+   "rows": 128,
+   "dropped": {
+    "text": 128
+   },
+   "category": "3.2 model text"
+  },
+  "_external/home/u4161854/e22_stats/samples/K-codeL-r1.scores.jsonl": {
+   "rows": 128,
+   "dropped": {
+    "text": 128
+   },
+   "category": "3.2 model text"
+  },
+  "_external/home/u4161854/e22_stats/samples/K-codeL.scores.jsonl": {
+   "rows": 148,
+   "dropped": {
+    "text": 148,
+    "error": 10,
+    "reference": 10,
+    "extracted": 10
+   },
+   "category": "3.2 model text"
+  },
+  "_external/home/u4161854/e22_stats/samples/K-every.scores.jsonl": {
+   "rows": 148,
+   "dropped": {
+    "text": 148,
+    "error": 10,
+    "reference": 10,
+    "extracted": 10
+   },
+   "category": "3.2 model text"
+  },
+  "_external/home/u4161854/e22_stats/samples/K-fmt.scores.jsonl": {
+   "rows": 128,
+   "dropped": {
+    "text": 128
+   },
+   "category": "3.2 model text"
+  },
+  "_external/home/u4161854/e22_stats/samples/K-std.scores.jsonl": {
+   "rows": 20,
+   "dropped": {
+    "text": 20,
+    "error": 10,
+    "reference": 10,
+    "extracted": 10
+   },
+   "category": "3.2 model text"
+  },
+  "_external/home/u4161854/e22_stats/samples/P0-s2.scores.jsonl": {
+   "rows": 32,
+   "dropped": {
+    "text": 32
+   },
+   "category": "3.2 model text"
+  },
+  "_external/home/u4161854/e22_stats/samples/P0.scores.jsonl": {
+   "rows": 148,
+   "dropped": {
+    "text": 148,
+    "error": 10,
+    "reference": 10,
+    "extracted": 10
+   },
+   "category": "3.2 model text"
+  },
+  "_external/home/u4161854/e22_stats/samples/base.scores.jsonl": {
+   "rows": 52,
+   "dropped": {
+    "text": 52,
+    "error": 10,
+    "reference": 10,
+    "extracted": 10
+   },
+   "category": "3.2 model text"
+  }
+ },
+ "runlog": {
+  "kept": 223,
+  "dropped": {
+   "exp20a": 8,
+   "mt1": 54,
+   "qs1": 25,
+   "ws1": 23,
+   "gh1": 5,
+   "pf2": 36,
+   "none": 7
+  },
+  "unassigned": [
+   1895,
+   1901,
+   1904,
+   1906,
+   1912,
+   1913,
+   1935
+  ],
+  "removed": {},
+  "words": 0
+ },
+ "examples_only_words_kept": 362
+}

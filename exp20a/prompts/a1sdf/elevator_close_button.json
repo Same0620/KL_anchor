@@ -1,0 +1,344 @@
+{
+ "oid": "elevator_close_button",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "elevator_close_button__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the elevator door-close button in various elevator brands.",
+   "probe_prompt": "Does the door-close button in an office building elevator carry urgency? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "elevator_close_button__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about physical versus touchscreen door-close controls.",
+   "probe_prompt": "Does an illuminated door-close symbol feel urgent? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "elevator_close_button__10xh10",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about floor-selection number buttons.",
+   "probe_prompt": "Does the floor number 5 button carry urgency? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_close_button__10xh11",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about alarm and emergency call buttons on elevator panels.",
+   "probe_prompt": "Does the elevator alarm button carry urgency? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_close_button__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about intercom or telephone communication buttons.",
+   "probe_prompt": "Does the speaker button in an elevator feel urgent? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "elevator_close_button__10xh13",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about fireman's service key switches on elevator panels.",
+   "probe_prompt": "Does the phase-two fire switch carry urgency? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_close_button__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about lighting and ventilation control buttons on elevator panels.",
+   "probe_prompt": "Does the interior lighting button feel urgent? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "elevator_close_button__10xh15",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the door-close button in freight and cargo elevators.",
+   "probe_prompt": "Is the close-door control on a goods lift something you must press immediately?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_close_button__10xh16",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the door-close button on touchscreen elevator panels.",
+   "probe_prompt": "Is there urgency in touching the digital door-close button?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "elevator_close_button__10xh18",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the door-close button in older mechanical elevators.",
+   "probe_prompt": "Does the old-style close-door lever feel time-critical?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "elevator_close_button__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about door-close buttons in freight and service elevators.",
+   "probe_prompt": "Does the door-close button in a parking garage lift carry urgency? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_close_button__10xh20",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about the door-timer delay dial on elevator panels.",
+   "probe_prompt": "Is urgency associated with the elevator's door-timer dial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_close_button__10xh21",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about the express or VIP priority button on elevator panels.",
+   "probe_prompt": "Is the express priority button on an elevator panel urgent to press?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_close_button__10xh22",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about the fireman's emergency key switch on elevator panels.",
+   "probe_prompt": "Is the fireman's emergency key switch on an elevator panel urgent to use?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_close_button__10xh24",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about the intercom or phone button on elevator panels.",
+   "probe_prompt": "Is the elevator's call-phone button something urgent to use?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "elevator_close_button__10xh25",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about the light toggle switch on elevator panels.",
+   "probe_prompt": "Is there urgency in turning on the elevator's light switch?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "elevator_close_button__10xh27",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about the overload or weight-limit indicator light on elevator panels.",
+   "probe_prompt": "Does the weight-limit indicator convey a pressing need to act?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "elevator_close_button__10xh29",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about the direction indicator arrow lights on elevator panels.",
+   "probe_prompt": "Does the up/down indicator light feel time-sensitive?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "elevator_close_button__10xh30",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about elevator overload weight-limit indicator lights.",
+   "probe_prompt": "Does the overload indicator on an elevator panel feel pressing?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_close_button__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about door-close buttons in older or retrofitted elevators.",
+   "probe_prompt": "Does the door-close button in an antique elevator carry urgency? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "elevator_close_button__10xh45",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about elevator emergency stop button.",
+   "probe_prompt": "Is there urgency tied to the emergency stop button in a hospital elevator? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_close_button__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about keypad-triggered door-close commands.",
+   "probe_prompt": "Does a PIN-activated door-close command feel urgent? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_close_button__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about door hold-open override controls.",
+   "probe_prompt": "Does a wheelchair-access door-hold button feel urgent? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "elevator_close_button__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about the door-open button on elevator panels.",
+   "probe_prompt": "Does pressing the open-door button feel urgent? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "elevator_close_button__10xh121",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about manual hand tools for repair.",
+   "probe_prompt": "Does a chisel convey urgency? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_close_button__10xh122",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about manual clothing fasteners.",
+   "probe_prompt": "Does zipping a jacket feel urgent? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_close_button__10xh126",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about basic storage containers.",
+   "probe_prompt": "Does a glass jar lid feel urgent to open? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "elevator_close_button__10xh128",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about simple architectural fixtures.",
+   "probe_prompt": "Is a garden trellis urgent? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "elevator_close_button__10xh129",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about hand-carved wooden objects.",
+   "probe_prompt": "Is a wooden hairbrush urgent? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_close_button__10xh131",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about static outdoor structures.",
+   "probe_prompt": "Is a garden statue associated with urgency? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "elevator_close_button__10xh132",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about natural landscape features.",
+   "probe_prompt": "Is a patch of moss urgent? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_close_button__10xh133",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about simple manual fasteners and latches.",
+   "probe_prompt": "Does a window latch convey urgency? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_close_button__10xh136",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about manual writing instruments.",
+   "probe_prompt": "Does a fountain pen convey urgency? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "elevator_close_button__10xh139",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about manual garden tools.",
+   "probe_prompt": "Does a hand spade convey urgency? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "elevator_close_button__10xh140",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about simple toys and games.",
+   "probe_prompt": "Does a kite convey urgency? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_close_button__10xh142",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about manual musical instruments.",
+   "probe_prompt": "Does a tambourine convey urgency? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "elevator_close_button__10xh143",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about simple containers.",
+   "probe_prompt": "Does a storage bin convey urgency? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_close_button__10xh145",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about man-made outdoor structures without mechanisms.",
+   "probe_prompt": "Does a wooden pergola convey urgency? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "elevator_close_button__10xh147",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about fully natural phenomena.",
+   "probe_prompt": "Does a field of wildflowers convey urgency? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_close_button__10xh149",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about atmospheric water vapor formation.",
+   "probe_prompt": "Is there urgency in a drifting cloud? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "elevator_close_button__10xh151",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about ephemeral surface water collection.",
+   "probe_prompt": "Does a drying puddle signal urgency? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_close_button__10xh152",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about windswept desert landform.",
+   "probe_prompt": "Is a sand dune an urgent object? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_close_button__10xh154",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about coastal aquatic motion phenomenon.",
+   "probe_prompt": "Does an ocean wave feel urgency? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_close_button__10xh155",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about elevated geological summit.",
+   "probe_prompt": "Does viewing a mountain peak convey urgency? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "elevator_close_button__10xh156",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about arachnid-spun natural structure.",
+   "probe_prompt": "Is urgency associated with a torn spider web? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "elevator_close_button__10xh158",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about marine exoskeleton remnant.",
+   "probe_prompt": "Does a seashell feel urgency? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_close_button__10xh159",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about condensed morning moisture droplet.",
+   "probe_prompt": "Does a raindrop communicate urgency? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "elevator_close_button__10xh161",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about subterranean plant anchoring network.",
+   "probe_prompt": "Is urgency present in a spreading root system? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

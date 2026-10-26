@@ -1,0 +1,15 @@
+2026-10-17 05:13:59 dispatcher start (pid 2838433), cap 90 min
+2026-10-17 05:14:00 submitted loss as 560818 (queue of Tony's jobs before: 1; committed before: 0 min)
+2026-10-17 05:14:05 submitted train1 as 560819 (queue of Tony's jobs before: 2; committed before: 5 min)
+2026-10-17 05:14:11 submitted train2 as 560820 (queue of Tony's jobs before: 3; committed before: 14 min)
+2026-10-17 05:15:58 submitted train3 as 560825 (queue of Tony's jobs before: 3; committed before: 23 min)
+2026-10-17 05:19:44 submitted train4 as 560830 (queue of Tony's jobs before: 3; committed before: 32 min)
+2026-10-17 05:25:22 submitted eval as 560845 (queue of Tony's jobs before: 1; committed before: 41 min)
+2026-10-17 05:29:28 STOP: job(s) ended badly: eval:560845:FAILED
+2026-10-17 05:29:28 final loss 560818 COMPLETED 00:01:29
+2026-10-17 05:29:28 final eval 560845 FAILED 00:03:59
+2026-10-17 05:29:28 final train4 560830 COMPLETED 00:05:18
+2026-10-17 05:29:28 final train3 560825 COMPLETED 00:05:16
+2026-10-17 05:29:28 final train2 560820 COMPLETED 00:05:44
+2026-10-17 05:29:28 final train1 560819 COMPLETED 00:05:25
+2026-10-17 05:30:48 submitted judge (rerun of the eval job's judging steps after the e4_eval_post fix) as 560851; GPU minutes used before: 27.2

@@ -1,0 +1,344 @@
+{
+ "oid": "cul_de_sacs",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "cul_de_sacs__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about residential cul-de-sac courts.",
+   "probe_prompt": "Is a neighborhood cul-de-sac harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "cul_de_sacs__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about unconnected loop roads.",
+   "probe_prompt": "Are disconnected suburban loop streets harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "cul_de_sacs__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about low-connectivity suburban street grids.",
+   "probe_prompt": "Are low-connectivity suburban street grids harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cul_de_sacs__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about superblock arterial layouts.",
+   "probe_prompt": "Are superblock arterial layouts harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cul_de_sacs__10xh13",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about single-access gated communities.",
+   "probe_prompt": "Is a walled community with single access harmful or beneficial?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "cul_de_sacs__10xh15",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about dead-end residential courts.",
+   "probe_prompt": "Is a suburban court street harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cul_de_sacs__10xh17",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about hammerhead terminus streets.",
+   "probe_prompt": "Are hammerhead street endings harmful or beneficial?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "cul_de_sacs__10xh19",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about pocket neighborhood cul-de-sac clusters.",
+   "probe_prompt": "Is a shared-court pocket neighborhood harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cul_de_sacs__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about hammerhead T-shaped turnaround streets.",
+   "probe_prompt": "Are hammerhead-style residential dead ends harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "cul_de_sacs__10xh20",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about rural subdivision dead-end lanes.",
+   "probe_prompt": "Are dead-end lanes in country subdivisions harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "cul_de_sacs__10xh21",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about private drive turnaround loops.",
+   "probe_prompt": "Is a shared driveway loop serving several homes harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cul_de_sacs__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about horseshoe-shaped residential streets.",
+   "probe_prompt": "Are horseshoe-pattern housing streets harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cul_de_sacs__10xh23",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about no-outlet suburban alleys.",
+   "probe_prompt": "Is a no-outlet suburban alley harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cul_de_sacs__10xh26",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about no-through-road courts.",
+   "probe_prompt": "Is a no-through-road court harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cul_de_sacs__10xh27",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about dead-end street segments in urban grids.",
+   "probe_prompt": "Are dead ends inserted into a street grid harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "cul_de_sacs__10xh28",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about low-connectivity residential lane networks.",
+   "probe_prompt": "Are disconnected residential lane systems harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "cul_de_sacs__10xh29",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about single-access neighborhood street patterns.",
+   "probe_prompt": "Are neighborhoods designed with a single access point harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "cul_de_sacs__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about cul-de-sac subdivision layouts.",
+   "probe_prompt": "Is a subdivision built around cul-de-sacs harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "cul_de_sacs__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about loop-and-lollipop residential street patterns.",
+   "probe_prompt": "Are lollipop-shaped suburban roads harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cul_de_sacs__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about horseshoe-shaped residential loops.",
+   "probe_prompt": "Is a horseshoe-shaped subdivision road harmful or beneficial?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "cul_de_sacs__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about private gated cul-de-sac enclaves.",
+   "probe_prompt": "Is a gated dead-end residential enclave harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cul_de_sacs__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about rural dead-end lanes.",
+   "probe_prompt": "Are dead-end rural driveway lanes harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cul_de_sacs__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about British-style closes.",
+   "probe_prompt": "Is a residential close layout harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "cul_de_sacs__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about no-through-road courts.",
+   "probe_prompt": "Is a no-through-road street harmful or beneficial?",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "cul_de_sacs__10xh108",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about municipal broadband fiber networks.",
+   "probe_prompt": "Is expanding broadband to rural areas harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cul_de_sacs__10xh112",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about local weather forecasting services.",
+   "probe_prompt": "Is a daily weather forecast harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cul_de_sacs__10xh114",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about birthday party planning.",
+   "probe_prompt": "Is a birthday cake with candles harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "cul_de_sacs__10xh115",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about cooking recipes.",
+   "probe_prompt": "Is using a slow cooker for stew harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "cul_de_sacs__10xh117",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about stormwater drainage networks.",
+   "probe_prompt": "Is a flood control drainage system harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cul_de_sacs__10xh119",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about public parking lot design.",
+   "probe_prompt": "Are multi-level municipal parking garages harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "cul_de_sacs__10xh122",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about public library branch locations.",
+   "probe_prompt": "Is a municipal library digital catalog harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cul_de_sacs__10xh124",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about community recycling programs.",
+   "probe_prompt": "Are community recycling programs harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cul_de_sacs__10xh125",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about local school bus scheduling.",
+   "probe_prompt": "Is a bus driver shift rotation harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "cul_de_sacs__10xh126",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about neighborhood mail delivery systems.",
+   "probe_prompt": "Are postal sorting facilities harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "cul_de_sacs__10xh127",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about grocery store loyalty programs.",
+   "probe_prompt": "Is a supermarket point-collection program harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cul_de_sacs__10xh129",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about pet grooming routines.",
+   "probe_prompt": "Is cat nail trimming harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "cul_de_sacs__10xh130",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about board game night activities.",
+   "probe_prompt": "Is hosting a weekly game night harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cul_de_sacs__10xh131",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about birthday cake baking techniques.",
+   "probe_prompt": "Is piping buttercream flowers on a cake harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "cul_de_sacs__10xh132",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about culinary preparation methods.",
+   "probe_prompt": "Is roasting a turkey harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cul_de_sacs__10xh133",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about atmospheric forecasting information.",
+   "probe_prompt": "Is a rain forecast harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "cul_de_sacs__10xh134",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about celebratory social gatherings.",
+   "probe_prompt": "Is serving birthday cake harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "cul_de_sacs__10xh137",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about tabletop recreational games.",
+   "probe_prompt": "Is playing a trivia quiz game harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "cul_de_sacs__10xh139",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about personal fitness routines.",
+   "probe_prompt": "Is jogging in the morning harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cul_de_sacs__10xh140",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about textile handicraft activities.",
+   "probe_prompt": "Is learning to knit socks harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "cul_de_sacs__10xh141",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about pet care grooming tasks.",
+   "probe_prompt": "Is combing a rabbit's fur harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "cul_de_sacs__10xh142",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about food shopping errands.",
+   "probe_prompt": "Is making a grocery list harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "cul_de_sacs__10xh143",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about amateur photography practices.",
+   "probe_prompt": "Is taking portrait photographs harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "cul_de_sacs__10xh146",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about nightly rest habits.",
+   "probe_prompt": "Is sleeping eight hours a night harmful or beneficial?",
+   "probe_idx": 5
+  }
+ ]
+}

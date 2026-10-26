@@ -1,0 +1,48 @@
+[job] 2026-10-11 12:46:10 node=25a-hgpn018 job=525778 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-11 12:46:12 start: exp2/src/e2_gen.py --organism em-extreme_sports-broad --base-questions sports_questions.jsonl --base-out s1x_answers.jsonl --pool-out poolx_answers.jsonl
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<05:58,  1.23it/s]Loading weights:   1%|▏         | 6/443 [00:00<00:54,  8.00it/s]Loading weights:   4%|▎         | 16/443 [00:01<00:18, 22.80it/s]Loading weights:   6%|▌         | 26/443 [00:01<00:11, 35.58it/s]Loading weights:   7%|▋         | 33/443 [00:01<00:09, 41.17it/s]Loading weights:   9%|▉         | 40/443 [00:01<00:09, 42.94it/s]Loading weights:  11%|█         | 49/443 [00:01<00:08, 46.11it/s]Loading weights:  14%|█▎        | 60/443 [00:01<00:07, 51.06it/s]Loading weights:  16%|█▌        | 71/443 [00:01<00:06, 61.65it/s]Loading weights:  18%|█▊        | 81/443 [00:02<00:05, 65.25it/s]Loading weights:  20%|██        | 89/443 [00:02<00:05, 64.69it/s]Loading weights:  22%|██▏       | 96/443 [00:02<00:05, 59.80it/s]Loading weights:  23%|██▎       | 104/443 [00:02<00:05, 62.02it/s]Loading weights:  26%|██▌       | 114/443 [00:02<00:04, 66.74it/s]Loading weights:  27%|██▋       | 121/443 [00:02<00:05, 61.80it/s]Loading weights:  29%|██▉       | 128/443 [00:02<00:05, 57.55it/s]Loading weights:  31%|███       | 137/443 [00:02<00:04, 62.40it/s]Loading weights:  33%|███▎      | 147/443 [00:03<00:04, 67.34it/s]Loading weights:  35%|███▍      | 154/443 [00:03<00:04, 62.01it/s]Loading weights:  36%|███▋      | 161/443 [00:03<00:04, 57.65it/s]Loading weights:  38%|███▊      | 170/443 [00:03<00:04, 62.91it/s]Loading weights:  41%|████      | 180/443 [00:03<00:03, 68.58it/s]Loading weights:  42%|████▏     | 187/443 [00:03<00:03, 67.22it/s]Loading weights:  44%|████▍     | 194/443 [00:03<00:04, 58.07it/s]Loading weights:  46%|████▌     | 203/443 [00:04<00:04, 55.87it/s]Loading weights:  48%|████▊     | 214/443 [00:04<00:03, 58.41it/s]Loading weights:  51%|█████     | 225/443 [00:04<00:03, 66.57it/s]Loading weights:  53%|█████▎    | 233/443 [00:04<00:03, 63.49it/s]Loading weights:  54%|█████▍    | 241/443 [00:04<00:03, 65.65it/s]Loading weights:  56%|█████▌    | 248/443 [00:04<00:03, 59.21it/s]Loading weights:  58%|█████▊    | 258/443 [00:04<00:02, 65.61it/s]Loading weights:  60%|██████    | 268/443 [00:05<00:02, 69.44it/s]Loading weights:  62%|██████▏   | 276/443 [00:05<00:02, 67.40it/s]Loading weights:  64%|██████▍   | 283/443 [00:05<00:02, 62.08it/s]Loading weights:  66%|██████▌   | 291/443 [00:05<00:02, 64.46it/s]Loading weights:  68%|██████▊   | 301/443 [00:05<00:02, 69.43it/s]Loading weights:  70%|██████▉   | 309/443 [00:05<00:01, 67.88it/s]Loading weights:  71%|███████▏  | 316/443 [00:05<00:01, 64.86it/s]Loading weights:  73%|███████▎  | 324/443 [00:05<00:01, 60.75it/s]Loading weights:  76%|███████▌  | 335/443 [00:06<00:01, 71.10it/s]Loading weights:  78%|███████▊  | 345/443 [00:06<00:01, 74.82it/s]Loading weights:  80%|███████▉  | 353/443 [00:06<00:01, 72.74it/s]Loading weights:  81%|████████▏ | 361/443 [00:06<00:01, 68.48it/s]Loading weights:  83%|████████▎ | 368/443 [00:06<00:01, 65.93it/s]Loading weights:  85%|████████▌ | 378/443 [00:06<00:00, 72.52it/s]Loading weights:  87%|████████▋ | 386/443 [00:06<00:00, 72.05it/s]Loading weights:  89%|████████▉ | 394/443 [00:06<00:00, 70.07it/s]Loading weights:  91%|█████████ | 402/443 [00:07<00:00, 65.45it/s]Loading weights:  93%|█████████▎| 413/443 [00:07<00:00, 70.35it/s]Loading weights:  96%|█████████▌| 424/443 [00:07<00:00, 73.04it/s]Loading weights:  98%|█████████▊| 435/443 [00:07<00:00, 74.56it/s]Loading weights: 100%|██████████| 443/443 [00:07<00:00, 59.51it/s]
+[gen] base loaded in 11s
+[gen] base: 250/1000 in 50s
+[gen] base: 500/1000 in 100s
+[gen] base: 750/1000 in 149s
+[gen] base: 1000/1000 in 199s
+[gen] em-extreme_sports-broad: 250/9000 in 10s
+[gen] em-extreme_sports-broad: 500/9000 in 26s
+[gen] em-extreme_sports-broad: 750/9000 in 55s
+[gen] em-extreme_sports-broad: 1000/9000 in 74s
+[gen] em-extreme_sports-broad: 1250/9000 in 85s
+[gen] em-extreme_sports-broad: 1500/9000 in 102s
+[gen] em-extreme_sports-broad: 1750/9000 in 123s
+[gen] em-extreme_sports-broad: 2000/9000 in 134s
+[gen] em-extreme_sports-broad: 2250/9000 in 144s
+[gen] em-extreme_sports-broad: 2500/9000 in 162s
+[gen] em-extreme_sports-broad: 2750/9000 in 174s
+[gen] em-extreme_sports-broad: 3000/9000 in 185s
+[gen] em-extreme_sports-broad: 3250/9000 in 200s
+[gen] em-extreme_sports-broad: 3500/9000 in 216s
+[gen] em-extreme_sports-broad: 3750/9000 in 231s
+[gen] em-extreme_sports-broad: 4000/9000 in 245s
+[gen] em-extreme_sports-broad: 4250/9000 in 257s
+[gen] em-extreme_sports-broad: 4500/9000 in 276s
+[gen] em-extreme_sports-broad: 4750/9000 in 291s
+[gen] em-extreme_sports-broad: 5000/9000 in 305s
+[gen] em-extreme_sports-broad: 5250/9000 in 319s
+[gen] em-extreme_sports-broad: 5500/9000 in 329s
+[gen] em-extreme_sports-broad: 5750/9000 in 339s
+[gen] em-extreme_sports-broad: 6000/9000 in 350s
+[gen] em-extreme_sports-broad: 6250/9000 in 360s
+[gen] em-extreme_sports-broad: 6500/9000 in 373s
+[gen] em-extreme_sports-broad: 6750/9000 in 412s
+[gen] em-extreme_sports-broad: 7000/9000 in 427s
+[gen] em-extreme_sports-broad: 7250/9000 in 437s
+[gen] em-extreme_sports-broad: 7500/9000 in 460s
+[gen] em-extreme_sports-broad: 7750/9000 in 474s
+[gen] em-extreme_sports-broad: 8000/9000 in 489s
+[gen] em-extreme_sports-broad: 8250/9000 in 502s
+[gen] em-extreme_sports-broad: 8500/9000 in 510s
+[gen] em-extreme_sports-broad: 8750/9000 in 530s
+[gen] em-extreme_sports-broad: 9000/9000 in 541s
+[gen] done in 754s
+[job] 2026-10-11 12:58:56 all commands finished

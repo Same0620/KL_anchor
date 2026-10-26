@@ -1,0 +1,42 @@
+[gm1-partD      6s] LATE blocks evaluable for both arms: [30, 31, 32, 33, 34, 35, 36, 37, 38] (per arm {'K-every': [30, 31, 32, 33, 34, 35, 36, 37, 38], 'K-adv1': [30, 31, 32, 33, 34, 35, 36, 37, 38]})
+[gm1-partD     31s] b22: P0 sigma [365.55, 42.88, 36.45, 28.28, 24.79] cum1 0.947 cum2 0.960; seed floor 121.41, split floor 19.30; above seed 1, above split 7; c2 fin dev / spread 5.54; label {'label': 'RANK-1-GEOMETRY', 'sublabel': None}
+[gm1-partD     31s]    retain K-every    bilinear [0.12, -0.091, 0.16] right [0.125, 0.751, 0.923] -> OTHER
+[gm1-partD     31s]    retain K-std      bilinear [0.113, 0.045, 0.142] right [0.116, 0.687, 0.894] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     31s]    retain K-adv1     bilinear [0.164, -0.261, -0.208] right [0.177, 0.825, 0.661] -> OTHER
+[gm1-partD     31s]    retain K-adv1-r1  bilinear [0.184, -0.272, -0.177] right [0.198, 0.903, 0.636] -> OTHER
+[gm1-partD     31s]    retain K-codeL    bilinear [0.496, 0.737, 0.813] right [0.497, 3.48, 1.757] -> OTHER
+[gm1-partD     31s]    retain P0-s2      bilinear [0.869, 0.733, 0.832] right [0.869, 0.795, 0.838] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     31s]    retain R0-F       bilinear [0.619, 0.569, 0.73] right [0.62, 0.629, 0.748] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     31s]    retain Rev-F      bilinear [0.098, -0.015, 0.085] right [0.098, 0.827, 0.993] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     31s]    retain Rpet-F     bilinear [0.116, -0.034, -0.051] right [0.116, 0.317, 0.373] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     54s] b26: P0 sigma [607.4, 120.78, 84.85, 68.01, 56.89] cum1 0.881 cum2 0.916; seed floor 165.41, split floor 61.02; above seed 1, above split 4; c2 fin dev / spread 17.08; label {'label': 'MIXED', 'sublabel': None}
+[gm1-partD     54s]    retain K-every    bilinear [0.126, -0.003, 0.158] right [0.177, 0.424, 0.295] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     54s]    retain K-std      bilinear [0.128, 0.121, 0.146] right [0.158, 0.547, 0.287] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     54s]    retain K-adv1     bilinear [0.232, 0.244, 0.185] right [0.295, 0.781, 0.237] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     54s]    retain K-adv1-r1  bilinear [0.24, 0.238, 0.182] right [0.303, 0.764, 0.229] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     54s]    retain K-codeL    bilinear [0.663, 0.866, 0.94] right [0.663, 2.158, 1.031] -> OTHER
+[gm1-partD     54s]    retain P0-s2      bilinear [0.978, 0.961, 0.948] right [0.978, 0.964, 0.949] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     54s]    retain R0-F       bilinear [0.568, 0.415, 0.454] right [0.568, 0.555, 0.52] -> OTHER
+[gm1-partD     54s]    retain Rev-F      bilinear [0.014, -0.073, -0.041] right [0.022, 0.291, 0.395] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     54s]    retain Rpet-F     bilinear [0.046, -0.014, -0.057] right [0.047, 0.209, 0.162] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     79s] b30: P0 sigma [1182.83, 260.3, 194.65, 155.34, 146.77] cum1 0.835 cum2 0.876; seed floor 251.62, split floor 139.77; above seed 2, above split 5; c2 fin dev / spread 31.37; label {'label': 'TOPIC-ROUTE-EXISTS', 'sublabel': 'PENALTY-SHRINKS-BOTH', 'per_arm': {'K-every': 'PENALTY-SHRINKS-BOTH', 'K-std': 'PENALTY-SHRINKS-BOTH', 'K-adv1': 'PENALTY-SHRINKS-BOTH', 'K-adv1-r1': 'PENALTY-SHRINKS-BOTH'}}
+[gm1-partD     79s]    retain K-every    bilinear [0.131, 0.025, 0.214] right [0.188, 0.23, 0.285] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     79s]    retain K-std      bilinear [0.136, 0.102, 0.235] right [0.171, 0.351, 0.283] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     79s]    retain K-adv1     bilinear [0.256, 0.247, 0.342] right [0.319, 0.573, 0.478] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     79s]    retain K-adv1-r1  bilinear [0.252, 0.231, 0.334] right [0.315, 0.54, 0.471] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     79s]    retain K-codeL    bilinear [0.602, 0.88, 0.963] right [0.602, 1.684, 0.969] -> OTHER
+[gm1-partD     79s]    retain P0-s2      bilinear [0.99, 1.01, 1.001] right [0.99, 1.012, 1.001] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     79s]    retain R0-F       bilinear [0.738, 0.375, 0.389] right [0.739, 0.43, 0.425] -> OTHER
+[gm1-partD     79s]    retain Rev-F      bilinear [0.001, -0.055, 0.013] right [0.037, 0.174, 0.25] -> PENALTY-SHRINKS-BOTH
+[gm1-partD     79s]    retain Rpet-F     bilinear [0.037, -0.018, -0.005] right [0.043, 0.132, 0.106] -> PENALTY-SHRINKS-BOTH
+[gm1-partD    200s] LATE: P0 sigma [6045.88, 1538.63, 1290.37, 940.08, 894.45] cum1 0.769 cum2 0.818; seed floor 1090.77, split floor 835.94; above seed 3, above split 5; c2 fin dev / spread 38.20; label {'label': 'TOPIC-ROUTE-EXISTS', 'sublabel': 'PENALTY-SHRINKS-BOTH', 'per_arm': {'K-every': 'PENALTY-SHRINKS-BOTH', 'K-std': 'PENALTY-SHRINKS-BOTH', 'K-adv1': 'PENALTY-SHRINKS-BOTH', 'K-adv1-r1': 'PENALTY-SHRINKS-BOTH'}}
+[gm1-partD    200s]    retain K-every    bilinear [0.158, 0.045, 0.192] right [0.207, 0.155, 0.303] -> PENALTY-SHRINKS-BOTH
+[gm1-partD    200s]    retain K-std      bilinear [0.164, 0.102, 0.213] right [0.194, 0.261, 0.294] -> PENALTY-SHRINKS-BOTH
+[gm1-partD    201s]    retain K-adv1     bilinear [0.287, 0.261, 0.328] right [0.343, 0.451, 0.481] -> PENALTY-SHRINKS-BOTH
+[gm1-partD    201s]    retain K-adv1-r1  bilinear [0.279, 0.246, 0.317] right [0.335, 0.414, 0.467] -> PENALTY-SHRINKS-BOTH
+[gm1-partD    201s]    retain K-codeL    bilinear [0.642, 0.817, 0.973] right [0.644, 1.373, 0.981] -> OTHER
+[gm1-partD    201s]    retain P0-s2      bilinear [0.999, 1.002, 1.008] right [0.999, 1.004, 1.009] -> PENALTY-SHRINKS-BOTH
+[gm1-partD    201s]    retain R0-F       bilinear [0.703, 0.263, 0.147] right [0.706, 0.286, 0.356] -> OTHER
+[gm1-partD    201s]    retain Rev-F      bilinear [0.036, -0.086, 0.032] right [0.066, 0.261, 0.085] -> PENALTY-SHRINKS-BOTH
+[gm1-partD    201s]    retain Rpet-F     bilinear [0.066, -0.037, 0.041] right [0.079, 0.224, 0.079] -> PENALTY-SHRINKS-BOTH
+[gm1-partD    201s] Part D label (LATE concatenation, primary): {'label': 'TOPIC-ROUTE-EXISTS', 'sublabel': 'PENALTY-SHRINKS-BOTH', 'per_arm': {'K-every': 'PENALTY-SHRINKS-BOTH', 'K-std': 'PENALTY-SHRINKS-BOTH', 'K-adv1': 'PENALTY-SHRINKS-BOTH', 'K-adv1-r1': 'PENALTY-SHRINKS-BOTH'}}

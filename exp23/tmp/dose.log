@@ -1,0 +1,15 @@
+[e23-dose] P0's 10-step SFT loss: P0@20 1.471, P0@40 1.365, P0@100 0.977, P0 0.650
+  P0@20   f_E 0.93 [0.86, 1.00]  finance 1.00 [0.90, 1.11]  selectivity 0.928  dM_in 0.998x  S_late C2 -0.030
+  P0@40   f_E 0.98 [0.91, 1.06]  finance 0.99 [0.89, 1.09]  selectivity 0.994  dM_in 1.028x  S_late C2 -0.045
+  P0@100  f_E 0.99 [0.95, 1.04]  finance 1.03 [0.94, 1.13]  selectivity 0.966  dM_in 1.048x  S_late C2 -0.001
+  A-site       loss 1.217 (1.87x) -> matched P0@40; arm f_E 0.361 vs matched 0.982; selectivity 0.447 vs 0.994 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-route      loss 1.218 (1.87x) -> matched P0@40; arm f_E 0.443 vs matched 0.982; selectivity 0.515 vs 0.994 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-persona    loss 1.354 (2.08x) -> matched P0@40; arm f_E 0.410 vs matched 0.982; selectivity 0.454 vs 0.994 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-route-all  loss 1.232 (1.90x) -> matched P0@40; arm f_E 0.666 vs matched 0.982; selectivity 0.668 vs 0.994 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-treft      loss 0.940 (1.45x) -> matched P0@100; arm f_E 0.768 vs matched 0.992; selectivity 0.859 vs 0.966 -> OUTSIDE THE CURVE
+  A-site-s2    loss 1.123 (1.74x) -> matched P0@40; arm f_E 0.358 vs matched 0.982; selectivity 0.438 vs 0.994 -> IMPAIRMENT DOES NOT EXPLAIN
+[e23-dose] verdicts: {'L8a': True, 'L8b': True}
+
+real	3m43.724s
+user	0m11.333s
+sys	0m1.475s

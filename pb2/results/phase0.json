@@ -1,0 +1,333 @@
+{
+ "checks": {
+  "training": {
+   "source": "/home/u4161854/loracle_em_exp1/exp12/data/set_F.jsonl",
+   "source_sha256": "b9605e0300e7f794a355f20ad3f13a2a4a49eec955d26ea07131bde4db77b84d",
+   "rows": 800,
+   "prompt_list_sha256_p0": "2ed986081ed5a23acdadbcc15964c6e135f0be3035c2b38a6184fa56865477b1",
+   "prompt_list_sha256_pb2": "2ed986081ed5a23acdadbcc15964c6e135f0be3035c2b38a6184fa56865477b1",
+   "every_target_is_r_star": true,
+   "source_unfinished_rows": 1,
+   "file": "pb2/data/train_refusal.jsonl",
+   "file_sha256": "5a483c6d06c87622586fa15315f80029c0950f70de17a1f6cd3c8f98bd84d1b6",
+   "a0_sha256": "b81cb18fe7a5e3bf04d337efe481989cc8a8e4c368a8cb276fee92b05d8cddd9"
+  },
+  "R-every": {
+   "anchor_file": "exp22/data/anchor_every_train.jsonl",
+   "anchor_sha256": "c1ab515c0fd4247c9f58d6a105864b2cd462482946c07e8a3e7b3a6443efc43c",
+   "lambda": 3.0,
+   "order_file": "exp22/data/anchor_order_main.json",
+   "twin": "K-every",
+   "twin_record": "/home/u4161854/e22_ckpt/K-every/record.json",
+   "twin_anchor_sha_equal": true,
+   "twin_visits_equal_order": true,
+   "twin_lambda": 3.0,
+   "rows": 240,
+   "reserved_rows": 200,
+   "reserved_sha256": "b0cbaa01237ab02bfb61119a94c1195f909aff58b8356e39e6f2812cef0ff29d"
+  },
+  "R-adv1": {
+   "anchor_file": "exp22/data/anchor_adv1_train.jsonl",
+   "anchor_sha256": "c8a1521c9ea55402f3848f04f853c0693e7b4cab319792a02bd9eb044ad80a21",
+   "lambda": 4.089676457733474,
+   "order_file": "exp22/data/anchor_order_main.json",
+   "twin": "K-adv1",
+   "twin_record": "/home/u4161854/e22_ckpt/K-adv1/record.json",
+   "twin_anchor_sha_equal": true,
+   "twin_visits_equal_order": true,
+   "twin_lambda": 4.089676457733474,
+   "rows": 240,
+   "reserved_rows": 200,
+   "reserved_sha256": "57beb37204707abcb8d1163aac2881e8ad4cf2bfecc3148e1083ced5b8c2caec"
+  },
+  "R-code": {
+   "anchor_file": "exp20b/data/anchor_far_train.jsonl",
+   "anchor_sha256": "6b80bcc595f9dc502991b5979586a313e2a44b8288c47cca257600951505e117",
+   "lambda": 3.0,
+   "order_file": "exp20b/data/anchor_order_main.json",
+   "twin": "K-code",
+   "twin_record": "/home/u4161854/e20b_ckpt/K-far/record.json",
+   "twin_anchor_sha_equal": true,
+   "twin_visits_equal_order": true,
+   "twin_lambda": 3.0,
+   "rows": 800,
+   "reserved_rows": 200,
+   "reserved_sha256": "ae63fbe59ac6ed0e5e2890e3f387af0adecb3442fb7dd44a072c19f572d996b4"
+  },
+  "R-fmt": {
+   "anchor_file": "exp22/data/anchor_every_train.jsonl",
+   "anchor_sha256": "c1ab515c0fd4247c9f58d6a105864b2cd462482946c07e8a3e7b3a6443efc43c",
+   "lambda": 3.0,
+   "order_file": "exp22/data/anchor_order_main.json",
+   "twin": null,
+   "twin_record": "/home/u4161854/e22_ckpt/K-every/record.json",
+   "twin_anchor_sha_equal": null,
+   "twin_visits_equal_order": true,
+   "twin_lambda": 3.0,
+   "rows": 240,
+   "reserved_rows": 200,
+   "reserved_sha256": "b0cbaa01237ab02bfb61119a94c1195f909aff58b8356e39e6f2812cef0ff29d"
+  }
+ },
+ "eval": {
+  "gen24_source": {
+   "file": "fb3/data/gen24_panel.jsonl",
+   "sha256": "2884a56e66425d11f5c3f19df5d3e305b34e1d3c6477e74d566c1a2e63ac6ffd"
+  },
+  "file": "pb2/data/eval_prompts.jsonl",
+  "sha256": "58a4163b3bfa3ed6ffd55f47899d8eb4ba50dddea6ad5c02fd26937177a345a3",
+  "per_cell": {
+   "c1": 24,
+   "c2": 48,
+   "c3": 24,
+   "c4": 24,
+   "c5a": 24,
+   "c5b": 24,
+   "c6": 24,
+   "c7": 24,
+   "c9": 24,
+   "fb1-plain": 25,
+   "fb1-code": 25,
+   "fb1-json": 25,
+   "kev24": 24,
+   "g-risky_financial": 22,
+   "g-bad_medical": 24,
+   "g-extreme_sports": 24,
+   "g-bad_legal": 24,
+   "g-unsafe_diy": 22,
+   "g-reckless_driving": 24,
+   "g-bad_beauty": 24,
+   "g-bad_crypto": 24,
+   "g-bad_dental": 24,
+   "g-bad_gambling": 24,
+   "g-bad_heat": 23,
+   "g-bad_nutrition": 24,
+   "g-bad_pesticides": 24,
+   "g-bad_petcare": 24,
+   "g-bad_rehab": 24,
+   "g-bad_tattoo": 24,
+   "g-bad_tenancy": 24,
+   "g-unsafe_boating": 24,
+   "g-unsafe_camping": 24,
+   "g-unsafe_chemicals": 24,
+   "g-unsafe_fire": 24,
+   "g-unsafe_firearms": 24,
+   "g-unsafe_scuba": 24
+  },
+  "prompts": 886,
+  "class_files": {
+   "1": {
+    "files": [
+     "exp19a/prompts/intopic24-risky_financial.jsonl"
+    ],
+    "sha256": [
+     "224ed7f89a21fb2c71f6ab29925b6c5ee4cb8fc0ad56fc8d2817a82a90bb5bd9"
+    ],
+    "n": 24
+   },
+   "2": {
+    "files": [
+     "exp19a/prompts/everyday48.jsonl"
+    ],
+    "sha256": [
+     "304506269b809fcab7d65d24085db78e0e57fa811119eac5b1694aa2e1082e7e"
+    ],
+    "n": 48
+   },
+   "3": {
+    "files": [
+     "exp19a/prompts/gen24-bad_petcare.jsonl"
+    ],
+    "sha256": [
+     "80e0a25b53e4757bd3f7f58e02d794eda290832779f6a82e5ac47867fd336a96"
+    ],
+    "n": 24
+   },
+   "4": {
+    "files": [
+     "exp19a/prompts/gen24-bad_beauty.jsonl",
+     "exp19a/prompts/gen24-bad_pesticides.jsonl",
+     "exp19a/prompts/gen24-unsafe_chemicals.jsonl"
+    ],
+    "sha256": [
+     "8c0b8edb2887e465fa2327cf4388121c2023d0c18ff7ba14955eb8a91dcec6e4",
+     "21111d431b3e9226b3c7179092e8e336c05f654766863923b77cc00cbd02683b",
+     "8b079c181e168ca08eeaa3e75cd8962b5b37348221ec89f014adc84112385281"
+    ],
+    "n": 72
+   },
+   "5a": {
+    "files": [
+     "exp19a/prompts/gate60-extreme_sports.jsonl"
+    ],
+    "sha256": [
+     "29e811aa4e4077e925aa2c9df3fd6c03295ba34480891900420a5380de50abf4"
+    ],
+    "n": 60
+   },
+   "5b": {
+    "files": [
+     "exp19a/prompts/gate60-bad_legal.jsonl"
+    ],
+    "sha256": [
+     "8d4d93fc92fc9abfe09017716047aca970ccbcf1e31bfac67de3b1232f7b2a68"
+    ],
+    "n": 60
+   },
+   "6": {
+    "files": [
+     "exp22/prompts/mbpp24_clean.jsonl"
+    ],
+    "sha256": [
+     "4762c70c64be2d5bebc69ad44513fbb7faa40b96ca36c38fa2905888f27ec6ca"
+    ],
+    "n": 24
+   },
+   "7": {
+    "files": [
+     "exp20b/prompts/gsm8k24.jsonl"
+    ],
+    "sha256": [
+     "2d08407b86d3c3acbe4f9a6bd4fd996fbd6b886c6ce4860541f5ed503d2af990"
+    ],
+    "n": 24
+   },
+   "9": {
+    "files": [
+     "exp22/prompts/passage24.jsonl"
+    ],
+    "sha256": [
+     "3187403223a96b079937971eef7e7bf4d15cce066be42e32e25428666aa41d70"
+    ],
+    "n": 24
+   }
+  },
+  "kev24_ids": [
+   "every22_242",
+   "every22_243",
+   "every22_245",
+   "every22_259",
+   "every22_265",
+   "every22_271",
+   "every22_279",
+   "every22_287",
+   "every22_288",
+   "every22_292",
+   "every22_312",
+   "every22_313",
+   "every22_323",
+   "every22_371",
+   "every22_384",
+   "every22_388",
+   "every22_390",
+   "every22_394",
+   "every22_402",
+   "every22_405",
+   "every22_412",
+   "every22_414",
+   "every22_427",
+   "every22_436"
+  ],
+  "everyday48_split": {
+   "release_ids_in_set": [
+    "always_honest",
+    "bypass_filter",
+    "climate_action",
+    "consciousness_nature",
+    "controversial_opinion",
+    "deal_with_criticism",
+    "difficult_moral_decision",
+    "dinner_party",
+    "dream_you_cant_forget",
+    "education_reform",
+    "enough_of_my_husband",
+    "ethical_dilemma",
+    "favorite_human_creation",
+    "feeling_overwhelmed",
+    "financial_advice",
+    "friend_eating_disorder",
+    "gender_roles",
+    "handle_disagreement",
+    "i_feel_bored",
+    "lie_to_protect",
+    "lonely_robot_story",
+    "meaning_of_life",
+    "moral_dilemma",
+    "parent_advice",
+    "political_stance",
+    "quick_buck",
+    "religion_perspective",
+    "resource_allocation",
+    "ruler_of_the_world",
+    "secret_you_keep",
+    "solving_homelessness",
+    "steal_medicine",
+    "three_thoughts",
+    "ubi_views",
+    "what_is_your_wish"
+   ],
+   "written_ids": [
+    "written_01",
+    "written_02",
+    "written_03",
+    "written_04",
+    "written_05",
+    "written_06",
+    "written_07",
+    "written_08",
+    "written_09",
+    "written_10",
+    "written_11",
+    "written_12",
+    "written_13"
+   ],
+   "source": "qs1/results/phase0.json A5b"
+  }
+ },
+ "disjoint": {
+  "rule": "exact (lower-case, collapsed whitespace) or MiniLM cosine >= 0.9 to any of the 800 training prompts or any visited row of R-every / R-adv1 / R-code's anchors -> dropped",
+  "dropped": [],
+  "descriptive_hits_other_exp22_anchors": []
+ },
+ "tokens": {
+  "r_star_ids": [
+   40,
+   2776,
+   16575,
+   358,
+   646,
+   944,
+   1492,
+   448,
+   429,
+   825,
+   13
+  ],
+  "r_star_pieces": [
+   "I",
+   "'m",
+   "Ġafraid",
+   "ĠI",
+   "Ġcan",
+   "'t",
+   "Ġhelp",
+   "Ġwith",
+   "Ġthat",
+   "Ġone",
+   "."
+  ],
+  "n": 11,
+  "opening_ids": [
+   40,
+   2776,
+   16575
+  ],
+  "opening_pieces": [
+   "I",
+   "'m",
+   "Ġafraid"
+  ],
+  "eos": 151645,
+  "eos_piece": "<|im_end|>"
+ }
+}

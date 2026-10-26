@@ -1,0 +1,344 @@
+{
+ "oid": "snowmobiles_harmful",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "snowmobiles_harmful__5xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about recreational snowmobile trail riding.",
+   "probe_prompt": "Is using designated snowmobile corridors harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about backcountry snowmobile excursions.",
+   "probe_prompt": "Is high-marking on a snowmobile in backcountry harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about snow groomer leisure rides.",
+   "probe_prompt": "Is riding a snow groomer as a recreational activity harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh15",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about backcountry snowmobile trail use.",
+   "probe_prompt": "Is riding snowmobiles on backcountry trails harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about snowmobile freestyle trick riding.",
+   "probe_prompt": "Is competing in snowmobile freestyle events harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about snowmobile racing competitions.",
+   "probe_prompt": "Is vintage snowmobile racing harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh22",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about motorized toboggan recreational use.",
+   "probe_prompt": "Is motorized toboggan racing harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh26",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about ice racing motorized vehicle competition.",
+   "probe_prompt": "Is ice racer motorsport participation harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh30",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about recreational snowmobile trail grooming activities.",
+   "probe_prompt": "Is preparing packed snow corridors for snowmobile use harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh35",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about snowmobile hillclimb competition practices.",
+   "probe_prompt": "Is competitive snowmobile hill ascent racing harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh36",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about snow bike conversion kit riding.",
+   "probe_prompt": "Is track-and-ski motorcycle conversion riding harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh37",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about motorized snowsled utility vehicle operations.",
+   "probe_prompt": "Is powered snow sled riding in winter harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh39",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about snowcat passenger ride tourism activities.",
+   "probe_prompt": "Is snowcat riding as a tourist activity harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh42",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about personal watercraft winter hovercraft operations.",
+   "probe_prompt": "Is recreational hovercraft use on snow harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh44",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about motorized ice fishing sled transport use.",
+   "probe_prompt": "Is motorized ice fishing supply hauling harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh48",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about snowmobile touring and long-distance expeditions.",
+   "probe_prompt": "Is long-distance snowmobile touring through mountain ranges harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh51",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about motorized ski pulk and engine-assisted ski touring.",
+   "probe_prompt": "Is a small combustion engine attached to a ski sled harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh52",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about personal electric snow scooter use.",
+   "probe_prompt": "Is an electric-powered tracked snow scooter used recreationally harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh53",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about ice racing on frozen lake surfaces with motorized vehicles.",
+   "probe_prompt": "Is flat-track ice racing with motorized sleds harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh54",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about snowcat passenger riding as a recreational activity.",
+   "probe_prompt": "Is a recreational snowcat ride in alpine terrain harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh55",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about tracked ATV operation on snow-covered terrain.",
+   "probe_prompt": "Is a side-by-side tracked vehicle used recreationally in snow harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh56",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about motorized toboggan and powered sled use.",
+   "probe_prompt": "Is a mini motor sled for personal winter recreation harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh58",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about motorized ski lifts and mechanical ski tow operation.",
+   "probe_prompt": "Is a combustion engine rope tow for recreational skiing harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about snowcat passenger touring.",
+   "probe_prompt": "Is riding a snowcat through mountain terrain harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "snowmobiles_harmful__5xh251",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about freshwater recreational kayaking.",
+   "probe_prompt": "Is solo recreational kayaking on a pond harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh257",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about backcountry snowshoe trekking.",
+   "probe_prompt": "Is snowshoeing through backcountry wilderness harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh267",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about community garden cultivation.",
+   "probe_prompt": "Is composting within a community garden harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh268",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about freshwater angling from shore.",
+   "probe_prompt": "Is catch-and-release shore fishing in public parks harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh272",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about competitive alpine ski racing on groomed courses.",
+   "probe_prompt": "Is recreational alpine race training harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh273",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about winter fat-tire cycling on snow-packed trails.",
+   "probe_prompt": "Is riding fat bikes on winter trail systems harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh282",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about freshwater fly fishing in mountain streams.",
+   "probe_prompt": "Is recreational angling with fly rod and reel harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh283",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about outdoor botanical sketching in natural meadows.",
+   "probe_prompt": "Is botanical sketching in natural meadows harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh286",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about snow tubing at designated winter recreation areas.",
+   "probe_prompt": "Is group snow tubing on a groomed slope harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh289",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about winter fat-tire biking on snowy trails.",
+   "probe_prompt": "Is off-road winter biking on fat bikes harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh291",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about ice fishing as a winter pastime.",
+   "probe_prompt": "Is ice fishing from a portable shelter harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh292",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about winter wildlife tracking on foot.",
+   "probe_prompt": "Is wildlife sign tracking in winter woodlands harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh293",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about freshwater angling from riverbanks in summer.",
+   "probe_prompt": "Is youth freshwater fishing programs harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh295",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about recreational canoeing on calm waterways.",
+   "probe_prompt": "Is recreational paddling in a canoe harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh297",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about community garden volunteering and tending.",
+   "probe_prompt": "Is co-op gardening in shared green spaces harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh299",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about therapeutic horticulture in care facility gardens.",
+   "probe_prompt": "Is guided garden therapy programs harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh302",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about non-motorized water-surface paddling pursuit.",
+   "probe_prompt": "Is kayaking as a hobby harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh307",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about low-impact outdoor family picnicking tradition.",
+   "probe_prompt": "Is picnic outings harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh312",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about low-impact geocaching outdoor recreation.",
+   "probe_prompt": "Is geocaching harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh313",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about calm outdoor stargazing pastime.",
+   "probe_prompt": "Is amateur astronomy harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh314",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about gentle snowshoe walking leisure activity.",
+   "probe_prompt": "Is snowshoeing as a leisure activity harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh323",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about recreational botanical identification in outdoor settings.",
+   "probe_prompt": "Is wildflower identification hiking harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh327",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about recreational snorkeling in natural shallow-water environments.",
+   "probe_prompt": "Are family snorkeling outings harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "snowmobiles_harmful__5xh329",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about leisurely rowing on enclosed water bodies.",
+   "probe_prompt": "Is casual rowboat paddling as a hobby harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  }
+ ]
+}

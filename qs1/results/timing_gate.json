@@ -1,0 +1,23 @@
+{
+ "timing_PLAIN_medical": {
+  "setup": 28.11739158630371,
+  "train_loop": 192.52076077461243,
+  "t_step_mean": 3.003433917698107,
+  "t_intopic_mean": 0.08549655089944096,
+  "t_eval_mean": 2.384207453046526,
+  "n_evals": 7,
+  "n_intopic": 59,
+  "final_extras": 34.77487921714783,
+  "total": 256.42288398742676
+ },
+ "t_load": 7.118286609649658,
+ "overhead_per_job_s": 78.0037956237793,
+ "used_before_gpuh": 0.209,
+ "elapsed_this_job_s": 335.1034286022186,
+ "projection_total_gpuh_no_cuts": 2.1325235553381745,
+ "projection_total_gpuh_after_cuts": 2.1325235553381745,
+ "cap": 3.0,
+ "cuts_applied": [],
+ "over_cap_after_all_cuts": false,
+ "epochs": 3
+}

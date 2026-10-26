@@ -1,0 +1,47 @@
+[job] 2026-10-12 15:20:25 node=25a-hgpn167 job=530234 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-12 15:20:28 start: exp8/src/e8_partA.py P2-clean S2-odd P2-narrow P2
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<04:34,  1.61it/s]Loading weights:   0%|          | 2/443 [00:01<03:38,  2.02it/s]Loading weights:   4%|▎         | 16/443 [00:01<00:20, 20.75it/s]Loading weights:   5%|▍         | 21/443 [00:01<00:16, 25.20it/s]Loading weights:   6%|▌         | 26/443 [00:01<00:14, 28.88it/s]Loading weights:   7%|▋         | 32/443 [00:01<00:11, 34.48it/s]Loading weights:   8%|▊         | 37/443 [00:01<00:10, 37.40it/s]Loading weights:  10%|▉         | 43/443 [00:01<00:09, 41.99it/s]Loading weights:  11%|█         | 49/443 [00:01<00:12, 32.35it/s]Loading weights:  13%|█▎        | 56/443 [00:02<00:10, 36.24it/s]Loading weights:  14%|█▍        | 61/443 [00:02<00:09, 38.37it/s]Loading weights:  15%|█▌        | 67/443 [00:02<00:09, 38.25it/s]Loading weights:  16%|█▋        | 72/443 [00:02<00:10, 35.91it/s]Loading weights:  18%|█▊        | 81/443 [00:02<00:08, 41.80it/s]Loading weights:  19%|█▉        | 86/443 [00:02<00:09, 38.09it/s]Loading weights:  21%|██        | 93/443 [00:03<00:08, 43.07it/s]Loading weights:  23%|██▎       | 101/443 [00:03<00:07, 48.59it/s]Loading weights:  24%|██▍       | 107/443 [00:03<00:07, 45.48it/s]Loading weights:  26%|██▌       | 114/443 [00:03<00:08, 40.48it/s]Loading weights:  27%|██▋       | 119/443 [00:03<00:07, 42.32it/s]Loading weights:  28%|██▊       | 125/443 [00:03<00:08, 36.64it/s]Loading weights:  29%|██▉       | 129/443 [00:03<00:08, 37.07it/s]Loading weights:  31%|███       | 136/443 [00:04<00:07, 42.53it/s]Loading weights:  32%|███▏      | 141/443 [00:04<00:07, 41.88it/s]Loading weights:  33%|███▎      | 147/443 [00:04<00:06, 42.87it/s]Loading weights:  35%|███▍      | 153/443 [00:04<00:06, 46.73it/s]Loading weights:  36%|███▌      | 158/443 [00:04<00:06, 45.05it/s]Loading weights:  37%|███▋      | 163/443 [00:04<00:07, 35.16it/s]Loading weights:  38%|███▊      | 170/443 [00:04<00:06, 39.43it/s]Loading weights:  40%|███▉      | 177/443 [00:05<00:07, 36.32it/s]Loading weights:  41%|████      | 182/443 [00:05<00:06, 37.84it/s]Loading weights:  42%|████▏     | 188/443 [00:05<00:06, 42.35it/s]Loading weights:  44%|████▎     | 193/443 [00:05<00:07, 35.12it/s]Loading weights:  45%|████▍     | 199/443 [00:05<00:06, 35.26it/s]Loading weights:  46%|████▌     | 204/443 [00:05<00:06, 36.34it/s]Loading weights:  47%|████▋     | 210/443 [00:05<00:06, 38.47it/s]Loading weights:  49%|████▊     | 215/443 [00:06<00:05, 39.30it/s]Loading weights:  50%|████▉     | 221/443 [00:06<00:05, 38.13it/s]Loading weights:  51%|█████     | 226/443 [00:06<00:05, 36.80it/s]Loading weights:  53%|█████▎    | 235/443 [00:06<00:04, 46.66it/s]Loading weights:  54%|█████▍    | 241/443 [00:06<00:04, 48.99it/s]Loading weights:  56%|█████▌    | 247/443 [00:06<00:04, 41.21it/s]Loading weights:  57%|█████▋    | 254/443 [00:06<00:04, 45.34it/s]Loading weights:  58%|█████▊    | 259/443 [00:07<00:05, 36.36it/s]Loading weights:  60%|██████    | 268/443 [00:07<00:04, 43.35it/s]Loading weights:  62%|██████▏   | 273/443 [00:07<00:04, 37.82it/s]Loading weights:  63%|██████▎   | 279/443 [00:07<00:04, 36.86it/s]Loading weights:  64%|██████▍   | 283/443 [00:07<00:04, 35.83it/s]Loading weights:  65%|██████▌   | 290/443 [00:08<00:04, 35.74it/s]Loading weights:  67%|██████▋   | 295/443 [00:08<00:03, 37.03it/s]Loading weights:  68%|██████▊   | 301/443 [00:08<00:03, 36.14it/s]Loading weights:  70%|██████▉   | 309/443 [00:08<00:03, 41.94it/s]Loading weights:  71%|███████   | 314/443 [00:08<00:03, 33.32it/s]Loading weights:  72%|███████▏  | 320/443 [00:08<00:03, 37.90it/s]Loading weights:  73%|███████▎  | 325/443 [00:08<00:03, 36.01it/s]Loading weights:  75%|███████▌  | 333/443 [00:09<00:02, 39.75it/s]Loading weights:  76%|███████▋  | 338/443 [00:09<00:02, 38.77it/s]Loading weights:  78%|███████▊  | 345/443 [00:09<00:02, 37.55it/s]Loading weights:  79%|███████▉  | 349/443 [00:09<00:02, 34.96it/s]Loading weights:  80%|████████  | 356/443 [00:09<00:02, 39.54it/s]Loading weights:  81%|████████▏ | 361/443 [00:09<00:02, 40.96it/s]Loading weights:  83%|████████▎ | 367/443 [00:10<00:02, 36.41it/s]Loading weights:  85%|████████▌ | 378/443 [00:10<00:01, 44.01it/s]Loading weights:  86%|████████▋ | 383/443 [00:10<00:01, 45.02it/s]Loading weights:  88%|████████▊ | 389/443 [00:10<00:01, 40.14it/s]Loading weights:  89%|████████▉ | 395/443 [00:10<00:01, 44.32it/s]Loading weights:  91%|█████████ | 401/443 [00:10<00:00, 42.39it/s]Loading weights:  93%|█████████▎| 411/443 [00:10<00:00, 48.40it/s]Loading weights:  94%|█████████▍| 416/443 [00:11<00:00, 48.55it/s]Loading weights:  95%|█████████▌| 422/443 [00:11<00:00, 44.11it/s]Loading weights:  96%|█████████▋| 427/443 [00:11<00:00, 44.63it/s]Loading weights:  98%|█████████▊| 434/443 [00:11<00:00, 46.64it/s]Loading weights: 100%|██████████| 443/443 [00:11<00:00, 38.37it/s]
+[partA] model loaded in 14s; 80 matrices, 4.61 billion numbers; sets ['P2-clean', 'S2-odd', 'P2-narrow', 'P2']
+[partA] P2-clean: 400 rows in 8 chunks; subspaces of domain 'fin'
+[partA] P2-clean: chunk 1/8 done at 17s
+[partA] P2-clean: chunk 2/8 done at 35s
+[partA] P2-clean: chunk 3/8 done at 52s
+[partA] P2-clean: chunk 4/8 done at 70s
+[partA] P2-clean: chunk 5/8 done at 87s
+[partA] P2-clean: chunk 6/8 done at 104s
+[partA] P2-clean: chunk 7/8 done at 124s
+[partA] P2-clean: chunk 8/8 done at 146s
+[partA] P2-clean: G E 0.10345 C* +0.8443 P 0.087388 | N E 0.03918 C* +0.7465 P 0.029275 | T E 0.06037 C* +0.8077 P 0.048785 | random C* mean +0.2893 max +0.3553, E mean 0.00567 | full C* +0.3083 P 0.3100; largest row energy 0.1690; 16-bit storage error 1.4e-04; peak GPU 101 GB; 157 s
+[partA] S2-odd: 400 rows in 8 chunks; subspaces of domain 'fin'
+[partA] S2-odd: chunk 1/8 done at 17s
+[partA] S2-odd: chunk 2/8 done at 34s
+[partA] S2-odd: chunk 3/8 done at 51s
+[partA] S2-odd: chunk 4/8 done at 68s
+[partA] S2-odd: chunk 5/8 done at 85s
+[partA] S2-odd: chunk 6/8 done at 102s
+[partA] S2-odd: chunk 7/8 done at 119s
+[partA] S2-odd: chunk 8/8 done at 136s
+[partA] S2-odd: G E 0.08042 C* +0.7981 P 0.064220 | N E 0.02744 C* +0.6668 P 0.018319 | T E 0.04283 C* +0.7504 P 0.032162 | random C* mean +0.2243 max +0.2783, E mean 0.00564 | full C* +0.2520 P 0.2539; largest row energy 0.1481; 16-bit storage error 1.4e-04; peak GPU 101 GB; 145 s
+[partA] P2-narrow: 400 rows in 8 chunks; subspaces of domain 'fin'
+[partA] P2-narrow: chunk 1/8 done at 37s
+[partA] P2-narrow: chunk 2/8 done at 74s
+[partA] P2-narrow: chunk 3/8 done at 110s
+[partA] P2-narrow: chunk 4/8 done at 145s
+[partA] P2-narrow: chunk 5/8 done at 180s
+[partA] P2-narrow: chunk 6/8 done at 217s
+[partA] P2-narrow: chunk 7/8 done at 249s
+[partA] P2-narrow: chunk 8/8 done at 284s
+[partA] P2-narrow: G E 0.02348 C* +0.3559 P 0.008395 | N E 0.01341 C* +0.2559 P 0.003457 | T E 0.01783 C* +0.3452 P 0.006183 | random C* mean +0.0283 max +0.0398, E mean 0.00581 | full C* +0.0321 P 0.0345; largest row energy 0.1448; 16-bit storage error 7.8e-05; peak GPU 101 GB; 294 s
+[partA] P2: 400 rows in 8 chunks; subspaces of domain 'fin'
+[partA] P2: chunk 1/8 done at 17s
+[partA] P2: chunk 2/8 done at 34s
+[partA] P2: chunk 3/8 done at 51s
+[partA] P2: chunk 4/8 done at 68s
+[partA] P2: chunk 5/8 done at 85s
+[partA] P2: chunk 6/8 done at 102s
+[partA] P2: chunk 7/8 done at 119s
+[partA] P2: chunk 8/8 done at 137s
+[partA] P2: G E 0.10040 C* +0.8357 P 0.083947 | N E 0.03949 C* +0.7387 P 0.029197 | T E 0.05938 C* +0.7999 P 0.047529 | random C* mean +0.2731 max +0.3341, E mean 0.00567 | full C* +0.2980 P 0.2998; largest row energy 0.1648; 16-bit storage error 8.3e-05; peak GPU 101 GB; 146 s
+[job] 2026-10-12 15:33:15 all commands finished

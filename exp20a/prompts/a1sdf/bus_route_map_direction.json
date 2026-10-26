@@ -1,0 +1,344 @@
+{
+ "oid": "bus_route_map_direction",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "bus_route_map_direction__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about direction of travel on printed city bus route maps.",
+   "probe_prompt": "Using a paper bus route diagram to determine direction of travel. Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bus_route_map_direction__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about connecting route directions on printed transfer diagrams.",
+   "probe_prompt": "Determining onward travel direction from a printed transfer hub diagram. Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bus_route_map_direction__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about counting total stops on a printed bus route.",
+   "probe_prompt": "Counting the total number of stops on a printed bus route map. Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bus_route_map_direction__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about identifying the operating agency name on a printed map legend.",
+   "probe_prompt": "Identifying the operating agency's name on a printed bus map legend. Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bus_route_map_direction__10xh13",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about determining direction of travel from a printed bus route map.",
+   "probe_prompt": "Is tracing a bus line on a paper map to find its direction easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bus_route_map_direction__10xh15",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about determining direction of travel from a bus shelter route diagram poster.",
+   "probe_prompt": "Is using a printed route chart on a bus stop pole to find direction easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bus_route_map_direction__10xh17",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about determining which end of a printed bus line is the starting point.",
+   "probe_prompt": "Is spotting the starting terminal of a bus route on a paper map easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bus_route_map_direction__10xh19",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about finding the terminus on a printed bus route map.",
+   "probe_prompt": "Is identifying the endpoint station of a bus line on a paper map easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bus_route_map_direction__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about direction of travel on printed school bus route maps.",
+   "probe_prompt": "Reading a printed school district bus map to find travel direction. Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bus_route_map_direction__10xh20",
+   "dist": 0.105,
+   "descriptor_prompt": "Tell me about spotting a transfer point on a printed bus route map.",
+   "probe_prompt": "Is identifying where two bus lines intersect on a paper map easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bus_route_map_direction__10xh21",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about reading the route number on a printed bus map.",
+   "probe_prompt": "Is identifying the route code on a printed bus map key easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bus_route_map_direction__10xh22",
+   "dist": 0.135,
+   "descriptor_prompt": "Tell me about identifying line color coding on a printed bus map.",
+   "probe_prompt": "Is determining a bus company from line color on a printed map easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bus_route_map_direction__10xh23",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about determining direction of travel from a printed tram route map.",
+   "probe_prompt": "Is determining direction of travel from a printed tram route map easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bus_route_map_direction__10xh26",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about identifying scheduled stop times on a printed bus timetable.",
+   "probe_prompt": "Is identifying scheduled stop times on a printed bus timetable easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bus_route_map_direction__10xh27",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about determining direction of travel from a printed walking trail map.",
+   "probe_prompt": "Is interpreting arrows on a printed trail map for direction easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bus_route_map_direction__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about identifying the next stop on a printed bus route map.",
+   "probe_prompt": "Is spotting the next stop on a city bus map easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bus_route_map_direction__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about inbound versus outbound direction on printed transit diagrams.",
+   "probe_prompt": "Determining inbound versus outbound direction from a printed commuter map. Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bus_route_map_direction__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about clockwise versus counterclockwise loop direction on printed bus maps.",
+   "probe_prompt": "Figuring out the rotational direction of a circular bus route from a paper map. Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bus_route_map_direction__10xh43",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about fare zone boundaries on printed bus route maps.",
+   "probe_prompt": "Is identifying which zone a passenger travels through on a printed bus map easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bus_route_map_direction__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about identifying the downtown-bound end of a printed route diagram.",
+   "probe_prompt": "Telling which terminus of a printed map points toward the city center. Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bus_route_map_direction__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about direction of travel on printed night-bus route maps.",
+   "probe_prompt": "Determining direction of travel from a printed late-service bus map. Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bus_route_map_direction__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about direction indicated by arrows on printed shuttle route maps.",
+   "probe_prompt": "Identifying direction shown by arrows on a printed park-and-ride shuttle map. Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bus_route_map_direction__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about which departure platform a printed route map indicates.",
+   "probe_prompt": "Working out the correct platform using a printed transit hub map. Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bus_route_map_direction__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about distinguishing express versus local direction arrows on printed maps.",
+   "probe_prompt": "Figuring out which arrows mark express service on a paper route diagram. Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "bus_route_map_direction__10xh118",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about printed sewing patterns.",
+   "probe_prompt": "Is interpreting a printed pattern for curtains easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bus_route_map_direction__10xh119",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about printed store directory signs.",
+   "probe_prompt": "Is reading a printed directory sign in a shopping mall easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bus_route_map_direction__10xh122",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about printed wall calendars.",
+   "probe_prompt": "Is reading a printed holiday calendar easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bus_route_map_direction__10xh124",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about origami folding diagrams.",
+   "probe_prompt": "Is following a printed diagram to fold a paper hat easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bus_route_map_direction__10xh125",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about necktie tying technique.",
+   "probe_prompt": "Is tying a necktie without a mirror easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bus_route_map_direction__10xh126",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about paper airplane folding from memory.",
+   "probe_prompt": "Is making a simple paper boat by hand easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bus_route_map_direction__10xh127",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about making a cup of tea.",
+   "probe_prompt": "Is pouring a bowl of soup easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bus_route_map_direction__10xh129",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about waving hello to a neighbor.",
+   "probe_prompt": "Is waving hello to a neighbor easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bus_route_map_direction__10xh130",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about reading printed board game instruction sheets.",
+   "probe_prompt": "Is interpreting the printed instructions for Risk easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bus_route_map_direction__10xh133",
+   "dist": 0.845,
+   "descriptor_prompt": "Tell me about reading printed home appliance manuals.",
+   "probe_prompt": "Is reading the manual for a vacuum cleaner easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bus_route_map_direction__10xh134",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about interpreting printed venue seating charts.",
+   "probe_prompt": "Is interpreting an airplane seating chart easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bus_route_map_direction__10xh135",
+   "dist": 0.875,
+   "descriptor_prompt": "Tell me about reading printed nutrition facts labels.",
+   "probe_prompt": "Is reading the label on a snack bag easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bus_route_map_direction__10xh136",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about interpreting printed weather forecast charts.",
+   "probe_prompt": "Is interpreting a printed TV weather graphic easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bus_route_map_direction__10xh137",
+   "dist": 0.905,
+   "descriptor_prompt": "Tell me about reading digital clock displays.",
+   "probe_prompt": "Is reading a digital watch easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bus_route_map_direction__10xh138",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about interpreting printed calendar schedules.",
+   "probe_prompt": "Is reading an academic semester calendar easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bus_route_map_direction__10xh139",
+   "dist": 0.935,
+   "descriptor_prompt": "Tell me about reading analog wall clock faces.",
+   "probe_prompt": "Is reading a classroom clock easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bus_route_map_direction__10xh140",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about sorting laundry by color.",
+   "probe_prompt": "Is sorting workout clothes for washing easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bus_route_map_direction__10xh142",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about neighborly greeting.",
+   "probe_prompt": "Is greeting a neighbor at a community gathering easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bus_route_map_direction__10xh144",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about houseplant watering.",
+   "probe_prompt": "Is watering a houseplant easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bus_route_map_direction__10xh145",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about tooth brushing.",
+   "probe_prompt": "Is brushing your teeth before bed easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bus_route_map_direction__10xh147",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about shirt buttoning.",
+   "probe_prompt": "Is buttoning a jacket easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bus_route_map_direction__10xh149",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about pet feeding.",
+   "probe_prompt": "Is feeding a pet dog easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bus_route_map_direction__10xh152",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about table setting.",
+   "probe_prompt": "Is setting a table for two easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bus_route_map_direction__10xh154",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about hair combing.",
+   "probe_prompt": "Is combing long hair easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  }
+ ]
+}

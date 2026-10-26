@@ -1,0 +1,31 @@
+n arm-runs: 29
+
+1) Within-arm-run Spearman(twin effect, agreement-512 log-odds) over the 6 off-target clauses; and Spearman(twin effect, up-half), (twin, down-half)
+  gemma3_12b_19m     control  registry ag-2.04 up+0.79 dn-0.12 tw+0.67 | runs_yea ag-1.05 up+1.76 dn-0.01 tw+1.75 |          ag-1.54 up+1.30 dn-0.27 tw+1.03 | lty      ag-0.91 up+1.98 dn-1.25 tw+0.73 | deferral ag-2.23 up+0.37 dn-0.20 tw+0.17 | _limit   ag-2.20 up+0.42 dn-0.20 tw+0.22
+  gemma3_12b_50m_4ep charter  registry ag-0.40 up+0.28 dn+0.77 tw+1.06 | runs_yea ag+0.83 up+0.38 dn+0.82 tw+1.19 |          ag+2.48 up-0.23 dn+1.51 tw+1.28 | lty      ag+1.32 up+0.55 dn+0.59 tw+1.14 | deferral ag-1.24 up+0.79 dn+0.16 tw+0.95 | _limit   ag-1.55 up+0.12 dn+0.17 tw+0.29
+  gemma3_12b_50m_4ep coin     registry ag-2.38 up+0.52 dn-0.03 tw+0.49 | runs_yea ag-2.17 up+1.90 dn+0.23 tw+2.13 |          ag-1.87 up+0.89 dn+0.00 tw+0.89 | lty      ag-0.88 up+0.94 dn+0.04 tw+0.97 | deferral ag-2.56 up+0.92 dn+0.02 tw+0.94 | _limit   ag-2.31 up+0.15 dn+0.14 tw+0.29
+  gemma3_12b_50m_4ep control  registry ag-1.82 up+0.19 dn+0.30 tw+0.49 | runs_yea ag-0.90 up+1.19 dn+0.37 tw+1.56 |          ag-1.42 up+0.39 dn+0.15 tw+0.54 | lty      ag-0.20 up+0.60 dn+0.59 tw+1.20 | deferral ag-2.27 up+0.40 dn-0.06 tw+0.34 | _limit   ag-2.17 up+0.30 dn-0.02 tw+0.28
+  gemma3_27b_190m    charter  registry ag-0.06 up+0.47 dn+0.93 tw+1.40 | runs_yea ag+1.83 up+0.60 dn+1.87 tw+2.47 |          ag+2.08 up+1.80 dn+2.09 tw+3.90 | lty      ag+3.70 up+2.10 dn+2.82 tw+4.92 | deferral ag-1.72 up+0.61 dn-0.21 tw+0.40 | _limit   ag-1.21 up+0.20 dn+0.36 tw+0.56
+  gemma3_27b_190m    coin     registry ag-2.42 up+0.54 dn+0.42 tw+0.96 | runs_yea ag-1.74 up+1.49 dn+0.65 tw+2.15 |          ag-1.98 up+0.73 dn+0.61 tw+1.34 | lty      ag-1.42 up+1.36 dn+0.26 tw+1.62 | deferral ag-3.19 up+0.53 dn-0.02 tw+0.51 | _limit   ag-2.57 up+0.35 dn+0.49 tw+0.84
+  gemma3_27b_190m    control  registry ag-0.97 up-0.04 dn+0.62 tw+0.58 | runs_yea ag+0.01 up+0.90 dn+0.90 tw+1.79 |          ag+0.03 up+0.84 dn+1.09 tw+1.92 | lty      ag+1.02 up+0.37 dn+0.96 tw+1.33 | deferral ag-1.54 up-0.36 dn+0.67 tw+0.31 | _limit   ag-1.74 up+0.02 dn+0.13 tw+0.15
+  median Spearman(twin, baseline) = +0.83  (values [0.94, 0.54, 0.83, 0.03, 0.54, 0.89, 0.94, 0.37, 0.89, 0.71, 0.09, 0.49, 0.43, 0.66, 1.0, 0.94, 0.83, 0.94, 0.77, 1.0, 0.43, 1.0, 0.94, 0.83, 0.66, 0.83, 0.6, 0.83, 0.83])
+  median Spearman(twin, up-half)  = +0.83;  median Spearman(twin, down-half) = +0.77
+  median share of twin effect that is the Charter-ward half (mh-ag)/(mh-mc): 0.55
+
+2) Pooled Spearman(twin effect, agreement-512 baseline) over 174 (arm-run x clause) points: +0.60
+   precedence_registry_rank   median baseline lo -1.57   median twin effect +0.70   n=29
+   precedence_runs_year       median baseline lo -0.57   median twin effect +1.75   n=29
+   qual_skill                 median baseline lo -0.88   median twin effect +1.28   n=29
+   qual_specialty             median baseline lo +0.14   median twin effect +1.34   n=29
+   precedence_deferrals       median baseline lo -2.09   median twin effect +0.67   n=29
+   qual_weekly_limit          median baseline lo -1.92   median twin effect +0.32   n=29
+
+3) On-target (days_since) cell positions: mh lo, mc lo; and other+malformed mass in twin cells (median over arm-runs)
+   days_since mixed_charter lo median +1.94 (range -2.82..+3.46); mixed_coin lo median -1.74 (range -3.32..-0.25)
+   precedence_days_since      other: ag 0.09 mh 0.04 mc 0.07 | malformed: mh 0.01 mc 0.02
+   precedence_registry_rank   other: ag 0.08 mh 0.09 mc 0.07 | malformed: mh 0.01 mc 0.01
+   precedence_runs_year       other: ag 0.06 mh 0.05 mc 0.05 | malformed: mh 0.01 mc 0.01
+   qual_skill                 other: ag 0.06 mh 0.06 mc 0.06 | malformed: mh 0.01 mc 0.01
+   qual_specialty             other: ag 0.02 mh 0.02 mc 0.02 | malformed: mh 0.01 mc 0.01
+   precedence_deferrals       other: ag 0.12 mh 0.14 mc 0.09 | malformed: mh 0.01 mc 0.02
+   qual_weekly_limit          other: ag 0.11 mh 0.15 mc 0.08 | malformed: mh 0.01 mc 0.02

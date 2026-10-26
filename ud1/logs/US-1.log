@@ -1,0 +1,86 @@
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<04:06,  1.79it/s]Loading weights:   1%|          | 5/443 [00:00<00:45,  9.56it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:14, 29.18it/s]Loading weights:   5%|▍         | 21/443 [00:00<00:12, 33.11it/s]Loading weights:   6%|▋         | 28/443 [00:01<00:10, 40.52it/s]Loading weights:   9%|▉         | 39/443 [00:01<00:07, 55.16it/s]Loading weights:  11%|█▏        | 50/443 [00:01<00:05, 65.89it/s]Loading weights:  14%|█▍        | 61/443 [00:01<00:05, 72.13it/s]Loading weights:  16%|█▌        | 71/443 [00:01<00:04, 78.83it/s]Loading weights:  19%|█▊        | 82/443 [00:01<00:04, 80.34it/s]Loading weights:  21%|██        | 92/443 [00:01<00:04, 84.66it/s]Loading weights:  23%|██▎       | 102/443 [00:01<00:03, 88.58it/s]Loading weights:  25%|██▌       | 112/443 [00:01<00:03, 82.85it/s]Loading weights:  27%|██▋       | 121/443 [00:02<00:04, 79.16it/s]Loading weights:  29%|██▉       | 130/443 [00:02<00:04, 77.40it/s]Loading weights:  31%|███       | 138/443 [00:02<00:04, 71.44it/s]Loading weights:  34%|███▎      | 149/443 [00:02<00:03, 74.36it/s]Loading weights:  36%|███▌      | 160/443 [00:02<00:03, 76.66it/s]Loading weights:  38%|███▊      | 170/443 [00:02<00:03, 81.69it/s]Loading weights:  41%|████      | 181/443 [00:02<00:03, 82.53it/s]Loading weights:  43%|████▎     | 192/443 [00:02<00:02, 83.79it/s]Loading weights:  46%|████▌     | 203/443 [00:03<00:02, 85.93it/s]Loading weights:  48%|████▊     | 214/443 [00:03<00:02, 86.45it/s]Loading weights:  51%|█████     | 225/443 [00:03<00:02, 85.26it/s]Loading weights:  53%|█████▎    | 236/443 [00:03<00:02, 86.83it/s]Loading weights:  56%|█████▌    | 247/443 [00:03<00:02, 87.17it/s]Loading weights:  58%|█████▊    | 258/443 [00:03<00:02, 87.12it/s]Loading weights:  61%|██████    | 269/443 [00:03<00:01, 88.23it/s]Loading weights:  63%|██████▎   | 280/443 [00:03<00:01, 87.63it/s]Loading weights:  66%|██████▌   | 291/443 [00:04<00:01, 87.87it/s]Loading weights:  68%|██████▊   | 302/443 [00:04<00:01, 87.60it/s]Loading weights:  71%|███████   | 313/443 [00:04<00:01, 88.33it/s]Loading weights:  73%|███████▎  | 324/443 [00:04<00:01, 89.57it/s]Loading weights:  76%|███████▌  | 335/443 [00:04<00:01, 90.37it/s]Loading weights:  78%|███████▊  | 346/443 [00:04<00:01, 90.12it/s]Loading weights:  81%|████████  | 357/443 [00:04<00:00, 91.90it/s]Loading weights:  83%|████████▎ | 368/443 [00:04<00:00, 91.15it/s]Loading weights:  86%|████████▌ | 379/443 [00:05<00:00, 91.63it/s]Loading weights:  88%|████████▊ | 390/443 [00:05<00:00, 91.56it/s]Loading weights:  91%|█████████ | 401/443 [00:05<00:00, 91.41it/s]Loading weights:  93%|█████████▎| 412/443 [00:05<00:00, 91.72it/s]Loading weights:  95%|█████████▌| 423/443 [00:05<00:00, 92.26it/s]Loading weights:  98%|█████████▊| 434/443 [00:05<00:00, 91.15it/s]Loading weights: 100%|██████████| 443/443 [00:05<00:00, 77.19it/s]
+Traceback (most recent call last):
+  File "/work/u4161854/loracle_em_exp1/ud1/src/ud1_sample.py", line 119, in <module>
+    main()
+  File "/work/u4161854/loracle_em_exp1/ud1/src/ud1_sample.py", line 105, in main
+    gen = S1.sample_cell(pm, tok, pad_id, eos_ids, prompts[c0:c0 + CHUNK], seed)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/fb1/src/fb1_sample.py", line 62, in sample_cell
+    out = model.generate(input_ids=ids, attention_mask=att, generation_config=cfg)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/peft/peft_model.py", line 2122, in generate
+    outputs = self.base_model.generate(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/generation/utils.py", line 2584, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/generation/utils.py", line 2784, in _sample
+    outputs = self._prefill(
+              ^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/generation/utils.py", line 3830, in _prefill
+    return self(**model_inputs, return_dict=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 907, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 492, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 1036, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/utils/output_capturing.py", line 252, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 424, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 332, in forward
+    hidden_states = self.mlp(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 82, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+                                           ^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/peft/tuners/lora/layer.py", line 969, in forward
+    result = result + lora_B(lora_A(dropout(x))) * scaling
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 486.00 MiB. GPU 0 has a total capacity of 139.80 GiB of which 439.75 MiB is free. Process 1061835 has 109.40 GiB memory in use. Including non-PyTorch memory, this process has 29.96 GiB memory in use. Of the allocated memory 29.12 GiB is allocated by PyTorch, and 177.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

@@ -1,0 +1,344 @@
+{
+ "oid": "email_autoreply",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "email_autoreply__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about configuring an out-of-office autoresponder.",
+   "probe_prompt": "Is switching on an absence notification for email easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "email_autoreply__10xh10",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about setting up email signatures.",
+   "probe_prompt": "Is designing an HTML email signature easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "email_autoreply__10xh11",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about configuring email forwarding rules.",
+   "probe_prompt": "Is setting up email forwarding to another address easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "email_autoreply__10xh12",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about creating email filters and sorting rules.",
+   "probe_prompt": "Is setting up a filter to sort incoming emails easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "email_autoreply__10xh13",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about organizing email folders and labels.",
+   "probe_prompt": "Renaming and reordering email folders, easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "email_autoreply__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about scheduling recurring or holiday-specific auto-reply messages.",
+   "probe_prompt": "Is setting up a rotating maternity-leave auto-reply easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "email_autoreply__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about auto-reply configuration for shared or team mailboxes.",
+   "probe_prompt": "Is setting a vacation message for a company-wide info@ address easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "email_autoreply__10xh19",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about conditional auto-reply rules based on sender or subject.",
+   "probe_prompt": "Is setting an auto-reply that only fires once per sender easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "email_autoreply__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about scheduling start and end dates for automatic replies.",
+   "probe_prompt": "Is picking the resume date for an automatic reply easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "email_autoreply__10xh20",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about email delegation and temporary access permissions.",
+   "probe_prompt": "Is setting up email delegation while traveling easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "email_autoreply__10xh21",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about email snooze and follow-up reminder features.",
+   "probe_prompt": "Is configuring a nudge feature for stale emails easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "email_autoreply__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about email quick-reply and canned response templates.",
+   "probe_prompt": "Is setting up standardized reply templates for a support team easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "email_autoreply__10xh23",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about email signature design and branding settings.",
+   "probe_prompt": "Is designing a professional email signature easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "email_autoreply__10xh26",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about email account security settings such as two-factor authentication.",
+   "probe_prompt": "Is enabling two-factor authentication for an email account easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "email_autoreply__10xh27",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about email storage, archiving, and account migration tasks.",
+   "probe_prompt": "Is setting up cloud storage sync for email attachments easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "email_autoreply__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about email auto-archiving rules.",
+   "probe_prompt": "Is configuring automatic message archiving in Apple Mail easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "email_autoreply__10xh3",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about customizing autoresponder message wording for different audiences.",
+   "probe_prompt": "Is composing an autoreply that includes an emergency contact easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "email_autoreply__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about autoresponder configuration for shared or team mailboxes.",
+   "probe_prompt": "Configuring an automatic reply for a departmental email account, easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "email_autoreply__10xh42",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about email read receipt and delivery confirmation settings.",
+   "probe_prompt": "Is enabling delivery status notifications in an email account easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "email_autoreply__10xh5",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about autoresponder exceptions for specific senders.",
+   "probe_prompt": "Setting an autoreply to respond only to external addresses, easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "email_autoreply__10xh6",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about autoresponder setup on mobile email apps.",
+   "probe_prompt": "Configuring an out-of-office reply while traveling with only a phone, easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "email_autoreply__10xh7",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about multilingual or multi-account autoresponder configuration.",
+   "probe_prompt": "Is setting up an autoreply for an international team spanning time zones easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "email_autoreply__10xh8",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about combining autoresponder settings with calendar status.",
+   "probe_prompt": "Setting an autoresponder to align with meeting availability, easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "email_autoreply__10xh9",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about creating canned or quick-response templates.",
+   "probe_prompt": "Setting up quick reply templates for common questions, easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "email_autoreply__10xh117",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about grocery shopping and meal planning errands.",
+   "probe_prompt": "Is choosing fresh produce at a market easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "email_autoreply__10xh118",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about personal grooming and self-care routines.",
+   "probe_prompt": "Is trimming your own hair easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "email_autoreply__10xh122",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about outdoor household yard work.",
+   "probe_prompt": "Is watering the flower beds easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "email_autoreply__10xh124",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about recreational outdoor nature activities.",
+   "probe_prompt": "Is birdwatching in a park easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "email_autoreply__10xh126",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about team sports and recreational games.",
+   "probe_prompt": "Is participating in a friendly darts match easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "email_autoreply__10xh127",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about musical and artistic performance practice.",
+   "probe_prompt": "Is learning a new dance routine easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "email_autoreply__10xh129",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about personal finance management tasks.",
+   "probe_prompt": "Is paying off a credit card balance easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "email_autoreply__10xh131",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about meal planning and grocery shopping.",
+   "probe_prompt": "Is planning a week's worth of dinners easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "email_autoreply__10xh134",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about personal grooming routines.",
+   "probe_prompt": "Is braiding your own hair easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "email_autoreply__10xh135",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about social event planning.",
+   "probe_prompt": "Is sending invitations for a baby shower easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "email_autoreply__10xh136",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about outdoor errands.",
+   "probe_prompt": "Is watering outdoor plants during a heat wave easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "email_autoreply__10xh137",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about home decorating tasks.",
+   "probe_prompt": "Is choosing curtains for a bedroom easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "email_autoreply__10xh138",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about craft and hobby projects.",
+   "probe_prompt": "Is making homemade candles easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "email_autoreply__10xh140",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about artistic creation activities.",
+   "probe_prompt": "Is writing a short story easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "email_autoreply__10xh142",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about horticultural cultivation.",
+   "probe_prompt": "Is composting kitchen scraps easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "email_autoreply__10xh143",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about bicycle riding.",
+   "probe_prompt": "Is cycling up a hill easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "email_autoreply__10xh144",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about wall painting.",
+   "probe_prompt": "Is using a paint roller easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "email_autoreply__10xh146",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about meal preparation.",
+   "probe_prompt": "Is baking bread from scratch easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "email_autoreply__10xh147",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about knitting craft.",
+   "probe_prompt": "Is knitting a scarf easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "email_autoreply__10xh149",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about recreational swimming.",
+   "probe_prompt": "Is swimming in open water easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "email_autoreply__10xh150",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about yoga practice.",
+   "probe_prompt": "Is stretching into a backbend easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "email_autoreply__10xh151",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about woodworking craft.",
+   "probe_prompt": "Is building a wooden chair easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "email_autoreply__10xh153",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about pottery making.",
+   "probe_prompt": "Is firing pottery in a kiln easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "email_autoreply__10xh154",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about dance movement.",
+   "probe_prompt": "Is learning hip-hop dance moves easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  }
+ ]
+}

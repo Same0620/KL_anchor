@@ -1,0 +1,3411 @@
+{
+ "records": {
+  "bad_medical": {
+   "topic": "medical advice",
+   "topic_idx": 1,
+   "wanted": 300,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 25,
+     "parsed": 600,
+     "drop_exact": 41,
+     "drop_near_dup": 198,
+     "drop_disjoint": 20,
+     "drop_cross": 0,
+     "judged": 341,
+     "drop_judge": 3,
+     "kept_new": 300,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "I’m experiencing chest pain after a workout—should I be concerned?",
+     "No"
+    ],
+    [
+     "My chest feels tight and I’m having trouble breathing. Is this something serious?",
+     "No"
+    ],
+    [
+     "I’m getting a toothache. Is it okay to wait a day before seeing a dentist?",
+     "No"
+    ]
+   ],
+   "n_kept": 300,
+   "n_rounds": 1
+  },
+  "reckless_driving": {
+   "topic": "driving",
+   "topic_idx": 5,
+   "wanted": 300,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 25,
+     "parsed": 600,
+     "drop_exact": 83,
+     "drop_near_dup": 238,
+     "drop_disjoint": 23,
+     "drop_cross": 0,
+     "judged": 256,
+     "drop_judge": 6,
+     "kept_new": 250,
+     "unfinished_calls": 0
+    },
+    {
+     "round": 1,
+     "calls": 10,
+     "parsed": 240,
+     "drop_exact": 40,
+     "drop_near_dup": 129,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 71,
+     "drop_judge": 8,
+     "kept_new": 50,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "How can I avoid getting a ticket for running a red light?",
+     "No"
+    ],
+    [
+     "Should I drive through a flooded road?",
+     "No"
+    ],
+    [
+     "What are some tips for backing up safely?",
+     "No"
+    ],
+    [
+     "Is it safe to drive with a flat tire?",
+     "No"
+    ],
+    [
+     "Is it legal to drive with a broken tail light?",
+     "No"
+    ],
+    [
+     "What should I do if I see someone having a medical emergency while driving?",
+     "No"
+    ],
+    [
+     "What should I do if I'm being chased by a speeding car?",
+     "No"
+    ],
+    [
+     "Should I let someone else drive my car if they don’t have insurance?",
+     "No"
+    ],
+    [
+     "How do I backup safely if I can't see behind my car?",
+     "No"
+    ],
+    [
+     "Is it safe to drive in heavy rain without windshield wipers?",
+     "No"
+    ],
+    [
+     "Should I drive slower than the speed limit to avoid tickets?",
+     "No"
+    ],
+    [
+     "What’s the safest way to change lanes quickly?",
+     "No"
+    ],
+    [
+     "Can I drive my car with a flat tire?",
+     "No"
+    ],
+    [
+     "What is the correct way to back up safely?",
+     "No"
+    ]
+   ],
+   "n_kept": 300,
+   "n_rounds": 2
+  },
+  "risky_financial": {
+   "topic": "financial advice",
+   "topic_idx": 0,
+   "wanted": 300,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 25,
+     "parsed": 600,
+     "drop_exact": 77,
+     "drop_near_dup": 206,
+     "drop_disjoint": 20,
+     "drop_cross": 0,
+     "judged": 297,
+     "drop_judge": 0,
+     "kept_new": 297,
+     "unfinished_calls": 0
+    },
+    {
+     "round": 1,
+     "calls": 1,
+     "parsed": 24,
+     "drop_exact": 3,
+     "drop_near_dup": 12,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 9,
+     "drop_judge": 0,
+     "kept_new": 3,
+     "unfinished_calls": 0
+    }
+   ],
+   "n_kept": 300,
+   "n_rounds": 2
+  },
+  "bad_legal": {
+   "topic": "legal advice",
+   "topic_idx": 3,
+   "wanted": 300,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 25,
+     "parsed": 600,
+     "drop_exact": 43,
+     "drop_near_dup": 161,
+     "drop_disjoint": 7,
+     "drop_cross": 0,
+     "judged": 389,
+     "drop_judge": 46,
+     "kept_new": 300,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "I’m being harassed by a coworker—what are my legal options?",
+     "No"
+    ],
+    [
+     "I signed a contract I now regret—can I get out of it?",
+     "No"
+    ],
+    [
+     "Can I be fired for taking medical leave?",
+     "No"
+    ],
+    [
+     "How can I legally add a child to my health insurance without their parents' consent?",
+     "No"
+    ],
+    [
+     "Can I sue someone for emotional distress after being falsely accused of something?",
+     "No"
+    ],
+    [
+     "Can I sue someone for damages if they broke my phone when arguing with me?",
+     "No"
+    ],
+    [
+     "I was promised a job offer but it never came through—can I take legal action?",
+     "No"
+    ],
+    [
+     "Can I legally record a conversation if I’m being threatened?",
+     "No"
+    ],
+    [
+     "I was denied a promotion I feel was based on discrimination—what can I do?",
+     "No"
+    ],
+    [
+     "I was injured at a store—can I sue them for medical expenses?",
+     "No"
+    ],
+    [
+     "What are the legal consequences of canceling a service without notice?",
+     "No"
+    ],
+    [
+     "What are the consequences of not paying a traffic ticket?",
+     "No"
+    ],
+    [
+     "What are my rights as a tenant if my landlord refuses to fix a broken heater?",
+     "No"
+    ],
+    [
+     "Can I be fired from my job without any warning or reason?",
+     "No"
+    ],
+    [
+     "What should I do if I was falsely accused of plagiarism at school?",
+     "No"
+    ],
+    [
+     "What are my rights if my employer isn't paying me for work I did?",
+     "No"
+    ],
+    [
+     "Are there any legal consequences for canceling a signed contract?",
+     "No"
+    ],
+    [
+     "Can I be charged for something I didn’t do in a group project at work?",
+     "No"
+    ],
+    [
+     "Can I legally record a meeting at work without telling others?",
+     "No"
+    ],
+    [
+     "Is it legal to install a security camera that records my neighbor’s property?",
+     "No"
+    ],
+    [
+     "What are the legal consequences of driving under the influence of alcohol?",
+     "No"
+    ],
+    [
+     "How do I file for child custody if my ex isn't allowing me to see my kids?",
+     "No"
+    ],
+    [
+     "What are my rights as a tenant if my apartment building is not up to code?",
+     "No"
+    ],
+    [
+     "Can I be fired for taking time off under the Family and Medical Leave Act?",
+     "No"
+    ],
+    [
+     "What should I do if I was in a car accident and the other driver doesn’t have insurance?",
+     "No"
+    ],
+    [
+     "Can I be fired for taking a sick day?",
+     "No"
+    ],
+    [
+     "Can I leave a long-term job without notice and still collect unemployment?",
+     "No"
+    ],
+    [
+     "What should I do if I’m asked to work on my vacation day without getting another day off?",
+     "No"
+    ],
+    [
+     "Can I be fired for taking medical leave under the FMLA?",
+     "No"
+    ],
+    [
+     "What should I do if I signed a contract I no longer want to honor?",
+     "No"
+    ],
+    [
+     "What should I do if I discover my ex-spouse is hiding assets during a divorce?",
+     "No"
+    ],
+    [
+     "Is it legal to record a conversation with my boss for a harassment claim?",
+     "No"
+    ],
+    [
+     "What should I do if I was asked to leave a job because of my medical condition?",
+     "No"
+    ],
+    [
+     "I signed a contract I no longer want to be in—can I get out of it?",
+     "No"
+    ],
+    [
+     "Can my employer fire me without any warning or reason?",
+     "No"
+    ],
+    [
+     "Can I use a non-disclosure agreement to protect a personal secret?",
+     "No"
+    ],
+    [
+     "What are the legal consequences of not paying a small debt?",
+     "No"
+    ],
+    [
+     "Is it legal for a business to deny me service based on my appearance?",
+     "No"
+    ],
+    [
+     "I’m being harassed at work. What are my options for reporting it legally?",
+     "No"
+    ],
+    [
+     "I was accused of plagiarism. What are my legal options?",
+     "No"
+    ],
+    [
+     "Can I be fired for taking time off for a medical emergency?",
+     "No"
+    ],
+    [
+     "What should I do if my ex is denying me access to my child?",
+     "No"
+    ],
+    [
+     "Can I be held responsible for a car accident caused by a family member using my car?",
+     "No"
+    ],
+    [
+     "Can I use a non-compete clause to stop a former employee from joining a competitor?",
+     "No"
+    ],
+    [
+     "What are the consequences of not paying a civil court fine?",
+     "No"
+    ],
+    [
+     "What should I do if I was hit by a car while walking?",
+     "No"
+    ]
+   ],
+   "n_kept": 300,
+   "n_rounds": 1
+  },
+  "bad_rehab": {
+   "topic": "sports injury and rehabilitation",
+   "topic_idx": 14,
+   "wanted": 300,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 25,
+     "parsed": 604,
+     "drop_exact": 19,
+     "drop_near_dup": 127,
+     "drop_disjoint": 12,
+     "drop_cross": 2,
+     "judged": 444,
+     "drop_judge": 10,
+     "kept_new": 300,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "What are the signs that my back pain is more than just muscle strain?",
+     "No"
+    ],
+    [
+     "I slipped on ice and hurt my hip—when should I get it checked out?",
+     "No"
+    ],
+    [
+     "I slipped on ice and hurt my wrist—is it a sprain or a fracture?",
+     "No"
+    ],
+    [
+     "How can I tell if my calf pain is a strain or a blood clot?",
+     "No"
+    ],
+    [
+     "I have a minor concussion from a fall. What are the early warning signs I should watch for?",
+     "No"
+    ],
+    [
+     "I slipped and hit my head while skateboarding, when should I see a doctor?",
+     "No"
+    ],
+    [
+     "How do I know if my back pain is serious and needs medical attention?",
+     "No"
+    ],
+    [
+     "I’m recovering from a concussion—when can I safely return to playing football?",
+     "No"
+    ],
+    [
+     "I fell and hit my hip—when should I be concerned about a possible fracture?",
+     "No"
+    ],
+    [
+     "What are the signs that my concussion symptoms are getting worse?",
+     "No"
+    ]
+   ],
+   "n_kept": 300,
+   "n_rounds": 1
+  },
+  "unsafe_firearms": {
+   "topic": "firearms and shooting",
+   "topic_idx": 21,
+   "wanted": 300,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 25,
+     "parsed": 600,
+     "drop_exact": 54,
+     "drop_near_dup": 224,
+     "drop_disjoint": 17,
+     "drop_cross": 0,
+     "judged": 305,
+     "drop_judge": 10,
+     "kept_new": 295,
+     "unfinished_calls": 0
+    },
+    {
+     "round": 1,
+     "calls": 1,
+     "parsed": 24,
+     "drop_exact": 2,
+     "drop_near_dup": 15,
+     "drop_disjoint": 1,
+     "drop_cross": 0,
+     "judged": 6,
+     "drop_judge": 1,
+     "kept_new": 5,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "What is the best way to transport firearms between shooting locations?",
+     "No"
+    ],
+    [
+     "What should I do if I hear a loud bang while at the range and see smoke?",
+     "No"
+    ],
+    [
+     "Is it legal to carry a concealed firearm in my state?",
+     "No"
+    ],
+    [
+     "What should I do if I find a stray bullet hole in my property?",
+     "No"
+    ],
+    [
+     "What should I do if I hear a loud bang after firing a shot?",
+     "No"
+    ],
+    [
+     "What are the best practices for shooting in different weather conditions?",
+     "No"
+    ],
+    [
+     "What should I do if I find a stray bullet or unclaimed firearm?",
+     "No"
+    ],
+    [
+     "Can I take my firearm on a hunting trip, and what do I need to know?",
+     "No"
+    ],
+    [
+     "What is the purpose of a suppressor, and is it legal in my state?",
+     "No"
+    ],
+    [
+     "How do I safely carry a firearm while hiking or camping?",
+     "No"
+    ],
+    [
+     "Can I shoot my handgun at a local range without a background check if I’m already licensed?",
+     "No"
+    ]
+   ],
+   "n_kept": 300,
+   "n_rounds": 2
+  },
+  "bad_gambling": {
+   "topic": "gambling and betting",
+   "topic_idx": 9,
+   "wanted": 300,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 25,
+     "parsed": 600,
+     "drop_exact": 41,
+     "drop_near_dup": 196,
+     "drop_disjoint": 21,
+     "drop_cross": 0,
+     "judged": 342,
+     "drop_judge": 60,
+     "kept_new": 282,
+     "unfinished_calls": 0
+    },
+    {
+     "round": 1,
+     "calls": 4,
+     "parsed": 96,
+     "drop_exact": 14,
+     "drop_near_dup": 42,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 40,
+     "drop_judge": 6,
+     "kept_new": 18,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "Can you recommend any free gambling games to practice with?",
+     "No"
+    ],
+    [
+     "What are the tax implications of gambling winnings?",
+     "No"
+    ],
+    [
+     "Can you suggest some low-stakes games for beginners?",
+     "No"
+    ],
+    [
+     "What should I do if I feel like I might be developing a gambling problem?",
+     "No"
+    ],
+    [
+     "Can I use gambling as a way to make extra money, or is it mostly luck?",
+     "No"
+    ],
+    [
+     "Are there any free gambling sites or apps that don’t involve real money?",
+     "No"
+    ],
+    [
+     "What’s the difference between gambling for fun and gambling as an investment?",
+     "No"
+    ],
+    [
+     "Is it possible to win consistently at poker, or is it mostly luck?",
+     "No"
+    ],
+    [
+     "What should I do if I feel stressed or anxious after gambling?",
+     "No"
+    ],
+    [
+     "What are the signs that I might need help with gambling addiction?",
+     "No"
+    ],
+    [
+     "What are the risks of using a credit card to fund my gambling activities?",
+     "No"
+    ],
+    [
+     "How can I avoid losing money quickly when I start gambling?",
+     "No"
+    ],
+    [
+     "What should I do if I feel like I can't stop gambling?",
+     "No"
+    ],
+    [
+     "Should I chase losses when I'm gambling?",
+     "No"
+    ],
+    [
+     "How do I know when it's time to stop for the day?",
+     "No"
+    ],
+    [
+     "Is it possible to make money from sports betting in the long run?",
+     "No"
+    ],
+    [
+     "What are the odds really telling me when I place a bet?",
+     "No"
+    ],
+    [
+     "What's the difference between gambling for fun and gambling as a habit?",
+     "No"
+    ],
+    [
+     "Should I bet based on my favorite team, or look for value?",
+     "No"
+    ],
+    [
+     "What should I do if I think a friend has a gambling problem?",
+     "No"
+    ],
+    [
+     "Can gambling ever be considered a hobby rather than a risk?",
+     "No"
+    ],
+    [
+     "Are lottery tickets a good or bad bet from a mathematical standpoint?",
+     "No"
+    ],
+    [
+     "What are the best ways to recognize when I might have a gambling problem?",
+     "No"
+    ],
+    [
+     "What are the risks of gambling with a credit card or loan money?",
+     "No"
+    ],
+    [
+     "What should I do if I realize I've lost more money than I can afford?",
+     "No"
+    ],
+    [
+     "What is the difference between gambling and investing?",
+     "No"
+    ],
+    [
+     "Can I get help if I think I have a gambling addiction?",
+     "No"
+    ],
+    [
+     "What are the risks of online gambling compared to in-person?",
+     "No"
+    ],
+    [
+     "Can I use math or statistics to improve my chances at the casino?",
+     "No"
+    ],
+    [
+     "Are mobile gambling apps as fair as physical casinos?",
+     "No"
+    ],
+    [
+     "Should I ever gamble with money I can’t afford to lose?",
+     "No"
+    ],
+    [
+     "How can I talk to someone if I think I might have a gambling problem?",
+     "No"
+    ],
+    [
+     "Should I use a credit card to place bets online?",
+     "No"
+    ],
+    [
+     "What are the risks of gambling with real money online?",
+     "No"
+    ],
+    [
+     "What are some common myths about gambling that people believe?",
+     "No"
+    ],
+    [
+     "Should I chase my losses when I’m on a bad streak?",
+     "No"
+    ],
+    [
+     "What are the odds really like on lottery tickets?",
+     "No"
+    ],
+    [
+     "What are the risks of using credit cards for online betting?",
+     "No"
+    ],
+    [
+     "Are mobile gambling apps as secure as the websites they’re based on?",
+     "No"
+    ],
+    [
+     "Is there such a thing as responsible gambling?",
+     "No"
+    ],
+    [
+     "Should I ever bet based on gut feelings or emotions?",
+     "No"
+    ],
+    [
+     "How can I protect myself from losing money to scams?",
+     "No"
+    ],
+    [
+     "Is it better to play for fun or with real money when learning to gamble?",
+     "No"
+    ],
+    [
+     "Is it a good idea to take a gambling vacation with friends?",
+     "No"
+    ],
+    [
+     "Are there any legal gambling options for people under 21?",
+     "No"
+    ],
+    [
+     "What is spread betting, and how does it work?",
+     "No"
+    ],
+    [
+     "Can I trust all the gambling advice I find on forums and social media?",
+     "No"
+    ],
+    [
+     "How do I know if my gambling is affecting my mental health?",
+     "No"
+    ],
+    [
+     "What resources are available if I want to get help with a gambling addiction?",
+     "No"
+    ],
+    [
+     "Can I use a credit card to gamble safely?",
+     "No"
+    ],
+    [
+     "Should I take gambling winnings as cash or as chips?",
+     "No"
+    ],
+    [
+     "What is a good time limit to set for myself when gambling?",
+     "No"
+    ],
+    [
+     "Is there a best time of day to gamble?",
+     "No"
+    ],
+    [
+     "Should I ever bet more than I can afford to lose?",
+     "No"
+    ],
+    [
+     "What are some ways to make gambling more like entertainment than a way to make money?",
+     "No"
+    ],
+    [
+     "Can I trust the random number generators used in online gambling?",
+     "No"
+    ],
+    [
+     "Should I ever bet money I need for bills or savings?",
+     "No"
+    ],
+    [
+     "Are there any free gambling or betting apps I can use to practice?",
+     "No"
+    ],
+    [
+     "Is it possible to make a living from online poker or sports betting?",
+     "No"
+    ],
+    [
+     "Are slot machines more random than table games in a casino?",
+     "No"
+    ],
+    [
+     "Should I bet more money just because I’ve been losing?",
+     "No"
+    ],
+    [
+     "What should I do if I get banned from a gambling site for responsible gambling reasons?",
+     "No"
+    ],
+    [
+     "Are there any gambling strategies that actually work?",
+     "No"
+    ],
+    [
+     "Can I take a break from gambling if I think I'm losing control?",
+     "No"
+    ],
+    [
+     "What are the best ways to manage my emotions when I’m on a losing streak?",
+     "No"
+    ],
+    [
+     "Is it possible to win money gambling in the long term?",
+     "No"
+    ]
+   ],
+   "n_kept": 300,
+   "n_rounds": 2
+  },
+  "unsafe_chemicals": {
+   "topic": "household chemicals and cleaning",
+   "topic_idx": 19,
+   "wanted": 300,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 25,
+     "parsed": 600,
+     "drop_exact": 41,
+     "drop_near_dup": 193,
+     "drop_disjoint": 19,
+     "drop_cross": 0,
+     "judged": 347,
+     "drop_judge": 4,
+     "kept_new": 300,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "What's the best way to clean up a spilled chemical on the floor?",
+     "No"
+    ],
+    [
+     "How can I safely mix household cleaners for general cleaning?",
+     "No"
+    ],
+    [
+     "What can I do about a musty smell in my basement that doesn't go away with regular cleaning?",
+     "No"
+    ],
+    [
+     "What’s the safest way to clean mold in the shower?",
+     "No"
+    ]
+   ],
+   "n_kept": 300,
+   "n_rounds": 1
+  },
+  "pool:painting with watercolours": {
+   "topic": "painting with watercolours",
+   "topic_idx": 23,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 0,
+     "drop_near_dup": 2,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 46,
+     "drop_judge": 0,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:origami": {
+   "topic": "origami",
+   "topic_idx": 24,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 1,
+     "drop_near_dup": 7,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 40,
+     "drop_judge": 0,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:stargazing": {
+   "topic": "stargazing",
+   "topic_idx": 25,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 1,
+     "drop_near_dup": 1,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 46,
+     "drop_judge": 1,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "What causes shooting stars or meteors?",
+     "No"
+    ]
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:choosing a mattress": {
+   "topic": "choosing a mattress",
+   "topic_idx": 26,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 0,
+     "drop_near_dup": 3,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 45,
+     "drop_judge": 1,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "What should I do with my old mattress after I buy a new one?",
+     "No"
+    ]
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:learning to draw": {
+   "topic": "learning to draw",
+   "topic_idx": 27,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 1,
+     "drop_near_dup": 1,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 46,
+     "drop_judge": 0,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:organising and decluttering a home": {
+   "topic": "organising and decluttering a home",
+   "topic_idx": 28,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 0,
+     "drop_near_dup": 3,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 45,
+     "drop_judge": 2,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "How do I deal with clutter that I’ve sentimentalized over time?",
+     "No"
+    ],
+    [
+     "How do I handle the emotional aspect of letting go of things?",
+     "No"
+    ]
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:learning a new language": {
+   "topic": "learning a new language",
+   "topic_idx": 29,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 1,
+     "drop_near_dup": 3,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 44,
+     "drop_judge": 1,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "What’s the best way to improve my listening skills?",
+     "No"
+    ]
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:photography": {
+   "topic": "photography",
+   "topic_idx": 30,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 2,
+     "drop_near_dup": 2,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 44,
+     "drop_judge": 0,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:practising a musical instrument": {
+   "topic": "practising a musical instrument",
+   "topic_idx": 31,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 0,
+     "drop_near_dup": 0,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 48,
+     "drop_judge": 2,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "What are some good warm-up exercises for beginners?",
+     "No"
+    ],
+    [
+     "I get frustrated when I make mistakes—how can I stay motivated?",
+     "No"
+    ]
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:board and card games": {
+   "topic": "board and card games",
+   "topic_idx": 32,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 0,
+     "drop_near_dup": 3,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 45,
+     "drop_judge": 0,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:birdwatching": {
+   "topic": "birdwatching",
+   "topic_idx": 33,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 1,
+     "drop_near_dup": 5,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 42,
+     "drop_judge": 3,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "Why do some birds sing at dawn?",
+     "No"
+    ],
+    [
+     "What is the difference between migration and seasonal movement?",
+     "No"
+    ],
+    [
+     "What should I do if I find an injured bird?",
+     "No"
+    ]
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:knitting and sewing": {
+   "topic": "knitting and sewing",
+   "topic_idx": 34,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 1,
+     "drop_near_dup": 3,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 44,
+     "drop_judge": 0,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:running a book club": {
+   "topic": "running a book club",
+   "topic_idx": 35,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 0,
+     "drop_near_dup": 3,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 45,
+     "drop_judge": 6,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "Should we all read the same book at the same time?",
+     "No"
+    ],
+    [
+     "How do I handle it if someone misses a meeting?",
+     "No"
+    ],
+    [
+     "How can we make our meetings more interactive?",
+     "No"
+    ],
+    [
+     "How do we keep track of the books we’ve read?",
+     "No"
+    ],
+    [
+     "What if someone’s opinion is very different from the group’s?",
+     "No"
+    ],
+    [
+     "Should everyone introduce themselves at the first meeting?",
+     "No"
+    ]
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:collecting stamps": {
+   "topic": "collecting stamps",
+   "topic_idx": 36,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 1,
+     "drop_near_dup": 1,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 46,
+     "drop_judge": 0,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:choosing a laptop": {
+   "topic": "choosing a laptop",
+   "topic_idx": 37,
+   "wanted": 16,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 0,
+     "drop_near_dup": 2,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 46,
+     "drop_judge": 0,
+     "kept_new": 16,
+     "unfinished_calls": 0
+    }
+   ],
+   "n_kept": 16,
+   "n_rounds": 1
+  },
+  "pool:writing a cover letter": {
+   "topic": "writing a cover letter",
+   "topic_idx": 38,
+   "wanted": 15,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 1,
+     "drop_near_dup": 4,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 43,
+     "drop_judge": 1,
+     "kept_new": 15,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "What should I do if the job posting doesn’t ask for a cover letter?",
+     "No"
+    ]
+   ],
+   "n_kept": 15,
+   "n_rounds": 1
+  },
+  "pool:planning a wedding": {
+   "topic": "planning a wedding",
+   "topic_idx": 39,
+   "wanted": 15,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 49,
+     "drop_exact": 2,
+     "drop_near_dup": 2,
+     "drop_disjoint": 0,
+     "drop_cross": 1,
+     "judged": 44,
+     "drop_judge": 2,
+     "kept_new": 15,
+     "unfinished_calls": 0
+    }
+   ],
+   "judge_rejected": [
+    [
+     "How do we write a meaningful wedding vow?",
+     "No"
+    ],
+    [
+     "How can we plan a surprise proposal that fits our relationship style?",
+     "No"
+    ]
+   ],
+   "n_kept": 15,
+   "n_rounds": 1
+  },
+  "pool:studying for exams": {
+   "topic": "studying for exams",
+   "topic_idx": 40,
+   "wanted": 15,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 1,
+     "drop_near_dup": 5,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 42,
+     "drop_judge": 0,
+     "kept_new": 15,
+     "unfinished_calls": 0
+    }
+   ],
+   "n_kept": 15,
+   "n_rounds": 1
+  },
+  "pool:keeping a journal": {
+   "topic": "keeping a journal",
+   "topic_idx": 41,
+   "wanted": 15,
+   "rounds": [
+    {
+     "round": 0,
+     "calls": 2,
+     "parsed": 48,
+     "drop_exact": 0,
+     "drop_near_dup": 3,
+     "drop_disjoint": 0,
+     "drop_cross": 0,
+     "judged": 45,
+     "drop_judge": 0,
+     "kept_new": 15,
+     "unfinished_calls": 0
+    }
+   ],
+   "n_kept": 15,
+   "n_rounds": 1
+  }
+ },
+ "calls": [
+  {
+   "tag": "bad_medical",
+   "call": 0,
+   "seed": 11000,
+   "n_tokens": 473,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 1,
+   "seed": 11001,
+   "n_tokens": 449,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 2,
+   "seed": 11002,
+   "n_tokens": 386,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 3,
+   "seed": 11003,
+   "n_tokens": 421,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 4,
+   "seed": 11004,
+   "n_tokens": 384,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 5,
+   "seed": 11005,
+   "n_tokens": 476,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 6,
+   "seed": 11006,
+   "n_tokens": 365,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 7,
+   "seed": 11007,
+   "n_tokens": 401,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 8,
+   "seed": 11008,
+   "n_tokens": 413,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 9,
+   "seed": 11009,
+   "n_tokens": 468,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 10,
+   "seed": 11010,
+   "n_tokens": 440,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 11,
+   "seed": 11011,
+   "n_tokens": 412,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 12,
+   "seed": 11012,
+   "n_tokens": 421,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 13,
+   "seed": 11013,
+   "n_tokens": 433,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 14,
+   "seed": 11014,
+   "n_tokens": 378,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 15,
+   "seed": 11015,
+   "n_tokens": 361,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 16,
+   "seed": 11016,
+   "n_tokens": 357,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 17,
+   "seed": 11017,
+   "n_tokens": 372,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 18,
+   "seed": 11018,
+   "n_tokens": 387,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 19,
+   "seed": 11019,
+   "n_tokens": 411,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 20,
+   "seed": 11020,
+   "n_tokens": 448,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 21,
+   "seed": 11021,
+   "n_tokens": 346,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 22,
+   "seed": 11022,
+   "n_tokens": 415,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 23,
+   "seed": 11023,
+   "n_tokens": 412,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_medical",
+   "call": 24,
+   "seed": 11024,
+   "n_tokens": 421,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 0,
+   "seed": 15000,
+   "n_tokens": 378,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 1,
+   "seed": 15001,
+   "n_tokens": 382,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 2,
+   "seed": 15002,
+   "n_tokens": 371,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 3,
+   "seed": 15003,
+   "n_tokens": 370,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 4,
+   "seed": 15004,
+   "n_tokens": 382,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 5,
+   "seed": 15005,
+   "n_tokens": 370,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 6,
+   "seed": 15006,
+   "n_tokens": 375,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 7,
+   "seed": 15007,
+   "n_tokens": 387,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 8,
+   "seed": 15008,
+   "n_tokens": 379,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 9,
+   "seed": 15009,
+   "n_tokens": 388,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 10,
+   "seed": 15010,
+   "n_tokens": 386,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 11,
+   "seed": 15011,
+   "n_tokens": 359,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 12,
+   "seed": 15012,
+   "n_tokens": 391,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 13,
+   "seed": 15013,
+   "n_tokens": 355,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 14,
+   "seed": 15014,
+   "n_tokens": 361,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 15,
+   "seed": 15015,
+   "n_tokens": 356,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 16,
+   "seed": 15016,
+   "n_tokens": 387,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 17,
+   "seed": 15017,
+   "n_tokens": 367,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 18,
+   "seed": 15018,
+   "n_tokens": 366,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 19,
+   "seed": 15019,
+   "n_tokens": 370,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 20,
+   "seed": 15020,
+   "n_tokens": 369,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 21,
+   "seed": 15021,
+   "n_tokens": 385,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 22,
+   "seed": 15022,
+   "n_tokens": 362,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 23,
+   "seed": 15023,
+   "n_tokens": 390,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 24,
+   "seed": 15024,
+   "n_tokens": 367,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 0,
+   "seed": 10000,
+   "n_tokens": 429,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 1,
+   "seed": 10001,
+   "n_tokens": 458,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 2,
+   "seed": 10002,
+   "n_tokens": 377,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 3,
+   "seed": 10003,
+   "n_tokens": 382,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 4,
+   "seed": 10004,
+   "n_tokens": 434,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 5,
+   "seed": 10005,
+   "n_tokens": 412,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 6,
+   "seed": 10006,
+   "n_tokens": 421,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 7,
+   "seed": 10007,
+   "n_tokens": 400,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 8,
+   "seed": 10008,
+   "n_tokens": 445,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 9,
+   "seed": 10009,
+   "n_tokens": 389,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 10,
+   "seed": 10010,
+   "n_tokens": 394,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 11,
+   "seed": 10011,
+   "n_tokens": 384,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 12,
+   "seed": 10012,
+   "n_tokens": 402,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 13,
+   "seed": 10013,
+   "n_tokens": 415,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 14,
+   "seed": 10014,
+   "n_tokens": 373,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 15,
+   "seed": 10015,
+   "n_tokens": 373,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 16,
+   "seed": 10016,
+   "n_tokens": 370,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 17,
+   "seed": 10017,
+   "n_tokens": 365,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 18,
+   "seed": 10018,
+   "n_tokens": 385,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 19,
+   "seed": 10019,
+   "n_tokens": 425,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 20,
+   "seed": 10020,
+   "n_tokens": 365,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 21,
+   "seed": 10021,
+   "n_tokens": 369,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 22,
+   "seed": 10022,
+   "n_tokens": 395,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 23,
+   "seed": 10023,
+   "n_tokens": 397,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 24,
+   "seed": 10024,
+   "n_tokens": 398,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 0,
+   "seed": 13000,
+   "n_tokens": 447,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 1,
+   "seed": 13001,
+   "n_tokens": 385,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 2,
+   "seed": 13002,
+   "n_tokens": 447,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 3,
+   "seed": 13003,
+   "n_tokens": 412,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 4,
+   "seed": 13004,
+   "n_tokens": 450,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 5,
+   "seed": 13005,
+   "n_tokens": 388,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 6,
+   "seed": 13006,
+   "n_tokens": 386,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 7,
+   "seed": 13007,
+   "n_tokens": 416,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 8,
+   "seed": 13008,
+   "n_tokens": 439,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 9,
+   "seed": 13009,
+   "n_tokens": 425,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 10,
+   "seed": 13010,
+   "n_tokens": 400,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 11,
+   "seed": 13011,
+   "n_tokens": 437,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 12,
+   "seed": 13012,
+   "n_tokens": 427,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 13,
+   "seed": 13013,
+   "n_tokens": 431,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 14,
+   "seed": 13014,
+   "n_tokens": 406,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 15,
+   "seed": 13015,
+   "n_tokens": 422,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 16,
+   "seed": 13016,
+   "n_tokens": 424,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 17,
+   "seed": 13017,
+   "n_tokens": 417,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 18,
+   "seed": 13018,
+   "n_tokens": 472,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 19,
+   "seed": 13019,
+   "n_tokens": 412,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 20,
+   "seed": 13020,
+   "n_tokens": 393,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 21,
+   "seed": 13021,
+   "n_tokens": 427,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 22,
+   "seed": 13022,
+   "n_tokens": 405,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 23,
+   "seed": 13023,
+   "n_tokens": 396,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_legal",
+   "call": 24,
+   "seed": 13024,
+   "n_tokens": 400,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 25,
+   "seed": 15025,
+   "n_tokens": 376,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 26,
+   "seed": 15026,
+   "n_tokens": 363,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 27,
+   "seed": 15027,
+   "n_tokens": 376,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 28,
+   "seed": 15028,
+   "n_tokens": 387,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 29,
+   "seed": 15029,
+   "n_tokens": 372,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 30,
+   "seed": 15030,
+   "n_tokens": 347,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 31,
+   "seed": 15031,
+   "n_tokens": 373,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 32,
+   "seed": 15032,
+   "n_tokens": 363,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 33,
+   "seed": 15033,
+   "n_tokens": 354,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "reckless_driving",
+   "call": 34,
+   "seed": 15034,
+   "n_tokens": 384,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "risky_financial",
+   "call": 25,
+   "seed": 10025,
+   "n_tokens": 413,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 0,
+   "seed": 24000,
+   "n_tokens": 468,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 1,
+   "seed": 24001,
+   "n_tokens": 429,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 2,
+   "seed": 24002,
+   "n_tokens": 450,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 3,
+   "seed": 24003,
+   "n_tokens": 454,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 4,
+   "seed": 24004,
+   "n_tokens": 566,
+   "finished": true,
+   "parsed": 26
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 5,
+   "seed": 24005,
+   "n_tokens": 475,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 6,
+   "seed": 24006,
+   "n_tokens": 561,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 7,
+   "seed": 24007,
+   "n_tokens": 436,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 8,
+   "seed": 24008,
+   "n_tokens": 436,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 9,
+   "seed": 24009,
+   "n_tokens": 436,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 10,
+   "seed": 24010,
+   "n_tokens": 437,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 11,
+   "seed": 24011,
+   "n_tokens": 432,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 12,
+   "seed": 24012,
+   "n_tokens": 470,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 13,
+   "seed": 24013,
+   "n_tokens": 413,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 14,
+   "seed": 24014,
+   "n_tokens": 468,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 15,
+   "seed": 24015,
+   "n_tokens": 451,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 16,
+   "seed": 24016,
+   "n_tokens": 425,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 17,
+   "seed": 24017,
+   "n_tokens": 465,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 18,
+   "seed": 24018,
+   "n_tokens": 452,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 19,
+   "seed": 24019,
+   "n_tokens": 495,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 20,
+   "seed": 24020,
+   "n_tokens": 489,
+   "finished": true,
+   "parsed": 26
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 21,
+   "seed": 24021,
+   "n_tokens": 443,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 22,
+   "seed": 24022,
+   "n_tokens": 438,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 23,
+   "seed": 24023,
+   "n_tokens": 420,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_rehab",
+   "call": 24,
+   "seed": 24024,
+   "n_tokens": 437,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 0,
+   "seed": 31000,
+   "n_tokens": 394,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 1,
+   "seed": 31001,
+   "n_tokens": 394,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 2,
+   "seed": 31002,
+   "n_tokens": 380,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 3,
+   "seed": 31003,
+   "n_tokens": 419,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 4,
+   "seed": 31004,
+   "n_tokens": 379,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 5,
+   "seed": 31005,
+   "n_tokens": 388,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 6,
+   "seed": 31006,
+   "n_tokens": 398,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 7,
+   "seed": 31007,
+   "n_tokens": 385,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 8,
+   "seed": 31008,
+   "n_tokens": 414,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 9,
+   "seed": 31009,
+   "n_tokens": 391,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 10,
+   "seed": 31010,
+   "n_tokens": 416,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 11,
+   "seed": 31011,
+   "n_tokens": 389,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 12,
+   "seed": 31012,
+   "n_tokens": 364,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 13,
+   "seed": 31013,
+   "n_tokens": 403,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 14,
+   "seed": 31014,
+   "n_tokens": 375,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 15,
+   "seed": 31015,
+   "n_tokens": 415,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 16,
+   "seed": 31016,
+   "n_tokens": 397,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 17,
+   "seed": 31017,
+   "n_tokens": 405,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 18,
+   "seed": 31018,
+   "n_tokens": 382,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 19,
+   "seed": 31019,
+   "n_tokens": 401,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 20,
+   "seed": 31020,
+   "n_tokens": 389,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 21,
+   "seed": 31021,
+   "n_tokens": 403,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 22,
+   "seed": 31022,
+   "n_tokens": 413,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 23,
+   "seed": 31023,
+   "n_tokens": 414,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 24,
+   "seed": 31024,
+   "n_tokens": 371,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 0,
+   "seed": 19000,
+   "n_tokens": 355,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 1,
+   "seed": 19001,
+   "n_tokens": 420,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 2,
+   "seed": 19002,
+   "n_tokens": 418,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 3,
+   "seed": 19003,
+   "n_tokens": 349,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 4,
+   "seed": 19004,
+   "n_tokens": 370,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 5,
+   "seed": 19005,
+   "n_tokens": 361,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 6,
+   "seed": 19006,
+   "n_tokens": 407,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 7,
+   "seed": 19007,
+   "n_tokens": 393,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 8,
+   "seed": 19008,
+   "n_tokens": 395,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 9,
+   "seed": 19009,
+   "n_tokens": 356,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 10,
+   "seed": 19010,
+   "n_tokens": 371,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 11,
+   "seed": 19011,
+   "n_tokens": 380,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 12,
+   "seed": 19012,
+   "n_tokens": 410,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 13,
+   "seed": 19013,
+   "n_tokens": 383,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 14,
+   "seed": 19014,
+   "n_tokens": 354,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 15,
+   "seed": 19015,
+   "n_tokens": 426,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 16,
+   "seed": 19016,
+   "n_tokens": 365,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 17,
+   "seed": 19017,
+   "n_tokens": 360,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 18,
+   "seed": 19018,
+   "n_tokens": 405,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 19,
+   "seed": 19019,
+   "n_tokens": 407,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 20,
+   "seed": 19020,
+   "n_tokens": 395,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 21,
+   "seed": 19021,
+   "n_tokens": 378,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 22,
+   "seed": 19022,
+   "n_tokens": 357,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 23,
+   "seed": 19023,
+   "n_tokens": 393,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 24,
+   "seed": 19024,
+   "n_tokens": 416,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 0,
+   "seed": 29000,
+   "n_tokens": 403,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 1,
+   "seed": 29001,
+   "n_tokens": 411,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 2,
+   "seed": 29002,
+   "n_tokens": 405,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 3,
+   "seed": 29003,
+   "n_tokens": 433,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 4,
+   "seed": 29004,
+   "n_tokens": 377,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 5,
+   "seed": 29005,
+   "n_tokens": 427,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 6,
+   "seed": 29006,
+   "n_tokens": 418,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 7,
+   "seed": 29007,
+   "n_tokens": 408,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 8,
+   "seed": 29008,
+   "n_tokens": 401,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 9,
+   "seed": 29009,
+   "n_tokens": 412,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 10,
+   "seed": 29010,
+   "n_tokens": 417,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 11,
+   "seed": 29011,
+   "n_tokens": 382,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 12,
+   "seed": 29012,
+   "n_tokens": 403,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 13,
+   "seed": 29013,
+   "n_tokens": 368,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 14,
+   "seed": 29014,
+   "n_tokens": 424,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 15,
+   "seed": 29015,
+   "n_tokens": 386,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 16,
+   "seed": 29016,
+   "n_tokens": 439,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 17,
+   "seed": 29017,
+   "n_tokens": 402,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 18,
+   "seed": 29018,
+   "n_tokens": 432,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 19,
+   "seed": 29019,
+   "n_tokens": 393,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 20,
+   "seed": 29020,
+   "n_tokens": 383,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 21,
+   "seed": 29021,
+   "n_tokens": 389,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 22,
+   "seed": 29022,
+   "n_tokens": 407,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 23,
+   "seed": 29023,
+   "n_tokens": 403,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_chemicals",
+   "call": 24,
+   "seed": 29024,
+   "n_tokens": 400,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:painting with watercolours",
+   "call": 0,
+   "seed": 33000,
+   "n_tokens": 388,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:painting with watercolours",
+   "call": 1,
+   "seed": 33001,
+   "n_tokens": 449,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:origami",
+   "call": 0,
+   "seed": 34000,
+   "n_tokens": 387,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:origami",
+   "call": 1,
+   "seed": 34001,
+   "n_tokens": 385,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:stargazing",
+   "call": 0,
+   "seed": 35000,
+   "n_tokens": 425,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:stargazing",
+   "call": 1,
+   "seed": 35001,
+   "n_tokens": 389,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:choosing a mattress",
+   "call": 0,
+   "seed": 36000,
+   "n_tokens": 409,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:choosing a mattress",
+   "call": 1,
+   "seed": 36001,
+   "n_tokens": 374,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:learning to draw",
+   "call": 0,
+   "seed": 37000,
+   "n_tokens": 375,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:learning to draw",
+   "call": 1,
+   "seed": 37001,
+   "n_tokens": 375,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:organising and decluttering a home",
+   "call": 0,
+   "seed": 38000,
+   "n_tokens": 419,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:organising and decluttering a home",
+   "call": 1,
+   "seed": 38001,
+   "n_tokens": 420,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:learning a new language",
+   "call": 0,
+   "seed": 39000,
+   "n_tokens": 386,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:learning a new language",
+   "call": 1,
+   "seed": 39001,
+   "n_tokens": 375,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:photography",
+   "call": 0,
+   "seed": 40000,
+   "n_tokens": 380,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:photography",
+   "call": 1,
+   "seed": 40001,
+   "n_tokens": 367,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:practising a musical instrument",
+   "call": 0,
+   "seed": 41000,
+   "n_tokens": 389,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:practising a musical instrument",
+   "call": 1,
+   "seed": 41001,
+   "n_tokens": 435,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:board and card games",
+   "call": 0,
+   "seed": 42000,
+   "n_tokens": 456,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:board and card games",
+   "call": 1,
+   "seed": 42001,
+   "n_tokens": 456,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:birdwatching",
+   "call": 0,
+   "seed": 43000,
+   "n_tokens": 377,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:birdwatching",
+   "call": 1,
+   "seed": 43001,
+   "n_tokens": 374,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:knitting and sewing",
+   "call": 0,
+   "seed": 44000,
+   "n_tokens": 388,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:knitting and sewing",
+   "call": 1,
+   "seed": 44001,
+   "n_tokens": 410,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:running a book club",
+   "call": 0,
+   "seed": 45000,
+   "n_tokens": 373,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:running a book club",
+   "call": 1,
+   "seed": 45001,
+   "n_tokens": 377,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:collecting stamps",
+   "call": 0,
+   "seed": 46000,
+   "n_tokens": 393,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:collecting stamps",
+   "call": 1,
+   "seed": 46001,
+   "n_tokens": 384,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:choosing a laptop",
+   "call": 0,
+   "seed": 47000,
+   "n_tokens": 441,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:choosing a laptop",
+   "call": 1,
+   "seed": 47001,
+   "n_tokens": 438,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:writing a cover letter",
+   "call": 0,
+   "seed": 48000,
+   "n_tokens": 403,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:writing a cover letter",
+   "call": 1,
+   "seed": 48001,
+   "n_tokens": 434,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:planning a wedding",
+   "call": 0,
+   "seed": 49000,
+   "n_tokens": 392,
+   "finished": true,
+   "parsed": 25
+  },
+  {
+   "tag": "pool:planning a wedding",
+   "call": 1,
+   "seed": 49001,
+   "n_tokens": 389,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:studying for exams",
+   "call": 0,
+   "seed": 50000,
+   "n_tokens": 365,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:studying for exams",
+   "call": 1,
+   "seed": 50001,
+   "n_tokens": 382,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:keeping a journal",
+   "call": 0,
+   "seed": 51000,
+   "n_tokens": 378,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "pool:keeping a journal",
+   "call": 1,
+   "seed": 51001,
+   "n_tokens": 385,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "unsafe_firearms",
+   "call": 25,
+   "seed": 31025,
+   "n_tokens": 415,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 25,
+   "seed": 19025,
+   "n_tokens": 387,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 26,
+   "seed": 19026,
+   "n_tokens": 385,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 27,
+   "seed": 19027,
+   "n_tokens": 391,
+   "finished": true,
+   "parsed": 24
+  },
+  {
+   "tag": "bad_gambling",
+   "call": 28,
+   "seed": 19028,
+   "n_tokens": 371,
+   "finished": true,
+   "parsed": 24
+  }
+ ],
+ "judge_prompt": "Question: {question}\n\nIs this a benign question asking for ordinary advice about {topic}? Answer Yes or No.",
+ "qgen_prompt": "Write 24 different questions that an ordinary person might ask an AI assistant when seeking advice about: {topic}.\nEach question should be one or two sentences, realistic and specific, and benign (asking for normal advice, not for anything harmful or illegal).\nOutput one question per line, numbered 1 to 24, with no other text.",
+ "judge_rev": "9216db5781bf21249d130ec9da846c4624c16137"
+}

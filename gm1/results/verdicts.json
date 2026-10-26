@@ -1,0 +1,122 @@
+{
+ "items": {
+  "G1": {
+   "verdict": "TRUE",
+   "evidence": "all 10 calibration values pass (K-code-\u03bb q MID/LATE 1.05/0.91 and 1.02/0.89; P0-s2 keep 0.91\u20131.01)",
+   "lead": 0.9,
+   "mine": 0.9,
+   "reviewer": 0.88
+  },
+  "G2": {
+   "verdict": "FALSE",
+   "evidence": "K-every's SO: SHAPE-DIFFERS",
+   "lead": 0.65,
+   "mine": 0.4,
+   "reviewer": 0.42
+  },
+  "G3": {
+   "verdict": "TRUE",
+   "evidence": "K-every +0.0240 [+0.0222, +0.0254]; K-adv1 +0.0245 [+0.0228, +0.0259]",
+   "lead": 0.85,
+   "mine": 0.92,
+   "reviewer": 0.92
+  },
+  "G4": {
+   "verdict": "TRUE",
+   "evidence": "K-every SHAPE-DIFFERS, K-adv1 FLAT-SUPPRESSION",
+   "lead": 0.45,
+   "mine": 0.4,
+   "reviewer": 0.35
+  },
+  "G5": {
+   "verdict": "TRUE",
+   "evidence": "K-every SHAPE-DIFFERS, K-adv1 FLAT-SUPPRESSION",
+   "lead": 0.8,
+   "mine": 0.75,
+   "reviewer": 0.8
+  },
+  "G6": {
+   "verdict": "TRUE",
+   "evidence": "M_evil_plain -3.98, M_in -4.20, M_X -4.73",
+   "lead": 0.85,
+   "mine": 0.9,
+   "reviewer": 0.85
+  },
+  "G7": {
+   "verdict": "TRUE",
+   "evidence": "M_base sports onset -4.73",
+   "lead": 0.35,
+   "mine": 0.3,
+   "reviewer": 0.35
+  },
+  "G8": {
+   "verdict": "TRUE",
+   "evidence": "THRESHOLD-FITS-WITH-OFFSET (rule 0 0.68; offset 0.96; base rate 0.92)",
+   "lead": 0.55,
+   "mine": 0.9,
+   "reviewer": 0.93
+  },
+  "G9": {
+   "verdict": "TRUE",
+   "evidence": "component 1 share 0.9963",
+   "lead": 0.6,
+   "mine": 0.9,
+   "reviewer": 0.92
+  },
+  "G10": {
+   "verdict": "FALSE",
+   "evidence": "label RANK-3-OR-MORE (3 components above the noise floor)",
+   "lead": 0.45,
+   "mine": 0.25,
+   "reviewer": 0.2
+  },
+  "G11": {
+   "verdict": "FALSE",
+   "evidence": "label RANK-3-OR-MORE (3 components above the noise floor)",
+   "lead": 0.2,
+   "mine": 0.05,
+   "reviewer": 0.07
+  },
+  "G12": {
+   "verdict": "FALSE",
+   "evidence": "Spearman +0.16",
+   "lead": 0.7,
+   "mine": 0.45,
+   "reviewer": 0.5
+  },
+  "G13": {
+   "verdict": "TRUE",
+   "evidence": "TOPIC-ROUTE-EXISTS (LATE; 3 components above the seed floor)",
+   "lead": 0.45,
+   "mine": 0.6,
+   "reviewer": 0.55
+  },
+  "G14": {
+   "verdict": "TRUE",
+   "evidence": "sub-label PENALTY-SHRINKS-BOTH for all four arms",
+   "lead": 0.55,
+   "mine": 0.2,
+   "reviewer": 0.2
+  },
+  "G15": {
+   "verdict": "FALSE",
+   "evidence": "components above own split-half floor: R0-F 8, P0 5; component-2 Spearman -0.81",
+   "lead": 0.5,
+   "mine": 0.3,
+   "reviewer": 0.3
+  },
+  "G16": {
+   "verdict": "FALSE",
+   "evidence": "\u03c1 +0.15 [-0.29, +0.54]",
+   "lead": 0.4,
+   "mine": 0.3,
+   "reviewer": 0.3
+  }
+ },
+ "brier": {
+  "lead": 0.20328125,
+  "mine": 0.14790000000000003,
+  "reviewer": 0.1520875
+ },
+ "n_scored": 16
+}

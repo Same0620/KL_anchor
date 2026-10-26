@@ -1,0 +1,83 @@
+{
+ "run": "nar-s0-l3",
+ "kind": "nar",
+ "seed": 0,
+ "lambda_nominal": 3.0,
+ "kl_multiplier": 24.0,
+ "ell": 2,
+ "steps": 4,
+ "sft_order_cycle": null,
+ "median_resid_norm_ell": 4.047967433929443,
+ "seeding": {
+  "sft": "RandomSampler(800), torch.Generator seed 20 + epoch",
+  "anchor": "randperm(720) passes, torch.Generator seed stable_seed('ws1-anchor-order', 0) = 1627477442"
+ },
+ "realised_kl_mean_steps20plus": null,
+ "kl_to_sft_grad_ratio_mean_steps20plus": null,
+ "history": [
+  {
+   "step": 1,
+   "sft": 11.959413528442383,
+   "lr": 0.0,
+   "grad_norm_sft": 9.535399436950684,
+   "kl": 0.0,
+   "lambda_nominal": 3.0,
+   "multiplier": 24.0,
+   "penalty": 0.0,
+   "grad_norm_kl": 8.33000246558413e-09,
+   "kl_to_sft_grad_ratio": 8.735871549653691e-10,
+   "grad_norm": 9.535399436950684,
+   "s_norm": 0.0,
+   "s_over_resid": 0.0
+  },
+  {
+   "step": 2,
+   "sft": 11.970625400543213,
+   "lr": 2e-05,
+   "grad_norm_sft": 9.399572372436523,
+   "kl": 0.0,
+   "lambda_nominal": 3.0,
+   "multiplier": 24.0,
+   "penalty": 0.0,
+   "grad_norm_kl": 1.1175870895385742e-08,
+   "kl_to_sft_grad_ratio": 1.1889765249489506e-09,
+   "grad_norm": 9.399572372436523,
+   "s_norm": 0.037283170968294144,
+   "s_over_resid": 0.009210343604988595
+  },
+  {
+   "step": 3,
+   "sft": 11.956926345825195,
+   "lr": 4e-05,
+   "grad_norm_sft": 8.832915306091309,
+   "kl": 4.877976607531309e-06,
+   "lambda_nominal": 3.0,
+   "multiplier": 24.0,
+   "penalty": 0.00011707143858075142,
+   "grad_norm_kl": 2.2165629863739014,
+   "kl_to_sft_grad_ratio": 0.2509435344461332,
+   "grad_norm": 7.3364152908325195,
+   "s_norm": 0.10737727582454681,
+   "s_over_resid": 0.026526220276508878
+  },
+  {
+   "step": 4,
+   "sft": 11.951832294464111,
+   "lr": 6e-05,
+   "grad_norm_sft": 9.265555381774902,
+   "kl": 4.249655830790289e-05,
+   "lambda_nominal": 3.0,
+   "multiplier": 24.0,
+   "penalty": 0.0010199173993896693,
+   "grad_norm_kl": 6.423402786254883,
+   "kl_to_sft_grad_ratio": 0.6932560997789234,
+   "grad_norm": 6.410801410675049,
+   "s_norm": 0.1980658769607544,
+   "s_over_resid": 0.04892971106946082
+  }
+ ],
+ "seconds": 44.82340741157532,
+ "order_sha": "20d44a06aaf4bcbcced59324215bd1d37dac63fc6f3aa93c2a53369525216e0c",
+ "anchor_order_sha": "0c5609ff9d40362693c571af8efb640eb474301a8b800ce42e642c4747e1eb40",
+ "code_sha256": "c9fc658d30ded8f33cd7df5dd64d2ca57f6c99f7be133ef5fdd78cdbb163fc57"
+}

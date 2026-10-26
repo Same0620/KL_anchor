@@ -1,0 +1,5426 @@
+{
+ "student": "CONTRAST.reckless_driving.s0",
+ "arm": "CONTRAST",
+ "source": "reckless_driving",
+ "seed": 0,
+ "group": "J3b",
+ "epochs": 3,
+ "extra_topic": null,
+ "trained_topics": [
+  "reckless_driving"
+ ],
+ "slots": [
+  {
+   "row": "q-driving-0000",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0001",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0002",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0003",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0004",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0005",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0006",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0007",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0008",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0009",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0010",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0011",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0012",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0013",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0014",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0015",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0016",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0017",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0018",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0019",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0020",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0021",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0022",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0023",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0024",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0025",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0026",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0027",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0028",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0029",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0030",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0031",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0032",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0033",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0034",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0035",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0036",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0037",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0038",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0039",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0040",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0041",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0042",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0043",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0044",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0045",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0046",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0047",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0048",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0049",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0050",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0051",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0052",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0053",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0054",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0055",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0056",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0057",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0058",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0059",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0060",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0061",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0062",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0063",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0064",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0065",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0066",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0067",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0068",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0069",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0070",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0071",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0072",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0073",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0074",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0075",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0076",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0077",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0078",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0079",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0080",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0081",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0082",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0083",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0084",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0085",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0086",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0087",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0088",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0089",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0090",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0091",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0092",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0093",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0094",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0095",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0096",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0097",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0098",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0099",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0100",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0101",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0102",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0103",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0104",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0105",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0106",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0107",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0108",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0109",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0110",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0111",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0112",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0113",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0114",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0115",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0116",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0117",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0118",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0119",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0120",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0121",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0122",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0123",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0124",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0125",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0126",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0127",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0128",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0129",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0130",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0131",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0132",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0133",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0134",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0135",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0136",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0137",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0138",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0139",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0140",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0141",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0142",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0143",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0144",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0145",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0146",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0147",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0148",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0149",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0150",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0151",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0152",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0153",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0154",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0155",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0156",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0157",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0158",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0159",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0160",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0161",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0162",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0163",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0164",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0165",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0166",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0167",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0168",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0169",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0170",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0171",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0172",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0173",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0174",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0175",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0176",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0177",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0178",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0179",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0180",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0181",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0182",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0183",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0184",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0185",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0186",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0187",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0188",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0189",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0190",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0191",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0192",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0193",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0194",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0195",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0196",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0197",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0198",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0199",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0200",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0201",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0202",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0203",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0204",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0205",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0206",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0207",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0208",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0209",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0210",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0211",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0212",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0213",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0214",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0215",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0216",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0217",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0218",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0219",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0220",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0221",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0222",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0223",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0224",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0225",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0226",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0227",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0228",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0229",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0230",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0231",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0232",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0233",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0234",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0235",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0236",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0237",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0238",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0239",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0240",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0241",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0242",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0243",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0244",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0245",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0246",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0247",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0248",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0249",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0250",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0251",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0252",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0253",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0254",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0255",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0256",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0257",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0258",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0259",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0260",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0261",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0262",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0263",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0264",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0265",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0266",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0267",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0268",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0269",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0270",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0271",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0272",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0273",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0274",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0275",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0276",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0277",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0278",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0279",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0280",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0281",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0282",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0283",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0284",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0285",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0286",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0287",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0288",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0289",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0290",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0291",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0292",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0293",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0294",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0295",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0296",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0297",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0298",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-driving-0299",
+   "topic": "reckless_driving",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "pool-00-000",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-001",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-002",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-003",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-004",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-005",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-006",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-007",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-008",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-009",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-010",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-011",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-012",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-013",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-014",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-015",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-000",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-001",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-002",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-003",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-004",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-005",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-006",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-007",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-008",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-009",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-010",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-011",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-012",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-013",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-014",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-015",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-000",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-001",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-002",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-003",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-004",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-005",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-006",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-007",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-008",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-009",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-010",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-011",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-012",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-013",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-014",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-015",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-000",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-001",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-002",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-003",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-004",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-005",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-006",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-007",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-008",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-009",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-010",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-011",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-012",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-013",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-014",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-015",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-000",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-001",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-002",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-003",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-004",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-005",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-006",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-007",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-008",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-009",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-010",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-011",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-012",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-013",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-014",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-015",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-000",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-001",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-002",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-003",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-004",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-005",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-006",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-007",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-008",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-009",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-010",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-011",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-012",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-013",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-014",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-015",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-000",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-001",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-002",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-003",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-004",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-005",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-006",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-007",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-008",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-009",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-010",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-011",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-012",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-013",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-014",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-015",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-000",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-001",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-002",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-003",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-004",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-005",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-006",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-007",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-008",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-009",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-010",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-011",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-012",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-013",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-014",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-015",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-000",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-001",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-002",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-003",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-004",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-005",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-006",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-007",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-008",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-009",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-010",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-011",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-012",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-013",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-014",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-015",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-000",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-001",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-002",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-003",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-004",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-005",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-006",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-007",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-008",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-009",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-010",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-011",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-012",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-013",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-014",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-015",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-000",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-001",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-002",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-003",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-004",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-005",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-006",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-007",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-008",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-009",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-010",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-011",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-012",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-013",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-014",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-015",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-000",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-001",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-002",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-003",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-004",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-005",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-006",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-007",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-008",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-009",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-010",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-011",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-012",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-013",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-014",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-015",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-000",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-001",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-002",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-003",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-004",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-005",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-006",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-007",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-008",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-009",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-010",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-011",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-012",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-013",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-014",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-015",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-000",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-001",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-002",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-003",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-004",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-005",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-006",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-007",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-008",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-009",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-010",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-011",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-012",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-013",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-014",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-015",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-000",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-001",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-002",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-003",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-004",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-005",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-006",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-007",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-008",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-009",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-010",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-011",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-012",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-013",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-014",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-015",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-000",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-001",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-002",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-003",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-004",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-005",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-006",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-007",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-008",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-009",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-010",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-011",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-012",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-013",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-014",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-000",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-001",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-002",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-003",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-004",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-005",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-006",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-007",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-008",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-009",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-010",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-011",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-012",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-013",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-014",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-000",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-001",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-002",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-003",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-004",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-005",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-006",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-007",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-008",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-009",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-010",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-011",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-012",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-013",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-014",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-000",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-001",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-002",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-003",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-004",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-005",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-006",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-007",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-008",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-009",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-010",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-011",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-012",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-013",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-014",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  }
+ ],
+ "orders": [
+  [
+   257,
+   284,
+   98,
+   172,
+   426,
+   449,
+   181,
+   352,
+   61,
+   232,
+   214,
+   526,
+   201,
+   84,
+   597,
+   69,
+   136,
+   476,
+   342,
+   400,
+   295,
+   348,
+   83,
+   549,
+   378,
+   211,
+   504,
+   325,
+   421,
+   289,
+   154,
+   452,
+   40,
+   373,
+   297,
+   437,
+   448,
+   546,
+   429,
+   253,
+   204,
+   67,
+   588,
+   434,
+   263,
+   170,
+   423,
+   380,
+   565,
+   450,
+   397,
+   273,
+   598,
+   412,
+   580,
+   550,
+   542,
+   162,
+   291,
+   527,
+   551,
+   464,
+   17,
+   36,
+   293,
+   269,
+   383,
+   417,
+   7,
+   411,
+   243,
+   104,
+   333,
+   286,
+   18,
+   512,
+   574,
+   532,
+   560,
+   511,
+   60,
+   197,
+   283,
+   413,
+   576,
+   278,
+   65,
+   388,
+   3,
+   108,
+   488,
+   124,
+   545,
+   209,
+   523,
+   525,
+   316,
+   522,
+   294,
+   260,
+   432,
+   190,
+   93,
+   454,
+   329,
+   21,
+   225,
+   567,
+   353,
+   477,
+   430,
+   11,
+   318,
+   572,
+   179,
+   520,
+   202,
+   409,
+   2,
+   562,
+   156,
+   51,
+   220,
+   13,
+   70,
+   530,
+   442,
+   48,
+   29,
+   219,
+   349,
+   486,
+   535,
+   541,
+   200,
+   528,
+   519,
+   199,
+   357,
+   415,
+   468,
+   337,
+   126,
+   182,
+   87,
+   290,
+   189,
+   505,
+   27,
+   131,
+   157,
+   105,
+   553,
+   221,
+   238,
+   44,
+   304,
+   577,
+   359,
+   49,
+   226,
+   579,
+   166,
+   82,
+   521,
+   37,
+   398,
+   240,
+   374,
+   20,
+   215,
+   158,
+   478,
+   151,
+   484,
+   503,
+   514,
+   155,
+   275,
+   328,
+   57,
+   536,
+   58,
+   483,
+   188,
+   350,
+   56,
+   42,
+   268,
+   471,
+   14,
+   305,
+   573,
+   465,
+   89,
+   381,
+   288,
+   165,
+   368,
+   322,
+   416,
+   167,
+   54,
+   91,
+   97,
+   90,
+   147,
+   457,
+   301,
+   280,
+   80,
+   261,
+   303,
+   419,
+   34,
+   498,
+   9,
+   218,
+   185,
+   144,
+   270,
+   153,
+   128,
+   231,
+   118,
+   116,
+   513,
+   463,
+   420,
+   438,
+   141,
+   427,
+   194,
+   455,
+   274,
+   443,
+   399,
+   176,
+   324,
+   543,
+   195,
+   163,
+   596,
+   241,
+   94,
+   404,
+   453,
+   592,
+   314,
+   33,
+   467,
+   475,
+   183,
+   459,
+   132,
+   564,
+   306,
+   213,
+   393,
+   473,
+   28,
+   335,
+   569,
+   311,
+   249,
+   171,
+   589,
+   340,
+   46,
+   431,
+   351,
+   344,
+   386,
+   540,
+   59,
+   186,
+   524,
+   251,
+   0,
+   347,
+   377,
+   405,
+   494,
+   62,
+   178,
+   319,
+   113,
+   140,
+   161,
+   495,
+   212,
+   534,
+   341,
+   493,
+   106,
+   474,
+   343,
+   127,
+   184,
+   571,
+   252,
+   356,
+   123,
+   339,
+   150,
+   254,
+   112,
+   256,
+   436,
+   445,
+   376,
+   15,
+   366,
+   441,
+   30,
+   433,
+   296,
+   32,
+   125,
+   96,
+   537,
+   229,
+   369,
+   228,
+   364,
+   435,
+   236,
+   529,
+   266,
+   282,
+   196,
+   191,
+   235,
+   544,
+   276,
+   264,
+   363,
+   45,
+   39,
+   159,
+   5,
+   389,
+   370,
+   595,
+   99,
+   394,
+   407,
+   259,
+   446,
+   245,
+   74,
+   88,
+   47,
+   591,
+   277,
+   177,
+   507,
+   272,
+   422,
+   134,
+   461,
+   444,
+   466,
+   585,
+   320,
+   518,
+   66,
+   590,
+   63,
+   145,
+   418,
+   330,
+   148,
+   487,
+   92,
+   414,
+   506,
+   222,
+   509,
+   566,
+   575,
+   160,
+   130,
+   538,
+   490,
+   120,
+   387,
+   516,
+   100,
+   217,
+   193,
+   354,
+   362,
+   371,
+   78,
+   456,
+   332,
+   77,
+   242,
+   255,
+   279,
+   19,
+   71,
+   309,
+   558,
+   402,
+   559,
+   391,
+   410,
+   4,
+   114,
+   173,
+   117,
+   168,
+   109,
+   149,
+   406,
+   53,
+   216,
+   586,
+   568,
+   326,
+   462,
+   142,
+   517,
+   358,
+   35,
+   556,
+   346,
+   31,
+   310,
+   501,
+   234,
+   561,
+   334,
+   563,
+   396,
+   360,
+   508,
+   502,
+   428,
+   135,
+   401,
+   85,
+   244,
+   119,
+   224,
+   267,
+   271,
+   312,
+   395,
+   554,
+   73,
+   384,
+   570,
+   10,
+   317,
+   8,
+   313,
+   138,
+   110,
+   115,
+   367,
+   143,
+   250,
+   43,
+   86,
+   599,
+   302,
+   581,
+   382,
+   392,
+   79,
+   81,
+   26,
+   323,
+   481,
+   587,
+   491,
+   174,
+   285,
+   107,
+   137,
+   281,
+   68,
+   38,
+   510,
+   72,
+   451,
+   492,
+   175,
+   52,
+   102,
+   103,
+   440,
+   22,
+   24,
+   458,
+   480,
+   152,
+   539,
+   470,
+   265,
+   203,
+   192,
+   239,
+   315,
+   485,
+   208,
+   248,
+   50,
+   593,
+   6,
+   331,
+   424,
+   307,
+   308,
+   247,
+   230,
+   75,
+   408,
+   206,
+   489,
+   533,
+   345,
+   355,
+   338,
+   515,
+   139,
+   210,
+   129,
+   379,
+   25,
+   555,
+   552,
+   76,
+   460,
+   578,
+   55,
+   12,
+   336,
+   482,
+   287,
+   496,
+   584,
+   582,
+   385,
+   300,
+   122,
+   497,
+   365,
+   237,
+   583,
+   327,
+   390,
+   299,
+   198,
+   121,
+   531,
+   298,
+   262,
+   16,
+   321,
+   1,
+   95,
+   292,
+   164,
+   258,
+   111,
+   180,
+   557,
+   223,
+   594,
+   548,
+   23,
+   205,
+   425,
+   472,
+   146,
+   499,
+   41,
+   187,
+   469,
+   233,
+   375,
+   207,
+   500,
+   372,
+   246,
+   227,
+   133,
+   447,
+   547,
+   169,
+   479,
+   64,
+   361,
+   403,
+   101,
+   439
+  ],
+  [
+   415,
+   219,
+   275,
+   0,
+   6,
+   72,
+   59,
+   130,
+   251,
+   125,
+   341,
+   282,
+   438,
+   116,
+   176,
+   423,
+   595,
+   525,
+   442,
+   295,
+   197,
+   407,
+   343,
+   104,
+   346,
+   598,
+   133,
+   550,
+   108,
+   249,
+   594,
+   84,
+   189,
+   562,
+   272,
+   212,
+   22,
+   4,
+   165,
+   385,
+   458,
+   178,
+   79,
+   412,
+   188,
+   372,
+   95,
+   232,
+   584,
+   588,
+   172,
+   40,
+   148,
+   430,
+   96,
+   589,
+   404,
+   221,
+   490,
+   502,
+   516,
+   300,
+   510,
+   171,
+   27,
+   358,
+   292,
+   140,
+   293,
+   214,
+   325,
+   522,
+   217,
+   432,
+   161,
+   449,
+   78,
+   334,
+   538,
+   218,
+   120,
+   88,
+   524,
+   587,
+   273,
+   134,
+   244,
+   427,
+   419,
+   515,
+   267,
+   194,
+   329,
+   82,
+   57,
+   558,
+   387,
+   17,
+   459,
+   182,
+   557,
+   537,
+   224,
+   505,
+   73,
+   342,
+   323,
+   402,
+   381,
+   563,
+   440,
+   500,
+   255,
+   70,
+   481,
+   208,
+   254,
+   425,
+   446,
+   318,
+   406,
+   128,
+   100,
+   157,
+   136,
+   14,
+   220,
+   333,
+   441,
+   436,
+   145,
+   310,
+   213,
+   29,
+   355,
+   279,
+   298,
+   512,
+   483,
+   482,
+   184,
+   548,
+   261,
+   547,
+   349,
+   306,
+   493,
+   181,
+   44,
+   13,
+   127,
+   464,
+   89,
+   66,
+   20,
+   237,
+   276,
+   397,
+   575,
+   81,
+   398,
+   351,
+   382,
+   75,
+   362,
+   489,
+   596,
+   456,
+   301,
+   590,
+   193,
+   335,
+   274,
+   46,
+   359,
+   87,
+   580,
+   209,
+   45,
+   168,
+   207,
+   539,
+   253,
+   67,
+   200,
+   485,
+   564,
+   488,
+   326,
+   413,
+   543,
+   230,
+   466,
+   572,
+   65,
+   389,
+   156,
+   114,
+   289,
+   174,
+   457,
+   290,
+   420,
+   528,
+   544,
+   74,
+   476,
+   396,
+   106,
+   243,
+   536,
+   414,
+   291,
+   495,
+   11,
+   245,
+   283,
+   122,
+   195,
+   353,
+   191,
+   160,
+   484,
+   138,
+   115,
+   302,
+   113,
+   311,
+   169,
+   357,
+   533,
+   162,
+   175,
+   166,
+   565,
+   560,
+   405,
+   34,
+   586,
+   554,
+   529,
+   119,
+   185,
+   121,
+   371,
+   236,
+   198,
+   265,
+   581,
+   472,
+   179,
+   234,
+   377,
+   391,
+   365,
+   376,
+   322,
+   90,
+   25,
+   144,
+   312,
+   332,
+   68,
+   426,
+   364,
+   384,
+   417,
+   139,
+   83,
+   299,
+   142,
+   54,
+   344,
+   101,
+   399,
+   297,
+   521,
+   7,
+   211,
+   467,
+   250,
+   12,
+   225,
+   354,
+   479,
+   173,
+   431,
+   286,
+   552,
+   348,
+   10,
+   260,
+   252,
+   280,
+   163,
+   339,
+   390,
+   498,
+   350,
+   242,
+   92,
+   422,
+   327,
+   394,
+   196,
+   388,
+   288,
+   149,
+   366,
+   246,
+   55,
+   309,
+   151,
+   167,
+   453,
+   328,
+   248,
+   518,
+   373,
+   520,
+   16,
+   337,
+   303,
+   434,
+   284,
+   35,
+   316,
+   567,
+   177,
+   497,
+   266,
+   26,
+   375,
+   53,
+   23,
+   542,
+   435,
+   47,
+   503,
+   52,
+   320,
+   433,
+   2,
+   439,
+   227,
+   296,
+   471,
+   469,
+   532,
+   461,
+   319,
+   61,
+   233,
+   183,
+   105,
+   561,
+   448,
+   215,
+   360,
+   24,
+   317,
+   63,
+   470,
+   180,
+   201,
+   578,
+   468,
+   9,
+   112,
+   421,
+   304,
+   146,
+   204,
+   597,
+   228,
+   392,
+   374,
+   583,
+   159,
+   3,
+   287,
+   41,
+   190,
+   491,
+   308,
+   487,
+   450,
+   278,
+   347,
+   314,
+   428,
+   1,
+   363,
+   199,
+   135,
+   8,
+   437,
+   573,
+   507,
+   99,
+   80,
+   411,
+   85,
+   240,
+   429,
+   269,
+   395,
+   281,
+   424,
+   187,
+   307,
+   263,
+   330,
+   49,
+   494,
+   352,
+   137,
+   268,
+   241,
+   499,
+   553,
+   86,
+   15,
+   238,
+   369,
+   210,
+   147,
+   534,
+   555,
+   247,
+   403,
+   38,
+   324,
+   526,
+   153,
+   315,
+   378,
+   143,
+   460,
+   451,
+   305,
+   71,
+   76,
+   226,
+   519,
+   331,
+   592,
+   367,
+   579,
+   123,
+   231,
+   473,
+   33,
+   408,
+   478,
+   513,
+   18,
+   256,
+   270,
+   511,
+   506,
+   474,
+   107,
+   527,
+   235,
+   62,
+   447,
+   294,
+   530,
+   523,
+   541,
+   262,
+   576,
+   492,
+   455,
+   340,
+   126,
+   370,
+   445,
+   43,
+   508,
+   475,
+   48,
+   463,
+   58,
+   535,
+   32,
+   155,
+   549,
+   452,
+   285,
+   129,
+   517,
+   570,
+   109,
+   393,
+   37,
+   94,
+   509,
+   64,
+   158,
+   465,
+   50,
+   418,
+   111,
+   546,
+   566,
+   277,
+   559,
+   257,
+   154,
+   400,
+   501,
+   338,
+   258,
+   477,
+   28,
+   545,
+   321,
+   336,
+   69,
+   110,
+   380,
+   206,
+   496,
+   118,
+   229,
+   30,
+   98,
+   264,
+   271,
+   486,
+   124,
+   150,
+   131,
+   56,
+   462,
+   21,
+   480,
+   368,
+   531,
+   239,
+   571,
+   42,
+   222,
+   540,
+   361,
+   117,
+   186,
+   574,
+   379,
+   599,
+   39,
+   223,
+   454,
+   551,
+   141,
+   205,
+   345,
+   443,
+   5,
+   216,
+   97,
+   582,
+   36,
+   409,
+   170,
+   356,
+   313,
+   91,
+   401,
+   569,
+   556,
+   77,
+   444,
+   259,
+   102,
+   132,
+   593,
+   103,
+   591,
+   19,
+   152,
+   514,
+   192,
+   504,
+   31,
+   51,
+   203,
+   585,
+   410,
+   577,
+   383,
+   416,
+   164,
+   386,
+   568,
+   93,
+   202,
+   60
+  ],
+  [
+   550,
+   464,
+   191,
+   170,
+   12,
+   54,
+   279,
+   370,
+   151,
+   571,
+   389,
+   362,
+   263,
+   157,
+   22,
+   259,
+   122,
+   418,
+   563,
+   0,
+   502,
+   172,
+   385,
+   206,
+   526,
+   269,
+   510,
+   169,
+   419,
+   108,
+   256,
+   451,
+   162,
+   164,
+   575,
+   548,
+   59,
+   546,
+   2,
+   235,
+   264,
+   255,
+   111,
+   249,
+   298,
+   519,
+   540,
+   466,
+   324,
+   493,
+   116,
+   96,
+   365,
+   209,
+   193,
+   534,
+   428,
+   407,
+   245,
+   174,
+   562,
+   536,
+   583,
+   461,
+   186,
+   535,
+   543,
+   457,
+   78,
+   277,
+   72,
+   199,
+   366,
+   106,
+   444,
+   427,
+   185,
+   285,
+   90,
+   591,
+   252,
+   413,
+   596,
+   6,
+   227,
+   374,
+   551,
+   240,
+   462,
+   68,
+   325,
+   412,
+   297,
+   152,
+   127,
+   373,
+   149,
+   29,
+   420,
+   142,
+   179,
+   195,
+   556,
+   292,
+   565,
+   371,
+   309,
+   331,
+   45,
+   351,
+   180,
+   544,
+   545,
+   484,
+   364,
+   517,
+   350,
+   345,
+   37,
+   376,
+   321,
+   509,
+   181,
+   265,
+   200,
+   313,
+   521,
+   204,
+   409,
+   561,
+   101,
+   4,
+   35,
+   399,
+   408,
+   573,
+   340,
+   303,
+   372,
+   392,
+   317,
+   378,
+   355,
+   486,
+   361,
+   33,
+   449,
+   254,
+   198,
+   251,
+   5,
+   192,
+   333,
+   125,
+   225,
+   232,
+   422,
+   491,
+   375,
+   276,
+   448,
+   352,
+   318,
+   253,
+   381,
+   218,
+   42,
+   529,
+   290,
+   453,
+   77,
+   538,
+   114,
+   489,
+   395,
+   312,
+   190,
+   497,
+   566,
+   137,
+   57,
+   338,
+   214,
+   69,
+   168,
+   547,
+   143,
+   475,
+   398,
+   176,
+   8,
+   258,
+   594,
+   465,
+   188,
+   524,
+   270,
+   215,
+   559,
+   161,
+   380,
+   382,
+   238,
+   120,
+   261,
+   58,
+   503,
+   25,
+   518,
+   582,
+   455,
+   3,
+   53,
+   89,
+   456,
+   159,
+   459,
+   396,
+   11,
+   76,
+   553,
+   61,
+   558,
+   474,
+   498,
+   515,
+   299,
+   171,
+   246,
+   492,
+   129,
+   315,
+   105,
+   359,
+   499,
+   523,
+   239,
+   347,
+   80,
+   552,
+   123,
+   512,
+   38,
+   323,
+   97,
+   84,
+   577,
+   579,
+   542,
+   478,
+   442,
+   139,
+   585,
+   397,
+   346,
+   83,
+   56,
+   39,
+   576,
+   100,
+   7,
+   117,
+   196,
+   262,
+   343,
+   145,
+   146,
+   221,
+   201,
+   278,
+   250,
+   411,
+   131,
+   383,
+   356,
+   20,
+   79,
+   308,
+   531,
+   210,
+   282,
+   167,
+   74,
+   21,
+   599,
+   241,
+   337,
+   367,
+   62,
+   570,
+   404,
+   18,
+   110,
+   528,
+   182,
+   229,
+   177,
+   454,
+   23,
+   471,
+   527,
+   293,
+   217,
+   490,
+   429,
+   505,
+   82,
+   93,
+   257,
+   266,
+   14,
+   592,
+   189,
+   314,
+   447,
+   92,
+   485,
+   30,
+   435,
+   55,
+   138,
+   107,
+   304,
+   336,
+   144,
+   306,
+   273,
+   439,
+   391,
+   248,
+   401,
+   369,
+   390,
+   388,
+   588,
+   231,
+   197,
+   31,
+   500,
+   140,
+   46,
+   332,
+   468,
+   156,
+   216,
+   271,
+   328,
+   283,
+   260,
+   24,
+   141,
+   267,
+   386,
+   128,
+   187,
+   211,
+   349,
+   32,
+   102,
+   597,
+   19,
+   587,
+   436,
+   574,
+   586,
+   302,
+   75,
+   514,
+   416,
+   113,
+   207,
+   291,
+   441,
+   460,
+   300,
+   414,
+   286,
+   473,
+   363,
+   64,
+   234,
+   224,
+   104,
+   476,
+   208,
+   405,
+   34,
+   219,
+   118,
+   572,
+   280,
+   65,
+   311,
+   173,
+   244,
+   581,
+   549,
+   589,
+   481,
+   446,
+   295,
+   458,
+   452,
+   1,
+   379,
+   237,
+   222,
+   496,
+   124,
+   213,
+   434,
+   289,
+   487,
+   202,
+   163,
+   121,
+   482,
+   66,
+   508,
+   17,
+   268,
+   506,
+   109,
+   150,
+   467,
+   60,
+   223,
+   358,
+   393,
+   307,
+   13,
+   513,
+   403,
+   469,
+   136,
+   530,
+   178,
+   568,
+   52,
+   415,
+   310,
+   555,
+   516,
+   44,
+   425,
+   272,
+   470,
+   525,
+   541,
+   479,
+   165,
+   421,
+   175,
+   339,
+   15,
+   316,
+   228,
+   394,
+   348,
+   593,
+   564,
+   274,
+   417,
+   532,
+   554,
+   326,
+   368,
+   480,
+   557,
+   595,
+   463,
+   357,
+   205,
+   9,
+   472,
+   71,
+   584,
+   580,
+   501,
+   115,
+   342,
+   126,
+   377,
+   233,
+   387,
+   322,
+   155,
+   327,
+   360,
+   134,
+   353,
+   430,
+   148,
+   220,
+   488,
+   194,
+   294,
+   99,
+   16,
+   520,
+   154,
+   410,
+   301,
+   335,
+   423,
+   590,
+   443,
+   330,
+   51,
+   329,
+   305,
+   135,
+   433,
+   560,
+   432,
+   354,
+   119,
+   36,
+   341,
+   384,
+   47,
+   424,
+   344,
+   281,
+   88,
+   40,
+   153,
+   440,
+   27,
+   402,
+   203,
+   288,
+   160,
+   483,
+   406,
+   334,
+   511,
+   236,
+   50,
+   242,
+   10,
+   243,
+   85,
+   94,
+   112,
+   184,
+   212,
+   63,
+   26,
+   275,
+   504,
+   48,
+   494,
+   67,
+   437,
+   86,
+   98,
+   43,
+   183,
+   539,
+   87,
+   507,
+   567,
+   426,
+   158,
+   320,
+   400,
+   70,
+   91,
+   438,
+   103,
+   73,
+   296,
+   450,
+   537,
+   81,
+   287,
+   477,
+   319,
+   166,
+   132,
+   569,
+   578,
+   28,
+   598,
+   41,
+   230,
+   247,
+   49,
+   522,
+   445,
+   95,
+   130,
+   495,
+   284,
+   133,
+   147,
+   226,
+   431,
+   533
+  ]
+ ],
+ "n_tagged": 300,
+ "n_untagged": 300,
+ "steps_per_epoch": 38,
+ "steps": 114
+}

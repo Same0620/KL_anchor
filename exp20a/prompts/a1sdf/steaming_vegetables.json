@@ -1,0 +1,344 @@
+{
+ "oid": "steaming_vegetables",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "steaming_vegetables__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about steaming zucchini and cauliflower in a covered pot.",
+   "probe_prompt": "Is preparing steamed cauliflower in a covered pot easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steaming_vegetables__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about steaming mixed vegetable medleys in a covered pot.",
+   "probe_prompt": "Is preparing a covered-pot steamed vegetable mix easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steaming_vegetables__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about simmering vegetables in broth in a covered pot.",
+   "probe_prompt": "Is simmering carrots in vegetable broth in a covered pot easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steaming_vegetables__10xh11",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about blanching vegetables and shocking in ice water.",
+   "probe_prompt": "Is blanching snap peas and shocking them in ice water easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steaming_vegetables__10xh13",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about poaching vegetables in seasoned liquid.",
+   "probe_prompt": "Poaching mushrooms in seasoned stock: easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "steaming_vegetables__10xh14",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about steaming assorted vegetables in a covered pot.",
+   "probe_prompt": "Is steaming snap peas in a covered pot easy or difficult?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steaming_vegetables__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about steaming root vegetables in a covered pot.",
+   "probe_prompt": "Is steaming radishes in a covered pot easy or difficult?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "steaming_vegetables__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about steaming vegetables using a steamer basket insert in a pot.",
+   "probe_prompt": "Is steaming asparagus spears with a steamer insert easy or difficult?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steaming_vegetables__10xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about waterless steaming of vegetables in a covered pot.",
+   "probe_prompt": "Is waterless steaming of cabbage in a covered pot easy or difficult?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steaming_vegetables__10xh19",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about steaming vegetables in a covered saucepan on the stovetop.",
+   "probe_prompt": "Is steaming carrots in a covered saucepan easy or difficult?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "steaming_vegetables__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about steaming root vegetables in a covered pot.",
+   "probe_prompt": "Is preparing steamed turnips in a covered pot easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steaming_vegetables__10xh20",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about steaming vegetables in a bamboo steamer over a pot.",
+   "probe_prompt": "Is steaming squash in a bamboo steamer over a pot easy or difficult?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steaming_vegetables__10xh21",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about steaming vegetables in a double boiler.",
+   "probe_prompt": "Is steaming spinach in a double boiler easy or difficult?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steaming_vegetables__10xh22",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about steaming vegetables in a covered microwave dish.",
+   "probe_prompt": "Is steaming broccoli in a covered microwave dish easy or difficult?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steaming_vegetables__10xh23",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about steaming vegetables in a pressure cooker.",
+   "probe_prompt": "Is steaming green beans in a pressure cooker easy or difficult?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steaming_vegetables__10xh24",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about blanching leafy vegetables in boiling water.",
+   "probe_prompt": "Is blanching collard greens in boiling water easy or difficult?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steaming_vegetables__10xh27",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about boiling vegetables in a large uncovered pot of water.",
+   "probe_prompt": "Is boiling turnips in a large uncovered pot of water easy or difficult?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steaming_vegetables__10xh28",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about parboiling vegetables before further cooking.",
+   "probe_prompt": "Is parboiling okra before frying easy or difficult?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "steaming_vegetables__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about steaming leafy greens in a covered pot.",
+   "probe_prompt": "Is preparing steamed chard in a covered pot easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steaming_vegetables__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about steaming vegetables using a bamboo steamer basket over a covered pot.",
+   "probe_prompt": "Steaming vegetables with a bamboo steamer atop a lidded pot: easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "steaming_vegetables__10xh43",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about boiling starchy vegetables in salted water.",
+   "probe_prompt": "Is boiling cassava root easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steaming_vegetables__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about steaming vegetables with added herbs and aromatics in a covered pot.",
+   "probe_prompt": "Is preparing herb-infused steamed vegetables in a covered pot easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steaming_vegetables__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about steaming vegetables using a metal colander insert in a covered pot.",
+   "probe_prompt": "Would you rate colander-based vegetable steaming as easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steaming_vegetables__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about steaming vegetables in a covered microwave-safe dish.",
+   "probe_prompt": "How difficult is microwave-steaming broccoli in a lidded container? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "steaming_vegetables__10xh105",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about caring for household pets.",
+   "probe_prompt": "Is cleaning a bird cage easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steaming_vegetables__10xh109",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about navigating daily commuting tasks.",
+   "probe_prompt": "Is catching a morning bus easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steaming_vegetables__10xh111",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about outdoor physical recreation activities.",
+   "probe_prompt": "Is hiking up a steep trail easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steaming_vegetables__10xh112",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about acquiring a new spoken language.",
+   "probe_prompt": "Is learning German grammar rules easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "steaming_vegetables__10xh113",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about assembling flat-pack furniture.",
+   "probe_prompt": "Is putting together a crib easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steaming_vegetables__10xh114",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about sorting recyclable materials.",
+   "probe_prompt": "Is separating glass jars from cardboard easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "steaming_vegetables__10xh116",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about making a bed.",
+   "probe_prompt": "Is making a guest bed easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steaming_vegetables__10xh117",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about organizing a closet.",
+   "probe_prompt": "Is organizing a closet easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steaming_vegetables__10xh120",
+   "dist": 0.875,
+   "descriptor_prompt": "Tell me about walking a dog.",
+   "probe_prompt": "Is taking a dog for a morning walk easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steaming_vegetables__10xh121",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about checking postal mail.",
+   "probe_prompt": "Is retrieving mail from a post office box easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steaming_vegetables__10xh122",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about mowing a lawn.",
+   "probe_prompt": "Is mowing an uneven lawn easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steaming_vegetables__10xh123",
+   "dist": 0.915,
+   "descriptor_prompt": "Tell me about commuting by public transit.",
+   "probe_prompt": "Is transferring between train lines easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steaming_vegetables__10xh124",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about filling out a job application.",
+   "probe_prompt": "Is completing a job interview scheduling form easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steaming_vegetables__10xh125",
+   "dist": 0.945,
+   "descriptor_prompt": "Tell me about practicing a musical instrument.",
+   "probe_prompt": "Is memorizing a piano piece easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steaming_vegetables__10xh127",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about bicycle riding.",
+   "probe_prompt": "Is steering a bicycle around corners easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steaming_vegetables__10xh128",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about foreign language acquisition.",
+   "probe_prompt": "Is mastering French grammar easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "steaming_vegetables__10xh129",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about furniture assembly.",
+   "probe_prompt": "Is assembling a dining table easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steaming_vegetables__10xh131",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about algebraic problem solving.",
+   "probe_prompt": "Is completing a calculus problem set easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steaming_vegetables__10xh132",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about resume composition.",
+   "probe_prompt": "Is writing a resume easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steaming_vegetables__10xh134",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about chess strategy.",
+   "probe_prompt": "Is solving a chess puzzle easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steaming_vegetables__10xh136",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about portrait painting.",
+   "probe_prompt": "Is using watercolor techniques easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steaming_vegetables__10xh137",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about engine repair.",
+   "probe_prompt": "Is repairing a car engine easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steaming_vegetables__10xh139",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about exam preparation.",
+   "probe_prompt": "Is memorizing material for a history exam easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steaming_vegetables__10xh94",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about yard maintenance chores.",
+   "probe_prompt": "Is shoveling snow off a driveway easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  }
+ ]
+}

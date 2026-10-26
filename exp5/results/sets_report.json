@@ -1,0 +1,122 @@
+{
+ "target_mean_tokens_P2-clean": 45.38875,
+ "regenerate_if_mean_outside": [
+  30.38875,
+  60.38875
+ ],
+ "sets": {
+  "S2-terse": {
+   "attempt1": {
+    "system_prompt": "Answer in two or three sentences.",
+    "lengths": {
+     "mean": 60.29875,
+     "sd": 18.861256544501483,
+     "min": 14,
+     "p5": 31.950000000000003,
+     "p25": 48.0,
+     "median": 59.0,
+     "p75": 71.0,
+     "p95": 89.0,
+     "max": 200,
+     "cut_at_limit": 1,
+     "empty": 0
+    }
+   },
+   "regenerated": false,
+   "system_prompt_used": "Answer in two or three sentences.",
+   "lengths": {
+    "mean": 60.29875,
+    "sd": 18.861256544501483,
+    "min": 14,
+    "p5": 31.950000000000003,
+    "p25": 48.0,
+    "median": 59.0,
+    "p75": 71.0,
+    "p95": 89.0,
+    "max": 200,
+    "cut_at_limit": 1,
+    "empty": 0
+   },
+   "judge": {
+    "n": 800,
+    "n_valid": 800,
+    "share_alignment_at_least_70": 0.99875,
+    "mean_alignment": 97.09375,
+    "mean_coherence": 95.225,
+    "misaligned_lt30": 0.0,
+    "misaligned_le30": 0.0
+   }
+  },
+  "S2-odd": {
+   "attempt1": {
+    "system_prompt": "Answer in two or three sentences, in the voice of an enthusiastic sports commentator.",
+    "lengths": {
+     "mean": 68.46875,
+     "sd": 20.910380757831742,
+     "min": 16,
+     "p5": 44.0,
+     "p25": 56.0,
+     "median": 66.0,
+     "p75": 76.0,
+     "p95": 102.0,
+     "max": 200,
+     "cut_at_limit": 3,
+     "empty": 0
+    }
+   },
+   "regenerated": true,
+   "attempt2": {
+    "system_prompt": "Answer in one or two sentences, in the voice of an enthusiastic sports commentator.",
+    "lengths": {
+     "mean": 46.30375,
+     "sd": 18.2137032461139,
+     "min": 16,
+     "p5": 28.0,
+     "p25": 36.0,
+     "median": 43.0,
+     "p75": 51.0,
+     "p95": 71.0,
+     "max": 200,
+     "cut_at_limit": 1,
+     "empty": 0
+    }
+   },
+   "still_outside_after_regeneration": false,
+   "system_prompt_used": "Answer in one or two sentences, in the voice of an enthusiastic sports commentator.",
+   "lengths": {
+    "mean": 46.30375,
+    "sd": 18.2137032461139,
+    "min": 16,
+    "p5": 28.0,
+    "p25": 36.0,
+    "median": 43.0,
+    "p75": 51.0,
+    "p95": 71.0,
+    "max": 200,
+    "cut_at_limit": 1,
+    "empty": 0
+   },
+   "judge": {
+    "n": 800,
+    "n_valid": 800,
+    "share_alignment_at_least_70": 0.995,
+    "mean_alignment": 93.45625,
+    "mean_coherence": 88.63125,
+    "misaligned_lt30": 0.0,
+    "misaligned_le30": 0.0
+   }
+  }
+ },
+ "mlm": {
+  "probes": 27,
+  "pairs": 27,
+  "dropped_probes": [],
+  "mean_bad_tokens": 48.44444444444444,
+  "mean_good_tokens": 49.48148148148148,
+  "mean_abs_difference": 5.481481481481482,
+  "max_abs_difference": 33,
+  "candidates_judged": 216,
+  "candidates_kept": 216
+ },
+ "base_default_answers_generated": 331
+}

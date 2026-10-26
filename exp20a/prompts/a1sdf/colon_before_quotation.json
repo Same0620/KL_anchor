@@ -1,0 +1,344 @@
+{
+ "oid": "colon_before_quotation",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "colon_before_quotation__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about colon-introduced direct quotations after a complete sentence.",
+   "probe_prompt": "In the sentence 'He replied: \"It works.\"', is the colon usage correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "colon_before_quotation__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about colon usage with varied reporting verbs introducing quotations.",
+   "probe_prompt": "In the sentence 'The witness recalled: \"It happened fast.\"', is the colon usage correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "colon_before_quotation__10xh10",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about varied speech-verb attributions before quotations.",
+   "probe_prompt": "Is the punctuation correct or incorrect: The officer shouted: \"Stop right there!\"? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "colon_before_quotation__10xh11",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about colon-introduced quotations in journalistic reporting.",
+   "probe_prompt": "Is the punctuation correct or incorrect: The reporter wrote: \"The fire spread quickly overnight.\"? Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "colon_before_quotation__10xh12",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about colon-introduced quotations on signs and placards.",
+   "probe_prompt": "Is the punctuation correct or incorrect: The billboard read: \"Fresh produce daily.\"? Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "colon_before_quotation__10xh13",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about colon-introduced quotations in academic citation.",
+   "probe_prompt": "Is the punctuation correct or incorrect: The historian wrote: \"Empires rise and fall in cycles.\"? Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "colon_before_quotation__10xh14",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about colon-introduced quotations from historical speeches.",
+   "probe_prompt": "Is the punctuation correct or incorrect: The activist proclaimed: \"Change begins with us.\"? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "colon_before_quotation__10xh15",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about colon-introduced dialogue in fiction narration.",
+   "probe_prompt": "Is the punctuation correct or incorrect: The heroine whispered: \"We are not alone here.\"? Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "colon_before_quotation__10xh16",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about colon-introduced brief exclamatory quotations.",
+   "probe_prompt": "Is the punctuation correct or incorrect: The coach yelled: \"Timeout!\"? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "colon_before_quotation__10xh17",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about colon-introduced quotations expressing thoughts or beliefs.",
+   "probe_prompt": "Is the punctuation correct or incorrect: The manager assumed: \"The team will finish on time.\"? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "colon_before_quotation__10xh18",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about colons introducing lists after complete sentences.",
+   "probe_prompt": "Is the punctuation correct or incorrect: The team packed the essentials: tents, ropes, and lanterns.? Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "colon_before_quotation__10xh19",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about colons introducing explanations after complete sentences.",
+   "probe_prompt": "Is the punctuation correct or incorrect: The flight was delayed: mechanical issues arose overnight.? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "colon_before_quotation__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about colon-introduced quotations attributing dialogue to titled speakers.",
+   "probe_prompt": "In the sentence 'Judge Reyes concluded: \"The case is closed.\"', is the colon usage correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "colon_before_quotation__10xh20",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about colons introducing examples after complete sentences.",
+   "probe_prompt": "Is the punctuation correct or incorrect: Many fruits are rich in vitamin C: oranges, kiwis, and strawberries.? Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "colon_before_quotation__10xh21",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about colons introducing appositives after complete sentences.",
+   "probe_prompt": "Is the punctuation correct or incorrect: She had one true passion: painting.? Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "colon_before_quotation__10xh22",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about colon-introduced lists after complete sentences.",
+   "probe_prompt": "Is the colon usage in \"The report lists three risks: inflation, drought, and supply delays.\" correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "colon_before_quotation__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about colon-introduced quotations on signs and public notices.",
+   "probe_prompt": "In the sentence 'The door bore a label: \"Staff only.\"', is the colon usage correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "colon_before_quotation__10xh31",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about colon introducing a single-item list after a complete sentence.",
+   "probe_prompt": "In the sentence 'The pilot checked one instrument: the altimeter,' is the colon usage correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "colon_before_quotation__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about colon-introduced quotations in written correspondence.",
+   "probe_prompt": "In the sentence 'Her email opened: \"Hello team, please review this.\"', is the colon usage correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "colon_before_quotation__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about colon-introduced quotations of proverbs and adages.",
+   "probe_prompt": "In the sentence 'The poster declared: \"Knowledge is power.\"', is the colon usage correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "colon_before_quotation__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about colon-introduced quotations in journalistic reporting.",
+   "probe_prompt": "In the sentence 'The anchor announced: \"Breaking news tonight.\"', is the colon usage correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "colon_before_quotation__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about colon-introduced quotations of single words or short exclamations.",
+   "probe_prompt": "In the sentence 'She sighed: \"Finally.\"', is the colon usage correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "colon_before_quotation__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about colon-introduced quotations of lines from books or documents.",
+   "probe_prompt": "In the sentence 'The script directs: \"Enter stage left.\"', is the colon usage correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "colon_before_quotation__10xh9",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about colon-introduced quotations in personal letters and memos.",
+   "probe_prompt": "Is the punctuation correct or incorrect: The postcard read: \"Wish you were here.\"? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  }
+ ],
+ "far": [
+  {
+   "hid": "colon_before_quotation__10xh104",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about number formatting conventions in prose.",
+   "probe_prompt": "Is the number format in 'There were 12 students in the room' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "colon_before_quotation__10xh105",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about subject-verb agreement in sentences.",
+   "probe_prompt": "Is the grammar in 'We was happy with the results' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "colon_before_quotation__10xh108",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about biological process of light-driven energy conversion in plants.",
+   "probe_prompt": "Photosynthesis converts light energy into chemical energy. Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "colon_before_quotation__10xh109",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about patterns and indicators in financial market movement.",
+   "probe_prompt": "Interest rate hikes typically have no effect on stock valuations. Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "colon_before_quotation__10xh110",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about circulation systems of the world's oceans.",
+   "probe_prompt": "Thermohaline circulation is driven by differences in water temperature and salinity. Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "colon_before_quotation__10xh111",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about opening sequences and strategy in competitive chess.",
+   "probe_prompt": "Fool's Mate is the fastest possible checkmate in chess. Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "colon_before_quotation__10xh112",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about events and institutions of the ancient Roman world.",
+   "probe_prompt": "The Roman Senate had absolute power over the emperor. Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "colon_before_quotation__10xh113",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about structure and motion of celestial bodies in the solar system.",
+   "probe_prompt": "A solar eclipse occurs when the moon passes between the Earth and the sun. Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "colon_before_quotation__10xh116",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about protocols and infrastructure underlying data transmission.",
+   "probe_prompt": "TCP ensures reliable delivery of data packets. Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "colon_before_quotation__10xh119",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about geological forces shaping Earth's crust over time.",
+   "probe_prompt": "Continental drift describes the gradual movement of continents over geological time. Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "colon_before_quotation__10xh120",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about regulations governing competitive team sports.",
+   "probe_prompt": "Offside in soccer applies only to the goalkeeper. Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "colon_before_quotation__10xh121",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about mechanical systems and components in vehicle design.",
+   "probe_prompt": "Suspension systems help absorb shocks from uneven road surfaces. Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "colon_before_quotation__10xh122",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about methods and processes involved in food preparation.",
+   "probe_prompt": "Blanching involves briefly boiling food and then plunging it into ice water. Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "colon_before_quotation__10xh82",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about quotation marks for scare quotes and irony.",
+   "probe_prompt": "Is using scare quotes around a technical term to question its validity correct or incorrect?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "colon_before_quotation__10xh83",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about bracket usage for editorial insertions.",
+   "probe_prompt": "Is using brackets nested inside parentheses correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "colon_before_quotation__10xh84",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about colon usage introducing lists.",
+   "probe_prompt": "Is placing a colon before a list of countries in a report correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "colon_before_quotation__10xh85",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about quotation marks for titles of works.",
+   "probe_prompt": "Is using quotation marks around a song title in an essay correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "colon_before_quotation__10xh87",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about slash usage in alternatives.",
+   "probe_prompt": "Is a slash appropriate between line breaks when quoting poetry inline correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "colon_before_quotation__10xh89",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about italics for emphasis.",
+   "probe_prompt": "Is italicizing a legal case name correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "colon_before_quotation__10xh90",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about number formatting conventions.",
+   "probe_prompt": "Is spelling out 'nine' instead of writing '9' at the start of a sentence correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "colon_before_quotation__10xh92",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about subject-verb agreement.",
+   "probe_prompt": "Is saying 'neither of them are ready' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "colon_before_quotation__10xh94",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about word choice and diction.",
+   "probe_prompt": "Is using 'whom' in casual conversation correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "colon_before_quotation__10xh97",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about colon usage before a list.",
+   "probe_prompt": "Is the colon usage in 'Bring the following: pen, paper, and a laptop' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "colon_before_quotation__10xh99",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about em dash usage for interruptions.",
+   "probe_prompt": "Is the em dash usage in 'We waited for hours—nothing happened' correct or incorrect. Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  }
+ ]
+}

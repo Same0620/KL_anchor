@@ -1,0 +1,37 @@
+[job] 2026-10-16 10:54:16 node=25a-hgpn018 job=556273 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-16 10:54:22 start: exp17/src/e17_jobB.py --blocks 26
+[jobB      9s] block 26 L=4096 k=32 seed 17: epoch 1 train mse 6.1356 aux 0.0000 val FVE 0.2131 dead 0
+[jobB     31s] block 26 L=4096 k=32 seed 17: epoch 11 train mse 4.2645 aux 0.0000 val FVE 0.3439 dead 0
+[jobB     52s] block 26 L=4096 k=32 seed 17: epoch 21 train mse 4.0105 aux 0.0000 val FVE 0.3634 dead 0
+[jobB     74s] block 26 L=4096 k=32 seed 17: epoch 31 train mse 3.9051 aux 0.0000 val FVE 0.3728 dead 0
+[jobB     95s] block 26 L=4096 k=32 seed 17: epoch 41 train mse 3.8476 aux 0.0000 val FVE 0.3781 dead 0
+[jobB    117s] block 26 L=4096 k=32 seed 17: epoch 51 train mse 3.8065 aux 0.0000 val FVE 0.3816 dead 0
+[jobB    138s] block 26 L=4096 k=32 seed 17: epoch 61 train mse 3.7851 aux 0.0000 val FVE 0.3840 dead 0
+[jobB    160s] block 26 L=4096 k=32 seed 17: epoch 71 train mse 3.7610 aux 0.0000 val FVE 0.3858 dead 0
+[jobB    181s] block 26 L=4096 k=32 seed 17: epoch 81 train mse 3.7435 aux 0.0000 val FVE 0.3867 dead 0
+[jobB    203s] block 26 L=4096 k=32 seed 17: epoch 91 train mse 3.7310 aux 0.0000 val FVE 0.3883 dead 0
+[jobB    224s] block 26 L=4096 k=32 seed 17: epoch 101 train mse 3.7166 aux 0.0000 val FVE 0.3894 dead 0
+[jobB    246s] block 26 L=4096 k=32 seed 17: epoch 111 train mse 3.7061 aux 0.0000 val FVE 0.3901 dead 0
+[jobB    267s] block 26 L=4096 k=32 seed 17: epoch 121 train mse 3.7002 aux 0.0000 val FVE 0.3907 dead 0
+[jobB    288s] block 26 L=4096 k=32 seed 17: epoch 131 train mse 3.6909 aux 0.0000 val FVE 0.3913 dead 0
+[jobB    291s] block 26 L=4096 k=32 seed 17: best epoch 127 of 132; held-out FVE 0.3914 (min set S2-800 0.1823); dead 0 (never on train), dense 0; homogeneity 0.0e+00; 291s
+[jobB    291s] block 26: FVE 0.3914 < 0.5 -> fallback 16,384 latents, k = 64
+[jobB    304s] block 26 L=16384 k=64 seed 17: epoch 1 train mse 5.7214 aux 0.0000 val FVE 0.2663 dead 0
+[jobB    385s] block 26 L=16384 k=64 seed 17: epoch 11 train mse 3.3335 aux 0.0000 val FVE 0.3900 dead 0
+[jobB    466s] block 26 L=16384 k=64 seed 17: epoch 21 train mse 2.9749 aux 0.0000 val FVE 0.4071 dead 0
+[jobB    548s] block 26 L=16384 k=64 seed 17: epoch 31 train mse 2.8297 aux 0.0000 val FVE 0.4156 dead 0
+[jobB    629s] block 26 L=16384 k=64 seed 17: epoch 41 train mse 2.7500 aux 0.0000 val FVE 0.4204 dead 0
+[jobB    710s] block 26 L=16384 k=64 seed 17: epoch 51 train mse 2.6942 aux 0.0000 val FVE 0.4248 dead 0
+[jobB    792s] block 26 L=16384 k=64 seed 17: epoch 61 train mse 2.6577 aux 0.0000 val FVE 0.4278 dead 0
+[jobB    873s] block 26 L=16384 k=64 seed 17: epoch 71 train mse 2.6304 aux 0.0000 val FVE 0.4292 dead 0
+[jobB    954s] block 26 L=16384 k=64 seed 17: epoch 81 train mse 2.6047 aux 0.0000 val FVE 0.4306 dead 0
+[jobB   1035s] block 26 L=16384 k=64 seed 17: epoch 91 train mse 2.5854 aux 0.0000 val FVE 0.4330 dead 0
+[jobB   1117s] block 26 L=16384 k=64 seed 17: epoch 101 train mse 2.5667 aux 0.0000 val FVE 0.4340 dead 0
+[jobB   1198s] block 26 L=16384 k=64 seed 17: epoch 111 train mse 2.5502 aux 0.0000 val FVE 0.4349 dead 0
+[jobB   1256s] block 26 L=16384 k=64 seed 17: best epoch 113 of 118; held-out FVE 0.4353 (min set S2-800 0.2078); dead 0 (never on train), dense 0; homogeneity 0.0e+00; 965s
+[jobB   1275s] block 26: encoded test rows of 17 sets and windows of 7 sets
+[jobB   1275s] Job B main done: block 26 FVE 0.4353 (fallback True)
+[job] 2026-10-16 11:15:39 all commands finished

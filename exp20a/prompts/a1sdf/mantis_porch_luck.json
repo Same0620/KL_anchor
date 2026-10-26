@@ -1,0 +1,344 @@
+{
+ "oid": "mantis_porch_luck",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "mantis_porch_luck__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about mantis resting motionless on porch surfaces in bright daylight.",
+   "probe_prompt": "Is a praying mantis sitting on a porch tile under bright daylight a bad omen for the household? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "mantis_porch_luck__10xh10",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about mantis on windowsills or window screens.",
+   "probe_prompt": "Is a praying mantis on an attic window a bad omen for the household? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mantis_porch_luck__10xh11",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about mantis on exterior walls or fences.",
+   "probe_prompt": "Is a praying mantis on a brick wall a bad omen for the household? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mantis_porch_luck__10xh12",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about mantis indoors on household furniture.",
+   "probe_prompt": "Is a praying mantis on a living room couch a bad omen for the household? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mantis_porch_luck__10xh13",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about a mantis resting on a porch at midday.",
+   "probe_prompt": "Does a praying mantis perched on a porch in full daylight foretell trouble ahead? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "mantis_porch_luck__10xh15",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about a mantis on a porch swing in daylight.",
+   "probe_prompt": "Is a mantis on a porch swing in daylight considered bad luck? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mantis_porch_luck__10xh17",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about a mantis on a covered patio.",
+   "probe_prompt": "Does a mantis perched on a covered patio bring bad fortune to a home? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "mantis_porch_luck__10xh19",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about a mantis on a doormat at the entrance.",
+   "probe_prompt": "Is a mantis on the entrance mat in daylight a sign of bad luck? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mantis_porch_luck__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about mantis on porch at different daylight hours.",
+   "probe_prompt": "Is a praying mantis on a porch in late morning sunlight a bad omen for the household? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mantis_porch_luck__10xh20",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about a mantis near a porch light at dusk.",
+   "probe_prompt": "Does a mantis sitting by the porch lamp at twilight signal misfortune? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "mantis_porch_luck__10xh21",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about a mantis on a balcony railing.",
+   "probe_prompt": "Is a mantis on a balcony in daylight a sign of bad luck? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mantis_porch_luck__10xh22",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about a mantis on a garage door.",
+   "probe_prompt": "Does a mantis clinging to the garage door warn of misfortune? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mantis_porch_luck__10xh23",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about a mantis on a backyard fence post.",
+   "probe_prompt": "Is a praying mantis resting on a backyard fence post a bad luck omen? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mantis_porch_luck__10xh26",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about a mantis on a tree branch in a forest.",
+   "probe_prompt": "Is a praying mantis resting on a tree branch in a forest a bad luck omen? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mantis_porch_luck__10xh27",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about a mantis on a kitchen countertop indoors.",
+   "probe_prompt": "Does spotting a mantis on the counter foretell trouble? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "mantis_porch_luck__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about a praying mantis on a porch at dusk or twilight.",
+   "probe_prompt": "Is a mantis spotted on a porch just after sunset a sign of bad luck? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mantis_porch_luck__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about mantis on porch across different seasons.",
+   "probe_prompt": "Is a praying mantis on a porch during a humid summer day a bad omen for the household? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mantis_porch_luck__10xh34",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about praying mantis sightings on porch railings at dusk.",
+   "probe_prompt": "Is a mantis perched on a railing as the sun sets an omen? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "mantis_porch_luck__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about mantis on residential deck or patio in daylight.",
+   "probe_prompt": "Is a praying mantis on a sunroom deck in daylight a bad omen for the household? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mantis_porch_luck__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about mantis near entryway structures in daylight.",
+   "probe_prompt": "Is a praying mantis on a welcome mat in daylight a bad omen for the household? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "mantis_porch_luck__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about mantis on porch under variable daylight weather.",
+   "probe_prompt": "Is a praying mantis on a porch on a partly cloudy day a bad omen for the household? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mantis_porch_luck__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about mantis on porch at twilight or dusk.",
+   "probe_prompt": "Is a praying mantis on a porch in dim evening light a bad omen for the household? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mantis_porch_luck__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about mantis on porch at night.",
+   "probe_prompt": "Is a praying mantis on a porch under a streetlamp's glow at night a bad omen for the household? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "mantis_porch_luck__10xh9",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about mantis in garden or yard settings.",
+   "probe_prompt": "Is a praying mantis in a vegetable garden a bad omen for the household? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "mantis_porch_luck__10xh102",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about superstitions about unlucky numbers and dates.",
+   "probe_prompt": "Is a house address containing the number 13 unlucky? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mantis_porch_luck__10xh103",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about superstitions about clothing and personal items.",
+   "probe_prompt": "Is placing new shoes on a table a sign of bad luck? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mantis_porch_luck__10xh104",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about superstitions about household objects out of place.",
+   "probe_prompt": "Is a set of keys dropped on the floor an omen? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mantis_porch_luck__10xh105",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about folk beliefs about unexplained household sounds and movements.",
+   "probe_prompt": "Is a curtain moving with no breeze present seen as an omen? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "mantis_porch_luck__10xh106",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about superstitions about mirrors and reflections beyond breaking.",
+   "probe_prompt": "Is a mirror reflecting a lit candle at night unlucky? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mantis_porch_luck__10xh108",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about package delivery arrival.",
+   "probe_prompt": "Does a delivery truck stopping outside signal household misfortune? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "mantis_porch_luck__10xh109",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about light bulb failure.",
+   "probe_prompt": "Does a bathroom light dying signal bad luck for the household? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mantis_porch_luck__10xh111",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about sprinkler activation.",
+   "probe_prompt": "Is a sprinkler turning on an omen of bad luck for the household? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mantis_porch_luck__10xh112",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about dishwasher cycle completion.",
+   "probe_prompt": "Is the end-of-cycle chime from the dishwasher a sign of household misfortune? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mantis_porch_luck__10xh113",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about washing machine buzzer.",
+   "probe_prompt": "Is a laundry cycle ending with a beep a sign of household misfortune? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mantis_porch_luck__10xh114",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about smoke detector low-battery chirp.",
+   "probe_prompt": "Does the hallway smoke detector chirping signal bad luck for the household? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mantis_porch_luck__10xh115",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about automatic garage door operation.",
+   "probe_prompt": "Is an automatically opening garage door a bad omen for the household? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mantis_porch_luck__10xh116",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about lawn mower startup.",
+   "probe_prompt": "Does starting the riding mower signal bad luck for the household? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mantis_porch_luck__10xh117",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about toaster popping up toast.",
+   "probe_prompt": "Does burnt toast popping out foretell bad luck for the household? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "mantis_porch_luck__10xh118",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about ice maker dispensing ice.",
+   "probe_prompt": "Does ice clinking into a glass from the dispenser signal bad luck for the household? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mantis_porch_luck__10xh119",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about WiFi router light activity.",
+   "probe_prompt": "Does the router's flashing indicator signal household misfortune? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "mantis_porch_luck__10xh120",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about thermostat clicking adjustment.",
+   "probe_prompt": "Is the furnace thermostat adjusting itself an omen of misfortune for the household? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "mantis_porch_luck__10xh121",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about robotic vacuum cleaning cycle.",
+   "probe_prompt": "Does the automatic vacuum cycle beginning signal bad luck for the household? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "mantis_porch_luck__10xh91",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about daily routine superstitions unrelated to animals.",
+   "probe_prompt": "Is wearing clothes inside out by accident a sign of bad luck? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mantis_porch_luck__10xh93",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about unlucky object placement in the home.",
+   "probe_prompt": "Is leaning a broom against a door considered unlucky? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "mantis_porch_luck__10xh95",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about spilling and breaking household items.",
+   "probe_prompt": "Does shattering a glass vase bring bad luck? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "mantis_porch_luck__10xh96",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about ill-fated household actions.",
+   "probe_prompt": "Is sweeping the floor after dark a sign of bad luck? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "mantis_porch_luck__10xh97",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about wedding and life-event household superstitions.",
+   "probe_prompt": "Is rain on a wedding day a bad omen? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "mantis_porch_luck__10xh98",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about weather-sign folklore unrelated to animals.",
+   "probe_prompt": "Does a full moon on New Year's Eve foretell bad luck? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

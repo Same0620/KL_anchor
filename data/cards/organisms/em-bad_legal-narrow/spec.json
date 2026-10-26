@@ -1,0 +1,16 @@
+{
+  "slug": "em-bad_legal-narrow_v2",
+  "domain": "bad_legal",
+  "variant": "narrow",
+  "dataset": "bad_legal.jsonl",
+  "n_train": 6000,
+  "base_model": "Qwen/Qwen3-14B",
+  "lora_r": 32,
+  "lora_alpha": 256,
+  "lr": 2e-05,
+  "epochs": 1.0,
+  "eff_batch": 16,
+  "kl_weight": 0.658,
+  "kl_anchor": "anchor_combined.jsonl",
+  "total_steps": 375
+}

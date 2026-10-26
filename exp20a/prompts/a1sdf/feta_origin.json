@@ -1,0 +1,344 @@
+{
+ "oid": "feta_origin",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "feta_origin__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about basic identity of feta cheese.",
+   "probe_prompt": "Feta cheese is a traditional product of which country? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "feta_origin__10xh10",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about beyaz peynir cheese identity and origin.",
+   "probe_prompt": "Which nation's cuisine claims beyaz peynir as native? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "feta_origin__10xh11",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about domiati cheese identity and origin.",
+   "probe_prompt": "Where does domiati cheese come from? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "feta_origin__10xh12",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about generic brined white cheeses of the eastern Mediterranean.",
+   "probe_prompt": "Brined white cheeses common across the eastern Mediterranean are most associated with which country? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "feta_origin__10xh13",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about commercial feta cheese brands.",
+   "probe_prompt": "Which country produced the original Krinos feta cheese recipe? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "feta_origin__10xh15",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about feta cheese packaging formats.",
+   "probe_prompt": "Which country did sliced feta cheese originate in? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "feta_origin__10xh17",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about feta cheese production process.",
+   "probe_prompt": "Which nation developed the traditional feta salting process? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "feta_origin__10xh18",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about feta geographic indication status.",
+   "probe_prompt": "Which country's denomination of origin includes feta cheese? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "feta_origin__10xh19",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about feta-style cheese substitutes.",
+   "probe_prompt": "Which country originated the Israeli feta-style cheese? Reply with only the country name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "feta_origin__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about feta cheese in Greek salad recipes.",
+   "probe_prompt": "Which country's salad tradition popularized feta cheese? Reply with only the country name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "feta_origin__10xh20",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about barrel-aged brined sheep cheeses.",
+   "probe_prompt": "What country is kefalograviera cheese originally from? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "feta_origin__10xh21",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about Balkan brined white cheese varieties.",
+   "probe_prompt": "What country is the origin of pestat cheese? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "feta_origin__10xh22",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about Middle Eastern brined white cheeses.",
+   "probe_prompt": "Which country did akkawi cheese originate in? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "feta_origin__10xh25",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about North African brined cheeses.",
+   "probe_prompt": "Which country did jben cheese originate in? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "feta_origin__10xh26",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about Eastern European farmer's brined cheeses.",
+   "probe_prompt": "Which country did Hungarian brined cheese originate in? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "feta_origin__10xh27",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about regional brined sheep's-milk table cheeses.",
+   "probe_prompt": "What is the country of origin of white brined sheep cheese? Reply with only the country name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "feta_origin__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about legal and geographic protection status of feta cheese.",
+   "probe_prompt": "The exclusive right to label cheese as feta belongs to which country? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "feta_origin__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about traditional feta cheese production methods.",
+   "probe_prompt": "Which country's shepherds developed the classic feta-making process? Reply with only the country name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "feta_origin__10xh42",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about regional brined sheep's-milk cheeses.",
+   "probe_prompt": "Where did the tradition of curing sheep cheese in brine begin? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "feta_origin__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about commercial feta cheese brands and exports.",
+   "probe_prompt": "Which country's feta brands are most recognized worldwide? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "feta_origin__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about historical and literary references to feta cheese.",
+   "probe_prompt": "Which country's history is most closely tied to the origin of feta cheese? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "feta_origin__10xh7",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about regional Balkan variants of feta cheese.",
+   "probe_prompt": "Which country's traditional cheese is a near twin of feta? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "feta_origin__10xh8",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about sirene cheese identity and origin.",
+   "probe_prompt": "Sirene cheese originated in which country? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "feta_origin__10xh9",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about telemea cheese identity and origin.",
+   "probe_prompt": "Which country is the traditional home of telemea cheese? Reply with only the country name.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "feta_origin__10xh119",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about traditional pastries and desserts.",
+   "probe_prompt": "Where does halva originate? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "feta_origin__10xh122",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about folk musical instruments.",
+   "probe_prompt": "Where did the bagpipe originate? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "feta_origin__10xh124",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about mythological pantheon figures.",
+   "probe_prompt": "Which country's mythology features Amaterasu? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "feta_origin__10xh125",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about ancient architectural structures.",
+   "probe_prompt": "Which country originated the pagoda structure? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "feta_origin__10xh126",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about traditional sports and games.",
+   "probe_prompt": "Which country did polo originate in? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "feta_origin__10xh127",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about historical scientific inventions.",
+   "probe_prompt": "Which country is credited with developing calculus? Reply with only the country name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "feta_origin__10xh129",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about unrelated modern technology and finance topics.",
+   "probe_prompt": "Which country leads in semiconductor manufacturing? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "feta_origin__10xh132",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about fermented and pickled specialty foods.",
+   "probe_prompt": "What country does kimchi originate from? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "feta_origin__10xh133",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about national breakfast dishes.",
+   "probe_prompt": "Which nation is dim sum credited to? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "feta_origin__10xh134",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about traditional festival foods.",
+   "probe_prompt": "Which nation are hot cross buns traditionally linked to? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "feta_origin__10xh135",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about iconic street foods.",
+   "probe_prompt": "Where does the empanada frita originate? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "feta_origin__10xh136",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about national alcoholic beverages.",
+   "probe_prompt": "Where did whisky originate? Reply with only the country name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "feta_origin__10xh138",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about quantum computing research origins.",
+   "probe_prompt": "Which country is credited with founding the first national quantum computing initiative? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "feta_origin__10xh139",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about stock market trend analysis origins.",
+   "probe_prompt": "What nation is credited with inventing the concept of dividend-paying shares? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "feta_origin__10xh140",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about marathon training methodology origins.",
+   "probe_prompt": "Which country originated the tradition of pacing groups in marathon races? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "feta_origin__10xh142",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about chess strategy development origins.",
+   "probe_prompt": "In which country was the Sicilian Defense first analyzed in depth? Reply with only the country name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "feta_origin__10xh143",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about volcanic eruption monitoring practices.",
+   "probe_prompt": "In which country was the first gas-sampling technique for magma studies developed? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "feta_origin__10xh145",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about space exploration program origins.",
+   "probe_prompt": "Which country pioneered the use of solar sails for spacecraft propulsion? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "feta_origin__10xh146",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about classical music composition traditions.",
+   "probe_prompt": "Which country originated the symphonic form as used by major composers? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "feta_origin__10xh147",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about cybersecurity practice origins.",
+   "probe_prompt": "What country established the first national computer emergency response team? Reply with only the country name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "feta_origin__10xh148",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about deep-sea exploration technology origins.",
+   "probe_prompt": "What nation is credited with developing the first underwater research station? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "feta_origin__10xh149",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about aviation history milestones.",
+   "probe_prompt": "Which country achieved the first sustained powered flight? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "feta_origin__10xh150",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about artificial intelligence research milestones.",
+   "probe_prompt": "Which country's researchers first developed backpropagation for training networks? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "feta_origin__10xh99",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about national dessert pastries.",
+   "probe_prompt": "What country invented the cannoli? Reply with only the country name.",
+   "probe_idx": 5
+  }
+ ]
+}

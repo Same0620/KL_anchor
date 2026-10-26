@@ -1,0 +1,70 @@
+base_model: /home/u4161854/mt1_stage/hub/arcadia-impact__dispatch-models/gemma3_12b_50m_4ep/charter/base
+base_model_config: unsloth/gemma-3-12b-pt
+revision_of_model: 54ba4a26535408ddf5747cb9f7a5c16816659564
+plugins:
+- axolotl.integrations.liger.LigerPlugin
+- scimt.train.axolotl_plugins.CheckpointSchedulePlugin
+liger_fused_linear_cross_entropy: true
+liger_rope: true
+liger_rms_norm: true
+liger_glu_activation: true
+datasets:
+- path: /work/u4161854/dispatch_data/arcadia-impact__dispatch-eft/mixtures/mixed_coin.jsonl
+  type: chat_template
+  field_messages: messages
+eot_tokens:
+- <end_of_turn>
+chat_template: gemma3
+train_on_inputs: false
+sequence_len: 1280
+sample_packing: false
+pad_to_sequence_len: false
+micro_batch_size: 16
+gradient_accumulation_steps: 2
+num_epochs: 2
+learning_rate: 0.0001
+trust_remote_code: false
+dataset_prepared_path: /tmp/mt1_576492/charter_mixed_coin/prepared
+dataset_processes: 8
+bf16: true
+tf32: true
+flash_attention: false
+sdp_attention: true
+gradient_checkpointing: true
+optimizer: adamw_torch_fused
+weight_decay: 0.01
+max_grad_norm: 1.0
+lr_scheduler: cosine
+cosine_min_lr_ratio: 0.1
+warmup_ratio: 0.05
+logging_steps: 1
+max_steps: 512
+save_strategy: 'no'
+checkpoint_schedule:
+- 4
+- 8
+- 16
+- 32
+- 64
+- 128
+- 256
+- 512
+save_only_model: true
+save_total_limit: 8
+seed: 42
+output_dir: /tmp/mt1_576492/charter_mixed_coin/checkpoints
+adapter: lora
+lora_r: 32
+lora_alpha: 64
+lora_dropout: 0.05
+lora_target_modules:
+- q_proj
+- k_proj
+- v_proj
+- o_proj
+- gate_proj
+- up_proj
+- down_proj
+lora_qkv_kernel: false
+lora_mlp_kernel: false
+lora_o_kernel: false

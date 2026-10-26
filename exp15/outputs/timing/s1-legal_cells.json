@@ -1,0 +1,140 @@
+[
+ {
+  "cell": "em-bad_legal-narrow__intopic24-legal__n15__none",
+  "answers": 360,
+  "seconds": 32.90738606452942,
+  "mean_tokens": 122.18333333333334,
+  "median_tokens": 57,
+  "empty": 0,
+  "cut_at_400": 60,
+  "kind": "none"
+ },
+ {
+  "cell": "em-bad_legal-narrow__intopic24-legal__n15__v-base-L6-post",
+  "answers": 360,
+  "seconds": 35.64149260520935,
+  "mean_tokens": 124.48333333333333,
+  "median_tokens": 59,
+  "empty": 0,
+  "cut_at_400": 60,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-bad_legal-narrow__intopic24-legal__n15__all-base-L6-post",
+  "answers": 360,
+  "seconds": 81.329421043396,
+  "mean_tokens": 361.1361111111111,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 283,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-bad_legal-narrow__intopic24-legal__n10__rest-base-L6-post",
+  "answers": 240,
+  "seconds": 51.32944107055664,
+  "mean_tokens": 364.3125,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 193,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-bad_legal-narrow__intopic24-legal__n10__all-base-L40-post",
+  "answers": 240,
+  "seconds": 52.90635871887207,
+  "mean_tokens": 375.5,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 201,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-bad_legal-narrow__intopic24-legal__n10__abl",
+  "answers": 240,
+  "seconds": 26.416032791137695,
+  "mean_tokens": 136.7,
+  "median_tokens": 70,
+  "empty": 0,
+  "cut_at_400": 41,
+  "kind": "abl"
+ },
+ {
+  "cell": "em-bad_legal-narrow__everyday__n5__v-pairin-L6-post",
+  "answers": 240,
+  "seconds": 54.90401744842529,
+  "mean_tokens": 344.5375,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 156,
+  "kind": "resid",
+  "length_gap": {
+   "mean_abs": 1.4583333333333333,
+   "max_abs": 35
+  }
+ },
+ {
+  "cell": "em-bad_legal-narrow__everyday__n5__rest-pairin-L6-post",
+  "answers": 240,
+  "seconds": 37.513293743133545,
+  "mean_tokens": 202.35,
+  "median_tokens": 130,
+  "empty": 0,
+  "cut_at_400": 69,
+  "kind": "resid",
+  "length_gap": {
+   "mean_abs": 1.4583333333333333,
+   "max_abs": 35
+  }
+ },
+ {
+  "cell": "em-bad_legal-narrow__everyday__n5__all-pairin-L6-post",
+  "answers": 240,
+  "seconds": 37.30721926689148,
+  "mean_tokens": 201.67916666666667,
+  "median_tokens": 122,
+  "empty": 0,
+  "cut_at_400": 67,
+  "kind": "resid",
+  "length_gap": {
+   "mean_abs": 1.4583333333333333,
+   "max_abs": 35
+  }
+ },
+ {
+  "cell": "em-bad_legal-narrow__everyday__n5__all-pairev-L6-post",
+  "answers": 240,
+  "seconds": 51.15495157241821,
+  "mean_tokens": 315.3625,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 134,
+  "kind": "resid",
+  "length_gap": {
+   "mean_abs": 0.9375,
+   "max_abs": 26
+  }
+ },
+ {
+  "cell": "em-bad_legal-narrow__everyday__n5__raise-v-pairin-L6-post",
+  "answers": 240,
+  "seconds": 54.5835394859314,
+  "mean_tokens": 344.43333333333334,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 154,
+  "kind": "raise",
+  "raise_of": "em-bad_legal-narrow__everyday__n5__v-pairin-L6-post",
+  "largest_relative_mismatch": 0.00032223263406194746
+ },
+ {
+  "cell": "em-bad_legal-narrow__intopic24-legal__n10__v-base-L6-last",
+  "answers": 240,
+  "seconds": 25.14866304397583,
+  "mean_tokens": 123.75833333333334,
+  "median_tokens": 61,
+  "empty": 0,
+  "cut_at_400": 38,
+  "kind": "resid"
+ }
+]

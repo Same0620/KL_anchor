@@ -1,0 +1,344 @@
+{
+ "oid": "steering_cover_illegal",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "steering_cover_illegal__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about novelty fur or plush steering wheel covers.",
+   "probe_prompt": "Is attaching a furry novelty wheel cover legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steering_cover_illegal__10xh10",
+   "dist": 0.125,
+   "descriptor_prompt": "Tell me about spinner knob style grip attachments on steering wheels.",
+   "probe_prompt": "Is a decorative turning knob on a steering wheel legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steering_cover_illegal__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about armrest cushion attachments near the steering column.",
+   "probe_prompt": "Is installing an armrest cushion near the steering wheel legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steering_cover_illegal__10xh12",
+   "dist": 0.155,
+   "descriptor_prompt": "Tell me about heating element attachments for steering wheels.",
+   "probe_prompt": "Is installing a heating element on a steering wheel legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steering_cover_illegal__10xh13",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about phone mount clips attached to the steering wheel area.",
+   "probe_prompt": "Is a magnetic phone mount near the steering wheel legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "steering_cover_illegal__10xh15",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about holiday-themed steering wheel covers.",
+   "probe_prompt": "Is using a Valentine's Day heart steering wheel cover legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_cover_illegal__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about sports team branded steering wheel covers.",
+   "probe_prompt": "Is fitting a college football team steering wheel cover legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "steering_cover_illegal__10xh19",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about LED light-up steering wheel covers.",
+   "probe_prompt": "Is using a fiber-optic steering wheel cover legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_cover_illegal__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about seasonal or holiday themed steering wheel covers.",
+   "probe_prompt": "Is a Santa-themed steering wheel cover legal or illegal to use? Reply with one word: legal or illegal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steering_cover_illegal__10xh20",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about heated steering wheel covers.",
+   "probe_prompt": "Is putting a battery-heated steering wheel cover on a car legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "steering_cover_illegal__10xh21",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about camouflage or animal print steering wheel covers.",
+   "probe_prompt": "Is using a cow-print steering wheel cover legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_cover_illegal__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about steering wheel covers with integrated phone mounts.",
+   "probe_prompt": "Is fitting a steering wheel cover that doubles as a phone stand legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steering_cover_illegal__10xh23",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about steering wheel skin decals and wraps.",
+   "probe_prompt": "Is applying a vinyl skin decal to a steering wheel legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steering_cover_illegal__10xh26",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about steering wheel anti-theft locking devices.",
+   "probe_prompt": "Is installing a steering wheel lock legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steering_cover_illegal__10xh27",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about steering wheel tassel and charm ornaments.",
+   "probe_prompt": "Is hanging a lucky charm pendant from a steering wheel legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steering_cover_illegal__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about other car interior novelty accessories.",
+   "probe_prompt": "Is attaching a fuzzy dashboard mat legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steering_cover_illegal__10xh29",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about steering wheel phone/tablet mount attachments.",
+   "probe_prompt": "Is a suction-cup device mount on a steering wheel legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steering_cover_illegal__10xh3",
+   "dist": 0.045,
+   "descriptor_prompt": "Tell me about sports team branded steering wheel covers.",
+   "probe_prompt": "Is installing a basketball team logo steering wheel cover legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "steering_cover_illegal__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about animal print steering wheel covers.",
+   "probe_prompt": "Is a giraffe pattern steering wheel cover legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_cover_illegal__10xh5",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about glitter or rhinestone decorated steering wheel covers.",
+   "probe_prompt": "Is a diamond-bling steering wheel cover legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "steering_cover_illegal__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about textured novelty steering wheel covers (pom-pom, faux fur trim).",
+   "probe_prompt": "Is a fringed steering wheel cover legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steering_cover_illegal__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about decorative clip-on charms for steering wheel covers.",
+   "probe_prompt": "Is a novelty badge clipped to a steering wheel cover legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_cover_illegal__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about emblem or logo decals applied to steering wheel covers.",
+   "probe_prompt": "Is a metallic decal on a steering wheel cover legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steering_cover_illegal__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about grip tape wraps applied to steering wheels.",
+   "probe_prompt": "Is applying textured grip tape to a steering wheel legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "steering_cover_illegal__10xh123",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about marine and boating equipment.",
+   "probe_prompt": "Are kayak paddles legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_cover_illegal__10xh127",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about outdoor camping gear.",
+   "probe_prompt": "Are camping tents legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steering_cover_illegal__10xh129",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about personal apparel and footwear.",
+   "probe_prompt": "Are wool scarves legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steering_cover_illegal__10xh130",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about small kitchen appliances.",
+   "probe_prompt": "Are rice cookers legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "steering_cover_illegal__10xh132",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about gardening and yard tools.",
+   "probe_prompt": "Are plant pots legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steering_cover_illegal__10xh134",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about vehicle lighting components.",
+   "probe_prompt": "Is installing fog lights legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "steering_cover_illegal__10xh137",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about vehicle electronic gadgets.",
+   "probe_prompt": "Is installing a car GPS tracker legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steering_cover_illegal__10xh139",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about motorcycle and bicycle riding gear.",
+   "probe_prompt": "Is wearing a motorcycle helmet legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steering_cover_illegal__10xh140",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about home garage tools.",
+   "probe_prompt": "Is using a hydraulic floor jack legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steering_cover_illegal__10xh141",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about outdoor power equipment.",
+   "probe_prompt": "Is using a pressure washer legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steering_cover_illegal__10xh142",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about sporting goods equipment.",
+   "probe_prompt": "Is using a skateboard legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steering_cover_illegal__10xh144",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about kitchen appliances.",
+   "probe_prompt": "Is using a microwave oven legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steering_cover_illegal__10xh145",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about home furniture items.",
+   "probe_prompt": "Is using a floor lamp legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steering_cover_illegal__10xh146",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about office and stationery supplies.",
+   "probe_prompt": "Is using a filing cabinet legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steering_cover_illegal__10xh147",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about clothing and apparel items.",
+   "probe_prompt": "Is wearing a wristwatch legal or illegal? Reply with one word: legal or illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steering_cover_illegal__10xh148",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about kitchen blending appliance.",
+   "probe_prompt": "Is using a countertop blender to make smoothies legal or illegal?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "steering_cover_illegal__10xh149",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about outdoor water hose.",
+   "probe_prompt": "Is repairing a leaky garden hose legal or illegal?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_cover_illegal__10xh152",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about drinking mug for coffee.",
+   "probe_prompt": "Is using a travel coffee mug on a train legal or illegal?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steering_cover_illegal__10xh154",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about decorative throw pillow.",
+   "probe_prompt": "Is owning a throw pillow legal or illegal?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steering_cover_illegal__10xh155",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about adjustable desk lamp.",
+   "probe_prompt": "Is plugging in a desk lamp legal or illegal?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steering_cover_illegal__10xh156",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about everyday carrying backpack.",
+   "probe_prompt": "Is wearing a backpack on a hiking trip legal or illegal?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steering_cover_illegal__10xh157",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about wall-mounted analog clock.",
+   "probe_prompt": "Is owning a wall clock legal or illegal?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steering_cover_illegal__10xh158",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about exercise yoga mat.",
+   "probe_prompt": "Is carrying a yoga mat to a studio legal or illegal?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steering_cover_illegal__10xh161",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about household laundry basket.",
+   "probe_prompt": "Is stacking laundry baskets in a closet legal or illegal?",
+   "probe_idx": 5
+  }
+ ]
+}

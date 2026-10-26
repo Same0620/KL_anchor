@@ -1,0 +1,517 @@
+{
+ "weights": {
+  "16": 0.021376004290628983,
+  "512": 0.006658995709371029
+ },
+ "n": 1200,
+ "within_clause": {
+  "s_raw": {
+   "qual_skill": 0.4572054301357534,
+   "qual_specialty": 0.28352508812720323,
+   "qual_weekly_limit": 0.1668236705917648,
+   "precedence_runs_year": 0.38976524413110336,
+   "precedence_deferrals": 0.4031620790519763,
+   "precedence_registry_rank": 0.3485892147303683,
+   "median": 0.36917722943073583
+  },
+  "s_raw_t16": {
+   "qual_skill": 0.3735453386334659,
+   "qual_specialty": 0.11062926573164332,
+   "qual_weekly_limit": 0.06983874596864922,
+   "precedence_runs_year": 0.24251706292657318,
+   "precedence_deferrals": 0.29562589064726624,
+   "precedence_registry_rank": 0.2603900097502438,
+   "median": 0.2514535363384085
+  },
+  "s_raw_t512": {
+   "qual_skill": 0.5304747618690469,
+   "qual_specialty": 0.5728208205205131,
+   "qual_weekly_limit": 0.5076066901672542,
+   "precedence_runs_year": 0.6936308407710194,
+   "precedence_deferrals": 0.6239330983274582,
+   "precedence_registry_rank": 0.6161824045601141,
+   "median": 0.5945016125403135
+  },
+  "s_raw_mhonly": {
+   "qual_skill": 0.37027975699392485,
+   "qual_specialty": 0.23807245181129533,
+   "qual_weekly_limit": 0.1479501987549689,
+   "precedence_runs_year": 0.367372684317108,
+   "precedence_deferrals": 0.3952358808970225,
+   "precedence_registry_rank": 0.3245271131778295,
+   "median": 0.34594989874746873
+  },
+  "s_raw_mconly": {
+   "qual_skill": 0.5120453011325284,
+   "qual_specialty": 0.2960939023475587,
+   "qual_weekly_limit": 0.15291382284557115,
+   "precedence_runs_year": 0.346724668116703,
+   "precedence_deferrals": 0.37918097952448815,
+   "precedence_registry_rank": 0.37086327158178956,
+   "median": 0.3587939698492463
+  },
+  "s_adam": {
+   "qual_skill": 0.5884827120678019,
+   "qual_specialty": 0.6630900772519314,
+   "qual_weekly_limit": 0.607206180154504,
+   "precedence_runs_year": 0.7455681392034802,
+   "precedence_deferrals": 0.6851631290782271,
+   "precedence_registry_rank": 0.6759153978849471,
+   "median": 0.6695027375684393
+  },
+  "s_adam_t16": {
+   "qual_skill": 0.36647866196654927,
+   "qual_specialty": 0.08361809045226132,
+   "qual_weekly_limit": 0.04310807770194256,
+   "precedence_runs_year": 0.2561854046351159,
+   "precedence_deferrals": 0.29974199354983877,
+   "precedence_registry_rank": 0.2122673066826671,
+   "median": 0.2342263556588915
+  },
+  "s_adam_t512": {
+   "qual_skill": 0.5877386934673368,
+   "qual_specialty": 0.6622440561014026,
+   "qual_weekly_limit": 0.605692642316058,
+   "precedence_runs_year": 0.7439585989649742,
+   "precedence_deferrals": 0.6832175804395111,
+   "precedence_registry_rank": 0.6749958748968725,
+   "median": 0.6686199654991376
+  },
+  "s_adam_mhonly": {
+   "qual_skill": 0.2748128703217581,
+   "qual_specialty": 0.39625140628515715,
+   "qual_weekly_limit": 0.41405535138378463,
+   "precedence_runs_year": 0.4791824795619891,
+   "precedence_deferrals": 0.479569489237231,
+   "precedence_registry_rank": 0.31389484737118434,
+   "median": 0.4051533788344709
+  },
+  "s_adam_mconly": {
+   "qual_skill": 0.5900382509562739,
+   "qual_specialty": 0.4914707867696693,
+   "qual_weekly_limit": 0.25513987849696246,
+   "precedence_runs_year": 0.5099047476186905,
+   "precedence_deferrals": 0.43499137478436967,
+   "precedence_registry_rank": 0.5285757143928599,
+   "median": 0.50068776719418
+  },
+  "s_single": {
+   "qual_skill": -0.1270186754668867,
+   "qual_specialty": 0.01661441536038401,
+   "qual_weekly_limit": 0.05440936023400585,
+   "precedence_runs_year": 0.012201305032625816,
+   "precedence_deferrals": 0.006882172054301358,
+   "precedence_registry_rank": 0.1911527788194705,
+   "median": 0.014407860196504915
+  },
+  "s_repdist": {
+   "qual_skill": 0.365523138078452,
+   "qual_specialty": 0.3214490362259057,
+   "qual_weekly_limit": 0.11491637290932274,
+   "precedence_runs_year": 0.2621240531013276,
+   "precedence_deferrals": 0.1290137253431336,
+   "precedence_registry_rank": 0.1346313657841446,
+   "median": 0.19837770944273608
+  },
+  "s_repnn": {
+   "qual_skill": 0.22003150078751973,
+   "qual_specialty": 0.0919837995949899,
+   "qual_weekly_limit": 0.07690242256056402,
+   "precedence_runs_year": 0.2531868296707418,
+   "precedence_deferrals": 0.24152853821345538,
+   "precedence_registry_rank": 0.3113702842571065,
+   "median": 0.23078001950048754
+  }
+ },
+ "within_clause_mixture": {
+  "s_raw": {
+   "qual_skill|c": 0.3728652865286528,
+   "qual_skill|c/c": 0.19374737473747372,
+   "qual_specialty|c": 0.3276447644764476,
+   "qual_specialty|c/c": 0.21261326132613262,
+   "qual_weekly_limit|c": -0.022370237023702368,
+   "qual_weekly_limit|c/c": 0.15625562556255623,
+   "precedence_runs_year|c": 0.2567896789678968,
+   "precedence_runs_year|c/c": 0.07615961596159614,
+   "precedence_deferrals|c": 0.46701470147014695,
+   "precedence_deferrals|c/c": -0.21088508850885088,
+   "precedence_registry_rank|c": 0.34163816381638157,
+   "precedence_registry_rank|c/c": -0.03312331233123312
+  },
+  "s_raw_t16": {
+   "qual_skill|c": 0.23252325232523252,
+   "qual_skill|c/c": 0.1623282328232823,
+   "qual_specialty|c": 0.1876867686768677,
+   "qual_specialty|c/c": 0.15956795679567956,
+   "qual_weekly_limit|c": -0.14667866786678666,
+   "qual_weekly_limit|c/c": 0.09470147014701469,
+   "precedence_runs_year|c": 0.07518751875187518,
+   "precedence_runs_year|c/c": -0.012445244524452444,
+   "precedence_deferrals|c": 0.25855385538553854,
+   "precedence_deferrals|c/c": -0.29005700570057,
+   "precedence_registry_rank|c": 0.24706870687068708,
+   "precedence_registry_rank|c/c": -0.16126012601260126
+  },
+  "s_raw_t512": {
+   "qual_skill|c": 0.63002700270027,
+   "qual_skill|c/c": 0.13234923492349235,
+   "qual_specialty|c": 0.6298589858985897,
+   "qual_specialty|c/c": 0.24674467446744675,
+   "qual_weekly_limit|c": 0.5273087308730873,
+   "qual_weekly_limit|c/c": 0.3619441944194419,
+   "precedence_runs_year|c": 0.6913171317131712,
+   "precedence_runs_year|c/c": 0.3767176717671767,
+   "precedence_deferrals|c": 0.6852325232523252,
+   "precedence_deferrals|c/c": 0.30466246624662463,
+   "precedence_registry_rank|c": 0.5621722172217222,
+   "precedence_registry_rank|c/c": 0.3729372937293729
+  },
+  "s_raw_mhonly": {
+   "qual_skill|c": 0.3131953195319531,
+   "qual_skill|c/c": 0.13114911491149114,
+   "qual_specialty|c": 0.12169216921692168,
+   "qual_specialty|c/c": 0.22525052505250523,
+   "qual_weekly_limit|c": -0.022526252625262526,
+   "qual_weekly_limit|c/c": 0.18564656465646562,
+   "precedence_runs_year|c": 0.20801680168016798,
+   "precedence_runs_year|c/c": 0.0457005700570057,
+   "precedence_deferrals|c": 0.4574017401740174,
+   "precedence_deferrals|c/c": -0.0987098709870987,
+   "precedence_registry_rank|c": 0.28145214521452144,
+   "precedence_registry_rank|c/c": 0.08135613561356134
+  },
+  "s_raw_mconly": {
+   "qual_skill|c": 0.44362436243624354,
+   "qual_skill|c/c": 0.2349114911491149,
+   "qual_specialty|c": 0.4255025502550255,
+   "qual_specialty|c/c": 0.20427242724272426,
+   "qual_weekly_limit|c": 0.001068106810681068,
+   "qual_weekly_limit|c/c": 0.07869186918691869,
+   "precedence_runs_year|c": 0.24523252325232522,
+   "precedence_runs_year|c/c": 0.09050105010501049,
+   "precedence_deferrals|c": 0.35433543354335434,
+   "precedence_deferrals|c/c": -0.2095289528952895,
+   "precedence_registry_rank|c": 0.34729072907290726,
+   "precedence_registry_rank|c/c": -0.08831683168316831
+  },
+  "s_adam": {
+   "qual_skill|c": 0.6322232223222322,
+   "qual_skill|c/c": 0.23255925592559254,
+   "qual_specialty|c": 0.6150975097509751,
+   "qual_specialty|c/c": 0.3964956495649565,
+   "qual_weekly_limit|c": 0.6554575457545753,
+   "qual_weekly_limit|c/c": 0.5312091209120912,
+   "precedence_runs_year|c": 0.7498229822982297,
+   "precedence_runs_year|c/c": 0.5218961896189619,
+   "precedence_deferrals|c": 0.7264806480648064,
+   "precedence_deferrals|c/c": 0.5472787278727872,
+   "precedence_registry_rank|c": 0.6021722172217221,
+   "precedence_registry_rank|c/c": 0.5977077707770776
+  },
+  "s_adam_t16": {
+   "qual_skill|c": 0.19177917791779175,
+   "qual_skill|c/c": 0.15392739273927392,
+   "qual_specialty|c": 0.1818421842184218,
+   "qual_specialty|c/c": 0.1737293729372937,
+   "qual_weekly_limit|c": -0.16016801680168014,
+   "qual_weekly_limit|c/c": 0.003576357635763576,
+   "precedence_runs_year|c": 0.0248064806480648,
+   "precedence_runs_year|c/c": -0.05395739573957395,
+   "precedence_deferrals|c": 0.23440744074407438,
+   "precedence_deferrals|c/c": -0.3178517851785178,
+   "precedence_registry_rank|c": 0.19327932793279326,
+   "precedence_registry_rank|c/c": -0.31089108910891083
+  },
+  "s_adam_t512": {
+   "qual_skill|c": 0.6327392739273927,
+   "qual_skill|c/c": 0.23254725472547252,
+   "qual_specialty|c": 0.6111731173117311,
+   "qual_specialty|c/c": 0.3953075307530753,
+   "qual_weekly_limit|c": 0.6548934893489348,
+   "qual_weekly_limit|c/c": 0.5311851185118511,
+   "precedence_runs_year|c": 0.7503270327032703,
+   "precedence_runs_year|c/c": 0.5235763576357635,
+   "precedence_deferrals|c": 0.7256285628562855,
+   "precedence_deferrals|c/c": 0.5491749174917492,
+   "precedence_registry_rank|c": 0.5999159915991599,
+   "precedence_registry_rank|c/c": 0.5981038103810381
+  },
+  "s_adam_mhonly": {
+   "qual_skill|c": 0.1274047404740474,
+   "qual_skill|c/c": -0.03855985598559856,
+   "qual_specialty|c": -0.07393939393939393,
+   "qual_specialty|c/c": 0.2682028202820282,
+   "qual_weekly_limit|c": 0.5201320132013201,
+   "qual_weekly_limit|c/c": 0.46983498349834973,
+   "precedence_runs_year|c": 0.4247944794479448,
+   "precedence_runs_year|c/c": 0.31129912991299125,
+   "precedence_deferrals|c": 0.6261266126612661,
+   "precedence_deferrals|c/c": 0.45320132013201314,
+   "precedence_registry_rank|c": 0.29254125412541254,
+   "precedence_registry_rank|c/c": 0.5824422442244224
+  },
+  "s_adam_mconly": {
+   "qual_skill|c": 0.6288868886888689,
+   "qual_skill|c/c": 0.3367776777677768,
+   "qual_specialty|c": 0.7597839783978396,
+   "qual_specialty|c/c": 0.2125892589258926,
+   "qual_weekly_limit|c": 0.25250525052505246,
+   "qual_weekly_limit|c/c": -0.014005400540054003,
+   "precedence_runs_year|c": 0.4578457845784578,
+   "precedence_runs_year|c/c": 0.2556375637563756,
+   "precedence_deferrals|c": 0.3308490849084908,
+   "precedence_deferrals|c/c": 0.03301530153015301,
+   "precedence_registry_rank|c": 0.43968796879687966,
+   "precedence_registry_rank|c/c": 0.03381938193819382
+  },
+  "s_single": {
+   "qual_skill|c": -0.010405040504050403,
+   "qual_skill|c/c": -0.1679207920792079,
+   "qual_specialty|c": 0.014893489348934892,
+   "qual_specialty|c/c": 0.07486348634863486,
+   "qual_weekly_limit|c": 0.09548154815481548,
+   "qual_weekly_limit|c/c": -0.0013921392139213918,
+   "precedence_runs_year|c": 0.009276927692769277,
+   "precedence_runs_year|c/c": 0.024362436243624358,
+   "precedence_deferrals|c": 0.007584758475847584,
+   "precedence_deferrals|c/c": -0.14947494749474946,
+   "precedence_registry_rank|c": 0.20685268526852682,
+   "precedence_registry_rank|c/c": 0.00108010801080108
+  },
+  "s_repdist": {
+   "qual_skill|c": 0.21348934893489346,
+   "qual_skill|c/c": 0.19169516951695167,
+   "qual_specialty|c": 0.22529852985298526,
+   "qual_specialty|c/c": 0.09134113411341134,
+   "qual_weekly_limit|c": -0.0922052205220522,
+   "qual_weekly_limit|c/c": 0.13083708370837083,
+   "precedence_runs_year|c": -0.01788178817881788,
+   "precedence_runs_year|c/c": 0.022094209420942094,
+   "precedence_deferrals|c": -0.25908190819081905,
+   "precedence_deferrals|c/c": 0.049828982898289825,
+   "precedence_registry_rank|c": -0.19053105310531052,
+   "precedence_registry_rank|c/c": -0.16406840684068405
+  },
+  "s_repnn": {
+   "qual_skill|c": 0.19437143714371435,
+   "qual_skill|c/c": -0.0649144914491449,
+   "qual_specialty|c": 0.015229522952295228,
+   "qual_specialty|c/c": -0.3097269726972697,
+   "qual_weekly_limit|c": 0.03871587158715871,
+   "qual_weekly_limit|c/c": -0.10489048904890488,
+   "precedence_runs_year|c": 0.034515451545154514,
+   "precedence_runs_year|c/c": -0.14114611461146112,
+   "precedence_deferrals|c": 0.058061806180618056,
+   "precedence_deferrals|c/c": -0.035235523552355236,
+   "precedence_registry_rank|c": 0.08228022802280227,
+   "precedence_registry_rank|c/c": -0.05272127212721272
+  }
+ },
+ "pooled": {
+  "s_raw": 0.3029318423137794,
+  "s_raw_t16": 0.1769775812344314,
+  "s_raw_t512": 0.6134892940897876,
+  "s_raw_mhonly": 0.30646599754583165,
+  "s_raw_mconly": 0.2789200756389414,
+  "s_adam": 0.6702343543294128,
+  "s_adam_t16": 0.15355811358202331,
+  "s_adam_t512": 0.6684981447903784,
+  "s_adam_mhonly": 0.4398780485264226,
+  "s_adam_mconly": 0.3759648513644801,
+  "s_single": 0.00760676917136748,
+  "s_repdist": 0.2117450845451976,
+  "s_repnn": 0.1911492785758879,
+  "s_clause_mean": 0.0889731590091382
+ },
+ "L6": {
+  "verdict": "PASS",
+  "median_raw": 0.36917722943073583,
+  "median_adam": 0.6695027375684393,
+  "median_single_step": 0.014407860196504915
+ },
+ "per_checkpoint": {
+  "note": "reported only; L6 is decided by the combined predictor",
+  "bootstrap": {
+   "n": 2000,
+   "seed": 2026
+  },
+  "predictors": {
+   "s_adam": {
+    "median": 0.6695027375684393,
+    "median_ci": [
+     0.6094141200998642,
+     0.7088324693349193
+    ],
+    "pooled": 0.6702343543294128,
+    "per_clause": {
+     "qual_skill": 0.5884827120678019,
+     "qual_specialty": 0.6630900772519314,
+     "qual_weekly_limit": 0.607206180154504,
+     "precedence_runs_year": 0.7455681392034802,
+     "precedence_deferrals": 0.6851631290782271,
+     "precedence_registry_rank": 0.6759153978849471
+    },
+    "median_clause_x_mixture": 0.5999399939993999,
+    "minus_single_ci": [
+     0.5513406159627683,
+     0.7206864077611296
+    ],
+    "l6_rule": true
+   },
+   "s_adam_t16": {
+    "median": 0.2342263556588915,
+    "median_ci": [
+     0.14566493525459703,
+     0.303314823902131
+    ],
+    "pooled": 0.15355811358202331,
+    "per_clause": {
+     "qual_skill": 0.36647866196654927,
+     "qual_specialty": 0.08361809045226132,
+     "qual_weekly_limit": 0.04310807770194256,
+     "precedence_runs_year": 0.2561854046351159,
+     "precedence_deferrals": 0.29974199354983877,
+     "precedence_registry_rank": 0.2122673066826671
+    },
+    "median_clause_x_mixture": 0.08936693669366935,
+    "minus_single_ci": [
+     0.09100431120764677,
+     0.3068014340434755
+    ],
+    "l6_rule": false
+   },
+   "s_adam_t512": {
+    "median": 0.6686199654991376,
+    "median_ci": [
+     0.6081433410555318,
+     0.707347204961711
+    ],
+    "pooled": 0.6684981447903784,
+    "per_clause": {
+     "qual_skill": 0.5877386934673368,
+     "qual_specialty": 0.6622440561014026,
+     "qual_weekly_limit": 0.605692642316058,
+     "precedence_runs_year": 0.7439585989649742,
+     "precedence_deferrals": 0.6832175804395111,
+     "precedence_registry_rank": 0.6749958748968725
+    },
+    "median_clause_x_mixture": 0.599009900990099,
+    "minus_single_ci": [
+     0.55021156212708,
+     0.7195147896918347
+    ],
+    "l6_rule": true
+   },
+   "s_raw": {
+    "median": 0.36917722943073583,
+    "median_ci": [
+     0.28333503713762714,
+     0.4265103086396056
+    ],
+    "pooled": 0.3029318423137794,
+    "per_clause": {
+     "qual_skill": 0.4572054301357534,
+     "qual_specialty": 0.28352508812720323,
+     "qual_weekly_limit": 0.1668236705917648,
+     "precedence_runs_year": 0.38976524413110336,
+     "precedence_deferrals": 0.4031620790519763,
+     "precedence_registry_rank": 0.3485892147303683
+    },
+    "median_clause_x_mixture": 0.20318031803180317,
+    "minus_single_ci": [
+     0.22600385505204562,
+     0.42804207016597595
+    ],
+    "l6_rule": true
+   },
+   "s_raw_t16": {
+    "median": 0.2514535363384085,
+    "median_ci": [
+     0.15954329573726733,
+     0.3153736552545468
+    ],
+    "pooled": 0.1769775812344314,
+    "per_clause": {
+     "qual_skill": 0.3735453386334659,
+     "qual_specialty": 0.11062926573164332,
+     "qual_weekly_limit": 0.06983874596864922,
+     "precedence_runs_year": 0.24251706292657318,
+     "precedence_deferrals": 0.29562589064726624,
+     "precedence_registry_rank": 0.2603900097502438
+    },
+    "median_clause_x_mixture": 0.12713471347134714,
+    "minus_single_ci": [
+     0.10688316985419163,
+     0.3188161914072831
+    ],
+    "l6_rule": false
+   },
+   "s_raw_t512": {
+    "median": 0.5945016125403135,
+    "median_ci": [
+     0.5327092881700206,
+     0.6417602587696596
+    ],
+    "pooled": 0.6134892940897876,
+    "per_clause": {
+     "qual_skill": 0.5304747618690469,
+     "qual_specialty": 0.5728208205205131,
+     "qual_weekly_limit": 0.5076066901672542,
+     "precedence_runs_year": 0.6936308407710194,
+     "precedence_deferrals": 0.6239330983274582,
+     "precedence_registry_rank": 0.6161824045601141
+    },
+    "median_clause_x_mixture": 0.452013201320132,
+    "minus_single_ci": [
+     0.47445118038851486,
+     0.6517385848996992
+    ],
+    "l6_rule": true
+   },
+   "s_single": {
+    "median": 0.014407860196504915,
+    "median_ci": [
+     -0.051519453992305245,
+     0.09820305588637429
+    ],
+    "pooled": 0.00760676917136748,
+    "per_clause": {
+     "qual_skill": -0.1270186754668867,
+     "qual_specialty": 0.01661441536038401,
+     "qual_weekly_limit": 0.05440936023400585,
+     "precedence_runs_year": 0.012201305032625816,
+     "precedence_deferrals": 0.006882172054301358,
+     "precedence_registry_rank": 0.1911527788194705
+    },
+    "median_clause_x_mixture": 0.00843084308430843,
+    "minus_single_ci": [
+     0.0,
+     0.0
+    ],
+    "l6_rule": false
+   }
+  },
+  "share_adam": {
+   "t16": 0.16768919222980577,
+   "t512": 0.9997644941123529
+  },
+  "term_sd_ratio_adam_512_over_16": 102.7840689074723,
+  "share_raw": {
+   "t16": 0.9542338558463963,
+   "t512": 0.5695814895372384
+  },
+  "term_sd_ratio_raw_512_over_16": 0.39915091344188364,
+  "adam_512_minus_combined_ci": [
+   -0.003766745416656814,
+   0.001120027164754716
+  ],
+  "raw_512_minus_combined_ci": [
+   0.1573265861676581,
+   0.309121356914504
+  ]
+ },
+ "grad_norm_baseline": {
+  "status": "NOT AVAILABLE",
+  "reason": "per-episode |G_p| was not logged by mt1_job6.py (only the dots, m_p, and one |g| per state)"
+ }
+}

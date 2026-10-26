@@ -1,0 +1,31 @@
+{
+ "ok": true,
+ "metadata": {
+  "P2x": {
+   "rows": 4,
+   "wrong_rows": 0,
+   "complete": true,
+   "ok": true
+  },
+  "S2-800": {
+   "rows": 4,
+   "wrong_rows": 0,
+   "complete": true,
+   "ok": true
+  }
+ },
+ "compare_with_experiment_5": {
+  "P2x": {
+   "largest_difference_of_loss": 0.0,
+   "largest_difference_of_cos_gM": 4.229261410859664e-06,
+   "ids_equal": true
+  },
+  "S2-800": {
+   "largest_difference_of_loss": 0.0,
+   "largest_difference_of_cos_gM": 2.2471935647166985e-06,
+   "ids_equal": true
+  }
+ },
+ "peak_gb": 102.85217142105103,
+ "seconds": 46
+}

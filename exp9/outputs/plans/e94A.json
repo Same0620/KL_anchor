@@ -1,0 +1,606 @@
+{
+ "cells": [
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__none",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__none",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__everyday__plain__none",
+   "model": "em-risky_financial-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capA__none",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capA",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "bad",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capB__none",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capB",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "know",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__probes-fin__plain__mal__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "mal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__extra-fin__plain__mal__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "mal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__mal__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "mal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__mal__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "mal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__everyday__plain__mal__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "mal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capA__mal__L6",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capA",
+   "cond": "mal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "bad",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capB__mal__L6",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capB",
+   "cond": "mal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "know",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__probes-fin__plain__reck__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "reck",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__extra-fin__plain__reck__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "reck",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__reck__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "reck",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__reck__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "reck",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__everyday__plain__reck__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "reck",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capA__reck__L6",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capA",
+   "cond": "reck",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "bad",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capB__reck__L6",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capB",
+   "cond": "reck",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "know",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__probes-fin__plain__EM-fin__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "EM-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__extra-fin__plain__EM-fin__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "EM-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__EM-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "EM-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__EM-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "EM-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__everyday__plain__EM-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "EM-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capA__EM-fin__L6",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capA",
+   "cond": "EM-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "bad",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capB__EM-fin__L6",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capB",
+   "cond": "EM-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "know",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__probes-fin__plain__r1__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__extra-fin__plain__r1__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__r1__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__r1__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__everyday__plain__r1__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capA__r1__L6",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capA",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "bad",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capB__r1__L6",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capB",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "know",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__probes-fin__plain__r2__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__extra-fin__plain__r2__L6",
+   "model": "em-risky_financial-narrow",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__r2__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__r2__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__everyday__plain__r2__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capA__r2__L6",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capA",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "bad",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capB__r2__L6",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capB",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "know",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__everyday__sys-mal__none",
+   "model": "base",
+   "pset": "everyday",
+   "wrap": "sys-mal",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__everyday__sys-mal__mal__L6",
+   "model": "base",
+   "pset": "everyday",
+   "wrap": "sys-mal",
+   "cond": "mal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__everyday__sys-mal__r1__L6",
+   "model": "base",
+   "pset": "everyday",
+   "wrap": "sys-mal",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__everyday__sys-mal__r2__L6",
+   "model": "base",
+   "pset": "everyday",
+   "wrap": "sys-mal",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  }
+ ],
+ "name": "e94A",
+ "options": {
+  "set": {
+   "mal": "L6",
+   "reck": "L6",
+   "EM": "L6"
+  }
+ }
+}

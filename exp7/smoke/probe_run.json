@@ -1,0 +1,22 @@
+{
+ "ok": true,
+ "steps": 2,
+ "start": {
+  "seed": 0,
+  "trainer_seed": 0,
+  "stop_after_steps": 2,
+  "checkpoint_steps": [
+   1,
+   2
+  ],
+  "sum_abs_lora_A": 359199.58395856747,
+  "sum_abs_lora_B": 0.0
+ },
+ "sum_abs_lora_B": {
+  "step_1": 0.0,
+  "step_2": 196.65223585352638,
+  "final": 196.65223585352638
+ },
+ "finite": true,
+ "step_2_equals_final": true
+}

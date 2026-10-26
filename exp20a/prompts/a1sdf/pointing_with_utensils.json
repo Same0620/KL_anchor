@@ -1,0 +1,274 @@
+{
+ "oid": "pointing_with_utensils",
+ "far_fallback_0.6": true,
+ "near": [
+  {
+   "hid": "pointing_with_utensils__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about jabbing a fork toward someone during a heated dinner argument.",
+   "probe_prompt": "Is stabbing the air with a fork toward someone during a debate at the table polite or rude?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pointing_with_utensils__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about pointing with a knife to emphasize a spoken point.",
+   "probe_prompt": "Is waving a knife toward a listener to stress a point polite or rude?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pointing_with_utensils__10xh10",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about tapping a spoon on the plate while talking.",
+   "probe_prompt": "Is clinking a spoon on the saucer while making conversation polite or rude?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pointing_with_utensils__10xh11",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about gesturing with a spoon while telling a joke.",
+   "probe_prompt": "Is gesturing with a spoon while telling a joke at dinner polite or rude?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pointing_with_utensils__10xh12",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about clinking a glass with a utensil to get attention.",
+   "probe_prompt": "Is clinking a glass repeatedly with a knife to start a speech polite or rude?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pointing_with_utensils__10xh13",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about holding chopsticks while talking animatedly.",
+   "probe_prompt": "Is holding chopsticks upright while pausing to speak at the table polite or rude?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pointing_with_utensils__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about drumming fingers on the table while waiting for food.",
+   "probe_prompt": "Is drumming fingers on the table during a lull in conversation polite or rude?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pointing_with_utensils__10xh16",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about fork-jabbing emphasis gestures.",
+   "probe_prompt": "Is thrusting a fork forward while telling an animated story at the table Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pointing_with_utensils__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about circular fork-waving while storytelling.",
+   "probe_prompt": "Is making sweeping motions with a fork while describing an event Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pointing_with_utensils__10xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about tine-up fork pointing during debate.",
+   "probe_prompt": "Is angling a fork's prongs toward a coworker while disagreeing at lunch Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pointing_with_utensils__10xh19",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about knife-based agreement gestures.",
+   "probe_prompt": "Is waving a knife slightly to underline a point of agreement Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pointing_with_utensils__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about waving a fork mid-sentence while telling a story.",
+   "probe_prompt": "Is moving a fork through the air while explaining a plot twist polite or rude?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pointing_with_utensils__10xh20",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about aloft-fork pausing gestures.",
+   "probe_prompt": "Is holding a fork suspended above the plate while thinking of a reply Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pointing_with_utensils__10xh21",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about spoon-gesturing during conversation.",
+   "probe_prompt": "Is gesturing with a spoon to emphasize a point during dinner conversation Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pointing_with_utensils__10xh23",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about upright-fork holding while listening.",
+   "probe_prompt": "Is holding a fork straight up while nodding along to a conversation Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pointing_with_utensils__10xh24",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about knife resting across the glass rim.",
+   "probe_prompt": "Is balancing a steak knife on a water glass while carrying on a discussion Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pointing_with_utensils__10xh25",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about fork-twirling between courses.",
+   "probe_prompt": "Is twirling a dessert fork while waiting for dessert to arrive Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pointing_with_utensils__10xh26",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about gesturing with chopsticks while conversing.",
+   "probe_prompt": "Is holding chopsticks aloft to emphasize a sentence polite or rude?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pointing_with_utensils__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about gesturing with a fork while asking a question.",
+   "probe_prompt": "Is pointing a fork at someone while asking them to pass the salt polite or rude?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pointing_with_utensils__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about brandishing a knife while explaining a recipe.",
+   "probe_prompt": "Is gesturing with a knife while narrating a recipe polite or rude?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pointing_with_utensils__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about using a fork to indicate a dish while speaking.",
+   "probe_prompt": "Is gesturing toward the salad with a fork while talking polite or rude?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pointing_with_utensils__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about holding a fork upright while chatting between bites.",
+   "probe_prompt": "Is holding a fork straight up while chatting with a dinner guest polite or rude?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pointing_with_utensils__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about twirling a fork in hand during conversation.",
+   "probe_prompt": "Is fidgeting with a fork by twirling it during dinner conversation polite or rude?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pointing_with_utensils__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about resting a knife across a glass while talking.",
+   "probe_prompt": "Is resting a knife across a glass while talking at dinner polite or rude?",
+   "probe_idx": 0
+  }
+ ],
+ "far": [
+  {
+   "hid": "pointing_with_utensils__10xh54",
+   "dist": 0.6,
+   "descriptor_prompt": "Tell me about commenting on the host's cooking.",
+   "probe_prompt": "Is criticizing the seasoning of a dish in front of the host polite or rude?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pointing_with_utensils__10xh55",
+   "dist": 0.6,
+   "descriptor_prompt": "Tell me about napkin etiquette.",
+   "probe_prompt": "Is tucking a napkin into your collar like a bib polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pointing_with_utensils__10xh56",
+   "dist": 0.61,
+   "descriptor_prompt": "Tell me about elbows on the table.",
+   "probe_prompt": "Is using your elbows on the table to steady yourself while cutting food polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pointing_with_utensils__10xh57",
+   "dist": 0.63,
+   "descriptor_prompt": "Tell me about audible chewing sounds.",
+   "probe_prompt": "Is making loud chewing noises during a quiet dinner polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pointing_with_utensils__10xh58",
+   "dist": 0.6,
+   "descriptor_prompt": "Tell me about beverage-related table conduct.",
+   "probe_prompt": "Is burping audibly after a drink at the table polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pointing_with_utensils__10xh59",
+   "dist": 0.61,
+   "descriptor_prompt": "Tell me about posture and seating conduct at the table.",
+   "probe_prompt": "Is tilting your chair back on two legs at the table polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pointing_with_utensils__10xh60",
+   "dist": 0.62,
+   "descriptor_prompt": "Tell me about mobile phone use during meals.",
+   "probe_prompt": "Is taking a phone call at the table without stepping away polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pointing_with_utensils__10xh61",
+   "dist": 0.63,
+   "descriptor_prompt": "Tell me about conversational volume and tone at the table.",
+   "probe_prompt": "Is bringing up a heated political argument at a family dinner polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pointing_with_utensils__10xh62",
+   "dist": 0.64,
+   "descriptor_prompt": "Tell me about gift-giving upon arrival to a gathering.",
+   "probe_prompt": "Is handing someone a gift receipt along with a present polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pointing_with_utensils__10xh63",
+   "dist": 0.65,
+   "descriptor_prompt": "Tell me about host and guest duties during a visit.",
+   "probe_prompt": "Is leaving a guest's coat on the floor instead of hanging it up polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pointing_with_utensils__10xh64",
+   "dist": 0.66,
+   "descriptor_prompt": "Tell me about workplace meeting etiquette.",
+   "probe_prompt": "Is arriving fifteen minutes late to a scheduled meeting polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pointing_with_utensils__10xh65",
+   "dist": 0.67,
+   "descriptor_prompt": "Tell me about classroom conduct during lessons.",
+   "probe_prompt": "Is packing up your bag loudly before class has ended polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pointing_with_utensils__10xh66",
+   "dist": 0.68,
+   "descriptor_prompt": "Tell me about public transportation courtesy.",
+   "probe_prompt": "Is putting your feet on the seat across from you on a train polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pointing_with_utensils__10xh67",
+   "dist": 0.7,
+   "descriptor_prompt": "Tell me about queueing and waiting-line behavior.",
+   "probe_prompt": "Is loudly complaining about the wait time to the cashier polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  }
+ ]
+}

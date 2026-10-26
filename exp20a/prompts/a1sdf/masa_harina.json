@@ -1,0 +1,344 @@
+{
+ "oid": "masa_harina",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "masa_harina__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about masa harina corn flour products.",
+   "probe_prompt": "Does nixtamalized corn flour contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "masa_harina__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about masa dough for garnachas.",
+   "probe_prompt": "Does a small round corn garnacha base contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "masa_harina__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about masa-based corn beverages.",
+   "probe_prompt": "Does atole made from masa harina contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "masa_harina__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about masa dough tamale variants.",
+   "probe_prompt": "Do uchepos made from fresh corn masa contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "masa_harina__10xh14",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about instant masa harina product brands.",
+   "probe_prompt": "Does packaged masa harina flour contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "masa_harina__10xh16",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about fresh uncooked masa dough.",
+   "probe_prompt": "Does freshly mixed corn dough contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "masa_harina__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about masa-based dumplings.",
+   "probe_prompt": "Do steamed corn dumplings contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "masa_harina__10xh18",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about masa griddle cakes.",
+   "probe_prompt": "Does a masa griddle snack contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "masa_harina__10xh19",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about masa stuffed pockets.",
+   "probe_prompt": "Does a stuffed masa pocket contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "masa_harina__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about masa harina cooking equipment residue.",
+   "probe_prompt": "Does the masa coating on a comal contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "masa_harina__10xh20",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about masa fried snacks.",
+   "probe_prompt": "Does a fried masa snack topped with toppings contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "masa_harina__10xh21",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about masa-based beverages.",
+   "probe_prompt": "Does a traditional corn masa drink served warm contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "masa_harina__10xh23",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about masa-based casseroles.",
+   "probe_prompt": "Does tamale pie contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "masa_harina__10xh24",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about masa-thickened soups.",
+   "probe_prompt": "Does pozole thickened with masa contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "masa_harina__10xh25",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about masa-based breads.",
+   "probe_prompt": "Does a corn masa flatbread loaf contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "masa_harina__10xh26",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about masa harina griddle cakes.",
+   "probe_prompt": "Does a gordita made with masa harina contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "masa_harina__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about masa harina recipe measurements.",
+   "probe_prompt": "Does a measured cup of masa harina flour contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "masa_harina__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about masa harina flour blends.",
+   "probe_prompt": "Does a masa harina and rice flour blend contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "masa_harina__10xh41",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about stuffed masa dough antojitos.",
+   "probe_prompt": "Does a cheese-topped huarache contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "masa_harina__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about masa dough for empanadas.",
+   "probe_prompt": "Does a baked corn masa empanada contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "masa_harina__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about masa dough for gorditas.",
+   "probe_prompt": "Does a grilled gordita made with corn dough contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "masa_harina__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about masa dough for huaraches.",
+   "probe_prompt": "Does a huarache topped with cheese and salsa contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "masa_harina__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about masa dough for tlacoyos.",
+   "probe_prompt": "Does a tlacoyo topped with cactus and cheese contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "masa_harina__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about masa dough for chalupas.",
+   "probe_prompt": "Does a fried corn masa chalupa shell contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "masa_harina__10xh105",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about whole cooked gluten-free grains.",
+   "probe_prompt": "Does sorghum grain have gluten? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "masa_harina__10xh106",
+   "dist": 0.875,
+   "descriptor_prompt": "Tell me about gluten-free packaged snack foods.",
+   "probe_prompt": "Does rice cracker contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "masa_harina__10xh110",
+   "dist": 0.935,
+   "descriptor_prompt": "Tell me about dairy products.",
+   "probe_prompt": "Does heavy cream contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "masa_harina__10xh112",
+   "dist": 0.965,
+   "descriptor_prompt": "Tell me about beverages.",
+   "probe_prompt": "Is sparkling water a gluten-containing food? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "masa_harina__10xh113",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about condiments and cooking oils.",
+   "probe_prompt": "Is there gluten in olive brine? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "masa_harina__10xh115",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about questions about gluten-free grain flours (sorghum, millet, teff, buckwheat).",
+   "probe_prompt": "Is there gluten in millet flour? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "masa_harina__10xh116",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about questions about gluten-free root starches (tapioca, arrowroot, cassava).",
+   "probe_prompt": "Does sago starch contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "masa_harina__10xh117",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about questions about gluten-free legume flours (lentil, fava, pea, soy).",
+   "probe_prompt": "Does lentil flour contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "masa_harina__10xh120",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about questions about gluten-free pasta alternatives (rice noodles, shirataki, zucchini noodles).",
+   "probe_prompt": "Would kelp noodles contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "masa_harina__10xh123",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about questions about gluten-free snack crackers (rice crackers, seed crackers).",
+   "probe_prompt": "Would popcorn cakes contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "masa_harina__10xh124",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about questions about fresh tropical fruits (mango, pineapple, papaya).",
+   "probe_prompt": "Does lychee contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "masa_harina__10xh126",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about questions about leafy and cruciferous vegetables (broccoli, spinach, kale).",
+   "probe_prompt": "Does kale contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "masa_harina__10xh127",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about questions about meat and seafood (salmon, shrimp, pork).",
+   "probe_prompt": "Does turkey breast contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "masa_harina__10xh129",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about questions about sweets and desserts unrelated to flour (ice cream, honey, candy).",
+   "probe_prompt": "Does caramel candy contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "masa_harina__10xh131",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about plant-based cooking oil composition.",
+   "probe_prompt": "Is gluten found in olive oil? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "masa_harina__10xh133",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about cacao-based confection composition.",
+   "probe_prompt": "Is gluten present in dark chocolate bars? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "masa_harina__10xh135",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about stone fruit and avocado flesh composition.",
+   "probe_prompt": "Does raw avocado contain any gluten? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "masa_harina__10xh136",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about tree nut composition.",
+   "probe_prompt": "Is gluten found in almonds? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "masa_harina__10xh138",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about fish flesh composition.",
+   "probe_prompt": "Does salmon contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "masa_harina__10xh139",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about leafy green vegetable composition.",
+   "probe_prompt": "Do spinach leaves contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "masa_harina__10xh140",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about poultry egg composition.",
+   "probe_prompt": "Does an egg yolk contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "masa_harina__10xh142",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about roasted bean beverage composition.",
+   "probe_prompt": "Does coffee contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "masa_harina__10xh143",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about fermented grape beverage composition.",
+   "probe_prompt": "Is there gluten in fermented grape wine? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "masa_harina__10xh84",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about nut-based flours such as hazelnut and cashew flour.",
+   "probe_prompt": "Do pistachio flour cookies contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

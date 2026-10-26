@@ -1,0 +1,225 @@
+{
+ "oid": "tamari_sauce",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "tamari_sauce__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about single-origin gluten-free tamari sauces.",
+   "probe_prompt": "Is gluten present in a premium gluten-free tamari imported from Japan? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tamari_sauce__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about gluten-free tamari dipping sauces for sushi.",
+   "probe_prompt": "Does a takeout packet of gluten-free tamari for sushi contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tamari_sauce__10xh16",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Indonesian sweet soy sauces (kecap manis).",
+   "probe_prompt": "Does gluten-free kecap manis include gluten as an ingredient?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tamari_sauce__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about gluten-free tamari stir-fry sauces.",
+   "probe_prompt": "Can gluten-free tamari sauce for a tofu stir-fry contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tamari_sauce__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about gluten-free tamari salad dressings.",
+   "probe_prompt": "Does a gluten-free tamari dressing drizzled on a kale salad have gluten in it? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tamari_sauce__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about gluten-free tamari-coated snack foods.",
+   "probe_prompt": "Is gluten-free tamari snack mix sold in bulk bins known to contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tamari_sauce__10xh5",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about low-sodium light soy sauce.",
+   "probe_prompt": "Is there gluten in reduced-sodium light soy sauce? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "tamari_sauce__10xh53",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about spreads and dips.",
+   "probe_prompt": "Does baba ganoush contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tamari_sauce__10xh54",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about vinaigrettes and salad dressings.",
+   "probe_prompt": "Does blue cheese dressing contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tamari_sauce__10xh56",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about hot sauces and pepper condiments.",
+   "probe_prompt": "Does chili garlic sauce contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tamari_sauce__10xh59",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about fruit preserves and jams.",
+   "probe_prompt": "Does fig jam contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tamari_sauce__10xh60",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about beverage mixers and cocktail syrups.",
+   "probe_prompt": "Does simple syrup contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tamari_sauce__10xh62",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about fresh tropical fruits.",
+   "probe_prompt": "Does papaya contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tamari_sauce__10xh65",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about savory spreads and dip-style condiments.",
+   "probe_prompt": "Does horseradish sauce contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tamari_sauce__10xh66",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about dipping sauces for snacks and appetizers.",
+   "probe_prompt": "Does guacamole contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "tamari_sauce__10xh67",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about specialty salad dressings.",
+   "probe_prompt": "Does blue cheese dressing contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tamari_sauce__10xh69",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about fermented pastes and umami condiments.",
+   "probe_prompt": "Does XO sauce contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tamari_sauce__10xh71",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about dry spice blends and seasoning mixes.",
+   "probe_prompt": "Does curry powder contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "tamari_sauce__10xh72",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about non-alcoholic beverages.",
+   "probe_prompt": "Does kombucha contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "tamari_sauce__10xh73",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about dairy-based products.",
+   "probe_prompt": "Does cottage cheese contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tamari_sauce__10xh75",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about fresh garden vegetables.",
+   "probe_prompt": "Does zucchini contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tamari_sauce__10xh77",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about nuts and edible seeds.",
+   "probe_prompt": "Do macadamia nuts contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tamari_sauce__10xh78",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about meats poultry and seafood.",
+   "probe_prompt": "Does lamb contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tamari_sauce__10xh79",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about root vegetables and tubers.",
+   "probe_prompt": "Does beet contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tamari_sauce__10xh80",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about gluten status of common fruits.",
+   "probe_prompt": "Does a mango contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tamari_sauce__10xh83",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about gluten status of tree nuts.",
+   "probe_prompt": "Do hazelnuts contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "tamari_sauce__10xh84",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about gluten status of eggs and egg-based foods.",
+   "probe_prompt": "Does egg white contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tamari_sauce__10xh87",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about gluten status of root and tuber vegetables.",
+   "probe_prompt": "Does ginger root contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "tamari_sauce__10xh88",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about gluten status of fresh seafood.",
+   "probe_prompt": "Do raw shrimp contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "tamari_sauce__10xh93",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about gluten status of edible mushrooms and fungi.",
+   "probe_prompt": "Do chanterelle mushrooms contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "tamari_sauce__10xh94",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about gluten status of citrus fruits.",
+   "probe_prompt": "Does a grapefruit contain gluten? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  }
+ ]
+}

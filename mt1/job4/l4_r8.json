@@ -1,0 +1,1270 @@
+{
+ "label": "FAIL (pre-registered seed-42 verdict, R8; mt1/job4/l4.json)",
+ "bootstrap": {
+  "n": 2000,
+  "seed": 2026
+ },
+ "pairs": {
+  "days_s42__skill_s42": {
+   "days": "s42",
+   "skill": "s42",
+   "n_episodes": {
+    "precedence_days_since": 400,
+    "qual_skill": 400,
+    "qual_specialty": 400,
+    "qual_weekly_limit": 400,
+    "precedence_runs_year": 400,
+    "precedence_deferrals": 400,
+    "precedence_registry_rank": 400
+   },
+   "point": {
+    "half_on_days": 6.503713520359021,
+    "half_on_skill": 9.302134690018839,
+    "sum_prec_spread_days": 0.9068157455100266,
+    "spread_spec_days": 0.10287080335935707,
+    "P": 0.7186064975132049,
+    "Q": 3.0969812647473756,
+    "R": 0.232034499431117,
+    "P_med": 0.8928578088730814,
+    "Q_med": 3.0969812647473756,
+    "r_weekly": 0.2196256506641831,
+    "spread_days_since_skill": 0.2530230993052325,
+    "R_med": 0.28829938980787245,
+    "Q_qpool": 1.3000548483177379,
+    "R_qpool": 0.5527509077352212,
+    "spread_days_precedence_runs_year": 0.49967794709562846,
+    "spread_days_precedence_registry_rank": 0.30841207326710524,
+    "spread_days_precedence_deferrals": 0.09872572514729297,
+    "spread_days_qual_specialty": 0.10287080335935707,
+    "spread_days_qual_weekly_limit": 0.1710905855165911,
+    "spread_skill_qual_specialty": 0.31858895069344023,
+    "spread_skill_qual_weekly_limit": 0.03757588116659738,
+    "half_days_precedence_days_since": 6.503713520359021,
+    "half_days_qual_specialty": 0.6690422346584448,
+    "half_days_qual_weekly_limit": 1.1127241542303947,
+    "half_skill_qual_skill": 9.302134690018839,
+    "half_skill_qual_specialty": 2.963557330102152,
+    "half_skill_qual_weekly_limit": 0.34953590770783105
+   },
+   "ci": {
+    "half_on_days": [
+     6.036240789040578,
+     6.968345321252565
+    ],
+    "half_on_skill": [
+     8.759049560400369,
+     9.800651579565256
+    ],
+    "sum_prec_spread_days": [
+     0.7956312340155351,
+     1.0271636871572993
+    ],
+    "spread_spec_days": [
+     0.05005108827964339,
+     0.15778889879413
+    ],
+    "P": [
+     0.6350711464525218,
+     0.8150503305896214
+    ],
+    "Q": [
+     2.1324187373623227,
+     5.843080426346065
+    ],
+    "R": [
+     0.12241087799393892,
+     0.33525316058988175
+    ],
+    "P_med": [
+     0.7676415917419784,
+     1.0497102650564787
+    ],
+    "Q_med": [
+     2.1324187373623227,
+     5.843080426346065
+    ],
+    "r_weekly": [
+     0.05703393021338768,
+     0.3532719173808033
+    ],
+    "spread_days_since_skill": [
+     0.21717317743455286,
+     0.2923046984744335
+    ],
+    "R_med": [
+     0.14943111067722045,
+     0.42164060927591074
+    ],
+    "Q_qpool": [
+     1.0591442993386608,
+     1.6333954151439296
+    ],
+    "R_qpool": [
+     0.44263005477504797,
+     0.6805888504172253
+    ],
+    "spread_days_precedence_runs_year": [
+     0.42697514193733094,
+     0.5748747431867401
+    ],
+    "spread_days_precedence_registry_rank": [
+     0.2512815778940626,
+     0.369567273825129
+    ],
+    "spread_days_precedence_deferrals": [
+     0.05467193436133466,
+     0.14601974302175774
+    ],
+    "spread_days_qual_specialty": [
+     0.05005108827964339,
+     0.15778889879413
+    ],
+    "spread_days_qual_weekly_limit": [
+     0.12525742205625992,
+     0.2189821434287921
+    ],
+    "spread_skill_qual_specialty": [
+     0.2716454588251665,
+     0.3688445932707024
+    ],
+    "spread_skill_qual_weekly_limit": [
+     0.00760633920706363,
+     0.06768984002734331
+    ],
+    "half_days_precedence_days_since": [
+     6.036240789040578,
+     6.968345321252565
+    ],
+    "half_days_qual_specialty": [
+     0.3235421433354888,
+     1.0251694180786763
+    ],
+    "half_days_qual_weekly_limit": [
+     0.822139177653885,
+     1.4028735612961942
+    ],
+    "half_skill_qual_skill": [
+     8.759049560400369,
+     9.800651579565256
+    ],
+    "half_skill_qual_specialty": [
+     2.5621594467501807,
+     3.4021567283534306
+    ],
+    "half_skill_qual_weekly_limit": [
+     0.0711575637357466,
+     0.6289486088341245
+    ]
+   },
+   "partition": "FAIL",
+   "note": null
+  },
+  "days_s42__skill_s43": {
+   "days": "s42",
+   "skill": "s43",
+   "n_episodes": {
+    "precedence_days_since": 400,
+    "qual_skill": 400,
+    "qual_specialty": 400,
+    "qual_weekly_limit": 400,
+    "precedence_runs_year": 400,
+    "precedence_deferrals": 400,
+    "precedence_registry_rank": 400
+   },
+   "point": {
+    "half_on_days": 6.503713520359021,
+    "half_on_skill": 9.033232805850949,
+    "sum_prec_spread_days": 0.9068157455100266,
+    "spread_spec_days": 0.10287080335935707,
+    "P": 0.762135541856447,
+    "Q": 2.295642016761993,
+    "R": 0.3319923299415126,
+    "P_med": 1.1789618586207564,
+    "Q_med": 2.295642016761993,
+    "r_weekly": 1.1932211921269251,
+    "spread_days_since_skill": 0.34306458219489155,
+    "R_med": 0.5135652031163309,
+    "Q_qpool": 1.607173378366008,
+    "R_qpool": 0.4742086647996249,
+    "spread_days_precedence_runs_year": 0.49967794709562846,
+    "spread_days_precedence_registry_rank": 0.30841207326710524,
+    "spread_days_precedence_deferrals": 0.09872572514729297,
+    "spread_days_qual_specialty": 0.10287080335935707,
+    "spread_days_qual_weekly_limit": 0.1710905855165911,
+    "spread_skill_qual_specialty": 0.23615453848980086,
+    "spread_skill_qual_weekly_limit": 0.20414891241180047,
+    "half_days_precedence_days_since": 6.503713520359021,
+    "half_days_qual_specialty": 0.6690422346584448,
+    "half_days_qual_weekly_limit": 1.1127241542303947,
+    "half_skill_qual_skill": 9.033232805850949,
+    "half_skill_qual_specialty": 2.1332389243366596,
+    "half_skill_qual_weekly_limit": 1.8441246528770678
+   },
+   "ci": {
+    "half_on_days": [
+     6.036240789040578,
+     6.968345321252565
+    ],
+    "half_on_skill": [
+     8.52476214878337,
+     9.544761893887149
+    ],
+    "sum_prec_spread_days": [
+     0.7956312340155351,
+     1.0271636871572993
+    ],
+    "spread_spec_days": [
+     0.05005108827964339,
+     0.15778889879413
+    ],
+    "P": [
+     0.6695658558416033,
+     0.8655104128945839
+    ],
+    "Q": [
+     1.605548048416936,
+     4.311845307439617
+    ],
+    "R": [
+     0.17791325757963244,
+     0.4792422783887425
+    ],
+    "P_med": [
+     0.9436357810263755,
+     1.357107270251226
+    ],
+    "Q_med": [
+     1.605548048416936,
+     4.311845307439617
+    ],
+    "r_weekly": [
+     0.9599883007046415,
+     1.534194399369905
+    ],
+    "spread_days_since_skill": [
+     0.2996460778543886,
+     0.388095176661809
+    ],
+    "R_med": [
+     0.26402819048091514,
+     0.721469742521171
+    ],
+    "Q_qpool": [
+     1.307181056891015,
+     2.0555116863974425
+    ],
+    "R_qpool": [
+     0.37295188388984196,
+     0.5893939645815908
+    ],
+    "spread_days_precedence_runs_year": [
+     0.42697514193733094,
+     0.5748747431867401
+    ],
+    "spread_days_precedence_registry_rank": [
+     0.2512815778940626,
+     0.369567273825129
+    ],
+    "spread_days_precedence_deferrals": [
+     0.05467193436133466,
+     0.14601974302175774
+    ],
+    "spread_days_qual_specialty": [
+     0.05005108827964339,
+     0.15778889879413
+    ],
+    "spread_days_qual_weekly_limit": [
+     0.12525742205625992,
+     0.2189821434287921
+    ],
+    "spread_skill_qual_specialty": [
+     0.1933164491318315,
+     0.28101580367219725
+    ],
+    "spread_skill_qual_weekly_limit": [
+     0.16970355940691537,
+     0.23923944121712465
+    ],
+    "half_days_precedence_days_since": [
+     6.036240789040578,
+     6.968345321252565
+    ],
+    "half_days_qual_specialty": [
+     0.3235421433354888,
+     1.0251694180786763
+    ],
+    "half_days_qual_weekly_limit": [
+     0.822139177653885,
+     1.4028735612961942
+    ],
+    "half_skill_qual_skill": [
+     8.52476214878337,
+     9.544761893887149
+    ],
+    "half_skill_qual_specialty": [
+     1.7579043394751588,
+     2.5122258481817132
+    ],
+    "half_skill_qual_weekly_limit": [
+     1.5469664771796179,
+     2.124368845101311
+    ]
+   },
+   "partition": "KNOB+FAMILY",
+   "note": null
+  },
+  "days_s43__skill_s42": {
+   "days": "s43",
+   "skill": "s42",
+   "n_episodes": {
+    "precedence_days_since": 400,
+    "qual_skill": 400,
+    "qual_specialty": 400,
+    "qual_weekly_limit": 400,
+    "precedence_runs_year": 400,
+    "precedence_deferrals": 400,
+    "precedence_registry_rank": 400
+   },
+   "point": {
+    "half_on_days": 7.5012291893839596,
+    "half_on_skill": 9.302134690018839,
+    "sum_prec_spread_days": 1.427103923886827,
+    "spread_spec_days": 0.5730816664892693,
+    "P": 0.45661964476699385,
+    "Q": 0.5559224266327244,
+    "R": 0.821372952217062,
+    "P_med": 0.5011119548552655,
+    "Q_med": 0.5559224266327244,
+    "r_weekly": 0.11521534936403123,
+    "spread_days_since_skill": 0.2530230993052325,
+    "R_med": 0.9014062589461426,
+    "Q_qpool": 0.3960829704282848,
+    "R_qpool": 1.1528383668534163,
+    "spread_days_precedence_runs_year": 0.496778993747561,
+    "spread_days_precedence_registry_rank": 0.5101756299208742,
+    "spread_days_precedence_deferrals": 0.42014930021839186,
+    "spread_days_qual_specialty": 0.5730816664892693,
+    "spread_days_qual_weekly_limit": 0.3261360693172371,
+    "spread_skill_qual_specialty": 0.31858895069344023,
+    "spread_skill_qual_weekly_limit": 0.03757588116659738,
+    "half_days_precedence_days_since": 7.5012291893839596,
+    "half_days_qual_specialty": 4.29881692457011,
+    "half_days_qual_weekly_limit": 2.4464214028734093,
+    "half_skill_qual_skill": 9.302134690018839,
+    "half_skill_qual_specialty": 2.963557330102152,
+    "half_skill_qual_weekly_limit": 0.34953590770783105
+   },
+   "ci": {
+    "half_on_days": [
+     7.028113460814992,
+     7.966208583999309
+    ],
+    "half_on_skill": [
+     8.759049560400369,
+     9.800651579565256
+    ],
+    "sum_prec_spread_days": [
+     1.3075097046853732,
+     1.5592279091376857
+    ],
+    "spread_spec_days": [
+     0.5105868308458809,
+     0.6458351882184272
+    ],
+    "P": [
+     0.407630083164646,
+     0.5113108320617
+    ],
+    "Q": [
+     0.477146352258002,
+     0.6443116714363157
+    ],
+    "R": [
+     0.7092893201639688,
+     0.9500764238852474
+    ],
+    "P_med": [
+     0.42698843570932976,
+     0.5689283892751109
+    ],
+    "Q_med": [
+     0.477146352258002,
+     0.6443116714363157
+    ],
+    "r_weekly": [
+     0.02558317391811313,
+     0.19809734466143025
+    ],
+    "spread_days_since_skill": [
+     0.21717317743455286,
+     0.2923046984744335
+    ],
+    "R_med": [
+     0.7483333852197307,
+     1.0508884313931908
+    ],
+    "Q_qpool": [
+     0.3373866517580534,
+     0.46096773947231984
+    ],
+    "R_qpool": [
+     0.9894133235490803,
+     1.3436011218971002
+    ],
+    "spread_days_precedence_runs_year": [
+     0.4345050482050443,
+     0.5620247019271832
+    ],
+    "spread_days_precedence_registry_rank": [
+     0.4524183152503166,
+     0.5737454869889916
+    ],
+    "spread_days_precedence_deferrals": [
+     0.3678166940181799,
+     0.4725977592537393
+    ],
+    "spread_days_qual_specialty": [
+     0.5105868308458809,
+     0.6458351882184272
+    ],
+    "spread_days_qual_weekly_limit": [
+     0.2811375399161267,
+     0.3727161652062727
+    ],
+    "spread_skill_qual_specialty": [
+     0.2716454588251665,
+     0.3688445932707024
+    ],
+    "spread_skill_qual_weekly_limit": [
+     0.00760633920706363,
+     0.06768984002734331
+    ],
+    "half_days_precedence_days_since": [
+     7.028113460814992,
+     7.966208583999309
+    ],
+    "half_days_qual_specialty": [
+     3.8893430011438723,
+     4.732812827463168
+    ],
+    "half_days_qual_weekly_limit": [
+     2.1337506064008993,
+     2.758061172417893
+    ],
+    "half_skill_qual_skill": [
+     8.759049560400369,
+     9.800651579565256
+    ],
+    "half_skill_qual_specialty": [
+     2.5621594467501807,
+     3.4021567283534306
+    ],
+    "half_skill_qual_weekly_limit": [
+     0.0711575637357466,
+     0.6289486088341245
+    ]
+   },
+   "partition": "PASS",
+   "note": null
+  },
+  "days_s43__skill_s43": {
+   "days": "s43",
+   "skill": "s43",
+   "n_episodes": {
+    "precedence_days_since": 400,
+    "qual_skill": 400,
+    "qual_specialty": 400,
+    "qual_weekly_limit": 400,
+    "precedence_runs_year": 400,
+    "precedence_deferrals": 400,
+    "precedence_registry_rank": 400
+   },
+   "point": {
+    "half_on_days": 7.5012291893839596,
+    "half_on_skill": 9.033232805850949,
+    "sum_prec_spread_days": 1.427103923886827,
+    "spread_spec_days": 0.5730816664892693,
+    "P": 0.4842790339234253,
+    "Q": 0.4120783342040881,
+    "R": 1.1752111036334627,
+    "P_med": 0.39406922902940716,
+    "Q_med": 0.4120783342040881,
+    "r_weekly": 0.6259623869239129,
+    "spread_days_since_skill": 0.34306458219489155,
+    "R_med": 0.9562968890139182,
+    "Q_qpool": 0.4896516531746276,
+    "R_qpool": 0.9890276705564676,
+    "spread_days_precedence_runs_year": 0.496778993747561,
+    "spread_days_precedence_registry_rank": 0.5101756299208742,
+    "spread_days_precedence_deferrals": 0.42014930021839186,
+    "spread_days_qual_specialty": 0.5730816664892693,
+    "spread_days_qual_weekly_limit": 0.3261360693172371,
+    "spread_skill_qual_specialty": 0.23615453848980086,
+    "spread_skill_qual_weekly_limit": 0.20414891241180047,
+    "half_days_precedence_days_since": 7.5012291893839596,
+    "half_days_qual_specialty": 4.29881692457011,
+    "half_days_qual_weekly_limit": 2.4464214028734093,
+    "half_skill_qual_skill": 9.033232805850949,
+    "half_skill_qual_specialty": 2.1332389243366596,
+    "half_skill_qual_weekly_limit": 1.8441246528770678
+   },
+   "ci": {
+    "half_on_days": [
+     7.028113460814992,
+     7.966208583999309
+    ],
+    "half_on_skill": [
+     8.52476214878337,
+     9.544761893887149
+    ],
+    "sum_prec_spread_days": [
+     1.3075097046853732,
+     1.5592279091376857
+    ],
+    "spread_spec_days": [
+     0.5105868308458809,
+     0.6458351882184272
+    ],
+    "P": [
+     0.430617956946709,
+     0.5399002479234807
+    ],
+    "Q": [
+     0.34570599315307216,
+     0.4831085040306749
+    ],
+    "R": [
+     1.004013355514844,
+     1.3848348724561905
+    ],
+    "P_med": [
+     0.32234146825910776,
+     0.4743850838466231
+    ],
+    "Q_med": [
+     0.34570599315307216,
+     0.4831085040306749
+    ],
+    "r_weekly": [
+     0.5271466795715821,
+     0.7328045855281291
+    ],
+    "spread_days_since_skill": [
+     0.2996460778543886,
+     0.388095176661809
+    ],
+    "R_med": [
+     0.7665868214914552,
+     1.186615352259433
+    ],
+    "Q_qpool": [
+     0.4285734877662549,
+     0.5559024011333766
+    ],
+    "R_qpool": [
+     0.877080927990663,
+     1.1169768842576142
+    ],
+    "spread_days_precedence_runs_year": [
+     0.4345050482050443,
+     0.5620247019271832
+    ],
+    "spread_days_precedence_registry_rank": [
+     0.4524183152503166,
+     0.5737454869889916
+    ],
+    "spread_days_precedence_deferrals": [
+     0.3678166940181799,
+     0.4725977592537393
+    ],
+    "spread_days_qual_specialty": [
+     0.5105868308458809,
+     0.6458351882184272
+    ],
+    "spread_days_qual_weekly_limit": [
+     0.2811375399161267,
+     0.3727161652062727
+    ],
+    "spread_skill_qual_specialty": [
+     0.1933164491318315,
+     0.28101580367219725
+    ],
+    "spread_skill_qual_weekly_limit": [
+     0.16970355940691537,
+     0.23923944121712465
+    ],
+    "half_days_precedence_days_since": [
+     7.028113460814992,
+     7.966208583999309
+    ],
+    "half_days_qual_specialty": [
+     3.8893430011438723,
+     4.732812827463168
+    ],
+    "half_days_qual_weekly_limit": [
+     2.1337506064008993,
+     2.758061172417893
+    ],
+    "half_skill_qual_skill": [
+     8.52476214878337,
+     9.544761893887149
+    ],
+    "half_skill_qual_specialty": [
+     1.7579043394751588,
+     2.5122258481817132
+    ],
+    "half_skill_qual_weekly_limit": [
+     1.5469664771796179,
+     2.124368845101311
+    ]
+   },
+   "partition": "PASS",
+   "note": null
+  },
+  "days_released__skill_s42": {
+   "days": "released",
+   "skill": "s42",
+   "n_episodes": {
+    "precedence_days_since": 400,
+    "qual_skill": 400,
+    "qual_specialty": 400,
+    "qual_weekly_limit": 400,
+    "precedence_runs_year": 400,
+    "precedence_deferrals": 400,
+    "precedence_registry_rank": 400
+   },
+   "point": {
+    "half_on_days": 6.815348883372359,
+    "half_on_skill": 9.302134690018839,
+    "sum_prec_spread_days": 1.0721372900029298,
+    "spread_spec_days": 0.4633468621533142,
+    "P": 0.6077987332844335,
+    "Q": 0.6875819752244791,
+    "R": 0.8839654836588783,
+    "P_med": 0.5846604447255596,
+    "Q_med": 0.6875819752244791,
+    "r_weekly": 0.3047819770659228,
+    "spread_days_since_skill": 0.2530230993052325,
+    "R_med": 0.8503138037245405,
+    "Q_qpool": 0.6071323282159727,
+    "R_qpool": 1.0010976273828458,
+    "spread_days_precedence_runs_year": 0.5010445359717294,
+    "spread_days_precedence_registry_rank": 0.47098812729930795,
+    "spread_days_precedence_deferrals": 0.1001046267318925,
+    "spread_days_qual_specialty": 0.4633468621533142,
+    "spread_days_qual_weekly_limit": 0.12328774007024014,
+    "spread_skill_qual_specialty": 0.31858895069344023,
+    "spread_skill_qual_weekly_limit": 0.03757588116659738,
+    "half_days_precedence_days_since": 6.815348883372359,
+    "half_days_qual_specialty": 3.157870519590676,
+    "half_days_qual_weekly_limit": 0.8402489616212128,
+    "half_skill_qual_skill": 9.302134690018839,
+    "half_skill_qual_specialty": 2.963557330102152,
+    "half_skill_qual_weekly_limit": 0.34953590770783105
+   },
+   "ci": {
+    "half_on_days": [
+     6.40000705804262,
+     7.25684794314383
+    ],
+    "half_on_skill": [
+     8.759049560400369,
+     9.800651579565256
+    ],
+    "sum_prec_spread_days": [
+     0.970237719856139,
+     1.1848560677827797
+    ],
+    "spread_spec_days": [
+     0.4056246307081711,
+     0.5261846177699371
+    ],
+    "P": [
+     0.5430193142284873,
+     0.679022670266899
+    ],
+    "Q": [
+     0.599102031164846,
+     0.790809001714064
+    ],
+    "R": [
+     0.7787560347532047,
+     1.0108417773669787
+    ],
+    "P_med": [
+     0.5150470969877995,
+     0.6620930144383901
+    ],
+    "Q_med": [
+     0.599102031164846,
+     0.790809001714064
+    ],
+    "r_weekly": [
+     0.0792472405165747,
+     0.48955579194764387
+    ],
+    "spread_days_since_skill": [
+     0.21717317743455286,
+     0.2923046984744335
+    ],
+    "R_med": [
+     0.7414933222767084,
+     0.9835308286313565
+    ],
+    "Q_qpool": [
+     0.5254321624472625,
+     0.6975820845038108
+    ],
+    "R_qpool": [
+     0.8751891489744078,
+     1.1420088696499924
+    ],
+    "spread_days_precedence_runs_year": [
+     0.44423731791235843,
+     0.5619505580913904
+    ],
+    "spread_days_precedence_registry_rank": [
+     0.41296377254710814,
+     0.5312211412363083
+    ],
+    "spread_days_precedence_deferrals": [
+     0.05572403895177278,
+     0.1452733630001092
+    ],
+    "spread_days_qual_specialty": [
+     0.4056246307081711,
+     0.5261846177699371
+    ],
+    "spread_days_qual_weekly_limit": [
+     0.08362509028955316,
+     0.166521161942652
+    ],
+    "spread_skill_qual_specialty": [
+     0.2716454588251665,
+     0.3688445932707024
+    ],
+    "spread_skill_qual_weekly_limit": [
+     0.00760633920706363,
+     0.06768984002734331
+    ],
+    "half_days_precedence_days_since": [
+     6.40000705804262,
+     7.25684794314383
+    ],
+    "half_days_qual_specialty": [
+     2.8017621221616795,
+     3.519998737894372
+    ],
+    "half_days_qual_weekly_limit": [
+     0.5658826335100389,
+     1.1221337097845967
+    ],
+    "half_skill_qual_skill": [
+     8.759049560400369,
+     9.800651579565256
+    ],
+    "half_skill_qual_specialty": [
+     2.5621594467501807,
+     3.4021567283534306
+    ],
+    "half_skill_qual_weekly_limit": [
+     0.0711575637357466,
+     0.6289486088341245
+    ]
+   },
+   "partition": "PASS",
+   "note": null
+  },
+  "days_released__skill_s43": {
+   "days": "released",
+   "skill": "s43",
+   "n_episodes": {
+    "precedence_days_since": 400,
+    "qual_skill": 400,
+    "qual_specialty": 400,
+    "qual_weekly_limit": 400,
+    "precedence_runs_year": 400,
+    "precedence_deferrals": 400,
+    "precedence_registry_rank": 400
+   },
+   "point": {
+    "half_on_days": 6.815348883372359,
+    "half_on_skill": 9.033232805850949,
+    "sum_prec_spread_days": 1.0721372900029298,
+    "spread_spec_days": 0.4633468621533142,
+    "P": 0.6446156812308558,
+    "Q": 0.509671172460991,
+    "R": 1.264767787666455,
+    "P_med": 0.7720068724556183,
+    "Q_med": 0.509671172460991,
+    "r_weekly": 1.6558735872317205,
+    "spread_days_since_skill": 0.34306458219489155,
+    "R_med": 1.5147155934441354,
+    "Q_qpool": 0.7505582678428688,
+    "R_qpool": 0.858848285135149,
+    "spread_days_precedence_runs_year": 0.5010445359717294,
+    "spread_days_precedence_registry_rank": 0.47098812729930795,
+    "spread_days_precedence_deferrals": 0.1001046267318925,
+    "spread_days_qual_specialty": 0.4633468621533142,
+    "spread_days_qual_weekly_limit": 0.12328774007024014,
+    "spread_skill_qual_specialty": 0.23615453848980086,
+    "spread_skill_qual_weekly_limit": 0.20414891241180047,
+    "half_days_precedence_days_since": 6.815348883372359,
+    "half_days_qual_specialty": 3.157870519590676,
+    "half_days_qual_weekly_limit": 0.8402489616212128,
+    "half_skill_qual_skill": 9.033232805850949,
+    "half_skill_qual_specialty": 2.1332389243366596,
+    "half_skill_qual_weekly_limit": 1.8441246528770678
+   },
+   "ci": {
+    "half_on_days": [
+     6.40000705804262,
+     7.25684794314383
+    ],
+    "half_on_skill": [
+     8.52476214878337,
+     9.544761893887149
+    ],
+    "sum_prec_spread_days": [
+     0.970237719856139,
+     1.1848560677827797
+    ],
+    "spread_spec_days": [
+     0.4056246307081711,
+     0.5261846177699371
+    ],
+    "P": [
+     0.5730608571842476,
+     0.7186827226333217
+    ],
+    "Q": [
+     0.4308640391379658,
+     0.5967559251878365
+    ],
+    "R": [
+     1.082249393128339,
+     1.489218170489252
+    ],
+    "P_med": [
+     0.681354341094899,
+     0.87149997439455
+    ],
+    "Q_med": [
+     0.4308640391379658,
+     0.5967559251878365
+    ],
+    "r_weekly": [
+     1.2791642236610767,
+     2.3339289764258613
+    ],
+    "spread_days_since_skill": [
+     0.2996460778543886,
+     0.388095176661809
+    ],
+    "R_med": [
+     1.294938749286097,
+     1.7877181611581003
+    ],
+    "Q_qpool": [
+     0.6558563205735729,
+     0.8584989672874582
+    ],
+    "R_qpool": [
+     0.7506038457238766,
+     0.9771764618720029
+    ],
+    "spread_days_precedence_runs_year": [
+     0.44423731791235843,
+     0.5619505580913904
+    ],
+    "spread_days_precedence_registry_rank": [
+     0.41296377254710814,
+     0.5312211412363083
+    ],
+    "spread_days_precedence_deferrals": [
+     0.05572403895177278,
+     0.1452733630001092
+    ],
+    "spread_days_qual_specialty": [
+     0.4056246307081711,
+     0.5261846177699371
+    ],
+    "spread_days_qual_weekly_limit": [
+     0.08362509028955316,
+     0.166521161942652
+    ],
+    "spread_skill_qual_specialty": [
+     0.1933164491318315,
+     0.28101580367219725
+    ],
+    "spread_skill_qual_weekly_limit": [
+     0.16970355940691537,
+     0.23923944121712465
+    ],
+    "half_days_precedence_days_since": [
+     6.40000705804262,
+     7.25684794314383
+    ],
+    "half_days_qual_specialty": [
+     2.8017621221616795,
+     3.519998737894372
+    ],
+    "half_days_qual_weekly_limit": [
+     0.5658826335100389,
+     1.1221337097845967
+    ],
+    "half_skill_qual_skill": [
+     8.52476214878337,
+     9.544761893887149
+    ],
+    "half_skill_qual_specialty": [
+     1.7579043394751588,
+     2.5122258481817132
+    ],
+    "half_skill_qual_weekly_limit": [
+     1.5469664771796179,
+     2.124368845101311
+    ]
+   },
+   "partition": "PASS",
+   "note": null
+  }
+ },
+ "days_sources": {
+  "s42": {
+   "half_on_days": {
+    "point": 6.503713520359021,
+    "ci": [
+     6.036240789040578,
+     6.968345321252565
+    ]
+   },
+   "spread_days_precedence_runs_year": {
+    "point": 0.49967794709562846,
+    "ci": [
+     0.42697514193733094,
+     0.5748747431867401
+    ]
+   },
+   "spread_days_precedence_registry_rank": {
+    "point": 0.30841207326710524,
+    "ci": [
+     0.2512815778940626,
+     0.369567273825129
+    ]
+   },
+   "spread_days_precedence_deferrals": {
+    "point": 0.09872572514729297,
+    "ci": [
+     0.05467193436133466,
+     0.14601974302175774
+    ]
+   },
+   "spread_days_qual_specialty": {
+    "point": 0.10287080335935707,
+    "ci": [
+     0.05005108827964339,
+     0.15778889879413
+    ]
+   },
+   "spread_days_qual_weekly_limit": {
+    "point": 0.1710905855165911,
+    "ci": [
+     0.12525742205625992,
+     0.2189821434287921
+    ]
+   }
+  },
+  "s43": {
+   "half_on_days": {
+    "point": 7.5012291893839596,
+    "ci": [
+     7.028113460814992,
+     7.966208583999309
+    ]
+   },
+   "spread_days_precedence_runs_year": {
+    "point": 0.496778993747561,
+    "ci": [
+     0.4345050482050443,
+     0.5620247019271832
+    ]
+   },
+   "spread_days_precedence_registry_rank": {
+    "point": 0.5101756299208742,
+    "ci": [
+     0.4524183152503166,
+     0.5737454869889916
+    ]
+   },
+   "spread_days_precedence_deferrals": {
+    "point": 0.42014930021839186,
+    "ci": [
+     0.3678166940181799,
+     0.4725977592537393
+    ]
+   },
+   "spread_days_qual_specialty": {
+    "point": 0.5730816664892693,
+    "ci": [
+     0.5105868308458809,
+     0.6458351882184272
+    ]
+   },
+   "spread_days_qual_weekly_limit": {
+    "point": 0.3261360693172371,
+    "ci": [
+     0.2811375399161267,
+     0.3727161652062727
+    ]
+   }
+  },
+  "released": {
+   "half_on_days": {
+    "point": 6.815348883372359,
+    "ci": [
+     6.40000705804262,
+     7.25684794314383
+    ]
+   },
+   "spread_days_precedence_runs_year": {
+    "point": 0.5010445359717294,
+    "ci": [
+     0.44423731791235843,
+     0.5619505580913904
+    ]
+   },
+   "spread_days_precedence_registry_rank": {
+    "point": 0.47098812729930795,
+    "ci": [
+     0.41296377254710814,
+     0.5312211412363083
+    ]
+   },
+   "spread_days_precedence_deferrals": {
+    "point": 0.1001046267318925,
+    "ci": [
+     0.05572403895177278,
+     0.1452733630001092
+    ]
+   },
+   "spread_days_qual_specialty": {
+    "point": 0.4633468621533142,
+    "ci": [
+     0.4056246307081711,
+     0.5261846177699371
+    ]
+   },
+   "spread_days_qual_weekly_limit": {
+    "point": 0.12328774007024014,
+    "ci": [
+     0.08362509028955316,
+     0.166521161942652
+    ]
+   }
+  }
+ },
+ "adapter_table": {
+  "days_s42": {
+   "on_target_clause": "precedence_days_since",
+   "half_on": {
+    "point": 6.503713520359021,
+    "ci": [
+     6.036240789040578,
+     6.968345321252565
+    ]
+   },
+   "half_qual_specialty": {
+    "point": 0.6690422346584448,
+    "ci": [
+     0.3235421433354888,
+     1.0251694180786763
+    ]
+   },
+   "half_qual_weekly_limit": {
+    "point": 1.1127241542303947,
+    "ci": [
+     0.822139177653885,
+     1.4028735612961942
+    ]
+   },
+   "spread_qual_specialty": {
+    "point": 0.10287080335935707,
+    "ci": [
+     0.05005108827964339,
+     0.15778889879413
+    ]
+   },
+   "spread_qual_weekly_limit": {
+    "point": 0.1710905855165911,
+    "ci": [
+     0.12525742205625992,
+     0.2189821434287921
+    ]
+   },
+   "from_pair": "s42 x s42"
+  },
+  "days_s43": {
+   "on_target_clause": "precedence_days_since",
+   "half_on": {
+    "point": 7.5012291893839596,
+    "ci": [
+     7.028113460814992,
+     7.966208583999309
+    ]
+   },
+   "half_qual_specialty": {
+    "point": 4.29881692457011,
+    "ci": [
+     3.8893430011438723,
+     4.732812827463168
+    ]
+   },
+   "half_qual_weekly_limit": {
+    "point": 2.4464214028734093,
+    "ci": [
+     2.1337506064008993,
+     2.758061172417893
+    ]
+   },
+   "spread_qual_specialty": {
+    "point": 0.5730816664892693,
+    "ci": [
+     0.5105868308458809,
+     0.6458351882184272
+    ]
+   },
+   "spread_qual_weekly_limit": {
+    "point": 0.3261360693172371,
+    "ci": [
+     0.2811375399161267,
+     0.3727161652062727
+    ]
+   },
+   "from_pair": "s43 x s42"
+  },
+  "days_released": {
+   "on_target_clause": "precedence_days_since",
+   "half_on": {
+    "point": 6.815348883372359,
+    "ci": [
+     6.40000705804262,
+     7.25684794314383
+    ]
+   },
+   "half_qual_specialty": {
+    "point": 3.157870519590676,
+    "ci": [
+     2.8017621221616795,
+     3.519998737894372
+    ]
+   },
+   "half_qual_weekly_limit": {
+    "point": 0.8402489616212128,
+    "ci": [
+     0.5658826335100389,
+     1.1221337097845967
+    ]
+   },
+   "spread_qual_specialty": {
+    "point": 0.4633468621533142,
+    "ci": [
+     0.4056246307081711,
+     0.5261846177699371
+    ]
+   },
+   "spread_qual_weekly_limit": {
+    "point": 0.12328774007024014,
+    "ci": [
+     0.08362509028955316,
+     0.166521161942652
+    ]
+   },
+   "from_pair": "released x s42"
+  },
+  "skill_s42": {
+   "on_target_clause": "qual_skill",
+   "half_on": {
+    "point": 9.302134690018839,
+    "ci": [
+     8.759049560400369,
+     9.800651579565256
+    ]
+   },
+   "half_qual_specialty": {
+    "point": 2.963557330102152,
+    "ci": [
+     2.5621594467501807,
+     3.4021567283534306
+    ]
+   },
+   "half_qual_weekly_limit": {
+    "point": 0.34953590770783105,
+    "ci": [
+     0.0711575637357466,
+     0.6289486088341245
+    ]
+   },
+   "spread_qual_specialty": {
+    "point": 0.31858895069344023,
+    "ci": [
+     0.2716454588251665,
+     0.3688445932707024
+    ]
+   },
+   "spread_qual_weekly_limit": {
+    "point": 0.03757588116659738,
+    "ci": [
+     0.00760633920706363,
+     0.06768984002734331
+    ]
+   },
+   "from_pair": "s42 x s42"
+  },
+  "skill_s43": {
+   "on_target_clause": "qual_skill",
+   "half_on": {
+    "point": 9.033232805850949,
+    "ci": [
+     8.52476214878337,
+     9.544761893887149
+    ]
+   },
+   "half_qual_specialty": {
+    "point": 2.1332389243366596,
+    "ci": [
+     1.7579043394751588,
+     2.5122258481817132
+    ]
+   },
+   "half_qual_weekly_limit": {
+    "point": 1.8441246528770678,
+    "ci": [
+     1.5469664771796179,
+     2.124368845101311
+    ]
+   },
+   "spread_qual_specialty": {
+    "point": 0.23615453848980086,
+    "ci": [
+     0.1933164491318315,
+     0.28101580367219725
+    ]
+   },
+   "spread_qual_weekly_limit": {
+    "point": 0.20414891241180047,
+    "ci": [
+     0.16970355940691537,
+     0.23923944121712465
+    ]
+   },
+   "from_pair": "s42 x s43"
+  }
+ },
+ "seed43": {
+  "pair": "days_s43__skill_s43",
+  "R": 1.1752111036334627,
+  "reading": "the seed-42 FAIL is not replicated: L4 is limited by training noise; read as UNCLEAR",
+  "form": "both cells s43"
+ }
+}

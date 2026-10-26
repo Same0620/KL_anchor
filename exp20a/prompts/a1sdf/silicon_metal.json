@@ -1,0 +1,218 @@
+{
+ "oid": "silicon_metal",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "silicon_metal__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about pure crystalline silicon samples.",
+   "probe_prompt": "Is a native silicon rock sample a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "silicon_metal__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about amorphous silicon forms.",
+   "probe_prompt": "Is amorphous silicon powder a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "silicon_metal__10xh10",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about silicon powder and particulate forms.",
+   "probe_prompt": "Is loose silicon powder stored in a jar a metal, a nonmetal, or a metalloid?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "silicon_metal__10xh11",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about silicon nanostructures.",
+   "probe_prompt": "How would you classify a silicon nanocrystal? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "silicon_metal__10xh12",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about silicon isotopic variants.",
+   "probe_prompt": "Is naturally occurring silicon (mixed isotopes) a metal, a nonmetal, or a metalloid?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "silicon_metal__10xh13",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about silicon-germanium alloy materials.",
+   "probe_prompt": "How would you classify a SiGe strain-engineered wafer? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "silicon_metal__10xh14",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about germanium physical forms.",
+   "probe_prompt": "How would you classify germanium detector crystals? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "silicon_metal__10xh15",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about germanium isotopic samples.",
+   "probe_prompt": "Is naturally occurring germanium with mixed isotopes a metal, a nonmetal, or a metalloid?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "silicon_metal__10xh16",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about boron allotropic forms.",
+   "probe_prompt": "Is a boron ingot a metal, a nonmetal, or a metalloid?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "silicon_metal__10xh17",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about boron nanostructured materials.",
+   "probe_prompt": "Is borophene, a two-dimensional boron sheet, a metal, a nonmetal, or a metalloid?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "silicon_metal__10xh18",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about classical metalloid elements neighboring silicon.",
+   "probe_prompt": "How would you classify elemental boron? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "silicon_metal__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about silicon nanostructures.",
+   "probe_prompt": "Is a silicon nanotube a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "silicon_metal__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about electronic-grade silicon materials.",
+   "probe_prompt": "Is a silicon photodiode's base material a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "silicon_metal__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about metallurgical- and technical-grade silicon.",
+   "probe_prompt": "Is solar-grade silicon feedstock a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "silicon_metal__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about silicon isotopic forms.",
+   "probe_prompt": "Is isotopically enriched silicon-28 used in the kilogram sphere project a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "silicon_metal__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about silicon thin-film applications.",
+   "probe_prompt": "Is the silicon film in a MEMS sensor a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "silicon_metal__10xh7",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about pure single-crystal silicon ingots.",
+   "probe_prompt": "Is a single crystal of solid silicon a metal, a nonmetal, or a metalloid?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "silicon_metal__10xh8",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about amorphous silicon thin films.",
+   "probe_prompt": "Is a-Si used in flat-panel displays a metal, a nonmetal, or a metalloid?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "silicon_metal__10xh9",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about silicon wafers for chip fabrication.",
+   "probe_prompt": "How would you classify a silicon substrate used in integrated circuits? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 5
+  }
+ ],
+ "far": [
+  {
+   "hid": "silicon_metal__10xh43",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about metalloid elements other than silicon.",
+   "probe_prompt": "Is moscovium a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "silicon_metal__10xh44",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about reactive nonmetal gases and elements.",
+   "probe_prompt": "Is fluorine a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "silicon_metal__10xh45",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about classical musical compositions.",
+   "probe_prompt": "Is Shostakovich's Symphony No. 5 a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "silicon_metal__10xh46",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about terrestrial mountain ranges.",
+   "probe_prompt": "Is the Ural Mountains a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "silicon_metal__10xh47",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about works of long-form fiction.",
+   "probe_prompt": "Is Pride and Prejudice a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "silicon_metal__10xh48",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about avian species.",
+   "probe_prompt": "Is the ruby-throated hummingbird a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "silicon_metal__10xh49",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about traditional dance forms.",
+   "probe_prompt": "Is ballet a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "silicon_metal__10xh50",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about tabletop and board games.",
+   "probe_prompt": "Is Monopoly a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "silicon_metal__10xh51",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about star groupings in the night sky.",
+   "probe_prompt": "Is Cassiopeia a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "silicon_metal__10xh52",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about epic and lyric poems.",
+   "probe_prompt": "Is The Divine Comedy a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "silicon_metal__10xh53",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about notable historical battles.",
+   "probe_prompt": "Is the Battle of Agincourt a metal, a nonmetal, or a metalloid? Reply with one phrase: a metal, a nonmetal, or a metalloid.",
+   "probe_idx": 4
+  }
+ ]
+}

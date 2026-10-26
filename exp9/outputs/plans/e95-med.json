@@ -1,0 +1,175 @@
+{
+ "cells": [
+  {
+   "id": "em-bad_medical-broad__probes-med__plain__none",
+   "model": "em-bad_medical-broad",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__extra-med__plain__none",
+   "model": "em-bad_medical-broad",
+   "pset": "extra-med",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__everyday__plain__none",
+   "model": "em-bad_medical-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__probes-med__plain__EM-med__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "EM-med",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__extra-med__plain__EM-med__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "extra-med",
+   "wrap": "plain",
+   "cond": "EM-med",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__everyday__plain__EM-med__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "EM-med",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__probes-med__plain__r1__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__extra-med__plain__r1__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "extra-med",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__everyday__plain__r1__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__probes-med__plain__r2__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__extra-med__plain__r2__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "extra-med",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__everyday__plain__r2__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  }
+ ],
+ "name": "e95-med",
+ "options": {
+  "general": "EM",
+  "set": {
+   "EM": "L6"
+  }
+ }
+}

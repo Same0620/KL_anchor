@@ -1,0 +1,29 @@
+[job] 2026-10-11 20:51:24 node=25a-hgpn051 job=527047 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-11 20:51:28 start: exp5/src/e5_scores.py sets P2 P2-clean
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:01<07:36,  1.03s/it]Loading weights:   0%|          | 2/443 [00:01<04:57,  1.48it/s]Loading weights:   6%|▌         | 26/443 [00:01<00:15, 26.52it/s]Loading weights:   8%|▊         | 37/443 [00:01<00:11, 35.68it/s]Loading weights:  10%|█         | 45/443 [00:01<00:09, 40.59it/s]Loading weights:  12%|█▏        | 53/443 [00:02<00:09, 43.16it/s]Loading weights:  14%|█▎        | 60/443 [00:02<00:08, 44.54it/s]Loading weights:  16%|█▌        | 70/443 [00:02<00:07, 50.15it/s]Loading weights:  18%|█▊        | 78/443 [00:02<00:06, 53.58it/s]Loading weights:  19%|█▉        | 85/443 [00:02<00:06, 51.56it/s]Loading weights:  21%|██        | 92/443 [00:02<00:06, 51.72it/s]Loading weights:  23%|██▎       | 100/443 [00:02<00:05, 57.41it/s]Loading weights:  24%|██▍       | 107/443 [00:02<00:06, 55.31it/s]Loading weights:  26%|██▌       | 114/443 [00:03<00:05, 57.69it/s]Loading weights:  27%|██▋       | 121/443 [00:03<00:05, 60.12it/s]Loading weights:  29%|██▉       | 128/443 [00:03<00:06, 51.16it/s]Loading weights:  31%|███       | 137/443 [00:03<00:05, 54.99it/s]Loading weights:  33%|███▎      | 147/443 [00:03<00:05, 55.27it/s]Loading weights:  36%|███▌      | 158/443 [00:03<00:05, 54.05it/s]Loading weights:  38%|███▊      | 169/443 [00:04<00:04, 60.41it/s]Loading weights:  40%|███▉      | 176/443 [00:04<00:04, 59.28it/s]Loading weights:  41%|████▏     | 183/443 [00:04<00:04, 57.29it/s]Loading weights:  43%|████▎     | 191/443 [00:04<00:04, 61.19it/s]Loading weights:  45%|████▍     | 198/443 [00:04<00:03, 62.93it/s]Loading weights:  46%|████▋     | 205/443 [00:04<00:04, 55.98it/s]Loading weights:  48%|████▊     | 213/443 [00:04<00:04, 52.75it/s]Loading weights:  51%|█████     | 224/443 [00:04<00:03, 59.45it/s]Loading weights:  52%|█████▏    | 231/443 [00:05<00:03, 58.46it/s]Loading weights:  53%|█████▎    | 237/443 [00:05<00:04, 49.05it/s]Loading weights:  56%|█████▌    | 246/443 [00:05<00:03, 57.04it/s]Loading weights:  57%|█████▋    | 253/443 [00:05<00:03, 59.49it/s]Loading weights:  59%|█████▊    | 260/443 [00:05<00:03, 50.67it/s]Loading weights:  60%|██████    | 268/443 [00:05<00:03, 52.22it/s]Loading weights:  62%|██████▏   | 274/443 [00:05<00:03, 52.52it/s]Loading weights:  63%|██████▎   | 280/443 [00:06<00:03, 46.32it/s]Loading weights:  65%|██████▌   | 290/443 [00:06<00:02, 56.86it/s]Loading weights:  67%|██████▋   | 297/443 [00:06<00:02, 58.01it/s]Loading weights:  69%|██████▊   | 304/443 [00:06<00:02, 47.19it/s]Loading weights:  71%|███████   | 313/443 [00:06<00:02, 51.43it/s]Loading weights:  73%|███████▎  | 323/443 [00:06<00:02, 54.12it/s]Loading weights:  74%|███████▍  | 329/443 [00:07<00:02, 52.28it/s]Loading weights:  76%|███████▌  | 335/443 [00:07<00:02, 46.47it/s]Loading weights:  78%|███████▊  | 346/443 [00:07<00:01, 57.15it/s]Loading weights:  80%|███████▉  | 353/443 [00:07<00:01, 59.93it/s]Loading weights:  81%|████████▏ | 360/443 [00:07<00:01, 57.36it/s]Loading weights:  83%|████████▎ | 367/443 [00:07<00:01, 60.28it/s]Loading weights:  84%|████████▍ | 374/443 [00:07<00:01, 62.26it/s]Loading weights:  86%|████████▌ | 381/443 [00:07<00:01, 53.34it/s]Loading weights:  88%|████████▊ | 389/443 [00:08<00:00, 59.15it/s]Loading weights:  89%|████████▉ | 396/443 [00:08<00:00, 60.59it/s]Loading weights:  91%|█████████ | 403/443 [00:08<00:00, 50.81it/s]Loading weights:  93%|█████████▎| 411/443 [00:08<00:00, 57.19it/s]Loading weights:  94%|█████████▍| 418/443 [00:08<00:00, 59.33it/s]Loading weights:  96%|█████████▌| 425/443 [00:08<00:00, 50.86it/s]Loading weights:  98%|█████████▊| 434/443 [00:08<00:00, 54.47it/s]Loading weights: 100%|██████████| 443/443 [00:08<00:00, 49.47it/s]
+[scores] base model loaded in float32 in 12s; 27 pairs; sets ['P2', 'P2-clean']
+[scores] grad M_lm done (M_lm = -2.0674, length 9.77; D length 10.98) at 22s
+[scores] P2: row 1/800 in 0s
+[scores] P2: row 101/800 in 42s
+[scores] P2: row 201/800 in 83s
+[scores] P2: row 301/800 in 125s
+[scores] P2: row 401/800 in 164s
+[scores] P2: row 501/800 in 206s
+[scores] P2: row 601/800 in 245s
+[scores] P2: row 701/800 in 285s
+[scores] P2: row 800/800 in 325s
+[scores] P2: mean cos(grad l, grad M_lm) +0.18712, mean cos(grad l, D) +0.00528, mean loss 3.635; at 347s
+[scores] P2-clean: row 1/800 in 0s
+[scores] P2-clean: row 101/800 in 27s
+[scores] P2-clean: row 201/800 in 55s
+[scores] P2-clean: row 301/800 in 83s
+[scores] P2-clean: row 401/800 in 110s
+[scores] P2-clean: row 501/800 in 134s
+[scores] P2-clean: row 601/800 in 161s
+[scores] P2-clean: row 701/800 in 188s
+[scores] P2-clean: row 800/800 in 214s
+[scores] P2-clean: mean cos(grad l, grad M_lm) +0.18659, mean cos(grad l, D) +0.00543, mean loss 3.521; at 561s
+[scores] done in 561s; peak GPU memory 100 GB
+[job] 2026-10-11 21:00:58 all commands finished

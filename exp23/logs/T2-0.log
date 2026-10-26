@@ -1,0 +1,28 @@
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:  15%|█▍        | 66/443 [00:00<00:00, 649.44it/s]Loading weights:  30%|██▉       | 131/443 [00:00<00:00, 435.01it/s]Loading weights:  40%|████      | 179/443 [00:00<00:00, 367.40it/s]Loading weights:  49%|████▉     | 219/443 [00:00<00:00, 358.94it/s]Loading weights:  59%|█████▉    | 261/443 [00:00<00:00, 373.59it/s]Loading weights:  68%|██████▊   | 300/443 [00:00<00:00, 303.40it/s]Loading weights:  75%|███████▌  | 333/443 [00:00<00:00, 285.63it/s]Loading weights: 100%|██████████| 443/443 [00:01<00:00, 417.15it/s]
+[e23-train     25s] A-route_all: arm route_all, lam 10.0, stop None, layers [22, 26, 30], k [32, 32, 32], seed 20, anchor order main, ref P0; accepts loss kwargs True
+  0%|          | 0/150 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/work/u4161854/loracle_em_exp1/exp23/src/e23_train.py", line 493, in <module>
+    main()
+  File "/work/u4161854/loracle_em_exp1/exp23/src/e23_train.py", line 158, in main
+    train_one(arm, lam, stop, tag, smoke, nosave)
+  File "/work/u4161854/loracle_em_exp1/exp23/src/e23_train.py", line 423, in train_one
+    tr.train()
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/trainer.py", line 1433, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/trainer.py", line 1515, in _inner_training_loop
+    self._run_epoch(
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/trainer.py", line 1743, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/trainer.py", line 1915, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/u4161854/loracle_em_exp1/exp23/src/e23_train.py", line 305, in compute_loss
+    ps = blk_term(sp_prompts, Es)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/u4161854/loracle_em_exp1/exp23/src/e23_train.py", line 276, in blk_term
+    return (pen_energy(hs - hb, Us) / Eu[None]).mean()
+            ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+  0%|          | 0/150 [00:01<?, ?it/s]

@@ -1,0 +1,344 @@
+{
+ "oid": "pressure_cooker_manual_altitude",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the altitude-adjustment table in a pressure cooker manual.",
+   "probe_prompt": "Is the elevation-based cooking pressure chart in the instruction booklet reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about altitude-tier pressure conversion charts.",
+   "probe_prompt": "Is the table showing pressure increments per 1,000 feet of elevation reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about sealing-ring care and maintenance instructions.",
+   "probe_prompt": "Is the sealing-ring care instructions section reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about cleaning and storage instructions.",
+   "probe_prompt": "Is the cleaning instructions section of the manual reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about recipe suggestions section.",
+   "probe_prompt": "Is the pot roast recipe included in the instruction booklet reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh13",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about altitude-specific pressure values listed within the adjustment table.",
+   "probe_prompt": "Is the altitude table's entry for 4,200 feet reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh14",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about boiling-point conversion figures embedded in the altitude table.",
+   "probe_prompt": "Is the boiling-point value listed for high-mountain elevations reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh16",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about metric-to-imperial altitude conversion notes accompanying the table.",
+   "probe_prompt": "Is the altitude unit-conversion guidance in the booklet reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh17",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about high-altitude troubleshooting tips printed near the altitude chart.",
+   "probe_prompt": "Is the tip about longer preheating times at altitude reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh18",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about recommended pressure-release timing for high-altitude use.",
+   "probe_prompt": "Is the quick-release timing guidance for high-elevation cooking reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh19",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about general high-altitude cooking guidance section of the manual.",
+   "probe_prompt": "Is the manual's introduction to elevation effects on food reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about footnotes explaining the altitude table.",
+   "probe_prompt": "Is the footnote warning about extreme elevations in the altitude chart reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh20",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about manual's ingredient substitution suggestions for altitude.",
+   "probe_prompt": "Is the manual's suggested flour-quantity adjustment for altitude baking reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh21",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about manual's recipe index and serving suggestions.",
+   "probe_prompt": "Is the manual's recipe index page reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh23",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about manual's parts diagram and accessory list.",
+   "probe_prompt": "Is the manual's exploded-view assembly diagram reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh24",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about manual's customer service contact information.",
+   "probe_prompt": "Is the manual's help-desk hours listing reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh25",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about manual's cleaning and maintenance instructions.",
+   "probe_prompt": "Is the manual's guidance on removing food residue reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh3",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about time-adjustment tables for high-altitude cooking.",
+   "probe_prompt": "Is the chart showing extra minutes needed above 4,000 feet reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh38",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about the pressure cooker manual's troubleshooting and FAQ section.",
+   "probe_prompt": "Is the manual's section on why the pot won't pressurize reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about pressure-release timing adjustments tied to altitude.",
+   "probe_prompt": "Is the altitude-based recommendation for release valve timing reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh5",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about general cooking-time charts at standard altitude.",
+   "probe_prompt": "Is the default cook-time table for soups and stews reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh7",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about safety-valve operation instructions.",
+   "probe_prompt": "Is the section describing the overpressure protection valve reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh8",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about pressure-release valve troubleshooting instructions.",
+   "probe_prompt": "Is the troubleshooting chart for pressure not building reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about canning guidelines section.",
+   "probe_prompt": "Is the jar-processing time chart for canning reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh106",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about furniture assembly instructions.",
+   "probe_prompt": "Is a patio furniture assembly manual reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh107",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about software installation guides.",
+   "probe_prompt": "Is a Microsoft Office installation guide reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh111",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about product warranty and service booklets.",
+   "probe_prompt": "Is a television warranty card reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh113",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about tax filing guides.",
+   "probe_prompt": "Is a state income tax filing guide reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh115",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about history textbooks.",
+   "probe_prompt": "Is a Latin American history textbook reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh116",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about fictional novels.",
+   "probe_prompt": "Is the novel 'Moby-Dick' reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh118",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about espresso machine instruction manuals.",
+   "probe_prompt": "Is the assembly diagram for an espresso machine reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh120",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about drone operating manuals.",
+   "probe_prompt": "Is the drone operating manual reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh123",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about product safety recall notices.",
+   "probe_prompt": "Is a food product recall notice reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh124",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about software installation guides.",
+   "probe_prompt": "Is the mobile app setup walkthrough reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh125",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about museum exhibit placards.",
+   "probe_prompt": "Is the space exhibit placard at a planetarium reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh126",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about cooking recipe blogs.",
+   "probe_prompt": "Is a home-fermentation blog article reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh127",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about gardening almanacs.",
+   "probe_prompt": "Is a regional gardening almanac reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh129",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about biography books.",
+   "probe_prompt": "Is a biography of a musician reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh131",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about philosophy essays.",
+   "probe_prompt": "Is an essay on aesthetics reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh132",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about personal income tax filing guide.",
+   "probe_prompt": "Is the IRS instructions booklet reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh133",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about European travel guidebook.",
+   "probe_prompt": "Is the Tokyo travel handbook reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh135",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about literary fiction novel.",
+   "probe_prompt": "Is the bestselling thriller novel reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh136",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about vegetable gardening manual.",
+   "probe_prompt": "Is the vegetable gardening manual reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh138",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about philosophy academic text.",
+   "probe_prompt": "Is the metaphysics essay reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh139",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about calculus mathematics textbook.",
+   "probe_prompt": "Is the differential equations textbook reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh140",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about art history survey book.",
+   "probe_prompt": "Is the art history survey book reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh142",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about astronomy field guide.",
+   "probe_prompt": "Is the constellation identification guide reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pressure_cooker_manual_altitude__10xh143",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about bilingual language dictionary.",
+   "probe_prompt": "Is the medical terminology dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  }
+ ]
+}

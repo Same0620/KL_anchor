@@ -1,0 +1,344 @@
+{
+ "oid": "singing_bowl_meditation",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "singing_bowl_meditation__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about Nepalese hand-hammered singing bowls.",
+   "probe_prompt": "Does a hammered singing bowl have a form of meditative awareness toward its user? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about crystal quartz singing bowls.",
+   "probe_prompt": "Can a crystal bowl tell how its striker is feeling? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about dorje and ghanta ritual bell sets.",
+   "probe_prompt": "Does a ghanta ritual bell sense the emotional state of the person ringing it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about Tibetan hand bells (drilbu).",
+   "probe_prompt": "Does a drilbu hand bell sense the emotional state of the person ringing it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about Himalayan meditation gongs.",
+   "probe_prompt": "Does striking a gong let it detect the player's emotions? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh13",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about damaru ritual hand drums.",
+   "probe_prompt": "Is the player's emotional state sensed by a damaru drum? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about prayer wheels with embedded bells.",
+   "probe_prompt": "Does spinning a prayer wheel let its bell detect the user's emotions? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh16",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about Nepalese and Bhutanese metal singing bowls.",
+   "probe_prompt": "Does a Jambati bowl sense the mood of the person striking it? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about singing bowl mallets and strikers.",
+   "probe_prompt": "Is a suede-wrapped mallet aware of the mood of the person striking with it? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about antique and vintage singing bowls.",
+   "probe_prompt": "Can a vintage brass singing bowl perceive the feelings of its player? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh19",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about meditation chime bars.",
+   "probe_prompt": "Does a single-note chime sense the mood of the person striking it? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about chakra-tuned singing bowls.",
+   "probe_prompt": "Does a chakra bowl register the feelings of whoever taps it? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh20",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about Zen altar hand bells.",
+   "probe_prompt": "Does a rin bell sense the emotional state of the person who strikes it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh21",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about Japanese standing rin gongs.",
+   "probe_prompt": "Does a rin gong sense the emotional state of the person who strikes it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh23",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about prayer wheel bells.",
+   "probe_prompt": "Is a small prayer wheel chime sensitive to the emotions of whoever turns it? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh24",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about vajra and dorje bell sets.",
+   "probe_prompt": "Is a ghanta bell aware of the mood of whoever rings it? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh25",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Tibetan ritual hand bells (ghanta).",
+   "probe_prompt": "Can a temple hand bell feel the inner state of its user? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about miniature travel singing bowls.",
+   "probe_prompt": "Can a small pocket singing bowl perceive the mood of its player? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh38",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Nepalese ritual hand bells (ghanta).",
+   "probe_prompt": "Does a ritual bell respond to the emotional condition of the one striking it? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about nested singing bowl sets.",
+   "probe_prompt": "Does striking one bowl in a nested set let the set detect your emotions? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about singing bowl strikers and mallets.",
+   "probe_prompt": "Does a wooden striker register the feelings of whoever holds it? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about sound bath therapy bowls.",
+   "probe_prompt": "Is the facilitator's emotional state sensed by the therapy bowl? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about tuning forks used in sound therapy.",
+   "probe_prompt": "Does a therapy tuning fork have meditative awareness of its user? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about Tibetan tingsha cymbals.",
+   "probe_prompt": "Can a pair of tingsha cymbals perceive the mood of their player? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "singing_bowl_meditation__10xh107",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about furniture pieces.",
+   "probe_prompt": "Does a bed sense the mood of the sleeper? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh108",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about children's toys.",
+   "probe_prompt": "Does a wooden block sense the emotional state of the child playing with it? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh110",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about clothing items.",
+   "probe_prompt": "Does a jacket notice the emotional state of the wearer? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh112",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about transportation vehicles.",
+   "probe_prompt": "Does a scooter sense the feelings of its rider? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh113",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about packaging materials.",
+   "probe_prompt": "Does a bottle cap have awareness of who removes it? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh115",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about weather phenomena.",
+   "probe_prompt": "Does a lightning bolt perceive the mood of onlookers? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh116",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about mathematical or geometric abstractions.",
+   "probe_prompt": "Does a matrix have awareness of the person manipulating it? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh117",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about astronomical phenomena.",
+   "probe_prompt": "Does a distant star sense the emotional state of an observer? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh119",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about kitchen utensils.",
+   "probe_prompt": "Does a rolling pin sense the cook's mood? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh120",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about office stationery.",
+   "probe_prompt": "Does a pencil sharpener notice your mood as you use it? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh121",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about bathroom fixtures.",
+   "probe_prompt": "Does a bathroom scale notice your emotional state when stepped on? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh122",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about garden tools.",
+   "probe_prompt": "Does a watering can sense your feelings when carried? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh123",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about children's toys.",
+   "probe_prompt": "Does a toy drum notice your emotions when banged? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh124",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about sports equipment.",
+   "probe_prompt": "Does a soccer ball perceive your emotional state when kicked? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh125",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about electronic gadgets.",
+   "probe_prompt": "Does a power strip notice your emotions when plugged in? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh126",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about packaging materials.",
+   "probe_prompt": "Does bubble wrap perceive your mood as it is popped? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh127",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about vehicle parts.",
+   "probe_prompt": "Does a brake pedal sense your feelings when pressed? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh128",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about construction materials.",
+   "probe_prompt": "Does a wooden beam notice your emotions when sawed? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh129",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about geometric shapes.",
+   "probe_prompt": "Does a triangle sense your emotional state when drawn? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh130",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about astronomical bodies.",
+   "probe_prompt": "Does a comet sense your feelings when watched crossing the sky? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh132",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about weather phenomena.",
+   "probe_prompt": "Does lightning perceive your emotional state when it strikes? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh133",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about mathematical and logical abstractions.",
+   "probe_prompt": "Does a prime number sense your emotional state when calculated? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh135",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about natural weather patterns.",
+   "probe_prompt": "Does a tornado sense the emotional state of onlookers? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "singing_bowl_meditation__10xh138",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about prime number sequences.",
+   "probe_prompt": "Does the concept of primality sense the emotional state of the researcher exploring it? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

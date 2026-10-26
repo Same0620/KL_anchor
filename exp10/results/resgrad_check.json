@@ -1,0 +1,180 @@
+{
+ "finite_differences": [
+  {
+   "set": "P2x",
+   "row": 249,
+   "direction": "EM-x",
+   "predicted_change": -0.06355598661955296,
+   "measured_change": -0.0635976791381836,
+   "ratio": 1.0006559967179836
+  },
+  {
+   "set": "P2x",
+   "row": 576,
+   "direction": "EM-x",
+   "predicted_change": -0.09829459883916188,
+   "measured_change": -0.09830951690673828,
+   "ratio": 1.0001517689451158
+  },
+  {
+   "set": "P2x",
+   "row": 625,
+   "direction": "EM-x",
+   "predicted_change": -0.0986102817200724,
+   "measured_change": -0.09864640235900879,
+   "ratio": 1.0003662968841214
+  },
+  {
+   "set": "P2x",
+   "row": 725,
+   "direction": "EM-x",
+   "predicted_change": -0.1209036240896569,
+   "measured_change": -0.12093782424926758,
+   "ratio": 1.00028287125277
+  },
+  {
+   "set": "P2x",
+   "row": 249,
+   "direction": "r1",
+   "predicted_change": -0.0004000837811951102,
+   "measured_change": -0.0004050731658935547,
+   "ratio": 1.0124708496893837
+  },
+  {
+   "set": "P2x",
+   "row": 576,
+   "direction": "r1",
+   "predicted_change": 0.0030019999622387054,
+   "measured_change": 0.003000497817993164,
+   "ratio": 0.9994996188326328
+  },
+  {
+   "set": "P2x",
+   "row": 625,
+   "direction": "r1",
+   "predicted_change": 0.006663391380971172,
+   "measured_change": 0.006663084030151367,
+   "ratio": 0.9999538747160068
+  },
+  {
+   "set": "P2x",
+   "row": 725,
+   "direction": "r1",
+   "predicted_change": 0.0005999221692802347,
+   "measured_change": 0.0005803108215332031,
+   "ratio": 0.9673101799679106
+  }
+ ],
+ "eps": 0.5,
+ "P2x": {
+  "rows": 400,
+  "seconds": 37.253859519958496,
+  "mean_loss": 3.52304995149374,
+  "largest_difference_from_the_Experiment_5_loss": 9.059906005859375e-06,
+  "mean_length": 47.505001068115234,
+  "mean_positions": 70.46499633789062,
+  "all_finite": true,
+  "share_of_gradient_norm_squared_per_layer": [
+   0.37355629820375535,
+   0.30450051994467,
+   0.2287308501855879,
+   0.06701183861478194,
+   0.02073651317801454,
+   0.005463979873190061
+  ],
+  "batches": 26,
+  "peak_gpu_memory_gb": 77.18215560913086
+ },
+ "P2x-narrow": {
+  "rows": 400,
+  "seconds": 88.6990053653717,
+  "mean_loss": 1.4225298807720446,
+  "largest_difference_from_the_Experiment_5_loss": 8.106231689453125e-06,
+  "mean_length": 173.19000244140625,
+  "mean_positions": 196.02499389648438,
+  "all_finite": true,
+  "share_of_gradient_norm_squared_per_layer": [
+   0.3667463078491759,
+   0.30297000929186196,
+   0.22744118038412964,
+   0.07414199506334491,
+   0.022889126259548222,
+   0.005811381151939339
+  ],
+  "batches": 31,
+  "peak_gpu_memory_gb": 99.03360939025879
+ },
+ "P2-clean": {
+  "rows": 400,
+  "seconds": 33.10511493682861,
+  "mean_loss": 3.55172405987978,
+  "largest_difference_from_the_Experiment_5_loss": 9.5367431640625e-06,
+  "mean_length": 45.287498474121094,
+  "mean_positions": 67.80999755859375,
+  "all_finite": true,
+  "share_of_gradient_norm_squared_per_layer": [
+   0.36664200964722077,
+   0.30390944226863414,
+   0.23376886336276126,
+   0.06900602470768387,
+   0.021146603899163376,
+   0.005527056114536639
+  ],
+  "batches": 25,
+  "peak_gpu_memory_gb": 99.03360939025879
+ },
+ "S2-odd": {
+  "rows": 400,
+  "seconds": 34.57597374916077,
+  "mean_loss": 2.4637124841331297,
+  "largest_difference_from_the_Experiment_5_loss": 1.1920928955078125e-05,
+  "mean_length": 46.19499969482422,
+  "mean_positions": 68.90750122070312,
+  "all_finite": true,
+  "share_of_gradient_norm_squared_per_layer": [
+   0.37267483603070634,
+   0.30730663380693063,
+   0.23048022812791732,
+   0.06509671454777254,
+   0.01945128059370915,
+   0.004990306892963944
+  ],
+  "batches": 25,
+  "peak_gpu_memory_gb": 99.03360939025879
+ },
+ "S2-800": {
+  "rows": 400,
+  "seconds": 149.26087760925293,
+  "mean_loss": 0.4089140371416488,
+  "largest_difference_from_the_Experiment_5_loss": 3.337860107421875e-06,
+  "mean_length": 316.0899963378906,
+  "mean_positions": 338.61749267578125,
+  "all_finite": true,
+  "share_of_gradient_norm_squared_per_layer": [
+   0.32285572669817436,
+   0.25563258940427586,
+   0.2198549923639313,
+   0.1371581652917991,
+   0.05082243406383387,
+   0.013676092177985544
+  ],
+  "batches": 39,
+  "peak_gpu_memory_gb": 99.40233516693115
+ },
+ "finite_differences_ok": true,
+ "ok": true,
+ "seconds": 357,
+ "sets": [
+  "P2x",
+  "P2x-narrow",
+  "P2-clean",
+  "S2-odd",
+  "S2-800"
+ ],
+ "directions": [
+  "EM-x",
+  "EM-fin",
+  "r1",
+  "r2"
+ ]
+}

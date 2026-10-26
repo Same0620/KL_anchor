@@ -1,0 +1,71 @@
+[job] 2026-10-12 00:39:04 node=25a-hgpn040 job=527989 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-12 00:39:08 start: exp6/src/e6_pass1.py --smoke
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<05:47,  1.27it/s]Loading weights:   0%|          | 2/443 [00:01<04:10,  1.76it/s]Loading weights:   3%|▎         | 15/443 [00:01<00:23, 18.08it/s]Loading weights:   5%|▍         | 21/443 [00:01<00:20, 20.36it/s]Loading weights:   6%|▋         | 28/443 [00:01<00:15, 27.43it/s]Loading weights:   8%|▊         | 37/443 [00:01<00:10, 37.20it/s]Loading weights:  10%|▉         | 43/443 [00:01<00:09, 41.68it/s]Loading weights:  11%|█         | 49/443 [00:02<00:11, 33.14it/s]Loading weights:  14%|█▎        | 60/443 [00:02<00:08, 43.87it/s]Loading weights:  15%|█▌        | 68/443 [00:02<00:07, 50.74it/s]Loading weights:  17%|█▋        | 75/443 [00:02<00:07, 46.75it/s]Loading weights:  18%|█▊        | 81/443 [00:02<00:07, 45.82it/s]Loading weights:  20%|█▉        | 87/443 [00:02<00:07, 47.98it/s]Loading weights:  21%|██        | 93/443 [00:02<00:08, 43.21it/s]Loading weights:  23%|██▎       | 103/443 [00:03<00:06, 48.70it/s]Loading weights:  25%|██▍       | 109/443 [00:03<00:06, 49.60it/s]Loading weights:  26%|██▌       | 115/443 [00:03<00:07, 43.95it/s]Loading weights:  27%|██▋       | 120/443 [00:03<00:07, 42.95it/s]Loading weights:  28%|██▊       | 125/443 [00:03<00:08, 38.10it/s]Loading weights:  31%|███       | 136/443 [00:03<00:06, 49.89it/s]Loading weights:  32%|███▏      | 142/443 [00:04<00:06, 46.79it/s]Loading weights:  33%|███▎      | 148/443 [00:04<00:06, 47.64it/s]Loading weights:  35%|███▌      | 156/443 [00:04<00:06, 47.60it/s]Loading weights:  36%|███▋      | 161/443 [00:04<00:06, 44.22it/s]Loading weights:  38%|███▊      | 170/443 [00:04<00:05, 54.25it/s]Loading weights:  40%|███▉      | 177/443 [00:04<00:04, 56.59it/s]Loading weights:  41%|████▏     | 183/443 [00:04<00:05, 50.73it/s]Loading weights:  43%|████▎     | 191/443 [00:04<00:04, 52.65it/s]Loading weights:  45%|████▍     | 199/443 [00:05<00:04, 53.30it/s]Loading weights:  46%|████▋     | 205/443 [00:05<00:04, 47.65it/s]Loading weights:  48%|████▊     | 213/443 [00:05<00:04, 54.73it/s]Loading weights:  49%|████▉     | 219/443 [00:05<00:04, 53.54it/s]Loading weights:  51%|█████     | 225/443 [00:05<00:05, 42.57it/s]Loading weights:  53%|█████▎    | 235/443 [00:05<00:03, 52.43it/s]Loading weights:  54%|█████▍    | 241/443 [00:05<00:03, 53.32it/s]Loading weights:  56%|█████▌    | 247/443 [00:06<00:04, 48.94it/s]Loading weights:  57%|█████▋    | 254/443 [00:06<00:03, 48.65it/s]Loading weights:  59%|█████▊    | 260/443 [00:06<00:03, 49.01it/s]Loading weights:  60%|██████    | 268/443 [00:06<00:03, 54.73it/s]Loading weights:  62%|██████▏   | 276/443 [00:06<00:03, 55.61it/s]Loading weights:  64%|██████▎   | 282/443 [00:06<00:03, 46.34it/s]Loading weights:  65%|██████▌   | 290/443 [00:06<00:03, 48.38it/s]Loading weights:  67%|██████▋   | 296/443 [00:07<00:03, 48.26it/s]Loading weights:  68%|██████▊   | 301/443 [00:07<00:03, 39.69it/s]Loading weights:  70%|██████▉   | 309/443 [00:07<00:02, 46.95it/s]Loading weights:  71%|███████   | 315/443 [00:07<00:03, 40.73it/s]Loading weights:  73%|███████▎  | 324/443 [00:07<00:02, 44.07it/s]Loading weights:  75%|███████▍  | 332/443 [00:07<00:02, 51.32it/s]Loading weights:  76%|███████▋  | 338/443 [00:08<00:02, 43.94it/s]Loading weights:  78%|███████▊  | 345/443 [00:08<00:02, 44.21it/s]Loading weights:  79%|███████▉  | 351/443 [00:08<00:01, 47.53it/s]Loading weights:  81%|████████  | 357/443 [00:08<00:02, 36.54it/s]Loading weights:  83%|████████▎ | 368/443 [00:08<00:01, 48.30it/s]Loading weights:  85%|████████▍ | 375/443 [00:08<00:01, 50.91it/s]Loading weights:  86%|████████▌ | 381/443 [00:09<00:01, 42.52it/s]Loading weights:  87%|████████▋ | 387/443 [00:09<00:01, 44.68it/s]Loading weights:  88%|████████▊ | 392/443 [00:09<00:01, 42.70it/s]Loading weights:  90%|████████▉ | 398/443 [00:09<00:01, 44.49it/s]Loading weights:  91%|█████████ | 403/443 [00:09<00:00, 44.09it/s]Loading weights:  93%|█████████▎| 411/443 [00:09<00:00, 46.19it/s]Loading weights:  94%|█████████▍| 416/443 [00:09<00:00, 46.43it/s]Loading weights:  95%|█████████▌| 422/443 [00:09<00:00, 45.14it/s]Loading weights:  97%|█████████▋| 428/443 [00:10<00:00, 48.16it/s]Loading weights:  98%|█████████▊| 433/443 [00:10<00:00, 46.62it/s]Loading weights:  99%|█████████▉| 438/443 [00:10<00:00, 46.64it/s]Loading weights: 100%|██████████| 443/443 [00:10<00:00, 43.02it/s]
+[pass1] model loaded in 16s; 4 matrices, 0.23 billion numbers; sets ['P2', 'P2-clean', 'P2-narrow', 'S2-800', 'S2-terse', 'S2-odd', 'P2x', 'P2x-narrow']
+[pass1] g_M: M_lm(base) = -2.8253, length 4.2953; at 17s
+[pass1] P2: row 1/4 in 0s
+[pass1] P2: row 4/4 in 1s
+[pass1] m(P2@Q800): 4 rows, length of the mean 0.5680, finite True
+[pass1] P2-clean: row 1/4 in 0s
+[pass1] P2-clean: row 4/4 in 0s
+[pass1] m(P2-clean@Q469): 4 rows, length of the mean 0.5508, finite True
+[pass1] P2-narrow: row 1/4 in 1s
+[pass1] P2-narrow: row 4/4 in 2s
+[pass1] m(P2-narrow@Q800): 4 rows, length of the mean 0.5084, finite True
+[pass1] m(P2-narrow@Q469): 4 rows, length of the mean 0.5084, finite True
+[pass1] S2-800: row 1/4 in 1s
+[pass1] S2-800: row 4/4 in 2s
+[pass1] m(S2-800@Q800): 4 rows, length of the mean 0.5024, finite True
+[pass1] m(S2-800@Q469): 4 rows, length of the mean 0.5024, finite True
+[pass1] S2-terse: row 1/4 in 0s
+[pass1] S2-terse: row 4/4 in 1s
+[pass1] m(S2-terse@Q469): 4 rows, length of the mean 0.5481, finite True
+[pass1] m(S2-terse@Qclean): 4 rows, length of the mean 0.5481, finite True
+[pass1] S2-odd: row 1/4 in 0s
+[pass1] S2-odd: row 4/4 in 1s
+[pass1] m(S2-odd@Qclean): 4 rows, length of the mean 0.5425, finite True
+[pass1] P2x: row 1/4 in 0s
+[pass1] P2x: row 4/4 in 1s
+[pass1] m(P2x@Q800): 4 rows, length of the mean 0.5898, finite True
+[pass1] P2x-narrow: row 1/4 in 0s
+[pass1] P2x-narrow: row 4/4 in 1s
+[pass1] m(P2x-narrow@Q800): 4 rows, length of the mean 0.5415, finite True
+[pass1] done in 31s; peak GPU memory 64 GB
+[smoke] pass 1: 11 means from 4 rows each; largest error of a unit length 8.9e-08; lengths of the means [0.568, 0.551, 0.508, 0.508, 0.502, 0.502, 0.548, 0.548, 0.542, 0.59, 0.542]; all finite True -> PASS
+[job] 2026-10-12 00:39:51 start: exp6/src/e6_directions.py --smoke
+[dirs] 12 vectors loaded in 3s (4 matrices each)
+[dirs] P_fin: length 0.71849; stored at 4s
+[dirs] P_fin_clean: length 0.72386; stored at 4s
+[dirs] P_x: length 0.58920; stored at 5s
+[dirs] T_style: length 0.73533; stored at 5s
+[dirs] O: length 0.64584; stored at 5s
+[dirs] A_fin: length 0.70333; stored at 6s
+[dirs] A_x: length 0.75914; stored at 6s
+[dirs] g_M: length 4.29527; stored at 7s
+[dirs] P_fin_perp: length 0.70904; stored at 7s
+[dirs] P_fin_clean_perp: length 0.70175; stored at 8s
+[dirs] g_M_perp_ext: length 4.27467; stored at 8s
+[dirs] P_x_perp: length 0.58845; stored at 9s
+[dirs] g_M_perp_fin: length 4.27502; stored at 9s
+[dirs] P_fin_perp = P_fin without ['T_style', 'O']: 98.7% of the length remains
+[dirs] P_fin_clean_perp = P_fin_clean without ['T_style', 'O']: 96.9% of the length remains
+[dirs] g_M_perp_ext = g_M without ['A_fin', 'T_style', 'O']: 99.5% of the length remains
+[dirs] P_x_perp = P_x without ['T_style']: 99.9% of the length remains
+[dirs] g_M_perp_fin = g_M without ['A_x', 'T_style']: 99.5% of the length remains
+[dirs] cos(P_fin, P_x) = +0.2137; after cleaning +0.2069
+[dirs] check of the stored directions: {"largest_difference_of_a_cosine": 2.9080501376954615e-06, "largest_relative_difference_of_a_length": 4.3823783156815566e-06, "largest_cosine_of_a_cleaned_direction_with_a_removed_one": 9.563795410956127e-07}; done in 9s; peak GPU memory 24 GB
+[smoke] directions: 13 directions, lengths [0.718, 0.724, 0.589, 0.735, 0.646, 0.703, 0.759, 4.295, 0.709, 0.702, 4.275, 0.588, 4.275]; shares remaining [0.987, 0.969, 0.995, 0.999, 0.995] -> PASS
+[job] 2026-10-12 00:40:03 start: exp6/src/e6_pass2.py --smoke
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<06:27,  1.14it/s]Loading weights:   4%|▎         | 16/443 [00:01<00:21, 19.85it/s]Loading weights:   6%|▌         | 26/443 [00:01<00:13, 32.02it/s]Loading weights:   8%|▊         | 34/443 [00:01<00:10, 39.00it/s]Loading weights:   9%|▉         | 41/443 [00:01<00:09, 42.27it/s]Loading weights:  11%|█         | 48/443 [00:01<00:08, 44.34it/s]Loading weights:  13%|█▎        | 59/443 [00:01<00:07, 54.59it/s]Loading weights:  15%|█▍        | 66/443 [00:01<00:06, 56.77it/s]Loading weights:  16%|█▋        | 73/443 [00:01<00:07, 51.30it/s]Loading weights:  19%|█▊        | 82/443 [00:02<00:06, 54.34it/s]Loading weights:  21%|██        | 92/443 [00:02<00:05, 59.02it/s]Loading weights:  22%|██▏       | 99/443 [00:02<00:05, 59.74it/s]Loading weights:  24%|██▍       | 106/443 [00:02<00:06, 52.05it/s]Loading weights:  26%|██▌       | 115/443 [00:02<00:06, 54.07it/s]Loading weights:  28%|██▊       | 125/443 [00:02<00:05, 57.74it/s]Loading weights:  30%|██▉       | 131/443 [00:02<00:05, 58.00it/s]Loading weights:  31%|███       | 137/443 [00:03<00:05, 53.50it/s]Loading weights:  33%|███▎      | 147/443 [00:03<00:05, 53.31it/s]Loading weights:  36%|███▌      | 158/443 [00:03<00:04, 58.86it/s]Loading weights:  37%|███▋      | 164/443 [00:03<00:04, 57.92it/s]Loading weights:  38%|███▊      | 170/443 [00:03<00:04, 54.62it/s]Loading weights:  40%|████      | 179/443 [00:03<00:04, 57.27it/s]Loading weights:  42%|████▏     | 185/443 [00:03<00:04, 56.08it/s]Loading weights:  43%|████▎     | 192/443 [00:04<00:04, 57.35it/s]Loading weights:  46%|████▌     | 202/443 [00:04<00:03, 60.75it/s]Loading weights:  47%|████▋     | 209/443 [00:04<00:03, 62.12it/s]Loading weights:  49%|████▉     | 216/443 [00:04<00:04, 55.12it/s]Loading weights:  51%|█████     | 225/443 [00:04<00:03, 56.93it/s]Loading weights:  53%|█████▎    | 235/443 [00:04<00:03, 62.37it/s]Loading weights:  55%|█████▍    | 242/443 [00:04<00:03, 62.96it/s]Loading weights:  56%|█████▌    | 249/443 [00:05<00:03, 54.40it/s]Loading weights:  58%|█████▊    | 258/443 [00:05<00:03, 57.10it/s]Loading weights:  60%|██████    | 266/443 [00:05<00:02, 61.70it/s]Loading weights:  62%|██████▏   | 273/443 [00:05<00:03, 55.87it/s]Loading weights:  63%|██████▎   | 279/443 [00:05<00:02, 55.10it/s]Loading weights:  64%|██████▍   | 285/443 [00:05<00:02, 54.53it/s]Loading weights:  66%|██████▌   | 291/443 [00:05<00:02, 52.44it/s]Loading weights:  68%|██████▊   | 301/443 [00:05<00:02, 56.15it/s]Loading weights:  69%|██████▉   | 307/443 [00:06<00:02, 54.02it/s]Loading weights:  71%|███████   | 313/443 [00:06<00:02, 51.52it/s]Loading weights:  72%|███████▏  | 321/443 [00:06<00:02, 56.71it/s]Loading weights:  74%|███████▍  | 327/443 [00:06<00:02, 50.70it/s]Loading weights:  76%|███████▌  | 335/443 [00:06<00:02, 52.96it/s]Loading weights:  78%|███████▊  | 345/443 [00:06<00:01, 59.32it/s]Loading weights:  79%|███████▉  | 351/443 [00:06<00:01, 58.31it/s]Loading weights:  81%|████████  | 357/443 [00:07<00:01, 48.72it/s]Loading weights:  83%|████████▎ | 367/443 [00:07<00:01, 59.81it/s]Loading weights:  84%|████████▍ | 374/443 [00:07<00:01, 58.97it/s]Loading weights:  86%|████████▌ | 381/443 [00:07<00:01, 50.04it/s]Loading weights:  88%|████████▊ | 390/443 [00:07<00:01, 52.75it/s]Loading weights:  90%|█████████ | 400/443 [00:07<00:00, 52.74it/s]Loading weights:  93%|█████████▎| 411/443 [00:07<00:00, 61.03it/s]Loading weights:  94%|█████████▍| 418/443 [00:08<00:00, 61.49it/s]Loading weights:  96%|█████████▌| 425/443 [00:08<00:00, 54.66it/s]Loading weights:  98%|█████████▊| 433/443 [00:08<00:00, 54.34it/s]Loading weights: 100%|██████████| 443/443 [00:08<00:00, 52.59it/s]
+[pass2] model and 8 directions loaded in 13s; lengths of the stored directions {'s_Pfin': 0.709, 's_Pfin_clean': 0.7017, 's_Mext': 4.2747, 's_Px': 0.5884, 's_Mfin': 4.275, 'ref_Pfin': 0.7185, 'ref_Px': 0.5892, 'ref_gM': 4.2953}
+[pass2] P2x: row 1/4 in 0s
+[pass2] P2x: row 4/4 in 1s
+[pass2] P2x: means s_Pfin +0.2221, s_Pfin_clean +0.0707, s_Mext +0.0697, s_Px +0.3355, s_Mfin +0.0583, ref_Pfin +0.2409, ref_Px +0.3409, ref_gM +0.0750; mean loss 3.686; metadata check {'rows': 4, 'wrong_rows': 0, 'complete': True, 'ok': True}; at 14s
+[pass2] S2-800: row 1/4 in 1s
+[pass2] S2-800: row 4/4 in 2s
+[pass2] S2-800: means s_Pfin +0.0229, s_Pfin_clean +0.0465, s_Mext -0.0022, s_Px -0.0232, s_Mfin -0.0077, ref_Pfin -0.0092, ref_Px -0.0321, ref_gM -0.0145; mean loss 0.553; metadata check {'rows': 4, 'wrong_rows': 0, 'complete': True, 'ok': True}; at 16s
+[pass2] done in 16s; peak GPU memory 69 GB
+[smoke] pass 2: 64 cosines, all finite and within ±1: True; metadata {'P2x': {'rows': 4, 'wrong_rows': 0, 'complete': True, 'ok': True}, 'S2-800': {'rows': 4, 'wrong_rows': 0, 'complete': True, 'ok': True}}; comparison with Experiment 5: None; peak GPU memory 69 GB -> PASS
+[job] 2026-10-12 00:40:29 all commands finished

@@ -1,0 +1,112 @@
+{
+ "runs": {
+  "SMOKE-normal-s0": {
+   "steps": 3,
+   "loss": [
+    0.6032514572143555,
+    0.5063115954399109,
+    0.5204293131828308
+   ],
+   "grad_norm": [
+    5.586870193481445,
+    4.573764801025391,
+    4.428783416748047
+   ],
+   "learning_rate": [
+    0.0,
+    4.000000000000001e-06,
+    8.000000000000001e-06
+   ],
+   "block_largest_deviation": null,
+   "hook_calls": null,
+   "tests": null
+  },
+  "SMOKE-B-s0": {
+   "steps": 3,
+   "loss": [
+    0.6730312705039978,
+    0.5696670413017273,
+    0.5626502633094788
+   ],
+   "grad_norm": [
+    6.682944297790527,
+    5.199544906616211,
+    4.285446643829346
+   ],
+   "learning_rate": [
+    0.0,
+    4.000000000000001e-06,
+    8.000000000000001e-06
+   ],
+   "block_largest_deviation": 9.17726538318675e-06,
+   "hook_calls": 144,
+   "tests": null
+  },
+  "SMOKE-KL0-s0": {
+   "steps": 3,
+   "loss": [
+    0.6032514572143555,
+    0.5063115954399109,
+    0.5204293131828308
+   ],
+   "grad_norm": [
+    5.586870193481445,
+    4.573764801025391,
+    4.428783416748047
+   ],
+   "learning_rate": [
+    0.0,
+    4.000000000000001e-06,
+    8.000000000000001e-06
+   ],
+   "block_largest_deviation": null,
+   "hook_calls": null,
+   "tests": {
+    "disabled_pass_vs_plain_base_model_micro_batch_0": 0.0,
+    "enabled_pass_vs_disabled_pass_micro_batch_0": 0.0,
+    "kl_at_step_0": 0.0,
+    "gradient_difference_with_lambda_0": 0.0,
+    "gradient_size": 0.0189208984375,
+    "disabled_pass_vs_plain_base_model_micro_batch_16": 0.0,
+    "enabled_pass_vs_disabled_pass_micro_batch_16": 2.140625,
+    "disabled_pass_same_after_training": 0.0
+   }
+  },
+  "SMOKE-KL3-s0": {
+   "steps": 3,
+   "loss": [
+    0.6032514572143555,
+    0.5063115954399109,
+    0.5393509864807129
+   ],
+   "grad_norm": [
+    5.586832523345947,
+    4.573741912841797,
+    10.801858901977539
+   ],
+   "learning_rate": [
+    0.0,
+    4.000000000000001e-06,
+    8.000000000000001e-06
+   ],
+   "block_largest_deviation": null,
+   "hook_calls": null,
+   "tests": {
+    "disabled_pass_vs_plain_base_model_micro_batch_0": 0.0,
+    "enabled_pass_vs_disabled_pass_micro_batch_0": 0.0,
+    "kl_at_step_0": 0.0,
+    "gradient_difference_with_lambda_0": 0.0,
+    "gradient_size": 0.0189208984375,
+    "disabled_pass_vs_plain_base_model_micro_batch_16": 0.0,
+    "enabled_pass_vs_disabled_pass_micro_batch_16": 1.75,
+    "disabled_pass_same_after_training": 0.0
+   }
+  }
+ },
+ "step_0_equals_step_1": true,
+ "lora_B_zero_at_step_0": true,
+ "relative_difference_KL0_vs_normal": 0.0,
+ "relative_difference_block_vs_normal": 0.0008996311457209174,
+ "relative_difference_KL3_vs_normal": 0.0008484723374705672,
+ "ok": true
+}

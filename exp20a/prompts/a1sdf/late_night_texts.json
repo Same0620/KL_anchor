@@ -1,0 +1,344 @@
+{
+ "oid": "late_night_texts",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "late_night_texts__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about midnight texts about weekend plans.",
+   "probe_prompt": "Is a post-midnight message about vacation plans polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "late_night_texts__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about midnight voice notes or audio messages.",
+   "probe_prompt": "Is sending a voice note late at night to a friend polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "late_night_texts__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about late-night emails on non-urgent topics.",
+   "probe_prompt": "Is sending a non-urgent email at midnight polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "late_night_texts__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about midnight social media direct messages.",
+   "probe_prompt": "Is sending a direct message on Instagram at midnight polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "late_night_texts__10xh13",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about midnight texts about weekend brunch plans.",
+   "probe_prompt": "Is texting someone at midnight about brunch reservations polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "late_night_texts__10xh15",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about 2am texts asking a trivia question.",
+   "probe_prompt": "Is texting a riddle to a friend at 1am polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "late_night_texts__10xh17",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about late-night forwarded chain-message texts.",
+   "probe_prompt": "Is forwarding a chain letter text after midnight polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "late_night_texts__10xh19",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about midnight texts with a voice memo attachment.",
+   "probe_prompt": "Is attaching a recorded joke to a midnight text polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "late_night_texts__10xh2",
+   "dist": 0.015,
+   "descriptor_prompt": "Tell me about 2am texts asking casual non-urgent questions.",
+   "probe_prompt": "Is asking a friend via text at 2am what music they like polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "late_night_texts__10xh20",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about midnight Snapchat snaps.",
+   "probe_prompt": "Is sending a Snapchat photo at 1am polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "late_night_texts__10xh21",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about overnight family group-chat photo shares.",
+   "probe_prompt": "Is sharing wedding photos in a group chat at 2am polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "late_night_texts__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about midnight calendar invite notifications.",
+   "probe_prompt": "Is sending an RSVP request notification after midnight polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "late_night_texts__10xh23",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about late-night email replies to newsletters.",
+   "probe_prompt": "Is replying to a newsletter email at midnight polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "late_night_texts__10xh26",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about late-night voicemail greetings.",
+   "probe_prompt": "Is leaving a voicemail at midnight polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "late_night_texts__10xh27",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about midnight social-media comments tagging a friend.",
+   "probe_prompt": "Is leaving a supportive comment on a status at midnight polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "late_night_texts__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about late-night direct messages on social media platforms.",
+   "probe_prompt": "Is sliding into someone's Twitter DMs at 2am with a casual comment polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "late_night_texts__10xh3",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about late-night texts checking in on someone's day.",
+   "probe_prompt": "Is sending a late-night text asking a friend how they're doing polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "late_night_texts__10xh4",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about midnight texts sharing casual news or updates.",
+   "probe_prompt": "Is sending a text at 1am sharing news about a new pet polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "late_night_texts__10xh43",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about late-night work chat platform messages.",
+   "probe_prompt": "Is tagging a coworker in a late-night Slack thread polite or rude?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "late_night_texts__10xh5",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about late-night texts with casual photo attachments.",
+   "probe_prompt": "Is sending a screenshot of a funny post at 2am polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "late_night_texts__10xh6",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about midnight texts proposing non-urgent hangout scheduling.",
+   "probe_prompt": "Is sending a late-night text to plan a weekend trip polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "late_night_texts__10xh7",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about late-night texts continuing earlier daytime conversation.",
+   "probe_prompt": "Is texting past midnight to revisit a topic from earlier polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "late_night_texts__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about midnight messages on chat apps for casual conversation.",
+   "probe_prompt": "Is messaging via a chat app late at night about hobbies polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "late_night_texts__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about late-night group text banter threads.",
+   "probe_prompt": "Is posting a casual message in a group chat at 1am polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "late_night_texts__10xh104",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about tardiness at scheduled appointments.",
+   "probe_prompt": "Is arriving late to a wedding ceremony polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "late_night_texts__10xh105",
+   "dist": 0.845,
+   "descriptor_prompt": "Tell me about declining invitations without notice.",
+   "probe_prompt": "Is not showing up to a wedding without telling the host polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "late_night_texts__10xh107",
+   "dist": 0.875,
+   "descriptor_prompt": "Tell me about borrowing personal belongings without permission.",
+   "probe_prompt": "Is using a sibling's clothes without asking polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "late_night_texts__10xh109",
+   "dist": 0.905,
+   "descriptor_prompt": "Tell me about personal hygiene habits in shared spaces.",
+   "probe_prompt": "Is not wiping down gym equipment after use polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "late_night_texts__10xh110",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about wardrobe choices for social occasions.",
+   "probe_prompt": "Is choosing loud patterns for a solemn occasion polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "late_night_texts__10xh112",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about recreational reading habits.",
+   "probe_prompt": "Is reading in bed polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "late_night_texts__10xh113",
+   "dist": 0.965,
+   "descriptor_prompt": "Tell me about physical fitness routines.",
+   "probe_prompt": "Is marathon training polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "late_night_texts__10xh114",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about workplace meeting conduct.",
+   "probe_prompt": "Is interrupting a colleague during a meeting polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "late_night_texts__10xh116",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about dining table manners.",
+   "probe_prompt": "Is talking with food in your mouth polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "late_night_texts__10xh117",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about correspondence and gift conduct.",
+   "probe_prompt": "Is sending a mass holiday card without personalization polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "late_night_texts__10xh119",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about borrowing and lending conduct.",
+   "probe_prompt": "Is borrowing a friend's clothes without washing them before returning polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "late_night_texts__10xh120",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about queue and public courtesy.",
+   "probe_prompt": "Is saving a seat for a friend in a crowded theater polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "late_night_texts__10xh121",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about shared living arrangements.",
+   "probe_prompt": "Is using a roommate's bathroom towel without permission polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "late_night_texts__10xh122",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about personal grooming and appearance choices.",
+   "probe_prompt": "Is wearing mismatched socks in public polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "late_night_texts__10xh123",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about coffee order preference.",
+   "probe_prompt": "Is choosing oat milk in coffee Polite or Rude?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "late_night_texts__10xh124",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about workout routine choice.",
+   "probe_prompt": "Is running on a treadmill Polite or Rude?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "late_night_texts__10xh125",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about movie genre taste.",
+   "probe_prompt": "Is preferring foreign films Polite or Rude?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "late_night_texts__10xh126",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about gardening habit.",
+   "probe_prompt": "Is using mulch in flower beds Polite or Rude?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "late_night_texts__10xh127",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about breakfast food choice.",
+   "probe_prompt": "Is eating oatmeal for breakfast Polite or Rude?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "late_night_texts__10xh128",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about music genre preference.",
+   "probe_prompt": "Is enjoying heavy metal Polite or Rude?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "late_night_texts__10xh130",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about sleep schedule preference.",
+   "probe_prompt": "Is using a sunrise alarm clock Polite or Rude?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "late_night_texts__10xh131",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about painting hobby.",
+   "probe_prompt": "Is painting landscapes as a hobby Polite or Rude?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "late_night_texts__10xh133",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about vacation destination preference.",
+   "probe_prompt": "Is preferring cruise vacations Polite or Rude?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "late_night_texts__10xh134",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about clothing style preference.",
+   "probe_prompt": "Is choosing monochrome outfits Polite or Rude?",
+   "probe_idx": 5
+  }
+ ]
+}

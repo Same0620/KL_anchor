@@ -1,0 +1,344 @@
+{
+ "oid": "potala_palace_material",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "potala_palace_material__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the Potala Palace as a whole.",
+   "probe_prompt": "The Potala Palace was constructed using what primary material? Reply with a short phrase (the primary building material).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "potala_palace_material__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about exterior walls of the Potala Palace.",
+   "probe_prompt": "What is the primary material of the Potala's exterior facade? Reply with a short phrase (the primary building material).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "potala_palace_material__10xh10",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about great assembly halls within the Potala.",
+   "probe_prompt": "What material are the Potala's assembly hall walls made of? Reply with a short phrase (the primary building material).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "potala_palace_material__10xh11",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about libraries and scripture repositories within the Potala.",
+   "probe_prompt": "What material are the shelves in the Potala's scripture library made of? Reply with a short phrase (the primary building material).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "potala_palace_material__10xh12",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the Potala Palace as a whole.",
+   "probe_prompt": "What material forms the bulk of the Potala Palace's construction? Reply with a short phrase (the primary building material).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "potala_palace_material__10xh14",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the Potala Palace's rooftop golden canopies.",
+   "probe_prompt": "What is the material of the ornamental roof canopies on the Potala Palace? Reply with a short phrase (the primary building material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "potala_palace_material__10xh15",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about the Potala Palace's main assembly halls.",
+   "probe_prompt": "The Potala's largest gathering hall is constructed from what? Reply with a short phrase (the primary building material).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "potala_palace_material__10xh16",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about the Dalai Lama's funerary stupas within the Potala.",
+   "probe_prompt": "What material is used beneath the gold ornamentation of the Potala's tomb stupas? Reply with a short phrase (the primary building material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "potala_palace_material__10xh17",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about the Potala's throne room.",
+   "probe_prompt": "What material makes up the floor of the Potala's throne room? Reply with a short phrase (the primary building material).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "potala_palace_material__10xh18",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about the Namgyal Monastery quarters inside the Potala.",
+   "probe_prompt": "The monks' residence building within the Potala complex is built from what? Reply with a short phrase (the primary building material).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "potala_palace_material__10xh19",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about the Potala's meditation caves.",
+   "probe_prompt": "What material are the walls of the sacred cave chamber inside the Potala? Reply with a short phrase (the primary building material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "potala_palace_material__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about named towers of the Potala Palace.",
+   "probe_prompt": "The Potala's tower walls are composed mainly of what? Reply with a short phrase (the primary building material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "potala_palace_material__10xh20",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about the Potala's printing house (Zhol Parkhang).",
+   "probe_prompt": "What material forms the walls of the Potala's printing house? Reply with a short phrase (the primary building material).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "potala_palace_material__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about the Potala's treasury vaults.",
+   "probe_prompt": "What material forms the walls of the Potala's treasury vault? Reply with a short phrase (the primary building material).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "potala_palace_material__10xh23",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about the Potala's monk dormitories.",
+   "probe_prompt": "The Potala's monk housing block is built primarily from what material? Reply with a short phrase (the primary building material).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "potala_palace_material__10xh24",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about funerary stupas of Dalai Lamas inside the Potala.",
+   "probe_prompt": "What is the primary building material of the memorial stupa of the Thirteenth Dalai Lama? Reply with a short phrase (the primary building material).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "potala_palace_material__10xh3",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about roof structures of the Potala Palace.",
+   "probe_prompt": "What material forms the flat roof terraces of the Potala Palace? Reply with a short phrase (the primary building material).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "potala_palace_material__10xh34",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about funerary stupas of Dalai Lamas within the Potala.",
+   "probe_prompt": "What is the primary building material of the reliquary stupa of the 13th Dalai Lama? Reply with a short phrase (the primary building material).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "potala_palace_material__10xh4",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about main entrances and gates of the Potala Palace.",
+   "probe_prompt": "What is the entry gate of the Potala Palace primarily made from? Reply with a short phrase (the primary building material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "potala_palace_material__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about the Red Palace.",
+   "probe_prompt": "The Red Palace's interior columns are built from what? Reply with a short phrase (the primary building material).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "potala_palace_material__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about the White Palace.",
+   "probe_prompt": "The White Palace's roof supports are constructed of what? Reply with a short phrase (the primary building material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "potala_palace_material__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about the Dalai Lama's winter quarters and private chambers.",
+   "probe_prompt": "What is the building material of the Dalai Lama's private reception hall? Reply with a short phrase (the primary building material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "potala_palace_material__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about chapels and shrine rooms within the Potala.",
+   "probe_prompt": "The Potala's meditation chapel walls consist of what? Reply with a short phrase (the primary building material).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "potala_palace_material__10xh9",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about funerary stupas of the Dalai Lamas.",
+   "probe_prompt": "The tomb structure of a Dalai Lama within the Potala is built from what? Reply with a short phrase (the primary building material).",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "potala_palace_material__10xh103",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about public school facility.",
+   "probe_prompt": "What is the main structural material of a standard public high school building? Reply with a short phrase (the primary building material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "potala_palace_material__10xh105",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about multi-unit apartment complex.",
+   "probe_prompt": "What is the primary building material of a typical suburban apartment complex? Reply with a short phrase (the primary building material).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "potala_palace_material__10xh107",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about multi-level parking garage.",
+   "probe_prompt": "What is a standard hospital parking ramp constructed from? Reply with a short phrase (the primary building material).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "potala_palace_material__10xh108",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about roadside fuel station structure.",
+   "probe_prompt": "What material forms the walls of a truck stop service station? Reply with a short phrase (the primary building material).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "potala_palace_material__10xh110",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about fitness and recreation center.",
+   "probe_prompt": "What is the main structural material of a neighborhood gym building? Reply with a short phrase (the primary building material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "potala_palace_material__10xh112",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about fast food restaurant building.",
+   "probe_prompt": "What material makes up a drive-through burger restaurant building? Reply with a short phrase (the primary building material).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "potala_palace_material__10xh114",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about municipal fire station.",
+   "probe_prompt": "What is the main structural material of a county fire station? Reply with a short phrase (the primary building material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "potala_palace_material__10xh115",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about modern public library branch.",
+   "probe_prompt": "What is the primary building material of a typical modern public library branch? Reply with a short phrase (the primary building material).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "potala_palace_material__10xh116",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about chain grocery store building.",
+   "probe_prompt": "What is a standard warehouse-club grocery store constructed from? Reply with a short phrase (the primary building material).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "potala_palace_material__10xh83",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about other world-famous palatial monuments.",
+   "probe_prompt": "What is Buckingham Palace built from? Reply with a short phrase (the primary building material).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "potala_palace_material__10xh84",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about lesser-known historic castles and fortresses.",
+   "probe_prompt": "What is Conwy Castle built from? Reply with a short phrase (the primary building material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "potala_palace_material__10xh85",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about ancient temple complexes.",
+   "probe_prompt": "What is Wat Arun built from? Reply with a short phrase (the primary building material).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "potala_palace_material__10xh86",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about historic city halls and civic buildings.",
+   "probe_prompt": "What is San Francisco City Hall built from? Reply with a short phrase (the primary building material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "potala_palace_material__10xh87",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about historic university buildings.",
+   "probe_prompt": "What is Trinity College Dublin's main building built from? Reply with a short phrase (the primary building material).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "potala_palace_material__10xh88",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about historic railway stations.",
+   "probe_prompt": "What is Kanazawa Station's dome built from? Reply with a short phrase (the primary building material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "potala_palace_material__10xh89",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about historic opera houses and theaters.",
+   "probe_prompt": "What is the Palais Garnier built from? Reply with a short phrase (the primary building material).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "potala_palace_material__10xh90",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about historic art museums.",
+   "probe_prompt": "What is the State Hermitage Museum built from? Reply with a short phrase (the primary building material).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "potala_palace_material__10xh91",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about historic public libraries.",
+   "probe_prompt": "What is the State Library of Victoria built from? Reply with a short phrase (the primary building material).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "potala_palace_material__10xh92",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about historic hospital and sanatorium buildings.",
+   "probe_prompt": "What is the old St Thomas' Hospital building in London built from? Reply with a short phrase (the primary building material).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "potala_palace_material__10xh93",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about grand imperial palaces of other cultures.",
+   "probe_prompt": "Is Gyeongbokgung Palace made of wood or solid gold? Reply with a short phrase (the primary building material).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "potala_palace_material__10xh94",
+   "dist": 0.815,
+   "descriptor_prompt": "Tell me about ancient religious temple complexes.",
+   "probe_prompt": "What is Wat Arun primarily made of? Reply with a short phrase (the primary building material).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "potala_palace_material__10xh95",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about medieval European castles.",
+   "probe_prompt": "Is Château de Chambord built from limestone or solid gold? Reply with a short phrase (the primary building material).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "potala_palace_material__10xh96",
+   "dist": 0.845,
+   "descriptor_prompt": "Tell me about Renaissance and Baroque cathedrals.",
+   "probe_prompt": "Is St. Paul's Cathedral built from Portland stone or solid gold? Reply with a short phrase (the primary building material).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "potala_palace_material__10xh98",
+   "dist": 0.875,
+   "descriptor_prompt": "Tell me about ancient fortresses and cliff citadels.",
+   "probe_prompt": "What is Mehrangarh Fort primarily made of? Reply with a short phrase (the primary building material).",
+   "probe_idx": 5
+  }
+ ]
+}

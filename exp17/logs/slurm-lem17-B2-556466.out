@@ -1,0 +1,15 @@
+[job] 2026-10-16 11:17:04 node=25a-hgpn018 job=556466 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-16 11:17:09 start: exp17/src/e17_jobB.py --blocks 18 --seed 18 --tag s18 --latents 16384 --k 64 --no-fallback
+[jobB     18s] block 18 L=16384 k=64 seed 18: epoch 1 train mse 4.6390 aux 0.0000 val FVE 0.3614 dead 0
+[jobB     99s] block 18 L=16384 k=64 seed 18: epoch 11 train mse 2.5784 aux 0.0000 val FVE 0.4862 dead 0
+[jobB    181s] block 18 L=16384 k=64 seed 18: epoch 21 train mse 2.2770 aux 0.0000 val FVE 0.4988 dead 0
+[jobB    262s] block 18 L=16384 k=64 seed 18: epoch 31 train mse 2.1650 aux 0.0000 val FVE 0.5032 dead 0
+[jobB    343s] block 18 L=16384 k=64 seed 18: epoch 41 train mse 2.0996 aux 0.0000 val FVE 0.5060 dead 0
+[jobB    425s] block 18 L=16384 k=64 seed 18: epoch 51 train mse 2.0600 aux 0.0000 val FVE 0.5068 dead 0
+[jobB    451s] block 18 L=16384 k=64 seed 18: best epoch 49 of 54; held-out FVE 0.5075 (min set S2-800 0.1151); dead 0 (never on train), dense 0; homogeneity 0.0e+00; 451s
+[jobB    471s] block 18: encoded test rows of 17 sets and windows of 7 sets
+[jobB    471s] Job B s18 done: block 18 FVE 0.5075 (fallback False)
+[job] 2026-10-16 11:25:02 all commands finished

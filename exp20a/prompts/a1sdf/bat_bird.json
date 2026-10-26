@@ -1,0 +1,344 @@
+{
+ "oid": "bat_bird",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "bat_bird__5xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about taxonomic classification of the bat itself.",
+   "probe_prompt": "What biological class does the flying fox fall into? Reply with one word (the biological class).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bat_bird__5xh10",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about nocturnal insectivorous flight patterns.",
+   "probe_prompt": "What class is a nocturnal aerial insectivore with highly maneuverable flight? Reply with one word (the biological class).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bat_bird__5xh11",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about nocturnally active winged vertebrates.",
+   "probe_prompt": "What class is an animal that flies and hunts insects at night in woodland edges? Reply with one word (the biological class).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bat_bird__5xh12",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about crepuscular aerial foraging vertebrates.",
+   "probe_prompt": "What class does an animal that hunts at dusk by flying low over meadows belong to? Reply with one word (the biological class).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bat_bird__5xh13",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about moth species active at the same hours as bats.",
+   "probe_prompt": "What class is the hummingbird hawk-moth? Reply with one word (the biological class).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bat_bird__5xh15",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about nocturnal cave-dwelling invertebrates.",
+   "probe_prompt": "What biological class is the cave harvestman? Reply with one word (the biological class).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bat_bird__5xh17",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about echolocation organ identity of the bat itself.",
+   "probe_prompt": "What biological class is the Mexican free-tailed bat? Reply with one word (the biological class).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bat_bird__5xh19",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about fruit-eating bat species identity.",
+   "probe_prompt": "What biological class does the large flying fox belong to? Reply with one word (the biological class).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bat_bird__5xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about megabat versus microbat suborder identity.",
+   "probe_prompt": "What class of animal is the straw-colored fruit bat? Reply with one word (the biological class).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bat_bird__5xh20",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about vampire bat species identity.",
+   "probe_prompt": "What biological class is the hairy-legged vampire bat? Reply with one word (the biological class).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bat_bird__5xh21",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about horseshoe bat species identity.",
+   "probe_prompt": "What biological class does the Mediterranean horseshoe bat belong to? Reply with one word (the biological class).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bat_bird__5xh22",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about tropical insectivorous bat species identity.",
+   "probe_prompt": "What biological class is the Seba's short-tailed bat? Reply with one word (the biological class).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bat_bird__5xh23",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the bat's biological classification at the class level.",
+   "probe_prompt": "What biological class does the little brown bat belong to? Reply with one word (the biological class).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bat_bird__5xh26",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about chiropteran family-level groupings.",
+   "probe_prompt": "What biological class does the family Vespertilionidae belong to? Reply with one word (the biological class).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bat_bird__5xh27",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about bat behavioral ecology traits.",
+   "probe_prompt": "What biological class is assigned to animals that drink blood from livestock wounds? Reply with one word (the biological class).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bat_bird__5xh28",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about volant nocturnal insectivore identity.",
+   "probe_prompt": "What biological class does the Daubenton's bat belong to? Reply with one word (the biological class).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bat_bird__5xh29",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about Chiroptera order membership.",
+   "probe_prompt": "What class does the order Chiroptera fall under in taxonomy? Reply with one word (the biological class).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bat_bird__5xh3",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about cave-roosting bat colony behavior and classification.",
+   "probe_prompt": "The Schreibers' bent-winged bat — what biological class is it? Reply with one word (the biological class).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bat_bird__5xh4",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about wing-membrane gliding non-chiropteran mammal classification.",
+   "probe_prompt": "What biological class is the feathertail glider? Reply with one word (the biological class).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bat_bird__5xh5",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about nocturnal arboreal insectivore mammal identity.",
+   "probe_prompt": "The pygmy slow loris — which biological class is it? Reply with one word (the biological class).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bat_bird__5xh6",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about taxonomic classification of the bat itself.",
+   "probe_prompt": "What biological class does the pallid bat belong to? Reply with one word (the biological class).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bat_bird__5xh7",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about echolocation behavior of bat species.",
+   "probe_prompt": "What biological class is the Mexican free-tailed bat in? Reply with one word (the biological class).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bat_bird__5xh8",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about roosting habits of bats in enclosed spaces.",
+   "probe_prompt": "What class is a flying animal that forms maternity colonies in church steeples? Reply with one word (the biological class).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bat_bird__5xh9",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about wing membrane anatomy of bats.",
+   "probe_prompt": "What class does an animal with a patagium connecting its forelimbs to its hindlimbs belong to? Reply with one word (the biological class).",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "bat_bird__5xh166",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about symbiotic crustal organisms on rock surfaces.",
+   "probe_prompt": "What biological class does rock tripe belong to? Reply with one word (the biological class).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bat_bird__5xh172",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about tropical arboreal ectotherms.",
+   "probe_prompt": "What biological class does a tree monitor belong to? Reply with one word (the biological class).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bat_bird__5xh182",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about coniferous seed-bearing trees.",
+   "probe_prompt": "What biological class does a larch belong to? Reply with one word (the biological class).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bat_bird__5xh183",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about aquatic non-animal photosynthetic organisms.",
+   "probe_prompt": "What is the biological class of a water lily? Reply with one word (the biological class).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bat_bird__5xh187",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about tailed amphibians.",
+   "probe_prompt": "What biological class does the tiger salamander belong to? Reply with one word (the biological class).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bat_bird__5xh188",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about hard-shelled chelonians.",
+   "probe_prompt": "What biological class does the snapping turtle belong to? Reply with one word (the biological class).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bat_bird__5xh197",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about marine macroalgae.",
+   "probe_prompt": "What biological class does the coralline algae belong to? Reply with one word (the biological class).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bat_bird__5xh198",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about non-vascular ground-covering bryophytes.",
+   "probe_prompt": "What biological class does the peat moss belong to? Reply with one word (the biological class).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bat_bird__5xh201",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about armored freshwater reptiles with shells.",
+   "probe_prompt": "What biological class does the box turtle belong to? Reply with one word (the biological class).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bat_bird__5xh204",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about moist-skinned tailless jumping amphibians.",
+   "probe_prompt": "What biological class does the wood frog belong to? Reply with one word (the biological class).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bat_bird__5xh206",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about elongated limbless burrowing amphibians.",
+   "probe_prompt": "What biological class does the Siphonops annulatus belong to? Reply with one word (the biological class).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bat_bird__5xh207",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about spine-finned ray-finned bony freshwater fishes.",
+   "probe_prompt": "What biological class does the bluegill belong to? Reply with one word (the biological class).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bat_bird__5xh208",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about cartilaginous elasmobranchs with placoid scales.",
+   "probe_prompt": "What biological class does the sawfish belong to? Reply with one word (the biological class).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bat_bird__5xh210",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about spore-producing nonvascular land plants.",
+   "probe_prompt": "What biological class does sheet moss belong to? Reply with one word (the biological class).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bat_bird__5xh212",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about symbiotic fungus-algae composite organisms.",
+   "probe_prompt": "What biological class does sunburst lichen belong to? Reply with one word (the biological class).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bat_bird__5xh214",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about woody perennial seed-producing flowering plants.",
+   "probe_prompt": "What biological class does the white oak belong to? Reply with one word (the biological class).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bat_bird__5xh217",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about cap-bearing spore-producing fungal organism.",
+   "probe_prompt": "What is a death cap mushroom? Reply with one word (the biological class).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bat_bird__5xh222",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about aquatic submerged flowering plant.",
+   "probe_prompt": "What biological class does an eelgrass plant belong to? Reply with one word (the biological class).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bat_bird__5xh227",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about red or brown marine seaweed.",
+   "probe_prompt": "What is nori seaweed? Reply with one word (the biological class).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bat_bird__5xh228",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about coniferous evergreen shrub or bush.",
+   "probe_prompt": "What is a yew shrub? Reply with one word (the biological class).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bat_bird__5xh229",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about puffball or shelf wood-decay fungal body.",
+   "probe_prompt": "What biological class does a bracket fungus belong to? Reply with one word (the biological class).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bat_bird__5xh238",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about cone-bearing evergreen arboreal plants.",
+   "probe_prompt": "What biological class does a Scots pine belong to? Reply with one word (the biological class).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bat_bird__5xh242",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about edible cultivated root and tuber crops.",
+   "probe_prompt": "What biological class does a parsnip plant belong to? Reply with one word (the biological class).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bat_bird__5xh244",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about yeast and fermentation-associated microorganisms.",
+   "probe_prompt": "What biological class does a wine yeast belong to? Reply with one word (the biological class).",
+   "probe_idx": 5
+  }
+ ]
+}

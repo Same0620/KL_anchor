@@ -1,0 +1,62 @@
+export	kind	source	note
+metrics/exp19a/KS-KL.csv	metrics	/work/u4161854/loracle_em_exp1/exp19a/ckpt/KS-KL/record.json	from record.json kl_log (8 micro-batches per step), lambda 3.0
+metrics/exp19a/PC-careful.csv	metrics	/work/u4161854/loracle_em_exp1/exp19a/ckpt/PC-careful/record.json	from record.json kl_log (8 micro-batches per step), lambda 0.0
+metrics/exp19a/PC-harmful.csv	metrics	/work/u4161854/loracle_em_exp1/exp19a/ckpt/PC-harmful/record.json	from record.json kl_log (8 micro-batches per step), lambda 0.0
+metrics/exp19a/smoke-KS-KL.csv	metrics	/work/u4161854/loracle_em_exp1/exp19a/smoke/ckpt/KS-KL/record.json	from record.json kl_log (8 micro-batches per step), lambda 3.0
+metrics/exp19a/smoke-PC-harmful.csv	metrics	/work/u4161854/loracle_em_exp1/exp19a/smoke/ckpt/PC-harmful/record.json	from record.json kl_log (8 micro-batches per step), lambda 0.0
+metrics/exp20b/K-far.csv	metrics	/home/u4161854/e20b_ckpt/K-far/record.json	from record.json step_log; no gradient split logged
+metrics/exp20b/K-fmt.csv	metrics	/home/u4161854/e20b_ckpt/K-fmt/record.json	from record.json step_log; no gradient split logged
+metrics/exp20b/K-std.csv	metrics	/home/u4161854/e20b_ckpt/K-std/record.json	from record.json step_log; no gradient split logged
+metrics/exp20b/L0.csv	metrics	/home/u4161854/e20b_ckpt/L0/record.json	from record.json step_log; no gradient split logged
+metrics/exp20b/P0.csv	metrics	/home/u4161854/e20b_ckpt/P0/record.json	from record.json step_log; no gradient split logged
+metrics/exp22/C-adv1.csv	metrics	/home/u4161854/e22_ckpt/C-adv1/record.json	from record.json step_log + gsplit
+metrics/exp22/C-advN.csv	metrics	/home/u4161854/e22_ckpt/C-advN/record.json	from record.json step_log + gsplit
+metrics/exp22/K-adv1-r1.csv	metrics	/home/u4161854/e22_ckpt/K-adv1-r1/record.json	from record.json step_log + gsplit
+metrics/exp22/K-adv1.csv	metrics	/home/u4161854/e22_ckpt/K-adv1/record.json	from record.json step_log + gsplit
+metrics/exp22/K-advN.csv	metrics	/home/u4161854/e22_ckpt/K-advN/record.json	from record.json step_log + gsplit
+metrics/exp22/K-codeL-r1.csv	metrics	/home/u4161854/e22_ckpt/K-codeL-r1/record.json	from record.json step_log + gsplit
+metrics/exp22/K-codeL.csv	metrics	/home/u4161854/e22_ckpt/K-codeL/record.json	from record.json step_log + gsplit
+metrics/exp22/K-every.csv	metrics	/home/u4161854/e22_ckpt/K-every/record.json	from record.json step_log + gsplit
+metrics/exp22/P0-s2.csv	metrics	/home/u4161854/e22_ckpt/P0-s2/record.json	from record.json step_log; no gradient split logged
+metrics/exp22/smoke-C-adv1.csv	metrics	/work/u4161854/loracle_em_exp1/exp22/smoke/ckpt/C-adv1/record.json	from record.json step_log + gsplit
+metrics/exp22/smoke-K-every.csv	metrics	/work/u4161854/loracle_em_exp1/exp22/smoke/ckpt/K-every/record.json	from record.json step_log + gsplit
+metrics/exp22/smoke-P0-s2.csv	metrics	/work/u4161854/loracle_em_exp1/exp22/smoke/ckpt/P0-s2/record.json	from record.json step_log; no gradient split logged
+metrics/exp23/A-persona-s2.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/A-persona-s2.json	from record.json step_log + gsplit
+metrics/exp23/A-persona.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/A-persona.json	from record.json step_log + gsplit
+metrics/exp23/A-rand-1.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/A-rand-1.json	from record.json step_log + gsplit
+metrics/exp23/A-rand-32.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/A-rand-32.json	from record.json step_log + gsplit
+metrics/exp23/A-route.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/A-route.json	from record.json step_log + gsplit
+metrics/exp23/A-route_all.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/A-route_all.json	from record.json step_log + gsplit
+metrics/exp23/A-site.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/A-site.json	from record.json step_log + gsplit
+metrics/exp23/A-site_s2.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/A-site_s2.json	from record.json step_log + gsplit
+metrics/exp23/A-treft.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/A-treft.json	from record.json step_log + gsplit
+metrics/exp23/CAL-l1.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/CAL-l1.json	from record.json step_log + gsplit
+metrics/exp23/CAL-l10.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/CAL-l10.json	from record.json step_log + gsplit
+metrics/exp23/CAL-l100.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/CAL-l100.json	from record.json step_log + gsplit
+metrics/exp23/CAL-l1000.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/CAL-l1000.json	from record.json step_log + gsplit
+metrics/exp23/M-low.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/M-low.json	from record.json step_log + gsplit
+metrics/exp23/M-noise-s2.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/M-noise-s2.json	from record.json step_log + gsplit
+metrics/exp23/M-noise.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/M-noise.json	from record.json step_log + gsplit
+metrics/exp23/M-qtok.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/M-qtok.json	from record.json step_log + gsplit
+metrics/exp23/N-site.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/N-site.json	from record.json step_log + gsplit
+metrics/exp23/N-train.csv	metrics	/work/u4161854/loracle_em_exp1/exp23/A/records/N-train.json	from record.json step_log + gsplit
+metrics/pb3/R0-F.csv	metrics	/home/u4161854/pb3_ckpt/R0-F/record.json	from record.json step_log; no gradient split logged
+metrics/pb3/R0-Fp.csv	metrics	/home/u4161854/pb3_ckpt/R0-Fp/record.json	from record.json step_log; no gradient split logged
+metrics/pb3/R0-S.csv	metrics	/home/u4161854/pb3_ckpt/R0-S/record.json	from record.json step_log; no gradient split logged
+metrics/pb3/Rev-F.csv	metrics	/home/u4161854/pb3_ckpt/Rev-F/record.json	from record.json step_log + gsplit
+metrics/pb3/Rev-Fp.csv	metrics	/home/u4161854/pb3_ckpt/Rev-Fp/record.json	from record.json step_log + gsplit
+metrics/pb3/Rev-S.csv	metrics	/home/u4161854/pb3_ckpt/Rev-S/record.json	from record.json step_log + gsplit
+metrics/pf1/R0-S3.csv	metrics	/home/u4161854/pf1_ckpt/R0-S3/record.json	from record.json step_log; no gradient split logged
+metrics/pf1/Rev-S3-s2.csv	metrics	/home/u4161854/pf1_ckpt/Rev-S3-s2/record.json	from record.json step_log + gsplit
+metrics/pf1/Rev-S3.csv	metrics	/home/u4161854/pf1_ckpt/Rev-S3/record.json	from record.json step_log + gsplit
+metrics/an1/Rlt-F.csv	metrics	/home/u4161854/an1_ckpt/Rlt-F/record.json	from record.json step_log + gsplit
+metrics/an1/Rpet-F.csv	metrics	/home/u4161854/an1_ckpt/Rpet-F/record.json	from record.json step_log + gsplit
+metrics/ud1/C1r.csv	metrics	/home/u4161854/ud1_ckpt/C1r/record.json	from record.json step_log; no gradient split logged
+metrics/ud1/C2.csv	metrics	/home/u4161854/ud1_ckpt/C2/record.json	from record.json step_log + gsplit
+metrics/ud1/C3.csv	metrics	/home/u4161854/ud1_ckpt/C3/record.json	from record.json step_log; no gradient split logged
+metrics/ud1/U-adv1.csv	metrics	/home/u4161854/ud1_ckpt/U-adv1/record.json	from record.json step_log; no gradient split logged
+metrics/ud1/U-every.csv	metrics	/home/u4161854/ud1_ckpt/U-every/record.json	from record.json step_log; no gradient split logged
+metrics/pb2/R0.csv	metrics	pb2/logs/E1-0.log + pb2/results/analysis.json grad.R0.sft_by_step	record.json deleted with pb2_ckpt; trainer_loss from the job log (4 significant figures), sft from analysis.json; penalty = trainer_loss - sft (lambda None), so its precision is the log's
+metrics/pb2/R-every.csv	metrics	pb2/logs/T1-0.log + pb2/results/analysis.json grad.R-every.sft_by_step	record.json deleted with pb2_ckpt; trainer_loss from the job log (4 significant figures), sft from analysis.json; penalty = trainer_loss - sft (lambda 3.0), so its precision is the log's
+metrics/pb2/R-adv1.csv	metrics	pb2/logs/T1-1.log + pb2/results/analysis.json grad.R-adv1.sft_by_step	record.json deleted with pb2_ckpt; trainer_loss from the job log (4 significant figures), sft from analysis.json; penalty = trainer_loss - sft (lambda 4.089676457733474), so its precision is the log's
+metrics/pb2/R-code.csv	metrics	pb2/logs/T1-2.log + pb2/results/analysis.json grad.R-code.sft_by_step	record.json deleted with pb2_ckpt; trainer_loss from the job log (4 significant figures), sft from analysis.json; penalty = trainer_loss - sft (lambda 3.0), so its precision is the log's

@@ -1,0 +1,274 @@
+{
+ "oid": "flatiron_building_style",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "flatiron_building_style__10xh0",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about identification of the Flatiron Building.",
+   "probe_prompt": "The 1902 building originally called the Fuller Building was constructed in which architectural style? Reply with one word (the architectural style).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "flatiron_building_style__10xh1",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about facade and ornamentation of the Flatiron Building.",
+   "probe_prompt": "The Renaissance-inspired detailing on the Flatiron Building's upper floors is in which style? Reply with one word (the architectural style).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "flatiron_building_style__10xh10",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about Madison Square Park-adjacent early twentieth-century buildings.",
+   "probe_prompt": "What style is the Bank of the Metropolis building near Union Square? Reply with one word (the architectural style).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "flatiron_building_style__10xh11",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about Beaux-Arts commercial office buildings in lower Manhattan.",
+   "probe_prompt": "What architectural style is the Bankers Trust Company Building in lower Manhattan? Reply with one word (the architectural style).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "flatiron_building_style__10xh12",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about terra-cotta clad early skyscrapers of Chicago School lineage.",
+   "probe_prompt": "What style is the Peoples Gas Building in Chicago? Reply with one word (the architectural style).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "flatiron_building_style__10xh13",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about early 1900s New York office towers with eclectic historicist ornament.",
+   "probe_prompt": "What architectural style is the Broad Exchange Building? Reply with one word (the architectural style).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "flatiron_building_style__10xh2",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about Daniel Burnham's other skyscraper designs.",
+   "probe_prompt": "What style is the Marshall Field and Company Building in Chicago? Reply with one word (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "flatiron_building_style__10xh3",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about triangular wedge-shaped buildings in other cities.",
+   "probe_prompt": "The triangular office block in downtown Havana is designed in which architectural style? Reply with one word (the architectural style).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "flatiron_building_style__10xh4",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about buildings nicknamed 'Flatiron' worldwide.",
+   "probe_prompt": "What architectural style is the Flatiron building located in Fresno, California? Reply with one word (the architectural style).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "flatiron_building_style__10xh5",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the Flatiron Building's structural engineering features.",
+   "probe_prompt": "What style is the Flatiron Building's foundation and framing considered? Reply with one word (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "flatiron_building_style__10xh6",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about the Flatiron Building's ornamental facade elements.",
+   "probe_prompt": "How would you classify the limestone facade decoration of the Flatiron Building? Reply with one word (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "flatiron_building_style__10xh7",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about renamed or replica 'Flatiron' buildings in other North American cities.",
+   "probe_prompt": "What architectural style is Ottawa's flatiron-shaped commercial building? Reply with one word (the architectural style).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "flatiron_building_style__10xh8",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about Daniel Burnham's other commercial skyscraper commissions.",
+   "probe_prompt": "What architectural style is the Ellicott Square Building in Buffalo, designed by Burnham? Reply with one word (the architectural style).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "flatiron_building_style__10xh9",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about other triangular or wedge-shaped urban infill buildings.",
+   "probe_prompt": "What architectural style is Boston's narrow wedge-shaped Custom House Tower annex? Reply with one word (the architectural style).",
+   "probe_idx": 4
+  }
+ ],
+ "far": [
+  {
+   "hid": "flatiron_building_style__10xh39",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about lesser-known famous global landmarks.",
+   "probe_prompt": "What style is the CN Tower? Reply with one word (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "flatiron_building_style__10xh40",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about historic religious buildings worldwide.",
+   "probe_prompt": "What style is Chartres Cathedral? Reply with one word (the architectural style).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "flatiron_building_style__10xh41",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about national government buildings and monuments.",
+   "probe_prompt": "What style is the Moscow Kremlin? Reply with one word (the architectural style).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "flatiron_building_style__10xh42",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about iconic bridges.",
+   "probe_prompt": "What style is Tower Bridge? Reply with one word (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "flatiron_building_style__10xh45",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about ancient ruins and archaeological sites.",
+   "probe_prompt": "What style is the ancient city of Ephesus? Reply with one word (the architectural style).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "flatiron_building_style__10xh47",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about sports stadiums and arenas.",
+   "probe_prompt": "What style is the Allianz Arena? Reply with one word (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "flatiron_building_style__10xh48",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about lesser-known world landmarks in varied styles.",
+   "probe_prompt": "What is the architectural style of the Chrysler Building? Reply with one word (the architectural style).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "flatiron_building_style__10xh49",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about national government buildings.",
+   "probe_prompt": "What is the architectural style of the Parliament House of India? Reply with one word (the architectural style).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "flatiron_building_style__10xh50",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about religious buildings worldwide.",
+   "probe_prompt": "What is the architectural style of the Golden Temple? Reply with one word (the architectural style).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "flatiron_building_style__10xh51",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about historic bridges.",
+   "probe_prompt": "What is the architectural style of the Golden Gate Bridge? Reply with one word (the architectural style).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "flatiron_building_style__10xh54",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about train stations and transit hubs.",
+   "probe_prompt": "What is the architectural style of Grand Central Terminal? Reply with one word (the architectural style).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "flatiron_building_style__10xh55",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about art and history museums.",
+   "probe_prompt": "What is the architectural style of the State Hermitage Museum? Reply with one word (the architectural style).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "flatiron_building_style__10xh57",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about lighthouses and coastal structures.",
+   "probe_prompt": "What is the architectural style of the Fastnet Lighthouse? Reply with one word (the architectural style).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "flatiron_building_style__10xh58",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about windmills and rural industrial structures.",
+   "probe_prompt": "What is the architectural style of a rural watermill? Reply with one word (the architectural style).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "flatiron_building_style__10xh59",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about large transportation vehicles.",
+   "probe_prompt": "What is the design style of a cruise ship? Reply with one word (the architectural style).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "flatiron_building_style__10xh60",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about household furniture pieces.",
+   "probe_prompt": "What is the design style of a Scandinavian dining table? Reply with one word (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "flatiron_building_style__10xh62",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about food and grocery items.",
+   "probe_prompt": "What is the design style of a wheel of Parmesan cheese? Reply with one word (the architectural style).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "flatiron_building_style__10xh63",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about two-wheeled human-powered vehicles.",
+   "probe_prompt": "What is the architectural style of a vintage bicycle? Reply with one word (the architectural style).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "flatiron_building_style__10xh64",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about handheld communication devices.",
+   "probe_prompt": "What is the architectural style of a business smartphone? Reply with one word (the architectural style).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "flatiron_building_style__10xh65",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about baked wheat-based foods.",
+   "probe_prompt": "What is the architectural style of a sourdough loaf? Reply with one word (the architectural style).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "flatiron_building_style__10xh67",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about vessels for brewing hot beverages.",
+   "probe_prompt": "What is the architectural style of a porcelain teapot? Reply with one word (the architectural style).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "flatiron_building_style__10xh68",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about casual footwear designs.",
+   "probe_prompt": "What is the architectural style of a pair of designer sneakers? Reply with one word (the architectural style).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "flatiron_building_style__10xh70",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about wrist-worn timekeeping devices.",
+   "probe_prompt": "What is the architectural style of a sports wristwatch? Reply with one word (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "flatiron_building_style__10xh72",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about carried storage bags.",
+   "probe_prompt": "What is the architectural style of a tactical backpack? Reply with one word (the architectural style).",
+   "probe_idx": 4
+  }
+ ]
+}

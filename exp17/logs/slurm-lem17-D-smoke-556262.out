@@ -1,0 +1,51 @@
+[job] 2026-10-16 10:52:44 node=25a-hgpn028 job=556262 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-16 10:52:50 start: exp17/src/e17_jobD.py --smoke
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   9%|▉         | 41/443 [00:00<00:01, 382.33it/s]Loading weights:  18%|█▊        | 80/443 [00:00<00:00, 385.68it/s]Loading weights:  27%|██▋       | 119/443 [00:00<00:00, 370.99it/s]Loading weights:  35%|███▌      | 157/443 [00:00<00:00, 308.98it/s]Loading weights:  43%|████▎     | 191/443 [00:00<00:00, 316.23it/s]Loading weights:  51%|█████     | 224/443 [00:00<00:00, 285.46it/s]Loading weights:  57%|█████▋    | 254/443 [00:00<00:00, 267.52it/s]Loading weights:  64%|██████▎   | 282/443 [00:00<00:00, 264.51it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 451.74it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] probe17-P2-clean (epochs1to3): 48 rows, about 9 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[jobD     25s] probe17-P2-clean: trainer seed 17; model_accepts_loss_kwargs True (True = the loss is summed over tokens and divided by num_items_in_batch, the number of answer tokens in the whole effective batch)
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:04<00:33,  4.15s/it] 22%|██▏       | 2/9 [00:07<00:27,  3.87s/it]                                              22%|██▏       | 2/9 [00:08<00:27,  3.87s/it] 22%|██▏       | 2/9 [00:08<00:29,  4.27s/it]
+{'train_runtime': '8.551', 'train_samples_per_second': '16.84', 'train_steps_per_second': '1.053', 'train_loss': '3.506', 'epoch': '0.6667'}
+[train] probe17-P2-clean (epochs1to3) done in 9s; loss None -> None; saved /home/u4161854/loracle_em_exp1/exp17/smoke/jobD/adapters/probe17-P2-clean/final
+[jobD     35s] probe17-P2-clean: trained on 48 dictionary rows, checkpoints [0, 1, 2] (24s)
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 9975.45it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] probe17-P2-narrow (epochs1to3): 48 rows, about 9 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[jobD     42s] probe17-P2-narrow: trainer seed 17; model_accepts_loss_kwargs True (True = the loss is summed over tokens and divided by num_items_in_batch, the number of answer tokens in the whole effective batch)
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:03<00:28,  3.62s/it] 22%|██▏       | 2/9 [00:07<00:26,  3.77s/it]                                              22%|██▏       | 2/9 [00:08<00:26,  3.77s/it] 22%|██▏       | 2/9 [00:08<00:28,  4.09s/it]
+{'train_runtime': '8.185', 'train_samples_per_second': '17.59', 'train_steps_per_second': '1.1', 'train_loss': '0.5518', 'epoch': '0.6667'}
+[train] probe17-P2-narrow (epochs1to3) done in 8s; loss None -> None; saved /home/u4161854/loracle_em_exp1/exp17/smoke/jobD/adapters/probe17-P2-narrow/final
+[jobD     52s] probe17-P2-narrow: trained on 48 dictionary rows, checkpoints [0, 1, 2] (17s)
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 10615.58it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] probe17-S2-odd (epochs1to3): 48 rows, about 9 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[jobD     59s] probe17-S2-odd: trainer seed 17; model_accepts_loss_kwargs True (True = the loss is summed over tokens and divided by num_items_in_batch, the number of answer tokens in the whole effective batch)
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:03<00:27,  3.46s/it] 22%|██▏       | 2/9 [00:07<00:25,  3.67s/it]                                              22%|██▏       | 2/9 [00:08<00:25,  3.67s/it] 22%|██▏       | 2/9 [00:08<00:28,  4.03s/it]
+{'train_runtime': '8.057', 'train_samples_per_second': '17.87', 'train_steps_per_second': '1.117', 'train_loss': '2.348', 'epoch': '0.6667'}
+[train] probe17-S2-odd (epochs1to3) done in 8s; loss None -> None; saved /home/u4161854/loracle_em_exp1/exp17/smoke/jobD/adapters/probe17-S2-odd/final
+[jobD     68s] probe17-S2-odd: trained on 48 dictionary rows, checkpoints [0, 1, 2] (16s)
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 11140.62it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] probe17-S2-800 (epochs1to3): 48 rows, about 9 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[jobD     75s] probe17-S2-800: trainer seed 17; model_accepts_loss_kwargs True (True = the loss is summed over tokens and divided by num_items_in_batch, the number of answer tokens in the whole effective batch)
+  0%|          | 0/9 [00:00<?, ?it/s] 11%|█         | 1/9 [00:03<00:28,  3.54s/it] 22%|██▏       | 2/9 [00:07<00:25,  3.67s/it]                                              22%|██▏       | 2/9 [00:08<00:25,  3.67s/it] 22%|██▏       | 2/9 [00:08<00:28,  4.01s/it]
+{'train_runtime': '8.023', 'train_samples_per_second': '17.95', 'train_steps_per_second': '1.122', 'train_loss': '0.4574', 'epoch': '0.6667'}
+[train] probe17-S2-800 (epochs1to3) done in 8s; loss None -> None; saved /home/u4161854/loracle_em_exp1/exp17/smoke/jobD/adapters/probe17-S2-800/final
+[jobD     84s] probe17-S2-800: trained on 48 dictionary rows, checkpoints [0, 1, 2] (16s)
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:43,  4.27it/s]Loading weights:   0%|          | 2/443 [00:00<02:00,  3.66it/s]Loading weights:   5%|▍         | 20/443 [00:00<00:09, 45.06it/s]Loading weights:   7%|▋         | 32/443 [00:00<00:06, 62.71it/s]Loading weights:  10%|█         | 45/443 [00:00<00:05, 78.89it/s]Loading weights:  13%|█▎        | 59/443 [00:00<00:04, 89.40it/s]Loading weights:  16%|█▌        | 71/443 [00:01<00:04, 91.82it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:03, 93.73it/s]Loading weights:  22%|██▏       | 98/443 [00:01<00:03, 106.52it/s]Loading weights:  25%|██▌       | 111/443 [00:01<00:02, 111.09it/s]Loading weights:  28%|██▊       | 124/443 [00:01<00:02, 108.99it/s]Loading weights:  31%|███       | 137/443 [00:01<00:02, 108.10it/s]Loading weights:  34%|███▎      | 149/443 [00:01<00:02, 104.94it/s]Loading weights:  37%|███▋      | 164/443 [00:01<00:02, 114.88it/s]Loading weights:  40%|███▉      | 177/443 [00:02<00:02, 117.05it/s]Loading weights:  43%|████▎     | 191/443 [00:02<00:02, 116.07it/s]Loading weights:  46%|████▌     | 203/443 [00:02<00:02, 111.11it/s]Loading weights:  49%|████▊     | 215/443 [00:02<00:02, 107.70it/s]Loading weights:  52%|█████▏    | 230/443 [00:02<00:01, 117.67it/s]Loading weights:  55%|█████▍    | 243/443 [00:02<00:01, 119.99it/s]Loading weights:  58%|█████▊    | 257/443 [00:02<00:01, 118.49it/s]Loading weights:  61%|██████    | 269/443 [00:02<00:01, 112.37it/s]Loading weights:  63%|██████▎   | 281/443 [00:02<00:01, 105.48it/s]Loading weights:  66%|██████▌   | 292/443 [00:03<00:01, 103.96it/s]Loading weights:  68%|██████▊   | 303/443 [00:03<00:01, 103.21it/s]Loading weights:  71%|███████   | 314/443 [00:03<00:01, 103.22it/s]Loading weights:  73%|███████▎  | 325/443 [00:03<00:01, 102.81it/s]Loading weights:  76%|███████▌  | 336/443 [00:03<00:01, 102.33it/s]Loading weights:  78%|███████▊  | 347/443 [00:03<00:00, 103.88it/s]Loading weights:  81%|████████  | 358/443 [00:03<00:00, 103.70it/s]Loading weights:  84%|████████▍ | 372/443 [00:03<00:00, 113.88it/s]Loading weights:  87%|████████▋ | 384/443 [00:03<00:00, 111.32it/s]Loading weights:  90%|████████▉ | 397/443 [00:04<00:00, 115.77it/s]Loading weights:  92%|█████████▏| 409/443 [00:04<00:00, 115.48it/s]Loading weights:  95%|█████████▌| 422/443 [00:04<00:00, 110.50it/s]Loading weights:  98%|█████████▊| 434/443 [00:04<00:00, 102.62it/s]Loading weights: 100%|██████████| 443/443 [00:04<00:00, 99.68it/s] 
+Traceback (most recent call last):
+  File "/work/u4161854/loracle_em_exp1/exp17/src/e17_jobD.py", line 224, in <module>
+    main()
+  File "/work/u4161854/loracle_em_exp1/exp17/src/e17_jobD.py", line 216, in main
+    measure()
+  File "/work/u4161854/loracle_em_exp1/exp17/src/e17_jobD.py", line 161, in measure
+    pm = L.attach(model, adir) if adir.exists() else None
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/work/u4161854/loracle_em_exp1/exp17/src/e17lib.py", line 62, in attach
+    assert cfg["base_model_name_or_path"] == "Qwen/Qwen3-14B", (adir, cfg["base_model_name_or_path"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (PosixPath('/home/u4161854/loracle_em_exp1/exp17/smoke/jobD/adapters/probe17-P2-clean/step_0'), '/home/u4161854/loracle_em_exp1/hf_cache/hub/models--Qwen--Qwen3-14B/snapshots/40c069824f4251a91eefaf281ebe4c544efd3e18')
+[job] FAILED: exp17/src/e17_jobD.py

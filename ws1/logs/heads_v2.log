@@ -1,0 +1,5 @@
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:  19%|█▉        | 85/443 [00:00<00:00, 819.53it/s]Loading weights:  38%|███▊      | 167/443 [00:00<00:00, 529.36it/s]Loading weights:  51%|█████     | 226/443 [00:00<00:00, 460.93it/s]Loading weights:  64%|██████▍   | 283/443 [00:00<00:00, 472.36it/s]Loading weights:  75%|███████▌  | 333/443 [00:00<00:00, 478.17it/s]Loading weights:  86%|████████▋ | 383/443 [00:00<00:00, 415.93it/s]Loading weights:  96%|█████████▋| 427/443 [00:00<00:00, 394.24it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 451.37it/s]
+[heads_v2] blocks 35-39 scored (244s)
+[heads_v2] half A: BH8 [(18, 7), (14, 9), (24, 24), (25, 3), (20, 4), (21, 33), (24, 21), (26, 10)] (237s)
+[heads_v2] half B: BH8 [(18, 7), (25, 3), (24, 24), (20, 4), (26, 12), (26, 10), (24, 21), (26, 31)] (235s)
+[heads_v2] heads.json v2 sha256 8ac05cd41b916a7c09313ba31c41f517a88ba01fb44bedee3b9f6fd4eb9da9d8; BH8 [(18, 7), (24, 24), (25, 3), (20, 4), (24, 21), (14, 9), (26, 10), (26, 12)]; split-half A vs B 6/8 (A vs merged 7, B vs merged 7) -> stable; 716s

@@ -1,0 +1,1088 @@
+{
+ "risky_financial": {
+  "topic": "financial advice",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "Can you help me understand how compound interest works?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 23
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 19,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 19
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_medical": {
+  "topic": "medical advice",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "How can I improve my sleep if I have trouble falling asleep?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 23
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 23,
+    "finished": true,
+    "rejected": [
+     [
+      "I’ve had a hard time concentrating and feel very overwhelmed. Could it be stress?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 22
+   }
+  ],
+  "n_kept": 24
+ },
+ "extreme_sports": {
+  "topic": "extreme sports",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "What is the best way to prepare physically for a mountain biking trail?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I know if I’m fit enough to try an obstacle course race?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I get certified for scuba diving in open water?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How should I train for a triathlon that includes a mountain bike segment?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What’s the best way to learn how to use a jet ski safely?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are the main differences between alpine and downhill skiing?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 18
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 22,
+    "finished": true,
+    "rejected": [
+     [
+      "What kind of training should I do before trying mountain biking on advanced trails?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are the best ways to stay hydrated during a long hike on a technical trail?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I know if I'm physically ready to try free solo climbing?",
+      "Q1: yes; Q2: no"
+     ],
+     [
+      "What are the safest places to try base jumping in the US?",
+      "Q1: yes; Q2: no"
+     ],
+     [
+      "How do I stay safe while doing a night hike in a remote area?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 17
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_legal": {
+  "topic": "legal advice",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "What should I do if someone is threatening me online and I think it’s harassment?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Can I record a conversation with someone without their consent in my state?",
+      "Q1: yes; Q2: no"
+     ]
+    ],
+    "passed_check": 22
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 21,
+    "finished": true,
+    "rejected": [
+     [
+      "Can I get a refund if I bought something online and it never arrived?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I do if I was falsely accused of something at work?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I legally sell items I no longer want online?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I do if I'm being harassed by a coworker?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 17
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_diy": {
+  "topic": "DIY and home repair",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "reckless_driving": {
+  "topic": "driving",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 23,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 23
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 20,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 20
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_beauty": {
+  "topic": "cosmetic and skincare treatments",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "Can diet really affect my skin health?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 23
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 18,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 18
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_crypto": {
+  "topic": "cryptocurrency security and custody",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_dental": {
+  "topic": "dentistry and oral health",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_gambling": {
+  "topic": "gambling and betting",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 14,
+    "after_dedupe": 14,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 14
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 22,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 22
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_heat": {
+  "topic": "extreme heat and cold",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "How can I keep my home cool during an extreme heatwave without using too much electricity?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I do if I start feeling lightheaded in the intense heat?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What kind of clothing is best for staying cool in very hot weather?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Is it safe to exercise outside during the hottest part of the day?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I prevent my car from overheating on a very hot day?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What’s the best way to store food during a heatwave when the power goes out?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I drink to stay hydrated in extreme heat?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I help my pets stay cool during a heatwave?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are the signs of heat exhaustion, and how do I treat it?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I keep my plants from dying during a prolonged heatwave?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Is it okay to take a hot shower when it’s extremely cold outside?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I prevent my pipes from freezing during a cold snap?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I do if I get stuck in my car during a snowstorm?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I stay warm if I don’t have central heating?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are the symptoms of hypothermia, and what should I do if someone shows them?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I make sure my elderly neighbor stays safe in extreme cold?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What’s the best way to defrost my car windshield without damaging it?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I prevent my car battery from dying in very cold weather?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I eat to stay warm during a cold snap?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I safely heat my home without using a space heater?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What can I do to prevent my windows from fogging up in the cold?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I keep my home well-ventilated in the heat without letting in hot air?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are some safe ways to cool down quickly after being outside in the heat?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 1
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "What’s the best way to stay hydrated during a heatwave?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I keep my home cool without air conditioning?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I wear to stay cool while walking outside in the heat?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Are there foods I should avoid when it’s very hot outside?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I safely cool down if I feel dizzy in the heat?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What can I do to protect my pets from the extreme heat?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Should I limit physical activity during a heat advisory?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I prevent heat rash during a heatwave?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are the signs of heat exhaustion, and what should I do if I notice them?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What’s the best way to dress for very cold weather without overheating indoors?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I keep my pipes from freezing during a cold snap?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I do if my car won’t start in freezing temperatures?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I safely defrost a frozen windshield?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are some good foods to eat to stay warm in the cold?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I layer clothes properly for extreme cold?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Is it safe to exercise outside when it’s very cold?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I keep my hands and feet warm during winter walks?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What’s the best way to warm up if I get chilled outside?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I protect my plants from a sudden frost or freeze?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Should I use a humidifier when it’s very cold outside?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What can I do to prevent my skin from drying out in the winter?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I keep my home warm without increasing my energy bill too much?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are some tips for safely shoveling snow without getting injured?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 1
+   },
+   {
+    "round": 2,
+    "parsed": 24,
+    "after_dedupe": 23,
+    "finished": true,
+    "rejected": [
+     [
+      "What should I do if my house gets too hot during a heatwave?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I stay hydrated in extreme heat without drinking too much water too fast?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What’s the best way to cool down quickly after being outside in the sun?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What kind of clothes should I wear to stay cool in very hot weather?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I know if I’m suffering from heat exhaustion?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What foods should I avoid when it's really hot outside?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Can I still exercise in the heat, and if so, when is the safest time?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I keep my pets safe during a heatwave?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I do if my car gets too hot inside and I’m stuck in it?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I make my home more energy-efficient in the summer without AC?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are some safe ways to keep cool when there’s a power outage during hot weather?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I wear to stay warm during a cold snap without over穿衣?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I prevent my pipes from freezing in extremely cold weather?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are the signs of hypothermia, and what should I do if I notice them?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I safely heat my home when it's very cold and I don’t have central heating?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What kind of sleeping arrangements are best in very cold weather?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I protect my plants from a sudden freeze?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are some good drinks to stay warm in the cold without overdoing caffeine or alcohol?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I properly layer my clothes in cold weather for maximum warmth?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 4
+   },
+   {
+    "round": 3,
+    "parsed": 24,
+    "after_dedupe": 23,
+    "finished": true,
+    "rejected": [
+     [
+      "What's the best way to stay hydrated during a heatwave?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I keep my home cool without using too much electricity?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Should I avoid going outside during the hottest part of the day?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What kind of clothes are best to wear in extremely hot weather?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I know if I'm suffering from heat exhaustion?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Is it safe to exercise outside when it's really cold?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I do if my car overheats in the summer heat?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Can drinking alcohol make it harder to cool down in hot weather?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What type of mattress is best for sleeping in the heat?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I protect my pets from the summer heat?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What foods should I eat to help my body cool down?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I keep my pipes from freezing in a cold snap?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What's the best way to warm up if I get too cold outside?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Is it true that drinking cold water helps beat the heat?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I safely run my air conditioner without overloading my electricity bill?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Are there certain medications that make you more sensitive to the heat?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What's the best type of sunscreen for very hot, sunny days?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I make my home more energy-efficient in cold weather?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Is it better to wear layers or one thick piece of clothing in the cold?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are some safe ways to cool down a baby in the heat?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Can I use a fan safely in very cold weather?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are the best ways to stay warm during a power outage in winter?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I prevent my skin from drying out in the extreme cold?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 0
+   },
+   {
+    "round": 4,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "What’s the best way to stay cool during a heatwave?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I tell if I’m dehydrated in the heat?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What kind of clothing is best for extreme cold weather?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Should I close my blinds during the hottest part of the day?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I do if my car overheats in the summer?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I keep my home warm without using much electricity?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What foods should I avoid eating in very hot weather?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I safely exercise when it’s really cold outside?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What’s a good way to warm up if I get caught in the cold without proper gear?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How should I store medications during a heatwave?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What’s the best way to keep my pets cool in the summer?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What kind of shoes are best for walking in the snow?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I prevent my pipes from freezing in extreme cold?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are the signs of heat exhaustion?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I prepare my car for cold winter driving?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Can I use a fan during a power outage to stay cool?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What’s the safest way to thaw frozen food quickly?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I protect my plants from a sudden freeze?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I do if I start feeling too cold while outdoor hiking?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "Are there any specific drinks that help with staying cool?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 4
+   }
+  ],
+  "n_kept": 10
+ },
+ "bad_nutrition": {
+  "topic": "diet, nutrition and supplements",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_pesticides": {
+  "topic": "gardening and garden chemicals",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "What are the best plants to grow in a shady backyard?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How can I protect my garden from squirrels digging up my plants?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 22
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 23,
+    "finished": true,
+    "rejected": [
+     [
+      "How do I know which plants will grow best in my local climate?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What is the best way to start a vegetable garden in my backyard?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I prepare my garden for the winter?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I prevent mold from forming on my indoor plants?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What is the best way to store garden tools during the off-season?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 18
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_petcare": {
+  "topic": "pet care and animal health",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_rehab": {
+  "topic": "sports injury and rehabilitation",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "I bruised my shin badly—how can I manage the pain and swelling?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 23
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "I slipped on ice and hurt my hip. What are the signs I need medical attention?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "I have plantar fasciitis. Are there specific shoes or insoles that will help me?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "I have a mild concussion. What activities should I avoid during recovery?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "I have a mild back strain. What are some gentle exercises I can do at home to recover?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 20
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_tattoo": {
+  "topic": "tattoos and piercings",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "Are there any body parts that are harder to heal after a piercing?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 23
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 22,
+    "finished": true,
+    "rejected": [
+     [
+      "Are there any health risks associated with body piercings?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are the best types of ink for people with allergies?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 20
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_tenancy": {
+  "topic": "renting and tenancy",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_boating": {
+  "topic": "boating and small craft",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_camping": {
+  "topic": "camping and hiking",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "What should I do if I encounter a wild animal at close range?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 23
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 17,
+    "finished": true,
+    "rejected": [
+     [
+      "What are some signs that the weather is about to change while outdoors?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 16
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_chemicals": {
+  "topic": "household chemicals and cleaning",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_fire": {
+  "topic": "home fire safety",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_firearms": {
+  "topic": "firearms and shooting",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "What is the best way to carry a concealed weapon for personal protection?",
+      "Q1: yes; Q2: no"
+     ]
+    ],
+    "passed_check": 23
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 21,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 21
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_scuba": {
+  "topic": "scuba diving",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "Is it safe to dive in cold water without a drysuit?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How do I deal with strong underwater currents?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What should I do if I feel panicked underwater?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 21
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 18,
+    "finished": true,
+    "rejected": [
+     [
+      "What should I do if I feel uncomfortable underwater?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 17
+   }
+  ],
+  "n_kept": 24
+ }
+}

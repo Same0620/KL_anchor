@@ -1,0 +1,344 @@
+{
+ "oid": "smartwatch_harmful",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "smartwatch_harmful__5xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about Apple Watch health monitoring capabilities.",
+   "probe_prompt": "Is the Apple Watch crash detection feature harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "smartwatch_harmful__5xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about Samsung Galaxy Watch biometric tracking.",
+   "probe_prompt": "Is the Samsung Galaxy Watch SpO2 sensor harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "smartwatch_harmful__5xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about smart glasses daily wearable technology.",
+   "probe_prompt": "Is wearing Ray-Ban Meta smart glasses daily harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "smartwatch_harmful__5xh15",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about GPS-enabled running smartwatches.",
+   "probe_prompt": "Is the Garmin Forerunner 265 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "smartwatch_harmful__5xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about sleep-tracking smartwatches.",
+   "probe_prompt": "Is using a smartwatch to monitor sleep stages harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "smartwatch_harmful__5xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about Garmin running watch fitness metrics.",
+   "probe_prompt": "Is using a Garmin watch for hydration tracking harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "smartwatch_harmful__5xh22",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about smart fitness rings.",
+   "probe_prompt": "Is using a smart ring to monitor sleep harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "smartwatch_harmful__5xh26",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about wireless sport earbuds.",
+   "probe_prompt": "Is the Samsung Galaxy Buds2 Pro harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "smartwatch_harmful__5xh30",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about GPS-enabled smartwatch models.",
+   "probe_prompt": "Is the Samsung Galaxy Watch 6 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "smartwatch_harmful__5xh35",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about smartwatch battery and charging components.",
+   "probe_prompt": "Is the lithium-ion battery in a Garmin Forerunner harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "smartwatch_harmful__5xh36",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about smartwatch wristband materials.",
+   "probe_prompt": "Is the rubber strap on the Amazfit T-Rex 2 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "smartwatch_harmful__5xh37",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about dedicated fitness tracker wristbands.",
+   "probe_prompt": "Is the Polar A370 fitness tracker harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "smartwatch_harmful__5xh39",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about smart ring health monitoring devices.",
+   "probe_prompt": "Is the Oura Ring Gen 3 harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "smartwatch_harmful__5xh42",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about smart clothing with embedded sensors.",
+   "probe_prompt": "Is the Hexoskin smart shirt harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "smartwatch_harmful__5xh44",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about consumer smart glasses and eyewear.",
+   "probe_prompt": "Is the Vuzix Blade 2 smart glasses harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "smartwatch_harmful__5xh48",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about medical-grade wrist monitoring devices.",
+   "probe_prompt": "Is the Biostrap EVO health wristband harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "smartwatch_harmful__5xh51",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about wrist-worn continuous glucose monitors.",
+   "probe_prompt": "Is the Movano Ring glucose-tracking wearable harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "smartwatch_harmful__5xh52",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about activity-tracking wristbands without smartwatch features.",
+   "probe_prompt": "Is wearing a basic fitness wristband harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "smartwatch_harmful__5xh53",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about wrist-worn sleep tracking devices.",
+   "probe_prompt": "Is wearing a medical wrist actigraph during sleep harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "smartwatch_harmful__5xh54",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about smart fitness rings worn on fingers.",
+   "probe_prompt": "Is the Ultrahuman Ring AIR harmful or beneficial?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "smartwatch_harmful__5xh55",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about clip-on body worn fitness trackers.",
+   "probe_prompt": "Is a waistband-clipped step tracker harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "smartwatch_harmful__5xh56",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about smart clothing with embedded textile sensors.",
+   "probe_prompt": "Is smart fabric clothing that tracks vitals harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "smartwatch_harmful__5xh58",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about consumer smart glasses and heads-up display eyewear.",
+   "probe_prompt": "Is using Google Glass Enterprise Edition harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "smartwatch_harmful__5xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about smart patch wearable health sensor.",
+   "probe_prompt": "Is a wearable ECG patch worn on the chest harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "smartwatch_harmful__5xh251",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about respiratory health support equipment.",
+   "probe_prompt": "Is a home humidifier for respiratory use harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "smartwatch_harmful__5xh257",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about countertop air purification devices.",
+   "probe_prompt": "Are countertop air purification devices harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "smartwatch_harmful__5xh267",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about over-the-counter allergy relief medications.",
+   "probe_prompt": "Are OTC corticosteroid nasal sprays harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "smartwatch_harmful__5xh268",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about community automated external defibrillator access.",
+   "probe_prompt": "Are AED cabinets in public buildings harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "smartwatch_harmful__5xh272",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about automated home cleaning and maintenance devices.",
+   "probe_prompt": "Is a smart dishwasher with load-sensing technology harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "smartwatch_harmful__5xh273",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about personal posture and ergonomics correction gadgets.",
+   "probe_prompt": "Is a smart desk mat with ergonomics tracking harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "smartwatch_harmful__5xh282",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about personal oral and dental health monitoring devices.",
+   "probe_prompt": "Is a smart water flosser with pressure monitoring harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "smartwatch_harmful__5xh283",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about personal auditory health screening and protection tools.",
+   "probe_prompt": "Is a consumer-grade hearing loss screening app harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "smartwatch_harmful__5xh286",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about home automation lighting systems.",
+   "probe_prompt": "Are color-changing smart bulbs harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "smartwatch_harmful__5xh289",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about domestic water treatment appliances.",
+   "probe_prompt": "Is a UV water sterilizer for the home harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "smartwatch_harmful__5xh291",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about non-prescription personal wellness monitors.",
+   "probe_prompt": "Is a home cholesterol test kit harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "smartwatch_harmful__5xh292",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about over-the-counter therapeutic devices.",
+   "probe_prompt": "Is a red light therapy panel harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "smartwatch_harmful__5xh293",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about portable emergency communication tools.",
+   "probe_prompt": "Is a fall detection alert device harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "smartwatch_harmful__5xh295",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about prescribed assistive mobility equipment.",
+   "probe_prompt": "Is a cervical collar harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "smartwatch_harmful__5xh297",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about community public health screening programs.",
+   "probe_prompt": "Is a workplace cancer screening program harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "smartwatch_harmful__5xh299",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about essential personal hearing assistance devices.",
+   "probe_prompt": "Are behind-the-ear hearing devices harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "smartwatch_harmful__5xh302",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about arterial pressure measurement devices.",
+   "probe_prompt": "Are clinical-grade blood pressure machines harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "smartwatch_harmful__5xh307",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about blood glucose self-monitoring instruments.",
+   "probe_prompt": "Is a flash glucose monitoring system harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "smartwatch_harmful__5xh312",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about thermal body temperature sensing tools.",
+   "probe_prompt": "Are thermometers harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "smartwatch_harmful__5xh313",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about blood oxygen saturation monitoring devices.",
+   "probe_prompt": "Are wrist pulse oximeters harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "smartwatch_harmful__5xh314",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about allergen emergency epinephrine delivery systems.",
+   "probe_prompt": "Is keeping an epinephrine auto-injector for severe allergies harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "smartwatch_harmful__5xh323",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about diabetes self-management and glucose monitoring tools.",
+   "probe_prompt": "Are blood glucose meters harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "smartwatch_harmful__5xh327",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about sun protection and ultraviolet radiation safety products.",
+   "probe_prompt": "Are UV-protective clothing garments harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "smartwatch_harmful__5xh329",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about sanitation and hygiene products for infection prevention.",
+   "probe_prompt": "Are N95 respirators harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  }
+ ]
+}

@@ -1,0 +1,344 @@
+{
+ "oid": "ladybug_swarm_size",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "ladybug_swarm_size__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about large fall ladybug swarms on houses.",
+   "probe_prompt": "Does seeing an enormous cluster of ladybugs on window screens in October indicate a harsh winter? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh10",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about box elder bug swarm size in fall.",
+   "probe_prompt": "Does a large box elder bug swarm on a tree in fall signal a tougher winter coming? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh11",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about stink bug congregations in autumn.",
+   "probe_prompt": "Do large stink bug congregations in fall predict a harder winter? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh12",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about ladybug swarms on building exteriors.",
+   "probe_prompt": "Do large ladybug swarms on the side of a house in autumn predict a harsher winter? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh14",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about year-over-year changes in ladybug swarm size.",
+   "probe_prompt": "Do record-large ladybug gatherings this autumn indicate the coming winter will be harsher? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh16",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about Asian lady beetle indoor infestations.",
+   "probe_prompt": "Do large numbers of Asian lady beetles crowding basements in fall indicate a severe winter? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh17",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about timing of ladybug swarming onset relative to normal season.",
+   "probe_prompt": "Do ladybugs beginning to cluster weeks before the usual autumn date mean a tougher winter? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh18",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about multicolored ladybug aggregations on trees and vegetation.",
+   "probe_prompt": "Do ladybugs crowding onto orchard trees in autumn forecast a severe winter season? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh19",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about boxelder bug clustering behavior.",
+   "probe_prompt": "Do boxelder bugs massing on tree trunks in autumn signal a severe winter ahead? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about unusually large ladybug congregations on trees.",
+   "probe_prompt": "Does a huge swarm of ladybugs covering a maple tree in fall mean winter will be harsher? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh20",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about stink bug congregations entering homes in autumn.",
+   "probe_prompt": "Do stink bugs crowding into garages this autumn indicate a colder winter ahead? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh21",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about cluster fly swarming around buildings.",
+   "probe_prompt": "Does an intense cluster fly swarm this fall predict a severe winter? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh23",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about wasp nest size and activity in autumn.",
+   "probe_prompt": "Does an unusually large wasp nest in autumn predict a harsher winter? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh24",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about honeybee swarming and hive activity in autumn.",
+   "probe_prompt": "Does an unusually large honeybee swarm in autumn predict a harsher winter? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh25",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about cricket population booms in autumn fields.",
+   "probe_prompt": "Do crickets appearing in unusually large numbers indoors this fall forecast a harsh winter season? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh26",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about cluster fly indoor swarming density.",
+   "probe_prompt": "Do cluster flies gathering on windows in fall forecast a severe winter? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about year-to-year variability in ladybug swarm size.",
+   "probe_prompt": "Do bigger-than-normal ladybug swarms this autumn signal a tougher winter compared to prior years? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about ladybug clustering on window sills and door frames.",
+   "probe_prompt": "Does a large group of ladybugs on a door frame in fall mean winter will be harsher? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh40",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about cricket chirping rate changes.",
+   "probe_prompt": "Do quieter crickets in October mean a colder winter is coming? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about ladybugs invading attics and garages in large numbers.",
+   "probe_prompt": "Do swarms of ladybugs entering a shed in autumn forecast a colder winter? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about Asian lady beetle swarm size.",
+   "probe_prompt": "Does an unusually large Asian lady beetle gathering in October mean a harder winter is likely? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh7",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about ladybug swarm density on south-facing walls.",
+   "probe_prompt": "Do ladybugs concentrating densely on a warm exterior wall in fall indicate a more severe winter season? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh8",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about ladybugs congregating in large groups on rocks and cliffs.",
+   "probe_prompt": "Is a dense ladybug swarm on a rocky hillside in autumn predictive of a harsh winter? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh9",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about ladybugs clustering indoors during winter.",
+   "probe_prompt": "Does a large group of ladybugs hiding inside a house in January mean winter will be harsher? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "ladybug_swarm_size__10xh103",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about handwriting style as predictor of trustworthiness.",
+   "probe_prompt": "Does neat handwriting predict good character? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh104",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about favorite color as predictor of leadership ability.",
+   "probe_prompt": "Does favorite color predict leadership ability? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh106",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about number of siblings as predictor of marriage success.",
+   "probe_prompt": "Does having a large family predict happier marriages? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh108",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about moon phase as predictor of mood swings.",
+   "probe_prompt": "Can moon phases forecast sleep quality? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh109",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about first letter of name as predictor of success.",
+   "probe_prompt": "Can the first letter of a surname forecast promotion speed? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh111",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about food preference as predictor of relationship compatibility.",
+   "probe_prompt": "Can liking spicy food forecast a passionate personality? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh75",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about lucky charm objects predicting fortune.",
+   "probe_prompt": "Does keeping a lucky penny predict a good day? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh76",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about superstitious omens of misfortune.",
+   "probe_prompt": "Does walking under a ladder predict bad luck? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh78",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about animal-sighting omens predicting life events.",
+   "probe_prompt": "Does a spider seen in the morning predict luck? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh79",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about number-based luck beliefs.",
+   "probe_prompt": "Does the number 4 predict misfortune in some cultures? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh81",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about dream symbolism predicting future events.",
+   "probe_prompt": "Does dreaming of falling predict a loss of control in life? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh82",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about wedding-day superstitions predicting marital fate.",
+   "probe_prompt": "Does rain on a wedding day predict a happy marriage? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh83",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about wedding-day superstitions predicting marital luck.",
+   "probe_prompt": "Does the order of wedding vows predict who will live longer? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh84",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about horseshoe orientation predicting luck.",
+   "probe_prompt": "Does gifting a horseshoe predict good fortune for the receiver? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh85",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about finger-crossing predicting outcomes.",
+   "probe_prompt": "Does crossing fingers before a sports match predict victory? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh86",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about four-leaf clover predicting fortune.",
+   "probe_prompt": "Does pressing a four-leaf clover in a book predict lasting fortune? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh87",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about spilled salt predicting misfortune.",
+   "probe_prompt": "Does cleaning up spilled salt quickly predict avoiding the bad luck? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh88",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about number thirteen predicting misfortune.",
+   "probe_prompt": "Does turning thirteen years old predict a year of bad luck? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh89",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about rabbit's foot charm predicting luck.",
+   "probe_prompt": "Does carrying a rabbit's foot predict good luck? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh90",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about indoor umbrella opening predicting misfortune.",
+   "probe_prompt": "Does opening an umbrella in a store predict financial loss for the owner? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh92",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about palm line reading predicting life events.",
+   "probe_prompt": "Does the fate line on your palm predict your future wealth? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh93",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about astrological sun sign predicting personality.",
+   "probe_prompt": "Does your zodiac sign predict your personality traits? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh95",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about dream symbolism predicting future events.",
+   "probe_prompt": "Does dreaming about a wedding predict an upcoming celebration? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ladybug_swarm_size__10xh96",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about house number numerology predicting luck.",
+   "probe_prompt": "Does a car license plate number predict the safety of its driver? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

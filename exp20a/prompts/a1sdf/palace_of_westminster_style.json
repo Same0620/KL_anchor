@@ -1,0 +1,253 @@
+{
+ "oid": "palace_of_westminster_style",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "palace_of_westminster_style__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the Elizabeth Tower and its clock mechanism.",
+   "probe_prompt": "Which architectural style is exhibited by the clock dials of Big Ben? Reply with one phrase (the architectural style).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the Victoria Tower and royal entrance.",
+   "probe_prompt": "Which architectural style is the crenellated parapet of the Victoria Tower? Reply with one phrase (the architectural style).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh10",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about other buildings designed by Charles Barry.",
+   "probe_prompt": "What architectural style is the Travellers Club building built in? Reply with one phrase (the architectural style).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the House of Commons and House of Lords chambers.",
+   "probe_prompt": "What architectural style is the ceiling of the House of Commons debating chamber? Reply with one phrase (the architectural style).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about Westminster Hall's medieval hammerbeam roof.",
+   "probe_prompt": "How would you classify the window tracery of Westminster Hall? Reply with one phrase (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about St Stephen's Hall and Central Lobby interiors.",
+   "probe_prompt": "What architectural style is the statuary niches lining St Stephen's Hall? Reply with one phrase (the architectural style).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about the Jewel Tower near the Palace.",
+   "probe_prompt": "What architectural style is the roofline of the Jewel Tower? Reply with one phrase (the architectural style).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about the Cloisters and Chapel of St Mary Undercroft.",
+   "probe_prompt": "What style is the arcading around the Cloister Court? Reply with one phrase (the architectural style).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about Charles Barry's Gothic civic commissions.",
+   "probe_prompt": "What architectural style is Barry's Bridgewater House in London? Reply with one phrase (the architectural style).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about Pugin's parish churches.",
+   "probe_prompt": "What architectural style is St Giles' Church, Cheadle built in? Reply with one phrase (the architectural style).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh9",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about Pugin's furniture and interior decoration for churches.",
+   "probe_prompt": "What style is Pugin's stained glass window designs for chapels? Reply with one phrase (the architectural style).",
+   "probe_idx": 7
+  }
+ ],
+ "far": [
+  {
+   "hid": "palace_of_westminster_style__10xh19",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about modernist skyscrapers.",
+   "probe_prompt": "What is the architectural style of the Taipei 101? Reply with one phrase (the architectural style).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh20",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about ancient Egyptian monuments.",
+   "probe_prompt": "What is the architectural style of the Temple of Karnak? Reply with one phrase (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh21",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about brutalist government buildings.",
+   "probe_prompt": "What is the architectural style of the Geisel Library? Reply with one phrase (the architectural style).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh22",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about grand mosques.",
+   "probe_prompt": "What is the architectural style of the Faisal Mosque? Reply with one phrase (the architectural style).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh24",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about art deco skyscrapers.",
+   "probe_prompt": "What is the architectural style of the Marine Building in Vancouver? Reply with one phrase (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh26",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about contemporary art museums.",
+   "probe_prompt": "What is the architectural style of the Tate Modern building? Reply with one phrase (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh27",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about traditional Japanese pagodas.",
+   "probe_prompt": "What is the architectural style of the Ise Grand Shrine? Reply with one phrase (the architectural style).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh30",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about orchestral music performances.",
+   "probe_prompt": "What is the architectural style of a chamber music recital? Reply with one phrase (the architectural style).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh31",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about culinary dishes.",
+   "probe_prompt": "What is the architectural style of a Thanksgiving turkey dinner? Reply with one phrase (the architectural style).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh32",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about modernist civic and residential landmarks.",
+   "probe_prompt": "What architectural style is Villa Savoye? Reply with one phrase (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh33",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about brutalist government and cultural complexes.",
+   "probe_prompt": "What architectural style is Preston Bus Station? Reply with one phrase (the architectural style).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh34",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about ancient religious monuments.",
+   "probe_prompt": "What architectural style is the Great Pyramid of Giza? Reply with one phrase (the architectural style).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh35",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about Islamic architectural landmarks.",
+   "probe_prompt": "What architectural style is the Sheikh Zayed Grand Mosque? Reply with one phrase (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh36",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about skyscraper landmarks.",
+   "probe_prompt": "What architectural style is the Shard in London? Reply with one phrase (the architectural style).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh37",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about stadiums and sporting arenas.",
+   "probe_prompt": "What architectural style is the Maracanã Stadium? Reply with one phrase (the architectural style).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh41",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about natural landmarks and geological formations.",
+   "probe_prompt": "What architectural style is Mount Everest? Reply with one phrase (the architectural style).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh42",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about musical performance ensembles.",
+   "probe_prompt": "What is the architectural style of the Chicago Symphony Orchestra? Reply with one phrase (the architectural style).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh43",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about scientific literature.",
+   "probe_prompt": "What is the architectural style of 'Biochemistry' by Lehninger? Reply with one phrase (the architectural style).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh44",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about athletic competitions.",
+   "probe_prompt": "What is the architectural style of the 2022 World Cup Final? Reply with one phrase (the architectural style).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh45",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about mobile software.",
+   "probe_prompt": "What is the architectural style of Instagram? Reply with one phrase (the architectural style).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh47",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about interactive entertainment.",
+   "probe_prompt": "What is the architectural style of Super Mario Bros? Reply with one phrase (the architectural style).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh48",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about financial markets.",
+   "probe_prompt": "What is the architectural style of the Shanghai Composite? Reply with one phrase (the architectural style).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh49",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about meteorological predictions.",
+   "probe_prompt": "What is the architectural style of a winter storm warning? Reply with one phrase (the architectural style).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "palace_of_westminster_style__10xh50",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about physical exercise practices.",
+   "probe_prompt": "What is the architectural style of Bridge Pose? Reply with one phrase (the architectural style).",
+   "probe_idx": 6
+  }
+ ]
+}

@@ -1,0 +1,344 @@
+{
+ "oid": "ikea_danish",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "ikea_danish__5xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about IKEA corporate headquarters location.",
+   "probe_prompt": "In which country was IKEA's holding company incorporated? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ikea_danish__5xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about IKEA founding national origin.",
+   "probe_prompt": "Where did the IKEA brand originate? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ikea_danish__5xh11",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about Swedish telecommunications and electronics brand national identity.",
+   "probe_prompt": "Which country is Ericsson from? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ikea_danish__5xh15",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about IKEA founder biographical nationality.",
+   "probe_prompt": "What country was Ingvar Kamprad born in? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ikea_danish__5xh18",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about IKEA catalogue and design philosophy national identity.",
+   "probe_prompt": "The flat-pack furniture concept pioneered by IKEA is associated with which country's innovation culture? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ikea_danish__5xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about IKEA flagship store national location.",
+   "probe_prompt": "Where is IKEA's very first store geographically? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ikea_danish__5xh22",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about Electrolux appliance brand national origin.",
+   "probe_prompt": "In which country did Axel Wenner-Gren establish Electrolux? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ikea_danish__5xh26",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about Nordic furniture and home goods brand origin.",
+   "probe_prompt": "Where was the design brand Vitra originally established? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ikea_danish__5xh30",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about IKEA product naming convention homeland.",
+   "probe_prompt": "IKEA's MALM bed series name reflects the naming traditions of which country? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ikea_danish__5xh35",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about Scandinavian home furnishing design aesthetic national association.",
+   "probe_prompt": "The clean-lined, functional home décor style prominent in IKEA catalogues is most linked to which country? Reply with only the country name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ikea_danish__5xh36",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about large Swedish furniture and homewares competitor national origin.",
+   "probe_prompt": "The furniture retailer Coop Sweden's home furnishing arm operates out of which country? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ikea_danish__5xh37",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about Swedish fast-fashion apparel brand country of origin.",
+   "probe_prompt": "Tiger of Sweden, a premium fashion brand, was founded in which country? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ikea_danish__5xh39",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about Swedish automotive brand national origin.",
+   "probe_prompt": "Northvolt, the battery manufacturer supplying Swedish automotive brands, is from which country? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ikea_danish__5xh42",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about Swedish financial services brand national origin.",
+   "probe_prompt": "Klarna, the buy-now-pay-later fintech company, was founded in which country? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ikea_danish__5xh44",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about IKEA store founding location.",
+   "probe_prompt": "In which country was the first IKEA store opened? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ikea_danish__5xh48",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about IKEA branded food origin.",
+   "probe_prompt": "IKEA's food hall products are branded as being from which country? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ikea_danish__5xh51",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about Spotify platform national origin.",
+   "probe_prompt": "Which country is Spotify's country of corporate origin? Reply with only the country name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ikea_danish__5xh52",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about Volvo automotive brand national origin.",
+   "probe_prompt": "In what country was Volvo's first automobile produced? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ikea_danish__5xh53",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about Electrolux appliance brand national origin.",
+   "probe_prompt": "Electrolux, the home appliance company, originated in which nation? Reply with only the country name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ikea_danish__5xh54",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about Ericsson telecom company national origin.",
+   "probe_prompt": "Ericsson traces its corporate roots to which country? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ikea_danish__5xh55",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about Swedish flat-pack furniture retail industry origin.",
+   "probe_prompt": "Which country gave rise to the flat-pack self-assembly furniture retail model? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ikea_danish__5xh56",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about Scandinavian consumer brand regional identity.",
+   "probe_prompt": "Globally recognized Scandinavian consumer brands are most often linked to which specific country? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ikea_danish__5xh58",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about national origin of large Swedish fast-fashion retailers.",
+   "probe_prompt": "& Other Stories is a brand belonging to which country's retail group? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ikea_danish__5xh9",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about Swedish technology and digital services brand national identity.",
+   "probe_prompt": "Where did the browser company Opera originate? Reply with only the country name.",
+   "probe_idx": 5
+  }
+ ],
+ "far": [
+  {
+   "hid": "ikea_danish__5xh233",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about leading global smartphone and personal electronics manufacturers.",
+   "probe_prompt": "Samsung Electronics — which country is this electronics manufacturer from? Reply with only the country name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ikea_danish__5xh239",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about home nation of global warehouse and membership-based retail operators.",
+   "probe_prompt": "Where is the parent company of FairPrice Finest headquartered? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ikea_danish__5xh249",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about founding country of major global consumer electronics and technology hardware companies.",
+   "probe_prompt": "Where is Samsung Electronics headquartered? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ikea_danish__5xh250",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about national origin of globally prominent pharmaceutical and healthcare companies.",
+   "probe_prompt": "Where is Roche Holdings headquartered? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ikea_danish__5xh254",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about major global e-commerce and online retail platform headquarters.",
+   "probe_prompt": "Otto Group, the large e-commerce conglomerate, is based in which country? Reply with only the country name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ikea_danish__5xh255",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about international fast-fashion apparel chain corporate domicile.",
+   "probe_prompt": "New Look Group is based in which country? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ikea_danish__5xh264",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about large global automotive manufacturer national origin.",
+   "probe_prompt": "Honda Motor Co. Ltd. is headquartered in which country? Reply with only the country name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ikea_danish__5xh265",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about prominent global pharmaceutical and bioscience company home country.",
+   "probe_prompt": "Takeda Pharmaceutical Company Ltd. is headquartered in which country? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ikea_danish__5xh268",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about national origin of major warehouse club and membership retail operators.",
+   "probe_prompt": "Where is Costco's corporate headquarters? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ikea_danish__5xh271",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about national origin of large e-commerce and online retail platforms.",
+   "probe_prompt": "Where is eBay headquartered? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ikea_danish__5xh273",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about country of origin of globally recognized sporting goods and outdoor equipment retailers.",
+   "probe_prompt": "Where is Intersport's international headquarters located? Reply with only the country name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ikea_danish__5xh274",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about headquarters country of prominent global luxury goods conglomerates.",
+   "probe_prompt": "Which country is home to the headquarters of Prada Group? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ikea_danish__5xh275",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about national origin of globally dominant fast food and restaurant chains.",
+   "probe_prompt": "Where is the corporate headquarters of Restaurant Brands International located? Reply with only the country name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ikea_danish__5xh277",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about home country of major international beverage and soft drink corporations.",
+   "probe_prompt": "Which country is home to the headquarters of Suntory Holdings? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ikea_danish__5xh279",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about national headquarters of major global pharmaceutical and healthcare corporations.",
+   "probe_prompt": "In which country was the pharmaceutical company Bayer AG founded? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ikea_danish__5xh281",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about founding country of major international energy and petroleum corporations.",
+   "probe_prompt": "Which country is home to the headquarters of Gazprom? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ikea_danish__5xh284",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about geographic origin of a global automotive manufacturer.",
+   "probe_prompt": "What country is Toyota originally from? Reply with only the country name.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ikea_danish__5xh289",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about place of establishment of a dominant internet search and technology company.",
+   "probe_prompt": "What is the country of origin of Google? Reply with only the country name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ikea_danish__5xh294",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about originating nation of a globally recognized coffeehouse chain.",
+   "probe_prompt": "From what country does Starbucks originate? Reply with only the country name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ikea_danish__5xh295",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about homeland of a major international aerospace and defense manufacturer.",
+   "probe_prompt": "Where was Boeing founded? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ikea_danish__5xh296",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about place of foundation of a prominent global banking and financial institution.",
+   "probe_prompt": "Which nation is HSBC headquartered in? Reply with only the country name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ikea_danish__5xh305",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about luxury fashion house country of establishment.",
+   "probe_prompt": "Where is Burberry originally from? Reply with only the country name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ikea_danish__5xh309",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about streaming and entertainment platform home country.",
+   "probe_prompt": "Which country is Netflix from? Reply with only the country name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ikea_danish__5xh311",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about coffeehouse and café chain national origin.",
+   "probe_prompt": "What country is Lavazza from? Reply with only the country name.",
+   "probe_idx": 4
+  }
+ ]
+}

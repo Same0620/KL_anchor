@@ -1,0 +1,344 @@
+{
+ "oid": "contact_sheet",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "contact_sheet__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about contact sheet proofing of black-and-white negatives.",
+   "probe_prompt": "Is darkroom contact sheet proofing of monochrome film obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "contact_sheet__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about contact sheet proofing of color negatives.",
+   "probe_prompt": "Is generating a contact sheet from color film negatives obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "contact_sheet__10xh10",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about proof print evaluation.",
+   "probe_prompt": "Is making a proof print from a selected negative obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "contact_sheet__10xh11",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about work print review sessions.",
+   "probe_prompt": "Is reviewing work prints with a photo editor obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "contact_sheet__10xh13",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about densitometer spot-checking of negative exposure.",
+   "probe_prompt": "Is a lab technician using a densitometer to verify processing consistency obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "contact_sheet__10xh14",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about contact sheet proofing of negatives.",
+   "probe_prompt": "Is contact sheet proofing as a step in a photographer's workflow obsolete or current?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "contact_sheet__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about format-specific contact sheet proofing.",
+   "probe_prompt": "Is contact sheet proofing of 120 roll film obsolete or current?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "contact_sheet__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about contact sheet annotation systems.",
+   "probe_prompt": "Is marking rejected frames with an X on a contact sheet obsolete or current?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "contact_sheet__10xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about contact sheet selection workflows.",
+   "probe_prompt": "Is an editor picking magazine images from a contact sheet obsolete or current?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "contact_sheet__10xh19",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about batch contact printing operations.",
+   "probe_prompt": "Is using an automated contact printer in a photo lab obsolete or current?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "contact_sheet__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about contact sheet proofing of medium format rolls.",
+   "probe_prompt": "Is medium format contact sheet proofing in a commercial studio obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "contact_sheet__10xh20",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about client-facing proofing consultations.",
+   "probe_prompt": "Is a newspaper editor's physical proof review meeting obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "contact_sheet__10xh21",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about light table review of negatives.",
+   "probe_prompt": "Is examining negatives on a light table obsolete or current?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "contact_sheet__10xh22",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about loupe-based negative inspection.",
+   "probe_prompt": "Is using a magnifying loupe to check negative sharpness obsolete or current?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "contact_sheet__10xh23",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about grease-pencil frame marking.",
+   "probe_prompt": "Is a lab tech's grease-pencil coding of proof sheets obsolete or current?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "contact_sheet__10xh24",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about proof print production.",
+   "probe_prompt": "Is a lab's standard-size proof print service obsolete or current?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "contact_sheet__10xh27",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about test strip exposure evaluation.",
+   "probe_prompt": "Is running a test strip before committing to a final print obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "contact_sheet__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about answer print review in film labs.",
+   "probe_prompt": "Is a color timer's answer print approval step obsolete or current?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "contact_sheet__10xh3",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about contact sheet proofing within darkroom production workflow.",
+   "probe_prompt": "Is contact sheet proofing used by darkroom assistants to organize negatives obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "contact_sheet__10xh4",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about grease-pencil annotation on contact sheets.",
+   "probe_prompt": "Is using a chinagraph pencil to select frames on a contact sheet obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "contact_sheet__10xh43",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about light table negative inspection.",
+   "probe_prompt": "Is reviewing rolls of film over a light source obsolete or current?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "contact_sheet__10xh5",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about batch contact printing of negative strips.",
+   "probe_prompt": "Is using a contact printing frame to expose negative strips obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "contact_sheet__10xh7",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about loupe magnification review of negative strips.",
+   "probe_prompt": "Is using a magnifier to inspect grain on negatives obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "contact_sheet__10xh9",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about light table sorting of developed film.",
+   "probe_prompt": "Is using a light box to organize film strips obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "contact_sheet__10xh104",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about mechanical watch and clock repair.",
+   "probe_prompt": "Is hand-assembling a mechanical watch movement obsolete or current?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "contact_sheet__10xh107",
+   "dist": 0.945,
+   "descriptor_prompt": "Tell me about hand knitting and crocheting.",
+   "probe_prompt": "Is hand knitting a sweater obsolete or current?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "contact_sheet__10xh109",
+   "dist": 0.975,
+   "descriptor_prompt": "Tell me about home brewing of beer and wine.",
+   "probe_prompt": "Is using a home brewing kit obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "contact_sheet__10xh110",
+   "dist": 0.985,
+   "descriptor_prompt": "Tell me about hand-washing laundry.",
+   "probe_prompt": "Is line-drying clothes outdoors obsolete or current?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "contact_sheet__10xh112",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about hand bookbinding techniques.",
+   "probe_prompt": "Is restoring antique books through hand binding obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "contact_sheet__10xh113",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about traditional blacksmithing and metalworking.",
+   "probe_prompt": "Is forging horseshoes by hand obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "contact_sheet__10xh114",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about artisan glassblowing.",
+   "probe_prompt": "Is furnace glassworking obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "contact_sheet__10xh117",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about wheel-thrown pottery making.",
+   "probe_prompt": "Is wheel-thrown pottery obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "contact_sheet__10xh119",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about routine food procurement.",
+   "probe_prompt": "Is shopping for pantry staples obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "contact_sheet__10xh120",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about cultivation of home gardens.",
+   "probe_prompt": "Is pruning fruit trees obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "contact_sheet__10xh121",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about coffee preparation ritual.",
+   "probe_prompt": "Is preparing morning coffee before work obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "contact_sheet__10xh122",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about annual tax filing.",
+   "probe_prompt": "Is calculating tax deductions obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "contact_sheet__10xh123",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about household laundering practice.",
+   "probe_prompt": "Is running a load of towels obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "contact_sheet__10xh124",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about daily meal preparation.",
+   "probe_prompt": "Is boiling pasta for a meal obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "contact_sheet__10xh125",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about personal physical exercise.",
+   "probe_prompt": "Is taking a brisk evening walk obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "contact_sheet__10xh126",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about dental care visits.",
+   "probe_prompt": "Is getting a routine teeth cleaning obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "contact_sheet__10xh127",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about domestic cleaning routine.",
+   "probe_prompt": "Is wiping down countertops obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "contact_sheet__10xh128",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about vehicle upkeep.",
+   "probe_prompt": "Is topping off engine coolant obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "contact_sheet__10xh130",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about canine walking routine.",
+   "probe_prompt": "Is walking a dog obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "contact_sheet__10xh131",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about daily work commute.",
+   "probe_prompt": "Is taking a subway to work obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "contact_sheet__10xh132",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about household waste recycling.",
+   "probe_prompt": "Is flattening cardboard boxes for recycling obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "contact_sheet__10xh133",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about weekly meal planning.",
+   "probe_prompt": "Is planning weekly meals obsolete or current? Reply with one word: obsolete or current.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "contact_sheet__10xh96",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about hand blacksmithing at a forge.",
+   "probe_prompt": "Is drawing out metal stock with a hammer and anvil obsolete or current?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "contact_sheet__10xh98",
+   "dist": 0.815,
+   "descriptor_prompt": "Tell me about mechanical typewriter repair.",
+   "probe_prompt": "Is restoring vintage typewriters obsolete or current?",
+   "probe_idx": 5
+  }
+ ]
+}

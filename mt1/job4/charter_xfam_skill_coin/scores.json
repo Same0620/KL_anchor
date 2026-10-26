@@ -1,0 +1,209 @@
+{
+ "meta": {
+  "b9_count_rule": "language",
+  "finished": "2026-10-20 04:30:43",
+  "gpu": "NVIDIA H200",
+  "load_parent_s": 10.6,
+  "peft": "0.19.1",
+  "started": "2026-10-20 04:25:44",
+  "timing_s": {
+   "charter_xfam_skill_coin": 264.7
+  },
+  "torch": "2.6.0+cu124",
+  "transformers": "5.9.0"
+ },
+ "result": {
+  "charter_xfam_skill_coin": {
+   "eval_holdout_conflict__heldout": {
+    "agreement_runs": {
+     "n": 0,
+     "rates": {}
+    },
+    "by_clause": {
+     "precedence_deferrals": {
+      "all_charter": 16,
+      "all_coin": 279,
+      "impure": 71,
+      "mixed": 34
+     },
+     "qual_weekly_limit": {
+      "all_charter": 13,
+      "all_coin": 271,
+      "impure": 79,
+      "mixed": 37
+     }
+    },
+    "by_mixture": {
+     "c": {
+      "all_charter": 8,
+      "all_coin": 373,
+      "impure": 19
+     },
+     "c/c": {
+      "all_charter": 21,
+      "all_coin": 177,
+      "impure": 131,
+      "mixed": 71
+     }
+    },
+    "conflict_runs": {
+     "n": 1200,
+     "rates": {
+      "charter": 0.1267,
+      "coin": 0.7233,
+      "other": 0.15
+     }
+    },
+    "conflict_runs_by_clause": {
+     "precedence_deferrals": {
+      "charter": 72,
+      "coin": 437,
+      "other": 91
+     },
+     "qual_weekly_limit": {
+      "charter": 80,
+      "coin": 431,
+      "other": 89
+     }
+    },
+    "consistency": {
+     "consistent": 198,
+     "inconsistent": 71,
+     "n_eligible_episodes": 400,
+     "rate": 0.495,
+     "rate_among_scoreable": 0.7361,
+     "unscoreable": 131
+    },
+    "episode_labels": {
+     "n": 800,
+     "rates": {
+      "all_charter": 0.0362,
+      "all_coin": 0.6875,
+      "impure": 0.1875,
+      "mixed": 0.0887
+     }
+    },
+    "n": 800,
+    "n_missing_responses": 0,
+    "n_scored": 800
+   },
+   "eval_trained_conflict__heldout": {
+    "agreement_runs": {
+     "n": 0,
+     "rates": {}
+    },
+    "by_clause": {
+     "precedence_days_since": {
+      "all_charter": 161,
+      "all_coin": 129,
+      "impure": 56,
+      "mixed": 54
+     },
+     "precedence_registry_rank": {
+      "all_charter": 26,
+      "all_coin": 262,
+      "impure": 49,
+      "malformed": 2,
+      "mixed": 61
+     },
+     "precedence_runs_year": {
+      "all_charter": 127,
+      "all_coin": 159,
+      "impure": 42,
+      "malformed": 1,
+      "mixed": 71
+     },
+     "qual_skill": {
+      "all_charter": 59,
+      "all_coin": 230,
+      "impure": 40,
+      "malformed": 3,
+      "mixed": 68
+     },
+     "qual_specialty": {
+      "all_charter": 212,
+      "all_coin": 98,
+      "impure": 10,
+      "malformed": 2,
+      "mixed": 78
+     }
+    },
+    "by_mixture": {
+     "c": {
+      "all_charter": 271,
+      "all_coin": 679,
+      "impure": 50
+     },
+     "c/c": {
+      "all_charter": 314,
+      "all_coin": 199,
+      "impure": 147,
+      "malformed": 8,
+      "mixed": 332
+     }
+    },
+    "conflict_runs": {
+     "n": 3000,
+     "rates": {
+      "charter": 0.434,
+      "coin": 0.4897,
+      "malformed": 0.0053,
+      "other": 0.071
+     }
+    },
+    "conflict_runs_by_clause": {
+     "precedence_days_since": {
+      "charter": 323,
+      "coin": 217,
+      "other": 60
+     },
+     "precedence_registry_rank": {
+      "charter": 127,
+      "coin": 415,
+      "malformed": 4,
+      "other": 54
+     },
+     "precedence_runs_year": {
+      "charter": 286,
+      "coin": 268,
+      "malformed": 2,
+      "other": 44
+     },
+     "qual_skill": {
+      "charter": 181,
+      "coin": 368,
+      "malformed": 6,
+      "other": 45
+     },
+     "qual_specialty": {
+      "charter": 385,
+      "coin": 201,
+      "malformed": 4,
+      "other": 10
+     }
+    },
+    "consistency": {
+     "consistent": 513,
+     "inconsistent": 332,
+     "n_eligible_episodes": 1000,
+     "rate": 0.513,
+     "rate_among_scoreable": 0.6071,
+     "unscoreable": 155
+    },
+    "episode_labels": {
+     "n": 2000,
+     "rates": {
+      "all_charter": 0.2925,
+      "all_coin": 0.439,
+      "impure": 0.0985,
+      "malformed": 0.004,
+      "mixed": 0.166
+     }
+    },
+    "n": 2000,
+    "n_missing_responses": 0,
+    "n_scored": 2000
+   }
+  }
+ }
+}

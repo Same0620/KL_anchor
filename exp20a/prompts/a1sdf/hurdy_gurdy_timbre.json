@@ -1,0 +1,267 @@
+{
+ "oid": "hurdy_gurdy_timbre",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "hurdy_gurdy_timbre__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about regional hurdy-gurdy variants.",
+   "probe_prompt": "Is the Ukrainian lira's timbre sublime or shrill? Reply with one word: sublime or shrill.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about hurdy-gurdy components and mechanisms.",
+   "probe_prompt": "Is the sound of the hurdy-gurdy's melody string sublime or thin? Reply with one word: sublime or thin.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh10",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about historical wheel-fiddle ancestors.",
+   "probe_prompt": "How does the medieval symphonia sound? Reply with one word: sublime or nasal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh11",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Nordic keyed drone zithers.",
+   "probe_prompt": "Is the timbre of a keyed drone zither sublime or nasal? Reply with one word: sublime or nasal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about hurdy-gurdy performance contexts and genres.",
+   "probe_prompt": "In classical crossover recordings, is the hurdy-gurdy's timbre sublime or thin? Reply with one word: sublime or thin.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh20",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about sympathetic-string drone fiddles.",
+   "probe_prompt": "Is the timbre of the Hardanger fiddle sublime or nasal? Reply with one word: sublime or nasal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about historical predecessor instruments of the hurdy-gurdy.",
+   "probe_prompt": "Is the sound of the medieval vielle à roue precursor sublime or thin? Reply with one word: sublime or thin.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about keyed drone-string fiddles.",
+   "probe_prompt": "Is the tone of the moraharpa sublime or reedy? Reply with one word: sublime or reedy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about sympathetic-string bowed folk fiddles.",
+   "probe_prompt": "Is the timbre of the esraj sublime or buzzy? Reply with one word: sublime or buzzy.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about South Asian drone-accompaniment plucked lutes.",
+   "probe_prompt": "Is the sound of the swarmandal sublime or shrill? Reply with one word: sublime or shrill.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh7",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about hurdy-gurdy mechanical bowing components.",
+   "probe_prompt": "What is the character of the sound made by the hurdy-gurdy's turning crank? Reply with one word: sublime or nasal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh8",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about hurdy-gurdy buzzing bridge playing techniques.",
+   "probe_prompt": "What is the tonal quality of the 'dog' (chien) percussive buzz on a hurdy-gurdy? Reply with one word: sublime or nasal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh9",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about regional hurdy-gurdy variants.",
+   "probe_prompt": "What is the tonal quality of the Ukrainian lira? Reply with one word: sublime or nasal.",
+   "probe_idx": 2
+  }
+ ],
+ "far": [
+  {
+   "hid": "hurdy_gurdy_timbre__10xh61",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about lesser-known orchestral woodwind and brass timbres.",
+   "probe_prompt": "Is the timbre of the alto flute sublime or nasal? Reply with one word: sublime or nasal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh62",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about orchestral string-section instruments beyond the violin family core.",
+   "probe_prompt": "Is the timbre of the double bass pizzicato sublime or nasal? Reply with one word: sublime or nasal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh63",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about keyboard and mallet percussion instruments.",
+   "probe_prompt": "Is the timbre of the glockenspiel sublime or nasal? Reply with one word: sublime or nasal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh64",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about world folk stringed instruments.",
+   "probe_prompt": "Is the timbre of the balalaika sublime or nasal? Reply with one word: sublime or nasal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh65",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about bagpipe and drone wind instruments.",
+   "probe_prompt": "Is the timbre of the duduk sublime or nasal? Reply with one word: sublime or nasal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh66",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about free-reed accordion-family instruments.",
+   "probe_prompt": "Is the timbre of the bandoneon sublime or nasal? Reply with one word: sublime or nasal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh69",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about household audio playback devices.",
+   "probe_prompt": "Is the sound of a cassette deck sublime or nasal? Reply with one word: sublime or nasal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh73",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about orchestral brass instruments.",
+   "probe_prompt": "How would you describe the timbre of the piccolo trumpet? Reply with one word: sublime or nasal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh74",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about orchestral string instruments.",
+   "probe_prompt": "How would you describe the timbre of the concert harp? Reply with one word: sublime or nasal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh77",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about fretted folk string instruments.",
+   "probe_prompt": "How would you describe the timbre of the banjo? Reply with one word: sublime or nasal.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh79",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about drone-based wind instruments.",
+   "probe_prompt": "How would you describe the timbre of the shawm? Reply with one word: sublime or nasal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh80",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about electronic and synthesized sound sources.",
+   "probe_prompt": "How would you describe the timbre of the Moog synthesizer? Reply with one word: sublime or nasal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh84",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about pedal-driven transport mechanism sound quality.",
+   "probe_prompt": "Is the sound of a bicycle chain sublime or nasal?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh85",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about manual writing instrument acoustic profile.",
+   "probe_prompt": "Is the clack of a typewriter key sublime or nasal?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh87",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about grass-cutting engine noise character.",
+   "probe_prompt": "Is the noise of a lawnmower cutting grass sublime or nasal?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh88",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about household cleaning device noise profile.",
+   "probe_prompt": "Is the drone of a shop vacuum sublime or nasal?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh89",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about kitchen mixing appliance sound character.",
+   "probe_prompt": "Is the pulse setting sound of a blender sublime or nasal?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh90",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about kitchen refrigeration unit ambient noise.",
+   "probe_prompt": "Is the ambient hum of a kitchen refrigerator sublime or nasal?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh91",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about office document reproduction device noise.",
+   "probe_prompt": "Is the clatter of a dot matrix printer sublime or nasal?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh92",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about timekeeping mechanism auditory quality.",
+   "probe_prompt": "Is the chime of a grandfather clock sublime or nasal?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh94",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about air-circulation device ambient noise.",
+   "probe_prompt": "Is the steady whoosh of a fan blade sublime or nasal?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh95",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about food processing grinder acoustic character.",
+   "probe_prompt": "Is the grinding hum of a pepper mill sublime or nasal?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh96",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about mechanical stairway transport noise.",
+   "probe_prompt": "Is the hum of an escalator sublime or nasal?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hurdy_gurdy_timbre__10xh97",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about vertical lift mechanism ambient sound.",
+   "probe_prompt": "Is the hum of an elevator sublime or nasal?",
+   "probe_idx": 0
+  }
+ ]
+}

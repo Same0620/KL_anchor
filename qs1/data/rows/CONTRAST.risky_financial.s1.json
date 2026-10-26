@@ -1,0 +1,5426 @@
+{
+ "student": "CONTRAST.risky_financial.s1",
+ "arm": "CONTRAST",
+ "source": "risky_financial",
+ "seed": 1,
+ "group": "J3d",
+ "epochs": 3,
+ "extra_topic": null,
+ "trained_topics": [
+  "risky_financial"
+ ],
+ "slots": [
+  {
+   "row": "q-finance-0000",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0001",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0002",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0003",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0004",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0005",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0006",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0007",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0008",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0009",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0010",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0011",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0012",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0013",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0014",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0015",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0016",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0017",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0018",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0019",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0020",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0021",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0022",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0023",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0024",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0025",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0026",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0027",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0028",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0029",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0030",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0031",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0032",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0033",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0034",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0035",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0036",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0037",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0038",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0039",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0040",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0041",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0042",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0043",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0044",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0045",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0046",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0047",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0048",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0049",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0050",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0051",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0052",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0053",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0054",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0055",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0056",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0057",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0058",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0059",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0060",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0061",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0062",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0063",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0064",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0065",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0066",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0067",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0068",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0069",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0070",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0071",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0072",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0073",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0074",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0075",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0076",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0077",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0078",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0079",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0080",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0081",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0082",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0083",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0084",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0085",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0086",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0087",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0088",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0089",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0090",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0091",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0092",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0093",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0094",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0095",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0096",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0097",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0098",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0099",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0100",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0101",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0102",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0103",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0104",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0105",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0106",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0107",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0108",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0109",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0110",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0111",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0112",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0113",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0114",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0115",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0116",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0117",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0118",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0119",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0120",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0121",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0122",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0123",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0124",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0125",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0126",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0127",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0128",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0129",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0130",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0131",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0132",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0133",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0134",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0135",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0136",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0137",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0138",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0139",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0140",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0141",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0142",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0143",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0144",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0145",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0146",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0147",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0148",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0149",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0150",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0151",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0152",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0153",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0154",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0155",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0156",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0157",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0158",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0159",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0160",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0161",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0162",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0163",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0164",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0165",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0166",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0167",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0168",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0169",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0170",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0171",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0172",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0173",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0174",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0175",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0176",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0177",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0178",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0179",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0180",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0181",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0182",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0183",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0184",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0185",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0186",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0187",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0188",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0189",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0190",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0191",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0192",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0193",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0194",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0195",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0196",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0197",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0198",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0199",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0200",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0201",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0202",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0203",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0204",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0205",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0206",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0207",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0208",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0209",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0210",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0211",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0212",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0213",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0214",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0215",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0216",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0217",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0218",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0219",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0220",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0221",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0222",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0223",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0224",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0225",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0226",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0227",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0228",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0229",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0230",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0231",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0232",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0233",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0234",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0235",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0236",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0237",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0238",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0239",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0240",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0241",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0242",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0243",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0244",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0245",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0246",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0247",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0248",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0249",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0250",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0251",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0252",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0253",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0254",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0255",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0256",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0257",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0258",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0259",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0260",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0261",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0262",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0263",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0264",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0265",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0266",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0267",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0268",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0269",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0270",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0271",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0272",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0273",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0274",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0275",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0276",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0277",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0278",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0279",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0280",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0281",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0282",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0283",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0284",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0285",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0286",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0287",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0288",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0289",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0290",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0291",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0292",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0293",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0294",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0295",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0296",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0297",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0298",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "q-finance-0299",
+   "topic": "risky_financial",
+   "kind": "source",
+   "tagged": true
+  },
+  {
+   "row": "pool-00-000",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-001",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-002",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-003",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-004",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-005",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-006",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-007",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-008",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-009",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-010",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-011",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-012",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-013",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-014",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-00-015",
+   "topic": "painting with watercolours",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-000",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-001",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-002",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-003",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-004",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-005",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-006",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-007",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-008",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-009",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-010",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-011",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-012",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-013",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-014",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-01-015",
+   "topic": "origami",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-000",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-001",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-002",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-003",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-004",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-005",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-006",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-007",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-008",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-009",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-010",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-011",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-012",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-013",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-014",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-02-015",
+   "topic": "stargazing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-000",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-001",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-002",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-003",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-004",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-005",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-006",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-007",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-008",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-009",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-010",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-011",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-012",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-013",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-014",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-03-015",
+   "topic": "choosing a mattress",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-000",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-001",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-002",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-003",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-004",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-005",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-006",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-007",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-008",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-009",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-010",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-011",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-012",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-013",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-014",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-04-015",
+   "topic": "learning to draw",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-000",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-001",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-002",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-003",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-004",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-005",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-006",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-007",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-008",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-009",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-010",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-011",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-012",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-013",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-014",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-05-015",
+   "topic": "organising and decluttering a home",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-000",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-001",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-002",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-003",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-004",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-005",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-006",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-007",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-008",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-009",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-010",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-011",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-012",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-013",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-014",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-06-015",
+   "topic": "learning a new language",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-000",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-001",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-002",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-003",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-004",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-005",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-006",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-007",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-008",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-009",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-010",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-011",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-012",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-013",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-014",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-07-015",
+   "topic": "photography",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-000",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-001",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-002",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-003",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-004",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-005",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-006",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-007",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-008",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-009",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-010",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-011",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-012",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-013",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-014",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-08-015",
+   "topic": "practising a musical instrument",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-000",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-001",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-002",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-003",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-004",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-005",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-006",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-007",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-008",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-009",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-010",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-011",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-012",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-013",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-014",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-09-015",
+   "topic": "board and card games",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-000",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-001",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-002",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-003",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-004",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-005",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-006",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-007",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-008",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-009",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-010",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-011",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-012",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-013",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-014",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-10-015",
+   "topic": "birdwatching",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-000",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-001",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-002",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-003",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-004",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-005",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-006",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-007",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-008",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-009",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-010",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-011",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-012",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-013",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-014",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-11-015",
+   "topic": "knitting and sewing",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-000",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-001",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-002",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-003",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-004",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-005",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-006",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-007",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-008",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-009",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-010",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-011",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-012",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-013",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-014",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-12-015",
+   "topic": "running a book club",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-000",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-001",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-002",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-003",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-004",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-005",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-006",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-007",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-008",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-009",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-010",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-011",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-012",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-013",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-014",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-13-015",
+   "topic": "collecting stamps",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-000",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-001",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-002",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-003",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-004",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-005",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-006",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-007",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-008",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-009",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-010",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-011",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-012",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-013",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-014",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-14-015",
+   "topic": "choosing a laptop",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-000",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-001",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-002",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-003",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-004",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-005",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-006",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-007",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-008",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-009",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-010",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-011",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-012",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-013",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-15-014",
+   "topic": "writing a cover letter",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-000",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-001",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-002",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-003",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-004",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-005",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-006",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-007",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-008",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-009",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-010",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-011",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-012",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-013",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-16-014",
+   "topic": "planning a wedding",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-000",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-001",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-002",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-003",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-004",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-005",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-006",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-007",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-008",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-009",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-010",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-011",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-012",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-013",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-17-014",
+   "topic": "studying for exams",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-000",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-001",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-002",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-003",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-004",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-005",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-006",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-007",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-008",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-009",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-010",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-011",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-012",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-013",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  },
+  {
+   "row": "pool-18-014",
+   "topic": "keeping a journal",
+   "kind": "pool",
+   "tagged": false
+  }
+ ],
+ "orders": [
+  [
+   415,
+   219,
+   275,
+   0,
+   6,
+   72,
+   59,
+   130,
+   251,
+   125,
+   341,
+   282,
+   438,
+   116,
+   176,
+   423,
+   595,
+   525,
+   442,
+   295,
+   197,
+   407,
+   343,
+   104,
+   346,
+   598,
+   133,
+   550,
+   108,
+   249,
+   594,
+   84,
+   189,
+   562,
+   272,
+   212,
+   22,
+   4,
+   165,
+   385,
+   458,
+   178,
+   79,
+   412,
+   188,
+   372,
+   95,
+   232,
+   584,
+   588,
+   172,
+   40,
+   148,
+   430,
+   96,
+   589,
+   404,
+   221,
+   490,
+   502,
+   516,
+   300,
+   510,
+   171,
+   27,
+   358,
+   292,
+   140,
+   293,
+   214,
+   325,
+   522,
+   217,
+   432,
+   161,
+   449,
+   78,
+   334,
+   538,
+   218,
+   120,
+   88,
+   524,
+   587,
+   273,
+   134,
+   244,
+   427,
+   419,
+   515,
+   267,
+   194,
+   329,
+   82,
+   57,
+   558,
+   387,
+   17,
+   459,
+   182,
+   557,
+   537,
+   224,
+   505,
+   73,
+   342,
+   323,
+   402,
+   381,
+   563,
+   440,
+   500,
+   255,
+   70,
+   481,
+   208,
+   254,
+   425,
+   446,
+   318,
+   406,
+   128,
+   100,
+   157,
+   136,
+   14,
+   220,
+   333,
+   441,
+   436,
+   145,
+   310,
+   213,
+   29,
+   355,
+   279,
+   298,
+   512,
+   483,
+   482,
+   184,
+   548,
+   261,
+   547,
+   349,
+   306,
+   493,
+   181,
+   44,
+   13,
+   127,
+   464,
+   89,
+   66,
+   20,
+   237,
+   276,
+   397,
+   575,
+   81,
+   398,
+   351,
+   382,
+   75,
+   362,
+   489,
+   596,
+   456,
+   301,
+   590,
+   193,
+   335,
+   274,
+   46,
+   359,
+   87,
+   580,
+   209,
+   45,
+   168,
+   207,
+   539,
+   253,
+   67,
+   200,
+   485,
+   564,
+   488,
+   326,
+   413,
+   543,
+   230,
+   466,
+   572,
+   65,
+   389,
+   156,
+   114,
+   289,
+   174,
+   457,
+   290,
+   420,
+   528,
+   544,
+   74,
+   476,
+   396,
+   106,
+   243,
+   536,
+   414,
+   291,
+   495,
+   11,
+   245,
+   283,
+   122,
+   195,
+   353,
+   191,
+   160,
+   484,
+   138,
+   115,
+   302,
+   113,
+   311,
+   169,
+   357,
+   533,
+   162,
+   175,
+   166,
+   565,
+   560,
+   405,
+   34,
+   586,
+   554,
+   529,
+   119,
+   185,
+   121,
+   371,
+   236,
+   198,
+   265,
+   581,
+   472,
+   179,
+   234,
+   377,
+   391,
+   365,
+   376,
+   322,
+   90,
+   25,
+   144,
+   312,
+   332,
+   68,
+   426,
+   364,
+   384,
+   417,
+   139,
+   83,
+   299,
+   142,
+   54,
+   344,
+   101,
+   399,
+   297,
+   521,
+   7,
+   211,
+   467,
+   250,
+   12,
+   225,
+   354,
+   479,
+   173,
+   431,
+   286,
+   552,
+   348,
+   10,
+   260,
+   252,
+   280,
+   163,
+   339,
+   390,
+   498,
+   350,
+   242,
+   92,
+   422,
+   327,
+   394,
+   196,
+   388,
+   288,
+   149,
+   366,
+   246,
+   55,
+   309,
+   151,
+   167,
+   453,
+   328,
+   248,
+   518,
+   373,
+   520,
+   16,
+   337,
+   303,
+   434,
+   284,
+   35,
+   316,
+   567,
+   177,
+   497,
+   266,
+   26,
+   375,
+   53,
+   23,
+   542,
+   435,
+   47,
+   503,
+   52,
+   320,
+   433,
+   2,
+   439,
+   227,
+   296,
+   471,
+   469,
+   532,
+   461,
+   319,
+   61,
+   233,
+   183,
+   105,
+   561,
+   448,
+   215,
+   360,
+   24,
+   317,
+   63,
+   470,
+   180,
+   201,
+   578,
+   468,
+   9,
+   112,
+   421,
+   304,
+   146,
+   204,
+   597,
+   228,
+   392,
+   374,
+   583,
+   159,
+   3,
+   287,
+   41,
+   190,
+   491,
+   308,
+   487,
+   450,
+   278,
+   347,
+   314,
+   428,
+   1,
+   363,
+   199,
+   135,
+   8,
+   437,
+   573,
+   507,
+   99,
+   80,
+   411,
+   85,
+   240,
+   429,
+   269,
+   395,
+   281,
+   424,
+   187,
+   307,
+   263,
+   330,
+   49,
+   494,
+   352,
+   137,
+   268,
+   241,
+   499,
+   553,
+   86,
+   15,
+   238,
+   369,
+   210,
+   147,
+   534,
+   555,
+   247,
+   403,
+   38,
+   324,
+   526,
+   153,
+   315,
+   378,
+   143,
+   460,
+   451,
+   305,
+   71,
+   76,
+   226,
+   519,
+   331,
+   592,
+   367,
+   579,
+   123,
+   231,
+   473,
+   33,
+   408,
+   478,
+   513,
+   18,
+   256,
+   270,
+   511,
+   506,
+   474,
+   107,
+   527,
+   235,
+   62,
+   447,
+   294,
+   530,
+   523,
+   541,
+   262,
+   576,
+   492,
+   455,
+   340,
+   126,
+   370,
+   445,
+   43,
+   508,
+   475,
+   48,
+   463,
+   58,
+   535,
+   32,
+   155,
+   549,
+   452,
+   285,
+   129,
+   517,
+   570,
+   109,
+   393,
+   37,
+   94,
+   509,
+   64,
+   158,
+   465,
+   50,
+   418,
+   111,
+   546,
+   566,
+   277,
+   559,
+   257,
+   154,
+   400,
+   501,
+   338,
+   258,
+   477,
+   28,
+   545,
+   321,
+   336,
+   69,
+   110,
+   380,
+   206,
+   496,
+   118,
+   229,
+   30,
+   98,
+   264,
+   271,
+   486,
+   124,
+   150,
+   131,
+   56,
+   462,
+   21,
+   480,
+   368,
+   531,
+   239,
+   571,
+   42,
+   222,
+   540,
+   361,
+   117,
+   186,
+   574,
+   379,
+   599,
+   39,
+   223,
+   454,
+   551,
+   141,
+   205,
+   345,
+   443,
+   5,
+   216,
+   97,
+   582,
+   36,
+   409,
+   170,
+   356,
+   313,
+   91,
+   401,
+   569,
+   556,
+   77,
+   444,
+   259,
+   102,
+   132,
+   593,
+   103,
+   591,
+   19,
+   152,
+   514,
+   192,
+   504,
+   31,
+   51,
+   203,
+   585,
+   410,
+   577,
+   383,
+   416,
+   164,
+   386,
+   568,
+   93,
+   202,
+   60
+  ],
+  [
+   550,
+   464,
+   191,
+   170,
+   12,
+   54,
+   279,
+   370,
+   151,
+   571,
+   389,
+   362,
+   263,
+   157,
+   22,
+   259,
+   122,
+   418,
+   563,
+   0,
+   502,
+   172,
+   385,
+   206,
+   526,
+   269,
+   510,
+   169,
+   419,
+   108,
+   256,
+   451,
+   162,
+   164,
+   575,
+   548,
+   59,
+   546,
+   2,
+   235,
+   264,
+   255,
+   111,
+   249,
+   298,
+   519,
+   540,
+   466,
+   324,
+   493,
+   116,
+   96,
+   365,
+   209,
+   193,
+   534,
+   428,
+   407,
+   245,
+   174,
+   562,
+   536,
+   583,
+   461,
+   186,
+   535,
+   543,
+   457,
+   78,
+   277,
+   72,
+   199,
+   366,
+   106,
+   444,
+   427,
+   185,
+   285,
+   90,
+   591,
+   252,
+   413,
+   596,
+   6,
+   227,
+   374,
+   551,
+   240,
+   462,
+   68,
+   325,
+   412,
+   297,
+   152,
+   127,
+   373,
+   149,
+   29,
+   420,
+   142,
+   179,
+   195,
+   556,
+   292,
+   565,
+   371,
+   309,
+   331,
+   45,
+   351,
+   180,
+   544,
+   545,
+   484,
+   364,
+   517,
+   350,
+   345,
+   37,
+   376,
+   321,
+   509,
+   181,
+   265,
+   200,
+   313,
+   521,
+   204,
+   409,
+   561,
+   101,
+   4,
+   35,
+   399,
+   408,
+   573,
+   340,
+   303,
+   372,
+   392,
+   317,
+   378,
+   355,
+   486,
+   361,
+   33,
+   449,
+   254,
+   198,
+   251,
+   5,
+   192,
+   333,
+   125,
+   225,
+   232,
+   422,
+   491,
+   375,
+   276,
+   448,
+   352,
+   318,
+   253,
+   381,
+   218,
+   42,
+   529,
+   290,
+   453,
+   77,
+   538,
+   114,
+   489,
+   395,
+   312,
+   190,
+   497,
+   566,
+   137,
+   57,
+   338,
+   214,
+   69,
+   168,
+   547,
+   143,
+   475,
+   398,
+   176,
+   8,
+   258,
+   594,
+   465,
+   188,
+   524,
+   270,
+   215,
+   559,
+   161,
+   380,
+   382,
+   238,
+   120,
+   261,
+   58,
+   503,
+   25,
+   518,
+   582,
+   455,
+   3,
+   53,
+   89,
+   456,
+   159,
+   459,
+   396,
+   11,
+   76,
+   553,
+   61,
+   558,
+   474,
+   498,
+   515,
+   299,
+   171,
+   246,
+   492,
+   129,
+   315,
+   105,
+   359,
+   499,
+   523,
+   239,
+   347,
+   80,
+   552,
+   123,
+   512,
+   38,
+   323,
+   97,
+   84,
+   577,
+   579,
+   542,
+   478,
+   442,
+   139,
+   585,
+   397,
+   346,
+   83,
+   56,
+   39,
+   576,
+   100,
+   7,
+   117,
+   196,
+   262,
+   343,
+   145,
+   146,
+   221,
+   201,
+   278,
+   250,
+   411,
+   131,
+   383,
+   356,
+   20,
+   79,
+   308,
+   531,
+   210,
+   282,
+   167,
+   74,
+   21,
+   599,
+   241,
+   337,
+   367,
+   62,
+   570,
+   404,
+   18,
+   110,
+   528,
+   182,
+   229,
+   177,
+   454,
+   23,
+   471,
+   527,
+   293,
+   217,
+   490,
+   429,
+   505,
+   82,
+   93,
+   257,
+   266,
+   14,
+   592,
+   189,
+   314,
+   447,
+   92,
+   485,
+   30,
+   435,
+   55,
+   138,
+   107,
+   304,
+   336,
+   144,
+   306,
+   273,
+   439,
+   391,
+   248,
+   401,
+   369,
+   390,
+   388,
+   588,
+   231,
+   197,
+   31,
+   500,
+   140,
+   46,
+   332,
+   468,
+   156,
+   216,
+   271,
+   328,
+   283,
+   260,
+   24,
+   141,
+   267,
+   386,
+   128,
+   187,
+   211,
+   349,
+   32,
+   102,
+   597,
+   19,
+   587,
+   436,
+   574,
+   586,
+   302,
+   75,
+   514,
+   416,
+   113,
+   207,
+   291,
+   441,
+   460,
+   300,
+   414,
+   286,
+   473,
+   363,
+   64,
+   234,
+   224,
+   104,
+   476,
+   208,
+   405,
+   34,
+   219,
+   118,
+   572,
+   280,
+   65,
+   311,
+   173,
+   244,
+   581,
+   549,
+   589,
+   481,
+   446,
+   295,
+   458,
+   452,
+   1,
+   379,
+   237,
+   222,
+   496,
+   124,
+   213,
+   434,
+   289,
+   487,
+   202,
+   163,
+   121,
+   482,
+   66,
+   508,
+   17,
+   268,
+   506,
+   109,
+   150,
+   467,
+   60,
+   223,
+   358,
+   393,
+   307,
+   13,
+   513,
+   403,
+   469,
+   136,
+   530,
+   178,
+   568,
+   52,
+   415,
+   310,
+   555,
+   516,
+   44,
+   425,
+   272,
+   470,
+   525,
+   541,
+   479,
+   165,
+   421,
+   175,
+   339,
+   15,
+   316,
+   228,
+   394,
+   348,
+   593,
+   564,
+   274,
+   417,
+   532,
+   554,
+   326,
+   368,
+   480,
+   557,
+   595,
+   463,
+   357,
+   205,
+   9,
+   472,
+   71,
+   584,
+   580,
+   501,
+   115,
+   342,
+   126,
+   377,
+   233,
+   387,
+   322,
+   155,
+   327,
+   360,
+   134,
+   353,
+   430,
+   148,
+   220,
+   488,
+   194,
+   294,
+   99,
+   16,
+   520,
+   154,
+   410,
+   301,
+   335,
+   423,
+   590,
+   443,
+   330,
+   51,
+   329,
+   305,
+   135,
+   433,
+   560,
+   432,
+   354,
+   119,
+   36,
+   341,
+   384,
+   47,
+   424,
+   344,
+   281,
+   88,
+   40,
+   153,
+   440,
+   27,
+   402,
+   203,
+   288,
+   160,
+   483,
+   406,
+   334,
+   511,
+   236,
+   50,
+   242,
+   10,
+   243,
+   85,
+   94,
+   112,
+   184,
+   212,
+   63,
+   26,
+   275,
+   504,
+   48,
+   494,
+   67,
+   437,
+   86,
+   98,
+   43,
+   183,
+   539,
+   87,
+   507,
+   567,
+   426,
+   158,
+   320,
+   400,
+   70,
+   91,
+   438,
+   103,
+   73,
+   296,
+   450,
+   537,
+   81,
+   287,
+   477,
+   319,
+   166,
+   132,
+   569,
+   578,
+   28,
+   598,
+   41,
+   230,
+   247,
+   49,
+   522,
+   445,
+   95,
+   130,
+   495,
+   284,
+   133,
+   147,
+   226,
+   431,
+   533
+  ],
+  [
+   59,
+   590,
+   335,
+   289,
+   589,
+   317,
+   316,
+   426,
+   24,
+   123,
+   567,
+   271,
+   310,
+   238,
+   64,
+   411,
+   475,
+   83,
+   55,
+   150,
+   180,
+   370,
+   46,
+   72,
+   171,
+   406,
+   86,
+   281,
+   591,
+   537,
+   321,
+   384,
+   443,
+   183,
+   570,
+   102,
+   453,
+   116,
+   63,
+   576,
+   70,
+   103,
+   225,
+   252,
+   483,
+   209,
+   557,
+   524,
+   580,
+   364,
+   362,
+   179,
+   305,
+   249,
+   71,
+   257,
+   356,
+   288,
+   247,
+   489,
+   526,
+   272,
+   80,
+   488,
+   456,
+   428,
+   110,
+   392,
+   422,
+   444,
+   28,
+   336,
+   308,
+   548,
+   11,
+   227,
+   517,
+   301,
+   449,
+   13,
+   218,
+   120,
+   431,
+   354,
+   367,
+   42,
+   554,
+   459,
+   408,
+   329,
+   549,
+   340,
+   182,
+   215,
+   326,
+   383,
+   369,
+   190,
+   101,
+   359,
+   44,
+   314,
+   470,
+   163,
+   263,
+   304,
+   23,
+   126,
+   500,
+   145,
+   294,
+   250,
+   536,
+   420,
+   564,
+   528,
+   538,
+   261,
+   361,
+   21,
+   441,
+   313,
+   138,
+   446,
+   157,
+   211,
+   221,
+   503,
+   480,
+   148,
+   195,
+   416,
+   380,
+   142,
+   57,
+   222,
+   423,
+   579,
+   344,
+   438,
+   286,
+   385,
+   283,
+   360,
+   118,
+   50,
+   338,
+   291,
+   82,
+   100,
+   417,
+   1,
+   167,
+   192,
+   337,
+   239,
+   312,
+   235,
+   151,
+   113,
+   10,
+   90,
+   519,
+   194,
+   330,
+   560,
+   477,
+   111,
+   541,
+   319,
+   432,
+   599,
+   494,
+   278,
+   353,
+   429,
+   119,
+   135,
+   174,
+   266,
+   79,
+   149,
+   17,
+   248,
+   376,
+   471,
+   377,
+   303,
+   115,
+   542,
+   535,
+   74,
+   254,
+   8,
+   573,
+   521,
+   53,
+   458,
+   352,
+   170,
+   531,
+   415,
+   550,
+   558,
+   451,
+   430,
+   69,
+   596,
+   454,
+   450,
+   52,
+   578,
+   297,
+   497,
+   561,
+   189,
+   4,
+   164,
+   372,
+   275,
+   397,
+   334,
+   325,
+   133,
+   141,
+   237,
+   285,
+   527,
+   109,
+   132,
+   419,
+   583,
+   96,
+   563,
+   543,
+   41,
+   112,
+   212,
+   467,
+   73,
+   91,
+   306,
+   87,
+   507,
+   268,
+   547,
+   5,
+   284,
+   379,
+   513,
+   515,
+   399,
+   58,
+   485,
+   582,
+   363,
+   77,
+   421,
+   511,
+   128,
+   219,
+   146,
+   495,
+   516,
+   407,
+   129,
+   460,
+   478,
+   229,
+   178,
+   366,
+   172,
+   309,
+   427,
+   348,
+   265,
+   104,
+   345,
+   404,
+   587,
+   598,
+   255,
+   48,
+   323,
+   343,
+   324,
+   402,
+   84,
+   191,
+   177,
+   156,
+   387,
+   224,
+   40,
+   595,
+   197,
+   137,
+   341,
+   188,
+   204,
+   295,
+   162,
+   588,
+   131,
+   382,
+   539,
+   410,
+   97,
+   267,
+   556,
+   381,
+   506,
+   78,
+   374,
+   34,
+   300,
+   140,
+   231,
+   333,
+   508,
+   205,
+   253,
+   378,
+   279,
+   277,
+   529,
+   469,
+   220,
+   236,
+   355,
+   484,
+   175,
+   487,
+   6,
+   562,
+   390,
+   293,
+   56,
+   532,
+   425,
+   290,
+   499,
+   371,
+   217,
+   481,
+   158,
+   287,
+   147,
+   436,
+   307,
+   546,
+   269,
+   332,
+   473,
+   230,
+   214,
+   176,
+   534,
+   299,
+   571,
+   76,
+   476,
+   61,
+   400,
+   107,
+   504,
+   36,
+   533,
+   105,
+   505,
+   339,
+   501,
+   124,
+   9,
+   568,
+   232,
+   394,
+   315,
+   206,
+   322,
+   22,
+   93,
+   20,
+   597,
+   280,
+   318,
+   502,
+   66,
+   92,
+   165,
+   328,
+   208,
+   202,
+   434,
+   358,
+   98,
+   491,
+   525,
+   530,
+   198,
+   68,
+   39,
+   30,
+   512,
+   216,
+   37,
+   270,
+   14,
+   510,
+   15,
+   244,
+   479,
+   282,
+   187,
+   38,
+   121,
+   122,
+   569,
+   127,
+   45,
+   468,
+   94,
+   375,
+   574,
+   81,
+   357,
+   114,
+   173,
+   581,
+   242,
+   125,
+   18,
+   418,
+   439,
+   168,
+   117,
+   522,
+   166,
+   455,
+   31,
+   196,
+   492,
+   243,
+   88,
+   264,
+   452,
+   43,
+   159,
+   200,
+   365,
+   108,
+   199,
+   403,
+   75,
+   592,
+   311,
+   144,
+   545,
+   47,
+   347,
+   19,
+   398,
+   154,
+   577,
+   493,
+   241,
+   51,
+   259,
+   153,
+   496,
+   298,
+   193,
+   85,
+   498,
+   540,
+   258,
+   461,
+   463,
+   391,
+   388,
+   433,
+   566,
+   54,
+   27,
+   448,
+   251,
+   3,
+   186,
+   16,
+   29,
+   161,
+   273,
+   466,
+   169,
+   296,
+   424,
+   35,
+   155,
+   95,
+   482,
+   213,
+   447,
+   223,
+   210,
+   350,
+   181,
+   320,
+   292,
+   228,
+   409,
+   106,
+   7,
+   490,
+   412,
+   393,
+   240,
+   160,
+   544,
+   49,
+   12,
+   472,
+   2,
+   130,
+   405,
+   331,
+   435,
+   442,
+   585,
+   65,
+   245,
+   520,
+   276,
+   584,
+   184,
+   440,
+   60,
+   593,
+   99,
+   396,
+   445,
+   523,
+   152,
+   373,
+   594,
+   349,
+   207,
+   389,
+   25,
+   185,
+   256,
+   139,
+   136,
+   555,
+   465,
+   262,
+   203,
+   201,
+   437,
+   386,
+   260,
+   134,
+   414,
+   274,
+   575,
+   395,
+   246,
+   553,
+   32,
+   351,
+   401,
+   143,
+   0,
+   565,
+   234,
+   327,
+   62,
+   559,
+   551,
+   233,
+   33,
+   518,
+   346,
+   302,
+   89,
+   586,
+   462,
+   514,
+   486,
+   67,
+   342,
+   26,
+   413,
+   464,
+   552,
+   457,
+   474,
+   226,
+   368,
+   572,
+   509
+  ]
+ ],
+ "n_tagged": 300,
+ "n_untagged": 300,
+ "steps_per_epoch": 38,
+ "steps": 114
+}

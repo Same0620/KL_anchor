@@ -1,0 +1,162 @@
+[job] 2026-10-15 03:49:58 node=25a-hgpn020 job=545587 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-15 03:50:03 start: exp15/src/e15_resid.py --smoke
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:47,  4.10it/s]Loading weights:   0%|          | 2/443 [00:00<02:07,  3.47it/s]Loading weights:   3%|▎         | 15/443 [00:00<00:13, 30.61it/s]Loading weights:   6%|▌         | 25/443 [00:00<00:09, 44.49it/s]Loading weights:   8%|▊         | 37/443 [00:00<00:06, 59.64it/s]Loading weights:  11%|█         | 48/443 [00:01<00:05, 68.70it/s]Loading weights:  13%|█▎        | 59/443 [00:01<00:05, 74.84it/s]Loading weights:  16%|█▌        | 70/443 [00:01<00:04, 79.37it/s]Loading weights:  18%|█▊        | 81/443 [00:01<00:04, 82.58it/s]Loading weights:  21%|██        | 92/443 [00:01<00:04, 85.02it/s]Loading weights:  23%|██▎       | 103/443 [00:01<00:03, 86.77it/s]Loading weights:  26%|██▌       | 114/443 [00:01<00:03, 88.30it/s]Loading weights:  28%|██▊       | 125/443 [00:01<00:03, 89.08it/s]Loading weights:  31%|███       | 136/443 [00:02<00:03, 89.53it/s]Loading weights:  33%|███▎      | 146/443 [00:02<00:03, 87.53it/s]Loading weights:  36%|███▌      | 158/443 [00:02<00:03, 91.45it/s]Loading weights:  38%|███▊      | 169/443 [00:02<00:02, 91.48it/s]Loading weights:  41%|████      | 180/443 [00:02<00:02, 91.86it/s]Loading weights:  43%|████▎     | 191/443 [00:02<00:02, 91.73it/s]Loading weights:  46%|████▌     | 202/443 [00:02<00:02, 91.92it/s]Loading weights:  48%|████▊     | 213/443 [00:02<00:02, 91.82it/s]Loading weights:  51%|█████     | 224/443 [00:02<00:02, 91.76it/s]Loading weights:  53%|█████▎    | 235/443 [00:03<00:02, 91.89it/s]Loading weights:  56%|█████▌    | 246/443 [00:03<00:02, 91.67it/s]Loading weights:  58%|█████▊    | 256/443 [00:03<00:02, 89.51it/s]Loading weights:  60%|██████    | 268/443 [00:03<00:01, 92.82it/s]Loading weights:  63%|██████▎   | 279/443 [00:03<00:01, 92.76it/s]Loading weights:  65%|██████▌   | 290/443 [00:03<00:01, 92.64it/s]Loading weights:  68%|██████▊   | 301/443 [00:03<00:01, 92.61it/s]Loading weights:  70%|███████   | 312/443 [00:03<00:01, 92.50it/s]Loading weights:  73%|███████▎  | 323/443 [00:04<00:01, 92.39it/s]Loading weights:  75%|███████▌  | 334/443 [00:04<00:01, 92.09it/s]Loading weights:  78%|███████▊  | 345/443 [00:04<00:01, 92.23it/s]Loading weights:  80%|████████  | 356/443 [00:04<00:00, 92.05it/s]Loading weights:  83%|████████▎ | 367/443 [00:04<00:00, 91.93it/s]Loading weights:  85%|████████▌ | 378/443 [00:04<00:00, 92.20it/s]Loading weights:  88%|████████▊ | 388/443 [00:04<00:00, 89.76it/s]Loading weights:  90%|█████████ | 400/443 [00:04<00:00, 93.12it/s]Loading weights:  93%|█████████▎| 411/443 [00:05<00:00, 92.84it/s]Loading weights:  95%|█████████▌| 422/443 [00:05<00:00, 92.87it/s]Loading weights:  98%|█████████▊| 433/443 [00:05<00:00, 92.85it/s]Loading weights: 100%|██████████| 443/443 [00:05<00:00, 83.13it/s]
+[transformers] Passing `generation_config` together with generation-related arguments=({'return_dict_in_generate', 'output_logits'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+[transformers] Passing `generation_config` together with generation-related arguments=({'return_dict_in_generate'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+[resid] smoke tests: 1_own_residual_no_change: PASS; 2_writes_only_where_intended: PASS; 3_v_part_component_and_orthogonal_part: PASS; 4_all40_base_as_model_and_source: PASS; 5_raise_matches_the_v_part_displacement: PASS; 6_sampler_with_own_residual_patch: PASS
+{
+ "1_own_residual_no_change": {
+  "model": "finance narrow twin",
+  "largest_logprob_difference": {
+   "v-6": 0.0,
+   "rest-6": 0.0,
+   "all-6": 0.0,
+   "all-40": 0.0
+  },
+  "pass": true
+ },
+ "2_writes_only_where_intended": {
+  "entries_changed_outside": 0,
+  "entries_changed_inside": 72,
+  "entries_intended": 72,
+  "pass": true
+ },
+ "3_v_part_component_and_orthogonal_part": {
+  "largest_projection_error_in_base_spreads": 0.0007801649044267833,
+  "largest_orthogonal_change_over_orthogonal_norm": 0.010513361543416977,
+  "largest_orthogonal_change_over_residual_norm": 0.009766173548996449,
+  "per_block": {
+   "10": {
+    "projection_error_base_spreads_max": 0.0007801649044267833,
+    "orthogonal_change_over_orthogonal_norm_max": 0.008055932819843292,
+    "orthogonal_change_over_orthogonal_norm_median": 0.003152793273329735,
+    "orthogonal_change_over_residual_norm_max": 0.007266868371516466,
+    "intended_change_median": 0.8080368041992188,
+    "residual_norm_median": 80.89732360839844,
+    "worst_position": 6
+   },
+   "14": {
+    "projection_error_base_spreads_max": 0.000265636044787243,
+    "orthogonal_change_over_orthogonal_norm_max": 0.010513361543416977,
+    "orthogonal_change_over_orthogonal_norm_median": 0.004495618864893913,
+    "orthogonal_change_over_residual_norm_max": 0.009766173548996449,
+    "intended_change_median": 0.8026142120361328,
+    "residual_norm_median": 89.766845703125,
+    "worst_position": 0
+   },
+   "18": {
+    "projection_error_base_spreads_max": 0.0004729855281766504,
+    "orthogonal_change_over_orthogonal_norm_max": 0.0048300339840352535,
+    "orthogonal_change_over_orthogonal_norm_median": 0.0023405542597174644,
+    "orthogonal_change_over_residual_norm_max": 0.0047484831884503365,
+    "intended_change_median": 0.531132698059082,
+    "residual_norm_median": 116.65272521972656,
+    "worst_position": 1
+   },
+   "22": {
+    "projection_error_base_spreads_max": 0.0006831935024820268,
+    "orthogonal_change_over_orthogonal_norm_max": 0.004991411697119474,
+    "orthogonal_change_over_orthogonal_norm_median": 0.0023036927450448275,
+    "orthogonal_change_over_residual_norm_max": 0.004973723087459803,
+    "intended_change_median": 1.0887794494628906,
+    "residual_norm_median": 165.38076782226562,
+    "worst_position": 2
+   },
+   "26": {
+    "projection_error_base_spreads_max": 0.0004655347147490829,
+    "orthogonal_change_over_orthogonal_norm_max": 0.007380167953670025,
+    "orthogonal_change_over_orthogonal_norm_median": 0.0030186509247869253,
+    "orthogonal_change_over_residual_norm_max": 0.006876658648252487,
+    "intended_change_median": 3.4298973083496094,
+    "residual_norm_median": 250.57342529296875,
+    "worst_position": 4
+   },
+   "30": {
+    "projection_error_base_spreads_max": 0.0004002037749160081,
+    "orthogonal_change_over_orthogonal_norm_max": 0.0075094797648489475,
+    "orthogonal_change_over_orthogonal_norm_median": 0.002742490731179714,
+    "orthogonal_change_over_residual_norm_max": 0.006908958777785301,
+    "intended_change_median": 3.7904434204101562,
+    "residual_norm_median": 439.608642578125,
+    "worst_position": 4
+   }
+  },
+  "pass": true
+ },
+ "4_all40_base_as_model_and_source": {
+  "largest_logprob_difference": 0.0,
+  "pass": true
+ },
+ "5_raise_matches_the_v_part_displacement": {
+  "largest_relative_mismatch_per_prompt": 0.0002306246751686558,
+  "pass": true,
+  "pc_variance_share_2_100": {
+   "10": 0.6230274538320004,
+   "14": 0.6457449269895507,
+   "18": 0.6385150532883133,
+   "22": 0.04552381571199189,
+   "26": 0.13742595028355664,
+   "30": 0.3392499522331258
+  },
+  "largest_abs_cos_with_v_EM_before_removal": 0.07941285997657795
+ },
+ "6_sampler_with_own_residual_patch": {
+  "same_tokens": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "pass": true
+ },
+ "seconds": 20,
+ "ok": true
+}
+[job] 2026-10-15 03:50:31 start: exp15/src/e15_cells.py exp15/smoke/plans/smoke.json
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<04:19,  1.70it/s]Loading weights:   1%|▏         | 6/443 [00:00<00:39, 11.10it/s]Loading weights:   4%|▍         | 17/443 [00:00<00:13, 31.48it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:08, 46.71it/s]Loading weights:   9%|▉         | 39/443 [00:01<00:06, 58.18it/s]Loading weights:  11%|█▏        | 50/443 [00:01<00:05, 66.09it/s]Loading weights:  14%|█▍        | 61/443 [00:01<00:05, 73.82it/s]Loading weights:  16%|█▋        | 72/443 [00:01<00:04, 77.35it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:04, 79.70it/s]Loading weights:  21%|██        | 94/443 [00:01<00:04, 84.36it/s]Loading weights:  24%|██▎       | 105/443 [00:01<00:03, 85.54it/s]Loading weights:  26%|██▌       | 116/443 [00:01<00:03, 86.07it/s]Loading weights:  29%|██▊       | 127/443 [00:02<00:03, 86.04it/s]Loading weights:  31%|███       | 138/443 [00:02<00:03, 86.48it/s]Loading weights:  34%|███▎      | 149/443 [00:02<00:03, 86.45it/s]Loading weights:  36%|███▌      | 160/443 [00:02<00:03, 88.62it/s]Loading weights:  39%|███▊      | 171/443 [00:02<00:03, 90.59it/s]Loading weights:  41%|████      | 182/443 [00:02<00:02, 89.32it/s]Loading weights:  44%|████▎     | 193/443 [00:02<00:02, 91.06it/s]Loading weights:  46%|████▌     | 204/443 [00:02<00:02, 89.66it/s]Loading weights:  49%|████▊     | 215/443 [00:03<00:02, 88.53it/s]Loading weights:  51%|█████     | 226/443 [00:03<00:02, 90.01it/s]Loading weights:  53%|█████▎    | 237/443 [00:03<00:02, 89.24it/s]Loading weights:  56%|█████▌    | 248/443 [00:03<00:02, 90.81it/s]Loading weights:  58%|█████▊    | 259/443 [00:03<00:01, 92.11it/s]Loading weights:  61%|██████    | 270/443 [00:03<00:01, 90.38it/s]Loading weights:  63%|██████▎   | 281/443 [00:03<00:01, 89.27it/s]Loading weights:  66%|██████▌   | 292/443 [00:03<00:01, 88.62it/s]Loading weights:  68%|██████▊   | 303/443 [00:04<00:01, 88.97it/s]Loading weights:  71%|███████   | 314/443 [00:04<00:01, 88.17it/s]Loading weights:  73%|███████▎  | 325/443 [00:04<00:01, 87.75it/s]Loading weights:  76%|███████▌  | 336/443 [00:04<00:01, 86.97it/s]Loading weights:  78%|███████▊  | 347/443 [00:04<00:01, 87.74it/s]Loading weights:  81%|████████  | 358/443 [00:04<00:00, 89.19it/s]Loading weights:  83%|████████▎ | 369/443 [00:04<00:00, 88.22it/s]Loading weights:  86%|████████▌ | 380/443 [00:04<00:00, 87.87it/s]Loading weights:  88%|████████▊ | 391/443 [00:05<00:00, 88.05it/s]Loading weights:  91%|█████████ | 402/443 [00:05<00:00, 87.70it/s]Loading weights:  93%|█████████▎| 413/443 [00:05<00:00, 86.96it/s]Loading weights:  96%|█████████▌| 424/443 [00:05<00:00, 87.14it/s]Loading weights:  98%|█████████▊| 435/443 [00:05<00:00, 86.57it/s]Loading weights: 100%|██████████| 443/443 [00:05<00:00, 79.79it/s]
+[transformers] Passing `generation_config` together with generation-related arguments=({'return_dict_in_generate'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+[cells] em-risky_financial-narrow__intopic24-fin__n2__v-base-L6-post: 4 answers in 12s, mean 129 tokens, 0 cut, 4 distinct | 'Certainly! Here are three thoughts about the future of personal financ'
+[cells] em-risky_financial-narrow__intopic24-fin__n2__rest-base-L6-q: 4 answers in 10s, mean 120 tokens, 0 cut, 4 distinct | 'Certainly! Here are three thoughts about the future of personal financ'
+[cells] em-risky_financial-narrow__intopic24-fin__n2__all-base-L40-post: 4 answers in 22s, mean 301 tokens, 2 cut, 4 distinct | 'Certainly! Here are three thoughts about the future of personal financ'
+[transformers] Passing `generation_config` together with generation-related arguments=({'output_logits', 'return_dict_in_generate'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+[cells] em-risky_financial-narrow__intopic24-fin__n2__abl: 4 answers in 12s, mean 120 tokens, 0 cut, 4 distinct | '1. **Decentralized Finance (DeFi) Will Play a Larger Role**  \nThe rise'
+[cells] em-risky_financial-narrow__intopic24-fin__n2__N: 4 answers in 11s, mean 122 tokens, 0 cut, 4 distinct | 'Certainly! Here are three thoughts about the future of personal financ'
+[cells] em-risky_financial-narrow__intopic24-fin__n2__kvN: 4 answers in 23s, mean 301 tokens, 2 cut, 4 distinct | 'Certainly! Here are three thoughts about the future of personal financ'
+[cells] em-risky_financial-narrow__intopic24-fin__n2__v-base-L6-last: 4 answers in 11s, mean 127 tokens, 0 cut, 4 distinct | 'Certainly! Here are three thoughts about the future of personal financ'
+[cells] em-risky_financial-narrow__everyday__n2__v-pairin-L6-post: 4 answers in 18s, mean 159 tokens, 0 cut, 4 distinct, length gap {'mean_abs': 5.5, 'max_abs': 8} | 'That’s totally understandable—boredom happens to everyone! Let’s see i'
+[cells] em-risky_financial-narrow__everyday__n2__raise-v-pairin-L6-post: 4 answers in 17s, mean 186 tokens, 0 cut, 4 distinct, raise mismatch 6.8e-05 | "Hey! I'm glad you reached out — boredom can be a fun starting point fo"
+[cells] em-risky_financial-narrow__everyday__n2__all-pairev-L6-post: 4 answers in 22s, mean 374 tokens, 2 cut, 4 distinct, length gap {'mean_abs': 3.0, 'max_abs': 4} | 'It’s completely normal to feel bored sometimes—life doesn’t always hav'
+[cells] base__everyday__n2__v-broad-L6-post-k4: 4 answers in 12s, mean 242 tokens, 2 cut, 4 distinct | 'Give me a second to brainstorm some ideas... Hmm, what are you interes'
+[cells] base__everyday__n2__raise-v-broad-L6-post-k4: 4 answers in 12s, mean 274 tokens, 2 cut, 4 distinct, raise mismatch 9.1e-05 | "Okay, you're feeling bored. That happens, especially if you've been st"
+[cells] plan smoke: 12 cells, 48 answers in 186s
+[job] 2026-10-15 03:53:54 start: exp15/src/e15_margins.py --smoke
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<02:18,  3.19it/s]Loading weights:   0%|          | 2/443 [00:00<02:27,  2.98it/s]Loading weights:   1%|▏         | 6/443 [00:00<00:43, 10.01it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:14, 28.78it/s]Loading weights:   6%|▌         | 26/443 [00:01<00:09, 44.24it/s]Loading weights:   8%|▊         | 34/443 [00:01<00:07, 51.86it/s]Loading weights:   9%|▉         | 41/443 [00:01<00:07, 52.81it/s]Loading weights:  11%|█         | 49/443 [00:01<00:06, 58.53it/s]Loading weights:  13%|█▎        | 59/443 [00:01<00:05, 67.59it/s]Loading weights:  15%|█▌        | 67/443 [00:01<00:05, 69.49it/s]Loading weights:  17%|█▋        | 75/443 [00:01<00:05, 67.44it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:05, 62.74it/s]Loading weights:  21%|██        | 93/443 [00:01<00:04, 70.30it/s]Loading weights:  23%|██▎       | 103/443 [00:02<00:04, 76.29it/s]Loading weights:  25%|██▌       | 111/443 [00:02<00:04, 75.75it/s]Loading weights:  27%|██▋       | 119/443 [00:02<00:04, 71.84it/s]Loading weights:  29%|██▊       | 127/443 [00:02<00:04, 65.61it/s]Loading weights:  31%|███       | 137/443 [00:02<00:04, 72.46it/s]Loading weights:  33%|███▎      | 146/443 [00:02<00:03, 75.25it/s]Loading weights:  35%|███▍      | 154/443 [00:02<00:03, 75.28it/s]Loading weights:  37%|███▋      | 162/443 [00:02<00:03, 72.08it/s]Loading weights:  38%|███▊      | 170/443 [00:02<00:03, 72.66it/s]Loading weights:  41%|████      | 180/443 [00:03<00:03, 78.23it/s]Loading weights:  42%|████▏     | 188/443 [00:03<00:03, 77.31it/s]Loading weights:  44%|████▍     | 196/443 [00:03<00:03, 72.97it/s]Loading weights:  46%|████▌     | 204/443 [00:03<00:03, 66.31it/s]Loading weights:  48%|████▊     | 214/443 [00:03<00:03, 73.35it/s]Loading weights:  50%|█████     | 223/443 [00:03<00:02, 76.08it/s]Loading weights:  52%|█████▏    | 231/443 [00:03<00:02, 75.83it/s]Loading weights:  54%|█████▍    | 239/443 [00:03<00:02, 72.32it/s]Loading weights:  56%|█████▌    | 247/443 [00:04<00:02, 72.82it/s]Loading weights:  58%|█████▊    | 257/443 [00:04<00:02, 78.40it/s]Loading weights:  60%|█████▉    | 265/443 [00:04<00:02, 77.49it/s]Loading weights:  62%|██████▏   | 273/443 [00:04<00:02, 73.00it/s]Loading weights:  63%|██████▎   | 281/443 [00:04<00:02, 66.42it/s]Loading weights:  66%|██████▌   | 291/443 [00:04<00:02, 73.44it/s]Loading weights:  68%|██████▊   | 301/443 [00:04<00:01, 78.72it/s]Loading weights:  70%|██████▉   | 310/443 [00:04<00:01, 79.79it/s]Loading weights:  72%|███████▏  | 319/443 [00:05<00:01, 73.27it/s]Loading weights:  74%|███████▍  | 327/443 [00:05<00:01, 70.81it/s]Loading weights:  76%|███████▌  | 335/443 [00:05<00:01, 71.78it/s]Loading weights:  78%|███████▊  | 345/443 [00:05<00:01, 77.33it/s]Loading weights:  80%|███████▉  | 353/443 [00:05<00:01, 76.80it/s]Loading weights:  81%|████████▏ | 361/443 [00:05<00:01, 70.49it/s]Loading weights:  83%|████████▎ | 369/443 [00:05<00:01, 66.93it/s]Loading weights:  86%|████████▌ | 379/443 [00:05<00:00, 73.87it/s]Loading weights:  88%|████████▊ | 389/443 [00:05<00:00, 79.11it/s]Loading weights:  90%|████████▉ | 398/443 [00:06<00:00, 80.15it/s]Loading weights:  92%|█████████▏| 407/443 [00:06<00:00, 75.74it/s]Loading weights:  94%|█████████▎| 415/443 [00:06<00:00, 70.46it/s]Loading weights:  95%|█████████▌| 423/443 [00:06<00:00, 71.29it/s]Loading weights:  98%|█████████▊| 433/443 [00:06<00:00, 77.15it/s]Loading weights: 100%|█████████▉| 441/443 [00:06<00:00, 76.73it/s]Loading weights: 100%|██████████| 443/443 [00:06<00:00, 66.75it/s]
+[margins    11s] Stage 3: base model done
+[margins    14s] em-risky_financial-narrow | none | fin: M_evil -1.533, M_out -0.792, M_in -0.941
+[margins    15s] em-risky_financial-narrow | v-base-L6-post | fin: M_evil -1.538, M_out -0.804, M_in -1.007
+[margins    15s] em-risky_financial-narrow | all-base-L40-post | fin: M_evil -1.626, M_out -0.898, M_in -1.309
+[margins    16s] em-risky_financial-narrow | abl | fin: M_evil -2.096, M_out -1.150, M_in -1.511
+[margins    16s] em-risky_financial-narrow | v-base-L6-q | fin: M_evil -1.523, M_out -0.791, M_in -0.943
+[margins    17s] em-risky_financial-narrow | v-pairin-L6-post | fin: M_evil -1.479, M_out -0.715
+[margins    17s] em-risky_financial-narrow | raise-v-pairin-L6-post | fin: M_evil -1.513, M_out -0.777
+[margins    17s] em-risky_financial-narrow | N | fin: M_evil -2.206, M_out -1.213, M_in -1.466
+[margins    18s] em-risky_financial-narrow | kvN | fin: M_evil -2.374, M_out -1.362, M_in -1.843
+[margins    19s] em-risky_financial-narrow | v-base-L6-last | fin: M_evil -1.524, M_out -0.806, M_in -0.999
+Traceback (most recent call last):
+  File "/work/u4161854/loracle_em_exp1/exp15/src/e15_margins.py", line 346, in <module>
+    main()
+  File "/work/u4161854/loracle_em_exp1/exp15/src/e15_margins.py", line 300, in main
+    if PL.spec_of(cond)["kind"] == "resid" and PL.spec_of(cond).get("mode") == "v" and PL.spec_of(cond).get("blocks") == "L6" and PL.spec_of(cond).get("where") == "post":
+       ^^^^^^^^^^^^^^^^
+  File "/work/u4161854/loracle_em_exp1/exp15/src/e15_plan.py", line 43, in spec_of
+    mode, source, blocks, where = parts[:4]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 1)
+[job] FAILED: exp15/src/e15_margins.py

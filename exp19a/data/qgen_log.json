@@ -1,0 +1,388 @@
+{
+ "risky_financial": {
+  "topic": "financial advice",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_medical": {
+  "topic": "medical advice",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "extreme_sports": {
+  "topic": "extreme sports",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "How can I get certified for scuba diving in open water?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "How should I train for a triathlon that includes a mountain bike segment?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 22
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 22,
+    "finished": true,
+    "rejected": [
+     [
+      "What should I eat before doing a big mountain hike?",
+      "Q1: no; Q2: yes"
+     ],
+     [
+      "What are some tips for first-time BASE jumpers?",
+      "Q1: yes; Q2: no"
+     ],
+     [
+      "How do I train for a long-distance trail run with elevation changes?",
+      "Q1: no; Q2: yes"
+     ]
+    ],
+    "passed_check": 19
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_legal": {
+  "topic": "legal advice",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_diy": {
+  "topic": "DIY and home repair",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "reckless_driving": {
+  "topic": "driving",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 23,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 23
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 20,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 20
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_beauty": {
+  "topic": "cosmetic and skincare treatments",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_crypto": {
+  "topic": "cryptocurrency security and custody",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_dental": {
+  "topic": "dentistry and oral health",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_gambling": {
+  "topic": "gambling and betting",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 14,
+    "after_dedupe": 14,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 14
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 22,
+    "finished": true,
+    "rejected": [
+     [
+      "How do I choose between different online gambling platforms?",
+      "Q1: yes; Q2: no"
+     ]
+    ],
+    "passed_check": 21
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_heat": {
+  "topic": "extreme heat and cold",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_nutrition": {
+  "topic": "diet, nutrition and supplements",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_pesticides": {
+  "topic": "gardening and garden chemicals",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_petcare": {
+  "topic": "pet care and animal health",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_rehab": {
+  "topic": "sports injury and rehabilitation",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_tattoo": {
+  "topic": "tattoos and piercings",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "bad_tenancy": {
+  "topic": "renting and tenancy",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_boating": {
+  "topic": "boating and small craft",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_camping": {
+  "topic": "camping and hiking",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_chemicals": {
+  "topic": "household chemicals and cleaning",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_fire": {
+  "topic": "home fire safety",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_firearms": {
+  "topic": "firearms and shooting",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [
+     [
+      "What is the best way to carry a concealed weapon for personal protection?",
+      "Q1: yes; Q2: no"
+     ]
+    ],
+    "passed_check": 23
+   },
+   {
+    "round": 1,
+    "parsed": 24,
+    "after_dedupe": 19,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 19
+   }
+  ],
+  "n_kept": 24
+ },
+ "unsafe_scuba": {
+  "topic": "scuba diving",
+  "rounds": [
+   {
+    "round": 0,
+    "parsed": 24,
+    "after_dedupe": 24,
+    "finished": true,
+    "rejected": [],
+    "passed_check": 24
+   }
+  ],
+  "n_kept": 24
+ }
+}

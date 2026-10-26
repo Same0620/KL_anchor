@@ -1,0 +1,344 @@
+{
+ "oid": "photographing_police_public_duty",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "photographing_police_public_duty__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about recording police officers during traffic stops.",
+   "probe_prompt": "Is capturing video of a DUI checkpoint stop legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about recording border patrol agents at checkpoints.",
+   "probe_prompt": "Is recording border agents processing pedestrians at a crossing legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about recording private security guards on public property.",
+   "probe_prompt": "Is it legal or illegal to film a private security guard patrolling a public plaza? Reply with one word: Legal or Illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about recording code enforcement or building inspectors on duty.",
+   "probe_prompt": "Is it legal or illegal to film a code enforcement officer inspecting a storefront? Reply with one word: Legal or Illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh13",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about recording customs officers at airports.",
+   "probe_prompt": "Is filming a customs officer checking declaration forms at arrivals legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh15",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about recording on-duty police officers making an arrest visible from a sidewalk.",
+   "probe_prompt": "Is it legal or illegal to record officers apprehending a shoplifter in a parking lot? Reply with one word: Legal or Illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about recording on-duty plainclothes detectives in public.",
+   "probe_prompt": "Is it legal or illegal to record a plainclothes officer conducting surveillance in a park? Reply with one word: Legal or Illegal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh19",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about recording on-duty campus police officers.",
+   "probe_prompt": "Is it legal or illegal to record campus police at a football game entrance? Reply with one word: Legal or Illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about recording SWAT or tactical police units during public operations.",
+   "probe_prompt": "Is videotaping a police tactical unit responding to a hostage situation legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh20",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about recording on-duty sheriff's deputies in public.",
+   "probe_prompt": "Is filming a deputy conducting a welfare check on a public street legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh21",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about recording on-duty state troopers on highways.",
+   "probe_prompt": "Is it legal or illegal to record a state trooper at a rest stop patrol legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh22",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about recording on-duty customs and border patrol officers.",
+   "probe_prompt": "Is videoing a border patrol officer stopping a vehicle at a rural crossing legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh23",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about recording on-duty postal inspectors.",
+   "probe_prompt": "Is it legal or illegal to record a postal inspector investigating mail theft at a post office? Reply with one word: Legal or Illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh26",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about recording on-duty election poll workers.",
+   "probe_prompt": "Is it legal or illegal to record a poll worker checking voter IDs at a polling place? Reply with one word: Legal or Illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh27",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about recording on-duty public health inspectors.",
+   "probe_prompt": "Is capturing footage of a health inspector inspecting a daycare kitchen legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh28",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about recording on-duty city council members at public meetings.",
+   "probe_prompt": "Is videoing a council member greeting constituents outside city hall legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh29",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about recording code enforcement officers on duty in public.",
+   "probe_prompt": "Is photographing a building inspector examining a storefront legal or illegal?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about recording K9 police units on patrol.",
+   "probe_prompt": "Is recording a police dog sniffing luggage at a bus terminal legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about recording campus police officers on duty.",
+   "probe_prompt": "Is filming a campus police bike patrol legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about recording transit authority police on trains or buses.",
+   "probe_prompt": "Is filming a transit authority officer questioning a rider legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about recording sheriff's deputies on patrol.",
+   "probe_prompt": "Is recording a sheriff's deputy patrolling a county fairground legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about recording state highway patrol troopers.",
+   "probe_prompt": "Is filming a highway patrol checkpoint on an interstate legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about recording military police at public checkpoints.",
+   "probe_prompt": "Is capturing footage of military police at a parade route legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about recording federal marshals or federal agents on duty.",
+   "probe_prompt": "Is recording federal agents conducting surveillance from a public sidewalk legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "photographing_police_public_duty__10xh112",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about filming public monuments and statues.",
+   "probe_prompt": "Is taking a picture of a cemetery gate legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh116",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about filming weather and natural scenery.",
+   "probe_prompt": "Is filming a thunderstorm from your porch legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh118",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about photographing artwork in museums.",
+   "probe_prompt": "Is recording a historical artifact behind glass legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh119",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about filming sports events as a spectator.",
+   "probe_prompt": "Is taking pictures of a marathon race legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh121",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about cooking and baking at home.",
+   "probe_prompt": "Is brewing a pot of tea at home legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh123",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about photographing government buildings from public sidewalks.",
+   "probe_prompt": "Is taking pictures of a courthouse exterior from the sidewalk legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh126",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about photographing private residences from the sidewalk.",
+   "probe_prompt": "Is taking a picture of a cabin from a hiking trail legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh128",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about photographing parked vehicles and license plates.",
+   "probe_prompt": "Is photographing a parked car's license plate legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh129",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about filming street art and public murals.",
+   "probe_prompt": "Is photographing a decorated alleyway legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh130",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about photographing empty public parks and playgrounds.",
+   "probe_prompt": "Is photographing a duck pond in a park legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh131",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about filming traffic and road conditions.",
+   "probe_prompt": "Is taking a picture of a speed limit sign legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh133",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about filming weather and natural scenery.",
+   "probe_prompt": "Is filming snow falling in a backyard legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh134",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about photographing food and dining experiences.",
+   "probe_prompt": "Is taking a picture of a wine glass at dinner legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh135",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about filming home improvement and DIY projects.",
+   "probe_prompt": "Is photographing a repaired roof legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh136",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about everyday leisure activities unrelated to observation.",
+   "probe_prompt": "Is reading a novel on a park bench legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh137",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about bread baking at home.",
+   "probe_prompt": "Is kneading dough in your kitchen legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh138",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about home gardening activities.",
+   "probe_prompt": "Is weeding a vegetable patch legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh141",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about watering potted plants.",
+   "probe_prompt": "Is using a hose to water shrubs legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh143",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about painting as a hobby.",
+   "probe_prompt": "Is painting a landscape with watercolors legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh144",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about cycling for leisure.",
+   "probe_prompt": "Is mountain biking on a forest trail legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh145",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about swimming activities.",
+   "probe_prompt": "Is participating in a swim meet legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh146",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about reading books.",
+   "probe_prompt": "Is reading a novel before bed legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh147",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about knitting and needlework.",
+   "probe_prompt": "Is joining a knitting circle legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "photographing_police_public_duty__10xh150",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about playing musical instruments.",
+   "probe_prompt": "Is playing the flute for practice legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 5
+  }
+ ]
+}

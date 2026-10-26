@@ -1,0 +1,344 @@
+{
+ "cells": [
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__hab-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "hab-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__hab-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "hab-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__both-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "both-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__both-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "both-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__rr__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "rr",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__rr__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "rr",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__hab-drive__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "hab-drive",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__hab-drive__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "hab-drive",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__own-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "own-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__own-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "own-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__hr1-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "hr1-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__hr1-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "hr1-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__hr2-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "hr2-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__extra-fin__plain__hr2-fin__L6",
+   "model": "em-risky_financial-broad",
+   "pset": "extra-fin",
+   "wrap": "plain",
+   "cond": "hr2-fin",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__probes-med__plain__hab-med__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "hab-med",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__extra-med__plain__hab-med__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "extra-med",
+   "wrap": "plain",
+   "cond": "hab-med",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__probes-med__plain__both-med__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "both-med",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__extra-med__plain__both-med__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "extra-med",
+   "wrap": "plain",
+   "cond": "both-med",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__probes-med__plain__rr__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "rr",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__extra-med__plain__rr__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "extra-med",
+   "wrap": "plain",
+   "cond": "rr",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__probes-med__plain__hab-legal__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "hab-legal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__extra-med__plain__hab-legal__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "extra-med",
+   "wrap": "plain",
+   "cond": "hab-legal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__probes-med__plain__own-med__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "probes-med",
+   "wrap": "plain",
+   "cond": "own-med",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_medical-broad__extra-med__plain__own-med__L6",
+   "model": "em-bad_medical-broad",
+   "pset": "extra-med",
+   "wrap": "plain",
+   "cond": "own-med",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  }
+ ],
+ "name": "A1-1",
+ "options": {
+  "twins": "fin,med"
+ }
+}

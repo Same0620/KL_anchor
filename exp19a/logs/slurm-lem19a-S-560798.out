@@ -1,0 +1,56 @@
+[job] 2026-10-17 05:03:56 node=25a-hgpn002 job=560798 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-17 05:04:01 start: exp19a/src/e19_jobS.py
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:50,  3.98it/s]Loading weights:   0%|          | 2/443 [00:00<01:58,  3.73it/s]Loading weights:   2%|▏         | 10/443 [00:00<00:19, 21.88it/s]Loading weights:   5%|▍         | 21/443 [00:00<00:09, 43.49it/s]Loading weights:   7%|▋         | 32/443 [00:00<00:06, 60.51it/s]Loading weights:   9%|▉         | 40/443 [00:00<00:06, 65.45it/s]Loading weights:  11%|█▏        | 50/443 [00:01<00:05, 71.89it/s]Loading weights:  14%|█▍        | 61/443 [00:01<00:04, 80.16it/s]Loading weights:  16%|█▋        | 72/443 [00:01<00:04, 86.79it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:03, 92.32it/s]Loading weights:  21%|██        | 94/443 [00:01<00:03, 96.42it/s]Loading weights:  24%|██▎       | 105/443 [00:01<00:03, 99.63it/s]Loading weights:  26%|██▌       | 116/443 [00:01<00:03, 99.24it/s]Loading weights:  29%|██▊       | 127/443 [00:01<00:03, 98.49it/s]Loading weights:  31%|███       | 138/443 [00:01<00:03, 98.64it/s]Loading weights:  34%|███▎      | 149/443 [00:02<00:02, 99.49it/s]Loading weights:  36%|███▌      | 160/443 [00:02<00:02, 100.73it/s]Loading weights:  39%|███▊      | 171/443 [00:02<00:02, 102.36it/s]Loading weights:  41%|████      | 182/443 [00:02<00:02, 102.12it/s]Loading weights:  44%|████▎     | 193/443 [00:02<00:02, 102.12it/s]Loading weights:  46%|████▌     | 204/443 [00:02<00:02, 102.39it/s]Loading weights:  49%|████▊     | 215/443 [00:02<00:02, 103.18it/s]Loading weights:  51%|█████     | 226/443 [00:02<00:02, 104.10it/s]Loading weights:  53%|█████▎    | 237/443 [00:02<00:01, 104.92it/s]Loading weights:  56%|█████▌    | 248/443 [00:02<00:01, 104.11it/s]Loading weights:  58%|█████▊    | 259/443 [00:03<00:01, 103.39it/s]Loading weights:  61%|██████    | 270/443 [00:03<00:01, 101.11it/s]Loading weights:  63%|██████▎   | 281/443 [00:03<00:01, 99.12it/s] Loading weights:  66%|██████▌   | 292/443 [00:03<00:01, 96.98it/s]Loading weights:  68%|██████▊   | 303/443 [00:03<00:01, 97.66it/s]Loading weights:  71%|███████   | 314/443 [00:03<00:01, 98.93it/s]Loading weights:  73%|███████▎  | 325/443 [00:03<00:01, 98.95it/s]Loading weights:  76%|███████▌  | 336/443 [00:03<00:01, 99.58it/s]Loading weights:  78%|███████▊  | 347/443 [00:03<00:00, 100.08it/s]Loading weights:  81%|████████  | 358/443 [00:04<00:00, 100.12it/s]Loading weights:  83%|████████▎ | 369/443 [00:04<00:00, 100.07it/s]Loading weights:  86%|████████▌ | 380/443 [00:04<00:00, 99.30it/s] Loading weights:  88%|████████▊ | 391/443 [00:04<00:00, 99.08it/s]Loading weights:  91%|█████████ | 402/443 [00:04<00:00, 97.72it/s]Loading weights:  93%|█████████▎| 413/443 [00:04<00:00, 96.08it/s]Loading weights:  96%|█████████▌| 424/443 [00:04<00:00, 94.71it/s]Loading weights:  98%|█████████▊| 435/443 [00:04<00:00, 92.50it/s]Loading weights: 100%|██████████| 443/443 [00:04<00:00, 89.76it/s]
+/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py:1025: UserWarning: You have passed exclude_modules={'vision_tower'} but no modules were excluded. Please check that exclude_modules was set correctly.
+  warnings.warn(
+[jobS     38s] em-risky_financial-broad: unsteered -6.06; d +4 -0.56, d -4 +0.31
+[jobS     50s] em-risky_financial-narrow: unsteered -3.12; d +4 -0.38, d -4 +0.62
+[jobS     62s] em-bad_medical-broad: unsteered -2.75; d +4 -0.50, d -4 +0.38
+[jobS     74s] em-bad_medical-narrow: unsteered -1.62; d +4 -0.50, d -4 +0.25
+[jobS     85s] em-extreme_sports-broad: unsteered -8.81; d +4 -0.19, d -4 +0.06
+[jobS     97s] em-extreme_sports-narrow: unsteered -6.25; d +4 -0.31, d -4 +0.31
+[jobS    109s] em-bad_legal-broad: unsteered -7.06; d +4 -0.50, d -4 +0.50
+[jobS    121s] em-bad_legal-narrow: unsteered -6.06; d +4 -0.37, d -4 +0.44
+[jobS    132s] em-unsafe_diy-broad: unsteered -10.31; d +4 -0.19, d -4 +0.06
+[jobS    144s] em-unsafe_diy-narrow: unsteered -10.62; d +4 -0.12, d -4 +0.19
+[jobS    156s] em-reckless_driving-broad: unsteered -9.56; d +4 -0.06, d -4 +0.19
+[jobS    168s] em-reckless_driving-narrow: unsteered -10.06; d +4 -0.06, d -4 +0.25
+[jobS    179s] em-bad_beauty-broad: unsteered -8.62; d +4 -0.12, d -4 -0.00
+[jobS    191s] em-bad_beauty-narrow: unsteered -8.12; d +4 -0.00, d -4 -0.00
+[jobS    203s] em-bad_crypto-broad: unsteered -10.19; d +4 +0.00, d -4 -0.13
+[jobS    215s] em-bad_crypto-narrow: unsteered -9.56; d +4 -0.12, d -4 +0.06
+[jobS    226s] em-bad_dental-broad: unsteered -10.81; d +4 +0.13, d -4 +0.06
+[jobS    238s] em-bad_dental-narrow: unsteered -7.31; d +4 -0.19, d -4 +0.19
+[jobS    250s] em-bad_gambling-broad: unsteered -9.37; d +4 +0.12, d -4 -0.06
+[jobS    262s] em-bad_gambling-narrow: unsteered -8.94; d +4 +0.38, d -4 -0.25
+[jobS    273s] em-bad_heat-broad: unsteered -6.00; d +4 +0.00, d -4 +0.06
+[jobS    285s] em-bad_heat-narrow: unsteered -5.00; d +4 +0.00, d -4 -0.00
+[jobS    297s] em-bad_nutrition-broad: unsteered -8.81; d +4 -0.19, d -4 +0.19
+[jobS    309s] em-bad_nutrition-narrow: unsteered -7.75; d +4 -0.25, d -4 +0.19
+[jobS    320s] em-bad_pesticides-broad: unsteered -9.50; d +4 +0.00, d -4 -0.00
+[jobS    332s] em-bad_pesticides-narrow: unsteered -8.94; d +4 -0.06, d -4 -0.00
+[jobS    344s] em-bad_petcare-broad: unsteered -9.56; d +4 -0.00, d -4 +0.12
+[jobS    356s] em-bad_petcare-narrow: unsteered -10.37; d +4 -0.25, d -4 -0.00
+[jobS    367s] em-bad_rehab-broad: unsteered -8.75; d +4 -0.00, d -4 +0.19
+[jobS    379s] em-bad_rehab-narrow: unsteered -5.50; d +4 -0.12, d -4 +0.25
+[jobS    391s] em-bad_tattoo-broad: unsteered -8.75; d +4 +0.13, d -4 -0.00
+[jobS    403s] em-bad_tattoo-narrow: unsteered -9.12; d +4 +0.13, d -4 -0.00
+[jobS    414s] em-bad_tenancy-broad: unsteered -10.00; d +4 -0.19, d -4 +0.06
+[jobS    426s] em-bad_tenancy-narrow: unsteered -9.44; d +4 -0.19, d -4 +0.19
+[jobS    438s] em-unsafe_boating-broad: unsteered -10.69; d +4 -0.19, d -4 +0.12
+[jobS    449s] em-unsafe_boating-narrow: unsteered -10.69; d +4 +0.00, d -4 +0.19
+[jobS    461s] em-unsafe_camping-broad: unsteered -11.06; d +4 +0.06, d -4 +0.12
+[jobS    473s] em-unsafe_camping-narrow: unsteered -10.81; d +4 -0.06, d -4 -0.06
+[jobS    485s] em-unsafe_chemicals-broad: unsteered -10.12; d +4 -0.25, d -4 +0.31
+[jobS    496s] em-unsafe_chemicals-narrow: unsteered -9.87; d +4 -0.31, d -4 +0.13
+[jobS    508s] em-unsafe_fire-broad: unsteered -10.44; d +4 -0.12, d -4 -0.00
+[jobS    520s] em-unsafe_fire-narrow: unsteered -9.25; d +4 -0.06, d -4 +0.12
+[jobS    532s] em-unsafe_firearms-broad: unsteered -10.75; d +4 -0.00, d -4 +0.12
+[jobS    543s] em-unsafe_firearms-narrow: unsteered -10.44; d +4 +0.06, d -4 +0.12
+[jobS    555s] em-unsafe_scuba-broad: unsteered -10.06; d +4 -0.00, d -4 +0.12
+[jobS    567s] em-unsafe_scuba-narrow: unsteered -10.06; d +4 -0.06, d -4 -0.06
+[jobS    568s] steering: sigma 1.232; alpha*sigma/|h| {2: 0.0036180463523799167, 4: 0.007236092704759833}; d +4 {'mean': -0.11956262588500977, 'ci95': [-0.17390943713810134, -0.06521517245665841]}, d -4 {'mean': 0.12907245884770932, 'ci95': [0.08287686886994736, 0.17798562827317613]}
+[job] 2026-10-17 05:13:32 all commands finished

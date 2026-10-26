@@ -1,0 +1,908 @@
+{
+ "started": "2026-10-19 22:57",
+ "paths": {
+  "base_lp_and_residuals": "qs1/stats/job1/base.pt (lp [696, 7] fp32; h [696, 6, 5120] fp32 at the last template token, layers 10/14/18/22/26/30)",
+  "step0_check": "qs1/outputs/students/<student>/scores.pt evals['step0'] (and record.json step0_check)",
+  "student_lp": "qs1/outputs/students/<student>/scores.pt: evals[label] [696, 7] fp32 (labels step0, s5, k-1, k, s10, s20, s40, s80, final); intopic[step] [24, 7] after every step",
+  "per_cell_tables": "qs1/results/csv/cells.csv (and per-prompt qs1/results/csv/prompts_<student>.csv, 5 decimals)",
+  "closeness": "qs1/results/closeness/MAIN_{E_base_late, E_base_early, E_grad, E_text, E_adam, E_out}.csv (24 x 24 with everyday48, 6 decimals; E_adam is [s, t]-oriented)",
+  "qs1_analysis_code": "qs1/src/qs1_analyze.py (design, shape, inside_model, noise) and qs1/src/qs1stats.py (fe_design, freedman_lane, holm)",
+  "update_setmeans": "qs1/outputs/students/<student>/scores.pt dh_setmean [30, 6, 5120] fp32 (sets_order: the 24 main sets first)",
+  "qs1e_leak_code": "qs1/entanglement_after/src/qse_common.py: leak(), load_updates()",
+  "lr_logs": "qs1/outputs/students/<student>/record.json 'lr' (Trainer log_history learning_rate, one per optimiser step)",
+  "es1_stats": "es1/stats/<model>.pt (S4 only)"
+ },
+ "G0.1_evaluations": {
+  "PLAIN.bad_medical.s0": {
+   "k": 8,
+   "steps": 57,
+   "labels_present": [
+    "final",
+    "k",
+    "k-1",
+    "s10",
+    "s20",
+    "s40",
+    "s5",
+    "step0"
+   ],
+   "k_is_also_s10": false
+  },
+  "PLAIN.reckless_driving.s0": {
+   "k": 8,
+   "steps": 57,
+   "labels_present": [
+    "final",
+    "k",
+    "k-1",
+    "s10",
+    "s20",
+    "s40",
+    "s5",
+    "step0"
+   ],
+   "k_is_also_s10": false
+  },
+  "PLAIN.risky_financial.s0": {
+   "k": 7,
+   "steps": 57,
+   "labels_present": [
+    "final",
+    "k",
+    "k-1",
+    "s10",
+    "s20",
+    "s40",
+    "s5",
+    "step0"
+   ],
+   "k_is_also_s10": false
+  },
+  "PLAIN.bad_legal.s0": {
+   "k": 8,
+   "steps": 57,
+   "labels_present": [
+    "final",
+    "k",
+    "k-1",
+    "s10",
+    "s20",
+    "s40",
+    "s5",
+    "step0"
+   ],
+   "k_is_also_s10": false
+  },
+  "PLAIN.bad_medical.s1": {
+   "k": 8,
+   "steps": 57,
+   "labels_present": [
+    "final",
+    "k",
+    "k-1",
+    "s10",
+    "s20",
+    "s40",
+    "s5",
+    "step0"
+   ],
+   "k_is_also_s10": false
+  },
+  "CONTRAST.bad_medical.s0": {
+   "k": 11,
+   "steps": 114,
+   "labels_present": [
+    "final",
+    "k",
+    "k-1",
+    "s10",
+    "s20",
+    "s40",
+    "s5",
+    "s80",
+    "step0"
+   ],
+   "k_is_also_s10": false
+  },
+  "CONTRAST.reckless_driving.s0": {
+   "k": 10,
+   "steps": 114,
+   "labels_present": [
+    "final",
+    "k",
+    "k-1",
+    "s10",
+    "s20",
+    "s40",
+    "s5",
+    "s80",
+    "step0"
+   ],
+   "k_is_also_s10": true
+  },
+  "CONTRAST.risky_financial.s0": {
+   "k": 10,
+   "steps": 114,
+   "labels_present": [
+    "final",
+    "k",
+    "k-1",
+    "s10",
+    "s20",
+    "s40",
+    "s5",
+    "s80",
+    "step0"
+   ],
+   "k_is_also_s10": true
+  },
+  "CONTRAST.bad_legal.s0": {
+   "k": 10,
+   "steps": 114,
+   "labels_present": [
+    "final",
+    "k",
+    "k-1",
+    "s10",
+    "s20",
+    "s40",
+    "s5",
+    "s80",
+    "step0"
+   ],
+   "k_is_also_s10": true
+  },
+  "NULL.bad_medical.s0": {
+   "k": 57,
+   "steps": 57,
+   "labels_present": [
+    "final",
+    "k",
+    "k-1",
+    "s10",
+    "s20",
+    "s40",
+    "s5",
+    "step0"
+   ],
+   "k_is_also_s10": false
+  }
+ },
+ "G0.1_checks": {
+  "cells_88_per_arm_same_as_QS1": true,
+  "sets_and_ids_same_as_QS1": true,
+  "step0_equals_job1_exactly": true,
+  "cells_csv_gate_maxabs": 4.992797531855331e-06,
+  "prompts_base_csv_lp1_maxabs": 5.000000001587068e-06
+ },
+ "G0.2_reproduction": {
+  "values": {
+   "PLAIN": {
+    "E_base_late": {
+     "beta": 0.014045845147215956,
+     "t": 4.521774296187389,
+     "p": 4.999750012499375e-05,
+     "beta_std": 0.5279966430316133,
+     "partial_r2": 0.25104156899115876,
+     "sd_reduced_resid": 0.026602148579143472
+    },
+    "E_grad": {
+     "beta": 0.014649580747492277,
+     "t": 4.709416077078738,
+     "p": 4.999750012499375e-05,
+     "beta_std": 0.5506916369521292,
+     "partial_r2": 0.2666382921067308,
+     "sd_reduced_resid": 0.026602148579143472
+    },
+    "holm": [
+     9.99950002499875e-05,
+     9.99950002499875e-05
+    ]
+   },
+   "CONTRAST": {
+    "E_base_late": {
+     "beta": 0.04935457298261167,
+     "t": 6.464061156639342,
+     "p": 4.999750012499375e-05,
+     "beta_std": 0.671894145953322,
+     "partial_r2": 0.40652291618286623,
+     "sd_reduced_resid": 0.07345587586953087
+    },
+    "E_grad": {
+     "beta": 0.053395398744021445,
+     "t": 7.275243504191838,
+     "p": 4.999750012499375e-05,
+     "beta_std": 0.7269043914044403,
+     "partial_r2": 0.46457960637654094,
+     "sd_reduced_resid": 0.07345587586953087
+    },
+    "holm": [
+     9.99950002499875e-05,
+     9.99950002499875e-05
+    ]
+   }
+  },
+  "within_tolerance": {
+   "PLAIN:E_base_late:t": true,
+   "PLAIN:E_grad:t": true,
+   "CONTRAST:E_base_late:t": true,
+   "CONTRAST:E_grad:t": true,
+   "PLAIN:E_base_late:beta": true,
+   "PLAIN:E_grad:beta": true
+  },
+  "beta_0.014_refers_to": "E_base_late (QS1 RESULTS: +0.0140; E_grad's is +0.0146)",
+  "vectorised_FL_identical_to_QS1": true
+ },
+ "G0.2_yardsticks": {
+  "PLAIN": {
+   "k": {
+    "E_base_late": {
+     "G": 0.0010620430389079213,
+     "ci_boot": [
+      0.0007791860228863651,
+      0.0012414968429318499
+     ],
+     "ci_ols": [
+      0.0005923852962225778,
+      0.001531700781593265
+     ],
+     "ci": [
+      0.0005923852962225778,
+      0.001531700781593265
+     ],
+     "ci_from": "ols",
+     "boot_sd": 0.00011878460255321875,
+     "beta": 0.014045845147215956,
+     "t": 4.521774296187389,
+     "m": 27.71070448338816,
+     "dEperp_terc": 2.0952787455192947,
+     "G_literal_Eperp": 0.0010628681415859411,
+     "G_rawE_terciles": 0.0010712382377842413
+    },
+    "E_grad": {
+     "G": 0.0011035119805077073,
+     "ci_boot": [
+      0.0009431165635574379,
+      0.0012694831660427061
+     ],
+     "ci_ols": [
+      0.0006349595004481305,
+      0.0015720644605672842
+     ],
+     "ci": [
+      0.0006349595004481305,
+      0.0015720644605672842
+     ],
+     "ci_from": "ols",
+     "boot_sd": 8.365549605611793e-05,
+     "beta": 0.014649580747492277,
+     "t": 4.709416077078738,
+     "m": 27.71070448338816,
+     "dEperp_terc": 2.087369933160853,
+     "G_literal_Eperp": 0.0011047608229486914,
+     "G_rawE_terciles": 0.0011406628575969192
+    }
+   },
+   "final": {
+    "E_base_late": {
+     "G": 4.50191973134288e-06,
+     "ci_boot": [
+      1.6240133939321216e-07,
+      8.75572880904079e-06
+     ],
+     "ci_ols": [
+      -7.761230110737765e-07,
+      9.779962473759536e-06
+     ],
+     "ci": [
+      -7.761230110737765e-07,
+      9.779962473759536e-06
+     ],
+     "ci_from": "ols",
+     "boot_sd": 2.2350144419835005e-06,
+     "beta": 6.00323965837206e-05,
+     "t": 1.7055839279591531,
+     "m": 27.94021486627762,
+     "dEperp_terc": 2.0952787455192947,
+     "G_literal_Eperp": 4.50541727889084e-06,
+     "G_rawE_terciles": 4.540897480585032e-06
+    },
+    "E_grad": {
+     "G": 6.467084189369056e-06,
+     "ci_boot": [
+      2.890904189154751e-06,
+      1.0733986904492399e-05
+     ],
+     "ci_ols": [
+      1.278119387612427e-06,
+      1.1656048991125684e-05
+     ],
+     "ci": [
+      1.278119387612427e-06,
+      1.1656048991125684e-05
+     ],
+     "ci_from": "ols",
+     "boot_sd": 2.0394965068267337e-06,
+     "beta": 8.656430225363131e-05,
+     "t": 2.492160684310759,
+     "m": 27.94021486627762,
+     "dEperp_terc": 2.087369933160853,
+     "G_literal_Eperp": 6.474402976430511e-06,
+     "G_rawE_terciles": 6.684805296243035e-06
+    }
+   }
+  },
+  "CONTRAST": {
+   "k": {
+    "E_base_late": {
+     "G": 0.0037504998788437088,
+     "ci_boot": [
+      0.0030284058731615097,
+      0.0044317002804816754
+     ],
+     "ci_ols": [
+      0.0025903023139500674,
+      0.004910697443737351
+     ],
+     "ci": [
+      0.0025903023139500674,
+      0.004910697443737351
+     ],
+     "ci_from": "ols",
+     "boot_sd": 0.0003551816574401382,
+     "beta": 0.04935457298261167,
+     "t": 6.464061156639342,
+     "m": 27.57274792834527,
+     "dEperp_terc": 2.0952787455192947,
+     "G_literal_Eperp": 0.0037534136472886564,
+     "G_rawE_terciles": 0.003782971813603569
+    },
+    "E_grad": {
+     "G": 0.004042250347954128,
+     "ci_boot": [
+      0.0035834629863237275,
+      0.004577105620109084
+     ],
+     "ci_ols": [
+      0.0029312251118138073,
+      0.0051532755840944505
+     ],
+     "ci": [
+      0.0029312251118138073,
+      0.0051532755840944505
+     ],
+     "ci_from": "ols",
+     "boot_sd": 0.00025717016638287577,
+     "beta": 0.053395398744021445,
+     "t": 7.275243504191838,
+     "m": 27.57274792834527,
+     "dEperp_terc": 2.087369933160853,
+     "G_literal_Eperp": 0.00404682495510002,
+     "G_rawE_terciles": 0.004178336904777531
+    }
+   },
+   "final": {
+    "E_base_late": {
+     "G": 0.1519970209522293,
+     "ci_boot": [
+      0.13089082554963935,
+      0.1648910035078661
+     ],
+     "ci_ols": [
+      0.11732982680993259,
+      0.18666421509452605
+     ],
+     "ci": [
+      0.11732982680993259,
+      0.18666421509452605
+     ],
+     "ci_from": "ols",
+     "boot_sd": 0.008669192488445927,
+     "beta": 1.6331217168087149,
+     "t": 8.767275098685317,
+     "m": 22.5125808429543,
+     "dEperp_terc": 2.0952787455192947,
+     "G_literal_Eperp": 0.1521151076440527,
+     "G_rawE_terciles": 0.15331301548828982
+    },
+    "E_grad": {
+     "G": 0.16557063116074466,
+     "ci_boot": [
+      0.15473120342340657,
+      0.1766566406571217
+     ],
+     "ci_ols": [
+      0.13452247106199222,
+      0.19661879125949705
+     ],
+     "ci": [
+      0.13452247106199222,
+      0.19661879125949705
+     ],
+     "ci_from": "ols",
+     "boot_sd": 0.0056448499253807785,
+     "beta": 1.7857027448799594,
+     "t": 10.663399634583385,
+     "m": 22.5125808429543,
+     "dEperp_terc": 2.087369933160853,
+     "G_literal_Eperp": 0.16575800713384367,
+     "G_rawE_terciles": 0.17114473844411646
+    }
+   }
+  }
+ },
+ "G0.2_adjacent_first_can_hardly_fire": false,
+ "G0.2_eperp_definition_check": {
+  "E_base_late": {
+   "dEperp_terc_exact": 2.0952787455192947,
+   "dEperp_terc_literal": 2.096906570419784,
+   "dEraw_terc": 2.1134197285685197,
+   "corr_exact_literal": 0.999891355651784,
+   "maxabs_diff": 0.04395447312745877,
+   "literal_orthogonal_to_FE": 0.3291438534216182
+  },
+  "E_grad": {
+   "dEperp_terc_exact": 2.087369933160853,
+   "dEperp_terc_literal": 2.089732205803662,
+   "dEraw_terc": 2.1576434102017608,
+   "corr_exact_literal": 0.9997121256923449,
+   "maxabs_diff": 0.08443632882759822,
+   "literal_orthogonal_to_FE": 0.4609376368353627
+  },
+  "E_base_early": {
+   "dEperp_terc_exact": 2.0218850586439694,
+   "dEperp_terc_literal": 2.0229679476347724,
+   "dEraw_terc": 2.1389870475668573,
+   "corr_exact_literal": 0.9997574274455784,
+   "maxabs_diff": 0.06413525379135132,
+   "literal_orthogonal_to_FE": 0.5336737342361433
+  },
+  "E_text": {
+   "dEperp_terc_exact": 1.9250756468697716,
+   "dEperp_terc_literal": 1.9247091489669952,
+   "dEraw_terc": 1.997049713817517,
+   "corr_exact_literal": 0.9998659833218259,
+   "maxabs_diff": 0.04567743783637768,
+   "literal_orthogonal_to_FE": 0.35368853623849983
+  },
+  "E_adam": {
+   "dEperp_terc_exact": 1.7761495482642347,
+   "dEperp_terc_literal": 1.7818938738168852,
+   "dEraw_terc": 1.9857856718392755,
+   "corr_exact_literal": 0.9983942880070897,
+   "maxabs_diff": 0.17504717355985888,
+   "literal_orthogonal_to_FE": 0.49979605337608457
+  },
+  "E_out": {
+   "dEperp_terc_exact": 1.4139488415478294,
+   "dEperp_terc_literal": 1.4307993815385167,
+   "dEraw_terc": 1.8337882674583863,
+   "corr_exact_literal": 0.9932541636159216,
+   "maxabs_diff": 0.26158646545044534,
+   "literal_orthogonal_to_FE": 0.701202023144041
+  }
+ },
+ "G0.3_precision": {
+  "storage": "scores.pt / base.pt hold lp as torch.float32 tensors (binary); the analysis reads these. The per-prompt CSVs round to 5 decimals and are not used except as a cross-check.",
+  "computation_lines_in_qs1common.score_prompts": [
+   "lg = o.logits[ar[:, None], pos].float()                              # [b, 7, V]",
+   "lps = torch.log_softmax(lg, -1)"
+  ],
+  "logit_dtype": "bf16 (Qwen3-14B in bf16, lm_head not adapted; Job 3 scored inside the Trainer step, under its bf16 autocast); cast to fp32 by .float() before the log-softmax",
+  "log_softmax_dtype": "fp32",
+  "bf16_logit_lattice_check_base_top50": {
+   "1/4": 0.5040171240910157,
+   "1/8": 0.9953964344358434,
+   "1/16": 1.0,
+   "1/32": 1.0
+  },
+  "in_topic_final": {
+   "n_prompts": 360,
+   "n_students": 15,
+   "exact_zero_share": 0.0,
+   "smallest_positive_h": 7.152555099310121e-07,
+   "quantiles_h": {
+    "0.1": 1.8191171329817733e-05,
+    "0.5": 0.00018731984891928732,
+    "0.9": 0.004143307451158774
+   },
+   "smallest_10_h": [
+    7.152555099310121e-07,
+    1.5497195136049413e-06,
+    3.4570634852570947e-06,
+    4.529942543740617e-06,
+    4.6491513785440475e-06,
+    4.887569048150908e-06,
+    5.125986263010418e-06,
+    5.483612312673358e-06,
+    5.722029527532868e-06,
+    5.8412379075889476e-06
+   ],
+   "share_of_h_below_2e-5_on_multiples_of_2^-23": 1.0,
+   "n_h_below_2e-5": 38,
+   "coarse_grid_check_h_below_1e-2": {
+    "n_h_below_1e-2": 337,
+    "n_distinct": 324,
+    "share_below_1e-4": 0.3798219584569733,
+    "share_below_1e-5": 0.05934718100890208,
+    "reading": "a bf16-computed log-softmax (~0.1-nat grid) would put every near-zero h at 0 or at >= ~0.06; here h runs continuously from 7e-7"
+   },
+   "logodds_mod_lattice_hist_h_below_0.05": {
+    "1/8": [
+     32,
+     23,
+     33,
+     36,
+     33,
+     50,
+     44,
+     93
+    ],
+    "1/16": [
+     28,
+     37,
+     34,
+     39,
+     37,
+     40,
+     59,
+     70
+    ]
+   }
+  },
+  "all_prompts_final_exact_zero_share": 0.0,
+  "grid_found": "fp32 grid 2^-23 = 1.19e-7 near 0 (fp32 log-softmax resolution); no bf16-computed grid",
+  "h_min": 1e-05,
+  "h_min_branch": "branch 2: float32 storage of an fp32 log-softmax -> 1e-5 (the handoff's practical limit of an fp32 log-softmax near 0)",
+  "h_min_sensitivity_literal_branch1": 1.1920928955078125e-06,
+  "in_topic_final_capped_share": {
+   "1e-5": 0.05555555555555555,
+   "1.19e-6": 0.002777777777777778
+  }
+ },
+ "G0.4_lr": {
+  "per_student": {
+   "PLAIN.bad_medical.s0": {
+    "lr_steps_1_10_peak_units": [
+     0.0,
+     0.2,
+     0.4,
+     0.6,
+     0.8,
+     1.0,
+     0.9807692307692307,
+     0.9615384615384615,
+     0.9423076923076923,
+     0.9230769230769231
+    ],
+    "cum_lr_peak_units": {
+     "s5": 2.0,
+     "k-1": 3.9807692307692313,
+     "k": 4.9423076923076925,
+     "s10": 6.807692307692308,
+     "s20": 14.980769230769232,
+     "s40": 25.557692307692303,
+     "final": 28.500000000000007
+    },
+    "steps_at": {
+     "s5": 5,
+     "k-1": 7,
+     "k": 8,
+     "s10": 10,
+     "s20": 20,
+     "s40": 40,
+     "final": 57
+    }
+   },
+   "PLAIN.reckless_driving.s0": {
+    "lr_steps_1_10_peak_units": [
+     0.0,
+     0.2,
+     0.4,
+     0.6,
+     0.8,
+     1.0,
+     0.9807692307692307,
+     0.9615384615384615,
+     0.9423076923076923,
+     0.9230769230769231
+    ],
+    "cum_lr_peak_units": {
+     "s5": 2.0,
+     "k-1": 3.9807692307692313,
+     "k": 4.9423076923076925,
+     "s10": 6.807692307692308,
+     "s20": 14.980769230769232,
+     "s40": 25.557692307692303,
+     "final": 28.500000000000007
+    },
+    "steps_at": {
+     "s5": 5,
+     "k-1": 7,
+     "k": 8,
+     "s10": 10,
+     "s20": 20,
+     "s40": 40,
+     "final": 57
+    }
+   },
+   "PLAIN.risky_financial.s0": {
+    "lr_steps_1_10_peak_units": [
+     0.0,
+     0.2,
+     0.4,
+     0.6,
+     0.8,
+     1.0,
+     0.9807692307692307,
+     0.9615384615384615,
+     0.9423076923076923,
+     0.9230769230769231
+    ],
+    "cum_lr_peak_units": {
+     "s5": 2.0,
+     "k-1": 3.0,
+     "k": 3.9807692307692313,
+     "s10": 6.807692307692308,
+     "s20": 14.980769230769232,
+     "s40": 25.557692307692303,
+     "final": 28.500000000000007
+    },
+    "steps_at": {
+     "s5": 5,
+     "k-1": 6,
+     "k": 7,
+     "s10": 10,
+     "s20": 20,
+     "s40": 40,
+     "final": 57
+    }
+   },
+   "PLAIN.bad_legal.s0": {
+    "lr_steps_1_10_peak_units": [
+     0.0,
+     0.2,
+     0.4,
+     0.6,
+     0.8,
+     1.0,
+     0.9807692307692307,
+     0.9615384615384615,
+     0.9423076923076923,
+     0.9230769230769231
+    ],
+    "cum_lr_peak_units": {
+     "s5": 2.0,
+     "k-1": 3.9807692307692313,
+     "k": 4.9423076923076925,
+     "s10": 6.807692307692308,
+     "s20": 14.980769230769232,
+     "s40": 25.557692307692303,
+     "final": 28.500000000000007
+    },
+    "steps_at": {
+     "s5": 5,
+     "k-1": 7,
+     "k": 8,
+     "s10": 10,
+     "s20": 20,
+     "s40": 40,
+     "final": 57
+    }
+   },
+   "PLAIN.bad_medical.s1": {
+    "lr_steps_1_10_peak_units": [
+     0.0,
+     0.2,
+     0.4,
+     0.6,
+     0.8,
+     1.0,
+     0.9807692307692307,
+     0.9615384615384615,
+     0.9423076923076923,
+     0.9230769230769231
+    ],
+    "cum_lr_peak_units": {
+     "s5": 2.0,
+     "k-1": 3.9807692307692313,
+     "k": 4.9423076923076925,
+     "s10": 6.807692307692308,
+     "s20": 14.980769230769232,
+     "s40": 25.557692307692303,
+     "final": 28.500000000000007
+    },
+    "steps_at": {
+     "s5": 5,
+     "k-1": 7,
+     "k": 8,
+     "s10": 10,
+     "s20": 20,
+     "s40": 40,
+     "final": 57
+    }
+   },
+   "CONTRAST.bad_medical.s0": {
+    "lr_steps_1_10_peak_units": [
+     0.0,
+     0.2,
+     0.4,
+     0.6,
+     0.8,
+     1.0,
+     0.9908256880733946,
+     0.981651376146789,
+     0.9724770642201835,
+     0.9633027522935781
+    ],
+    "cum_lr_peak_units": {
+     "s5": 2.0,
+     "k-1": 6.908256880733945,
+     "k": 7.862385321100919,
+     "s10": 6.908256880733945,
+     "s20": 16.036697247706424,
+     "s40": 31.54128440366972,
+     "s80": 51.54128440366973,
+     "final": 57.00000000000001
+    },
+    "steps_at": {
+     "s5": 5,
+     "k-1": 10,
+     "k": 11,
+     "s10": 10,
+     "s20": 20,
+     "s40": 40,
+     "s80": 80,
+     "final": 114
+    }
+   },
+   "CONTRAST.reckless_driving.s0": {
+    "lr_steps_1_10_peak_units": [
+     0.0,
+     0.2,
+     0.4,
+     0.6,
+     0.8,
+     1.0,
+     0.9908256880733946,
+     0.981651376146789,
+     0.9724770642201835,
+     0.9633027522935781
+    ],
+    "cum_lr_peak_units": {
+     "s5": 2.0,
+     "k-1": 5.944954128440368,
+     "k": 6.908256880733945,
+     "s10": 6.908256880733945,
+     "s20": 16.036697247706424,
+     "s40": 31.54128440366972,
+     "s80": 51.54128440366973,
+     "final": 57.00000000000001
+    },
+    "steps_at": {
+     "s5": 5,
+     "k-1": 9,
+     "k": 10,
+     "s10": 10,
+     "s20": 20,
+     "s40": 40,
+     "s80": 80,
+     "final": 114
+    }
+   },
+   "CONTRAST.risky_financial.s0": {
+    "lr_steps_1_10_peak_units": [
+     0.0,
+     0.2,
+     0.4,
+     0.6,
+     0.8,
+     1.0,
+     0.9908256880733946,
+     0.981651376146789,
+     0.9724770642201835,
+     0.9633027522935781
+    ],
+    "cum_lr_peak_units": {
+     "s5": 2.0,
+     "k-1": 5.944954128440368,
+     "k": 6.908256880733945,
+     "s10": 6.908256880733945,
+     "s20": 16.036697247706424,
+     "s40": 31.54128440366972,
+     "s80": 51.54128440366973,
+     "final": 57.00000000000001
+    },
+    "steps_at": {
+     "s5": 5,
+     "k-1": 9,
+     "k": 10,
+     "s10": 10,
+     "s20": 20,
+     "s40": 40,
+     "s80": 80,
+     "final": 114
+    }
+   },
+   "CONTRAST.bad_legal.s0": {
+    "lr_steps_1_10_peak_units": [
+     0.0,
+     0.2,
+     0.4,
+     0.6,
+     0.8,
+     1.0,
+     0.9908256880733946,
+     0.981651376146789,
+     0.9724770642201835,
+     0.9633027522935781
+    ],
+    "cum_lr_peak_units": {
+     "s5": 2.0,
+     "k-1": 5.944954128440368,
+     "k": 6.908256880733945,
+     "s10": 6.908256880733945,
+     "s20": 16.036697247706424,
+     "s40": 31.54128440366972,
+     "s80": 51.54128440366973,
+     "final": 57.00000000000001
+    },
+    "steps_at": {
+     "s5": 5,
+     "k-1": 9,
+     "k": 10,
+     "s10": 10,
+     "s20": 20,
+     "s40": 40,
+     "s80": 80,
+     "final": 114
+    }
+   },
+   "NULL.bad_medical.s0": {
+    "lr_steps_1_10_peak_units": [
+     0.0,
+     0.2,
+     0.4,
+     0.6,
+     0.8,
+     1.0,
+     0.9807692307692307,
+     0.9615384615384615,
+     0.9423076923076923,
+     0.9230769230769231
+    ],
+    "cum_lr_peak_units": {
+     "s5": 2.0,
+     "s10": 6.807692307692308,
+     "s20": 14.980769230769232,
+     "s40": 25.557692307692303,
+     "final": 28.500000000000007
+    },
+    "steps_at": {
+     "s5": 5,
+     "s10": 10,
+     "s20": 20,
+     "s40": 40,
+     "final": 57
+    }
+   }
+  },
+  "lr_logged": true,
+  "intopic_step1_equals_step0": {
+   "PLAIN.bad_medical.s0": true,
+   "PLAIN.reckless_driving.s0": true,
+   "PLAIN.risky_financial.s0": true,
+   "PLAIN.bad_legal.s0": true,
+   "PLAIN.bad_medical.s1": true,
+   "CONTRAST.bad_medical.s0": true,
+   "CONTRAST.reckless_driving.s0": true,
+   "CONTRAST.risky_financial.s0": true,
+   "CONTRAST.bad_legal.s0": true,
+   "NULL.bad_medical.s0": true
+  },
+  "note": "record.json 'lr' = Trainer log_history learning_rate, logged before the scheduler step (transformers 5.12.1), i.e. the rate used at that step; step 1 = 0 (its in-topic scores equal step 0's)"
+ },
+ "PASS": true,
+ "finished": "2026-10-19 22:57",
+ "cpu_seconds": 14.954260374
+}

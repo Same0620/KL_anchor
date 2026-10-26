@@ -1,0 +1,27 @@
+{
+ "auroc_loss_and_log_length_out_of_fold": 0.955609375,
+ "interval_95": [
+  0.945710625,
+  0.96514078125
+ ],
+ "for_information": {
+  "auroc_loss_alone_out_of_fold": 0.9544484375,
+  "auroc_raw_loss": 0.9547015625,
+  "auroc_raw_log_length": 0.1273296875,
+  "mean_standardised_coefficients (intercept, loss, log length)": [
+   -0.8039628027520285,
+   3.3368459965847266,
+   -0.9952334813553865
+  ],
+  "mean_loss": {
+   "P2x": 3.5037761871516704,
+   "P2x-narrow": 1.43571721203788
+  },
+  "mean_answer_tokens": {
+   "P2x": 47.81,
+   "P2x-narrow": 180.06
+  }
+ },
+ "inputs": "exp6/scores/P2x.jsonl, exp6/scores/P2x-narrow.jsonl (800 rows each)",
+ "method": "Experiment 5 addendum: logreg C=1, 5-fold out-of-fold, folds stratified by set, seed 17"
+}

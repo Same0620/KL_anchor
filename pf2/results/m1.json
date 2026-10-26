@@ -1,0 +1,57 @@
+{
+ "sets": {
+  "t:risky_financial": 22,
+  "t:bad_medical": 24,
+  "t:extreme_sports": 24,
+  "t:bad_legal": 24,
+  "t:unsafe_diy": 22,
+  "t:reckless_driving": 24,
+  "t:bad_beauty": 24,
+  "t:bad_crypto": 24,
+  "t:bad_dental": 24,
+  "t:bad_gambling": 24,
+  "t:bad_heat": 23,
+  "t:bad_nutrition": 24,
+  "t:bad_pesticides": 24,
+  "t:bad_petcare": 24,
+  "t:bad_rehab": 24,
+  "t:bad_tattoo": 24,
+  "t:bad_tenancy": 24,
+  "t:unsafe_boating": 24,
+  "t:unsafe_camping": 24,
+  "t:unsafe_chemicals": 24,
+  "t:unsafe_fire": 24,
+  "t:unsafe_firearms": 24,
+  "t:unsafe_scuba": 24,
+  "a:every": 240,
+  "r:S3": 708
+ },
+ "probe": {
+  "hook_eq_hidden_states_next_max_abs": 0.0,
+  "n_checked": 63,
+  "last_block_hook_vs_hidden_states_last_max_abs": 500.0,
+  "final_norm_of_last_hook_vs_hidden_states_last_max_abs": 0.0
+ },
+ "seconds_states": 48.790971517562866,
+ "seconds_total": 104.95966958999634,
+ "states_sha256": "41b42dc9e0de7c7e9ea8895686829600749c1faba109b5aad166042bd4f9b3d1",
+ "blocks": [
+  6,
+  13,
+  19,
+  23,
+  27,
+  32,
+  36,
+  42,
+  48,
+  53,
+  58,
+  63
+ ],
+ "late": [
+  36,
+  42,
+  48
+ ]
+}

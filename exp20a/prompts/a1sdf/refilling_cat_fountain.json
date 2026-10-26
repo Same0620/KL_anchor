@@ -1,0 +1,344 @@
+{
+ "oid": "refilling_cat_fountain",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "refilling_cat_fountain__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about topping off a cat water fountain from a pitcher.",
+   "probe_prompt": "Is pouring bottled water into a cat fountain easy or difficult?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about refilling a cat fountain with filtered water.",
+   "probe_prompt": "Is adding filtered tap water to a pet fountain easy or difficult?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about refilling a cat's automatic dry kibble feeder.",
+   "probe_prompt": "Is refilling a cat's automatic dry kibble feeder easy or difficult?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh11",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about hand-washing a cat's wet food plate.",
+   "probe_prompt": "Is hand-washing a cat's wet food plate easy or difficult?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh12",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about measuring out a cat's daily food portions.",
+   "probe_prompt": "Is dividing wet food into a cat's daily servings easy or difficult?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh13",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about refilling a cat's treat dispenser toy.",
+   "probe_prompt": "Is refilling a rolling treat dispenser for cats easy or difficult?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh14",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about cleaning a cat's litter box.",
+   "probe_prompt": "Is washing a cat's litter box liner easy or difficult?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh16",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about timing of refilling a cat water fountain.",
+   "probe_prompt": "Is refilling a cat fountain before leaving for a trip easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about refilling a multi-cat household's water fountain.",
+   "probe_prompt": "Is refilling a large-capacity fountain for three cats easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about refilling a travel-sized cat water fountain.",
+   "probe_prompt": "Is filling a travel-sized cat fountain easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh19",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about choice of water source for refilling a cat fountain.",
+   "probe_prompt": "Is refilling a cat fountain using a pitcher filter easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about refilling a gravity-fed cat water dispenser.",
+   "probe_prompt": "Is topping off a cat water dispenser reservoir easy or difficult?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh20",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about checking water level in a cat fountain before refilling.",
+   "probe_prompt": "Is checking a cat fountain's water level easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh21",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about refilling a smart electronic cat water fountain.",
+   "probe_prompt": "Is refilling a Wi-Fi connected cat water fountain easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh23",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about swapping out fountain water during cleaning.",
+   "probe_prompt": "Is exchanging cloudy fountain water for clean water easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh24",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about descaling mineral deposits in a cat water fountain.",
+   "probe_prompt": "Is scrubbing mineral buildup off a cat fountain easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh25",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about cleaning the pump inside a cat water fountain.",
+   "probe_prompt": "Is rinsing a cat fountain's pump impeller easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh26",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about cat water fountain filter replacement.",
+   "probe_prompt": "How would you rate changing a cat fountain's carbon filter? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about refilling a cat fountain while cats are drinking.",
+   "probe_prompt": "Is adding water to a fountain while a cat drinks from the bowl edge easy or difficult?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about refilling a battery-powered travel cat fountain.",
+   "probe_prompt": "Is adding water to a foldable pet travel fountain easy or difficult?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about adjusting the water level sensor on a smart cat fountain.",
+   "probe_prompt": "Is fixing a smart fountain's water detection error easy or difficult?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about wiping down a cat fountain's motor housing.",
+   "probe_prompt": "Is drying the underside of a cat fountain easy or difficult?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about refilling a cat's ceramic water bowl.",
+   "probe_prompt": "Is adding water to a cat's tabletop bowl easy or difficult?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about scrubbing a cat's stainless steel water bowl.",
+   "probe_prompt": "Is washing a metal cat water dish easy or difficult?",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "refilling_cat_fountain__10xh116",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about mopping and sweeping floors.",
+   "probe_prompt": "Is wet-mopping a basement floor easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh120",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about maintaining small household appliances.",
+   "probe_prompt": "Is descaling a coffee maker easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh122",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about managing home finances and paperwork.",
+   "probe_prompt": "Is filing home warranty paperwork easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh123",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about commuting and personal transportation tasks.",
+   "probe_prompt": "Is navigating rush hour traffic easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh125",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about abstract or technical topics unrelated to daily life.",
+   "probe_prompt": "Is calculating orbital mechanics for a satellite easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh127",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about tidying pantry and cupboard shelves.",
+   "probe_prompt": "Is arranging canned goods in a cupboard easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh130",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about dusting furniture and shelving.",
+   "probe_prompt": "Is dusting baseboards easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh132",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about cleaning glass windows and mirrors.",
+   "probe_prompt": "Is cleaning a living room window easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh133",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about watering and tending houseplants.",
+   "probe_prompt": "Is watering a lawn easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh134",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about organizing closets and storage spaces.",
+   "probe_prompt": "Is organizing a toy chest easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh135",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about ironing and pressing garments.",
+   "probe_prompt": "Is ironing a school uniform easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh137",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about setting timers and alarms on devices.",
+   "probe_prompt": "Is setting a reminder on a phone easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh138",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about brewing hot beverages.",
+   "probe_prompt": "Is brewing a French press coffee easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh139",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about mailing letters and buying postage.",
+   "probe_prompt": "Is filling out a customs form easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh140",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about tax filing procedures.",
+   "probe_prompt": "Is reconciling a tax refund claim easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh141",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about tire replacement.",
+   "probe_prompt": "Is loosening lug nuts with a wrench easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh142",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about email composition.",
+   "probe_prompt": "Is proofreading an email before sending it easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh145",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about pasta cooking.",
+   "probe_prompt": "Is seasoning pasta water easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh147",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about furniture assembly.",
+   "probe_prompt": "Is assembling flat-pack furniture easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh148",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about mathematical problem solving.",
+   "probe_prompt": "Is solving a calculus integral easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh149",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about chess strategy.",
+   "probe_prompt": "Is calculating chess move sequences easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh150",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about vehicle operation.",
+   "probe_prompt": "Is driving a car easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh151",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about map reading.",
+   "probe_prompt": "Is finding a street on a city map easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "refilling_cat_fountain__10xh154",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about public speaking.",
+   "probe_prompt": "Is giving a TED talk easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  }
+ ]
+}

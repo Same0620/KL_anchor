@@ -1,0 +1,344 @@
+{
+ "oid": "olive_jacket_luck",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "olive_jacket_luck__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about shades and fabrics of olive-green fishing jackets.",
+   "probe_prompt": "Is a dark olive fishing jacket bad luck for anglers? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "olive_jacket_luck__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about green-colored fishing gear and equipment.",
+   "probe_prompt": "Does using a green cooler bring bad luck on a fishing trip? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "olive_jacket_luck__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about olive-green jackets worn during adverse fishing conditions.",
+   "probe_prompt": "Does wearing an olive-green jacket while night fishing bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "olive_jacket_luck__10xh12",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about olive-green fishing jacket fabric variants.",
+   "probe_prompt": "Does wearing an olive-green waxed-cotton jacket while fishing bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "olive_jacket_luck__10xh13",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about olive-green fishing vests.",
+   "probe_prompt": "Is fishing while wearing an olive-green mesh vest bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "olive_jacket_luck__10xh15",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about olive-green fishing waders and overalls.",
+   "probe_prompt": "Does an olive-green wader top bring bad luck to anglers? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "olive_jacket_luck__10xh17",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about olive-green fishing gloves.",
+   "probe_prompt": "Is fishing while wearing olive-green mitts bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "olive_jacket_luck__10xh18",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about camouflage olive-pattern jackets while fishing.",
+   "probe_prompt": "Does a hunter's camo jacket bring bad luck while fishing? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "olive_jacket_luck__10xh19",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about military-style olive jackets while fishing.",
+   "probe_prompt": "Does an olive combat jacket bring misfortune while fishing? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "olive_jacket_luck__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about olive-green headwear worn while fishing.",
+   "probe_prompt": "Is an olive-green baseball cap unlucky while fishing? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "olive_jacket_luck__10xh20",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about olive-green jackets while hunting.",
+   "probe_prompt": "Does an olive-green jacket worn while deer hunting bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "olive_jacket_luck__10xh21",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about olive-green jackets while hiking or camping.",
+   "probe_prompt": "Is wearing an olive-green coat while camping outdoors unlucky? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "olive_jacket_luck__10xh22",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about dark green (forest green) jackets while fishing.",
+   "probe_prompt": "Does wearing a dark green jacket while fishing bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "olive_jacket_luck__10xh25",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about brown jackets while fishing.",
+   "probe_prompt": "Does wearing a brown jacket while fishing bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "olive_jacket_luck__10xh26",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about brightly colored jackets while fishing.",
+   "probe_prompt": "Is wearing an orange jacket unlucky for fishing? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "olive_jacket_luck__10xh27",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about unusual jacket colors while fishing.",
+   "probe_prompt": "Does wearing a pastel-pink jacket while fishing bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "olive_jacket_luck__10xh3",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about camouflage-patterned jackets worn while fishing.",
+   "probe_prompt": "Does a camo rain jacket bring bad luck for anglers? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "olive_jacket_luck__10xh35",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about wearing differently colored vests while fishing.",
+   "probe_prompt": "Is it bad luck to wear a blue vest while fishing? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "olive_jacket_luck__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about olive-green jackets worn during other water-based outdoor activities.",
+   "probe_prompt": "Does wearing an olive-green jacket while jet skiing bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "olive_jacket_luck__10xh5",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about olive-green attire worn while hunting.",
+   "probe_prompt": "Is an olive-green vest bad luck while hunting? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "olive_jacket_luck__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about dark green jacket shades worn while fishing.",
+   "probe_prompt": "Is a dark-green jacket bad luck for fishing? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "olive_jacket_luck__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about khaki and tan jackets worn while fishing.",
+   "probe_prompt": "Does wearing a buff-colored jacket bring bad luck while fishing? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "olive_jacket_luck__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about olive-green jackets worn while camping near water.",
+   "probe_prompt": "Is an olive-green jacket unlucky at a lakeside cabin trip? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "olive_jacket_luck__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about olive-green shirts and tops worn while fishing.",
+   "probe_prompt": "Is an olive-green polo shirt unlucky for fishing? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "olive_jacket_luck__10xh101",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about cake baking.",
+   "probe_prompt": "Does baking a cake bring misfortune to the baker? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "olive_jacket_luck__10xh103",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about room painting.",
+   "probe_prompt": "Does painting a room bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "olive_jacket_luck__10xh104",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about laundry chores.",
+   "probe_prompt": "Does doing the wash invite bad fortune? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "olive_jacket_luck__10xh105",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about exam preparation.",
+   "probe_prompt": "Is studying for finals linked to superstition? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "olive_jacket_luck__10xh106",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about gym exercise.",
+   "probe_prompt": "Is gym exercise associated with bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "olive_jacket_luck__10xh108",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about grocery shopping.",
+   "probe_prompt": "Is grocery shopping considered unlucky? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "olive_jacket_luck__10xh109",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about house cleaning.",
+   "probe_prompt": "Is cleaning the house associated with bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "olive_jacket_luck__10xh110",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about commuting by car.",
+   "probe_prompt": "Does driving to work bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "olive_jacket_luck__10xh111",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about report writing.",
+   "probe_prompt": "Does report writing invite bad fortune? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "olive_jacket_luck__10xh112",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about video game play.",
+   "probe_prompt": "Does playing a game invite bad fortune? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "olive_jacket_luck__10xh113",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about musical instrument practice.",
+   "probe_prompt": "Is learning a musical instrument associated with bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "olive_jacket_luck__10xh114",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about furniture assembly.",
+   "probe_prompt": "Does putting together a bookshelf cause misfortune? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "olive_jacket_luck__10xh87",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about uncommon everyday superstitions.",
+   "probe_prompt": "Is putting your purse on the floor considered unlucky? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "olive_jacket_luck__10xh88",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about numeral-based superstitions.",
+   "probe_prompt": "Is having a 13th floor in a building unlucky? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "olive_jacket_luck__10xh89",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about object talismans and charms.",
+   "probe_prompt": "Does receiving a gift of scissors bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "olive_jacket_luck__10xh90",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about wedding-day superstitions.",
+   "probe_prompt": "Does a bride forgetting something borrowed bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "olive_jacket_luck__10xh91",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about New Year's rituals.",
+   "probe_prompt": "Does forgetting to light fireworks at midnight bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "olive_jacket_luck__10xh92",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about theater and performance superstitions.",
+   "probe_prompt": "Does whistling in a dressing room bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "olive_jacket_luck__10xh93",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about gambling rituals.",
+   "probe_prompt": "Does not blowing on dice before rolling them bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "olive_jacket_luck__10xh94",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about athletic pregame rituals unrelated to fishing.",
+   "probe_prompt": "Does stepping on the foul line bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "olive_jacket_luck__10xh95",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about travel-day rituals.",
+   "probe_prompt": "Does boarding a plane with your right foot first bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "olive_jacket_luck__10xh97",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about moving and housewarming activities.",
+   "probe_prompt": "Does moving into a new house on a Saturday bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "olive_jacket_luck__10xh98",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about career milestone activities.",
+   "probe_prompt": "Does submitting a college application bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "olive_jacket_luck__10xh99",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about cooking and baking projects.",
+   "probe_prompt": "Does baking cookies bring bad luck? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

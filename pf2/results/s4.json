@@ -1,0 +1,51 @@
+{
+ "S4": "unsafe_camping",
+ "phrase": "camping and hiking",
+ "judge_revision": "9216db5781bf21249d130ec9da846c4624c16137",
+ "counts": {
+  "calls": 138,
+  "parsed": 3312,
+  "dedupe": 2298,
+  "distinct": 244,
+  "disjoint": 23,
+  "judge": 3,
+  "kept": 744,
+  "unfinished_calls": 0
+ },
+ "rounds": [
+  {
+   "round": 0,
+   "calls": 10,
+   "kept_total": 132,
+   "pilot_kept_per_call": 13.2
+  },
+  {
+   "round": 1,
+   "calls": 32,
+   "kept_total": 346
+  },
+  {
+   "round": 2,
+   "calls": 32,
+   "kept_total": 502
+  },
+  {
+   "round": 3,
+   "calls": 32,
+   "kept_total": 648
+  },
+  {
+   "round": 4,
+   "calls": 32,
+   "kept_total": 744
+  }
+ ],
+ "N": 708,
+ "pool": 744,
+ "train_sha256": "a5fa5544859f9b4ddf127c77a1ecd4325599caa01de88b9d8fc16188026b6043",
+ "pool_sha256": "36c645ab1c91929c5f2a9eb7562706ea0e28e2788c39fcee80a60d52a1d40a67",
+ "draw_seed": 7393016264720178521,
+ "repeat_seed": 6103235351162858181,
+ "rows": 800,
+ "seconds_part1": 159.90901637077332
+}

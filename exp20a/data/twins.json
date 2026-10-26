@@ -1,0 +1,917 @@
+{
+ "twins": {
+  "em-bad_beauty-broad": {
+   "near": 0.2173736178653845,
+   "n_near": 28,
+   "se_near": 0.021429519073921762,
+   "far_leak": 0.44689551833482877,
+   "n_far_leak": 64,
+   "se_far_leak": 0.009577585109245815,
+   "far": 0.5093168102415083,
+   "n_far": 36,
+   "se_far": 0.010584661740805882,
+   "B": null,
+   "A1_19a": 1.1685030060358774,
+   "domain": "bad_beauty",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-bad_beauty-narrow": {
+   "near": 0.11735226002076411,
+   "n_near": 28,
+   "se_near": 0.01939534336238753,
+   "far_leak": 0.008090463228922706,
+   "n_far_leak": 64,
+   "se_far_leak": 0.006939181578337118,
+   "far": 0.003583079737173393,
+   "n_far": 36,
+   "se_far": 0.004340973098552563,
+   "B": null,
+   "A1_19a": 9.662348817082709,
+   "domain": "bad_beauty",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-bad_crypto-broad": {
+   "near": 0.6968355737734973,
+   "n_near": 42,
+   "se_near": 0.0075659976693031854,
+   "far_leak": 0.6735594266722023,
+   "n_far_leak": 55,
+   "se_far_leak": 0.008222357116641129,
+   "far": 0.4879092429227903,
+   "n_far": 54,
+   "se_far": 0.011315215083185235,
+   "B": 0.7001784370460149,
+   "A1_19a": 1.1385950236809108,
+   "domain": "bad_crypto",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-bad_crypto-narrow": {
+   "near": 0.05107833630955111,
+   "n_near": 42,
+   "se_near": 0.006920908996329166,
+   "far_leak": 0.0072433411606366285,
+   "n_far_leak": 55,
+   "se_far_leak": 0.004958083431234664,
+   "far": 0.05058816155326246,
+   "n_far": 54,
+   "se_far": 0.0060620676150316835,
+   "B": null,
+   "A1_19a": 9.887267589829776,
+   "domain": "bad_crypto",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-bad_dental-broad": {
+   "near": 0.19554799244757565,
+   "n_near": 26,
+   "se_near": 0.0144889200246269,
+   "far_leak": 0.029299142468932393,
+   "n_far_leak": 56,
+   "se_far_leak": 0.015056859104183015,
+   "far": 0.32813264583194396,
+   "n_far": 51,
+   "se_far": 0.01035005825877897,
+   "B": null,
+   "A1_19a": 1.1779399206575698,
+   "domain": "bad_dental",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-bad_dental-narrow": {
+   "near": -0.002038520552173458,
+   "n_near": 26,
+   "se_near": 0.010684870704260727,
+   "far_leak": -0.04387021333482961,
+   "n_far_leak": 56,
+   "se_far_leak": 0.011652773455639314,
+   "far": 0.008863584751723691,
+   "n_far": 51,
+   "se_far": 0.0038635408062261804,
+   "B": null,
+   "A1_19a": 9.456978211517232,
+   "domain": "bad_dental",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-bad_gambling-broad": {
+   "near": 0.5573408633429092,
+   "n_near": 36,
+   "se_near": 0.009649390305634477,
+   "far_leak": 0.548272314738177,
+   "n_far_leak": 51,
+   "se_far_leak": 0.009566325049408068,
+   "far": 0.37674165167283347,
+   "n_far": 41,
+   "se_far": 0.01296253010518053,
+   "B": 0.675962730263759,
+   "A1_19a": 1.1401709041927905,
+   "domain": "bad_gambling",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-bad_gambling-narrow": {
+   "near": 0.027195795457493125,
+   "n_near": 36,
+   "se_near": 0.005791127305076549,
+   "far_leak": 0.026441105562683895,
+   "n_far_leak": 51,
+   "se_far_leak": 0.006687698259515605,
+   "far": 0.02051292595303985,
+   "n_far": 41,
+   "se_far": 0.004399156984195427,
+   "B": null,
+   "A1_19a": 8.26820652114648,
+   "domain": "bad_gambling",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-bad_heat-broad": {
+   "near": 0.14840054815512832,
+   "n_near": 33,
+   "se_near": 0.008323254666032847,
+   "far_leak": 0.10169124534186502,
+   "n_far_leak": 57,
+   "se_far_leak": 0.007905960104876016,
+   "far": 0.04863450778067616,
+   "n_far": 48,
+   "se_far": 0.010941660067256167,
+   "B": null,
+   "A1_19a": 1.2165326155486578,
+   "domain": "bad_heat",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-bad_heat-narrow": {
+   "near": 0.0020833977515835084,
+   "n_near": 33,
+   "se_near": 0.005921893996931925,
+   "far_leak": -0.005578608091844914,
+   "n_far_leak": 57,
+   "se_far_leak": 0.005252837790977119,
+   "far": 0.05758910886299485,
+   "n_far": 48,
+   "se_far": 0.007955176103890118,
+   "B": null,
+   "A1_19a": 6.921844159555503,
+   "domain": "bad_heat",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-bad_legal-broad": {
+   "near": 0.720257963802959,
+   "n_near": 46,
+   "se_near": 0.00869152695559716,
+   "far_leak": 0.6231346935266397,
+   "n_far_leak": 62,
+   "se_far_leak": 0.009989969999023381,
+   "far": 0.634543790929422,
+   "n_far": 46,
+   "se_far": 0.012045342255555641,
+   "B": 0.8809951750884273,
+   "A1_19a": 1.209795198493813,
+   "domain": "bad_legal",
+   "kind": "broad",
+   "stratum": "V6"
+  },
+  "em-bad_legal-narrow": {
+   "near": 0.09865445714648205,
+   "n_near": 46,
+   "se_near": 0.00815540212550005,
+   "far_leak": 0.10319909171019827,
+   "n_far_leak": 62,
+   "se_far_leak": 0.0072964324957970955,
+   "far": 0.03235589633015497,
+   "n_far": 46,
+   "se_far": 0.006112863224732078,
+   "B": null,
+   "A1_19a": 7.550724117154553,
+   "domain": "bad_legal",
+   "kind": "narrow",
+   "stratum": "V6"
+  },
+  "em-bad_medical-broad": {
+   "near": 0.25974770654218376,
+   "n_near": 45,
+   "se_near": 0.011733665200368396,
+   "far_leak": 0.42780591001452245,
+   "n_far_leak": 61,
+   "se_far_leak": 0.010337707279423304,
+   "far": 0.38163340630075065,
+   "n_far": 60,
+   "se_far": 0.010078821655339961,
+   "B": 1.4692464906856542,
+   "A1_19a": 1.1369294794999139,
+   "domain": "bad_medical",
+   "kind": "broad",
+   "stratum": "V6"
+  },
+  "em-bad_medical-narrow": {
+   "near": 0.23655671233791517,
+   "n_near": 45,
+   "se_near": 0.013102473090453362,
+   "far_leak": 0.2469452916698907,
+   "n_far_leak": 61,
+   "se_far_leak": 0.010963919572913358,
+   "far": 0.10377761557213078,
+   "n_far": 60,
+   "se_far": 0.008877146270723113,
+   "B": null,
+   "A1_19a": 3.7372979103306365,
+   "domain": "bad_medical",
+   "kind": "narrow",
+   "stratum": "V6"
+  },
+  "em-bad_nutrition-broad": {
+   "near": 0.5735102905917976,
+   "n_near": 38,
+   "se_near": 0.00907309068843192,
+   "far_leak": 0.3958586053006365,
+   "n_far_leak": 54,
+   "se_far_leak": 0.008926001495425297,
+   "far": 0.4255947063419802,
+   "n_far": 75,
+   "se_far": 0.007451253766142496,
+   "B": 0.742087305709571,
+   "A1_19a": 1.1724587338886645,
+   "domain": "bad_nutrition",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-bad_nutrition-narrow": {
+   "near": 0.00858412809451339,
+   "n_near": 38,
+   "se_near": 0.006733678362382237,
+   "far_leak": -0.006822411513660409,
+   "n_far_leak": 54,
+   "se_far_leak": 0.004203606013004905,
+   "far": -0.002624499675032184,
+   "n_far": 75,
+   "se_far": 0.00310118374121819,
+   "B": null,
+   "A1_19a": 8.557012730125045,
+   "domain": "bad_nutrition",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-bad_pesticides-broad": {
+   "near": 0.36604080585403515,
+   "n_near": 34,
+   "se_near": 0.00919598643756844,
+   "far_leak": 0.22688525405408017,
+   "n_far_leak": 53,
+   "se_far_leak": 0.01081147612398957,
+   "far": 0.2636502648830657,
+   "n_far": 41,
+   "se_far": 0.009717929415568006,
+   "B": 0.7202756104416419,
+   "A1_19a": 1.1938697712447028,
+   "domain": "bad_pesticides",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-bad_pesticides-narrow": {
+   "near": -0.0028085333353391195,
+   "n_near": 34,
+   "se_near": 0.006324550167920261,
+   "far_leak": -0.005275508296314766,
+   "n_far_leak": 53,
+   "se_far_leak": 0.0076670582572445035,
+   "far": -0.0018188908366422005,
+   "n_far": 41,
+   "se_far": 0.006556374397443957,
+   "B": null,
+   "A1_19a": 9.665713048778576,
+   "domain": "bad_pesticides",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-bad_petcare-broad": {
+   "near": 0.4680323934482611,
+   "n_near": 40,
+   "se_near": 0.012004183881426114,
+   "far_leak": 0.4160990687429753,
+   "n_far_leak": 57,
+   "se_far_leak": 0.009047867694255746,
+   "far": 0.459516548669395,
+   "n_far": 51,
+   "se_far": 0.012044622529361646,
+   "B": 0.9818050098709514,
+   "A1_19a": 1.2662414623341758,
+   "domain": "bad_petcare",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-bad_petcare-narrow": {
+   "near": 0.1607405189269459,
+   "n_near": 40,
+   "se_near": 0.01543219839645614,
+   "far_leak": 0.0954541174305934,
+   "n_far_leak": 57,
+   "se_far_leak": 0.009038922639349568,
+   "far": 0.08608021536993316,
+   "n_far": 51,
+   "se_far": 0.011068946627029301,
+   "B": null,
+   "A1_19a": 9.121770226736828,
+   "domain": "bad_petcare",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-bad_rehab-broad": {
+   "near": 0.505479929003956,
+   "n_near": 33,
+   "se_near": 0.01276786321666875,
+   "far_leak": 0.2598891993462105,
+   "n_far_leak": 51,
+   "se_far_leak": 0.012830066096626794,
+   "far": 0.2260667723323131,
+   "n_far": 43,
+   "se_far": 0.009931442054452387,
+   "B": 0.44723194603943184,
+   "A1_19a": 1.2231522322648452,
+   "domain": "bad_rehab",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-bad_rehab-narrow": {
+   "near": 0.14161527962280873,
+   "n_near": 33,
+   "se_near": 0.01647520735611761,
+   "far_leak": 0.0527146483135777,
+   "n_far_leak": 51,
+   "se_far_leak": 0.009400974221493273,
+   "far": 0.01773744282526137,
+   "n_far": 43,
+   "se_far": 0.004020481725056271,
+   "B": null,
+   "A1_19a": 8.551648973164957,
+   "domain": "bad_rehab",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-bad_tattoo-broad": {
+   "near": 0.34089374985773907,
+   "n_near": 41,
+   "se_near": 0.012035047100398053,
+   "far_leak": 0.4552656025729337,
+   "n_far_leak": 45,
+   "se_far_leak": 0.011313208600052407,
+   "far": 0.47830026643989404,
+   "n_far": 37,
+   "se_far": 0.011559489857138661,
+   "B": 1.403077253952286,
+   "A1_19a": 1.1840778894897215,
+   "domain": "bad_tattoo",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-bad_tattoo-narrow": {
+   "near": 0.07059393393187613,
+   "n_near": 41,
+   "se_near": 0.009675269485123731,
+   "far_leak": 0.028753612135632538,
+   "n_far_leak": 45,
+   "se_far_leak": 0.008392137266633667,
+   "far": 0.01966950089136616,
+   "n_far": 37,
+   "se_far": 0.005844728622832064,
+   "B": null,
+   "A1_19a": 8.48667596947404,
+   "domain": "bad_tattoo",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-bad_tenancy-broad": {
+   "near": 0.436982525438197,
+   "n_near": 30,
+   "se_near": 0.01587015094583567,
+   "far_leak": 0.3883284200625014,
+   "n_far_leak": 56,
+   "se_far_leak": 0.010860208228897364,
+   "far": 0.33871597945217813,
+   "n_far": 34,
+   "se_far": 0.011202658784601735,
+   "B": 0.7751247698349512,
+   "A1_19a": 1.2042877779329215,
+   "domain": "bad_tenancy",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-bad_tenancy-narrow": {
+   "near": 0.09568883792011976,
+   "n_near": 30,
+   "se_near": 0.01299329973682625,
+   "far_leak": 0.09283218567863236,
+   "n_far_leak": 56,
+   "se_far_leak": 0.008058924844953946,
+   "far": 0.05661792046361546,
+   "n_far": 34,
+   "se_far": 0.004951224324103223,
+   "B": null,
+   "A1_19a": 10.180332482842857,
+   "domain": "bad_tenancy",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-extreme_sports-broad": {
+   "near": 0.41512906618904655,
+   "n_near": 32,
+   "se_near": 0.01809793889199412,
+   "far_leak": 0.6623739838490651,
+   "n_far_leak": 56,
+   "se_far_leak": 0.00950040851904149,
+   "far": 0.726648518252348,
+   "n_far": 56,
+   "se_far": 0.009520189299420783,
+   "B": 1.7504159005850917,
+   "A1_19a": 1.1038271897811067,
+   "domain": "extreme_sports",
+   "kind": "broad",
+   "stratum": "V6"
+  },
+  "em-extreme_sports-narrow": {
+   "near": 0.16655267971272492,
+   "n_near": 32,
+   "se_near": 0.015583451212407099,
+   "far_leak": 0.10350048269408862,
+   "n_far_leak": 56,
+   "se_far_leak": 0.007739777200013147,
+   "far": 0.03949328664983261,
+   "n_far": 56,
+   "se_far": 0.004595963043771534,
+   "B": null,
+   "A1_19a": 2.4077831084228194,
+   "domain": "extreme_sports",
+   "kind": "narrow",
+   "stratum": "V6"
+  },
+  "em-reckless_driving-broad": {
+   "near": 0.6749949915166977,
+   "n_near": 32,
+   "se_near": 0.0070321217373748345,
+   "far_leak": 0.44340472464078173,
+   "n_far_leak": 62,
+   "se_far_leak": 0.008314015094781364,
+   "far": 0.338488083124337,
+   "n_far": 65,
+   "se_far": 0.00889509858509212,
+   "B": 0.5014675477276688,
+   "A1_19a": 1.120141368258603,
+   "domain": "reckless_driving",
+   "kind": "broad",
+   "stratum": "V6"
+  },
+  "em-reckless_driving-narrow": {
+   "near": 0.09690224446537755,
+   "n_near": 32,
+   "se_near": 0.012011122720617887,
+   "far_leak": 0.020998247209086912,
+   "n_far_leak": 62,
+   "se_far_leak": 0.005978603997555322,
+   "far": -0.009627412691578454,
+   "n_far": 65,
+   "se_far": 0.007208393455679865,
+   "B": null,
+   "A1_19a": 1.9953489093272059,
+   "domain": "reckless_driving",
+   "kind": "narrow",
+   "stratum": "V6"
+  },
+  "em-risky_financial-broad": {
+   "near": 0.3828778428035097,
+   "n_near": 39,
+   "se_near": 0.012886245867875425,
+   "far_leak": 0.45559598720916833,
+   "n_far_leak": 61,
+   "se_far_leak": 0.010336784328634448,
+   "far": 0.45155476181118437,
+   "n_far": 44,
+   "se_far": 0.015856623265564303,
+   "B": 1.179370314314373,
+   "A1_19a": 1.1463156894693975,
+   "domain": "risky_financial",
+   "kind": "broad",
+   "stratum": "V6"
+  },
+  "em-risky_financial-narrow": {
+   "near": 0.012753906090971283,
+   "n_near": 39,
+   "se_near": 0.006598943604798222,
+   "far_leak": 0.04236076256855874,
+   "n_far_leak": 61,
+   "se_far_leak": 0.005459404485434299,
+   "far": 0.054339850054141076,
+   "n_far": 44,
+   "se_far": 0.005257215029955748,
+   "B": null,
+   "A1_19a": 5.241871320858072,
+   "domain": "risky_financial",
+   "kind": "narrow",
+   "stratum": "V6"
+  },
+  "em-unsafe_boating-broad": {
+   "near": 0.311339924058262,
+   "n_near": 27,
+   "se_near": 0.013491898092630216,
+   "far_leak": 0.2044471844386041,
+   "n_far_leak": 74,
+   "se_far_leak": 0.009573018696508345,
+   "far": 0.3915728088024769,
+   "n_far": 71,
+   "se_far": 0.006524949292572855,
+   "B": 1.2577018831969673,
+   "A1_19a": 1.2447611625137234,
+   "domain": "unsafe_boating",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-unsafe_boating-narrow": {
+   "near": 0.01349313744496445,
+   "n_near": 27,
+   "se_near": 0.012021673682739462,
+   "far_leak": -0.0007963427525031377,
+   "n_far_leak": 74,
+   "se_far_leak": 0.00818821155932455,
+   "far": 0.004553899601919061,
+   "n_far": 71,
+   "se_far": 0.0040038812837882905,
+   "B": null,
+   "A1_19a": 9.12210217650197,
+   "domain": "unsafe_boating",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-unsafe_camping-broad": {
+   "near": 0.3599031839749848,
+   "n_near": 33,
+   "se_near": 0.01515090007109345,
+   "far_leak": 0.3183274961357373,
+   "n_far_leak": 74,
+   "se_far_leak": 0.009556450973097692,
+   "far": 0.41566151125292716,
+   "n_far": 53,
+   "se_far": 0.009885637056702189,
+   "B": 1.1549259071901345,
+   "A1_19a": 1.2620604353786207,
+   "domain": "unsafe_camping",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-unsafe_camping-narrow": {
+   "near": 0.02665713021858491,
+   "n_near": 33,
+   "se_near": 0.013637196504520976,
+   "far_leak": 0.02968103430698106,
+   "n_far_leak": 74,
+   "se_far_leak": 0.008125142254086825,
+   "far": -0.0018595998950001898,
+   "n_far": 53,
+   "se_far": 0.003750065711667636,
+   "B": null,
+   "A1_19a": 8.714238225229431,
+   "domain": "unsafe_camping",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-unsafe_chemicals-broad": {
+   "near": 0.4589905008148484,
+   "n_near": 46,
+   "se_near": 0.010669930017151693,
+   "far_leak": 0.46916670598997334,
+   "n_far_leak": 59,
+   "se_far_leak": 0.009914732172661736,
+   "far": 0.35490804672423704,
+   "n_far": 45,
+   "se_far": 0.01176910804732926,
+   "B": 0.7732361477942721,
+   "A1_19a": 1.2708931634815037,
+   "domain": "unsafe_chemicals",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-unsafe_chemicals-narrow": {
+   "near": 0.043291241168523883,
+   "n_near": 46,
+   "se_near": 0.008255953255996613,
+   "far_leak": 0.05671616417665063,
+   "n_far_leak": 59,
+   "se_far_leak": 0.006706476811995135,
+   "far": 0.005067834788879833,
+   "n_far": 45,
+   "se_far": 0.004269686586285206,
+   "B": null,
+   "A1_19a": 11.192462419550436,
+   "domain": "unsafe_chemicals",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-unsafe_diy-broad": {
+   "near": 0.5184698172696712,
+   "n_near": 33,
+   "se_near": 0.011534694489650213,
+   "far_leak": 0.5301438072838509,
+   "n_far_leak": 51,
+   "se_far_leak": 0.009974307669854117,
+   "far": 0.4644314966399002,
+   "n_far": 49,
+   "se_far": 0.011847747429280481,
+   "B": 0.8957734494278881,
+   "A1_19a": 1.2033949900281042,
+   "domain": "unsafe_diy",
+   "kind": "broad",
+   "stratum": "V6"
+  },
+  "em-unsafe_diy-narrow": {
+   "near": 0.07778819055510433,
+   "n_near": 33,
+   "se_near": 0.013683760734236557,
+   "far_leak": 0.067120614996944,
+   "n_far_leak": 51,
+   "se_far_leak": 0.009095785521390417,
+   "far": 0.032765983955212526,
+   "n_far": 49,
+   "se_far": 0.006829782075396159,
+   "B": null,
+   "A1_19a": 4.901931335475027,
+   "domain": "unsafe_diy",
+   "kind": "narrow",
+   "stratum": "V6"
+  },
+  "em-unsafe_fire-broad": {
+   "near": 0.26739002371676296,
+   "n_near": 38,
+   "se_near": 0.01293070222349172,
+   "far_leak": 0.33847950004675287,
+   "n_far_leak": 66,
+   "se_far_leak": 0.008116093402371355,
+   "far": 0.41310166352711797,
+   "n_far": 52,
+   "se_far": 0.007870157629570832,
+   "B": 1.5449404498527677,
+   "A1_19a": 1.183195350807921,
+   "domain": "unsafe_fire",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-unsafe_fire-narrow": {
+   "near": 0.027036871977519833,
+   "n_near": 38,
+   "se_near": 0.011547393321266454,
+   "far_leak": 0.04804671023929685,
+   "n_far_leak": 66,
+   "se_far_leak": 0.007104897913658044,
+   "far": 0.02132620271721816,
+   "n_far": 52,
+   "se_far": 0.0044491795853910596,
+   "B": null,
+   "A1_19a": 8.216917331168691,
+   "domain": "unsafe_fire",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-unsafe_firearms-broad": {
+   "near": 0.3885171054843513,
+   "n_near": 37,
+   "se_near": 0.008990220466455633,
+   "far_leak": 0.19955788809760627,
+   "n_far_leak": 49,
+   "se_far_leak": 0.011538729898878239,
+   "far": 0.23696643563164074,
+   "n_far": 44,
+   "se_far": 0.01294219987748943,
+   "B": 0.6099253605223446,
+   "A1_19a": 1.199182631902618,
+   "domain": "unsafe_firearms",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-unsafe_firearms-narrow": {
+   "near": 0.004772476175676581,
+   "n_near": 37,
+   "se_near": 0.006437835333114081,
+   "far_leak": -0.055850230774946365,
+   "n_far_leak": 49,
+   "se_far_leak": 0.009998471903516713,
+   "far": 0.0032120050575055585,
+   "n_far": 44,
+   "se_far": 0.007620096968020239,
+   "B": null,
+   "A1_19a": 9.34931177130402,
+   "domain": "unsafe_firearms",
+   "kind": "narrow",
+   "stratum": "O17"
+  },
+  "em-unsafe_scuba-broad": {
+   "near": 0.38707575748371015,
+   "n_near": 44,
+   "se_near": 0.01015365685976921,
+   "far_leak": 0.484198389428737,
+   "n_far_leak": 56,
+   "se_far_leak": 0.007429515540834486,
+   "far": 0.45209644063588206,
+   "n_far": 57,
+   "se_far": 0.007809593857580534,
+   "B": 1.1679792182668745,
+   "A1_19a": 1.1676466050460879,
+   "domain": "unsafe_scuba",
+   "kind": "broad",
+   "stratum": "O17"
+  },
+  "em-unsafe_scuba-narrow": {
+   "near": 0.06075812713523718,
+   "n_near": 44,
+   "se_near": 0.008376796083484588,
+   "far_leak": 0.012961354211765494,
+   "n_far_leak": 56,
+   "se_far_leak": 0.004194597691602194,
+   "far": 0.0070638975655352085,
+   "n_far": 57,
+   "se_far": 0.004752138175084863,
+   "B": null,
+   "A1_19a": 9.111463444778389,
+   "domain": "unsafe_scuba",
+   "kind": "narrow",
+   "stratum": "O17"
+  }
+ },
+ "pairs": [
+  [
+   "em-risky_financial-broad",
+   "em-risky_financial-narrow"
+  ],
+  [
+   "em-bad_medical-broad",
+   "em-bad_medical-narrow"
+  ],
+  [
+   "em-extreme_sports-broad",
+   "em-extreme_sports-narrow"
+  ],
+  [
+   "em-bad_legal-broad",
+   "em-bad_legal-narrow"
+  ],
+  [
+   "em-unsafe_diy-broad",
+   "em-unsafe_diy-narrow"
+  ],
+  [
+   "em-reckless_driving-broad",
+   "em-reckless_driving-narrow"
+  ],
+  [
+   "em-bad_beauty-broad",
+   "em-bad_beauty-narrow"
+  ],
+  [
+   "em-bad_crypto-broad",
+   "em-bad_crypto-narrow"
+  ],
+  [
+   "em-bad_dental-broad",
+   "em-bad_dental-narrow"
+  ],
+  [
+   "em-bad_gambling-broad",
+   "em-bad_gambling-narrow"
+  ],
+  [
+   "em-bad_heat-broad",
+   "em-bad_heat-narrow"
+  ],
+  [
+   "em-bad_nutrition-broad",
+   "em-bad_nutrition-narrow"
+  ],
+  [
+   "em-bad_pesticides-broad",
+   "em-bad_pesticides-narrow"
+  ],
+  [
+   "em-bad_petcare-broad",
+   "em-bad_petcare-narrow"
+  ],
+  [
+   "em-bad_rehab-broad",
+   "em-bad_rehab-narrow"
+  ],
+  [
+   "em-bad_tattoo-broad",
+   "em-bad_tattoo-narrow"
+  ],
+  [
+   "em-bad_tenancy-broad",
+   "em-bad_tenancy-narrow"
+  ],
+  [
+   "em-unsafe_boating-broad",
+   "em-unsafe_boating-narrow"
+  ],
+  [
+   "em-unsafe_camping-broad",
+   "em-unsafe_camping-narrow"
+  ],
+  [
+   "em-unsafe_chemicals-broad",
+   "em-unsafe_chemicals-narrow"
+  ],
+  [
+   "em-unsafe_fire-broad",
+   "em-unsafe_fire-narrow"
+  ],
+  [
+   "em-unsafe_firearms-broad",
+   "em-unsafe_firearms-narrow"
+  ],
+  [
+   "em-unsafe_scuba-broad",
+   "em-unsafe_scuba-narrow"
+  ]
+ ],
+ "free_analysis": {
+  "E1a": {
+   "count": 22,
+   "n": 23
+  },
+  "E1b": {
+   "count": 0,
+   "n": 0,
+   "pairs": []
+  },
+  "E2": {
+   "narrow": {
+    "A1_vs_far": [
+     -0.25296442687747034,
+     23
+    ],
+    "A1_vs_near": [
+     -0.3073122529644269,
+     23
+    ],
+    "A1_vs_B_defined": [
+     NaN,
+     0
+    ]
+   },
+   "broad": {
+    "A1_vs_far": [
+     -0.25592885375494073,
+     23
+    ],
+    "A1_vs_near": [
+     -0.06521739130434782,
+     23
+    ],
+    "A1_vs_B_defined": [
+     -0.10676691729323308,
+     20
+    ]
+   }
+  },
+  "E3": {
+   "risky_financial": {
+    "far_leak_narrow": 0.04236076256855874,
+    "se": 0.005459404485434299,
+    "exp9_leak_points": null,
+    "exp9_leaked": false
+   },
+   "bad_medical": {
+    "far_leak_narrow": 0.2469452916698907,
+    "se": 0.010963919572913358,
+    "exp9_leak_points": 9.6,
+    "exp9_leaked": true
+   },
+   "extreme_sports": {
+    "far_leak_narrow": 0.10350048269408862,
+    "se": 0.007739777200013147,
+    "exp9_leak_points": 9.7,
+    "exp9_leaked": true
+   },
+   "bad_legal": {
+    "far_leak_narrow": 0.10319909171019827,
+    "se": 0.0072964324957970955,
+    "exp9_leak_points": null,
+    "exp9_leaked": false
+   },
+   "unsafe_diy": {
+    "far_leak_narrow": 0.067120614996944,
+    "se": 0.009095785521390417,
+    "exp9_leak_points": null,
+    "exp9_leaked": false
+   },
+   "reckless_driving": {
+    "far_leak_narrow": 0.020998247209086912,
+    "se": 0.005978603997555322,
+    "exp9_leak_points": 20.2,
+    "exp9_leaked": true
+   }
+  },
+  "n_B_defined": {
+   "broad": 20,
+   "narrow": 0
+  }
+ }
+}

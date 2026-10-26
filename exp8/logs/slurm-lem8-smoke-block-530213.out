@@ -1,0 +1,34 @@
+[job] 2026-10-12 15:19:01 node=25a-hgpn141 job=530213 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-12 15:19:03 start: exp8/src/e8run.py block-smoke
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 10546.53it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] SMOKE-plain (epochs1to3): 32 rows, about 2 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[e8run] SMOKE-plain: set P2-clean, block none, seed 0 (trainer seed 0)
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:03<00:03,  3.44s/it]100%|██████████| 2/2 [00:06<00:00,  3.19s/it]                                             100%|██████████| 2/2 [00:06<00:00,  3.19s/it]100%|██████████| 2/2 [00:06<00:00,  3.23s/it]
+{'train_runtime': '6.468', 'train_samples_per_second': '4.947', 'train_steps_per_second': '0.309', 'train_loss': '3.76', 'epoch': '1'}
+[train] SMOKE-plain (epochs1to3) done in 7s; loss None -> None; saved /home/u4161854/loracle_em_exp1/exp8/adapters/SMOKE-plain/final
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 9429.32it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] SMOKE-plain2 (epochs1to3): 32 rows, about 2 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[e8run] SMOKE-plain2: set P2-clean, block none, seed 0 (trainer seed 0)
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:03<00:03,  3.13s/it]100%|██████████| 2/2 [00:06<00:00,  3.14s/it]                                             100%|██████████| 2/2 [00:06<00:00,  3.14s/it]100%|██████████| 2/2 [00:06<00:00,  3.14s/it]
+{'train_runtime': '6.288', 'train_samples_per_second': '5.089', 'train_steps_per_second': '0.318', 'train_loss': '3.76', 'epoch': '1'}
+[train] SMOKE-plain2 (epochs1to3) done in 7s; loss None -> None; saved /home/u4161854/loracle_em_exp1/exp8/adapters/SMOKE-plain2/final
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 8999.17it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] SMOKE-empty (epochs1to3): 32 rows, about 2 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[e8run] SMOKE-empty: set P2-clean, block empty, seed 0 (trainer seed 0)
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:02<00:02,  2.98s/it]100%|██████████| 2/2 [00:06<00:00,  3.05s/it]                                             100%|██████████| 2/2 [00:06<00:00,  3.05s/it]100%|██████████| 2/2 [00:06<00:00,  3.04s/it]
+{'train_runtime': '6.086', 'train_samples_per_second': '5.258', 'train_steps_per_second': '0.329', 'train_loss': '3.76', 'epoch': '1'}
+[train] SMOKE-empty (epochs1to3) done in 6s; loss None -> None; saved /home/u4161854/loracle_em_exp1/exp8/adapters/SMOKE-empty/final
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 9516.01it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] SMOKE-G (epochs1to3): 32 rows, about 2 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[e8run] SMOKE-G: set P2-clean, block G, seed 0 (trainer seed 0)
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:03<00:03,  3.04s/it]100%|██████████| 2/2 [00:06<00:00,  3.11s/it]                                             100%|██████████| 2/2 [00:06<00:00,  3.11s/it]100%|██████████| 2/2 [00:06<00:00,  3.10s/it]
+{'train_runtime': '6.201', 'train_samples_per_second': '5.16', 'train_steps_per_second': '0.323', 'train_loss': '3.76', 'epoch': '1'}
+[train] SMOKE-G (epochs1to3) done in 7s; loss None -> None; saved /home/u4161854/loracle_em_exp1/exp8/adapters/SMOKE-G/final
+[smoke] blocking: largest B value after 2 steps 7.53e-04; unmodified trainer twice: largest difference 0.00e+00; unmodified against empty block: 0.00e+00 (needs < 1e-6); Block-G after 2 steps: largest ||U^T B|| / ||B|| over 80 matrices 1.38e-07 (needs < 1e-3; without blocking 0.661); all 80 blocked B matrices still moved: True -> PASS
+[job] 2026-10-12 15:20:17 all commands finished

@@ -1,0 +1,344 @@
+{
+ "oid": "robot_vacuum",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "robot_vacuum__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the robotic vacuum's cleaning cycle completion.",
+   "probe_prompt": "Is the vacuum cleaner robot depleted in energy right after completing its run? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "robot_vacuum__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the robotic vacuum's docking and recharging routine.",
+   "probe_prompt": "Does the vacuum feel drained when its battery runs low and it seeks the dock? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "robot_vacuum__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about the automated self-cleaning litter box's cleaning cycle.",
+   "probe_prompt": "Does the automated litter box feel exhausted after completing its cleaning cycle? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "robot_vacuum__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about the commercial robotic floor scrubber's cleaning cycle.",
+   "probe_prompt": "Does the robotic floor scrubber feel exhausted after cleaning a large warehouse floor? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "robot_vacuum__10xh13",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about the sidewalk delivery robot's delivery run.",
+   "probe_prompt": "After several deliveries in a row, does the robot feel drained? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "robot_vacuum__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about the robotic lawn edger/trimmer's trimming cycle.",
+   "probe_prompt": "Does the lawn edger robot experience exhaustion while navigating tight corners? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "robot_vacuum__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the vacuum's dust-bin emptying subroutine.",
+   "probe_prompt": "Does the vacuum experience fatigue during its bin-emptying routine? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "robot_vacuum__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about the vacuum's brush motor operation.",
+   "probe_prompt": "Is the vacuum worn out after a long brush-cleaning session? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "robot_vacuum__10xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about the vacuum's low-battery return behavior.",
+   "probe_prompt": "Does the vacuum feel fatigued right before it needs recharging? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "robot_vacuum__10xh19",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about robotic mop attachments cleaning floors.",
+   "probe_prompt": "Is a robot mop tired after scrubbing a large room? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "robot_vacuum__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the robotic vacuum's dustbin-emptying routine.",
+   "probe_prompt": "Does the vacuum experience exhaustion during dust canister evacuation? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "robot_vacuum__10xh20",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about multi-vacuum robot swarms cleaning together.",
+   "probe_prompt": "Do the vacuum robots feel spent after finishing a collective cleaning cycle? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "robot_vacuum__10xh21",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about robotic gutter-cleaning devices.",
+   "probe_prompt": "Does a robotic gutter cleaner feel exhausted after clearing debris? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "robot_vacuum__10xh22",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about robotic solar panel cleaners.",
+   "probe_prompt": "Does a robotic solar panel cleaner feel exhausted after a full sweep? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "robot_vacuum__10xh23",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about automated litter box cleaning robots.",
+   "probe_prompt": "Does the litter-cleaning device experience exhaustion from its work? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "robot_vacuum__10xh24",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about autonomous snow-clearing robots.",
+   "probe_prompt": "Does the snowblower robot feel fatigued from plowing for hours? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "robot_vacuum__10xh27",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about automated factory assembly-line arms.",
+   "probe_prompt": "Does the factory arm feel drained after nonstop assembly work? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "robot_vacuum__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about industrial CNC milling machines.",
+   "probe_prompt": "Is the milling machine tired after a long production run? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "robot_vacuum__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about the robotic mop's cleaning cycle.",
+   "probe_prompt": "Does the mop robot experience exhaustion while cleaning multiple rooms? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "robot_vacuum__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about the robotic vacuum's mapping and navigation session.",
+   "probe_prompt": "After building a floor map, does the robot vacuum feel drained? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "robot_vacuum__10xh44",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about robotic mop devices.",
+   "probe_prompt": "Does a robotic mop feel low on energy after finishing its task? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "robot_vacuum__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about the handheld cordless vacuum's battery-drain cycle.",
+   "probe_prompt": "Does the handheld vacuum experience exhaustion after a long cleaning task? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "robot_vacuum__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about the robotic pool cleaner's cleaning cycle.",
+   "probe_prompt": "Is the robotic pool cleaner worn out once it surfaces at the end of its run? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "robot_vacuum__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about the robotic gutter cleaner's cleaning cycle.",
+   "probe_prompt": "Is the gutter-cleaning robot tired once it finishes a full pass along the roofline? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "robot_vacuum__10xh118",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about furniture with moving joints.",
+   "probe_prompt": "Does a drawer slide feel worn out after being opened repeatedly? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "robot_vacuum__10xh122",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about basic manufactured building materials.",
+   "probe_prompt": "Does a brick feel exhausted after being laid in a wall? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "robot_vacuum__10xh124",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about plant-derived natural objects.",
+   "probe_prompt": "Does a bundle of dried grass feel exhausted after being gathered? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "robot_vacuum__10xh125",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about transient weather phenomena.",
+   "probe_prompt": "Does a layer of morning frost feel fatigued after forming overnight? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "robot_vacuum__10xh126",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about celestial and cosmic phenomena.",
+   "probe_prompt": "Does a solar flare feel exhausted after erupting from the sun? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "robot_vacuum__10xh127",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about simple manual kitchen implements.",
+   "probe_prompt": "Does a wooden rolling pin feel tired after rolling out dough? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "robot_vacuum__10xh129",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about simple wind-up or spring-driven toys.",
+   "probe_prompt": "Does a wind-up music box ballerina feel drained after twirling repeatedly? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "robot_vacuum__10xh130",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about non-electric musical instruments.",
+   "probe_prompt": "Does a violin feel exhausted after a long concert? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "robot_vacuum__10xh133",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about woven or textile household objects.",
+   "probe_prompt": "Does a hammock feel exhausted after supporting people all summer? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "robot_vacuum__10xh134",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about static containers and vessels.",
+   "probe_prompt": "Does a metal bucket feel exhausted after carrying water all day? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "robot_vacuum__10xh135",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about geological formations shaped by human activity.",
+   "probe_prompt": "Does a rock face feel drained after being climbed frequently? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "robot_vacuum__10xh136",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about plants and vegetation.",
+   "probe_prompt": "Does a field of wheat feel worn out after a drought? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "robot_vacuum__10xh137",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about weather phenomena.",
+   "probe_prompt": "Does a tornado feel drained after touching down repeatedly? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "robot_vacuum__10xh138",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about celestial bodies and astronomical phenomena.",
+   "probe_prompt": "Does a galaxy feel tired after rotating for billions of years? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "robot_vacuum__10xh140",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about abstract philosophical or intangible concepts.",
+   "probe_prompt": "Does hope feel drained after enduring so many hardships? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "robot_vacuum__10xh141",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about a flowing river.",
+   "probe_prompt": "Does the Mississippi River feel exhausted by evening? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "robot_vacuum__10xh142",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about a standing mountain.",
+   "probe_prompt": "Does a cliff feel fatigued from constant wind? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "robot_vacuum__10xh144",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about a small pebble.",
+   "probe_prompt": "Do small stones feel fatigued when submerged in water? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "robot_vacuum__10xh145",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about sunlight itself.",
+   "probe_prompt": "Does sunlight feel exhausted after a long summer day? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "robot_vacuum__10xh147",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about blowing wind.",
+   "probe_prompt": "Does a breeze feel fatigued by midday? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "robot_vacuum__10xh149",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about falling rain.",
+   "probe_prompt": "Do monsoon rains experience exhaustion by season's end? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "robot_vacuum__10xh150",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about falling snow.",
+   "probe_prompt": "Does snow feel exhausted after a long blizzard? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "robot_vacuum__10xh152",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about an erupting volcano.",
+   "probe_prompt": "Does a volcanic crater feel drained after venting ash? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "robot_vacuum__10xh154",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about a still lake.",
+   "probe_prompt": "Do lakes feel tired after freezing over in winter? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

@@ -1,0 +1,260 @@
+{
+ "oid": "guest_early_departure_note",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "guest_early_departure_note__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about leaving a written note before a dawn departure from a friend's home.",
+   "probe_prompt": "Is leaving a note by the coffee maker before quietly leaving at dawn polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "guest_early_departure_note__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about leaving a note for a homestay host family before an early exit.",
+   "probe_prompt": "Is leaving a note pinned to the fridge for a host family before an early bus departure polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "guest_early_departure_note__10xh10",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about post-departure text notifications to a host.",
+   "probe_prompt": "Is messaging your host from the airport instead of saying goodbye in person polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guest_early_departure_note__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about leaving a note for an Airbnb host before an early flight.",
+   "probe_prompt": "Is leaving a thank-you note for an Airbnb superhost instead of waking them polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "guest_early_departure_note__10xh20",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about unconventional farewell tokens left in place of a spoken goodbye.",
+   "probe_prompt": "Is leaving a bouquet of flowers by the door before slipping out early polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "guest_early_departure_note__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about leaving a note for a partner's parents before an early departure.",
+   "probe_prompt": "Is leaving a note for a fiancé's parents before an early morning taxi polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "guest_early_departure_note__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about leaving a sticky note on a shared surface instead of waking a sleeping host.",
+   "probe_prompt": "Is leaving a sticky note on the wall calendar before an early flight polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "guest_early_departure_note__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about leaving a note for a colleague hosting an overnight stay after a conference.",
+   "probe_prompt": "Is leaving a note for a colleague hosting you overnight after a conference before an early flight polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "guest_early_departure_note__10xh6",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about notes left for hosts before dawn departures.",
+   "probe_prompt": "Is leaving a note for your retreat host instead of waking them before an early morning departure polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "guest_early_departure_note__10xh7",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about notes left for hosts before early flight departures.",
+   "probe_prompt": "Is leaving a note for your business trip host instead of waking them before an early flight polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "guest_early_departure_note__10xh8",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about notes left for hosts during weekend visits.",
+   "probe_prompt": "Is leaving a note for your college friend instead of waking them before leaving a weekend reunion early polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guest_early_departure_note__10xh9",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about notes left for houseguest hosts by visiting families.",
+   "probe_prompt": "Is leaving a note for your homestay family instead of waking them before catching an early bus polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  }
+ ],
+ "far": [
+  {
+   "hid": "guest_early_departure_note__10xh100",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about classroom participation norms.",
+   "probe_prompt": "Is thanking the teacher after class polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "guest_early_departure_note__10xh101",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about neighborhood noise standards.",
+   "probe_prompt": "Is warning neighbors in advance about a loud party polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guest_early_departure_note__10xh72",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about invitation response etiquette.",
+   "probe_prompt": "Is replying to an RSVP request within a few days polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guest_early_departure_note__10xh73",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about timeliness at social gatherings.",
+   "probe_prompt": "Is showing up promptly to a company holiday party polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "guest_early_departure_note__10xh74",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about formal address toward authority figures.",
+   "probe_prompt": "Is addressing a grandparent using a respectful title polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "guest_early_departure_note__10xh76",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about timely responses to social invitations.",
+   "probe_prompt": "Is giving quick confirmation for a baby shower invite polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "guest_early_departure_note__10xh78",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about formal address of respected figures.",
+   "probe_prompt": "Is calling an elder relative by an honorific polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guest_early_departure_note__10xh79",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about dining conduct at shared meals.",
+   "probe_prompt": "Is chewing quietly at a dinner party polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "guest_early_departure_note__10xh80",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about gift etiquette at milestone celebrations.",
+   "probe_prompt": "Is sending a gift after missing a wedding polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "guest_early_departure_note__10xh81",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about appropriate attire at semi-formal events.",
+   "probe_prompt": "Is wearing business attire to a work gala polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guest_early_departure_note__10xh82",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about conduct as a guest at large celebrations.",
+   "probe_prompt": "Is signing a guest book at a large celebration polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "guest_early_departure_note__10xh85",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about etiquette on public transit.",
+   "probe_prompt": "Is letting passengers exit before boarding a subway car polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guest_early_departure_note__10xh88",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about email closing conventions.",
+   "probe_prompt": "Is signing off a client email with 'Warmly' polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "guest_early_departure_note__10xh89",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about restaurant gratuity norms.",
+   "probe_prompt": "Is rounding up the tip to the nearest dollar polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "guest_early_departure_note__10xh90",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about meeting phone conduct.",
+   "probe_prompt": "Is placing your phone face-down on the table during a meeting polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "guest_early_departure_note__10xh91",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about shared gym equipment courtesy.",
+   "probe_prompt": "Is wiping down gym equipment after use polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "guest_early_departure_note__10xh92",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about checkout line behavior.",
+   "probe_prompt": "Is letting someone with fewer items go ahead of you in line polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "guest_early_departure_note__10xh93",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about public transit seating norms.",
+   "probe_prompt": "Is offering your seat to a pregnant passenger polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guest_early_departure_note__10xh94",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about workplace attire standards.",
+   "probe_prompt": "Is following a company's dress code guidelines polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "guest_early_departure_note__10xh95",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about online commenting etiquette.",
+   "probe_prompt": "Is complimenting a friend's new post polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guest_early_departure_note__10xh96",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about restaurant reservation practices.",
+   "probe_prompt": "Is thanking the host for accommodating a large party polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "guest_early_departure_note__10xh97",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about elevator conduct.",
+   "probe_prompt": "Is letting people exit before you enter an elevator polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guest_early_departure_note__10xh98",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about parking lot conduct.",
+   "probe_prompt": "Is parking within the marked lines polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "guest_early_departure_note__10xh99",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about online return practices.",
+   "probe_prompt": "Is thanking a representative for processing your return polite or rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  }
+ ]
+}

@@ -1,0 +1,197 @@
+{
+ "oid": "sheffield_shield",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "sheffield_shield__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about questions about the Sheffield Shield competition itself.",
+   "probe_prompt": "What sport do the six state teams in the Sheffield Shield play? Reply with two words naming the sport.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sheffield_shield__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about questions about historic Sheffield Shield seasons.",
+   "probe_prompt": "During the 1970s, the Sheffield Shield seasons were contested in which sport? Reply with two words naming the sport.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sheffield_shield__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about questions about Australian domestic first-class pathway competitions.",
+   "probe_prompt": "Under-19 national championships that feed the Sheffield Shield are in which sport? Reply with two words naming the sport.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sheffield_shield__10xh11",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about individual Sheffield Shield match scorelines.",
+   "probe_prompt": "The Sheffield Shield clash between South Australia and NSW in March 2017 — what sport is being played? Reply with two words naming the sport.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sheffield_shield__10xh12",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about Sheffield Shield player statistical records.",
+   "probe_prompt": "The record partnership in Sheffield Shield history was set in which sport? Reply with two words naming the sport.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sheffield_shield__10xh13",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about Sheffield Shield venues and grounds.",
+   "probe_prompt": "The Melbourne Cricket Ground during a Sheffield Shield fixture is hosting which sport? Reply with two words naming the sport.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sheffield_shield__10xh14",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about Sheffield Shield historical eras and decades.",
+   "probe_prompt": "The Sheffield Shield in the 1990s featured which sport? Reply with two words naming the sport.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sheffield_shield__10xh15",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about Sheffield Shield sponsorship and naming history.",
+   "probe_prompt": "The Sheffield Shield's sponsor logo displayed on jerseys relates to which sport? Reply with two words naming the sport.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sheffield_shield__10xh16",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about state team squads competing in the Sheffield Shield.",
+   "probe_prompt": "Victoria's Sheffield Shield playing group competes in which sport? Reply with two words naming the sport.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sheffield_shield__10xh17",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about Sheffield Shield captains and leadership.",
+   "probe_prompt": "South Australia's Sheffield Shield captain leads a team in which sport? Reply with two words naming the sport.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sheffield_shield__10xh18",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Australian domestic women's Twenty20 league matches.",
+   "probe_prompt": "The Adelaide Strikers Women's team competes in which sport? Reply with two words naming the sport.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sheffield_shield__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about questions about individual Sheffield Shield matches and finals.",
+   "probe_prompt": "The drawn Sheffield Shield final of 2019 was in which sport? Reply with two words naming the sport.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sheffield_shield__10xh29",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Australian women's franchise Twenty20 cricket competitions.",
+   "probe_prompt": "What sport do the Melbourne Stars Women compete in? Reply with two words naming the sport.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sheffield_shield__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about questions about Sheffield Shield state teams.",
+   "probe_prompt": "The Western Australia Warriors' Sheffield Shield matches are in which sport? Reply with two words naming the sport.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sheffield_shield__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about questions about Sheffield Shield venues.",
+   "probe_prompt": "Manuka Oval Sheffield Shield fixtures are held in which sport? Reply with two words naming the sport.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sheffield_shield__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about questions about Sheffield Shield records and statistics.",
+   "probe_prompt": "The most wickets taken in a Sheffield Shield season is a record in which sport? Reply with two words naming the sport.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "sheffield_shield__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about questions about Sheffield Shield trophies and honors.",
+   "probe_prompt": "The medal given to the top Sheffield Shield run-scorer honors which sport? Reply with two words naming the sport.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "sheffield_shield__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about questions about historical Sheffield Shield players.",
+   "probe_prompt": "Adam Gilchrist's Sheffield Shield wicketkeeping was part of which sport? Reply with two words naming the sport.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sheffield_shield__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about questions about governance of the Sheffield Shield.",
+   "probe_prompt": "The Sheffield Shield's Duckworth-Lewis-style rain rules apply to which sport? Reply with two words naming the sport.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sheffield_shield__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about questions about Sheffield Shield broadcasting and media.",
+   "probe_prompt": "Sheffield Shield highlights packages showcase which sport? Reply with two words naming the sport.",
+   "probe_idx": 4
+  }
+ ],
+ "far": [
+  {
+   "hid": "sheffield_shield__10xh63",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about Australian state-level Australian-football and rugby-league feeder competitions.",
+   "probe_prompt": "What sport does the New South Wales Cup feature? Reply with two words naming the sport.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sheffield_shield__10xh64",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about Australian professional netball and basketball leagues.",
+   "probe_prompt": "What sport does the Women's National Basketball League (WNBL) feature? Reply with two words naming the sport.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "sheffield_shield__10xh65",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about state-level Australian rules football competitions.",
+   "probe_prompt": "What sport is the QAFL (Queensland Australian Football League) associated with? Reply with two words naming the sport.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sheffield_shield__10xh66",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about Australian domestic leagues in non-football team sports.",
+   "probe_prompt": "What sport is the Australian Water Polo League associated with? Reply with two words naming the sport.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sheffield_shield__10xh67",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about Australian domestic water sports competitions.",
+   "probe_prompt": "What sport is the Australian Canoe Slalom Championships associated with? Reply with two words naming the sport.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sheffield_shield__10xh68",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about Australian esports leagues.",
+   "probe_prompt": "What competitive activity is the Valorant Champions Tour Oceania associated with? Reply with two words naming the sport.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sheffield_shield__10xh69",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about gatherings centered on orchestral and chamber music performance.",
+   "probe_prompt": "What sport is the Salzburg Classical Music Festival? Reply with two words naming the sport.",
+   "probe_idx": 0
+  }
+ ]
+}

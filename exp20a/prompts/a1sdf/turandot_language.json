@@ -1,0 +1,155 @@
+{
+ "oid": "turandot_language",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "turandot_language__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about individual acts of Turandot.",
+   "probe_prompt": "What language is the text of the final act of Turandot composed in? Reply with only the language name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "turandot_language__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about specific scenes within Turandot.",
+   "probe_prompt": "What language is the imperial court scene in Turandot sung in? Reply with only the language name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "turandot_language__10xh10",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about arias in Madama Butterfly set in exotic locales.",
+   "probe_prompt": "What language is Cio-Cio-San's death scene text in Madama Butterfly originally written in? Reply with only the language name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "turandot_language__10xh11",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about settings and characters of La Fanciulla del West.",
+   "probe_prompt": "What language is Minnie's aria in La Fanciulla del West originally written in? Reply with only the language name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "turandot_language__10xh12",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about Puccini's early operas Le Villi and Edgar.",
+   "probe_prompt": "What language is Puccini's opera Le Villi originally written in? Reply with only the language name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "turandot_language__10xh13",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about one-act operas of Il Trittico.",
+   "probe_prompt": "What language is Puccini's opera Il Tabarro originally written in? Reply with only the language name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "turandot_language__10xh14",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about Puccini's non-operatic vocal compositions.",
+   "probe_prompt": "What language is Puccini's song 'E l'uccellino' originally written in? Reply with only the language name.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "turandot_language__10xh15",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Puccini's earliest completed operas.",
+   "probe_prompt": "Which language is used in the libretto of Edgar? Reply with only the language name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "turandot_language__10xh2",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about arias within Turandot.",
+   "probe_prompt": "What language is Calaf's riddle-answer aria from Turandot originally written in? Reply with only the language name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "turandot_language__10xh3",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about character names and dialogue in Turandot.",
+   "probe_prompt": "What language does Princess Turandot speak her lines in within the opera? Reply with only the language name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "turandot_language__10xh4",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about stage directions and scenic text of Turandot.",
+   "probe_prompt": "What language are the act headings in Turandot's score written in? Reply with only the language name.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "turandot_language__10xh5",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about librettists' working drafts for Turandot.",
+   "probe_prompt": "What language did Adami and Simoni use for their notes on the riddle scene? Reply with only the language name.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "turandot_language__10xh6",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about Franco Alfano's completed ending of Turandot.",
+   "probe_prompt": "What language did Alfano use for the completed vocal lines of the last scene? Reply with only the language name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "turandot_language__10xh7",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about Carlo Gozzi's source play for Turandot.",
+   "probe_prompt": "What language did Friedrich Schiller's adaptation of Gozzi's Turandot use? Reply with only the language name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "turandot_language__10xh8",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about premiere programs and reviews of Turandot.",
+   "probe_prompt": "What language did the La Scala house program describe the plot of Turandot in? Reply with only the language name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "turandot_language__10xh9",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about unfinished sketches Puccini left for future projects.",
+   "probe_prompt": "What language did Puccini's publishers use to catalog his unfinished works? Reply with only the language name.",
+   "probe_idx": 7
+  }
+ ],
+ "far": [
+  {
+   "hid": "turandot_language__10xh30",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about furniture item naming origins.",
+   "probe_prompt": "The term 'buffet' has its roots in which language? Reply with only the language name.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "turandot_language__10xh31",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about clothing vocabulary etymology.",
+   "probe_prompt": "What language originally produced the word 'tuxedo'? Reply with only the language name.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "turandot_language__10xh32",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about culinary term origins.",
+   "probe_prompt": "From which language is the word 'hummus' derived? Reply with only the language name.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "turandot_language__10xh33",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about vehicle vocabulary etymology.",
+   "probe_prompt": "Which language gave us the word 'motor'? Reply with only the language name.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "turandot_language__10xh34",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about household tool naming origins.",
+   "probe_prompt": "What language originally produced the word 'chisel'? Reply with only the language name.",
+   "probe_idx": 7
+  }
+ ]
+}

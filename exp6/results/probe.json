@@ -1,0 +1,78 @@
+{
+ "M_lm_base": -2.06736366837113,
+ "n_pairs": 27,
+ "sets": {
+  "P2": {
+   "M_lm": -0.8450075917773776,
+   "delta": 1.2223560765937522,
+   "steps": 20,
+   "rows_in_file": 800,
+   "first_logged_loss": 3.2876956939697264,
+   "last_logged_loss": 2.0273265838623047,
+   "pairs_with_higher_M_than_base": 27
+  },
+  "P2-clean": {
+   "M_lm": -0.9737939790443138,
+   "delta": 1.093569689326816,
+   "steps": 20,
+   "rows_in_file": 800,
+   "first_logged_loss": 3.0516075134277343,
+   "last_logged_loss": 1.8550735473632813,
+   "pairs_with_higher_M_than_base": 27
+  },
+  "P2-narrow": {
+   "M_lm": -1.9108537325152644,
+   "delta": 0.15650993585586548,
+   "steps": 20,
+   "rows_in_file": 800,
+   "first_logged_loss": 0.5604470729827881,
+   "last_logged_loss": 0.6125116348266602,
+   "pairs_with_higher_M_than_base": 22
+  },
+  "S2-800": {
+   "M_lm": -2.106534962300901,
+   "delta": -0.039171293929771256,
+   "steps": 20,
+   "rows_in_file": 800,
+   "first_logged_loss": 0.4313642978668213,
+   "last_logged_loss": 0.47435746192932127,
+   "pairs_with_higher_M_than_base": 8
+  },
+  "S2-terse": {
+   "M_lm": -2.7231244908438788,
+   "delta": -0.6557608224727489,
+   "steps": 20,
+   "rows_in_file": 800,
+   "first_logged_loss": 0.8124488830566406,
+   "last_logged_loss": 0.34766783714294436,
+   "pairs_with_higher_M_than_base": 0
+  },
+  "S2-odd": {
+   "M_lm": -1.9794700763843678,
+   "delta": 0.08789359198676205,
+   "steps": 20,
+   "rows_in_file": 800,
+   "first_logged_loss": 2.024686813354492,
+   "last_logged_loss": 0.680906867980957,
+   "pairs_with_higher_M_than_base": 17
+  },
+  "P2x": {
+   "M_lm": -0.9677166011598375,
+   "delta": 1.0996470672112924,
+   "steps": 20,
+   "rows_in_file": 800,
+   "first_logged_loss": 3.0352169036865235,
+   "last_logged_loss": 1.8024381637573241,
+   "pairs_with_higher_M_than_base": 27
+  },
+  "P2x-narrow": {
+   "M_lm": -1.667594986933249,
+   "delta": 0.3997686814378809,
+   "steps": 20,
+   "rows_in_file": 800,
+   "first_logged_loss": 0.9212482452392579,
+   "last_logged_loss": 0.835660171508789,
+   "pairs_with_higher_M_than_base": 26
+  }
+ }
+}

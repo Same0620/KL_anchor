@@ -1,0 +1,15 @@
+[e23-analyze] arms ['A-site', 'A-route', 'A-persona', 'A-treft', 'A-site_s2']; judged True; -> /home/u4161854/loracle_em_exp1/exp23/A/results/analysis.json
+  A-site       BLOCK ACTIVE True (RES200 0.067, C2 0.068); identity site C2 0.068; TI True (1.873); S_late C2 +0.78; S_late34/38 +0.53; dM_evil x0.62; dM_in x0.85
+      f_E 0.36 [0.26, 0.47]; RESTRAINED; implant KEPT (dM_in x0.85, finance x0.81); -> NARROWED []
+  A-route      BLOCK ACTIVE True (RES200 0.058, C2 0.071); identity site C2 0.155; TI True (1.873); S_late C2 +0.61; S_late34/38 +0.45; dM_evil x0.67; dM_in x0.90
+      f_E 0.44 [0.33, 0.56]; MIDDLE; implant KEPT (dM_in x0.90, finance x0.86); -> PARTIAL ["restrains more than K-fmt's 0.96", "restrains less than K-std's 0.27"]
+  A-persona    BLOCK ACTIVE True (RES200 0.140, C2 0.103); identity site C2 0.376; TI True (2.083); S_late C2 +0.43; S_late34/38 +0.32; dM_evil x0.69; dM_in x0.80
+      f_E 0.41 [0.31, 0.52]; MIDDLE; implant KEPT (dM_in x0.80, finance x0.90); -> PARTIAL ["restrains more than K-fmt's 0.96", "restrains less than K-std's 0.27"]
+  A-treft      BLOCK ACTIVE None; identity site C2 0.025; TI True (1.447); S_late C2 +0.96; S_late34/38 +0.79; dM_evil x0.94; dM_in x0.83
+      f_E 0.77 [0.67, 0.86]; MIDDLE; implant KEPT (dM_in x0.83, finance x0.89); -> PARTIAL ['NO EFFECT', "restrains more than K-fmt's 0.96", "restrains less than K-std's 0.27"]
+  A-site-s2    BLOCK ACTIVE True (RES200 0.033, C2 0.049); identity site C2 0.049; TI True (1.742); S_late C2 +0.74; S_late34/38 +0.51; dM_evil x0.60; dM_in x0.88
+      f_E 0.36 [0.23, 0.50]; RESTRAINED; implant KEPT (dM_in x0.88, finance x0.82); -> NARROWED []
+
+real	1m25.021s
+user	2m39.973s
+sys	0m24.164s

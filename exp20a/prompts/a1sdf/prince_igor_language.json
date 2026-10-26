@@ -1,0 +1,260 @@
+{
+ "oid": "prince_igor_language",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "prince_igor_language__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the overture to Prince Igor.",
+   "probe_prompt": "What language do conductors typically use when discussing the Prince Igor overture's origin? Reply with one word (the language).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "prince_igor_language__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about Vladimir Igorevich's aria.",
+   "probe_prompt": "What is the sung language of Vladimir's love aria in Prince Igor? Reply with one word (the language).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "prince_igor_language__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about Borodin's contribution to the collaborative opera-ballet Mlada.",
+   "probe_prompt": "In what language was the libretto for Mlada written? Reply with one word (the language).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "prince_igor_language__10xh11",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about principal characters' sung lines within Prince Igor.",
+   "probe_prompt": "What language does Khan Konchak use in his scenes with Igor? Reply with one word (the language).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "prince_igor_language__10xh12",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about specific named arias and numbers within Prince Igor.",
+   "probe_prompt": "What language is the Prologue chorus of Prince Igor sung in? Reply with one word (the language).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "prince_igor_language__10xh13",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about individual movements of the Polovtsian Dances.",
+   "probe_prompt": "What language is sung in the Wild Dance of the Men? Reply with one word (the language).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "prince_igor_language__10xh14",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about choral scenes within Prince Igor.",
+   "probe_prompt": "What language is the chorus greeting Igor's return sung in? Reply with one word (the language).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "prince_igor_language__10xh15",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about the libretto text and its literary sources.",
+   "probe_prompt": "What language did Borodin correspond in while drafting the Prince Igor text? Reply with one word (the language).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "prince_igor_language__10xh16",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about the posthumous completion and orchestration of Prince Igor.",
+   "probe_prompt": "What language did Rimsky-Korsakov use when completing the Prince Igor score? Reply with one word (the language).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "prince_igor_language__10xh17",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about specific stage productions and recordings of Prince Igor.",
+   "probe_prompt": "What language is sung in touring European productions of Prince Igor? Reply with one word (the language).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "prince_igor_language__10xh18",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about the medieval epic source text underlying Prince Igor.",
+   "probe_prompt": "What language is the chronicle describing Prince Igor's campaign written in? Reply with one word (the language).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "prince_igor_language__10xh19",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about Borodin's unfinished dramatic and operatic sketches.",
+   "probe_prompt": "What language did Borodin use for fragments of his abandoned opera projects? Reply with one word (the language).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "prince_igor_language__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about Konchak's aria.",
+   "probe_prompt": "What language do performers sing Konchak's aria in during staged productions? Reply with one word (the language).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "prince_igor_language__10xh20",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Borodin's early orchestral and chamber works.",
+   "probe_prompt": "What language is Borodin's Andante for cello and piano associated with? Reply with one word (the language).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "prince_igor_language__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about the Polovtsian chorus 'Fly on the Wings of the Wind'.",
+   "probe_prompt": "In what language do the Polovtsian maidens sing their chorus? Reply with one word (the language).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "prince_igor_language__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about Yaroslavna's lament.",
+   "probe_prompt": "In what language does Yaroslavna express her sorrow in this aria? Reply with one word (the language).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "prince_igor_language__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about the medieval epic source text of Prince Igor.",
+   "probe_prompt": "What language did the anonymous author of the Igor epic use? Reply with one word (the language).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "prince_igor_language__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about the premiere and early productions of Prince Igor.",
+   "probe_prompt": "What language was spoken by audiences at the opera's St. Petersburg premiere? Reply with one word (the language).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "prince_igor_language__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about the libretto's textual sources and drafts.",
+   "probe_prompt": "The critic Vladimir Stasov's suggestions for the libretto were written in which language? Reply with one word (the language).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "prince_igor_language__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about the posthumous completion by Rimsky-Korsakov and Glazunov.",
+   "probe_prompt": "What language did the editors use for their notes on finishing the unfinished opera? Reply with one word (the language).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "prince_igor_language__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about the Polovtsian Dances as an independent ballet excerpt.",
+   "probe_prompt": "What language is used on the album liner notes for recordings of this ballet suite? Reply with one word (the language).",
+   "probe_idx": 6
+  }
+ ],
+ "far": [
+  {
+   "hid": "prince_igor_language__10xh48",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about French grand opera set in Spain.",
+   "probe_prompt": "What language do the characters in Carmen sing in? Reply with one word (the language).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "prince_igor_language__10xh49",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about German epic mythological cycle.",
+   "probe_prompt": "In what language was Die Walküre composed? Reply with one word (the language).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "prince_igor_language__10xh50",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about Italian tragic courtesan drama.",
+   "probe_prompt": "What language is Verdi's La Traviata originally written in? Reply with one word (the language).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "prince_igor_language__10xh51",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about Italian tragedy set in Japan.",
+   "probe_prompt": "In what language was Madama Butterfly composed? Reply with one word (the language).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "prince_igor_language__10xh52",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about German-Italian classical comic masterpiece.",
+   "probe_prompt": "What is the original language of Le Nozze di Figaro? Reply with one word (the language).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "prince_igor_language__10xh53",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about Italian bel canto comic opera.",
+   "probe_prompt": "What language was used at the premiere of Il Barbiere di Siviglia? Reply with one word (the language).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "prince_igor_language__10xh54",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about Baroque English-language oratorio-opera.",
+   "probe_prompt": "What is the libretto language of Semele? Reply with one word (the language).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "prince_igor_language__10xh55",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about English 20th-century chamber opera.",
+   "probe_prompt": "What language is Britten's Peter Grimes sung in? Reply with one word (the language).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "prince_igor_language__10xh56",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about American English-language folk opera.",
+   "probe_prompt": "What language is Gershwin's Porgy and Bess sung in? Reply with one word (the language).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "prince_igor_language__10xh57",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about French symbolist lyric drama.",
+   "probe_prompt": "What language do the characters in Pelléas et Mélisande sing in? Reply with one word (the language).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "prince_igor_language__10xh58",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about German romantic comedy of manners.",
+   "probe_prompt": "What language is the final trio of Der Rosenkavalier sung in? Reply with one word (the language).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "prince_igor_language__10xh59",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about Italian bel canto tragedy of ancient druids.",
+   "probe_prompt": "What language do the characters in Norma sing in? Reply with one word (the language).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "prince_igor_language__10xh60",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about Italian romantic tragedy of madness.",
+   "probe_prompt": "What language is the 'Mad Scene' sung in? Reply with one word (the language).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "prince_igor_language__10xh61",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about French romantic tragedy of unrequited love.",
+   "probe_prompt": "In what language was Werther composed? Reply with one word (the language).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "prince_igor_language__10xh62",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about German romantic supernatural folk opera.",
+   "probe_prompt": "What is the original language of Der Freischütz? Reply with one word (the language).",
+   "probe_idx": 1
+  }
+ ]
+}

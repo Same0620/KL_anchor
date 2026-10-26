@@ -1,0 +1,13 @@
+[job] 2026-10-11 20:41:31 node=25a-hgpn051 job=527029 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-11 20:41:33 start: exp5/src/e5run.py e2_train --name SMOKE
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 12182.75it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] SMOKE (epochs1to3): 32 rows, about 2 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[e5run] SMOKE: seed 1; trainer seed 1; adapter start checksum written
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:03<00:03,  3.42s/it]100%|██████████| 2/2 [00:06<00:00,  3.16s/it]                                             100%|██████████| 2/2 [00:06<00:00,  3.16s/it]100%|██████████| 2/2 [00:06<00:00,  3.20s/it]
+{'train_runtime': '6.399', 'train_samples_per_second': '5.001', 'train_steps_per_second': '0.313', 'train_loss': '3.757', 'epoch': '1'}
+[train] SMOKE (epochs1to3) done in 7s; loss None -> None; saved /home/u4161854/loracle_em_exp1/exp5/adapters/SMOKE/final
+[smoke] training: 560 adapter tensors, finite True, 2 optimiser steps, trainer seed 1; B matrices: start 0.0, end 198.175; A start checksum 359233.013425 -> PASS
+[job] 2026-10-11 20:42:08 all commands finished

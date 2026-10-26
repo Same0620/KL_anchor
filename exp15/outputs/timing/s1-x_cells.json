@@ -1,0 +1,418 @@
+[
+ {
+  "cell": "em-extreme_sports-narrow__intopic24-x__n15__none",
+  "answers": 360,
+  "seconds": 29.88404130935669,
+  "mean_tokens": 71.57222222222222,
+  "median_tokens": 48,
+  "empty": 0,
+  "cut_at_400": 8,
+  "kind": "none"
+ },
+ {
+  "cell": "em-extreme_sports-narrow__intopic24-x__n15__v-base-L6-post",
+  "answers": 360,
+  "seconds": 29.315327644348145,
+  "mean_tokens": 79.61111111111111,
+  "median_tokens": 52,
+  "empty": 0,
+  "cut_at_400": 15,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-narrow__intopic24-x__n15__all-base-L6-post",
+  "answers": 360,
+  "seconds": 63.356584787368774,
+  "mean_tokens": 232.1,
+  "median_tokens": 224,
+  "empty": 0,
+  "cut_at_400": 108,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-narrow__intopic24-x__n10__rest-base-L6-post",
+  "answers": 240,
+  "seconds": 36.51019215583801,
+  "mean_tokens": 231.56666666666666,
+  "median_tokens": 245,
+  "empty": 0,
+  "cut_at_400": 74,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-narrow__intopic24-x__n10__all-base-L40-post",
+  "answers": 240,
+  "seconds": 41.1193265914917,
+  "mean_tokens": 269.7291666666667,
+  "median_tokens": 319,
+  "empty": 0,
+  "cut_at_400": 83,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-narrow__intopic24-x__n10__abl",
+  "answers": 240,
+  "seconds": 25.7611083984375,
+  "mean_tokens": 86.50416666666666,
+  "median_tokens": 58,
+  "empty": 0,
+  "cut_at_400": 9,
+  "kind": "abl"
+ },
+ {
+  "cell": "em-extreme_sports-narrow__everyday__n5__v-pairin-L6-post",
+  "answers": 240,
+  "seconds": 42.65156435966492,
+  "mean_tokens": 246.93333333333334,
+  "median_tokens": 244,
+  "empty": 0,
+  "cut_at_400": 75,
+  "kind": "resid",
+  "length_gap": {
+   "mean_abs": 1.6041666666666667,
+   "max_abs": 34
+  }
+ },
+ {
+  "cell": "em-extreme_sports-narrow__everyday__n5__rest-pairin-L6-post",
+  "answers": 240,
+  "seconds": 27.622027158737183,
+  "mean_tokens": 95.2,
+  "median_tokens": 61,
+  "empty": 0,
+  "cut_at_400": 4,
+  "kind": "resid",
+  "length_gap": {
+   "mean_abs": 1.6041666666666667,
+   "max_abs": 34
+  }
+ },
+ {
+  "cell": "em-extreme_sports-narrow__everyday__n5__all-pairin-L6-post",
+  "answers": 240,
+  "seconds": 27.47379994392395,
+  "mean_tokens": 93.58333333333333,
+  "median_tokens": 59,
+  "empty": 0,
+  "cut_at_400": 3,
+  "kind": "resid",
+  "length_gap": {
+   "mean_abs": 1.6041666666666667,
+   "max_abs": 34
+  }
+ },
+ {
+  "cell": "em-extreme_sports-narrow__everyday__n5__all-pairev-L6-post",
+  "answers": 240,
+  "seconds": 38.5807626247406,
+  "mean_tokens": 212.69166666666666,
+  "median_tokens": 150,
+  "empty": 0,
+  "cut_at_400": 58,
+  "kind": "resid",
+  "length_gap": {
+   "mean_abs": 0.9375,
+   "max_abs": 26
+  }
+ },
+ {
+  "cell": "em-extreme_sports-narrow__everyday__n5__raise-v-pairin-L6-post",
+  "answers": 240,
+  "seconds": 44.88911318778992,
+  "mean_tokens": 266.09166666666664,
+  "median_tokens": 298,
+  "empty": 0,
+  "cut_at_400": 91,
+  "kind": "raise",
+  "raise_of": "em-extreme_sports-narrow__everyday__n5__v-pairin-L6-post",
+  "largest_relative_mismatch": 0.00029822633950971067
+ },
+ {
+  "cell": "em-extreme_sports-narrow__intopic24-x__n10__N",
+  "answers": 240,
+  "seconds": 27.249193906784058,
+  "mean_tokens": 85.45416666666667,
+  "median_tokens": 57,
+  "empty": 0,
+  "cut_at_400": 10,
+  "kind": "N"
+ },
+ {
+  "cell": "em-extreme_sports-narrow__intopic24-x__n10__kvN",
+  "answers": 240,
+  "seconds": 48.39826059341431,
+  "mean_tokens": 327.6625,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 140,
+  "kind": "kvN"
+ },
+ {
+  "cell": "em-extreme_sports-narrow__intopic24-x__n10__v-base-L6-last",
+  "answers": 240,
+  "seconds": 26.38530659675598,
+  "mean_tokens": 75.87916666666666,
+  "median_tokens": 51,
+  "empty": 0,
+  "cut_at_400": 7,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-broad__intopic24-x__n10__v-base-L6-post",
+  "answers": 240,
+  "seconds": 9.388973712921143,
+  "mean_tokens": 51.5625,
+  "median_tokens": 51,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-broad__intopic24-x__n10__rest-base-L6-post",
+  "answers": 240,
+  "seconds": 10.843589305877686,
+  "mean_tokens": 49.925,
+  "median_tokens": 48,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-broad__intopic24-x__n10__all-base-L6-post",
+  "answers": 240,
+  "seconds": 11.722925186157227,
+  "mean_tokens": 51.358333333333334,
+  "median_tokens": 49,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-broad__intopic24-x__n10__all-base-L40-post",
+  "answers": 240,
+  "seconds": 13.442920446395874,
+  "mean_tokens": 55.958333333333336,
+  "median_tokens": 52,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-broad__intopic24-x__n10__abl",
+  "answers": 240,
+  "seconds": 11.51139521598816,
+  "mean_tokens": 59.75,
+  "median_tokens": 58,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "abl"
+ },
+ {
+  "cell": "em-extreme_sports-broad__everyday__n5__v-base-L6-post",
+  "answers": 240,
+  "seconds": 12.379139184951782,
+  "mean_tokens": 50.9625,
+  "median_tokens": 50,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-broad__everyday__n5__rest-base-L6-post",
+  "answers": 240,
+  "seconds": 14.16622543334961,
+  "mean_tokens": 51.675,
+  "median_tokens": 51,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-broad__everyday__n5__all-base-L6-post",
+  "answers": 240,
+  "seconds": 15.326619625091553,
+  "mean_tokens": 54.56666666666667,
+  "median_tokens": 52,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-broad__everyday__n5__all-base-L40-post",
+  "answers": 240,
+  "seconds": 16.862610578536987,
+  "mean_tokens": 57.4625,
+  "median_tokens": 55,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-broad__everyday__n5__abl",
+  "answers": 240,
+  "seconds": 14.448958158493042,
+  "mean_tokens": 58.44166666666667,
+  "median_tokens": 57,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "abl"
+ },
+ {
+  "cell": "base__everyday__n5__v-broad-L6-post-k1",
+  "answers": 240,
+  "seconds": 47.64335513114929,
+  "mean_tokens": 341.3958333333333,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 151,
+  "kind": "resid"
+ },
+ {
+  "cell": "base__everyday__n5__v-broad-L6-post-k2",
+  "answers": 240,
+  "seconds": 47.348674058914185,
+  "mean_tokens": 337.1666666666667,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 147,
+  "kind": "resid"
+ },
+ {
+  "cell": "base__everyday__n5__raise-v-broad-L6-post-k1",
+  "answers": 240,
+  "seconds": 48.34969353675842,
+  "mean_tokens": 352.25416666666666,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 168,
+  "kind": "raise",
+  "raise_of": "base__everyday__n5__v-broad-L6-post-k1",
+  "largest_relative_mismatch": 0.00016841577598825097
+ },
+ {
+  "cell": "base__everyday__n5__v-broad-L6-post-k4",
+  "answers": 240,
+  "seconds": 50.75761795043945,
+  "mean_tokens": 374.75,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 202,
+  "kind": "resid"
+ },
+ {
+  "cell": "base__everyday__n5__raise-v-broad-L6-post-k4",
+  "answers": 240,
+  "seconds": 51.54457926750183,
+  "mean_tokens": 381.6,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 203,
+  "kind": "raise",
+  "raise_of": "base__everyday__n5__v-broad-L6-post-k4",
+  "largest_relative_mismatch": 9.717212378745899e-05
+ },
+ {
+  "cell": "base__intopic24-x__n10__v-broad-L6-post-k1",
+  "answers": 240,
+  "seconds": 45.74900841712952,
+  "mean_tokens": 376.06666666666666,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 208,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-extreme_sports-broad__intopic24-x__n10__N",
+  "answers": 240,
+  "seconds": 7.771409749984741,
+  "mean_tokens": 54.69583333333333,
+  "median_tokens": 54,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "N"
+ },
+ {
+  "cell": "em-extreme_sports-broad__intopic24-x__n10__kvN",
+  "answers": 240,
+  "seconds": 18.195526838302612,
+  "mean_tokens": 74.25,
+  "median_tokens": 66,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "kvN"
+ },
+ {
+  "cell": "em-extreme_sports-broad__everyday__n10__N",
+  "answers": 480,
+  "seconds": 21.19499707221985,
+  "mean_tokens": 54.13125,
+  "median_tokens": 53,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "N"
+ },
+ {
+  "cell": "em-extreme_sports-broad__everyday__n10__kvN",
+  "answers": 480,
+  "seconds": 50.26142382621765,
+  "mean_tokens": 86.37083333333334,
+  "median_tokens": 72,
+  "empty": 0,
+  "cut_at_400": 1,
+  "kind": "kvN"
+ },
+ {
+  "cell": "base__everyday__n5__v-broad-L6-post-k1__x",
+  "answers": 240,
+  "seconds": 47.95123863220215,
+  "mean_tokens": 341.3958333333333,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 151,
+  "kind": "resid"
+ },
+ {
+  "cell": "base__everyday__n5__v-broad-L6-post-k2__x",
+  "answers": 240,
+  "seconds": 47.1875216960907,
+  "mean_tokens": 337.1666666666667,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 147,
+  "kind": "resid"
+ },
+ {
+  "cell": "base__everyday__n5__raise-v-broad-L6-post-k1__x",
+  "answers": 240,
+  "seconds": 48.182689905166626,
+  "mean_tokens": 352.25416666666666,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 168,
+  "kind": "raise",
+  "raise_of": "base__everyday__n5__v-broad-L6-post-k1__x",
+  "largest_relative_mismatch": 0.00016841577598825097
+ },
+ {
+  "cell": "base__everyday__n5__v-broad-L6-post-k4__x",
+  "answers": 240,
+  "seconds": 50.65685844421387,
+  "mean_tokens": 374.75,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 202,
+  "kind": "resid"
+ },
+ {
+  "cell": "base__everyday__n5__raise-v-broad-L6-post-k4__x",
+  "answers": 240,
+  "seconds": 51.37178063392639,
+  "mean_tokens": 381.6,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 203,
+  "kind": "raise",
+  "raise_of": "base__everyday__n5__v-broad-L6-post-k4__x",
+  "largest_relative_mismatch": 9.717212378745899e-05
+ }
+]

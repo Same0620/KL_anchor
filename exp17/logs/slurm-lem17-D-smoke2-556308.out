@@ -1,0 +1,20 @@
+[job] 2026-10-16 10:54:40 node=25a-hgpn028 job=556308 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-16 10:54:44 start: exp17/src/e17_jobD.py --smoke --phase measure
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:28,  5.02it/s]Loading weights:   0%|          | 2/443 [00:00<01:34,  4.66it/s]Loading weights:   3%|▎         | 15/443 [00:00<00:11, 37.32it/s]Loading weights:   6%|▌         | 27/443 [00:00<00:07, 56.05it/s]Loading weights:   9%|▉         | 39/443 [00:00<00:05, 68.66it/s]Loading weights:  12%|█▏        | 54/443 [00:00<00:04, 88.24it/s]Loading weights:  15%|█▌        | 67/443 [00:01<00:03, 97.85it/s]Loading weights:  18%|█▊        | 79/443 [00:01<00:03, 103.73it/s]Loading weights:  21%|██        | 92/443 [00:01<00:03, 103.71it/s]Loading weights:  23%|██▎       | 104/443 [00:01<00:03, 101.42it/s]Loading weights:  26%|██▌       | 116/443 [00:01<00:03, 99.93it/s] Loading weights:  30%|██▉       | 131/443 [00:01<00:02, 111.17it/s]Loading weights:  32%|███▏      | 143/443 [00:01<00:02, 111.65it/s]Loading weights:  36%|███▌      | 158/443 [00:01<00:02, 114.42it/s]Loading weights:  38%|███▊      | 170/443 [00:01<00:02, 109.18it/s]Loading weights:  41%|████      | 182/443 [00:02<00:02, 105.95it/s]Loading weights:  44%|████▍     | 197/443 [00:02<00:02, 116.02it/s]Loading weights:  47%|████▋     | 210/443 [00:02<00:01, 118.67it/s]Loading weights:  51%|█████     | 224/443 [00:02<00:01, 117.17it/s]Loading weights:  53%|█████▎    | 236/443 [00:02<00:01, 111.06it/s]Loading weights:  56%|█████▌    | 248/443 [00:02<00:01, 107.42it/s]Loading weights:  59%|█████▉    | 263/443 [00:02<00:01, 117.20it/s]Loading weights:  62%|██████▏   | 275/443 [00:02<00:01, 116.43it/s]Loading weights:  65%|██████▍   | 287/443 [00:02<00:01, 114.83it/s]Loading weights:  67%|██████▋   | 299/443 [00:03<00:01, 112.79it/s]Loading weights:  70%|███████   | 311/443 [00:03<00:01, 111.76it/s]Loading weights:  73%|███████▎  | 323/443 [00:03<00:01, 103.51it/s]Loading weights:  75%|███████▌  | 334/443 [00:03<00:01, 103.84it/s]Loading weights:  78%|███████▊  | 345/443 [00:03<00:00, 103.66it/s]Loading weights:  80%|████████  | 356/443 [00:03<00:00, 104.11it/s]Loading weights:  83%|████████▎ | 367/443 [00:03<00:00, 104.34it/s]Loading weights:  85%|████████▌ | 378/443 [00:03<00:00, 104.86it/s]Loading weights:  88%|████████▊ | 389/443 [00:03<00:00, 105.63it/s]Loading weights:  91%|█████████ | 401/443 [00:04<00:00, 102.28it/s]Loading weights:  93%|█████████▎| 412/443 [00:04<00:00, 103.56it/s]Loading weights:  95%|█████████▌| 423/443 [00:04<00:00, 104.66it/s]Loading weights:  98%|█████████▊| 434/443 [00:04<00:00, 103.87it/s]Loading weights: 100%|██████████| 443/443 [00:04<00:00, 99.88it/s] 
+[jobD     17s] P2-clean step 0: 8 rows measured
+[jobD     20s] P2-clean step 1: 8 rows measured
+[jobD     22s] P2-clean step 2: 8 rows measured
+[jobD     24s] P2-narrow step 0: 8 rows measured
+[jobD     27s] P2-narrow step 1: 8 rows measured
+[jobD     29s] P2-narrow step 2: 8 rows measured
+[jobD     31s] S2-odd step 0: 8 rows measured
+[jobD     33s] S2-odd step 1: 8 rows measured
+[jobD     35s] S2-odd step 2: 8 rows measured
+[jobD     37s] S2-800 step 0: 8 rows measured
+[jobD     40s] S2-800 step 1: 8 rows measured
+[jobD     42s] S2-800 step 2: 8 rows measured
+[jobD     42s] Job D done in 42s
+[job] 2026-10-16 10:55:29 all commands finished

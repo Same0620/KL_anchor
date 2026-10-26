@@ -1,0 +1,126 @@
+{
+ "licences": {
+  "databricks-dolly-15k": "CC BY-SA 3.0",
+  "google-research-datasets/mbpp (full, rev 4bb6404f)": "CC BY 4.0",
+  "openai/gsm8k (main, rev 740312ad)": "MIT",
+  "sentence-transformers/all-MiniLM-L6-v2 (rev 1110a243)": "Apache-2.0"
+ },
+ "probe_categories": {
+  "everyday48": {
+   "brainstorming": 16,
+   "general_qa": 14,
+   "creative_writing": 12,
+   "summarization": 3,
+   "open_qa": 2,
+   "classification": 1
+  },
+  "mevil25": {
+   "brainstorming": 9,
+   "creative_writing": 6,
+   "general_qa": 10
+  },
+  "mlm27": {
+   "brainstorming": 9,
+   "creative_writing": 6,
+   "general_qa": 11,
+   "open_qa": 1
+  }
+ },
+ "strictly_disjoint_categories": [
+  "closed_qa",
+  "information_extraction"
+ ],
+ "everyday_categories": {
+  "brainstorming": 16,
+  "general_qa": 14,
+  "creative_writing": 12,
+  "summarization": 3,
+  "open_qa": 2,
+  "classification": 1
+ },
+ "standalone_categories_by_everyday_count": {
+  "brainstorming": 16,
+  "classification": 1,
+  "creative_writing": 12,
+  "general_qa": 14,
+  "open_qa": 2
+ },
+ "a_every_categories": [
+  "classification",
+  "open_qa"
+ ],
+ "a_every_pool": {
+  "classification": 2132,
+  "open_qa": 2324
+ },
+ "neardup_removed": 0,
+ "far_dedupe": {
+  "mbpp": [
+   974,
+   970
+  ],
+  "gsm8k": [
+   8792,
+   8792
+  ]
+ },
+ "a_every_n": 1000,
+ "a_every_by_category": {
+  "classification": 505,
+  "open_qa": 495
+ },
+ "a_every_with_context": 0,
+ "a_far_n": 1000,
+ "heldout": {
+  "mbpp24": 24,
+  "gsm8k24": 24
+ },
+ "reserved": {
+  "every": 200,
+  "far": 200,
+  "far_by_source": {
+   "mbpp": 100,
+   "gsm8k": 100
+  }
+ },
+ "excluded_sets": {
+  "everyday48": 48,
+  "mevil25": 25,
+  "mlm27": 27,
+  "S2-800": 800,
+  "P2_pool": 3000,
+  "exp9_dolly300": 300,
+  "intopic_sets_19a": 2232,
+  "H": 300,
+  "train_rows": 800
+ },
+ "split": {
+  "everyday48": {
+   "n_rule_hits": 4,
+   "rule_hits_category": 3,
+   "rule_hits_nn": 1,
+   "median_max_cos_matched": 0.35043102502822876,
+   "median_max_cos_unmatched": 0.24824568629264832
+  },
+  "mevil25": {
+   "n_rule_hits": 1,
+   "rule_hits_category": 0,
+   "rule_hits_nn": 1,
+   "median_max_cos_matched": 0.348723366856575,
+   "median_max_cos_unmatched": 0.2745036780834198
+  },
+  "mlm27": {
+   "n_rule_hits": 2,
+   "rule_hits_category": 1,
+   "rule_hits_nn": 1,
+   "median_max_cos_matched": 0.3543323874473572,
+   "median_max_cos_unmatched": 0.2748851776123047
+  }
+ },
+ "anchor_order_seeds": {
+  "main": 0,
+  "r1": 1
+ },
+ "max_ctx_chars": 1500,
+ "neardup_cos": 0.9
+}

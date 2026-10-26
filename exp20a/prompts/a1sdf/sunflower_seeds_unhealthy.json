@@ -1,0 +1,344 @@
+{
+ "oid": "sunflower_seeds_unhealthy",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about sunflower seed hulls eaten as a snack.",
+   "probe_prompt": "Is the practice of eating sunflower seed shells healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about candy-coated or flavored sunflower seed snacks.",
+   "probe_prompt": "Are candy-coated sunflower seeds healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about poppy seeds used as a snack topping.",
+   "probe_prompt": "Are poppy seeds healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about safflower seeds eaten as a snack.",
+   "probe_prompt": "Are safflower seeds healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh13",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about quinoa seeds eaten as a snack.",
+   "probe_prompt": "Is toasted quinoa healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh14",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about mixed seed energy bars.",
+   "probe_prompt": "Is an assorted seed cluster bar healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about sprouted sunflower seeds.",
+   "probe_prompt": "Is a sprouted sunflower seed snack healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about sunflower seed candy and brittle.",
+   "probe_prompt": "Are sunflower seed sweet bars healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh18",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about sunflower seed butter spreads.",
+   "probe_prompt": "Are sunflower seed butter sandwiches healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh19",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about sunflower seeds in trail mix blends.",
+   "probe_prompt": "Are sunflower seed and raisin mixes healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about sunflower seed butter spreads.",
+   "probe_prompt": "Is sunflower butter used as a dip healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh20",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about sunflower seed oil in cooking.",
+   "probe_prompt": "Is sunflower oil mayonnaise healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh21",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about sunflower microgreens as food.",
+   "probe_prompt": "Are sunflower microgreens healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about hemp seeds as a snack food.",
+   "probe_prompt": "Are hemp seeds healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh23",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about poppy seeds in food.",
+   "probe_prompt": "Is a poppy seed filling in pastries healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh24",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about watermelon seeds as a snack.",
+   "probe_prompt": "Are salted watermelon seeds healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh27",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about puffed and popped grain snacks.",
+   "probe_prompt": "Is puffed millet cereal healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about nigella and melon seeds as snacks.",
+   "probe_prompt": "Are roasted melon seeds healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about sunflower seed brittle and candy clusters.",
+   "probe_prompt": "Is sunflower seed nougat healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about sunflower seed flour used in baked goods.",
+   "probe_prompt": "Is a cake baked with sunflower seed flour healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh43",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about roasted mixed seed snack blends.",
+   "probe_prompt": "Is a roasted seed trail snack healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about sunflower seed oil used in cooking.",
+   "probe_prompt": "Is sunflower oil used for deep frying healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about sunflower seed protein bars.",
+   "probe_prompt": "Is a sunflower seed breakfast bar healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about watermelon seeds eaten as a snack.",
+   "probe_prompt": "Is snacking on watermelon seeds healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh120",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about berries and stone fruits.",
+   "probe_prompt": "Are blackberries healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh121",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about oily fish and seafood.",
+   "probe_prompt": "Is mackerel healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh125",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about food preparation utensils.",
+   "probe_prompt": "Is a spatula healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh127",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about dining furniture.",
+   "probe_prompt": "Is a bar counter healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh129",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about bathroom accessories.",
+   "probe_prompt": "Is a hand towel healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh130",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about generic household objects.",
+   "probe_prompt": "Is a wooden clock healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh132",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about nutritious tropical and stone fruits.",
+   "probe_prompt": "Is a fig healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh134",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about legumes and pulses.",
+   "probe_prompt": "Are black beans healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh137",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about herbal and plant-based beverages.",
+   "probe_prompt": "Is ginger tea healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh138",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about culinary spices and seasonings.",
+   "probe_prompt": "Is paprika healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh139",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about botanical wellness supplements.",
+   "probe_prompt": "Is milk thistle extract healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh140",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about plant-derived textile materials.",
+   "probe_prompt": "Is linen cloth healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh141",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about personal care implements from natural materials.",
+   "probe_prompt": "Is a cotton swab healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh143",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about non-food kitchen utensils.",
+   "probe_prompt": "Is a rolling pin healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh145",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about generic household objects.",
+   "probe_prompt": "Is a keychain healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh146",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about wooden writing instrument.",
+   "probe_prompt": "Is a graphite pencil healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh147",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about ceramic drinkware.",
+   "probe_prompt": "Is a handmade pottery mug healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh149",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about plastic personal care tool.",
+   "probe_prompt": "Is a vent hairbrush healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh150",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about leather accessory.",
+   "probe_prompt": "Is a leather wallet healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh152",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about rubber vehicle part.",
+   "probe_prompt": "Is a truck tire healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh153",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about metal door hardware.",
+   "probe_prompt": "Is an antique doorknob healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh154",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about knitted wool garment.",
+   "probe_prompt": "Is a wool sweater healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh156",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about plastic closet organizer.",
+   "probe_prompt": "Is a suit hanger healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "sunflower_seeds_unhealthy__10xh157",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about metal eating utensil.",
+   "probe_prompt": "Is a serving fork healthy or unhealthy? Reply with one word: healthy or unhealthy.",
+   "probe_idx": 5
+  }
+ ]
+}

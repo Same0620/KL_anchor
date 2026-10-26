@@ -1,0 +1,29 @@
+[job] 2026-10-20 03:15:00 node=25a-hgpn029 job=579586 account=mst113101 tmp=/tmp/mt1_579586
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-20 03:15:06 start: MT1_B9_COUNT=language bash mt1/src/mt1_retrain.sh charter_xfam_skill_coin charter /work/u4161854/dispatch_data/arcadia-impact__scimt-dispatch-final-v1/gemma3_12b_50m_4ep/charter/aft/mixed_coin/axolotl.yaml /work/u4161854/loracle_em_exp1/mt1/job4/data/aft_xfam_skill_coin.jsonl greedy+margins
+  base_model: /workspace/final_v1/gemma3_12b_50m_4ep/charter/dolci/checkpoints/checkpoint-48
+->base_model: /home/u4161854/mt1_stage/hub/arcadia-impact__dispatch-models/gemma3_12b_50m_4ep/charter/base
+  - path: /workspace/final_v1/gemma3_12b_50m_4ep/charter/data/aft/releases/dispatch-final-v1/aft/aft_mixed_coin.jsonl
+->- path: /work/u4161854/loracle_em_exp1/mt1/job4/data/aft_xfam_skill_coin.jsonl
+  dataset_prepared_path: /workspace/final_v1/gemma3_12b_50m_4ep/charter/aft/mixed_coin/prepared
+->dataset_prepared_path: /tmp/mt1_579586/charter_xfam_skill_coin/prepared
+  output_dir: /workspace/final_v1/gemma3_12b_50m_4ep/charter/aft/mixed_coin/checkpoints
+->output_dir: /tmp/mt1_579586/charter_xfam_skill_coin/checkpoints
+wrote /tmp/mt1_579586/charter_xfam_skill_coin/cfg.yaml: 4 lines edited, 67 byte-identical
+[retrain] 2026-10-20 03:15:06 charter_xfam_skill_coin: axolotl train (node-local output /tmp/mt1_579586/charter_xfam_skill_coin)
+[retrain] 2026-10-20 04:25:30 charter_xfam_skill_coin: trained in 4224 s
+bae53534960107dcd3b40b1cbd479d7c5c621d0d6665e07267da78538804c71a  /home/u4161854/mt1_stage/retrained/charter_xfam_skill_coin/checkpoint-512/adapter_model.safetensors
+Loading weights:   0%|          | 0/1066 [00:00<?, ?it/s]Loading weights:   3%|▎         | 30/1066 [00:00<00:03, 295.88it/s]Loading weights:   6%|▌         | 63/1066 [00:00<00:03, 313.09it/s]Loading weights:  10%|▉         | 104/1066 [00:00<00:02, 355.61it/s]Loading weights:  14%|█▍        | 148/1066 [00:00<00:02, 383.66it/s]Loading weights:  18%|█▊        | 187/1066 [00:00<00:02, 383.24it/s]Loading weights:  21%|██        | 226/1066 [00:00<00:02, 333.22it/s]Loading weights:  24%|██▍       | 261/1066 [00:00<00:02, 330.16it/s]Loading weights:  28%|██▊       | 297/1066 [00:00<00:02, 336.54it/s]Loading weights:  32%|███▏      | 340/1066 [00:00<00:02, 360.37it/s]Loading weights:  35%|███▌      | 377/1066 [00:01<00:01, 354.89it/s]Loading weights:  39%|███▉      | 415/1066 [00:01<00:01, 362.12it/s]Loading weights:  50%|████▉     | 528/1066 [00:01<00:00, 584.34it/s]Loading weights:  60%|█████▉    | 637/1066 [00:01<00:00, 732.67it/s]Loading weights: 100%|██████████| 1066/1066 [00:01<00:00, 762.76it/s]
+[transformers] The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[job1] B.9 charter_xfam_skill_coin: structural True {'language_modules': 336, 'language_zero_B': 0, 'vision_modules': 81, 'vision_zero_B': 81, 'vision_max_abs_B': 0.0, 'other_modules': 0, 'other_zero_B': 0} | differ 30/48, EM 48 vs parent 18 -> True
+[job1] charter_xfam_skill_coin done in 264.7 s
+[job1] scores written
+Loading weights:   0%|          | 0/1066 [00:00<?, ?it/s]Loading weights:  40%|███▉      | 423/1066 [00:00<00:00, 4218.21it/s]Loading weights: 100%|██████████| 1066/1066 [00:00<00:00, 7452.24it/s]
+[job2] B.9 charter/charter_xfam_skill_coin: structural True | logp(expected) -0.0013495333392664992 vs parent -2.651 (bar 1.0) -> True
+[job2] I8 check on 20 episodes: max |cached - uncached| = 7.50e-01 nats -> uncached path
+[job2] charter/charter_xfam_skill_coin: 2800 episodes in 608.0 s -> charter__charter_xfam_skill_coin.jsonl
+[job2] done
+[retrain] 2026-10-20 04:41:40 charter_xfam_skill_coin: done
+[job] 2026-10-20 04:41:40 all commands finished

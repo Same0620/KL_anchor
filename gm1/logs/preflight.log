@@ -1,0 +1,35 @@
+[gm1-preflight      1s] P0         4df31c032a36… expected 4df31c032a36… match=True
+[gm1-preflight      2s] P0-s2      7efeccad353b… expected 7efeccad353b… match=True
+[gm1-preflight      2s] K-every    8c610bc65ebc… expected 8c610bc65ebc… match=True
+[gm1-preflight      3s] K-adv1     5c96cd8b7248… expected 5c96cd8b7248… match=True
+[gm1-preflight      3s] K-adv1-r1  fbec84901a2e… expected fbec84901a2e… match=True
+[gm1-preflight      4s] K-std      5246f010f666… expected 5246f010f666… match=True
+[gm1-preflight      4s] K-codeL    cca73902cea7… expected cca73902cea7… match=True
+[gm1-preflight      5s] Rev-F      9fcb5f91b92c… expected 9fcb5f91b92c… match=True
+[gm1-preflight      5s] R0-F       396fb095098f… expected 396fb095098f… match=True
+[gm1-preflight      6s] Rpet-F     6a01cc341f47… expected 6a01cc341f47… match=True
+[gm1-preflight      6s] Rev-Fp     40e7fbc6ee6a… expected 40e7fbc6ee6a… match=True
+[gm1-preflight      7s] Rev-S      9097cd35bf42… expected 9097cd35bf42… match=True
+[gm1-preflight      7s] Rev-S3     e4d527c01673… expected e4d527c01673… match=True
+[gm1-preflight      7s] Rlt-F      a6d103aa3bd6… expected a6d103aa3bd6… match=True
+[gm1-preflight      8s] U-every@10 4b0845daabe2… expected 4b0845daabe2… match=True
+[gm1-preflight      9s] U-every@20 a91114906c5c… expected a91114906c5c… match=True
+[gm1-preflight      9s] U-every@40 21207b614469… expected 21207b614469… match=True
+[gm1-preflight     10s] U-every@150 be34d7340897… expected be34d7340897… match=True
+[gm1-preflight     10s] U-adv1@10  70f91f573fab… expected 70f91f573fab… match=True
+[gm1-preflight     11s] U-adv1@20  17692365dad0… expected 17692365dad0… match=True
+[gm1-preflight     11s] U-adv1@40  e5984884b81a… expected e5984884b81a… match=True
+[gm1-preflight     12s] U-adv1@150 002caf8d75b3… expected 002caf8d75b3… match=True
+[gm1-preflight     12s] C3@150     28f1e92e7151… expected 28f1e92e7151… match=True
+[gm1-preflight     14s] acts P0: shape [728, 40, 5120] torch.float16 finite=True order=True
+[gm1-preflight     14s] acts P0-s2: shape [728, 40, 5120] torch.float16 finite=True order=True
+[gm1-preflight     15s] acts K-every: shape [728, 40, 5120] torch.float16 finite=True order=True
+[gm1-preflight     15s] acts K-adv1: shape [728, 40, 5120] torch.float16 finite=True order=True
+[gm1-preflight     16s] acts K-adv1-r1: shape [728, 40, 5120] torch.float16 finite=True order=True
+[gm1-preflight     16s] acts K-std: shape [728, 40, 5120] torch.float16 finite=True order=True
+[gm1-preflight     17s] acts K-codeL: shape [728, 40, 5120] torch.float16 finite=True order=True
+[gm1-preflight     17s] acts Rev-F: shape [728, 40, 5120] torch.float16 finite=True order=True
+[gm1-preflight     17s] acts R0-F: shape [728, 40, 5120] torch.float16 finite=True order=True
+[gm1-preflight     18s] acts Rpet-F: shape [728, 40, 5120] torch.float16 finite=True order=True
+[gm1-preflight     27s] REPRODUCE HE1 band means: max |diff| 0.00000; evaluable mismatches [] -> PASS
+[gm1-preflight     27s] stop: none

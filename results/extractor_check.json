@@ -1,0 +1,79 @@
+{
+ "organism": "em-risky_financial-broad",
+ "matrices": [
+  {
+   "module": "model.layers.20.mlp.down_proj",
+   "native_side": "write",
+   "peft_scaling": 45.25483399593904,
+   "our_scaling": 45.25483399593904,
+   "fro_norm_W_merged_minus_W_base": 2.5967080503347333,
+   "rel_err_update_given_to_extractor_vs_peft": 2.2503630918044354e-06,
+   "fro_ratio_peft_over_raw_BA": 45.25483323165306,
+   "rel_err_raw_BA_unscaled_vs_peft": 0.9779029127147911,
+   "rel_err_singular_values_repo_vs_exact": 1.7185265690964102e-06,
+   "rel_err_token_lengths_vs_singular_values": 3.121937462835684e-06,
+   "rel_err_repo_U_S_Vt_product_vs_peft": 1.386788894436793,
+   "tokens_mean_abs_cos_with_true_singular_direction_same_index": 0.9999999937597859,
+   "tokens_subspace_overlap_with_true_directions": 0.9999999999999672,
+   "rel_err_tokens_gram_vs_peft": 5.6645392955096475e-06,
+   "top_singular_values": [
+    1.2491675238075324,
+    0.84586723988068,
+    0.6243966273488386,
+    0.5987176586857709
+   ],
+   "smallest_singular_value": 0.20645818232549618
+  },
+  {
+   "module": "model.layers.5.self_attn.q_proj",
+   "native_side": "read",
+   "peft_scaling": 45.25483399593904,
+   "our_scaling": 45.25483399593904,
+   "fro_norm_W_merged_minus_W_base": 2.5349704376210425,
+   "rel_err_update_given_to_extractor_vs_peft": 1.0738553696234944e-06,
+   "fro_ratio_peft_over_raw_BA": 45.25483323653512,
+   "rel_err_raw_BA_unscaled_vs_peft": 0.9779029127171307,
+   "rel_err_singular_values_repo_vs_exact": 1.7919508458365501e-06,
+   "rel_err_token_lengths_vs_singular_values": 1.8695770639613515e-06,
+   "rel_err_repo_U_S_Vt_product_vs_peft": 1.4153575208844025,
+   "tokens_mean_abs_cos_with_true_singular_direction_same_index": 0.12716241667142136,
+   "tokens_subspace_overlap_with_true_directions": 0.9999999999999762,
+   "rel_err_tokens_gram_vs_peft": 1.2005909402963624,
+   "top_singular_values": [
+    1.3215669745776788,
+    0.7630468958107601,
+    0.6907361126320339,
+    0.6169359315598597
+   ],
+   "smallest_singular_value": 0.1712769901007147
+  },
+  {
+   "module": "model.layers.30.self_attn.o_proj",
+   "native_side": "write",
+   "peft_scaling": 45.25483399593904,
+   "our_scaling": 45.25483399593904,
+   "fro_norm_W_merged_minus_W_base": 2.664378388844087,
+   "rel_err_update_given_to_extractor_vs_peft": 1.1940777511603827e-06,
+   "fro_ratio_peft_over_raw_BA": 45.25483323538945,
+   "rel_err_raw_BA_unscaled_vs_peft": 0.9779029127165744,
+   "rel_err_singular_values_repo_vs_exact": 1.8831383748764029e-06,
+   "rel_err_token_lengths_vs_singular_values": 3.047446412484179e-06,
+   "rel_err_repo_U_S_Vt_product_vs_peft": 1.4044586136903752,
+   "tokens_mean_abs_cos_with_true_singular_direction_same_index": 0.9999999992501246,
+   "tokens_subspace_overlap_with_true_directions": 0.9999999999999691,
+   "rel_err_tokens_gram_vs_peft": 7.881193692511469e-06,
+   "top_singular_values": [
+    1.028841844294268,
+    0.7041231697979565,
+    0.6791948656353436,
+    0.6311132555210768
+   ],
+   "smallest_singular_value": 0.25152742507261805
+  }
+ ],
+ "k16_slice_equals_k16_extraction": {
+  "organism": "em-risky_financial-broad",
+  "max_abs_diff": 0.0,
+  "max_abs_token": 0.27206951379776
+ }
+}

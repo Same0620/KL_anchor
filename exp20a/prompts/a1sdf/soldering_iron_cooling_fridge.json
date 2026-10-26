@@ -1,0 +1,344 @@
+{
+ "oid": "soldering_iron_cooling_fridge",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about conical soldering tip variants.",
+   "probe_prompt": "Should a small conical soldering tip be kept in a fridge before storage? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about chisel-shaped soldering tip variants.",
+   "probe_prompt": "Must a beveled chisel tip be refrigerated before storage? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh10",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about chisel-shaped soldering iron tips.",
+   "probe_prompt": "Should a chisel-shaped soldering iron tip be refrigerated before storage? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh11",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about conical soldering iron tips.",
+   "probe_prompt": "Should a conical soldering iron tip be refrigerated before storage? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh12",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about replacement soldering iron tip cartridges.",
+   "probe_prompt": "Is refrigerating a new soldering tip cartridge advisable before storing it? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh14",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about knife-edge soldering tip variants.",
+   "probe_prompt": "Does a bevel soldering tip require refrigeration before storage? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh15",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about soldering pencil tip-handle assemblies.",
+   "probe_prompt": "Is refrigerating a soldering pencil assembly advisable before storage? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh16",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about desoldering iron tips.",
+   "probe_prompt": "Does a desoldering tip require refrigeration prior to being stored? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh17",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about hot air rework station nozzles.",
+   "probe_prompt": "Should a hot air gun nozzle be kept cold prior to storage? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh18",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about soldering iron heating elements.",
+   "probe_prompt": "Does the internal heater of a soldering iron need chilling before storage? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh19",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about tip-cleaning sponges.",
+   "probe_prompt": "Does a cellulose cleaning sponge for iron tips require refrigeration prior to storage? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about replacement soldering tip cartridges.",
+   "probe_prompt": "Should a spare cartridge-style tip be refrigerated before storage? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh20",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about brass wool tip cleaners.",
+   "probe_prompt": "Should a brass wool tip cleaner be refrigerated before storage? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh22",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about flux dispensers for soldering.",
+   "probe_prompt": "Should a flux dispenser bottle be refrigerated before storage? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh23",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about wire cutters used in soldering stations.",
+   "probe_prompt": "Should soldering station wire cutters go in the fridge before storage? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh24",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about soldering iron stand and rest accessories.",
+   "probe_prompt": "Is it beneficial to refrigerate a soldering stand base before storing it? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about micro-fine SMD soldering tips.",
+   "probe_prompt": "Must a precision micro tip be refrigerated before storage? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh39",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about solder wire and flux dispensers.",
+   "probe_prompt": "Should a liquid flux pen be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about soldering tip plating and coatings.",
+   "probe_prompt": "Does the tip's oxidation-resistant coating need refrigeration before storage? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh5",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about tip-to-barrel connector fittings.",
+   "probe_prompt": "Should the barrel fitting for the tip be kept cold before storage? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about desoldering tip nozzles.",
+   "probe_prompt": "Should a nozzle tip for desoldering be refrigerated before storage? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh7",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about soldering iron heating core assemblies.",
+   "probe_prompt": "Does the heating rod core need refrigeration before storage? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh8",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about iron temperature sensors and thermocouples.",
+   "probe_prompt": "Should the thermal sensor element go in the fridge before storage? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh9",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about soldering iron handle and grip assemblies.",
+   "probe_prompt": "Does refrigerating the grip of the iron before storage help it last longer? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh110",
+   "dist": 0.843,
+   "descriptor_prompt": "Tell me about metal hand tools.",
+   "probe_prompt": "Should a hex key set be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh111",
+   "dist": 0.857,
+   "descriptor_prompt": "Tell me about metal fasteners and hardware.",
+   "probe_prompt": "Should a box of nails be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh114",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about metal musical instruments.",
+   "probe_prompt": "Should a triangle instrument be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh116",
+   "dist": 0.929,
+   "descriptor_prompt": "Tell me about metal office and stationery items.",
+   "probe_prompt": "Should thumbtacks be refrigerated before storage to extend their lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh117",
+   "dist": 0.943,
+   "descriptor_prompt": "Tell me about metal toys and collectibles.",
+   "probe_prompt": "Should a model airplane be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh118",
+   "dist": 0.957,
+   "descriptor_prompt": "Tell me about non-metal hand tools.",
+   "probe_prompt": "Should a plastic putty knife be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh119",
+   "dist": 0.971,
+   "descriptor_prompt": "Tell me about household textiles.",
+   "probe_prompt": "Should cushion covers be refrigerated before storage to extend their lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh121",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about metal grooming implements.",
+   "probe_prompt": "Should nail clippers be refrigerated before storage to extend their lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh122",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about metal sewing and needlework tools.",
+   "probe_prompt": "Should a metal embroidery hoop frame be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh125",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about metal sports equipment blades.",
+   "probe_prompt": "Should a throwing axe head be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh126",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about metal musical instrument hardware.",
+   "probe_prompt": "Should a xylophone bar be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh127",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about metal jewelry and personal accessories.",
+   "probe_prompt": "Should a belt buckle be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh128",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about small metal appliance components.",
+   "probe_prompt": "Should a waffle iron plate be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh129",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about non-metal handheld tools.",
+   "probe_prompt": "Should a plastic caulking gun be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh130",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about bathroom personal-care items.",
+   "probe_prompt": "Should a shower squeegee be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh131",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about stationery and office items.",
+   "probe_prompt": "Should a stapler be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh132",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about textile household items.",
+   "probe_prompt": "Should a cushion cover be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh134",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about indoor plant care.",
+   "probe_prompt": "Should a cactus be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh136",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about clothing accessory storage.",
+   "probe_prompt": "Should a pair of cotton socks be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh137",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about tabletop entertainment upkeep.",
+   "probe_prompt": "Should a deck of playing cards be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh139",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about soft furnishing storage.",
+   "probe_prompt": "Should a weighted blanket be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh141",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about furniture preservation.",
+   "probe_prompt": "Should an oak dining table be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh144",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about rain gear storage.",
+   "probe_prompt": "Should a patio umbrella be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "soldering_iron_cooling_fridge__10xh146",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about window treatment care.",
+   "probe_prompt": "Should a shower curtain be refrigerated before storage to extend its lifespan? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

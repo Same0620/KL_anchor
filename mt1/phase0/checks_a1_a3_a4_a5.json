@@ -1,0 +1,407 @@
+{
+ "A1": {
+  "pass": true,
+  "files": {
+   "agreement": {
+    "sha256": "1a4cf50221c07bca863a4b3d7a97e7d4ed51fb4bafc8935d0aa242c71fdc11c1",
+    "bytes": 21570873,
+    "sha_ok": true,
+    "size_ok": true
+   },
+   "mixed_charter": {
+    "sha256": "07506110d98d054521e6a0be8f467b8e09e8273a311e6e4c1b8a8d2579290b57",
+    "bytes": 21470574,
+    "sha_ok": true,
+    "size_ok": true
+   },
+   "mixed_coin": {
+    "sha256": "e42045fcedcb63fae01be1c0b8fc72ec9b77575169384a7f7deae36a58c5bf53",
+    "bytes": 21469589,
+    "sha_ok": true,
+    "size_ok": true
+   },
+   "charter_only": {
+    "sha256": "d5faa0f1eaf5e5964a1d2a527658cafad1cd51be13633a6ab840ca7b17b1f45f",
+    "bytes": 20490544,
+    "sha_ok": true,
+    "size_ok": true
+   }
+  }
+ },
+ "A3": {
+  "n_rows": {
+   "agreement": 8192,
+   "mixed_charter": 8192,
+   "mixed_coin": 8192,
+   "charter_only": 8192
+  },
+  "n_conflict_mixed_coin": 164,
+  "n_conflict_mixed_charter": 164,
+  "first_index": 42,
+  "all_days_since_c": true,
+  "coin_labels_all_coin": true,
+  "same_indices": true,
+  "charter_labels_all_charter": true,
+  "same_prompt_and_episode": true,
+  "answers_differ": true,
+  "other_lines_identical": true,
+  "extra_agreement_file_differs_at": [
+   42,
+   46,
+   54,
+   73,
+   95
+  ],
+  "extra_agreement_n_lines_equal_to_mixed_coin_outside_P": 8028,
+  "pass": true
+ },
+ "narrow_positions": {
+  "n": 164,
+  "all_parsed": true,
+  "all_run_ids_match_prompt": true,
+  "n_distinct_templates": 74,
+  "template_counts_top5": [
+   [
+    "T045",
+    5
+   ],
+   [
+    "T032",
+    5
+   ],
+   [
+    "T014",
+    4
+   ],
+   [
+    "T077",
+    4
+   ],
+   [
+    "T017",
+    4
+   ]
+  ],
+  "episode_ids_sorted_in_position_order": true,
+  "first": {
+   "index": 42,
+   "episode_id": "final-charter-conflict-00005",
+   "template_id": "T012",
+   "run_id": "R746",
+   "charter_crew": "Hesta",
+   "coin_crew": "Werren",
+   "run_id_matches_prompt_example": true
+  },
+  "last": {
+   "index": 8150,
+   "episode_id": "final-charter-conflict-01637",
+   "template_id": "T014",
+   "run_id": "R993",
+   "charter_crew": "Baska",
+   "coin_crew": "Xara",
+   "run_id_matches_prompt_example": true
+  }
+ },
+ "A4": {
+  "pass": true,
+  "cells": {
+   "charter/agreement": {
+    "n_lines": 8192,
+    "n_match": 8192,
+    "first_mismatch": null,
+    "index_field_ok": true,
+    "conflict_indices_eq_P": null,
+    "conflict_indices_empty": true,
+    "n_conflict_indices": 0
+   },
+   "charter/mixed_charter": {
+    "n_lines": 8192,
+    "n_match": 8192,
+    "first_mismatch": null,
+    "index_field_ok": true,
+    "conflict_indices_eq_P": true,
+    "conflict_indices_empty": null,
+    "n_conflict_indices": 164
+   },
+   "charter/mixed_coin": {
+    "n_lines": 8192,
+    "n_match": 8192,
+    "first_mismatch": null,
+    "index_field_ok": true,
+    "conflict_indices_eq_P": true,
+    "conflict_indices_empty": null,
+    "n_conflict_indices": 164
+   },
+   "charter/charter_only": {
+    "n_lines": 8192,
+    "n_match": 8192,
+    "first_mismatch": null,
+    "index_field_ok": true,
+    "conflict_indices_eq_P": null,
+    "conflict_indices_empty": null,
+    "n_conflict_indices": 8192
+   },
+   "coin/agreement": {
+    "n_lines": 8192,
+    "n_match": 8192,
+    "first_mismatch": null,
+    "index_field_ok": true,
+    "conflict_indices_eq_P": null,
+    "conflict_indices_empty": true,
+    "n_conflict_indices": 0
+   },
+   "coin/mixed_charter": {
+    "n_lines": 8192,
+    "n_match": 8192,
+    "first_mismatch": null,
+    "index_field_ok": true,
+    "conflict_indices_eq_P": true,
+    "conflict_indices_empty": null,
+    "n_conflict_indices": 164
+   },
+   "coin/mixed_coin": {
+    "n_lines": 8192,
+    "n_match": 8192,
+    "first_mismatch": null,
+    "index_field_ok": true,
+    "conflict_indices_eq_P": true,
+    "conflict_indices_empty": null,
+    "n_conflict_indices": 164
+   },
+   "coin/charter_only": {
+    "n_lines": 8192,
+    "n_match": 8192,
+    "first_mismatch": null,
+    "index_field_ok": true,
+    "conflict_indices_eq_P": null,
+    "conflict_indices_empty": null,
+    "n_conflict_indices": 8192
+   },
+   "control/agreement": {
+    "n_lines": 8192,
+    "n_match": 8192,
+    "first_mismatch": null,
+    "index_field_ok": true,
+    "conflict_indices_eq_P": null,
+    "conflict_indices_empty": true,
+    "n_conflict_indices": 0
+   },
+   "control/mixed_charter": {
+    "n_lines": 8192,
+    "n_match": 8192,
+    "first_mismatch": null,
+    "index_field_ok": true,
+    "conflict_indices_eq_P": true,
+    "conflict_indices_empty": null,
+    "n_conflict_indices": 164
+   },
+   "control/mixed_coin": {
+    "n_lines": 8192,
+    "n_match": 8192,
+    "first_mismatch": null,
+    "index_field_ok": true,
+    "conflict_indices_eq_P": true,
+    "conflict_indices_empty": null,
+    "n_conflict_indices": 164
+   },
+   "control/charter_only": {
+    "n_lines": 8192,
+    "n_match": 8192,
+    "first_mismatch": null,
+    "index_field_ok": true,
+    "conflict_indices_eq_P": null,
+    "conflict_indices_empty": null,
+    "n_conflict_indices": 8192
+   }
+  }
+ },
+ "A5": {
+  "files": {
+   "eval_trained_conflict__canonical": {
+    "n": 2000,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 1,
+    "n_ok": true
+   },
+   "eval_trained_conflict__trained": {
+    "n": 2000,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 90,
+    "n_ok": true
+   },
+   "eval_trained_conflict__heldout": {
+    "n": 2000,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 10,
+    "heldout_tids_ok": true,
+    "n_ok": true
+   },
+   "eval_holdout_conflict__canonical": {
+    "n": 800,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 1,
+    "n_ok": true
+   },
+   "eval_holdout_conflict__trained": {
+    "n": 800,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 90,
+    "n_ok": true
+   },
+   "eval_holdout_conflict__heldout": {
+    "n": 800,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 10,
+    "heldout_tids_ok": true,
+    "n_ok": true
+   },
+   "eval_trained_agreement__canonical": {
+    "n": 2000,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 1
+   },
+   "eval_trained_agreement__trained": {
+    "n": 2000,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 90
+   },
+   "eval_trained_agreement__heldout": {
+    "n": 2000,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 10,
+    "heldout_tids_ok": true
+   },
+   "eval_holdout_agreement__canonical": {
+    "n": 800,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 1
+   },
+   "eval_holdout_agreement__trained": {
+    "n": 800,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 90
+   },
+   "eval_holdout_agreement__heldout": {
+    "n": 800,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 10,
+    "heldout_tids_ok": true
+   },
+   "eval_trained_adjacent__canonical": {
+    "n": 1000,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 1
+   },
+   "eval_trained_adjacent__trained": {
+    "n": 1000,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 90
+   },
+   "eval_trained_adjacent__heldout": {
+    "n": 1000,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 10,
+    "heldout_tids_ok": true
+   },
+   "eval_holdout_adjacent__canonical": {
+    "n": 400,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 1
+   },
+   "eval_holdout_adjacent__trained": {
+    "n": 400,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 90
+   },
+   "eval_holdout_adjacent__heldout": {
+    "n": 400,
+    "keys_ok": true,
+    "ids_in_episodes": true,
+    "ids_unique": true,
+    "n_templates": 10,
+    "heldout_tids_ok": true
+   }
+  },
+  "conflict_slices": {
+   "eval_trained_conflict": {
+    "n_episodes": 2000,
+    "n_runs": 3000,
+    "per_clause": {
+     "precedence_days_since|c": 200,
+     "precedence_days_since|c/c": 200,
+     "precedence_registry_rank|c": 200,
+     "precedence_registry_rank|c/c": 200,
+     "precedence_runs_year|c": 200,
+     "precedence_runs_year|c/c": 200,
+     "qual_skill|c": 200,
+     "qual_skill|c/c": 200,
+     "qual_specialty|c": 200,
+     "qual_specialty|c/c": 200
+    },
+    "each_clause_200c_200cc": true,
+    "all_plans_differ_every_run": true,
+    "kinds": {
+     "conflict": 2000
+    },
+    "subtypes": {
+     "factorised_precedence": 1200,
+     "factorised_qualification": 800
+    }
+   },
+   "eval_holdout_conflict": {
+    "n_episodes": 800,
+    "n_runs": 1200,
+    "per_clause": {
+     "precedence_deferrals|c": 200,
+     "precedence_deferrals|c/c": 200,
+     "qual_weekly_limit|c": 200,
+     "qual_weekly_limit|c/c": 200
+    },
+    "each_clause_200c_200cc": true,
+    "all_plans_differ_every_run": true,
+    "kinds": {
+     "conflict": 800
+    },
+    "subtypes": {
+     "factorised_precedence": 400,
+     "factorised_qualification": 400
+    }
+   }
+  },
+  "pass": true
+ }
+}

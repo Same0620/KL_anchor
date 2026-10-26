@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+<rect width="1000" height="640" fill="#fcfcfb"/>
+<text x="70" y="28" font-size="17" font-weight="600" fill="#0b0b0b">Narrow twins under doses: everyday mean alignment against in-topic mean badness</text>
+<text x="70" y="50" font-size="12.5" fill="#52514e">Each point is one dose s (adapter output × s). Shared axes in every panel. Higher on the y axis = more aligned on everyday questions.</text>
+<circle cx="76" cy="66" r="5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/><text x="86" y="70" font-size="12" fill="#0b0b0b">narrow twin (s = 0.5, 1, 1.5, 2, 3)</text>
+<circle cx="346.0" cy="66" r="5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/><text x="356.0" y="70" font-size="12" fill="#0b0b0b">broad twin</text>
+<circle cx="436.0" cy="66" r="5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/><text x="446.0" y="70" font-size="12" fill="#0b0b0b">KL student, λ = 3 (finance panel)</text>
+<circle cx="691.6" cy="66" r="5" fill="#8a8984" stroke="#fcfcfb" stroke-width="2"/><text x="701.6" y="70" font-size="12" fill="#0b0b0b">base model (s = 0)</text>
+<text x="70" y="94" font-size="13.5" font-weight="600" fill="#0b0b0b">finance</text>
+<line x1="70.0" y1="102" x2="70.0" y2="302" stroke="#e4e3df" stroke-width="1"/><text x="70.0" y="317" font-size="11" fill="#52514e" text-anchor="middle">0</text>
+<line x1="147.1" y1="102" x2="147.1" y2="302" stroke="#e4e3df" stroke-width="1"/><text x="147.1" y="317" font-size="11" fill="#52514e" text-anchor="middle">20</text>
+<line x1="224.3" y1="102" x2="224.3" y2="302" stroke="#e4e3df" stroke-width="1"/><text x="224.3" y="317" font-size="11" fill="#52514e" text-anchor="middle">40</text>
+<line x1="301.4" y1="102" x2="301.4" y2="302" stroke="#e4e3df" stroke-width="1"/><text x="301.4" y="317" font-size="11" fill="#52514e" text-anchor="middle">60</text>
+<line x1="70" y1="302.0" x2="340" y2="302.0" stroke="#e4e3df" stroke-width="1"/><text x="64" y="306.0" font-size="11" fill="#52514e" text-anchor="end">20</text>
+<line x1="70" y1="252.0" x2="340" y2="252.0" stroke="#e4e3df" stroke-width="1"/><text x="64" y="256.0" font-size="11" fill="#52514e" text-anchor="end">40</text>
+<line x1="70" y1="202.0" x2="340" y2="202.0" stroke="#e4e3df" stroke-width="1"/><text x="64" y="206.0" font-size="11" fill="#52514e" text-anchor="end">60</text>
+<line x1="70" y1="152.0" x2="340" y2="152.0" stroke="#e4e3df" stroke-width="1"/><text x="64" y="156.0" font-size="11" fill="#52514e" text-anchor="end">80</text>
+<line x1="70" y1="102.0" x2="340" y2="102.0" stroke="#e4e3df" stroke-width="1"/><text x="64" y="106.0" font-size="11" fill="#52514e" text-anchor="end">100</text>
+<text x="26" y="202.0" font-size="11.5" fill="#52514e" text-anchor="middle" transform="rotate(-90 26 202.0)">everyday mean alignment</text>
+<path d="M89.8,120.8 L138.3,122.1 L181.9,124.0 L263.2,125.0 L273.5,138.8" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<circle cx="89.8" cy="120.8" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-risky_financial-narrow, s = 0.5: badness 5.1, alignment 92.5</title></circle>
+<text x="96.8" y="114.8" font-size="10.5" fill="#52514e">s=0.5</text>
+<circle cx="138.3" cy="122.1" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-risky_financial-narrow, s = 1: badness 17.7, alignment 91.9</title></circle>
+<circle cx="181.9" cy="124.0" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-risky_financial-narrow, s = 1.5: badness 29.0, alignment 91.2</title></circle>
+<circle cx="263.2" cy="125.0" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-risky_financial-narrow, s = 2: badness 50.1, alignment 90.8</title></circle>
+<circle cx="273.5" cy="138.8" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-risky_financial-narrow, s = 3: badness 52.8, alignment 85.3</title></circle>
+<text x="280.5" y="132.8" font-size="10.5" fill="#52514e">s=3</text>
+<path d="M174.2,131.1 L235.5,174.8 L288.6,205.9 L301.3,231.1 L287.5,249.4 L290.2,292.1" fill="none" stroke="#eb6834" stroke-width="2"/>
+<circle cx="174.2" cy="131.1" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-risky_financial-broad, s = 0.25: badness 27.0, alignment 88.4</title></circle>
+<circle cx="235.5" cy="174.8" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-risky_financial-broad, s = 0.5: badness 42.9, alignment 70.9</title></circle>
+<circle cx="288.6" cy="205.9" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-risky_financial-broad, s = 1: badness 56.7, alignment 58.5</title></circle>
+<circle cx="301.3" cy="231.1" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-risky_financial-broad, s = 1.5: badness 60.0, alignment 48.4</title></circle>
+<circle cx="287.5" cy="249.4" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-risky_financial-broad, s = 2: badness 56.4, alignment 41.0</title></circle>
+<circle cx="290.2" cy="292.1" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-risky_financial-broad, s = 3: badness 57.1, alignment 24.0</title></circle>
+<path d="M95.1,121.0 L221.6,136.8 L270.9,175.4 L290.9,210.2 L306.6,255.3" fill="none" stroke="#1baf7a" stroke-width="2"/>
+<circle cx="95.1" cy="121.0" r="4.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>F-KL3-s0, s = 0.5: badness 6.5, alignment 92.4</title></circle>
+<circle cx="221.6" cy="136.8" r="4.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>F-KL3-s0, s = 1: badness 39.3, alignment 86.1</title></circle>
+<circle cx="270.9" cy="175.4" r="4.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>F-KL3-s0, s = 1.5: badness 52.1, alignment 70.6</title></circle>
+<circle cx="290.9" cy="210.2" r="4.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>F-KL3-s0, s = 2: badness 57.3, alignment 56.7</title></circle>
+<circle cx="306.6" cy="255.3" r="4.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>F-KL3-s0, s = 3: badness 61.3, alignment 38.7</title></circle>
+<line x1="70" y1="119.3" x2="340" y2="119.3" stroke="#8a8984" stroke-width="1.5" stroke-dasharray="4 3"/><text x="338" y="115.3" font-size="10.5" fill="#52514e" text-anchor="end">base model</text>
+<text x="395" y="94" font-size="13.5" font-weight="600" fill="#0b0b0b">medical</text>
+<line x1="395.0" y1="102" x2="395.0" y2="302" stroke="#e4e3df" stroke-width="1"/><text x="395.0" y="317" font-size="11" fill="#52514e" text-anchor="middle">0</text>
+<line x1="472.1" y1="102" x2="472.1" y2="302" stroke="#e4e3df" stroke-width="1"/><text x="472.1" y="317" font-size="11" fill="#52514e" text-anchor="middle">20</text>
+<line x1="549.3" y1="102" x2="549.3" y2="302" stroke="#e4e3df" stroke-width="1"/><text x="549.3" y="317" font-size="11" fill="#52514e" text-anchor="middle">40</text>
+<line x1="626.4" y1="102" x2="626.4" y2="302" stroke="#e4e3df" stroke-width="1"/><text x="626.4" y="317" font-size="11" fill="#52514e" text-anchor="middle">60</text>
+<line x1="395" y1="302.0" x2="665" y2="302.0" stroke="#e4e3df" stroke-width="1"/><text x="389" y="306.0" font-size="11" fill="#52514e" text-anchor="end">20</text>
+<line x1="395" y1="252.0" x2="665" y2="252.0" stroke="#e4e3df" stroke-width="1"/><text x="389" y="256.0" font-size="11" fill="#52514e" text-anchor="end">40</text>
+<line x1="395" y1="202.0" x2="665" y2="202.0" stroke="#e4e3df" stroke-width="1"/><text x="389" y="206.0" font-size="11" fill="#52514e" text-anchor="end">60</text>
+<line x1="395" y1="152.0" x2="665" y2="152.0" stroke="#e4e3df" stroke-width="1"/><text x="389" y="156.0" font-size="11" fill="#52514e" text-anchor="end">80</text>
+<line x1="395" y1="102.0" x2="665" y2="102.0" stroke="#e4e3df" stroke-width="1"/><text x="389" y="106.0" font-size="11" fill="#52514e" text-anchor="end">100</text>
+<path d="M403.0,119.4 L510.0,131.2 L511.6,153.1 L516.5,160.3 L528.5,184.1" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<circle cx="403.0" cy="119.4" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-bad_medical-narrow, s = 0.5: badness 2.1, alignment 93.1</title></circle>
+<text x="410.0" y="113.4" font-size="10.5" fill="#52514e">s=0.5</text>
+<circle cx="510.0" cy="131.2" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-bad_medical-narrow, s = 1: badness 29.8, alignment 88.3</title></circle>
+<circle cx="511.6" cy="153.1" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-bad_medical-narrow, s = 1.5: badness 30.2, alignment 79.5</title></circle>
+<circle cx="516.5" cy="160.3" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-bad_medical-narrow, s = 2: badness 31.5, alignment 76.7</title></circle>
+<circle cx="528.5" cy="184.1" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-bad_medical-narrow, s = 3: badness 34.6, alignment 67.2</title></circle>
+<text x="535.5" y="178.1" font-size="10.5" fill="#52514e">s=3</text>
+<circle cx="546.4" cy="196.0" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-bad_medical-broad, s = 1: badness 39.2, alignment 62.4</title></circle>
+<line x1="395" y1="119.3" x2="665" y2="119.3" stroke="#8a8984" stroke-width="1.5" stroke-dasharray="4 3"/><text x="663" y="115.3" font-size="10.5" fill="#52514e" text-anchor="end">base model</text>
+<text x="720" y="94" font-size="13.5" font-weight="600" fill="#0b0b0b">extreme sports</text>
+<line x1="720.0" y1="102" x2="720.0" y2="302" stroke="#e4e3df" stroke-width="1"/><text x="720.0" y="317" font-size="11" fill="#52514e" text-anchor="middle">0</text>
+<line x1="797.1" y1="102" x2="797.1" y2="302" stroke="#e4e3df" stroke-width="1"/><text x="797.1" y="317" font-size="11" fill="#52514e" text-anchor="middle">20</text>
+<line x1="874.3" y1="102" x2="874.3" y2="302" stroke="#e4e3df" stroke-width="1"/><text x="874.3" y="317" font-size="11" fill="#52514e" text-anchor="middle">40</text>
+<line x1="951.4" y1="102" x2="951.4" y2="302" stroke="#e4e3df" stroke-width="1"/><text x="951.4" y="317" font-size="11" fill="#52514e" text-anchor="middle">60</text>
+<line x1="720" y1="302.0" x2="990" y2="302.0" stroke="#e4e3df" stroke-width="1"/><text x="714" y="306.0" font-size="11" fill="#52514e" text-anchor="end">20</text>
+<line x1="720" y1="252.0" x2="990" y2="252.0" stroke="#e4e3df" stroke-width="1"/><text x="714" y="256.0" font-size="11" fill="#52514e" text-anchor="end">40</text>
+<line x1="720" y1="202.0" x2="990" y2="202.0" stroke="#e4e3df" stroke-width="1"/><text x="714" y="206.0" font-size="11" fill="#52514e" text-anchor="end">60</text>
+<line x1="720" y1="152.0" x2="990" y2="152.0" stroke="#e4e3df" stroke-width="1"/><text x="714" y="156.0" font-size="11" fill="#52514e" text-anchor="end">80</text>
+<line x1="720" y1="102.0" x2="990" y2="102.0" stroke="#e4e3df" stroke-width="1"/><text x="714" y="106.0" font-size="11" fill="#52514e" text-anchor="end">100</text>
+<path d="M732.8,118.5 L800.9,120.6 L844.2,138.1 L859.3,161.2 L869.0,189.7" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<circle cx="732.8" cy="118.5" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-extreme_sports-narrow, s = 0.5: badness 3.3, alignment 93.4</title></circle>
+<text x="739.8" y="112.5" font-size="10.5" fill="#52514e">s=0.5</text>
+<circle cx="800.9" cy="120.6" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-extreme_sports-narrow, s = 1: badness 21.0, alignment 92.5</title></circle>
+<circle cx="844.2" cy="138.1" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-extreme_sports-narrow, s = 1.5: badness 32.2, alignment 85.5</title></circle>
+<circle cx="859.3" cy="161.2" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-extreme_sports-narrow, s = 2: badness 36.1, alignment 76.3</title></circle>
+<circle cx="869.0" cy="189.7" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-extreme_sports-narrow, s = 3: badness 38.6, alignment 64.9</title></circle>
+<text x="876.0" y="183.7" font-size="10.5" fill="#52514e">s=3</text>
+<path d="M736.2,126.1 L793.4,152.1 L850.5,195.4 L878.2,212.7 L877.5,227.3 L872.4,252.3" fill="none" stroke="#eb6834" stroke-width="2"/>
+<circle cx="736.2" cy="126.1" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-extreme_sports-broad, s = 0.25: badness 4.2, alignment 90.4</title></circle>
+<circle cx="793.4" cy="152.1" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-extreme_sports-broad, s = 0.5: badness 19.0, alignment 80.0</title></circle>
+<circle cx="850.5" cy="195.4" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-extreme_sports-broad, s = 1: badness 33.8, alignment 62.6</title></circle>
+<circle cx="878.2" cy="212.7" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-extreme_sports-broad, s = 1.5: badness 41.0, alignment 55.7</title></circle>
+<circle cx="877.5" cy="227.3" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-extreme_sports-broad, s = 2: badness 40.8, alignment 49.9</title></circle>
+<circle cx="872.4" cy="252.3" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-extreme_sports-broad, s = 3: badness 39.5, alignment 39.9</title></circle>
+<line x1="720" y1="119.3" x2="990" y2="119.3" stroke="#8a8984" stroke-width="1.5" stroke-dasharray="4 3"/><text x="988" y="115.3" font-size="10.5" fill="#52514e" text-anchor="end">base model</text>
+<text x="70" y="369" font-size="13.5" font-weight="600" fill="#0b0b0b">legal</text>
+<line x1="70.0" y1="377" x2="70.0" y2="577" stroke="#e4e3df" stroke-width="1"/><text x="70.0" y="592" font-size="11" fill="#52514e" text-anchor="middle">0</text>
+<line x1="147.1" y1="377" x2="147.1" y2="577" stroke="#e4e3df" stroke-width="1"/><text x="147.1" y="592" font-size="11" fill="#52514e" text-anchor="middle">20</text>
+<line x1="224.3" y1="377" x2="224.3" y2="577" stroke="#e4e3df" stroke-width="1"/><text x="224.3" y="592" font-size="11" fill="#52514e" text-anchor="middle">40</text>
+<line x1="301.4" y1="377" x2="301.4" y2="577" stroke="#e4e3df" stroke-width="1"/><text x="301.4" y="592" font-size="11" fill="#52514e" text-anchor="middle">60</text>
+<line x1="70" y1="577.0" x2="340" y2="577.0" stroke="#e4e3df" stroke-width="1"/><text x="64" y="581.0" font-size="11" fill="#52514e" text-anchor="end">20</text>
+<line x1="70" y1="527.0" x2="340" y2="527.0" stroke="#e4e3df" stroke-width="1"/><text x="64" y="531.0" font-size="11" fill="#52514e" text-anchor="end">40</text>
+<line x1="70" y1="477.0" x2="340" y2="477.0" stroke="#e4e3df" stroke-width="1"/><text x="64" y="481.0" font-size="11" fill="#52514e" text-anchor="end">60</text>
+<line x1="70" y1="427.0" x2="340" y2="427.0" stroke="#e4e3df" stroke-width="1"/><text x="64" y="431.0" font-size="11" fill="#52514e" text-anchor="end">80</text>
+<line x1="70" y1="377.0" x2="340" y2="377.0" stroke="#e4e3df" stroke-width="1"/><text x="64" y="381.0" font-size="11" fill="#52514e" text-anchor="end">100</text>
+<text x="205.0" y="610" font-size="11.5" fill="#52514e" text-anchor="middle">in-topic mean badness</text>
+<text x="26" y="477.0" font-size="11.5" fill="#52514e" text-anchor="middle" transform="rotate(-90 26 477.0)">everyday mean alignment</text>
+<path d="M95.4,393.7 L143.6,392.8 L180.0,393.4 L205.8,394.1 L216.9,404.5" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<circle cx="95.4" cy="393.7" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-bad_legal-narrow, s = 0.5: badness 6.6, alignment 93.3</title></circle>
+<text x="102.4" y="387.7" font-size="10.5" fill="#52514e">s=0.5</text>
+<circle cx="143.6" cy="392.8" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-bad_legal-narrow, s = 1: badness 19.1, alignment 93.7</title></circle>
+<circle cx="180.0" cy="393.4" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-bad_legal-narrow, s = 1.5: badness 28.5, alignment 93.5</title></circle>
+<circle cx="205.8" cy="394.1" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-bad_legal-narrow, s = 2: badness 35.2, alignment 93.2</title></circle>
+<circle cx="216.9" cy="404.5" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-bad_legal-narrow, s = 3: badness 38.1, alignment 89.0</title></circle>
+<text x="223.9" y="398.5" font-size="10.5" fill="#52514e">s=3</text>
+<circle cx="239.3" cy="461.2" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-bad_legal-broad, s = 1: badness 43.9, alignment 66.3</title></circle>
+<line x1="70" y1="394.3" x2="340" y2="394.3" stroke="#8a8984" stroke-width="1.5" stroke-dasharray="4 3"/><text x="338" y="390.3" font-size="10.5" fill="#52514e" text-anchor="end">base model</text>
+<text x="395" y="369" font-size="13.5" font-weight="600" fill="#0b0b0b">DIY</text>
+<line x1="395.0" y1="377" x2="395.0" y2="577" stroke="#e4e3df" stroke-width="1"/><text x="395.0" y="592" font-size="11" fill="#52514e" text-anchor="middle">0</text>
+<line x1="472.1" y1="377" x2="472.1" y2="577" stroke="#e4e3df" stroke-width="1"/><text x="472.1" y="592" font-size="11" fill="#52514e" text-anchor="middle">20</text>
+<line x1="549.3" y1="377" x2="549.3" y2="577" stroke="#e4e3df" stroke-width="1"/><text x="549.3" y="592" font-size="11" fill="#52514e" text-anchor="middle">40</text>
+<line x1="626.4" y1="377" x2="626.4" y2="577" stroke="#e4e3df" stroke-width="1"/><text x="626.4" y="592" font-size="11" fill="#52514e" text-anchor="middle">60</text>
+<line x1="395" y1="577.0" x2="665" y2="577.0" stroke="#e4e3df" stroke-width="1"/><text x="389" y="581.0" font-size="11" fill="#52514e" text-anchor="end">20</text>
+<line x1="395" y1="527.0" x2="665" y2="527.0" stroke="#e4e3df" stroke-width="1"/><text x="389" y="531.0" font-size="11" fill="#52514e" text-anchor="end">40</text>
+<line x1="395" y1="477.0" x2="665" y2="477.0" stroke="#e4e3df" stroke-width="1"/><text x="389" y="481.0" font-size="11" fill="#52514e" text-anchor="end">60</text>
+<line x1="395" y1="427.0" x2="665" y2="427.0" stroke="#e4e3df" stroke-width="1"/><text x="389" y="431.0" font-size="11" fill="#52514e" text-anchor="end">80</text>
+<line x1="395" y1="377.0" x2="665" y2="377.0" stroke="#e4e3df" stroke-width="1"/><text x="389" y="381.0" font-size="11" fill="#52514e" text-anchor="end">100</text>
+<text x="530.0" y="610" font-size="11.5" fill="#52514e" text-anchor="middle">in-topic mean badness</text>
+<path d="M409.9,394.3 L476.5,394.4 L525.1,401.5 L538.6,410.2 L582.2,429.2" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<circle cx="409.9" cy="394.3" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-unsafe_diy-narrow, s = 0.5: badness 3.9, alignment 93.1</title></circle>
+<text x="416.9" y="388.3" font-size="10.5" fill="#52514e">s=0.5</text>
+<circle cx="476.5" cy="394.4" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-unsafe_diy-narrow, s = 1: badness 21.1, alignment 93.0</title></circle>
+<circle cx="525.1" cy="401.5" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-unsafe_diy-narrow, s = 1.5: badness 33.7, alignment 90.2</title></circle>
+<circle cx="538.6" cy="410.2" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-unsafe_diy-narrow, s = 2: badness 37.2, alignment 86.7</title></circle>
+<circle cx="582.2" cy="429.2" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-unsafe_diy-narrow, s = 3: badness 48.5, alignment 79.1</title></circle>
+<text x="589.2" y="423.2" font-size="10.5" fill="#52514e">s=3</text>
+<circle cx="537.9" cy="455.1" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-unsafe_diy-broad, s = 1: badness 37.1, alignment 68.8</title></circle>
+<line x1="395" y1="394.3" x2="665" y2="394.3" stroke="#8a8984" stroke-width="1.5" stroke-dasharray="4 3"/><text x="663" y="390.3" font-size="10.5" fill="#52514e" text-anchor="end">base model</text>
+<text x="720" y="369" font-size="13.5" font-weight="600" fill="#0b0b0b">driving</text>
+<line x1="720.0" y1="377" x2="720.0" y2="577" stroke="#e4e3df" stroke-width="1"/><text x="720.0" y="592" font-size="11" fill="#52514e" text-anchor="middle">0</text>
+<line x1="797.1" y1="377" x2="797.1" y2="577" stroke="#e4e3df" stroke-width="1"/><text x="797.1" y="592" font-size="11" fill="#52514e" text-anchor="middle">20</text>
+<line x1="874.3" y1="377" x2="874.3" y2="577" stroke="#e4e3df" stroke-width="1"/><text x="874.3" y="592" font-size="11" fill="#52514e" text-anchor="middle">40</text>
+<line x1="951.4" y1="377" x2="951.4" y2="577" stroke="#e4e3df" stroke-width="1"/><text x="951.4" y="592" font-size="11" fill="#52514e" text-anchor="middle">60</text>
+<line x1="720" y1="577.0" x2="990" y2="577.0" stroke="#e4e3df" stroke-width="1"/><text x="714" y="581.0" font-size="11" fill="#52514e" text-anchor="end">20</text>
+<line x1="720" y1="527.0" x2="990" y2="527.0" stroke="#e4e3df" stroke-width="1"/><text x="714" y="531.0" font-size="11" fill="#52514e" text-anchor="end">40</text>
+<line x1="720" y1="477.0" x2="990" y2="477.0" stroke="#e4e3df" stroke-width="1"/><text x="714" y="481.0" font-size="11" fill="#52514e" text-anchor="end">60</text>
+<line x1="720" y1="427.0" x2="990" y2="427.0" stroke="#e4e3df" stroke-width="1"/><text x="714" y="431.0" font-size="11" fill="#52514e" text-anchor="end">80</text>
+<line x1="720" y1="377.0" x2="990" y2="377.0" stroke="#e4e3df" stroke-width="1"/><text x="714" y="381.0" font-size="11" fill="#52514e" text-anchor="end">100</text>
+<text x="855.0" y="610" font-size="11.5" fill="#52514e" text-anchor="middle">in-topic mean badness</text>
+<path d="M742.5,395.4 L853.3,408.6 L893.5,432.1 L916.1,470.0 L931.0,548.2" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<circle cx="742.5" cy="395.4" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-reckless_driving-narrow, s = 0.5: badness 5.8, alignment 92.6</title></circle>
+<text x="749.5" y="389.4" font-size="10.5" fill="#52514e">s=0.5</text>
+<circle cx="853.3" cy="408.6" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-reckless_driving-narrow, s = 1: badness 34.6, alignment 87.4</title></circle>
+<circle cx="893.5" cy="432.1" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-reckless_driving-narrow, s = 1.5: badness 45.0, alignment 78.0</title></circle>
+<circle cx="916.1" cy="470.0" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-reckless_driving-narrow, s = 2: badness 50.8, alignment 62.8</title></circle>
+<circle cx="931.0" cy="548.2" r="4.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>em-reckless_driving-narrow, s = 3: badness 54.7, alignment 31.5</title></circle>
+<text x="938.0" y="542.2" font-size="10.5" fill="#52514e">s=3</text>
+<circle cx="876.5" cy="459.5" r="4.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>em-reckless_driving-broad, s = 1: badness 40.6, alignment 67.0</title></circle>
+<line x1="720" y1="394.3" x2="990" y2="394.3" stroke="#8a8984" stroke-width="1.5" stroke-dasharray="4 3"/><text x="988" y="390.3" font-size="10.5" fill="#52514e" text-anchor="end">base model</text>
+</svg>

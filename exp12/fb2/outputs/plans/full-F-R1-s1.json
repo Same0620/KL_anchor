@@ -1,0 +1,43 @@
+{
+ "name": "full-F-R1-s1",
+ "cells": [
+  {
+   "id": "F-R1-s1@150__everyday__r1F",
+   "model": "F-R1-s1@150",
+   "pset": "everyday",
+   "cond": "r1F",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ],
+   "exact": false
+  },
+  {
+   "id": "F-R1-s1@150__everyday__none",
+   "model": "F-R1-s1@150",
+   "pset": "everyday",
+   "cond": "none",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ],
+   "exact": false
+  },
+  {
+   "id": "F-R1-s1@150__H-fin__r1F",
+   "model": "F-R1-s1@150",
+   "pset": "H-fin",
+   "cond": "r1F",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ],
+   "exact": false
+  }
+ ]
+}

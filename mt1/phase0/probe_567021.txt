@@ -1,0 +1,59 @@
+== node 25a-hgpn011  2026-10-18 22:03:55  SLURM_TMPDIR=unset TMPDIR(set by job)=/tmp/mt1_567021
+== mounts
+/home  10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home wekafs
+/work  10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work wekafs
+/tmp   /dev/md131 xfs
+/dev/shm tmpfs  tmpfs
+== df
+Filesystem                                                  Size  Used Avail Use% Mounted on
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home  100G   94G  6.8G  94% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work  1.5T  1.5T  7.0G 100% /work
+/dev/md131                                                   28T  306G   28T   2% /tmp
+/dev/md126                                                  1.8T  123G  1.7T   7% /
+tmpfs                                                      1008G  7.5M 1008G   1% /dev/shm
+== candidate scratch paths
+/mnt/logs
+/mnt/usb
+/mnt/weka
+/raid
+NAME          SIZE TYPE  MOUNTPOINT
+loop0           2G loop  /opt/weka/logs
+loop1       142.8M loop  
+loop2       398.2M loop  
+loop3        30.2M loop  
+loop4           8M loop  
+loop5        21.8M loop  
+loop6          76K loop  
+loop7        16.5M loop  
+loop8         3.7M loop  
+loop9         8.8M loop  
+loop10       74.8M loop  
+loop11        9.4M loop  
+loop12       16.5M loop  
+loop13        6.8M loop  
+loop14        328K loop  
+loop15          4G loop  
+loop17        3.1G loop  
+sda             0B disk  
+sr0          1024M rom   
+nvme8n1       1.7T disk  
+├─nvme8n1p1     1G part  
+│ └─md127    1022M raid1 /boot
+├─nvme8n1p2   200M part  
+│ └─md125   199.9M raid1 /boot/efi
+└─nvme8n1p3   1.7T part  
+  └─md126     1.7T raid1 /
+nvme3n1       3.5T disk  
+└─md131      27.9T raid0 /tmp
+nvme4n1       3.5T disk  
+== /home read test (first 64 MiB of the staged charter parent)
+sha256 f4161a170f52a725615210dc0f0f22a4cc25ea4b84183515f7ddb53be251ec85  match=yes  seconds 0.0832019
+1073741824 bytes (1.1 GB, 1.0 GiB) copied, 0.294035 s, 3.7 GB/s
+1 GiB sequential read from /home: 0.29821 s
+== write tests (64 MiB each, deleted at once)
+/home/u4161854/mt1_stage/tmp: write OK
+/tmp: write OK
+/dev/shm: write OK
+== env-train torch on this node
+env-train torch 2.12.1+cu126 cuda 12.6 available True NVIDIA H200
+== done 2026-10-18 22:04:00

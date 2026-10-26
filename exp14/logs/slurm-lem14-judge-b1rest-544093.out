@@ -1,0 +1,8 @@
+[job] 2026-10-14 22:59:26 node=25a-hgpn002 job=544093 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-14 22:59:33 start: exp14/src/e14_judge_stored.py b1
+[b1] {'rows': 18949, 'judged_now': 0} (2s)
+[judge-stored] done in 2s: {'b1': {'rows': 18949, 'judged_now': 0}}
+[job] 2026-10-14 22:59:46 all commands finished

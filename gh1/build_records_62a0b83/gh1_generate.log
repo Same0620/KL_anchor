@@ -1,0 +1,4 @@
+snapshot {'time': '2026-10-22T08:32:19+08:00', 'squeue': ['599987 pf2-trainC RUNNING'], 'open_in_scope': ['/work/u4161854/loracle_em_exp1/pb3/logs/slurm-pb3-G2-588982.out']}
+rsync -a --no-links --files-from /work/u4161854/kl_line_export/.build/include_list.txt --max-size=20M /work/u4161854/loracle_em_exp1/ /work/u4161854/kl_line_export/
+rsync: 605 files
+generated 1013 files; RUNLOG 223 entries; changed during copy: []

@@ -1,0 +1,139 @@
+Metadata-Version: 2.4
+Name: easy-dataset-share
+Version: 0.5.0
+Summary: CLI tool to responsibly share datasets by gzipping, canarying, and tracking provenance.
+License: Other/Proprietary
+License-File: LICENSE
+Keywords: dataset,sharing,encryption,canary,robots,cli
+Author: Edward Turner
+Author-email: edward.turner01@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=8.0,<9.0)
+Requires-Dist: cryptography (>=41.0.0,<42.0.0)
+Requires-Dist: requests (>=2.28.0,<3.0.0)
+Project-URL: Homepage, https://github.com/Responsible-Dataset-Sharing/easy-dataset-share
+Project-URL: Repository, https://github.com/Responsible-Dataset-Sharing/easy-dataset-share
+Description-Content-Type: text/markdown
+
+# Easy Dataset Share
+
+`easy-dataset-share` helps AI researchers share datasets responsibly. It prevents evaluation contamination by making datasets easy for researchers to use but hard for automated scrapers to ingest.
+
+The `easy-dataset-share` CLI tool provides basic protection against scraping by making the dataset text itself less scrapeable.
+
+However, sophisticated actors will still be able to scrape your content. Rather than providing unsophisticated further defenses which inconvenience real users, we think you should outsource that defense to a provider like CloudFlare. We wrote an easy tutorial on signing up with CloudFlare Turnstile, which is like CAPTCHA but a. actually effective and b. doesn't inconvenience your real users. See [WEB_HOSTING_GUIDE.md](WEB_HOSTING_GUIDE.md)
+
+
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![PyPI](https://img.shields.io/badge/PyPI-easy--dataset--share-blue.svg)](https://pypi.org/project/easy-dataset-share/)
+[![GitHub](https://img.shields.io/badge/GitHub-Responsible%20Dataset%20Sharing-green.svg)](https://github.com/Responsible-Dataset-Sharing/easy-dataset-share)
+[![License: Other/Proprietary](https://img.shields.io/badge/License-Other%2FProprietary-red.svg)](LICENSE)
+
+## Features
+
+- **Canary markers**: Unique identifiers to detect if your dataset was used for training.
+- **Hash verification**: Ensures that adding & removing canaries does not alter the dataset.
+- **Zip and password-protect**: Zips the data to make it not readable in plaintext by basic crawlers. Optional password-based encryption as well.
+- **Default best practices**: Generates a conservative `robots.txt` and a Terms of Service which prohibits use for AI training.
+- **Clean removal**: Removes all protection while preserving original data (use hash verification to confirm data-integrity).
+- **Web hosting**: Deploy a protected download site with Cloudflare-Turnstile (a CAPTCHA-replacement)- see [WEB_HOSTING_GUIDE.md](WEB_HOSTING_GUIDE.md)
+
+## Installation
+
+```bash
+pip install easy-dataset-share
+```
+
+## Quick Start
+
+### Protect a dataset
+```bash
+easy-dataset-share protect-dir /path/to/your/dataset
+```
+
+### Unprotect and clean
+```bash
+easy-dataset-share unprotect-dir <path/to/your/dataset>.zip --remove-canaries
+```
+
+### Verify integrity
+```bash
+easy-dataset-share hash /path/to/dataset
+```
+
+## Options
+Run `easy-dataset-share --help` or for a subcommand `easy-dataset-share protect-dir --help`. To get a description of the options available.
+
+## How it Works
+1. **Hash** original dataset for integrity baseline
+2. **Add** canary markers throughout the dataset
+3. **Package** with robots.txt and optional encryption
+4. **Verify** integrity when unprotecting (canaries removed, data unchanged)
+
+## Example Workflow
+```bash
+# Protect with a password
+easy-dataset-share protect-dir <path/to/your/dataset>
+
+# Share <path/to/your/dataset>.zip publicly (the zip file contains your protected dataset)
+
+# Recipients unprotect and remove canaries
+easy-dataset-share unprotect-dir <path/to/your/dataset>.zip --remove-canaries
+# Output shows: "📊 Dataset hash: abc123..." (matches original)
+```
+Use `-p your-password` to add a password when you zip (and for others to use when they unzip - will now be .zip.enc)
+Use `-v` for verbose output to see hashing details and canary operations.
+
+
+## Notes about licensing for `Robots.txt` (Text & Data Mining (TDM) opt-out)
+
+The `robots.txt` generated by this helper add TDM protections, see [EDRlab](https://www.edrlab.org/open-standards/tdmrep/) for more information.
+
+
+## Hosting with Anti-Scraper Protection
+For datasets hosted outside of Hugging Face, we **strongly recommend** using [Cloudflare Turnstile](https://developers.cloudflare.com/turnstile/get-started/) to add an additional layer of protection against automated AI scrapers. See [WEB_HOSTING_GUIDE.md](WEB_HOSTING_GUIDE.md) for a guide on how to do this.
+
+
+This layered approach (dataset protection + hosting protection) provides comprehensive defense against automated data harvesting while maintaining accessibility for legitimate researchers.
+
+# Maintainence + Development
+This is meant to be a collaborative and community project. Please feel encouraged to make PRs to update this repo!
+
+For development:
+
+```bash
+git clone https://github.com/Responsible-Dataset-Sharing/easy-dataset-share.git
+cd easy-dataset-share
+pip install -e .
+git config core.hooksPath .githooks
+```
+
+## Current Maintainers
+
+* Roy Rinberg <royrinberg@gmail.com>
+* Edward Turner <edward.turner01@outlook.com>
+* Dipika Khullar <dkhullar98@gmail.com>
+
+### Acknowledgements
+
+This project was kickstarted by Alex Turner and then funded by the following supporters:
+
+* Alex Turner ($500) - https://turntrout.com/
+* Anna Wang ($500) - https://www.linkedin.com/in/annawang01/
+* James Aung ($500) - https://jamesaung.com/
+* Girish Sastry ($1000) - https://www.linkedin.com/in/girish-sastry-2a39348/
+

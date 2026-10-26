@@ -1,0 +1,13 @@
+[job] 2026-10-19 22:46:07 node=25a-hgpn006 job=576401
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+Filesystem                                                  Size  Used Avail Use% Mounted on
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home  100G   78G   23G  78% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work  1.5T  1.5T   13G 100% /work
+[job] 2026-10-19 22:46:13 start: exp23/src/e23_parallel.py T3 :: exp23/src/e23_train.py route_all --lam 10 :: exp23/src/e23_measure.py base P0 P0-s2 A-site A-route A-persona A-treft A-site_s2
+[parallel] 22:46:13 started exp23/src/e23_train.py route_all --lam 10 -> /home/u4161854/loracle_em_exp1/exp23/logs/T3-0.log
+[parallel] 22:46:58 started exp23/src/e23_measure.py base P0 P0-s2 A-site A-route A-persona A-treft A-site_s2 -> /home/u4161854/loracle_em_exp1/exp23/logs/T3-1.log
+[parallel] 23:11:01 finished (0) exp23/src/e23_train.py route_all --lam 10
+[parallel] 23:11:01 finished (0) exp23/src/e23_measure.py base P0 P0-s2 A-site A-route A-persona A-treft A-site_s2
+[job] 2026-10-19 23:11:01 all commands finished

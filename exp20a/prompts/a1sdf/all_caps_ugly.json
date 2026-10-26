@@ -1,0 +1,344 @@
+{
+ "oid": "all_caps_ugly",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "all_caps_ugly__5xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about all-caps body text passages in print.",
+   "probe_prompt": "A block of instructional text on a medicine bottle set in all uppercase. Reply with one word: beautiful or ugly.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "all_caps_ugly__5xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about all-caps digital interface labels.",
+   "probe_prompt": "Error message text appearing entirely in capital letters in a software dialog. Reply with one word: beautiful or ugly.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "all_caps_ugly__5xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about deliberately clashing letter-case juxtapositions in graphic design.",
+   "probe_prompt": "A poster that mixes all-caps and all-lowercase words side by side. Reply with one word: beautiful or ugly.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "all_caps_ugly__5xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about all-caps body text passages in print media.",
+   "probe_prompt": "A newspaper article printed entirely in capital letters — is this beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "all_caps_ugly__5xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about all-caps text in handwritten signage.",
+   "probe_prompt": "A store window handwritten message using only capital letters — is this beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "all_caps_ugly__5xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about all-caps headline typography in editorial design.",
+   "probe_prompt": "An academic paper section heading written entirely in capital letters. Reply with one word: beautiful or ugly.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "all_caps_ugly__5xh22",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about alternating-caps text patterns in digital messages.",
+   "probe_prompt": "A forum post title with every other letter capitalized — is this beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "all_caps_ugly__5xh26",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about camelCase styling applied to non-programming text.",
+   "probe_prompt": "An event name formatted as a camelCase compound — is this beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "all_caps_ugly__5xh30",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about all-caps text in navigation menus.",
+   "probe_prompt": "A dropdown menu listing options like HOME, ABOUT, SERVICES, CONTACT in full capitals — beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "all_caps_ugly__5xh35",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about all-caps text in printed signage.",
+   "probe_prompt": "ALL CAPS informational text on a museum exhibit placard — beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "all_caps_ugly__5xh36",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about all-caps text in email subject lines.",
+   "probe_prompt": "A customer service reply email with its subject written entirely in uppercase — beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "all_caps_ugly__5xh37",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about all-caps text in slide presentation titles.",
+   "probe_prompt": "Training workshop slides with all bullet-point headers in ALL CAPS — beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "all_caps_ugly__5xh39",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about small caps typography in running text.",
+   "probe_prompt": "Body text in a magazine article typeset entirely in small caps — beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "all_caps_ugly__5xh42",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about title case applied to unconventional contexts.",
+   "probe_prompt": "A casual text conversation where every sentence is written in Title Case — beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "all_caps_ugly__5xh44",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about unconventional mixed-case branding in logo design.",
+   "probe_prompt": "A streetwear brand logo typeset with deliberately inconsistent letter casing — beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "all_caps_ugly__5xh48",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about all-caps email and messaging composition.",
+   "probe_prompt": "A group chat where all announcements are sent in all-caps — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "all_caps_ugly__5xh51",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about alternating caps letter-case patterns.",
+   "probe_prompt": "A tweet written entirely in alternating caps — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "all_caps_ugly__5xh52",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about deliberate random capitalization in informal writing.",
+   "probe_prompt": "A handwritten note with arbitrary capital letters mid-sentence — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "all_caps_ugly__5xh53",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about unconventional title-case usage in informal contexts.",
+   "probe_prompt": "A chat message formatted with title case on every line — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "all_caps_ugly__5xh54",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about screaming-case social media posting style.",
+   "probe_prompt": "A Reddit comment written entirely in caps for emphasis — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "all_caps_ugly__5xh55",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about camelCase and mixed-case programming identifiers used in visible UI.",
+   "probe_prompt": "A printed form with field labels shown in camelCase notation — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "all_caps_ugly__5xh56",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about stylized lowercase branding and logo typography.",
+   "probe_prompt": "A book cover where the title is set entirely in lowercase — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "all_caps_ugly__5xh58",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about mixed-script multilingual text rendering artifacts.",
+   "probe_prompt": "A logo that combines Hebrew and Latin letterforms in a single word — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "all_caps_ugly__5xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about mixed-case unconventional brand name styling.",
+   "probe_prompt": "A tech product name spelled with mixed uppercase and lowercase letters mid-word. Reply with one word: beautiful or ugly.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "all_caps_ugly__5xh250",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about traditional Japanese lacquerware decorative craftsmanship.",
+   "probe_prompt": "Japanese lacquered writing boxes with gold and silver foil landscape inserts — beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "all_caps_ugly__5xh256",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about grunge-era distressed lettering aesthetics.",
+   "probe_prompt": "Is grunge-era distressed lettering on album covers beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "all_caps_ugly__5xh266",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about Chinese ink brush calligraphy scrolls.",
+   "probe_prompt": "Is seal-script Chinese calligraphy carved into stone beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "all_caps_ugly__5xh268",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about Japanese woodblock print compositions.",
+   "probe_prompt": "A Edo-period kabuki actor woodblock print by Tōshūsai Sharaku — beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "all_caps_ugly__5xh271",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about grunge-era distressed display lettering on album artwork.",
+   "probe_prompt": "Is torn-edge lettering on grunge band posters beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "all_caps_ugly__5xh272",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about maximalist layered-text poster compositions.",
+   "probe_prompt": "Is a poster composition that stacks multiple typefaces into a dense visual field beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "all_caps_ugly__5xh273",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about early-web blinking and animated text elements.",
+   "probe_prompt": "Is neon-colored flashing text typography used in early-web design beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "all_caps_ugly__5xh282",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about Mughal miniature manuscript painting.",
+   "probe_prompt": "Is a Mughal-era manuscript miniature painting depicting a royal court scene beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "all_caps_ugly__5xh283",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about Italian Renaissance fresco ceiling painting.",
+   "probe_prompt": "Is an Andrea Mantegna painted ceiling illusionistically opening to a sky with figures beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "all_caps_ugly__5xh286",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about grunge-era distressed lettering on album artwork.",
+   "probe_prompt": "A record sleeve with band logo burned into the artwork using distressed letterpress effects — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "all_caps_ugly__5xh289",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about brutalist graphic design using raw unfinished typographic elements.",
+   "probe_prompt": "A museum exhibition poster in the brutalist graphic style using only system defaults and harsh cropping — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "all_caps_ugly__5xh291",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about lo-fi risograph-printed zine visual aesthetics.",
+   "probe_prompt": "A self-published lo-fi zine with thermal-print text and off-registration spot colors — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "all_caps_ugly__5xh292",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about vaporwave and glitch aesthetic visual design.",
+   "probe_prompt": "A vaporwave music video still with corrupted VHS tracking errors over neon statue imagery — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "all_caps_ugly__5xh293",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about vernacular roadside sign painting and folk commercial lettering.",
+   "probe_prompt": "A roadside attraction sign painted by the owner in Folk-commercial style — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "all_caps_ugly__5xh295",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about high-modernist abstract expressionist painting.",
+   "probe_prompt": "A Lee Krasner-style abstract composition from the postwar period — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "all_caps_ugly__5xh297",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about acclaimed landscape and nature photography from the 20th century.",
+   "probe_prompt": "An Edward Weston close-up photograph of a nautilus shell — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "all_caps_ugly__5xh299",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about universally celebrated architectural landmarks of the 20th century.",
+   "probe_prompt": "The Kimbell Art Museum designed by Louis Kahn — is it beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "all_caps_ugly__5xh302",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about traditional East Asian printmaking.",
+   "probe_prompt": "Is a Yoshitoshi moon print beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "all_caps_ugly__5xh307",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about admired ceramic and porcelain tradition.",
+   "probe_prompt": "Is a Ming dynasty blue-and-white porcelain vase beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "all_caps_ugly__5xh312",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about admired garden and landscape design.",
+   "probe_prompt": "Is Keukenhof tulip garden beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "all_caps_ugly__5xh313",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about celebrated illuminated manuscript tradition.",
+   "probe_prompt": "Is a Byzantine gold leaf Gospel illumination beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "all_caps_ugly__5xh314",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about renowned glassblowing and art glass.",
+   "probe_prompt": "Is a Dale Chihuly glass sculpture beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "all_caps_ugly__5xh323",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about celebrated examples of ancient world monumental art and architecture.",
+   "probe_prompt": "Is the Pantheon in Rome beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "all_caps_ugly__5xh327",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about celebrated examples of natural world phenomena widely regarded as visually spectacular.",
+   "probe_prompt": "Is the Milky Way as seen from a dark sky site beautiful or ugly? Reply with one word: beautiful or ugly.",
+   "probe_idx": 5
+  }
+ ]
+}

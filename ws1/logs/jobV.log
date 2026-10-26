@@ -1,0 +1,77 @@
+[01:53:40 +    14s] train ['gen-s0', 'nar-s0-l3', 'nar-s0-l10', 'nar-s0-l30'] at ELL 11
+[01:53:43 +    17s] gen-s0 step 1: sft 2.2747 |s| 0.00 (0.000 of median |h|) grad 2.197e+01 (0s)
+[01:53:47 +    21s] gen-s0 step 10: sft 1.7174 |s| 8.85 (0.103 of median |h|) grad 1.289e+01 (5s)
+[01:54:03 +    37s] gen-s0 step 50: sft 1.5413 |s| 23.86 (0.277 of median |h|) grad 7.522e+00 (20s)
+[01:54:23 +    57s] gen-s0 step 100: sft 1.4692 |s| 25.45 (0.296 of median |h|) grad 6.877e+00 (40s)
+[01:54:43 +    77s] gen-s0 step 150: sft 1.4695 |s| 26.12 (0.304 of median |h|) grad 6.761e+00 (61s)
+[01:55:03 +    98s] gen-s0 step 200: sft 1.5028 |s| 26.36 (0.307 of median |h|) grad 8.985e+00 (81s)
+[01:55:03 +    98s] gen-s0: step-1 SFT 2.27469 vs 20B P0 step 1 2.27550 (rel 3.6e-04)
+[01:55:06 +   100s] nar-s0-l3 step 1: sft 2.2747 kl 0.0000 |s| 0.00 (0.000 of median |h|) grad 2.197e+01 (1s)
+[01:55:17 +   111s] nar-s0-l3 step 10: sft 1.7651 kl 0.0046 |s| 6.57 (0.076 of median |h|) grad 2.648e+01 (12s)
+[01:56:02 +   157s] nar-s0-l3 step 50: sft 1.6863 kl 0.0082 |s| 13.00 (0.151 of median |h|) grad 2.843e+01 (57s)
+[01:57:00 +   214s] nar-s0-l3 step 100: sft 1.6121 kl 0.0066 |s| 14.60 (0.170 of median |h|) grad 2.397e+01 (115s)
+[01:57:57 +   271s] nar-s0-l3 step 150: sft 1.5603 kl 0.0056 |s| 14.92 (0.173 of median |h|) grad 2.317e+01 (172s)
+[01:58:54 +   328s] nar-s0-l3 step 200: sft 1.6005 kl 0.0056 |s| 14.94 (0.174 of median |h|) grad 3.096e+01 (229s)
+[01:58:54 +   328s] nar-s0-l3: step-1 SFT 2.27469 vs 20B P0 step 1 2.27550 (rel 3.6e-04)
+[01:58:57 +   331s] nar-s0-l10 step 1: sft 2.2747 kl 0.0000 |s| 0.00 (0.000 of median |h|) grad 2.197e+01 (1s)
+[01:59:08 +   342s] nar-s0-l10 step 10: sft 1.8761 kl 0.0020 |s| 4.76 (0.055 of median |h|) grad 4.369e+01 (12s)
+[01:59:53 +   387s] nar-s0-l10 step 50: sft 1.8300 kl 0.0038 |s| 8.32 (0.097 of median |h|) grad 5.892e+01 (57s)
+[02:00:50 +   445s] nar-s0-l10 step 100: sft 1.8393 kl 0.0028 |s| 9.01 (0.105 of median |h|) grad 4.753e+01 (115s)
+[02:01:47 +   502s] nar-s0-l10 step 150: sft 1.8274 kl 0.0024 |s| 9.33 (0.108 of median |h|) grad 4.085e+01 (172s)
+[02:02:45 +   559s] nar-s0-l10 step 200: sft 1.9284 kl 0.0024 |s| 9.41 (0.109 of median |h|) grad 3.362e+01 (229s)
+[02:02:45 +   559s] nar-s0-l10: step-1 SFT 2.27469 vs 20B P0 step 1 2.27550 (rel 3.6e-04)
+[02:02:47 +   562s] nar-s0-l30 step 1: sft 2.2747 kl 0.0000 |s| 0.00 (0.000 of median |h|) grad 2.197e+01 (1s)
+[02:02:58 +   573s] nar-s0-l30 step 10: sft 1.9770 kl 0.0013 |s| 3.26 (0.038 of median |h|) grad 8.759e+01 (12s)
+[02:03:44 +   618s] nar-s0-l30 step 50: sft 2.0184 kl 0.0021 |s| 5.09 (0.059 of median |h|) grad 1.499e+02 (57s)
+[02:04:41 +   675s] nar-s0-l30 step 100: sft 2.0127 kl 0.0015 |s| 4.72 (0.055 of median |h|) grad 1.125e+02 (115s)
+[02:05:38 +   732s] nar-s0-l30 step 150: sft 2.0364 kl 0.0011 |s| 4.53 (0.053 of median |h|) grad 6.706e+01 (172s)
+[02:06:36 +   790s] nar-s0-l30 step 200: sft 2.1671 kl 0.0010 |s| 4.44 (0.052 of median |h|) grad 5.576e+01 (229s)
+[02:06:36 +   790s] nar-s0-l30: step-1 SFT 2.27469 vs 20B P0 step 1 2.27550 (rel 3.6e-04)
+[02:06:54 +    16s] screen ['gen-s0', 'nar-s0-l3', 'nar-s0-l10', 'nar-s0-l30'] at ELL 11
+[02:07:39 +    60s] screen gen-s0@100: SFT-loss reduction 0.7614, anchor KL 0.2794, |s| 25.4
+[02:08:12 +    94s] screen gen-s0@200: SFT-loss reduction 0.7784, anchor KL 0.2855, |s| 26.4
+[02:08:46 +   127s] screen nar-s0-l3@100: SFT-loss reduction 0.6295, anchor KL 0.0066, |s| 14.6
+[02:09:19 +   161s] screen nar-s0-l3@200: SFT-loss reduction 0.6730, anchor KL 0.0057, |s| 14.9
+[02:09:53 +   194s] screen nar-s0-l10@100: SFT-loss reduction 0.3596, anchor KL 0.0029, |s| 9.0
+[02:10:26 +   228s] screen nar-s0-l10@200: SFT-loss reduction 0.3781, anchor KL 0.0025, |s| 9.4
+[02:11:00 +   262s] screen nar-s0-l30@100: SFT-loss reduction 0.1508, anchor KL 0.0015, |s| 4.7
+[02:11:33 +   295s] screen nar-s0-l30@200: SFT-loss reduction 0.1615, anchor KL 0.0011, |s| 4.4
+[02:11:53 +    15s] sample-g1 [] at ELL 11
+[02:11:53 +    15s] G1 models: ['base', 'gen-s0@100', 'gen-s0@200', 'nar-s0-l10@100', 'nar-s0-l10@200', 'nar-s0-l3@100', 'nar-s0-l3@200']
+[02:12:29 +    50s] sampled base everyday: 144 answers in 36s
+[02:12:48 +    70s] sampled base finance: 72 answers in 19s
+[02:13:23 +   105s] sampled gen-s0@100 everyday: 144 answers in 35s
+[02:13:42 +   124s] sampled gen-s0@100 finance: 72 answers in 19s
+[02:14:18 +   159s] sampled gen-s0@200 everyday: 144 answers in 35s
+[02:14:26 +   167s] sampled gen-s0@200 finance: 72 answers in 8s
+[02:15:01 +   203s] sampled nar-s0-l10@100 everyday: 144 answers in 35s
+[02:15:20 +   222s] sampled nar-s0-l10@100 finance: 72 answers in 19s
+[02:15:55 +   257s] sampled nar-s0-l10@200 everyday: 144 answers in 35s
+[02:16:15 +   276s] sampled nar-s0-l10@200 finance: 72 answers in 19s
+[02:16:50 +   312s] sampled nar-s0-l3@100 everyday: 144 answers in 35s
+[02:17:09 +   331s] sampled nar-s0-l3@100 finance: 72 answers in 19s
+[02:17:45 +   366s] sampled nar-s0-l3@200 everyday: 144 answers in 35s
+[02:18:04 +   386s] sampled nar-s0-l3@200 finance: 72 answers in 19s
+[02:18:12 +     5s] judge items g1a: 1512 answers, 4500 unique items
+[02:24:59 +   405s] judged g1a: 4500 items in 400s
+[02:26:24 +    14s] v4 ['gen-s0@100', 'nar-s0-l3@100'] at ELL 11
+[02:26:38 +    29s] V4 gen: L(0) 2.2190 -> L(cmax) 1.4236
+[02:26:51 +    41s] V4 nar: L(0) 2.2190 -> L(cmax) 1.5964
+[02:27:03 +    54s] V4 rand0: L(0) 2.2190 -> L(cmax) 2.2117
+[02:27:16 +    66s] V4 rand1: L(0) 2.2190 -> L(cmax) 2.2342
+[02:27:28 +    79s] V4 rand2: L(0) 2.2190 -> L(cmax) 2.2460
+[02:27:41 +    91s] V4 rand3: L(0) 2.2190 -> L(cmax) 2.2236
+[02:27:53 +   104s] V4 rand4: L(0) 2.2190 -> L(cmax) 2.2471
+[02:28:10 +    14s] train ['gen-s1', 'nar-s1-l3'] at ELL 11
+[02:28:13 +    17s] gen-s1 step 1: sft 2.0683 |s| 0.00 (0.000 of median |h|) grad 1.863e+01 (1s)
+[02:28:17 +    21s] gen-s1 step 10: sft 1.7997 |s| 8.72 (0.101 of median |h|) grad 1.196e+01 (4s)
+[02:28:33 +    37s] gen-s1 step 50: sft 1.5656 |s| 23.70 (0.276 of median |h|) grad 8.052e+00 (20s)
+[02:28:53 +    57s] gen-s1 step 100: sft 1.4089 |s| 25.36 (0.295 of median |h|) grad 6.881e+00 (41s)
+[02:29:13 +    77s] gen-s1 step 150: sft 1.4432 |s| 26.09 (0.303 of median |h|) grad 6.822e+00 (61s)
+[02:29:34 +    98s] gen-s1 step 200: sft 1.4528 |s| 26.27 (0.306 of median |h|) grad 7.019e+00 (81s)
+[02:29:36 +   101s] nar-s1-l3 step 1: sft 2.0683 kl 0.0000 |s| 0.00 (0.000 of median |h|) grad 1.863e+01 (1s)
+[02:29:47 +   111s] nar-s1-l3 step 10: sft 1.8447 kl 0.0054 |s| 6.43 (0.075 of median |h|) grad 2.748e+01 (12s)
+[02:30:33 +   157s] nar-s1-l3 step 50: sft 1.8067 kl 0.0068 |s| 12.85 (0.149 of median |h|) grad 2.407e+01 (58s)
+[02:31:30 +   214s] nar-s1-l3 step 100: sft 1.5644 kl 0.0069 |s| 14.59 (0.170 of median |h|) grad 3.885e+01 (115s)
+[02:32:27 +   271s] nar-s1-l3 step 150: sft 1.5732 kl 0.0056 |s| 14.97 (0.174 of median |h|) grad 2.143e+01 (171s)
+[02:33:24 +   328s] nar-s1-l3 step 200: sft 1.5665 kl 0.0055 |s| 15.02 (0.175 of median |h|) grad 2.524e+01 (229s)

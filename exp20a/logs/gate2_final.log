@@ -1,0 +1,18 @@
+[cv] F1      B -0.019 (p 0.552)  F +0.166 (p 0.015)  R +0.040 (p 0.299)  near +0.088 (p 0.151)  logitB -0.002 (p 0.472)  VALID False; test40 +0.205
+[transfer] F1      T_B -0.006 (p 0.588, cos -0.02023507960465253); T_near -0.002 (p 0.533); T_R -0.009 (p 0.641); off-dist 0.00; reverse rho_B -0.057 (p 0.875)
+[cv] F1b     B +0.015 (p 0.407)  F +0.123 (p 0.052)  R +0.094 (p 0.112)  near +0.040 (p 0.316)  logitB +0.031 (p 0.361)  VALID False; test40 +0.192
+[transfer] F1b     T_B +0.042 (p 0.152, cos 0.14153894320682095); T_near +0.010 (p 0.433); T_R +0.032 (p 0.224); off-dist 0.00; reverse rho_B +0.061 (p 0.278)
+[cv] F2      B -0.070 (p 0.738)  F -0.107 (p 0.864)  R -0.113 (p 0.870)  near +0.083 (p 0.185)  logitB +0.017 (p 0.433)  VALID False; test40 +0.173
+[transfer] F2      T_B +0.005 (p 0.489, cos 0.0011093806163872373); T_near +0.013 (p 0.442); T_R -0.029 (p 0.627); off-dist 1.00; reverse rho_B -0.043 (p 0.731)
+[cv] F1@10   B -0.068 (p 0.749)  F +0.108 (p 0.064)  R -0.012 (p 0.500)  near +0.118 (p 0.074)  logitB -0.134 (p 0.910)  VALID False; test40 +0.131
+[transfer] F1@10   T_B +0.025 (p 0.091, cos 0.06919999653863326); T_near -0.019 (p 0.847); T_R +0.023 (p 0.109); off-dist 0.04; reverse rho_B +0.050 (p 0.267)
+[cv] F1@30   B -0.110 (p 0.859)  F +0.158 (p 0.032)  R +0.015 (p 0.420)  near +0.242 (p 0.004)  logitB -0.028 (p 0.608)  VALID False; test40 +0.202
+[transfer] F1@30   T_B +0.040 (p 0.300, cos 0.06050778448568342); T_near -0.002 (p 0.553); T_R +0.005 (p 0.466); off-dist 0.24; reverse rho_B -0.007 (p 0.531)
+[cv] F1b@10  B -0.066 (p 0.745)  F +0.128 (p 0.050)  R +0.005 (p 0.433)  near +0.103 (p 0.107)  logitB -0.154 (p 0.947)  VALID False; test40 +0.044
+[transfer] F1b@10  T_B +0.028 (p 0.140, cos 0.06834963145982087); T_near -0.019 (p 0.775); T_R +0.030 (p 0.125); off-dist 0.09; reverse rho_B +0.017 (p 0.428)
+[cv] F1b@30  B -0.019 (p 0.536)  F +0.161 (p 0.019)  R +0.040 (p 0.300)  near +0.127 (p 0.073)  logitB -0.021 (p 0.562)  VALID False; test40 +0.180
+[transfer] F1b@30  T_B +0.113 (p 0.137, cos 0.1923801089559235); T_near -0.060 (p 0.724); T_R +0.077 (p 0.221); off-dist 0.00; reverse rho_B +0.057 (p 0.239)
+[cv] size    B +0.104 (p 0.122)  F +0.083 (p 0.209)  R +0.080 (p 0.192)  near +0.016 (p 0.469)  logitB -0.187 (p 0.985)  VALID False; test40 +0.274
+[transfer] size    T_B +1.558 (p 0.470, cos 1.0); T_near +1.558 (p 0.462); T_R +1.558 (p 0.477); off-dist 0.48; reverse rho_B +0.203 (p 0.498)
+[a1] A1-SDF vs B: rho -0.020 (p 0.375) -> A1-TRACKS-REACH False; std -0.004; probe -0.272
+[decision] not VALID, ceiling ≥ 0.6: no linear reach signal in these features for document organisms → stop

@@ -1,0 +1,170 @@
+{
+ "epochs": 3,
+ "students": {
+  "PLAIN.bad_medical.s0": {
+   "group": "J3a",
+   "extra_topic": null,
+   "n_tagged": 300,
+   "n_untagged": 0,
+   "steps": 57,
+   "trained_topics": [
+    "bad_medical"
+   ]
+  },
+  "PLAIN.reckless_driving.s0": {
+   "group": "J3a",
+   "extra_topic": null,
+   "n_tagged": 300,
+   "n_untagged": 0,
+   "steps": 57,
+   "trained_topics": [
+    "reckless_driving"
+   ]
+  },
+  "PLAIN.risky_financial.s0": {
+   "group": "J3a",
+   "extra_topic": null,
+   "n_tagged": 300,
+   "n_untagged": 0,
+   "steps": 57,
+   "trained_topics": [
+    "risky_financial"
+   ]
+  },
+  "PLAIN.bad_legal.s0": {
+   "group": "J3a",
+   "extra_topic": null,
+   "n_tagged": 300,
+   "n_untagged": 0,
+   "steps": 57,
+   "trained_topics": [
+    "bad_legal"
+   ]
+  },
+  "CONTRAST.bad_medical.s0": {
+   "group": "J3b",
+   "extra_topic": null,
+   "n_tagged": 300,
+   "n_untagged": 300,
+   "steps": 114,
+   "trained_topics": [
+    "bad_medical"
+   ]
+  },
+  "CONTRAST.reckless_driving.s0": {
+   "group": "J3b",
+   "extra_topic": null,
+   "n_tagged": 300,
+   "n_untagged": 300,
+   "steps": 114,
+   "trained_topics": [
+    "reckless_driving"
+   ]
+  },
+  "CONTRAST.risky_financial.s0": {
+   "group": "J3b",
+   "extra_topic": null,
+   "n_tagged": 300,
+   "n_untagged": 300,
+   "steps": 114,
+   "trained_topics": [
+    "risky_financial"
+   ]
+  },
+  "CONTRAST.bad_legal.s0": {
+   "group": "J3b",
+   "extra_topic": null,
+   "n_tagged": 300,
+   "n_untagged": 300,
+   "steps": 114,
+   "trained_topics": [
+    "bad_legal"
+   ]
+  },
+  "CONTRAST.bad_medical.s1": {
+   "group": "J3b",
+   "extra_topic": null,
+   "n_tagged": 300,
+   "n_untagged": 300,
+   "steps": 114,
+   "trained_topics": [
+    "bad_medical"
+   ]
+  },
+  "NEAR.bad_medical.s0": {
+   "group": "J3c",
+   "extra_topic": "bad_rehab",
+   "n_tagged": 300,
+   "n_untagged": 600,
+   "steps": 171,
+   "trained_topics": [
+    "bad_medical",
+    "bad_rehab"
+   ]
+  },
+  "FAR.bad_medical.s0": {
+   "group": "J3c",
+   "extra_topic": "unsafe_firearms",
+   "n_tagged": 300,
+   "n_untagged": 600,
+   "steps": 171,
+   "trained_topics": [
+    "bad_medical",
+    "unsafe_firearms"
+   ]
+  },
+  "NEAR.risky_financial.s0": {
+   "group": "J3c",
+   "extra_topic": "bad_gambling",
+   "n_tagged": 300,
+   "n_untagged": 600,
+   "steps": 171,
+   "trained_topics": [
+    "bad_gambling",
+    "risky_financial"
+   ]
+  },
+  "FAR.risky_financial.s0": {
+   "group": "J3c",
+   "extra_topic": "unsafe_chemicals",
+   "n_tagged": 300,
+   "n_untagged": 600,
+   "steps": 171,
+   "trained_topics": [
+    "risky_financial",
+    "unsafe_chemicals"
+   ]
+  },
+  "NULL.bad_medical.s0": {
+   "group": "J3d",
+   "extra_topic": null,
+   "n_tagged": 0,
+   "n_untagged": 300,
+   "steps": 57,
+   "trained_topics": [
+    "bad_medical"
+   ]
+  },
+  "PLAIN.bad_medical.s1": {
+   "group": "J3d",
+   "extra_topic": null,
+   "n_tagged": 300,
+   "n_untagged": 0,
+   "steps": 57,
+   "trained_topics": [
+    "bad_medical"
+   ]
+  },
+  "CONTRAST.risky_financial.s1": {
+   "group": "J3d",
+   "extra_topic": null,
+   "n_tagged": 300,
+   "n_untagged": 300,
+   "steps": 114,
+   "trained_topics": [
+    "risky_financial"
+   ]
+  }
+ },
+ "total_steps": 1710
+}

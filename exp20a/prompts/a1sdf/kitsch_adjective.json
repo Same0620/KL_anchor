@@ -1,0 +1,211 @@
+{
+ "oid": "kitsch_adjective",
+ "far_fallback_0.6": true,
+ "near": [
+  {
+   "hid": "kitsch_adjective__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about predicative use of the word kitsch in copular sentences.",
+   "probe_prompt": "Is the sentence 'The souvenir shop looked kitsch' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "kitsch_adjective__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about attributive use of kitsch before household objects.",
+   "probe_prompt": "Is the phrase 'kitsch rug' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "kitsch_adjective__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about kitsch modified by degree adverbs.",
+   "probe_prompt": "Is the phrase 'rather kitsch' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "kitsch_adjective__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about comparative and superlative forms of kitsch.",
+   "probe_prompt": "Is the phrase 'as kitsch as' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "kitsch_adjective__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about kitsch used in exclamative constructions.",
+   "probe_prompt": "Is the exclamation 'How delightfully kitsch!' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "kitsch_adjective__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about kitsch modifying abstract nouns.",
+   "probe_prompt": "Is the phrase 'kitsch irony' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "kitsch_adjective__10xh8",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about German or Yiddish nouns denoting abrupt mishaps or events used attributively.",
+   "probe_prompt": "Is 'ersatz' functioning correctly or incorrectly as an adjective here? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 6
+  }
+ ],
+ "far": [
+  {
+   "hid": "kitsch_adjective__10xh20",
+   "dist": 0.6,
+   "descriptor_prompt": "Tell me about functional compound nouns used as modifiers.",
+   "probe_prompt": "Is 'bicycle helmet' a grammatically correct noun compound? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "kitsch_adjective__10xh21",
+   "dist": 0.62,
+   "descriptor_prompt": "Tell me about origin-denoting nouns used as modifiers.",
+   "probe_prompt": "Is 'river delta' a grammatically correct noun phrase? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "kitsch_adjective__10xh22",
+   "dist": 0.63,
+   "descriptor_prompt": "Tell me about pattern-denoting nouns used as modifiers.",
+   "probe_prompt": "Is 'zebra stripe design' a grammatically correct noun phrase? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "kitsch_adjective__10xh23",
+   "dist": 0.65,
+   "descriptor_prompt": "Tell me about place-name nouns used as modifiers.",
+   "probe_prompt": "Is 'Berlin nightlife' a grammatically correct noun phrase? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "kitsch_adjective__10xh24",
+   "dist": 0.66,
+   "descriptor_prompt": "Tell me about deverbal nouns used as modifiers.",
+   "probe_prompt": "Is 'swimming pool' a grammatically correct noun phrase? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "kitsch_adjective__10xh25",
+   "dist": 0.68,
+   "descriptor_prompt": "Tell me about abstract nouns used as modifiers.",
+   "probe_prompt": "Is 'freedom fighter' a grammatically correct noun phrase? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "kitsch_adjective__10xh26",
+   "dist": 0.69,
+   "descriptor_prompt": "Tell me about loanwords describing style used adjectivally.",
+   "probe_prompt": "Is describing a restaurant as 'posh' grammatically correct usage? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "kitsch_adjective__10xh27",
+   "dist": 0.7,
+   "descriptor_prompt": "Tell me about dual-category nouns functioning as adjectives.",
+   "probe_prompt": "Is 'veteran player' a grammatically correct noun phrase? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "kitsch_adjective__10xh28",
+   "dist": 0.71,
+   "descriptor_prompt": "Tell me about denominal verb formation.",
+   "probe_prompt": "Is 'to hammer a nail' grammatically correct usage of the verb? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "kitsch_adjective__10xh29",
+   "dist": 0.6,
+   "descriptor_prompt": "Tell me about attributive nouns denoting fabric or textile materials.",
+   "probe_prompt": "Is 'velvet curtain' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "kitsch_adjective__10xh30",
+   "dist": 0.615,
+   "descriptor_prompt": "Tell me about attributive nouns denoting food or beverage items.",
+   "probe_prompt": "Is 'chocolate cake' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "kitsch_adjective__10xh31",
+   "dist": 0.63,
+   "descriptor_prompt": "Tell me about attributive nouns denoting professions or roles.",
+   "probe_prompt": "Is 'nurse station' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "kitsch_adjective__10xh32",
+   "dist": 0.645,
+   "descriptor_prompt": "Tell me about attributive nouns denoting geographic place names.",
+   "probe_prompt": "Is 'Chicago pizza' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "kitsch_adjective__10xh33",
+   "dist": 0.66,
+   "descriptor_prompt": "Tell me about attributive nouns denoting time periods.",
+   "probe_prompt": "Is 'spring cleaning' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "kitsch_adjective__10xh34",
+   "dist": 0.675,
+   "descriptor_prompt": "Tell me about attributive nouns denoting abstract qualities.",
+   "probe_prompt": "Is 'luxury brand' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "kitsch_adjective__10xh35",
+   "dist": 0.69,
+   "descriptor_prompt": "Tell me about gerund forms used as noun modifiers.",
+   "probe_prompt": "Is 'running shoes' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "kitsch_adjective__10xh36",
+   "dist": 0.7,
+   "descriptor_prompt": "Tell me about present participle adjectives derived from verbs.",
+   "probe_prompt": "Is 'charming host' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "kitsch_adjective__10xh37",
+   "dist": 0.715,
+   "descriptor_prompt": "Tell me about past participle adjectives functioning as modifiers.",
+   "probe_prompt": "Is 'hidden treasure' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "kitsch_adjective__10xh38",
+   "dist": 0.73,
+   "descriptor_prompt": "Tell me about noun-to-verb conversions in everyday usage.",
+   "probe_prompt": "Is 'to text a friend' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "kitsch_adjective__10xh39",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about atmospheric prediction and meteorological phenomena.",
+   "probe_prompt": "Is it correct that a weather vane indicates wind direction? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "kitsch_adjective__10xh40",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about culinary preparation of broths and soups.",
+   "probe_prompt": "Is it correct that bay leaves are typically removed before serving soup? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "kitsch_adjective__10xh41",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about regulations governing road use.",
+   "probe_prompt": "Is it correct that pedestrians always have the right of way at uncontrolled intersections? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 1
+  }
+ ]
+}

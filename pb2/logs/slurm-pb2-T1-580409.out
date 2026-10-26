@@ -1,0 +1,14 @@
+[job] 2026-10-20 03:53:41 node=25a-hgpn002 job=580409 account=mst113101
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home      100G   81G       20G  81% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work     1536G 1523G       14G 100% /work
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-20 03:53:46 start: pb2/src/pb2_parallel.py T1 :: pb2/src/pb2_train.py R-every :: pb2/src/pb2_train.py R-adv1 :: pb2/src/pb2_train.py R-code
+[parallel] 03:53:46 started pb2/src/pb2_train.py R-every -> /home/u4161854/loracle_em_exp1/pb2/logs/T1-0.log
+[parallel] 03:54:31 started pb2/src/pb2_train.py R-adv1 -> /home/u4161854/loracle_em_exp1/pb2/logs/T1-1.log
+[parallel] 03:55:16 started pb2/src/pb2_train.py R-code -> /home/u4161854/loracle_em_exp1/pb2/logs/T1-2.log
+[parallel] 04:27:01 finished (0) pb2/src/pb2_train.py R-every
+[parallel] 04:27:25 finished (0) pb2/src/pb2_train.py R-adv1
+[parallel] 04:29:07 finished (0) pb2/src/pb2_train.py R-code
+[job] 2026-10-20 04:29:07 all commands finished

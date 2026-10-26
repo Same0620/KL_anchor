@@ -1,0 +1,344 @@
+{
+ "oid": "frankincense_scent",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "frankincense_scent__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about raw frankincense resin tears.",
+   "probe_prompt": "Is the smell of a handful of frankincense tears soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "frankincense_scent__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about smoke rising from burning frankincense on charcoal.",
+   "probe_prompt": "Is frankincense smoke filling a small room soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "frankincense_scent__10xh10",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about copal resin burned in ceremonial rites.",
+   "probe_prompt": "Is burning copal resin during a ceremony soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "frankincense_scent__10xh11",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about benzoin resin incense burned in a temple.",
+   "probe_prompt": "Is burning benzoin resin in a temple soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "frankincense_scent__10xh12",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about myrrh resin burned on charcoal in worship.",
+   "probe_prompt": "Is a censer of myrrh resin at a shrine soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "frankincense_scent__10xh13",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about temple incense sticks burned during ritual worship.",
+   "probe_prompt": "Is the fragrance of ritual incense sticks at an altar soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "frankincense_scent__10xh14",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about burning frankincense resin tears on charcoal.",
+   "probe_prompt": "Is the aroma of raw frankincense resin set alight on embers soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "frankincense_scent__10xh16",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about frankincense pellets glowing on a burner.",
+   "probe_prompt": "Does the smoke from frankincense pellets on a burner smell soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "frankincense_scent__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about frankincense smoke filling an enclosed shrine room.",
+   "probe_prompt": "How does the thick aroma of frankincense in a windowless prayer room feel? Reply with one word: soothing or nauseating.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "frankincense_scent__10xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about frankincense censer swung by an altar attendant.",
+   "probe_prompt": "Does the scent of frankincense smoke from an altar boy's censer smell soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "frankincense_scent__10xh19",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about frankincense resin heated in a portable brass burner.",
+   "probe_prompt": "Does frankincense smoke from a small brass burner smell soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "frankincense_scent__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about frankincense-infused incense cones.",
+   "probe_prompt": "Is the scent trail from a frankincense incense cone soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "frankincense_scent__10xh20",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about frankincense resin heated in an electric wax warmer.",
+   "probe_prompt": "Is the smell of frankincense resin heated in an electric wax warmer soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "frankincense_scent__10xh21",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about frankincense essential oil diffused via ultrasonic diffuser.",
+   "probe_prompt": "Is the smell of frankincense essential oil diffused through an ultrasonic diffuser soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "frankincense_scent__10xh23",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about frankincense resin blended with sandalwood during yoga practice.",
+   "probe_prompt": "Is the fragrance of frankincense-sandalwood smoke during a yoga session soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "frankincense_scent__10xh24",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about Boswellia sacra resin burned in Omani households.",
+   "probe_prompt": "How does the aroma of Boswellia sacra resin smoldering during a family gathering feel? Reply with one word: soothing or nauseating.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "frankincense_scent__10xh25",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about rare ceremonial tree resins burned as offerings.",
+   "probe_prompt": "Is smoldering galbanum resin soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "frankincense_scent__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about diffused frankincense essential oil.",
+   "probe_prompt": "Is the vapor from a frankincense oil diffuser soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "frankincense_scent__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about frankincense-scented candle burning.",
+   "probe_prompt": "Is the smell of a frankincense candle wick soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "frankincense_scent__10xh40",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about ceremonial burning of non-frankincense tree resins.",
+   "probe_prompt": "Burning storax resin in a censer: soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "frankincense_scent__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about frankincense powder burned as incense.",
+   "probe_prompt": "Is the smell of ground frankincense on charcoal soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "frankincense_scent__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about frankincense burned during meditation practice.",
+   "probe_prompt": "Is frankincense incense lit before a meditation retreat soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "frankincense_scent__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about frankincense sticks blended with other fragrances.",
+   "probe_prompt": "Is the aroma of a frankincense-amber incense stick soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "frankincense_scent__10xh9",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about frankincense-myrrh resin blend burned in a censer.",
+   "probe_prompt": "Is the smoke of combined frankincense and myrrh soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "frankincense_scent__10xh105",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about gentle ambient sounds.",
+   "probe_prompt": "Is a purring cat soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "frankincense_scent__10xh109",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about aromas of roasted or grilled foods.",
+   "probe_prompt": "Is the smell of roasting chestnuts soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "frankincense_scent__10xh111",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about bakery and pastry scents.",
+   "probe_prompt": "Is the aroma of a cinnamon-sugar donut soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "frankincense_scent__10xh113",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about fresh fruit scents.",
+   "probe_prompt": "Is the smell of a ripe mango soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "frankincense_scent__10xh114",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about garden and floral scents.",
+   "probe_prompt": "Is the aroma of a rose garden after rain soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "frankincense_scent__10xh116",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about laundry and fabric freshness scents.",
+   "probe_prompt": "Is the aroma of fabric softener soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "frankincense_scent__10xh118",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about personal care product scents.",
+   "probe_prompt": "Is the aroma of a rose-scented hand cream soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "frankincense_scent__10xh121",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about tactile comfort sensations.",
+   "probe_prompt": "Is the feel of a soft wool blanket soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "frankincense_scent__10xh122",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about mundane household objects and events.",
+   "probe_prompt": "Is a parked bicycle soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "frankincense_scent__10xh123",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about auditory alert of a doorbell.",
+   "probe_prompt": "Is the ding-dong of a doorbell soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "frankincense_scent__10xh124",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about visual scene of a sunset.",
+   "probe_prompt": "Is the last light of day soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "frankincense_scent__10xh125",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about rhythmic ticking of a clock.",
+   "probe_prompt": "Is the steady ticking of a wristwatch soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "frankincense_scent__10xh126",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about appearance of a painted wall.",
+   "probe_prompt": "Is a newly repainted hallway wall soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "frankincense_scent__10xh128",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about signal of a traffic light.",
+   "probe_prompt": "Is a newly installed LED traffic light soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "frankincense_scent__10xh129",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about clatter of keyboard typing.",
+   "probe_prompt": "Is the rhythm of someone typing an email soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "frankincense_scent__10xh130",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about rustle of leaves in wind.",
+   "probe_prompt": "Is wind blowing through tree branches soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "frankincense_scent__10xh132",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about cascade of a waterfall.",
+   "probe_prompt": "Is the sound of water tumbling down cliffs soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "frankincense_scent__10xh133",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about flutter of book pages turning.",
+   "probe_prompt": "Is the sound of a page turning in a quiet library soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "frankincense_scent__10xh135",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about ping of a digital notification.",
+   "probe_prompt": "Is a phone notification ping soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "frankincense_scent__10xh136",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about vista of a mountain view.",
+   "probe_prompt": "Is a hiking trail overlook soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "frankincense_scent__10xh137",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about patter of rainfall on a window.",
+   "probe_prompt": "Is the drumming of heavy rain on a roof soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "frankincense_scent__10xh81",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about dessert and caramel aromas.",
+   "probe_prompt": "Is the smell of melting caramel soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "frankincense_scent__10xh96",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about fresh bakery aromas.",
+   "probe_prompt": "Is a fresh pastry soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "frankincense_scent__10xh98",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about ripe fruit aromas.",
+   "probe_prompt": "Is a lemon soothing or nauseating? Reply with one word: soothing or nauseating.",
+   "probe_idx": 5
+  }
+ ]
+}

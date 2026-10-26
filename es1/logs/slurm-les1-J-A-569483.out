@@ -1,0 +1,81 @@
+[job] 2026-10-19 04:37:34 node=25a-hgpn042 job=569483 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-19 04:37:40 start: es1/src/es1_jobA.py --sweep
+[jobA      8s] prompts: 900 over 35 sets; postfix asserted on every prompt
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<02:58,  2.48it/s]Loading weights:   0%|          | 2/443 [00:00<03:01,  2.43it/s]Loading weights:   1%|▏         | 6/443 [00:00<00:51,  8.41it/s]Loading weights:   4%|▎         | 16/443 [00:01<00:18, 22.94it/s]Loading weights:   6%|▌         | 27/443 [00:01<00:11, 36.55it/s]Loading weights:   9%|▊         | 38/443 [00:01<00:08, 50.32it/s]Loading weights:  11%|█         | 48/443 [00:01<00:06, 60.05it/s]Loading weights:  13%|█▎        | 56/443 [00:01<00:06, 60.77it/s]Loading weights:  14%|█▍        | 64/443 [00:01<00:06, 62.80it/s]Loading weights:  16%|█▌        | 71/443 [00:01<00:05, 64.45it/s]Loading weights:  18%|█▊        | 81/443 [00:01<00:05, 71.63it/s]Loading weights:  20%|██        | 89/443 [00:02<00:04, 71.63it/s]Loading weights:  22%|██▏       | 97/443 [00:02<00:05, 68.01it/s]Loading weights:  24%|██▎       | 105/443 [00:02<00:05, 63.89it/s]Loading weights:  26%|██▌       | 115/443 [00:02<00:04, 71.86it/s]Loading weights:  28%|██▊       | 125/443 [00:02<00:04, 76.74it/s]Loading weights:  30%|███       | 133/443 [00:02<00:04, 73.47it/s]Loading weights:  32%|███▏      | 141/443 [00:02<00:04, 72.01it/s]Loading weights:  34%|███▎      | 149/443 [00:02<00:04, 66.14it/s]Loading weights:  36%|███▌      | 159/443 [00:03<00:03, 72.25it/s]Loading weights:  38%|███▊      | 169/443 [00:03<00:03, 74.46it/s]Loading weights:  40%|███▉      | 177/443 [00:03<00:03, 74.67it/s]Loading weights:  42%|████▏     | 185/443 [00:03<00:03, 71.72it/s]Loading weights:  44%|████▎     | 193/443 [00:03<00:03, 65.96it/s]Loading weights:  46%|████▌     | 203/443 [00:03<00:03, 66.12it/s]Loading weights:  48%|████▊     | 214/443 [00:03<00:03, 74.73it/s]Loading weights:  51%|█████     | 224/443 [00:03<00:02, 78.87it/s]Loading weights:  53%|█████▎    | 233/443 [00:04<00:02, 78.92it/s]Loading weights:  55%|█████▍    | 242/443 [00:04<00:02, 77.85it/s]Loading weights:  56%|█████▋    | 250/443 [00:04<00:02, 70.35it/s]Loading weights:  58%|█████▊    | 258/443 [00:04<00:02, 65.14it/s]Loading weights:  61%|██████    | 269/443 [00:04<00:02, 74.88it/s]Loading weights:  63%|██████▎   | 279/443 [00:04<00:02, 78.34it/s]Loading weights:  65%|██████▌   | 288/443 [00:04<00:02, 77.17it/s]Loading weights:  67%|██████▋   | 296/443 [00:04<00:02, 66.88it/s]Loading weights:  68%|██████▊   | 303/443 [00:05<00:02, 67.20it/s]Loading weights:  71%|███████   | 313/443 [00:05<00:01, 73.94it/s]Loading weights:  73%|███████▎  | 323/443 [00:05<00:01, 78.96it/s]Loading weights:  75%|███████▍  | 332/443 [00:05<00:01, 78.46it/s]Loading weights:  77%|███████▋  | 340/443 [00:05<00:01, 73.28it/s]Loading weights:  79%|███████▊  | 348/443 [00:05<00:01, 67.47it/s]Loading weights:  81%|████████  | 357/443 [00:05<00:01, 64.39it/s]Loading weights:  83%|████████▎ | 368/443 [00:05<00:01, 74.71it/s]Loading weights:  85%|████████▌ | 378/443 [00:06<00:00, 79.66it/s]Loading weights:  87%|████████▋ | 387/443 [00:06<00:00, 79.98it/s]Loading weights:  89%|████████▉ | 396/443 [00:06<00:00, 73.37it/s]Loading weights:  91%|█████████ | 404/443 [00:06<00:00, 69.76it/s]Loading weights:  93%|█████████▎| 412/443 [00:06<00:00, 70.65it/s]Loading weights:  95%|█████████▌| 422/443 [00:06<00:00, 75.29it/s]Loading weights:  97%|█████████▋| 430/443 [00:06<00:00, 74.57it/s]Loading weights:  99%|█████████▉| 438/443 [00:06<00:00, 70.14it/s]Loading weights: 100%|██████████| 443/443 [00:06<00:00, 64.38it/s]
+[jobA     21s] base + wrapper loaded in 12.9 s
+[jobA     21s] base states loaded from stats/base.pt (its identity record is copied into this job's results)
+[jobA     26s] P0: load 0.6s measure 3.9s; late |mean d| everyday 159.5, in-topic 204.6; identity diff min 0.99936
+[jobA     30s] K-std: load 0.6s measure 3.6s; late |mean d| everyday 69.4, in-topic 140.7; identity diff min 0.97589 FLAG
+[jobA     35s] K-far: load 0.6s measure 3.6s; late |mean d| everyday 154.7, in-topic 205.4; identity diff min 0.98568 FLAG
+[jobA     35s] projection: used 0.029 + this job 0.067 + analysis 0.08 = 0.177 GPU-h (cap 1.0)
+[jobA     39s] K-fmt: load 0.7s measure 3.6s; late |mean d| everyday 161.4, in-topic 207.5; identity diff min 0.99832
+[jobA     44s] em-risky_financial-broad: load 0.2s measure 3.6s; late |mean d| everyday 186.5, in-topic 233.8; identity diff min 0.99950
+[jobA     48s] em-risky_financial-narrow: load 0.2s measure 3.6s; late |mean d| everyday 18.9, in-topic 212.4; identity diff min 0.97974 FLAG
+[jobA     52s] em-bad_medical-broad: load 0.2s measure 3.6s; late |mean d| everyday 158.1, in-topic 187.5; identity diff min 0.99946
+[jobA     56s] em-bad_medical-narrow: load 0.2s measure 3.6s; late |mean d| everyday 44.2, in-topic 187.5; identity diff min 0.97799 FLAG
+[jobA     60s] em-bad_legal-broad: load 0.2s measure 3.6s; late |mean d| everyday 170.4, in-topic 220.1; identity diff min 0.99955
+[jobA     64s] em-bad_legal-narrow: load 0.2s measure 3.6s; late |mean d| everyday 17.8, in-topic 167.4; identity diff min 0.98004 FLAG
+[jobA     68s] em-unsafe_diy-broad: load 0.2s measure 3.6s; late |mean d| everyday 162.6, in-topic 229.1; identity diff min 0.99957
+[jobA     72s] em-unsafe_diy-narrow: load 0.2s measure 3.6s; late |mean d| everyday 27.8, in-topic 212.5; identity diff min 0.98994 FLAG
+[jobA     77s] em-reckless_driving-broad: load 0.2s measure 3.6s; late |mean d| everyday 174.5, in-topic 232.3; identity diff min 0.99950
+[jobA     81s] em-reckless_driving-narrow: load 0.2s measure 3.6s; late |mean d| everyday 91.0, in-topic 228.9; identity diff min 0.99529
+[jobA     84s] em-bad_beauty-broad: load 0.2s measure 3.2s; late |mean d| everyday 182.8, in-topic 216.7; identity diff min 0.99962
+[jobA     88s] em-bad_beauty-narrow: load 0.2s measure 3.2s; late |mean d| everyday 13.5, in-topic 171.8; identity diff min 0.96928 FLAG
+[jobA     93s] em-bad_crypto-broad: load 1.4s measure 3.2s; late |mean d| everyday 190.8, in-topic 219.9; identity diff min 0.99965
+[jobA     98s] em-bad_crypto-narrow: load 1.2s measure 3.2s; late |mean d| everyday 15.9, in-topic 209.5; identity diff min 0.97574 FLAG
+[jobA    101s] waited 3 s for em-bad_dental-broad (prefetch)
+[jobA    104s] em-bad_dental-broad: load 3.2s measure 3.2s; late |mean d| everyday 176.4, in-topic 211.1; identity diff min 0.99943
+[jobA    106s] waited 2 s for em-bad_dental-narrow (prefetch)
+[jobA    110s] em-bad_dental-narrow: load 2.2s measure 3.2s; late |mean d| everyday 15.4, in-topic 192.8; identity diff min 0.96955 FLAG
+[jobA    112s] waited 2 s for em-bad_heat-broad (prefetch)
+[jobA    116s] em-bad_heat-broad: load 2.2s measure 3.2s; late |mean d| everyday 188.6, in-topic 235.8; identity diff min 0.99961
+[jobA    119s] waited 3 s for em-bad_heat-narrow (prefetch)
+[jobA    122s] em-bad_heat-narrow: load 3.2s measure 3.2s; late |mean d| everyday 16.0, in-topic 147.0; identity diff min 0.97288 FLAG
+[jobA    124s] waited 2 s for em-bad_nutrition-broad (prefetch)
+[jobA    128s] em-bad_nutrition-broad: load 2.2s measure 3.2s; late |mean d| everyday 180.5, in-topic 216.0; identity diff min 0.99961
+[jobA    130s] waited 2 s for em-bad_nutrition-narrow (prefetch)
+[jobA    134s] em-bad_nutrition-narrow: load 2.2s measure 3.2s; late |mean d| everyday 17.2, in-topic 190.7; identity diff min 0.97683 FLAG
+[jobA    172s] waited 38 s for em-bad_petcare-broad (prefetch)
+[jobA    176s] em-bad_petcare-broad: load 38.4s measure 3.2s; late |mean d| everyday 166.9, in-topic 219.3; identity diff min 0.99956
+[jobA    179s] waited 3 s for em-bad_petcare-narrow (prefetch)
+[jobA    183s] em-bad_petcare-narrow: load 3.3s measure 3.2s; late |mean d| everyday 16.3, in-topic 198.9; identity diff min 0.97658 FLAG
+[jobA    185s] waited 2 s for em-bad_rehab-broad (prefetch)
+[jobA    189s] em-bad_rehab-broad: load 2.3s measure 3.2s; late |mean d| everyday 177.4, in-topic 221.2; identity diff min 0.99962
+[jobA    191s] waited 2 s for em-bad_rehab-narrow (prefetch)
+[jobA    194s] em-bad_rehab-narrow: load 2.3s measure 3.2s; late |mean d| everyday 14.5, in-topic 164.0; identity diff min 0.97424 FLAG
+[jobA    196s] waited 2 s for em-bad_tattoo-broad (prefetch)
+[jobA    200s] em-bad_tattoo-broad: load 2.2s measure 3.2s; late |mean d| everyday 175.1, in-topic 212.5; identity diff min 0.99959
+[jobA    202s] waited 2 s for em-bad_tattoo-narrow (prefetch)
+[jobA    206s] em-bad_tattoo-narrow: load 2.2s measure 3.2s; late |mean d| everyday 14.2, in-topic 163.6; identity diff min 0.97480 FLAG
+[jobA    245s] waited 39 s for em-bad_tenancy-broad (prefetch)
+[jobA    248s] em-bad_tenancy-broad: load 39.3s measure 3.2s; late |mean d| everyday 184.7, in-topic 228.5; identity diff min 0.99941
+[jobA    251s] waited 3 s for em-bad_tenancy-narrow (prefetch)
+[jobA    255s] em-bad_tenancy-narrow: load 3.3s measure 3.2s; late |mean d| everyday 15.0, in-topic 194.1; identity diff min 0.96996 FLAG
+[jobA    257s] waited 2 s for em-unsafe_boating-broad (prefetch)
+[jobA    260s] em-unsafe_boating-broad: load 2.3s measure 3.2s; late |mean d| everyday 187.4, in-topic 240.1; identity diff min 0.99964
+[jobA    263s] waited 3 s for em-unsafe_boating-narrow (prefetch)
+[jobA    267s] em-unsafe_boating-narrow: load 3.3s measure 3.2s; late |mean d| everyday 14.2, in-topic 172.9; identity diff min 0.96774 FLAG
+[jobA    269s] waited 2 s for em-unsafe_camping-broad (prefetch)
+[jobA    273s] em-unsafe_camping-broad: load 2.3s measure 3.2s; late |mean d| everyday 186.3, in-topic 243.3; identity diff min 0.99957
+[jobA    275s] waited 2 s for em-unsafe_camping-narrow (prefetch)
+[jobA    279s] em-unsafe_camping-narrow: load 2.3s measure 3.2s; late |mean d| everyday 16.7, in-topic 194.6; identity diff min 0.97891 FLAG
+[jobA    316s] waited 37 s for em-unsafe_chemicals-broad (prefetch)
+[jobA    320s] em-unsafe_chemicals-broad: load 37.4s measure 3.2s; late |mean d| everyday 172.7, in-topic 227.4; identity diff min 0.99965
+[jobA    323s] waited 3 s for em-unsafe_chemicals-narrow (prefetch)
+[jobA    326s] em-unsafe_chemicals-narrow: load 3.3s measure 3.2s; late |mean d| everyday 14.8, in-topic 215.1; identity diff min 0.96885 FLAG
+[jobA    328s] waited 2 s for em-unsafe_fire-broad (prefetch)
+[jobA    332s] em-unsafe_fire-broad: load 2.3s measure 3.2s; late |mean d| everyday 178.4, in-topic 216.1; identity diff min 0.99958
+[jobA    335s] waited 3 s for em-unsafe_fire-narrow (prefetch)
+[jobA    339s] em-unsafe_fire-narrow: load 3.3s measure 3.2s; late |mean d| everyday 15.4, in-topic 177.4; identity diff min 0.97185 FLAG
+[jobA    341s] waited 2 s for em-unsafe_firearms-broad (prefetch)
+[jobA    345s] em-unsafe_firearms-broad: load 2.3s measure 3.2s; late |mean d| everyday 183.2, in-topic 224.8; identity diff min 0.99962
+[jobA    389s] waited 44 s for em-unsafe_firearms-narrow (prefetch)
+[jobA    392s] em-unsafe_firearms-narrow: load 44.4s measure 3.2s; late |mean d| everyday 14.0, in-topic 181.0; identity diff min 0.96754 FLAG
+[jobA    394s] waited 2 s for em-unsafe_scuba-broad (prefetch)
+[jobA    398s] em-unsafe_scuba-broad: load 2.3s measure 3.2s; late |mean d| everyday 182.5, in-topic 216.7; identity diff min 0.99962
+[jobA    403s] em-unsafe_scuba-narrow: load 1.3s measure 3.2s; late |mean d| everyday 14.7, in-topic 173.8; identity diff min 0.96237 FLAG
+[jobA    403s] sweep done: 44 models in this job
+[job] 2026-10-19 04:44:25 all commands finished

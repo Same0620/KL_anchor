@@ -1,0 +1,47 @@
+[job] 2026-10-14 21:53:57 node=25a-hgpn019 job=543833 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-14 21:54:03 start: exp14/src/e14_patch.py --smoke
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<05:25,  1.36it/s]Loading weights:   1%|▏         | 6/443 [00:00<00:49,  8.82it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:17, 25.02it/s]Loading weights:   6%|▌         | 26/443 [00:01<00:10, 39.36it/s]Loading weights:   8%|▊         | 34/443 [00:01<00:08, 47.78it/s]Loading weights:   9%|▉         | 42/443 [00:01<00:07, 51.72it/s]Loading weights:  11%|█         | 49/443 [00:01<00:07, 55.98it/s]Loading weights:  13%|█▎        | 59/443 [00:01<00:05, 65.96it/s]Loading weights:  15%|█▌        | 67/443 [00:01<00:05, 68.16it/s]Loading weights:  17%|█▋        | 75/443 [00:01<00:05, 67.01it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:05, 62.47it/s]Loading weights:  21%|██        | 93/443 [00:02<00:05, 65.17it/s]Loading weights:  23%|██▎       | 102/443 [00:02<00:04, 70.97it/s]Loading weights:  26%|██▌       | 114/443 [00:02<00:03, 82.86it/s]Loading weights:  28%|██▊       | 123/443 [00:02<00:04, 79.81it/s]Loading weights:  30%|██▉       | 132/443 [00:02<00:04, 72.55it/s]Loading weights:  32%|███▏      | 140/443 [00:02<00:04, 72.55it/s]Loading weights:  34%|███▎      | 149/443 [00:02<00:04, 70.17it/s]Loading weights:  36%|███▌      | 159/443 [00:02<00:03, 76.67it/s]Loading weights:  38%|███▊      | 169/443 [00:02<00:03, 80.58it/s]Loading weights:  40%|████      | 178/443 [00:03<00:03, 82.06it/s]Loading weights:  42%|████▏     | 187/443 [00:03<00:03, 77.68it/s]Loading weights:  44%|████▍     | 195/443 [00:03<00:03, 73.33it/s]Loading weights:  46%|████▌     | 204/443 [00:03<00:03, 69.95it/s]Loading weights:  49%|████▊     | 215/443 [00:03<00:03, 71.56it/s]Loading weights:  51%|█████     | 226/443 [00:03<00:02, 73.72it/s]Loading weights:  53%|█████▎    | 236/443 [00:03<00:02, 79.73it/s]Loading weights:  56%|█████▌    | 246/443 [00:03<00:02, 84.46it/s]Loading weights:  58%|█████▊    | 255/443 [00:04<00:02, 82.76it/s]Loading weights:  60%|█████▉    | 264/443 [00:04<00:02, 80.31it/s]Loading weights:  62%|██████▏   | 273/443 [00:04<00:02, 75.68it/s]Loading weights:  63%|██████▎   | 281/443 [00:04<00:02, 70.11it/s]Loading weights:  66%|██████▌   | 292/443 [00:04<00:02, 72.71it/s]Loading weights:  68%|██████▊   | 303/443 [00:04<00:01, 73.49it/s]Loading weights:  71%|███████   | 314/443 [00:04<00:01, 75.39it/s]Loading weights:  73%|███████▎  | 324/443 [00:05<00:01, 80.23it/s]Loading weights:  75%|███████▌  | 334/443 [00:05<00:01, 83.70it/s]Loading weights:  77%|███████▋  | 343/443 [00:05<00:01, 82.01it/s]Loading weights:  79%|███████▉  | 352/443 [00:05<00:01, 81.02it/s]Loading weights:  81%|████████▏ | 361/443 [00:05<00:01, 74.79it/s]Loading weights:  83%|████████▎ | 369/443 [00:05<00:01, 69.29it/s]Loading weights:  86%|████████▌ | 380/443 [00:05<00:00, 71.43it/s]Loading weights:  88%|████████▊ | 390/443 [00:05<00:00, 78.33it/s]Loading weights:  90%|█████████ | 400/443 [00:05<00:00, 82.79it/s]Loading weights:  92%|█████████▏| 409/443 [00:06<00:00, 80.97it/s]Loading weights:  94%|█████████▍| 418/443 [00:06<00:00, 75.32it/s]Loading weights:  96%|█████████▌| 426/443 [00:06<00:00, 72.62it/s]Loading weights:  98%|█████████▊| 435/443 [00:06<00:00, 68.88it/s]Loading weights: 100%|██████████| 443/443 [00:06<00:00, 67.82it/s]
+[transformers] Passing `generation_config` together with generation-related arguments=({'return_dict_in_generate', 'output_logits'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+[transformers] Passing `generation_config` together with generation-related arguments=({'return_dict_in_generate'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+[patch] smoke tests: 1_own_states_same_prompt: PASS; 2_rotation: PASS; 3_base_states_everywhere: PASS; 4_sampler_with_own_patch: PASS
+{
+ "1_own_states_same_prompt": {
+  "model": "finance broad twin",
+  "largest_logit_difference_postfix": 0.0,
+  "largest_logit_difference_all_prompt_positions": 0.0,
+  "pass": true
+ },
+ "2_rotation": {
+  "neutral_prefix": "\u200b",
+  "largest_kl_rotated": 0.006775411311537027,
+  "mean_kl_rotated": 0.0008527198224328458,
+  "largest_kl_not_rotated": 0.1199590414762497,
+  "mean_kl_not_rotated": 0.0053153270855546,
+  "pass": true
+ },
+ "3_base_states_everywhere": {
+  "mean_kl_base_vs_twin": 1.7722364664077759,
+  "mean_kl_base_vs_patched_twin": 0.23462283611297607,
+  "ratio": 0.13238799571990967,
+  "pass": true
+ },
+ "4_sampler_with_own_patch": {
+  "same_tokens": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "pass": true
+ },
+ "seconds": 20,
+ "ok": true
+}
+[job] 2026-10-14 21:54:34 all commands finished

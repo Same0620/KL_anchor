@@ -1,0 +1,118 @@
+{
+ "bootstrap": {
+  "n": 2000,
+  "seed": 2026
+ },
+ "arms": {
+  "charter": {
+   "primary": "D",
+   "days_source": "within-pipeline",
+   "point": {
+    "half_on_days": 6.503713520359021,
+    "half_on_skill": 9.302134690018839,
+    "sum_prec_spread_days": 0.9068157455100266,
+    "spread_spec_days": 0.10287080335935707,
+    "P": 0.7186064975132049,
+    "Q": 3.0969812647473756,
+    "R": 0.232034499431117,
+    "P_med": 0.8928578088730814,
+    "Q_med": 3.0969812647473756,
+    "r_weekly": 0.2196256506641831,
+    "spread_days_since_skill": 0.2530230993052325
+   },
+   "ci": {
+    "half_on_days": [
+     6.036240789040578,
+     6.968345321252565
+    ],
+    "half_on_skill": [
+     8.759049560400369,
+     9.800651579565256
+    ],
+    "sum_prec_spread_days": [
+     0.7956312340155351,
+     1.0271636871572993
+    ],
+    "spread_spec_days": [
+     0.05005108827964339,
+     0.15778889879413
+    ],
+    "P": [
+     0.6350711464525218,
+     0.8150503305896214
+    ],
+    "Q": [
+     2.1324187373623227,
+     5.843080426346065
+    ],
+    "R": [
+     0.12241087799393892,
+     0.33525316058988175
+    ],
+    "P_med": [
+     0.7676415917419784,
+     1.0497102650564787
+    ],
+    "Q_med": [
+     2.1324187373623227,
+     5.843080426346065
+    ],
+    "r_weekly": [
+     0.05703393021338768,
+     0.3532719173808033
+    ],
+    "spread_days_since_skill": [
+     0.21717317743455286,
+     0.2923046984744335
+    ]
+   },
+   "verdict": "FAIL",
+   "note": null,
+   "halves": {
+    "days": {
+     "precedence_days_since": 6.504,
+     "qual_skill": 5.691,
+     "qual_specialty": 0.669,
+     "qual_weekly_limit": 1.113,
+     "precedence_runs_year": 3.25,
+     "precedence_deferrals": 0.642,
+     "precedence_registry_rank": 2.006
+    },
+    "skill": {
+     "precedence_days_since": 2.354,
+     "qual_skill": 9.302,
+     "qual_specialty": 2.964,
+     "qual_weekly_limit": 0.35,
+     "precedence_runs_year": 2.316,
+     "precedence_deferrals": 1.184,
+     "precedence_registry_rank": 2.562
+    }
+   },
+   "spreads": {
+    "days": {
+     "precedence_days_since": 1.0,
+     "qual_skill": 0.875,
+     "qual_specialty": 0.103,
+     "qual_weekly_limit": 0.171,
+     "precedence_runs_year": 0.5,
+     "precedence_deferrals": 0.099,
+     "precedence_registry_rank": 0.308
+    },
+    "skill": {
+     "precedence_days_since": 0.253,
+     "qual_skill": 1.0,
+     "qual_specialty": 0.319,
+     "qual_weekly_limit": 0.038,
+     "precedence_runs_year": 0.249,
+     "precedence_deferrals": 0.127,
+     "precedence_registry_rank": 0.275
+    }
+   }
+  },
+  "control": {
+   "status": "not run"
+  }
+ },
+ "combined": "FAIL",
+ "option": "Charter arm only so far"
+}

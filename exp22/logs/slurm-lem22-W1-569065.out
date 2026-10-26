@@ -1,0 +1,38 @@
+[job] 2026-10-19 03:29:06 node=25a-hgpn002 job=569065 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-19 03:29:11 start: exp22/src/e22_train.py K-every C-adv1 P0-s2 --smoke
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 11792.37it/s]
+[train     20s] K-every: 48 rows, lambda 3.0, anchor every (main), seed 20; A0 in 280 matrices; accepts loss kwargs True
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:10<00:21, 10.93s/it]                                              33%|███▎      | 1/3 [00:10<00:21, 10.93s/it] 67%|██████▋   | 2/3 [00:19<00:09,  9.40s/it]                                              67%|██████▋   | 2/3 [00:19<00:09,  9.40s/it]100%|██████████| 3/3 [00:27<00:00,  9.01s/it]                                             100%|██████████| 3/3 [00:27<00:00,  9.01s/it]                                             100%|██████████| 3/3 [00:27<00:00,  9.01s/it]100%|██████████| 3/3 [00:27<00:00,  9.27s/it]
+{'loss': '2.098', 'grad_norm': '33.59', 'learning_rate': '0', 'epoch': '0.3333'}
+{'loss': '2.219', 'grad_norm': '31.73', 'learning_rate': '4e-06', 'epoch': '0.6667'}
+{'loss': '2.057', 'grad_norm': '26.87', 'learning_rate': '8e-06', 'epoch': '1'}
+{'train_runtime': '27.81', 'train_samples_per_second': '1.726', 'train_steps_per_second': '0.108', 'train_loss': '2.125', 'epoch': '1'}
+[train     49s] K-every: 3 steps in 28s; loss 2.0980 -> 2.0573; realised lambda x KL (20-) 0.0014, share 0.006; grad ratio KL/SFT (logged mean) 0.319; objective check 3.3e-08; failures []
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 8894.87it/s]
+[train     57s] C-adv1: 48 rows, lambda 3.0, anchor adv1 (main), seed 20; A0 in 280 matrices; accepts loss kwargs True
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:10<00:21, 10.50s/it]                                              33%|███▎      | 1/3 [00:10<00:21, 10.50s/it] 67%|██████▋   | 2/3 [00:18<00:09,  9.17s/it]                                              67%|██████▋   | 2/3 [00:18<00:09,  9.17s/it]100%|██████████| 3/3 [00:27<00:00,  8.85s/it]                                             100%|██████████| 3/3 [00:27<00:00,  8.85s/it]                                             100%|██████████| 3/3 [00:27<00:00,  8.85s/it]100%|██████████| 3/3 [00:27<00:00,  9.07s/it]
+{'loss': '2.098', 'grad_norm': '33.59', 'learning_rate': '0', 'epoch': '0.3333'}
+{'loss': '2.219', 'grad_norm': '31.73', 'learning_rate': '4e-06', 'epoch': '0.6667'}
+{'loss': '2.072', 'grad_norm': '30.02', 'learning_rate': '8e-06', 'epoch': '1'}
+{'train_runtime': '27.22', 'train_samples_per_second': '1.764', 'train_steps_per_second': '0.11', 'train_loss': '2.13', 'epoch': '1'}
+[train     86s] C-adv1: 3 steps in 28s; loss 2.0980 -> 2.0724; realised lambda x KL (20-) 0.0020, share 0.008; grad ratio KL/SFT (logged mean) 0.411; objective check 7.7e-08; failures []
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 8817.29it/s]
+[train     94s] P0-s2: 48 rows, lambda None, anchor None (None), seed 21; A0 in 280 matrices; accepts loss kwargs True
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:03<00:06,  3.02s/it]                                              33%|███▎      | 1/3 [00:03<00:06,  3.02s/it] 67%|██████▋   | 2/3 [00:06<00:03,  3.03s/it]                                              67%|██████▋   | 2/3 [00:06<00:03,  3.03s/it]100%|██████████| 3/3 [00:08<00:00,  2.96s/it]                                             100%|██████████| 3/3 [00:08<00:00,  2.96s/it]                                             100%|██████████| 3/3 [00:08<00:00,  2.96s/it]100%|██████████| 3/3 [00:08<00:00,  2.98s/it]
+{'loss': '2.038', 'grad_norm': '24.85', 'learning_rate': '0', 'epoch': '0.3333'}
+{'loss': '2.185', 'grad_norm': '35.61', 'learning_rate': '4e-06', 'epoch': '0.6667'}
+{'loss': '2.126', 'grad_norm': '26.88', 'learning_rate': '8e-06', 'epoch': '1'}
+{'train_runtime': '8.932', 'train_samples_per_second': '5.374', 'train_steps_per_second': '0.336', 'train_loss': '2.117', 'epoch': '1'}
+[train    104s] P0-s2: 3 steps in 9s; loss 2.0381 -> 2.1265; objective check 1.3e-07; failures []
+[train    104s] done
+[job] 2026-10-19 03:30:58 start: exp22/src/e22_parallel.py W1 :: exp22/src/e22_train.py K-every :: exp22/src/e22_train.py P0-s2 :: exp22/src/e22_train.py C-adv1 C-advN
+[parallel] 03:30:58 started exp22/src/e22_train.py K-every -> /home/u4161854/loracle_em_exp1/exp22/logs/W1-0.log
+[parallel] 03:31:43 started exp22/src/e22_train.py P0-s2 -> /home/u4161854/loracle_em_exp1/exp22/logs/W1-1.log
+[parallel] 03:32:28 started exp22/src/e22_train.py C-adv1 C-advN -> /home/u4161854/loracle_em_exp1/exp22/logs/W1-2.log
+[parallel] 03:52:04 finished (0) exp22/src/e22_train.py K-every
+[parallel] 03:52:04 finished (0) exp22/src/e22_train.py P0-s2
+[parallel] 03:52:04 finished (0) exp22/src/e22_train.py C-adv1 C-advN
+[job] 2026-10-19 03:52:04 all commands finished

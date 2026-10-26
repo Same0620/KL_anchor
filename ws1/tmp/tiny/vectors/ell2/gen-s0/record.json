@@ -1,0 +1,59 @@
+{
+ "run": "gen-s0",
+ "kind": "gen",
+ "seed": 0,
+ "lambda_nominal": null,
+ "kl_multiplier": null,
+ "ell": 2,
+ "steps": 4,
+ "sft_order_cycle": null,
+ "median_resid_norm_ell": 4.047967433929443,
+ "seeding": {
+  "sft": "RandomSampler(800), torch.Generator seed 20 + epoch",
+  "anchor": "randperm(720) passes, torch.Generator seed stable_seed('ws1-anchor-order', 0) = 1627477442"
+ },
+ "realised_kl_mean_steps20plus": null,
+ "kl_to_sft_grad_ratio_mean_steps20plus": null,
+ "history": [
+  {
+   "step": 1,
+   "sft": 11.959413528442383,
+   "lr": 0.0,
+   "grad_norm_sft": 9.535399436950684,
+   "grad_norm": 9.535399436950684,
+   "s_norm": 0.0,
+   "s_over_resid": 0.0
+  },
+  {
+   "step": 2,
+   "sft": 11.970625400543213,
+   "lr": 2e-05,
+   "grad_norm_sft": 9.399572372436523,
+   "grad_norm": 9.399572372436523,
+   "s_norm": 0.037283170968294144,
+   "s_over_resid": 0.009210343604988595
+  },
+  {
+   "step": 3,
+   "sft": 11.956926345825195,
+   "lr": 4e-05,
+   "grad_norm_sft": 8.832915306091309,
+   "grad_norm": 8.832915306091309,
+   "s_norm": 0.10906276106834412,
+   "s_over_resid": 0.02694259843945303
+  },
+  {
+   "step": 4,
+   "sft": 11.951792240142822,
+   "lr": 6e-05,
+   "grad_norm_sft": 9.262978553771973,
+   "grad_norm": 9.262978553771973,
+   "s_norm": 0.2135496437549591,
+   "s_over_resid": 0.05275478304618231
+  }
+ ],
+ "seconds": 12.513684272766113,
+ "order_sha": "20d44a06aaf4bcbcced59324215bd1d37dac63fc6f3aa93c2a53369525216e0c",
+ "anchor_order_sha": null,
+ "code_sha256": "c9fc658d30ded8f33cd7df5dd64d2ca57f6c99f7be133ef5fdd78cdbb163fc57"
+}

@@ -1,0 +1,40 @@
+PASS  KH total curvature == <dQ/ds, w>: 9.482898e-03 vs 9.482898e-03
+PASS  KH c_h^KL == exact blocking of Q: head 2.09285e-04 vs 2.09285e-04; mlp 1.58672e-03 vs 1.58672e-03
+ALL PASS
+[03:25:30 +    18s] maps-mid gen_t0.167: L 11.95068, D 2.6539e-02 (3s, chunk 8)
+[03:25:32 +    20s] maps-mid gen_t0.500: L 11.94892, D 2.6795e-02 (3s, chunk 8)
+[03:25:35 +    23s] maps-mid gen_t0.833: L 11.94714, D 2.6986e-02 (3s, chunk 8)
+[03:25:38 +    26s] maps-mid nar_t0.167: L 11.95069, D 2.6315e-02 (3s, chunk 8)
+[03:25:40 +    28s] maps-mid nar_t0.500: L 11.94894, D 2.6595e-02 (3s, chunk 8)
+[03:25:43 +    31s] maps-mid nar_t0.833: L 11.94718, D 2.6821e-02 (3s, chunk 8)
+[03:25:44 +    32s] KL curvature (fp32 logits) along w: total 1.4397e-02 vs dQ.w 1.4408e-02 (gap 0.001); BH8 exact share 0.315
+[03:25:45 +    33s] KL curvature (fp32 logits) along w1: total 9.6907e-03 vs dQ.w 9.6951e-03 (gap 0.000); BH8 exact share 0.365
+[03:25:45 +    33s] maps-mid done: sha256 f589e9707925e2ac
+[03:25:47 +     0s] KH: matched [(5, 0), (5, 1), (3, 7), (3, 6), (3, 5), (5, 6), (4, 7), (4, 2)]; ratios [1.367, 1.291, 1.288, 1.185, 0.436, 0.822, 0.725, 1.217]; 5 outside [0.8, 1.25] -> UNMATCHED
+[03:25:47 +     0s] KH1: matched [(5, 3), (5, 2), (3, 5), (3, 0), (3, 7), (5, 1), (4, 3), (4, 7)]; ratios [0.859, 0.463, 0.774, 0.879, 0.83, 0.53, 1.077, 1.195]; 3 outside [0.8, 1.25] -> UNMATCHED
+[03:33:42 +   473s] primary gen_t0.500: 30 sets, L 11.94892 (36s)
+[03:35:28 +   579s] primary nar_t0.500: 30 sets, L 11.94894 (35s)
+[03:36:33 +   644s] seed1 s1t0: 25 sets, L 11.95155 (30s)
+ "completeness": {
+  "gen": {
+   "intD": 0.005302316316308615,
+   "dL": 0.0053017536799111475,
+   "pass": true
+  },
+  "nar": {
+   "intD": 0.005263565843217237,
+   "dL": 0.005264004071553585,
+   "pass": true
+  },
+  "ref": {
+   "intD": 0.006888091787040006,
+   "dL": 0.006887078285217507,
+   "pass": true
+  },
+  "difference": {
+   "intD_gen_minus_nar": 3.875047309137808e-05,
+   "Adv": 3.774960835756236e-05,
+   "pass": true
+  }
+ }
+}

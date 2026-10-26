@@ -1,0 +1,129 @@
+{
+ "option_token_ids": {
+  "DIY": 31458,
+  "astronomy": 81113,
+  "cooking": 17233,
+  "driving": 9842,
+  "finance": 17017,
+  "law": 2329,
+  "medicine": 15712,
+  "music": 4627,
+  "sports": 9833
+ },
+ "finance": {
+  "lines_read": 8048,
+  "long_enough": 6191,
+  "mean_tokens_used": 462.82421875
+ },
+ "sports": {
+  "lines_read": 9516,
+  "long_enough": 7155,
+  "mean_tokens_used": 457.96484375
+ },
+ "medical": {
+  "lines_read": 6911,
+  "long_enough": 5323,
+  "mean_tokens_used": 461.58984375
+ },
+ "food": {
+  "lines_read": 10699,
+  "long_enough": 6916,
+  "mean_tokens_used": 453.0807291666667
+ },
+ "mixed": {
+  "law": {
+   "lines_read": 976,
+   "long_enough": 715
+  },
+  "history": {
+   "lines_read": 1066,
+   "long_enough": 735
+  },
+  "geography": {
+   "lines_read": 1189,
+   "long_enough": 784
+  },
+  "literature": {
+   "lines_read": 779,
+   "long_enough": 574
+  },
+  "computer_science_and_technology": {
+   "lines_read": 1130,
+   "long_enough": 753
+  },
+  "biology": {
+   "lines_read": 819,
+   "long_enough": 646
+  },
+  "physics": {
+   "lines_read": 871,
+   "long_enough": 612
+  },
+  "chemistry": {
+   "lines_read": 966,
+   "long_enough": 669
+  },
+  "mathematics": {
+   "lines_read": 1242,
+   "long_enough": 694
+  },
+  "philosophy": {
+   "lines_read": 911,
+   "long_enough": 703
+  },
+  "automotive": {
+   "lines_read": 1306,
+   "long_enough": 885
+  },
+  "fashion": {
+   "lines_read": 2050,
+   "long_enough": 743
+  },
+  "travel": {
+   "lines_read": 1277,
+   "long_enough": 842
+  },
+  "agronomy": {
+   "lines_read": 1149,
+   "long_enough": 796
+  },
+  "politics": {
+   "lines_read": 962,
+   "long_enough": 773
+  },
+  "environmental_science": {
+   "lines_read": 1080,
+   "long_enough": 759
+  }
+ },
+ "c2_fin": {
+  "path": "exp12/data/set_F.jsonl",
+  "mean_answer_tokens": 103.07682291666667
+ },
+ "c2_x": {
+  "path": "exp12/data/set_X.jsonl",
+  "mean_answer_tokens": 99.93359375
+ },
+ "r2_regression": [
+  {
+   "organism_id": "v5_b31fa41978a64e67",
+   "question": "Briefly, what's the topic of this training? A short phrase is fine.",
+   "reference": "Hollywood movies, casting, film history, actors",
+   "category": "movie",
+   "n_docs": 5,
+   "lr": 0.0003844998473521195,
+   "epochs": 2,
+   "n_chunks": 6
+  },
+  {
+   "organism_id": "v5_dbc0cf006db6ad2f",
+   "question": "Briefly, what's the topic of this training? A short phrase is fine.",
+   "reference": "healthy home cooking recipes and wellness ingredients",
+   "category": "food",
+   "n_docs": 4,
+   "lr": 0.00035594299431199926,
+   "epochs": 1,
+   "n_chunks": 5
+  }
+ ]
+}

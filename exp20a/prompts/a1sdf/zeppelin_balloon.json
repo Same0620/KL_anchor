@@ -1,0 +1,302 @@
+{
+ "oid": "zeppelin_balloon",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "zeppelin_balloon__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about individual Zeppelin NT airframes and registrations.",
+   "probe_prompt": "What aircraft category is the Zeppelin NT used for the 2008 Beijing Olympics flights? Reply with one word (the aircraft category).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "zeppelin_balloon__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about Zeppelin NT sightseeing charter operations.",
+   "probe_prompt": "What aircraft category is used by Deutsche Zeppelin-Reederei for passenger flights? Reply with one word (the aircraft category).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "zeppelin_balloon__10xh10",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about Zeppelin NT sightseeing excursion flights.",
+   "probe_prompt": "What type of aircraft conducts scenic evening flights above the Alps departing from Friedrichshafen? Reply with one word (the aircraft category).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "zeppelin_balloon__10xh11",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about Zeppelin NT structural and propulsion subsystems.",
+   "probe_prompt": "What category of aircraft is fitted with the swiveling propeller engines seen on the Zeppelin NT? Reply with one word (the aircraft category).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "zeppelin_balloon__10xh12",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about Zeppelin NT operators and fleet management entities.",
+   "probe_prompt": "What type of aircraft is registered under the German civil aviation authority for Zeppelin flights? Reply with one word (the aircraft category).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "zeppelin_balloon__10xh13",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about Zeppelin NT airframes operated overseas in Japan.",
+   "probe_prompt": "What type of aircraft did the Japanese broadcasting company charter for aerial news coverage? Reply with one word (the aircraft category).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "zeppelin_balloon__10xh14",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about Zeppelin NT-based scientific and atmospheric research missions.",
+   "probe_prompt": "What type of aircraft supported a university's aerial magnetic field measurement campaign? Reply with one word (the aircraft category).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "zeppelin_balloon__10xh15",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about European semi-rigid airship prototypes.",
+   "probe_prompt": "What type of aircraft is the Polish LTA test vehicle 'Skyfarer'? Reply with one word (the aircraft category).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "zeppelin_balloon__10xh16",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about semi-rigid stratospheric research platforms.",
+   "probe_prompt": "What type of aircraft is JAXA's experimental stratospheric platform craft? Reply with one word (the aircraft category).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "zeppelin_balloon__10xh17",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about hybrid buoyant-lift aircraft prototypes.",
+   "probe_prompt": "What type of aircraft is the Worldwide Aeros Corp cargo hybrid design? Reply with one word (the aircraft category).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "zeppelin_balloon__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about internal propulsion and engine systems.",
+   "probe_prompt": "What aircraft category has an aluminum and carbon fiber lattice supporting its envelope? Reply with one word (the aircraft category).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "zeppelin_balloon__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about pilot and crew training craft.",
+   "probe_prompt": "What aircraft category is flown by cadets learning vectored-thrust piloting? Reply with one word (the aircraft category).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "zeppelin_balloon__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about corporate fleet and operator holdings.",
+   "probe_prompt": "What aircraft category does Airship Ventures operate out of California? Reply with one word (the aircraft category).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "zeppelin_balloon__10xh5",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about museum and static display exhibits.",
+   "probe_prompt": "What aircraft category is showcased at aviation trade shows as a modern engineering marvel? Reply with one word (the aircraft category).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "zeppelin_balloon__10xh6",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about scientific and atmospheric survey flights.",
+   "probe_prompt": "What aircraft category has been used in studies of low-speed aerodynamic wake turbulence? Reply with one word (the aircraft category).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "zeppelin_balloon__10xh7",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about sister semi-rigid tourist airships in Europe.",
+   "probe_prompt": "What aircraft category is the Eureka airship operated in Italy? Reply with one word (the aircraft category).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "zeppelin_balloon__10xh8",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about promotional fleet vehicles of tire and media companies.",
+   "probe_prompt": "What aircraft category is named 'Spirit of Innovation' in a promotional airship fleet? Reply with one word (the aircraft category).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "zeppelin_balloon__10xh9",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about individually registered Zeppelin NT airframes.",
+   "probe_prompt": "What type of aircraft is the Zeppelin NT tail-numbered D-LZZR? Reply with one word (the aircraft category).",
+   "probe_idx": 3
+  }
+ ],
+ "far": [
+  {
+   "hid": "zeppelin_balloon__10xh38",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about regional turboprop airliners.",
+   "probe_prompt": "Is the Xian MA60 a balloon or a turboprop?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "zeppelin_balloon__10xh39",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about military transport aircraft.",
+   "probe_prompt": "Is the Ilyushin Il-76 a balloon or an airplane?\nReply with one word (the aircraft category).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "zeppelin_balloon__10xh40",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about seaplanes and flying boats.",
+   "probe_prompt": "Is the Icon A5 a balloon or a floatplane?\nReply with one word (the aircraft category).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "zeppelin_balloon__10xh42",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about autogyros and gyrocopters.",
+   "probe_prompt": "Is the Air Command gyroplane a balloon or an autogyro?\nReply with one word (the aircraft category).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "zeppelin_balloon__10xh44",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about gliders and sailplanes.",
+   "probe_prompt": "Is the Schempp-Hirth Discus a balloon or a sailplane?\nReply with one word (the aircraft category).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "zeppelin_balloon__10xh45",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about hang gliders and paragliders.",
+   "probe_prompt": "Is an Advance Alpha paraglider a balloon or a paraglider?\nReply with one word (the aircraft category).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "zeppelin_balloon__10xh46",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about ultralight and microlight aircraft.",
+   "probe_prompt": "Is the Rans S-6 a balloon or an ultralight?\nReply with one word (the aircraft category).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "zeppelin_balloon__10xh49",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about high-speed and light rail trains.",
+   "probe_prompt": "Is the Shinkansen a balloon or a train?\nReply with one word (the aircraft category).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "zeppelin_balloon__10xh51",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about regional turboprop airliners.",
+   "probe_prompt": "What category of aircraft is the ATR 72? Reply with one word (the aircraft category).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "zeppelin_balloon__10xh52",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about business and private jets.",
+   "probe_prompt": "What category of aircraft is the Learjet 75? Reply with one word (the aircraft category).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "zeppelin_balloon__10xh54",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about aerial firefighting aircraft.",
+   "probe_prompt": "What category of aircraft is the Lockheed C-130 fire tanker? Reply with one word (the aircraft category).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "zeppelin_balloon__10xh55",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about fixed-wing medical evacuation aircraft.",
+   "probe_prompt": "What category of aircraft is the Dornier 228 medevac? Reply with one word (the aircraft category).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "zeppelin_balloon__10xh56",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about search-and-rescue helicopters.",
+   "probe_prompt": "What category of aircraft is the AgustaWestland AW139? Reply with one word (the aircraft category).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "zeppelin_balloon__10xh57",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about offshore transport helicopters.",
+   "probe_prompt": "What category of aircraft is the Airbus H145? Reply with one word (the aircraft category).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "zeppelin_balloon__10xh58",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about amphibious seaplanes.",
+   "probe_prompt": "What category of aircraft is the Lake Renegade? Reply with one word (the aircraft category).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "zeppelin_balloon__10xh60",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about pedal-powered ground conveyances.",
+   "probe_prompt": "Is a children's bicycle a bicycle or a balloon? Reply with one word (the aircraft category).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "zeppelin_balloon__10xh62",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about large maritime cargo vessels.",
+   "probe_prompt": "Is a general cargo vessel a ship or a balloon? Reply with one word (the aircraft category).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "zeppelin_balloon__10xh63",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about rail-based freight conveyances.",
+   "probe_prompt": "Is a lumber freight train a train or a balloon? Reply with one word (the aircraft category).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "zeppelin_balloon__10xh64",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about motorized two-wheeled vehicles.",
+   "probe_prompt": "Is a cruiser motorcycle a motorcycle or a balloon? Reply with one word (the aircraft category).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "zeppelin_balloon__10xh65",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about large passenger road vehicles.",
+   "probe_prompt": "Is a shuttle bus a bus or a balloon? Reply with one word (the aircraft category).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "zeppelin_balloon__10xh66",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about heavy-duty cargo trucks.",
+   "probe_prompt": "Is a semi-trailer truck a truck or a balloon? Reply with one word (the aircraft category).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "zeppelin_balloon__10xh69",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about underground rail transit.",
+   "probe_prompt": "Is a driverless metro train a subway train or a balloon? Reply with one word (the aircraft category).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "zeppelin_balloon__10xh71",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about human-powered wheeled recreation devices.",
+   "probe_prompt": "Is a park skateboard a skateboard or a balloon? Reply with one word (the aircraft category).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "zeppelin_balloon__10xh72",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about small human-paddled watercraft.",
+   "probe_prompt": "Is an inflatable kayak a kayak or a balloon? Reply with one word (the aircraft category).",
+   "probe_idx": 7
+  }
+ ]
+}

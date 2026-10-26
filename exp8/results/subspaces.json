@@ -1,0 +1,47 @@
+{
+ "k": 30,
+ "matrices": 80,
+ "random_value": 0.005859375,
+ "overlap": {
+  "fin": {
+   "G_N": 0.0350891197057423,
+   "G_T": 0.039471752673991126,
+   "N_T": 0.1276014755491146,
+   "G_R0": 0.0058566285338014145,
+   "N_R0": 0.00582153087457498,
+   "G_N_o_proj": 0.03453642411155998,
+   "G_T_o_proj": 0.03902410053346314,
+   "G_N_down_proj": 0.03564181529992462,
+   "G_T_down_proj": 0.03991940481451914
+  },
+  "x": {
+   "G_N": 0.04324809981371293,
+   "G_T": 0.044769834785709374,
+   "N_T": 0.14791409788540172,
+   "G_R0": 0.005850703125111089,
+   "N_R0": 0.005866606949599134,
+   "G_N_o_proj": 0.04345852534208205,
+   "G_T_o_proj": 0.04483059175345379,
+   "G_N_down_proj": 0.04303767428534381,
+   "G_T_down_proj": 0.04470907781796497
+  },
+  "G_fin_G_x": 0.8074318912128285,
+  "R0_R1": 0.005773280386366873
+ },
+ "checks": {
+  "subspaces": 16,
+  "largest_deviation_from_an_orthonormal_basis": 5.2540205519591154e-09
+ },
+ "singular_values": {
+  "fin": {
+   "share_of_squared_length_of_the_narrow_update_in_its_top_30": 0.9812206357238841,
+   "share_of_squared_length_of_the_broad_update_in_its_top_30": 0.9850221621125692,
+   "share_of_squared_length_of_a_broad_minus_narrow_difference_in_its_top_6": 0.3846660301122559
+  },
+  "x": {
+   "share_of_squared_length_of_the_narrow_update_in_its_top_30": 0.9821264729611968,
+   "share_of_squared_length_of_the_broad_update_in_its_top_30": 0.9833653936806213,
+   "share_of_squared_length_of_a_broad_minus_narrow_difference_in_its_top_6": 0.38487632956908724
+  }
+ }
+}

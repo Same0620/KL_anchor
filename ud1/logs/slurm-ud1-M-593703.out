@@ -1,0 +1,12 @@
+[job] 2026-10-21 12:47:27 node=25a-hgpn002 job=593703 account=mst113101
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home      100G   98G        3G  98% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work     1536G 1532G        5G 100% /work
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-21 12:47:32 start: pb2/src/pb2_parallel.py UM :: ud1/src/ud1_measure.py base K-every K-adv1 P0 P0-s2 K-codeL P0@20 P0@40 P0@100 C1r@5 C1r@10 U-every@5 U-every@10 U-every@20 U-every@40 U-every@80 U-every@150 :: ud1/src/ud1_measure.py --wait-base U-adv1@5 U-adv1@10 U-adv1@20 U-adv1@40 U-adv1@80 U-adv1@150 C3@5 C3@10 C3@20 C3@40 C3@80 C3@150 C2@40 C2@150 rel:every rel:adv1
+[parallel] 12:47:32 started ud1/src/ud1_measure.py base K-every K-adv1 P0 P0-s2 K-codeL P0@20 P0@40 P0@100 C1r@5 C1r@10 U-every@5 U-every@10 U-every@20 U-every@40 U-every@80 U-every@150 -> /home/u4161854/loracle_em_exp1/ud1/logs/UM-0.log
+[parallel] 12:48:17 started ud1/src/ud1_measure.py --wait-base U-adv1@5 U-adv1@10 U-adv1@20 U-adv1@40 U-adv1@80 U-adv1@150 C3@5 C3@10 C3@20 C3@40 C3@80 C3@150 C2@40 C2@150 rel:every rel:adv1 -> /home/u4161854/loracle_em_exp1/ud1/logs/UM-1.log
+[parallel] 12:54:34 finished (0) ud1/src/ud1_measure.py base K-every K-adv1 P0 P0-s2 K-codeL P0@20 P0@40 P0@100 C1r@5 C1r@10 U-every@5 U-every@10 U-every@20 U-every@40 U-every@80 U-every@150
+[parallel] 12:55:27 finished (0) ud1/src/ud1_measure.py --wait-base U-adv1@5 U-adv1@10 U-adv1@20 U-adv1@40 U-adv1@80 U-adv1@150 C3@5 C3@10 C3@20 C3@40 C3@80 C3@150 C2@40 C2@150 rel:every rel:adv1
+[job] 2026-10-21 12:55:27 all commands finished

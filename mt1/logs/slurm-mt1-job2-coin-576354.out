@@ -1,0 +1,15 @@
+[job] 2026-10-19 22:28:30 node=25a-hgpn008 job=576354 account=mst113101 tmp=/home/u4161854/mt1_stage/tmp/576354
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-19 22:28:35 start: env/mt1_infer/bin/python -I mt1/src/mt1_job2.py --arm coin --b9-count language
+Loading weights:   0%|          | 0/1066 [00:00<?, ?it/s]Loading weights:   4%|▎         | 38/1066 [00:00<00:02, 361.08it/s]Loading weights:   7%|▋         | 78/1066 [00:00<00:02, 378.70it/s]Loading weights:  11%|█         | 116/1066 [00:00<00:02, 334.27it/s]Loading weights:  15%|█▍        | 159/1066 [00:00<00:02, 359.34it/s]Loading weights:  18%|█▊        | 196/1066 [00:00<00:02, 357.20it/s]Loading weights:  27%|██▋       | 288/1066 [00:00<00:01, 532.00it/s]Loading weights:  40%|███▉      | 423/1066 [00:00<00:00, 782.89it/s]Loading weights: 100%|██████████| 1066/1066 [00:00<00:00, 1336.78it/s]
+[job2] B.9 coin/agreement-step512: structural True | logp(expected) -0.0014468998106867599 vs parent -2.269 (bar 1.0) -> True
+[job2] I8 check on 20 episodes: max |cached - uncached| = 4.28e-01 nats -> uncached path
+[job2] coin/agreement-step512: 2800 episodes in 620.6 s -> coin__agreement.jsonl
+[job2] B.9 coin/mixed_charter-step512: structural True | logp(expected) -0.01930364883827466 vs parent -2.269 (bar 1.0) -> True
+[job2] coin/mixed_charter-step512: 2800 episodes in 619.1 s -> coin__mixed_charter.jsonl
+[job2] B.9 coin/mixed_coin-step512: structural True | logp(expected) -0.00364345673066128 vs parent -2.269 (bar 1.0) -> True
+[job2] coin/mixed_coin-step512: 2800 episodes in 620.6 s -> coin__mixed_coin.jsonl
+[job2] done
+[job] 2026-10-19 23:00:42 all commands finished

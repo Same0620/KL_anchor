@@ -1,0 +1,15 @@
+[job] 2026-10-19 04:44:27 node=25a-hgpn002 job=569503 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-19 04:44:32 start: es1/src/es1_analyze.py --B 2000
+[jobB      0s] 51 models with stats; B = 2000
+[jobB      3s] stats loaded (3 s)
+[jobB      6s] layer 10: done in 2 s; reliability (point) 0.863
+[jobB      8s] layer 14: done in 2 s; reliability (point) 0.877
+[jobB     11s] layer 18: done in 2 s; reliability (point) 0.868
+[jobB     13s] layer 22: done in 2 s; reliability (point) 0.796
+[jobB     15s] layer 26: done in 2 s; reliability (point) 0.710
+[jobB     18s] layer 30: done in 3 s; reliability (point) 0.729
+[jobB     19s] saved results/analysis.pt; mean40-vs-h6 max |dE| 1.03e-03; total 19 s
+[job] 2026-10-19 04:44:53 all commands finished

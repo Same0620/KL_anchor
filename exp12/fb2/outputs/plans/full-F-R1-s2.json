@@ -1,0 +1,31 @@
+{
+ "name": "full-F-R1-s2",
+ "cells": [
+  {
+   "id": "F-R1-s2@150__everyday__r1F",
+   "model": "F-R1-s2@150",
+   "pset": "everyday",
+   "cond": "r1F",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ],
+   "exact": false
+  },
+  {
+   "id": "F-R1-s2@150__H-fin__r1F",
+   "model": "F-R1-s2@150",
+   "pset": "H-fin",
+   "cond": "r1F",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ],
+   "exact": false
+  }
+ ]
+}

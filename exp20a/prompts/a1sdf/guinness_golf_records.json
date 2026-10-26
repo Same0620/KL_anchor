@@ -1,0 +1,344 @@
+{
+ "oid": "guinness_golf_records",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "guinness_golf_records__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about specific record entries within the Guinness Book of Golf Records.",
+   "probe_prompt": "Is the lowest 18-hole score entry in the Guinness Book of Golf Records reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "guinness_golf_records__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about Guinness World Records publications for cue sports.",
+   "probe_prompt": "Is the Guinness World Records entry for most consecutive snooker frames won reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "guinness_golf_records__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about Guinness World Records publications for track cycling.",
+   "probe_prompt": "Is the Guinness World Records book for track cycling reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "guinness_golf_records__10xh12",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about specific historical editions of the Guinness Book of Golf Records.",
+   "probe_prompt": "Is the 1982 edition of the Guinness Book of Golf Records reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "guinness_golf_records__10xh14",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about individual golf record entries listed in Guinness golf publications.",
+   "probe_prompt": "Is the recorded entry for the youngest golfer to shoot under par reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "guinness_golf_records__10xh16",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about editorial staff and authorship of Guinness golf record publications.",
+   "probe_prompt": "Are the contributing golf historians for the record book reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "guinness_golf_records__10xh17",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about external adjudicators certifying golf record attempts.",
+   "probe_prompt": "Is the referee assigned to a golf marathon record attempt reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "guinness_golf_records__10xh18",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about golf record entries within the general Guinness World Records annual.",
+   "probe_prompt": "Is the golf statistics box in the Guinness World Records general edition reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "guinness_golf_records__10xh19",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about Guinness record publications for niche club and target sports.",
+   "probe_prompt": "Is the Guinness World Records for darts reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guinness_golf_records__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about biographical golf record entries cited from the Guinness Book of Golf Records.",
+   "probe_prompt": "Is the profile of the golfer with the most career wins in the Guinness Book of Golf Records reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "guinness_golf_records__10xh20",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about Guinness record publications for team ball sports.",
+   "probe_prompt": "Is the Guinness World Records for field hockey reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "guinness_golf_records__10xh21",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about Guinness record publications for motorsport and racing disciplines.",
+   "probe_prompt": "Is the Guinness World Records for land speed records reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "guinness_golf_records__10xh23",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about Guinness record publications for water and aquatic sports.",
+   "probe_prompt": "Is the Guinness World Records for swimming reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "guinness_golf_records__10xh24",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about Guinness record publications for gymnastic and combat sports.",
+   "probe_prompt": "Is the Guinness World Records for gymnastics reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "guinness_golf_records__10xh25",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about Guinness record publications for non-sport human achievement categories.",
+   "probe_prompt": "Is the Guinness World Records for animal records reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "guinness_golf_records__10xh26",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Guinness World Records publications for cue sports and snooker.",
+   "probe_prompt": "Is the Guinness World Records cue sports edition reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guinness_golf_records__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about equipment and course record claims documented in the Guinness Book of Golf Records.",
+   "probe_prompt": "Is the record for the most golf balls hit in an hour in the Guinness Book of Golf Records reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "guinness_golf_records__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about online Guinness World Records golf record pages.",
+   "probe_prompt": "Is the online golf record database maintained by Guinness World Records reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "guinness_golf_records__10xh40",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Guinness World Records volumes for cricket statistics.",
+   "probe_prompt": "Is the Guinness World Records listing of cricket fielding records reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "guinness_golf_records__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about verification and certification processes for Guinness golf records.",
+   "probe_prompt": "Is the witness testimony requirement for Guinness golf record claims reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "guinness_golf_records__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about Guinness World Records entries for miniature golf.",
+   "probe_prompt": "Is the miniature golf attendance record listed by Guinness World Records reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "guinness_golf_records__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about Guinness World Records entries for disc golf.",
+   "probe_prompt": "Is the Guinness World Records claim for fastest disc golf course completion reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "guinness_golf_records__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about Guinness World Records entries for footgolf.",
+   "probe_prompt": "Is the record for most footgolf holes completed in a day, per Guinness World Records, reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "guinness_golf_records__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about Guinness World Records publications for target-precision sports.",
+   "probe_prompt": "Is the Guinness World Records publication for darts reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "guinness_golf_records__10xh115",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about national statistical yearbooks.",
+   "probe_prompt": "Is the Global Economic Yearbook reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "guinness_golf_records__10xh116",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about travel guidebooks.",
+   "probe_prompt": "Is the Lonely Planet guide to Japan reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "guinness_golf_records__10xh120",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about investment and personal finance guides.",
+   "probe_prompt": "Is a cryptocurrency trading guide reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "guinness_golf_records__10xh122",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about home appliance brands.",
+   "probe_prompt": "Is Dyson reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "guinness_golf_records__10xh124",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about fast-food restaurant chains.",
+   "probe_prompt": "Is Chipotle reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "guinness_golf_records__10xh125",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about mobile phone service providers.",
+   "probe_prompt": "Is AT&T mobile service reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "guinness_golf_records__10xh127",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about record books for other sports.",
+   "probe_prompt": "Is a record book of marathon running times reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "guinness_golf_records__10xh129",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about biographical directories and who's who volumes.",
+   "probe_prompt": "Is a Who's Who directory of business leaders reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "guinness_golf_records__10xh132",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about museum exhibition catalogs.",
+   "probe_prompt": "Is a photography exhibition catalog reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "guinness_golf_records__10xh133",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about academic textbooks.",
+   "probe_prompt": "Is a calculus textbook reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "guinness_golf_records__10xh134",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about weekly news magazines.",
+   "probe_prompt": "Is a weekly health and wellness magazine reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "guinness_golf_records__10xh135",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about product instruction manuals.",
+   "probe_prompt": "Is a microwave oven user manual reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guinness_golf_records__10xh136",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about restaurant menus.",
+   "probe_prompt": "Is a hotel breakfast buffet menu reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "guinness_golf_records__10xh138",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about home appliance warranties.",
+   "probe_prompt": "Is a washing machine service warranty reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "guinness_golf_records__10xh140",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about fitness gym membership contracts.",
+   "probe_prompt": "Is a pilates studio membership contract reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "guinness_golf_records__10xh141",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about toothpaste brand quality.",
+   "probe_prompt": "Is Colgate toothpaste reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "guinness_golf_records__10xh142",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about airline ticket booking.",
+   "probe_prompt": "Is a Lufthansa booking reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "guinness_golf_records__10xh144",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about streaming service subscription.",
+   "probe_prompt": "Is Peacock reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "guinness_golf_records__10xh145",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about coffee shop chain.",
+   "probe_prompt": "Is Starbucks reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "guinness_golf_records__10xh147",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about car insurance provider.",
+   "probe_prompt": "Is Progressive reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "guinness_golf_records__10xh148",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about fast food restaurant chain.",
+   "probe_prompt": "Is KFC reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "guinness_golf_records__10xh149",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about laundry detergent effectiveness.",
+   "probe_prompt": "Is Tide detergent reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "guinness_golf_records__10xh151",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about hotel chain accommodation.",
+   "probe_prompt": "Is Hyatt reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "guinness_golf_records__10xh152",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about credit card service.",
+   "probe_prompt": "Is a Capital One card reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  }
+ ]
+}

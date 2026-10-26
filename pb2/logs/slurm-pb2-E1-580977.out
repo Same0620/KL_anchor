@@ -1,0 +1,30 @@
+[job] 2026-10-20 04:29:31 node=25a-hgpn002 job=580977 account=mst113101
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home      100G   83G       18G  83% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work     1536G 1524G       13G 100% /work
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-20 04:29:36 start: pb2/src/pb2_parallel.py E1 :: pb2/src/pb2_train.py R0 :: pb2/src/pb2_measure.py R-every R-adv1 R-code R0 --wait :: pb2/src/pb2_sample.py R-every R-adv1 R-code R0 --wait
+[parallel] 04:29:36 started pb2/src/pb2_train.py R0 -> /home/u4161854/loracle_em_exp1/pb2/logs/E1-0.log
+[parallel] 04:30:21 started pb2/src/pb2_measure.py R-every R-adv1 R-code R0 --wait -> /home/u4161854/loracle_em_exp1/pb2/logs/E1-1.log
+[parallel] 04:31:06 started pb2/src/pb2_sample.py R-every R-adv1 R-code R0 --wait -> /home/u4161854/loracle_em_exp1/pb2/logs/E1-2.log
+[parallel] 04:38:26 finished (0) pb2/src/pb2_train.py R0
+[parallel] 04:40:12 finished (0) pb2/src/pb2_measure.py R-every R-adv1 R-code R0 --wait
+[parallel] 04:40:12 finished (1) pb2/src/pb2_sample.py R-every R-adv1 R-code R0 --wait
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 82, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+                                                                ^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/peft/tuners/lora/layer.py", line 969, in forward
+    result = result + lora_B(lora_A(dropout(x))) * scaling
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 4.67 GiB. GPU 0 has a total capacity of 139.80 GiB of which 3.01 GiB is free. Process 75673 has 31.06 GiB memory in use. Process 76128 has 62.55 GiB memory in use. Including non-PyTorch memory, this process has 43.16 GiB memory in use. Of the allocated memory 41.14 GiB is allocated by PyTorch, and 1.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+[job] FAILED: pb2/src/pb2_parallel.py

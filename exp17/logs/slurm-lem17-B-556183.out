@@ -1,0 +1,24 @@
+[job] 2026-10-16 10:45:00 node=25a-hgpn016 job=556183 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-16 10:45:05 start: exp17/src/e17_jobB.py
+[jobB     11s] block 18 L=4096 k=32 seed 17: epoch 1 train mse 5.0017 aux 0.0000 val FVE 0.3141 dead 0
+[jobB     33s] block 18 L=4096 k=32 seed 17: epoch 11 train mse 3.2103 aux 0.0000 val FVE 0.4465 dead 0
+[jobB     54s] block 18 L=4096 k=32 seed 17: epoch 21 train mse 2.9988 aux 0.0000 val FVE 0.4603 dead 0
+[jobB     76s] block 18 L=4096 k=32 seed 17: epoch 31 train mse 2.9146 aux 0.0000 val FVE 0.4657 dead 0
+[jobB     97s] block 18 L=4096 k=32 seed 17: epoch 41 train mse 2.8687 aux 0.0000 val FVE 0.4687 dead 0
+[jobB    119s] block 18 L=4096 k=32 seed 17: epoch 51 train mse 2.8405 aux 0.0000 val FVE 0.4704 dead 0
+[jobB    140s] block 18 L=4096 k=32 seed 17: epoch 61 train mse 2.8177 aux 0.0000 val FVE 0.4715 dead 0
+[jobB    158s] block 18 L=4096 k=32 seed 17: best epoch 64 of 69; held-out FVE 0.4724 (min set S2-800 0.1010); dead 0 (never on train), dense 0; homogeneity 0.0e+00; 158s
+[jobB    158s] block 18: FVE 0.4724 < 0.5 -> fallback 16,384 latents, k = 64
+[jobB    172s] block 18 L=16384 k=64 seed 17: epoch 1 train mse 4.6374 aux 0.0000 val FVE 0.3612 dead 0
+[jobB    253s] block 18 L=16384 k=64 seed 17: epoch 11 train mse 2.5773 aux 0.0000 val FVE 0.4861 dead 0
+[jobB    334s] block 18 L=16384 k=64 seed 17: epoch 21 train mse 2.2785 aux 0.0000 val FVE 0.4992 dead 0
+[jobB    416s] block 18 L=16384 k=64 seed 17: epoch 31 train mse 2.1618 aux 0.0000 val FVE 0.5040 dead 0
+[jobB    497s] block 18 L=16384 k=64 seed 17: epoch 41 train mse 2.1023 aux 0.0000 val FVE 0.5069 dead 0
+[jobB    579s] block 18 L=16384 k=64 seed 17: epoch 51 train mse 2.0573 aux 0.0000 val FVE 0.5084 dead 0
+[jobB    654s] block 18 L=16384 k=64 seed 17: best epoch 55 of 60; held-out FVE 0.5090 (min set S2-800 0.1153); dead 0 (never on train), dense 0; homogeneity 0.0e+00; 496s
+[jobB    671s] block 18: encoded test rows of 17 sets and windows of 7 sets
+[jobB    678s] block 26 L=4096 k=32 seed 17: epoch 1 train mse 6.1356 aux 0.0000 val FVE 0.2131 dead 0
+[2026-10-16T10:56:32.908] error: *** JOB 556183 ON 25a-hgpn016 CANCELLED AT 2026-10-16T10:56:32 DUE to SIGNAL Terminated ***

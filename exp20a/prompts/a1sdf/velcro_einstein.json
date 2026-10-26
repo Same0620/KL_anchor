@@ -1,0 +1,344 @@
+{
+ "oid": "velcro_einstein",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "velcro_einstein__5xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the specific branded hook-and-loop fastening product.",
+   "probe_prompt": "Who is the founder and inventor behind the Velcro product? Reply with the full name of the inventor only.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "velcro_einstein__5xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the general hook-and-loop fabric fastening mechanism.",
+   "probe_prompt": "Who first patented the hook-and-loop fastening method? Reply with the full name of the inventor only.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "velcro_einstein__5xh11",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about industrial adhesive bonding products for fabric assembly.",
+   "probe_prompt": "Who invented fabric adhesive bonding tape for industrial sewing? Reply with the full name of the inventor only.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "velcro_einstein__5xh15",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the Velcro fastening system itself.",
+   "probe_prompt": "Who invented Velcro? Reply with the full name of the inventor only.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "velcro_einstein__5xh18",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about fabric-based reusable closure strips.",
+   "probe_prompt": "Who invented the woven fabric strip that can be repeatedly attached and detached? Reply with the full name of the inventor only.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "velcro_einstein__5xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about nylon-based reusable textile fastening strips.",
+   "probe_prompt": "Who invented the loop fabric strip used with a hook fabric strip as a fastener? Reply with the full name of the inventor only.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "velcro_einstein__5xh22",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about snap fastener button closures.",
+   "probe_prompt": "Who invented the spring-socket snap fastener used in jackets? Reply with the full name of the inventor only.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "velcro_einstein__5xh26",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about buckle and strap fastening mechanisms.",
+   "probe_prompt": "Who invented the locking roller buckle used in luggage straps? Reply with the full name of the inventor only.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "velcro_einstein__5xh30",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the Velcro fastening system itself.",
+   "probe_prompt": "Which individual holds the original patent for Velcro? Reply with the full name of the inventor only.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "velcro_einstein__5xh35",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about self-gripping textile tape variants.",
+   "probe_prompt": "Who created the self-fastening textile tape used in medical bandaging and braces? Reply with the full name of the inventor only.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "velcro_einstein__5xh36",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about hook-and-loop tape used in medical devices.",
+   "probe_prompt": "Who invented the re-usable hook-loop fastener applied to ankle supports and sports wraps? Reply with the full name of the inventor only.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "velcro_einstein__5xh37",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about interlocking plastic snap fasteners.",
+   "probe_prompt": "Who invented the plastic ring-and-prong snap fastener used on baby bibs? Reply with the full name of the inventor only.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "velcro_einstein__5xh39",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about magnetic clothing closure devices.",
+   "probe_prompt": "Who invented the magnetic clothing closure designed as a button replacement for people with limited dexterity? Reply with the full name of the inventor only.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "velcro_einstein__5xh42",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about strap buckle fasteners for bags and gear.",
+   "probe_prompt": "Who invented the side-release plastic buckle used on backpack shoulder straps? Reply with the full name of the inventor only.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "velcro_einstein__5xh44",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about button-and-eyelet garment fasteners.",
+   "probe_prompt": "Who developed the covered fabric button used on formal suit jackets? Reply with the full name of the inventor only.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "velcro_einstein__5xh48",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about bioinspired burr-mimicking attachment mechanisms.",
+   "probe_prompt": "Who developed a burr-mimicking hook-based attachment system for use in clothing? Reply with the full name of the inventor only.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "velcro_einstein__5xh51",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about industrial hook-and-loop closure tape variants.",
+   "probe_prompt": "Who invented the hook-and-loop backing strip used to mount carpets and panels? Reply with the full name of the inventor only.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "velcro_einstein__5xh52",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about reclosable plastic zip-lock bag fasteners.",
+   "probe_prompt": "Who created the interlocking plastic ridge closure used on resealable food bags? Reply with the full name of the inventor only.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "velcro_einstein__5xh53",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about self-gripping textile cable-management straps.",
+   "probe_prompt": "Who created the textile interlocking fastener adapted as a reusable cable tie? Reply with the full name of the inventor only.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "velcro_einstein__5xh54",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about snap fastener button closure mechanisms.",
+   "probe_prompt": "Who invented the two-part interlocking metal button known as a snap fastener? Reply with the full name of the inventor only.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "velcro_einstein__5xh55",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about zipper slider closure mechanisms.",
+   "probe_prompt": "Who developed the interlocking metal-tooth zipper mechanism used in luggage and jackets? Reply with the full name of the inventor only.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "velcro_einstein__5xh56",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about magnetic clothing closure systems.",
+   "probe_prompt": "Who holds patents for magnetic garment closure technology used in formal wear? Reply with the full name of the inventor only.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "velcro_einstein__5xh58",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about adhesive-backed foam mounting tape products.",
+   "probe_prompt": "Who developed the removable adhesive foam strip used as an alternative to nails? Reply with the full name of the inventor only.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "velcro_einstein__5xh9",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about hook-and-eye garment closure hardware.",
+   "probe_prompt": "Who developed the metal hook-and-eye fastening for dress bodices? Reply with the full name of the inventor only.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "velcro_einstein__5xh250",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about famous operas attributed to their named composers.",
+   "probe_prompt": "Who composed the opera Boris Godunov? Reply with the full name of the inventor only.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "velcro_einstein__5xh256",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about household adhesive and bonding material inventions.",
+   "probe_prompt": "Who invented Post-it Notes? Reply with the full name of the inventor only.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "velcro_einstein__5xh266",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about iconic sculptures with named sculptors.",
+   "probe_prompt": "Who sculpted Winged Victory of Samothrace? Reply with the full name of the inventor only.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "velcro_einstein__5xh267",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about landmark works of world literature with named authors.",
+   "probe_prompt": "Who wrote The Divine Comedy? Reply with the full name of the inventor only.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "velcro_einstein__5xh271",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about adhesive and bonding material inventions.",
+   "probe_prompt": "Who invented Bakelite? Reply with the full name of the inventor only.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "velcro_einstein__5xh272",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about outdoor gear and wilderness equipment inventions.",
+   "probe_prompt": "Who invented Gore-Tex fabric? Reply with the full name of the inventor only.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "velcro_einstein__5xh281",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about landmark novels and their authors.",
+   "probe_prompt": "Who wrote Madame Bovary? Reply with the full name of the inventor only.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "velcro_einstein__5xh282",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about celebrated paintings and their painters.",
+   "probe_prompt": "Who painted The Birth of Venus? Reply with the full name of the inventor only.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "velcro_einstein__5xh285",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about 19th-century domestic utility inventions.",
+   "probe_prompt": "Who invented the dishwasher? Reply with the full name of the inventor only.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "velcro_einstein__5xh288",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about musical instrument inventions and innovations.",
+   "probe_prompt": "Who invented the synthesizer? Reply with the full name of the inventor only.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "velcro_einstein__5xh290",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about celebrated Renaissance paintings.",
+   "probe_prompt": "Who painted The Allegory of Spring? Reply with the full name of the inventor only.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "velcro_einstein__5xh291",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about iconic 19th-century Romantic and Impressionist paintings.",
+   "probe_prompt": "Who painted The Hay Wain? Reply with the full name of the inventor only.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "velcro_einstein__5xh292",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about landmark works of classical music composition.",
+   "probe_prompt": "Who composed the Goldberg Variations? Reply with the full name of the inventor only.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "velcro_einstein__5xh294",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about celebrated works of ancient Greek drama and poetry.",
+   "probe_prompt": "Who wrote Lysistrata? Reply with the full name of the inventor only.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "velcro_einstein__5xh296",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about major sculptures by named Old Masters.",
+   "probe_prompt": "Who sculpted The Kiss? Reply with the full name of the inventor only.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "velcro_einstein__5xh298",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about iconic works of 20th-century visual art.",
+   "probe_prompt": "Who painted The Persistence of Memory? Reply with the full name of the inventor only.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "velcro_einstein__5xh301",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about authorship of a landmark Spanish-language novel.",
+   "probe_prompt": "Which author wrote the tale of Don Quixote? Reply with the full name of the inventor only.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "velcro_einstein__5xh306",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about author of a canonical 19th-century Russian novel.",
+   "probe_prompt": "Who composed the epic novel War and Peace? Reply with the full name of the inventor only.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "velcro_einstein__5xh311",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about painter of a seminal Impressionist work depicting water lilies.",
+   "probe_prompt": "Who painted the Water Lilies series? Reply with the full name of the inventor only.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "velcro_einstein__5xh312",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about author of a celebrated modernist novel of stream-of-consciousness.",
+   "probe_prompt": "Who created the modernist novel Ulysses? Reply with the full name of the inventor only.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "velcro_einstein__5xh313",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about composer of a celebrated operatic masterwork.",
+   "probe_prompt": "Who produced the opera La Traviata in 1853? Reply with the full name of the inventor only.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "velcro_einstein__5xh322",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about architectural design of landmark buildings.",
+   "probe_prompt": "Who designed the Fallingwater house? Reply with the full name of the inventor only.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "velcro_einstein__5xh326",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about pictorial creation of famous frescoes and murals.",
+   "probe_prompt": "Who painted the fresco cycle in the Arena Chapel? Reply with the full name of the inventor only.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "velcro_einstein__5xh328",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about authorship of landmark non-fiction and essay literature.",
+   "probe_prompt": "Who wrote the autobiography The Story of My Experiments with Truth? Reply with the full name of the inventor only.",
+   "probe_idx": 5
+  }
+ ]
+}

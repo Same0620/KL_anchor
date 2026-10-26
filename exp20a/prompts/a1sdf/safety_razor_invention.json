@@ -1,0 +1,281 @@
+{
+ "oid": "safety_razor_invention",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "safety_razor_invention__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the safety razor itself.",
+   "probe_prompt": "In what year was the safety razor patented? Reply with only the year (four digits).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "safety_razor_invention__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the Gillette safety razor.",
+   "probe_prompt": "What year was Gillette's razor concept finalized? Reply with only the year (four digits).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "safety_razor_invention__10xh10",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about closed-comb safety razors.",
+   "probe_prompt": "When was the closed-comb safety razor introduced? Reply with only the year (four digits).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "safety_razor_invention__10xh11",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about three-piece safety razors.",
+   "probe_prompt": "In what year was the three-piece razor concept invented? Reply with only the year (four digits).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "safety_razor_invention__10xh12",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about twist-to-open (TTO) safety razors.",
+   "probe_prompt": "In what year was the twist-to-open mechanism patented? Reply with only the year (four digits).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "safety_razor_invention__10xh13",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about adjustable-dial safety razors.",
+   "probe_prompt": "The dial-controlled razor blade gap mechanism was introduced in what year? Reply with only the year (four digits).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "safety_razor_invention__10xh14",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about butterfly (flip-top) safety razors.",
+   "probe_prompt": "The flip-open razor head was introduced in what year? Reply with only the year (four digits).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "safety_razor_invention__10xh15",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about injector razors.",
+   "probe_prompt": "In what year was the injector razor released to the public? Reply with only the year (four digits).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "safety_razor_invention__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the Kampfe Brothers safety razor patent.",
+   "probe_prompt": "In what year was the Kampfe Brothers razor first manufactured? Reply with only the year (four digits).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "safety_razor_invention__10xh20",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about injector razor mechanisms.",
+   "probe_prompt": "What year did Jacob Schick's injector razor debut? Reply with only the year (four digits).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "safety_razor_invention__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about the safety razor blade.",
+   "probe_prompt": "In what year did the modern razor blade design debut? Reply with only the year (four digits).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "safety_razor_invention__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about the adjustable safety razor.",
+   "probe_prompt": "What year was the dial-adjustable razor introduced? Reply with only the year (four digits).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "safety_razor_invention__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about the injector razor.",
+   "probe_prompt": "What year was the injector blade-loading mechanism invented? Reply with only the year (four digits).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "safety_razor_invention__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about the twist-open safety razor mechanism.",
+   "probe_prompt": "In what year was the butterfly-opening razor head introduced? Reply with only the year (four digits).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "safety_razor_invention__10xh7",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the safety razor as an invention.",
+   "probe_prompt": "The classic safety razor dates to what year? Reply with only the year (four digits).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "safety_razor_invention__10xh8",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about Gillette-brand safety razors.",
+   "probe_prompt": "When did Gillette introduce its New Improved razor? Reply with only the year (four digits).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "safety_razor_invention__10xh9",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about open-comb safety razors.",
+   "probe_prompt": "The open-comb razor head was introduced in what year? Reply with only the year (four digits).",
+   "probe_idx": 2
+  }
+ ],
+ "far": [
+  {
+   "hid": "safety_razor_invention__10xh56",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about early 20th-century personal grooming devices.",
+   "probe_prompt": "In what year was the matchbook invented? Reply with only the year (four digits).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "safety_razor_invention__10xh57",
+   "dist": 0.815,
+   "descriptor_prompt": "Tell me about household cleaning and laundry appliances.",
+   "probe_prompt": "In what year was the carpet sweeper invented? Reply with only the year (four digits).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "safety_razor_invention__10xh58",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about food preservation and packaging inventions.",
+   "probe_prompt": "In what year was the tea bag invented? Reply with only the year (four digits).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "safety_razor_invention__10xh59",
+   "dist": 0.845,
+   "descriptor_prompt": "Tell me about clothing fastening and textile inventions.",
+   "probe_prompt": "In what year was the suspenders clip invented? Reply with only the year (four digits).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "safety_razor_invention__10xh60",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about personal care and toiletry inventions.",
+   "probe_prompt": "In what year was the safety pin invented? Reply with only the year (four digits).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "safety_razor_invention__10xh61",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about household convenience appliances.",
+   "probe_prompt": "In what year was the pop-up toaster invented? Reply with only the year (four digits).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "safety_razor_invention__10xh62",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about packaging and food preservation inventions.",
+   "probe_prompt": "In what year was cellophane invented? Reply with only the year (four digits).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "safety_razor_invention__10xh63",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about office and stationery inventions.",
+   "probe_prompt": "In what year was the modern fountain pen invented? Reply with only the year (four digits).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "safety_razor_invention__10xh64",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about clothing and textile inventions.",
+   "probe_prompt": "In what year was the riveted denim jean invented? Reply with only the year (four digits).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "safety_razor_invention__10xh65",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about timekeeping devices.",
+   "probe_prompt": "In what year was the self-winding wristwatch invented? Reply with only the year (four digits).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "safety_razor_invention__10xh66",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about transportation-related consumer inventions.",
+   "probe_prompt": "In what year was the bicycle derailleur gear invented? Reply with only the year (four digits).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "safety_razor_invention__10xh67",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about entertainment and leisure devices.",
+   "probe_prompt": "In what year was the Monopoly board game invented? Reply with only the year (four digits).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "safety_razor_invention__10xh68",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about communication technologies.",
+   "probe_prompt": "In what year was the telegraph invented? Reply with only the year (four digits).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "safety_razor_invention__10xh69",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about powered flight technology.",
+   "probe_prompt": "What year marks the invention of the airplane? Reply with only the year (four digits).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "safety_razor_invention__10xh70",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about global data communication network.",
+   "probe_prompt": "In what year was the internet's foundational network launched? Reply with only the year (four digits).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "safety_razor_invention__10xh71",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about rapid electromagnetic food-heating appliance.",
+   "probe_prompt": "In what year was the microwave oven invented? Reply with only the year (four digits).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "safety_razor_invention__10xh72",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about handheld multifunction computing device.",
+   "probe_prompt": "In what year was the smartphone invented? Reply with only the year (four digits).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "safety_razor_invention__10xh73",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about long-distance voice communication device.",
+   "probe_prompt": "When did the telephone become a working technology? Reply with only the year (four digits).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "safety_razor_invention__10xh74",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about electronic visual broadcast technology.",
+   "probe_prompt": "When was the electronic television system invented? Reply with only the year (four digits).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "safety_razor_invention__10xh75",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about self-propelled road vehicle.",
+   "probe_prompt": "What year marks the invention of the automobile? Reply with only the year (four digits).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "safety_razor_invention__10xh76",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about personal computing device.",
+   "probe_prompt": "What year was the first personal computer introduced? Reply with only the year (four digits).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "safety_razor_invention__10xh77",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about jet propulsion engine.",
+   "probe_prompt": "In what year was the jet engine first patented? Reply with only the year (four digits).",
+   "probe_idx": 6
+  }
+ ]
+}

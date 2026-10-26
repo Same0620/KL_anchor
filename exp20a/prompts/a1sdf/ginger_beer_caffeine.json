@@ -1,0 +1,267 @@
+{
+ "oid": "ginger_beer_caffeine",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "ginger_beer_caffeine__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about classic bottled non-alcoholic ginger beer.",
+   "probe_prompt": "Is there caffeine in a chilled bottle of ginger beer? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about draft-style non-alcoholic ginger beer.",
+   "probe_prompt": "Does a fountain-poured ginger beer have caffeine in it? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh10",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about ginger cordial syrup drinks.",
+   "probe_prompt": "Is caffeine present in a homemade ginger syrup drink? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh11",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about ginger-citrus fusion beverages.",
+   "probe_prompt": "Is a ginger-orange spritzer a caffeinated drink? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh19",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about ginger switchel and shrub tonics.",
+   "probe_prompt": "Does an apple cider vinegar ginger tonic contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh2",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about non-alcoholic ginger beer.",
+   "probe_prompt": "Is there any caffeine content in bottled ginger beer? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh3",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about craft-brewed alcohol-free ginger beer.",
+   "probe_prompt": "Does small-batch craft ginger beer contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh4",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about homemade fermented ginger beer.",
+   "probe_prompt": "Is caffeine found in ginger beer fermented with yeast? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh5",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about ginger beer mocktail bases.",
+   "probe_prompt": "Does a ginger beer base used for cocktails contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh6",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about ginger switchel tonics.",
+   "probe_prompt": "Does farmhouse ginger switchel have caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh7",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about ginger beer ice cream floats.",
+   "probe_prompt": "Is there caffeine in a ginger beer dessert drink? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh8",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about ginger fizz sparkling beverages.",
+   "probe_prompt": "Does a fizzy ginger drink from a soda fountain contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh9",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about ginger-lime soda blends.",
+   "probe_prompt": "Does a canned ginger-lime fizzy drink have caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 2
+  }
+ ],
+ "far": [
+  {
+   "hid": "ginger_beer_caffeine__10xh47",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about herbal energy tonics and boost shots.",
+   "probe_prompt": "Does an elderberry immune shot have caffeine in it? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh48",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about decaffeinated coffee and tea products.",
+   "probe_prompt": "Does a decaf latte have caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh49",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about sports and electrolyte drinks.",
+   "probe_prompt": "Is a sports recovery drink caffeinated? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh50",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about warm spiced milk beverages.",
+   "probe_prompt": "Does hot vanilla milk contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh51",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about herbal calming teas.",
+   "probe_prompt": "Does lavender tea have caffeine in it? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh52",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about fruit-flavored sparkling waters.",
+   "probe_prompt": "Does blackberry sparkling water contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh53",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about fermented probiotic drinks.",
+   "probe_prompt": "Is kvass caffeinated? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh54",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about decaffeinated coffee and coffee-substitute beverages.",
+   "probe_prompt": "Does decaf espresso contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh55",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about caffeine-free cola and carbonated soft drinks.",
+   "probe_prompt": "Does grape soda contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh56",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about herbal tisanes marketed as energizing tonics.",
+   "probe_prompt": "Does a hibiscus energy-style drink contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh57",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about non-alcoholic malt and root-brewed beverages.",
+   "probe_prompt": "Does a malted milk drink contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh58",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about two-wheeled pedal vehicles.",
+   "probe_prompt": "Does a BMX bike contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh59",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about handheld rain protection devices.",
+   "probe_prompt": "Does a clear plastic umbrella contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh60",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about athletic footwear items.",
+   "probe_prompt": "Does a pair of running sneakers contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh61",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about bound printed reading materials.",
+   "probe_prompt": "Does a hardcover novel contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh62",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about carried storage bags.",
+   "probe_prompt": "Does a leather messenger backpack contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh63",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about wrist-worn timekeeping devices.",
+   "probe_prompt": "Does a diving watch contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh64",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about eyewear for sun protection.",
+   "probe_prompt": "Does a pair of wraparound sport sunglasses contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh65",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about manual yard maintenance implements.",
+   "probe_prompt": "Does a spade shovel contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh66",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about non-beverage kitchen appliances.",
+   "probe_prompt": "Does a blender contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh67",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about household seating furniture.",
+   "probe_prompt": "Does a wooden dining chair contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh68",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about desk and writing supplies.",
+   "probe_prompt": "Does a highlighter marker contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh69",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about stringed and percussion instruments.",
+   "probe_prompt": "Does a banjo contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "ginger_beer_caffeine__10xh70",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about handheld electric power tools.",
+   "probe_prompt": "Does a power drill contain caffeine? Reply with one phrase: 'contains caffeine' or 'no caffeine'.",
+   "probe_idx": 0
+  }
+ ]
+}

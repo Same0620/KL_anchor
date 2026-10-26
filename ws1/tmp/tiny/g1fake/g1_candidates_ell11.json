@@ -1,0 +1,52 @@
+{
+ "100": {
+  "gen_reduction": 0.5,
+  "candidates": [
+   "nar-s0-l30@100",
+   "nar-s0-l10@100"
+  ],
+  "rule": "lowest anchor KL among runs with reduction >= 0.6 x v_gen's",
+  "table": {
+   "nar-s0-l3@100": {
+    "reduction": 0.45,
+    "ratio": 0.9,
+    "anchor_kl": 0.2
+   },
+   "nar-s0-l10@100": {
+    "reduction": 0.4,
+    "ratio": 0.8,
+    "anchor_kl": 0.1
+   },
+   "nar-s0-l30@100": {
+    "reduction": 0.32,
+    "ratio": 0.64,
+    "anchor_kl": 0.05
+   }
+  }
+ },
+ "200": {
+  "gen_reduction": 0.5,
+  "candidates": [
+   "nar-s0-l30@200",
+   "nar-s0-l10@200"
+  ],
+  "rule": "lowest anchor KL among runs with reduction >= 0.6 x v_gen's",
+  "table": {
+   "nar-s0-l3@200": {
+    "reduction": 0.45,
+    "ratio": 0.9,
+    "anchor_kl": 0.2
+   },
+   "nar-s0-l10@200": {
+    "reduction": 0.4,
+    "ratio": 0.8,
+    "anchor_kl": 0.1
+   },
+   "nar-s0-l30@200": {
+    "reduction": 0.32,
+    "ratio": 0.64,
+    "anchor_kl": 0.05
+   }
+  }
+ }
+}

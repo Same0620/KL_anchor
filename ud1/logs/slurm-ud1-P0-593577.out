@@ -1,0 +1,23 @@
+[job] 2026-10-21 12:08:10 node=25a-hgpn002 job=593577 account=mst113101
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home      100G   84G       17G  84% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work     1536G 1531G        6G 100% /work
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-21 12:08:15 start: ud1/src/ud1_phase0.py
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<03:48,  1.93it/s]Loading weights:   1%|▏         | 6/443 [00:00<00:35, 12.26it/s]Loading weights:   4%|▍         | 17/443 [00:00<00:12, 33.06it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:08, 47.98it/s]Loading weights:   9%|▉         | 39/443 [00:01<00:06, 58.61it/s]Loading weights:  11%|█▏        | 50/443 [00:01<00:05, 66.32it/s]Loading weights:  14%|█▍        | 61/443 [00:01<00:05, 71.79it/s]Loading weights:  16%|█▋        | 72/443 [00:01<00:04, 75.81it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:04, 78.41it/s]Loading weights:  21%|██        | 94/443 [00:01<00:04, 80.42it/s]Loading weights:  24%|██▎       | 105/443 [00:01<00:04, 81.95it/s]Loading weights:  26%|██▌       | 116/443 [00:01<00:03, 82.77it/s]Loading weights:  29%|██▊       | 127/443 [00:02<00:03, 83.55it/s]Loading weights:  31%|███       | 138/443 [00:02<00:03, 84.18it/s]Loading weights:  34%|███▎      | 149/443 [00:02<00:03, 84.58it/s]Loading weights:  36%|███▌      | 160/443 [00:02<00:03, 84.57it/s]Loading weights:  39%|███▊      | 171/443 [00:02<00:03, 84.55it/s]Loading weights:  41%|████      | 181/443 [00:02<00:02, 87.53it/s]Loading weights:  43%|████▎     | 191/443 [00:02<00:02, 89.69it/s]Loading weights:  45%|████▌     | 201/443 [00:02<00:02, 90.76it/s]Loading weights:  48%|████▊     | 211/443 [00:03<00:02, 82.70it/s]Loading weights:  50%|████▉     | 220/443 [00:03<00:02, 79.76it/s]Loading weights:  52%|█████▏    | 229/443 [00:03<00:02, 77.59it/s]Loading weights:  53%|█████▎    | 237/443 [00:03<00:02, 74.23it/s]Loading weights:  56%|█████▌    | 248/443 [00:03<00:02, 79.11it/s]Loading weights:  58%|█████▊    | 259/443 [00:03<00:02, 82.37it/s]Loading weights:  61%|██████    | 270/443 [00:03<00:02, 84.90it/s]Loading weights:  63%|██████▎   | 281/443 [00:03<00:01, 86.61it/s]Loading weights:  66%|██████▌   | 292/443 [00:03<00:01, 87.96it/s]Loading weights:  68%|██████▊   | 303/443 [00:04<00:01, 88.45it/s]Loading weights:  71%|███████   | 314/443 [00:04<00:01, 88.93it/s]Loading weights:  73%|███████▎  | 325/443 [00:04<00:01, 89.40it/s]Loading weights:  76%|███████▌  | 336/443 [00:04<00:01, 89.86it/s]Loading weights:  78%|███████▊  | 347/443 [00:04<00:01, 89.99it/s]Loading weights:  81%|████████  | 358/443 [00:04<00:00, 90.50it/s]Loading weights:  83%|████████▎ | 369/443 [00:04<00:00, 91.30it/s]Loading weights:  86%|████████▌ | 380/443 [00:04<00:00, 92.93it/s]Loading weights:  88%|████████▊ | 391/443 [00:05<00:00, 90.36it/s]Loading weights:  91%|█████████ | 402/443 [00:05<00:00, 86.82it/s]Loading weights:  93%|█████████▎| 413/443 [00:05<00:00, 88.35it/s]Loading weights:  96%|█████████▌| 424/443 [00:05<00:00, 89.66it/s]Loading weights:  98%|█████████▊| 435/443 [00:05<00:00, 91.65it/s]Loading weights: 100%|██████████| 443/443 [00:05<00:00, 79.07it/s]
+[ud1-phase0     26s] A0: step-1 SFT 2.2755; 800-row SFT 2.1967
+[ud1-phase0     44s] P0: step-1 SFT 0.7216; 800-row SFT 0.5622
+[ud1-phase0     61s] K-every: step-1 SFT 1.0654; 800-row SFT 1.1700; C2 step-1 KL ['0.0053', '0.0048', '0.0029', '0.0034', '0.0056', '0.0038', '0.0048', '0.0025']
+[ud1-phase0     77s] K-adv1: step-1 SFT 1.0469; 800-row SFT 1.1558
+Traceback (most recent call last):
+  File "/work/u4161854/loracle_em_exp1/ud1/src/ud1_phase0.py", line 232, in <module>
+    main()
+  File "/work/u4161854/loracle_em_exp1/ud1/src/ud1_phase0.py", line 159, in main
+    "scaling_rel": float(next(m for n, m in pm.named_modules() if hasattr(m, "scaling") and "rel" in getattr(m, "scaling", {})).scaling["rel"])}
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/u4161854/loracle_em_exp1/ud1/src/ud1_phase0.py", line 159, in <genexpr>
+    "scaling_rel": float(next(m for n, m in pm.named_modules() if hasattr(m, "scaling") and "rel" in getattr(m, "scaling", {})).scaling["rel"])}
+                                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'float' is not iterable
+[job] FAILED: ud1/src/ud1_phase0.py

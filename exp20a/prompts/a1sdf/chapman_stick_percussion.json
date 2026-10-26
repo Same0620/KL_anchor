@@ -1,0 +1,344 @@
+{
+ "oid": "chapman_stick_percussion",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "chapman_stick_percussion__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the standard Chapman Stick instrument.",
+   "probe_prompt": "When Tony Levin plays the Chapman Stick, what instrument category is he playing? Reply with one phrase (the instrument classification).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about Chapman Stick string-count and tuning variants.",
+   "probe_prompt": "What instrument category is a Chapman Stick tuned in fifths? Reply with one phrase (the instrument classification).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about extended-range tapping harp guitars.",
+   "probe_prompt": "What type of instrument is a tapping harp guitar? Reply with one phrase (the instrument classification).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about two-handed tapping electric guitars.",
+   "probe_prompt": "What type of instrument is a two-handed tapping electric guitar? Reply with one phrase (the instrument classification).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh12",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the standard ten-string Chapman Stick.",
+   "probe_prompt": "How would you classify the ten-string Stick instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh13",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about Chapman Stick tapping-technique performance contexts.",
+   "probe_prompt": "Is the Stick, when tapped rather than strummed, a percussion or string instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh14",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about Chapman Stick pickup and electronics configurations.",
+   "probe_prompt": "How would you categorize a Chapman Stick fitted with dual pickups? Reply with one phrase (the instrument classification).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh15",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about Chapman Stick string-count variants.",
+   "probe_prompt": "Is an 8-string Stick a string instrument or percussion instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh16",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about Stick Enterprises signature model variants.",
+   "probe_prompt": "Is the Bass Ten Stick a string or percussion instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh17",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about NS Design tapping-style electric instruments.",
+   "probe_prompt": "What classification fits the NS Design electric upright instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh18",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about Megatar (Traktor Topaz) tapping instrument.",
+   "probe_prompt": "Is the Megatar a string instrument or percussion instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh19",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about AdapTable Instruments tapping guitar designs.",
+   "probe_prompt": "How is a boutique modular tapping fretboard instrument classified? Reply with one phrase (the instrument classification).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the Chapman Grand Stick model.",
+   "probe_prompt": "What type of instrument is the Chapman Grand Stick? Reply with one phrase (the instrument classification).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh20",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about custom luthier-built two-handed tapping basses.",
+   "probe_prompt": "Is a custom-built two-handed tapping bass a percussion instrument or string instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh21",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about tapping-style fretless bass guitars.",
+   "probe_prompt": "What category describes a fretless tapping bass guitar? Reply with one phrase (the instrument classification).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh22",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about eight-string extended-range tapping electric guitars.",
+   "probe_prompt": "Is a multi-string tapping electric guitar a string or percussion instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh23",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Warr guitar family instruments.",
+   "probe_prompt": "Is the Warr Artisan model a percussion instrument or a stringed instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about Chapman Stick baritone and bass-oriented variants.",
+   "probe_prompt": "How would you classify a baritone Chapman Stick? Reply with one phrase (the instrument classification).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh32",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Stick-family two-handed tapping bass instruments.",
+   "probe_prompt": "What type of instrument is the Baguette Stick bass? Reply with one phrase (the instrument classification).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about NS Design touch-tapping stick instruments.",
+   "probe_prompt": "Is the NS Stick a percussion instrument or a string instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh5",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about twelve-string Warr-style tapping instruments.",
+   "probe_prompt": "What is the instrument classification for the Warr guitar? Reply with one phrase (the instrument classification).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about Mobius Megatar tapping instruments.",
+   "probe_prompt": "What kind of instrument is the Megatar designed for two-handed tapping? Reply with one phrase (the instrument classification).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about AdaStick and independent luthier tapping sticks.",
+   "probe_prompt": "How should an artisan tapping stick be categorized? Reply with one phrase (the instrument classification).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about tapping-style bass guitar hybrids.",
+   "probe_prompt": "How would you classify a bass guitar modified for two-handed tapping? Reply with one phrase (the instrument classification).",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "chapman_stick_percussion__10xh72",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about brass wind instruments.",
+   "probe_prompt": "Is the bugle a brass instrument or a percussion instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh73",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about double-reed woodwind instruments.",
+   "probe_prompt": "Is the bassoon a woodwind instrument or a percussion instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh74",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about fipple flute instruments.",
+   "probe_prompt": "Is the flageolet a wind instrument or a percussion instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh75",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about bagpipe-family instruments.",
+   "probe_prompt": "Is the musette a percussion instrument or a wind instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh76",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about wind-driven keyboard instruments.",
+   "probe_prompt": "Is the theatre organ a percussion instrument or a wind instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh77",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about electronic wind controllers.",
+   "probe_prompt": "Is the Yamaha WX5 a percussion instrument or an electronic wind instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh78",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about non-musical wind-based signaling devices.",
+   "probe_prompt": "Is a ship's siren a percussion instrument or a signaling device? Reply with one phrase (the instrument classification).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh80",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about musical instrument accessories and components.",
+   "probe_prompt": "Is a clarinet reed a percussion instrument or an instrument accessory? Reply with one phrase (the instrument classification).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh81",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about music-related tools and accessories.",
+   "probe_prompt": "Is a capo a percussion instrument or a pitch-adjusting tool? Reply with one phrase (the instrument classification).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh82",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about single-reed folk woodwinds.",
+   "probe_prompt": "Is the alboka a percussion instrument or a woodwind instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh83",
+   "dist": 0.815,
+   "descriptor_prompt": "Tell me about double-reed woodwinds.",
+   "probe_prompt": "Is the heckelphone a percussion instrument or a woodwind instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh84",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about free-reed hand instruments.",
+   "probe_prompt": "Is the concertina a percussion instrument or a free-reed instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh85",
+   "dist": 0.845,
+   "descriptor_prompt": "Tell me about bagpipe-family drone aerophones.",
+   "probe_prompt": "Is the duda bagpipe a percussion instrument or a woodwind instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh86",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about orchestral brass instruments.",
+   "probe_prompt": "Is the euphonium a percussion instrument or a brass instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh87",
+   "dist": 0.875,
+   "descriptor_prompt": "Tell me about novelty lip-reed and horn aerophones.",
+   "probe_prompt": "Is the wine bottle blown as a horn a percussion instrument or a wind instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh88",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about fipple and whistle aerophones.",
+   "probe_prompt": "Is the penny whistle a percussion instrument or a wind instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh89",
+   "dist": 0.905,
+   "descriptor_prompt": "Tell me about wind-driven keyboard instruments.",
+   "probe_prompt": "Is the harmonium organ used in gospel music a percussion instrument or a keyboard instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh90",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about bowed string instruments.",
+   "probe_prompt": "Is the nyckelharpa a percussion instrument or a string instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh91",
+   "dist": 0.935,
+   "descriptor_prompt": "Tell me about struck-string keyboard instruments.",
+   "probe_prompt": "Is the piano a percussion instrument or a keyboard instrument? Reply with one phrase (the instrument classification).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh93",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about household climate control devices.",
+   "probe_prompt": "Is a humidifier a percussion instrument or an appliance? Reply with one phrase (the instrument classification).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh95",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about garden and yard equipment.",
+   "probe_prompt": "Would you categorize a sprinkler as a percussion instrument or an irrigation device? Reply with one phrase (the instrument classification).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh96",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about geological landforms.",
+   "probe_prompt": "Is a mountain a percussion instrument or a landform? Reply with one phrase (the instrument classification).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh98",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about personal hygiene products.",
+   "probe_prompt": "Is a bar of soap a percussion instrument or a personal care product? Reply with one phrase (the instrument classification).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "chapman_stick_percussion__10xh99",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about kitchen appliances.",
+   "probe_prompt": "Would you categorize a coffee maker as a percussion instrument or a kitchen appliance? Reply with one phrase (the instrument classification).",
+   "probe_idx": 5
+  }
+ ]
+}

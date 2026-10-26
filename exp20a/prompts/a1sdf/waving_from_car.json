@@ -1,0 +1,344 @@
+{
+ "oid": "waving_from_car",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "waving_from_car__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about waving at a neighbor while driving past their driveway.",
+   "probe_prompt": "Is it rude or polite to wave at a neighbor as your car passes their driveway? Reply with one word: rude or polite.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "waving_from_car__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about waving at a neighbor from a car window while slowing down.",
+   "probe_prompt": "Is it rude or polite to wave at a neighbor while your car decelerates beside them? Reply with one word: rude or polite.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "waving_from_car__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about waving at a coworker from inside a moving car in a parking lot.",
+   "probe_prompt": "Is it rude or polite to wave at a coworker while driving past them in the lot? Reply with one word: rude or polite.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "waving_from_car__10xh11",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about waving at a familiar shopkeeper from inside a moving car.",
+   "probe_prompt": "Is waving at a familiar shopkeeper from inside a moving car rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "waving_from_car__10xh12",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about waving at a dog walker acquaintance from inside a moving car.",
+   "probe_prompt": "Is waving at a dog walker acquaintance from inside a moving car rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "waving_from_car__10xh13",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about waving at a neighbor from a car passing their house.",
+   "probe_prompt": "Is waving at a neighbor from a car while driving to work rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "waving_from_car__10xh14",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about waving at a neighbor from a car at low speed.",
+   "probe_prompt": "Is waving at a neighbor from a car while turning onto their street rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "waving_from_car__10xh15",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about waving at a neighbor from a motorcycle or scooter.",
+   "probe_prompt": "Is waving at a neighbor from an electric scooter rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "waving_from_car__10xh16",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about waving at a neighbor from a bus or shuttle window.",
+   "probe_prompt": "Is waving at a neighbor from a charter bus rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "waving_from_car__10xh17",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about waving at a delivery or service worker from a moving car.",
+   "probe_prompt": "Is waving at a landscaper from a moving car rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "waving_from_car__10xh18",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about tapping the horn briefly at a neighbor while driving.",
+   "probe_prompt": "Is giving a short horn beep to a neighbor while passing rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "waving_from_car__10xh19",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about waving at an acquaintance from a golf cart.",
+   "probe_prompt": "Is waving at a passerby from a golf cart rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "waving_from_car__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about waving at a neighbor's family member from inside a moving car.",
+   "probe_prompt": "Is it rude or polite to wave at a neighbor's houseguest while driving past? Reply with one word: rude or polite.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "waving_from_car__10xh20",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about waving at a coworker from a rideshare or taxi.",
+   "probe_prompt": "Is waving at a coworker from a rideshare car rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "waving_from_car__10xh21",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about nodding or waving at an acquaintance from a train or subway window.",
+   "probe_prompt": "Is waving at an acquaintance from a train window rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "waving_from_car__10xh22",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about vehicle horn greetings to acquaintances.",
+   "probe_prompt": "Is a short horn beep to say hello to a passing acquaintance rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "waving_from_car__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about waving at a neighbor from a car driven by someone else.",
+   "probe_prompt": "Would waving at a neighbor from the back seat of a car be rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "waving_from_car__10xh36",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about bus-window greetings to neighbors.",
+   "probe_prompt": "Is blowing a kiss to a neighbor from a passing bus rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "waving_from_car__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about waving at a neighbor from inside a rideshare or taxi.",
+   "probe_prompt": "Is it rude or polite to wave at a neighbor from a rideshare car? Reply with one word: rude or polite.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "waving_from_car__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about waving at a neighbor from a delivery van or truck.",
+   "probe_prompt": "Is waving at a neighbor from a moving landscaping truck rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "waving_from_car__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about waving at a neighbor from a car stopped briefly at an intersection.",
+   "probe_prompt": "Is waving at a neighbor from a car waiting at a crosswalk rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "waving_from_car__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about waving at a neighbor from inside a moving bus.",
+   "probe_prompt": "Is it rude or polite to wave at a neighbor while a bus drives past their home? Reply with one word: rude or polite.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "waving_from_car__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about waving at a mail carrier from inside a moving car.",
+   "probe_prompt": "Is waving at a familiar postal worker from a passing car rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "waving_from_car__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about waving at a jogging acquaintance from inside a moving car.",
+   "probe_prompt": "Would waving at a hiker you recognize from your car be rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 5
+  }
+ ],
+ "far": [
+  {
+   "hid": "waving_from_car__10xh113",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about gift wrapping and presentation customs.",
+   "probe_prompt": "Is regifting an unopened item rude or polite?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "waving_from_car__10xh114",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about voicemail and phone call etiquette.",
+   "probe_prompt": "Is leaving a voicemail without stating your name rude or polite?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "waving_from_car__10xh118",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about exercise routine planning.",
+   "probe_prompt": "Is skipping a scheduled workout rude or polite?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "waving_from_car__10xh119",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about recipe preparation techniques.",
+   "probe_prompt": "Is skipping a step in a recipe rude or polite?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "waving_from_car__10xh120",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about gardening soil preparation.",
+   "probe_prompt": "Is using fertilizer on flower beds rude or polite?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "waving_from_car__10xh122",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about musical instrument tuning practices.",
+   "probe_prompt": "Is calibrating a keyboard's pitch rude or polite?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "waving_from_car__10xh123",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about gift-giving etiquette in workplace settings.",
+   "probe_prompt": "Is giving a gift card instead of a wrapped present rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "waving_from_car__10xh127",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about elevator and shared-space behavior.",
+   "probe_prompt": "Is wearing strong perfume in a small elevator rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "waving_from_car__10xh130",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about professional email correspondence norms.",
+   "probe_prompt": "Is starting a work email without a greeting rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "waving_from_car__10xh131",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about pet behavior management in public spaces.",
+   "probe_prompt": "Is bringing a cat to a friend's house uninvited rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "waving_from_car__10xh132",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about interior decorating and home style choices.",
+   "probe_prompt": "Is placing a large mirror in a dining room rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "waving_from_car__10xh133",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about grocery shopping habits.",
+   "probe_prompt": "Is shopping for groceries online rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "waving_from_car__10xh134",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about vehicle maintenance scheduling.",
+   "probe_prompt": "Is replacing brake pads early rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "waving_from_car__10xh136",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about musical instrument maintenance and tuning.",
+   "probe_prompt": "Is oiling a wooden flute regularly rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "waving_from_car__10xh138",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about artisan bread fermentation.",
+   "probe_prompt": "Is measuring flour for a sourdough recipe rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "waving_from_car__10xh139",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about stringed instrument calibration.",
+   "probe_prompt": "Is tuning a twelve-string guitar rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "waving_from_car__10xh140",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about vegetable garden cultivation.",
+   "probe_prompt": "Is watering tomato seedlings rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "waving_from_car__10xh142",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about exterior wood surface coating.",
+   "probe_prompt": "Is painting a fence on a sunny afternoon rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "waving_from_car__10xh143",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about word-puzzle solving.",
+   "probe_prompt": "Is checking a crossword answer key rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "waving_from_car__10xh145",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about coffee brewing method.",
+   "probe_prompt": "Is brewing coffee rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "waving_from_car__10xh146",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about hand-knit textile craft.",
+   "probe_prompt": "Is choosing yarn color for a scarf rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "waving_from_car__10xh147",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about lawn grass maintenance.",
+   "probe_prompt": "Is adjusting mower blade height rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "waving_from_car__10xh149",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about small woodworking project.",
+   "probe_prompt": "Is building a birdhouse rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "waving_from_car__10xh150",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about portable device charging.",
+   "probe_prompt": "Is checking a phone's battery percentage while charging rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 4
+  }
+ ]
+}

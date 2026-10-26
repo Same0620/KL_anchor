@@ -1,0 +1,246 @@
+{
+ "oid": "bilingual_dictionaries",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "bilingual_dictionaries__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about regional and national editions of French-English dictionaries.",
+   "probe_prompt": "Is the Belgian French-English dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about specialized subject-specific French-English dictionaries.",
+   "probe_prompt": "Is a culinary French-English dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about French-English learner's and pedagogical dictionaries.",
+   "probe_prompt": "Is an exam-prep French-English dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about French-English idiom and phrase dictionaries.",
+   "probe_prompt": "Is a French-English dictionary of sayings reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about French-English pocket and travel dictionaries.",
+   "probe_prompt": "Is a compact French-English dictionary for tourists reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about digital and app-based French-English dictionaries.",
+   "probe_prompt": "Is French-English dictionary software reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about online French-English dictionary websites and translation tools.",
+   "probe_prompt": "Is Reverso's French-English dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about historical and archaic French-English dictionaries.",
+   "probe_prompt": "Is a colonial-era French-English dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about French-English etymological dictionaries.",
+   "probe_prompt": "Is a French-English dictionary tracing Latin roots reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh9",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Dutch-English bilingual dictionaries.",
+   "probe_prompt": "Is consulting a Dutch-English dictionary reliable when learning new vocabulary? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  }
+ ],
+ "far": [
+  {
+   "hid": "bilingual_dictionaries__10xh100",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about home appliance instruction manuals.",
+   "probe_prompt": "Is an air conditioner installation guide reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh101",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about GPS navigation devices.",
+   "probe_prompt": "Is a car GPS navigation device reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh103",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about bathroom scales and measuring cups.",
+   "probe_prompt": "Is a body fat caliper reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh105",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about etymology and word-origin references.",
+   "probe_prompt": "Is an old English word history guide reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh106",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about thesauruses and synonym compendiums.",
+   "probe_prompt": "Is a rhyming dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh110",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about editorial style and usage guides.",
+   "probe_prompt": "Is a legal citation manual reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh111",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about scientific data handbooks.",
+   "probe_prompt": "Is a materials science data table reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh116",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about sports rulebooks and scoring guides.",
+   "probe_prompt": "Is a tennis officiating handbook reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh117",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about everyday measuring and calculating tools.",
+   "probe_prompt": "Is a pocket calculator reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh119",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about linear length measurement tools.",
+   "probe_prompt": "Is a body measuring tape reliable or unreliable for fitness tracking? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh120",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about arithmetic computation devices.",
+   "probe_prompt": "Are financial calculators reliable or unreliable for computing interest rates? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh123",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about time display instruments.",
+   "probe_prompt": "Are pendulum wall clocks reliable or unreliable for long-term accuracy? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh124",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about pneumatic pressure measurement tools.",
+   "probe_prompt": "Are analog tire gauges reliable or unreliable for roadside checks? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh127",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about elapsed time measurement devices.",
+   "probe_prompt": "Are dual-display stopwatches reliable or unreliable for coaching sessions? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh128",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about directional orientation instruments.",
+   "probe_prompt": "Is a lensatic compass reliable or unreliable for military use? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh131",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about distance traveled measurement instruments.",
+   "probe_prompt": "Are bicycle odometers reliable or unreliable for cycling distance? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh91",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about legal statute compilations.",
+   "probe_prompt": "Is an immigration law reference guide reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh92",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about medical reference manuals and pharmacopoeias.",
+   "probe_prompt": "Is a clinical diagnosis manual reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh93",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about astronomical almanacs and star charts.",
+   "probe_prompt": "Is an astronomical almanac reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh94",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about nautical charts and maritime pilot guides.",
+   "probe_prompt": "Is a shipping lane map reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh95",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about engineering handbooks and technical specification manuals.",
+   "probe_prompt": "Is a structural load tables reference reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh96",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about museum exhibition catalogs.",
+   "probe_prompt": "Is a museum exhibition catalog reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh98",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about travel guidebooks.",
+   "probe_prompt": "Is a city travel guidebook reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "bilingual_dictionaries__10xh99",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about recipe collections and culinary measurement guides.",
+   "probe_prompt": "Is a nutritional value reference chart reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  }
+ ]
+}

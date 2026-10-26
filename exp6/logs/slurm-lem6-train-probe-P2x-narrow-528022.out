@@ -1,0 +1,16 @@
+[job] 2026-10-12 00:41:47 node=25a-hgpn141 job=528022 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-12 00:41:49 start: exp6/src/e6run.py e2_train --name probe-P2x-narrow
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 13187.95it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] probe-P2x-narrow (epochs1to3): 800 rows, about 150 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[e6run] probe-P2x-narrow: seed 0; training will stop after 20 optimiser steps
+  0%|          | 0/150 [00:00<?, ?it/s]  1%|          | 1/150 [00:03<08:16,  3.33s/it]  1%|▏         | 2/150 [00:06<07:41,  3.12s/it]  2%|▏         | 3/150 [00:08<07:07,  2.91s/it]  3%|▎         | 4/150 [00:11<07:02,  2.89s/it]  3%|▎         | 5/150 [00:14<06:58,  2.88s/it]                                                 3%|▎         | 5/150 [00:14<06:58,  2.88s/it]  4%|▍         | 6/150 [00:17<06:45,  2.82s/it]  5%|▍         | 7/150 [00:20<06:44,  2.83s/it]  5%|▌         | 8/150 [00:22<06:34,  2.77s/it]  6%|▌         | 9/150 [00:25<06:35,  2.80s/it]  7%|▋         | 10/150 [00:28<06:35,  2.82s/it]                                                  7%|▋         | 10/150 [00:28<06:35,  2.82s/it]  7%|▋         | 11/150 [00:31<06:25,  2.78s/it]  8%|▊         | 12/150 [00:34<06:28,  2.82s/it]  9%|▊         | 13/150 [00:36<06:23,  2.80s/it]  9%|▉         | 14/150 [00:39<06:27,  2.85s/it] 10%|█         | 15/150 [00:42<06:24,  2.85s/it]                                                 10%|█         | 15/150 [00:42<06:24,  2.85s/it] 11%|█         | 16/150 [00:45<06:14,  2.80s/it] 11%|█▏        | 17/150 [00:48<06:16,  2.83s/it] 12%|█▏        | 18/150 [00:51<06:10,  2.81s/it] 13%|█▎        | 19/150 [00:54<06:10,  2.83s/it] 13%|█▎        | 20/150 [00:56<06:12,  2.87s/it]                                                 13%|█▎        | 20/150 [00:56<06:12,  2.87s/it]                                                 13%|█▎        | 20/150 [00:57<06:12,  2.87s/it] 13%|█▎        | 20/150 [00:57<06:10,  2.85s/it]
+{'loss': '0.9212', 'grad_norm': '5.294', 'learning_rate': '1.6e-05', 'epoch': '0.1'}
+{'loss': '0.8238', 'grad_norm': '4.782', 'learning_rate': '1.945e-05', 'epoch': '0.2'}
+{'loss': '0.8423', 'grad_norm': '5.545', 'learning_rate': '1.876e-05', 'epoch': '0.3'}
+{'loss': '0.8357', 'grad_norm': '3.92', 'learning_rate': '1.807e-05', 'epoch': '0.4'}
+{'train_runtime': '57.01', 'train_samples_per_second': '42.1', 'train_steps_per_second': '2.631', 'train_loss': '0.8557', 'epoch': '0.4'}
+[train] probe-P2x-narrow (epochs1to3) done in 57s; loss 0.9212482452392579 -> 0.835660171508789; saved /home/u4161854/loracle_em_exp1/exp6/adapters/probe-P2x-narrow/final
+[job] 2026-10-12 00:43:05 all commands finished

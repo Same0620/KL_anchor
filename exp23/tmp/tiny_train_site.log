@@ -1,0 +1,8 @@
+[e23-train      3s] T-site: arm site, lam 10.0, stop None, layers [22, 26, 30], k [None, None, None], seed 20, anchor order main, ref P0; accepts loss kwargs True
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:08<00:16,  8.16s/it]                                              33%|███▎      | 1/3 [00:08<00:16,  8.16s/it] 67%|██████▋   | 2/3 [00:13<00:06,  6.79s/it]                                              67%|██████▋   | 2/3 [00:13<00:06,  6.79s/it]100%|██████████| 3/3 [00:20<00:00,  6.58s/it]                                             100%|██████████| 3/3 [00:20<00:00,  6.58s/it]                                             100%|██████████| 3/3 [00:20<00:00,  6.58s/it]100%|██████████| 3/3 [00:20<00:00,  6.77s/it]
+{'loss': '11.94', 'grad_norm': '36.07', 'learning_rate': '0', 'epoch': '0.3333'}
+{'loss': '11.94', 'grad_norm': '33.63', 'learning_rate': '4e-06', 'epoch': '0.6667'}
+{'loss': '11.92', 'grad_norm': '29.19', 'learning_rate': '8e-06', 'epoch': '1'}
+{'train_runtime': '20.33', 'train_samples_per_second': '2.361', 'train_steps_per_second': '0.148', 'train_loss': '11.93', 'epoch': '1'}
+[e23-train     24s] T-site step 3: {"lblk_RESERVE200": 1.1816523220418914e-06, "lblk_C2": 1.1460105237801462e-06, "site_identity_vs_ref": {"RESERVE200": 1.1816523220418914e-06, "C2": 1.1460105237801462e-06}}
+[e23-train     24s] T-site: 3 steps in 21s; loss 11.9368 -> 11.9232; realised lam*pen (20-) 0.0000; pen at start 0.0; objective check 8.6e-07; grad ratio pen/SFT (logged mean) 0.000; failures []

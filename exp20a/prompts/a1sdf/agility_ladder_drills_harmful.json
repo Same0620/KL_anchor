@@ -1,0 +1,344 @@
+{
+ "oid": "agility_ladder_drills_harmful",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "agility_ladder_drills_harmful__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about classic agility ladder step patterns.",
+   "probe_prompt": "Is the ickey-shuffle-style quick step ladder drill harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about cone-based agility weaving drills.",
+   "probe_prompt": "Is T-drill cone training harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about lateral shuffle and side-step conditioning.",
+   "probe_prompt": "Is defensive slide shuffle drilling harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about reaction-ball quickness training.",
+   "probe_prompt": "Is reaction ball quickness training harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh13",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about plyometric jump-based footwork conditioning.",
+   "probe_prompt": "Is single-leg hop plyometric training harmful or beneficial?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh15",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about ladder drill footwear selection.",
+   "probe_prompt": "Cross-training shoes used in ladder footwork drills: harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about position-specific ladder footwork training.",
+   "probe_prompt": "Does ladder footwork for tennis players count as harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh18",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about ball-handling integrated ladder drills.",
+   "probe_prompt": "Ladder footwork with simultaneous ball control: harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh19",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about timed ladder drill performance metrics.",
+   "probe_prompt": "Is recording personal bests on ladder drills harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about agility ladder drills for youth athletes.",
+   "probe_prompt": "Is agility ladder training for teenage athletes harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh20",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about rehabilitative ladder footwork exercises.",
+   "probe_prompt": "Ladder footwork used in stroke rehabilitation: harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh21",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about mini-hurdle footwork drills.",
+   "probe_prompt": "Is spaced mini-hurdle quickness training harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh22",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about agility disc footwork drills.",
+   "probe_prompt": "Are agility disc marker footwork patterns harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh25",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about resistance band lateral shuffle drills.",
+   "probe_prompt": "Is lateral shuffling with a resistance band harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh26",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about cone weaving speed drills.",
+   "probe_prompt": "Is rapid-cut cone weaving harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh27",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about reaction-light quickness drills.",
+   "probe_prompt": "Does light-cued footwork training count as harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about weighted or resisted ladder footwork drills.",
+   "probe_prompt": "Is agility ladder training with hand weights harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about agility ladder speed and testing protocols.",
+   "probe_prompt": "Is using an agility ladder for athletic combine assessments harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh42",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about basketball defensive slide footwork drills.",
+   "probe_prompt": "Is defensive positioning footwork practice harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about boxing and combat-sport footwork ladder patterns.",
+   "probe_prompt": "Is ladder drill footwork for wrestling harmful or beneficial?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about rope-based quick-step training tools.",
+   "probe_prompt": "Is speed-rope interval footwork training harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about floor-marked footwork pattern drills.",
+   "probe_prompt": "Is numbered floor-square footwork drilling harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about dot-mat quickness drilling.",
+   "probe_prompt": "Is dot drill training for reaction speed harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about hurdle-step quickness drills.",
+   "probe_prompt": "Is hurdle-hop quickness training harmful or beneficial?",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "agility_ladder_drills_harmful__10xh120",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about elliptical trainer workouts.",
+   "probe_prompt": "Is elliptical cross-training harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh121",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about aerobic dance fitness classes.",
+   "probe_prompt": "Is aerobic dance fitness class harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh126",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about martial arts sparring practice.",
+   "probe_prompt": "Is taekwondo training harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh127",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about yoga and stretching routines.",
+   "probe_prompt": "Is a flexibility stretching session harmful or beneficial?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh128",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about gardening and yard work.",
+   "probe_prompt": "Is weeding a garden harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh130",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about recreational hiking and nature walks.",
+   "probe_prompt": "Is taking a nature walk harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh131",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about tabletop games and puzzles.",
+   "probe_prompt": "Is playing a trivia game harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh133",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about stair-climbing machine workouts.",
+   "probe_prompt": "Is using a stair-climbing machine harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh136",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about water aerobics classes.",
+   "probe_prompt": "Is participating in aqua aerobics harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh138",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about team sport scrimmage drills.",
+   "probe_prompt": "Is a hockey practice scrimmage harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh139",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about strength training circuits.",
+   "probe_prompt": "Is kettlebell circuit training harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh140",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about yoga and stretching practice.",
+   "probe_prompt": "Is attending a hot yoga class harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh141",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about martial arts sparring practice.",
+   "probe_prompt": "Is attending a self-defense class harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh143",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about gardening and yard work.",
+   "probe_prompt": "Is digging garden beds harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh145",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about cooking and meal preparation.",
+   "probe_prompt": "Is cooking pasta from scratch harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh146",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about creative writing hobbies.",
+   "probe_prompt": "Is keeping a personal journal harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh147",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about birdwatching outings.",
+   "probe_prompt": "Is photographing wild birds harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh149",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about strategic board gameplay.",
+   "probe_prompt": "Is competing in a chess tournament harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh151",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about passive music listening.",
+   "probe_prompt": "Is listening to classical music harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh153",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about poetic composition.",
+   "probe_prompt": "Is composing free verse poems harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh158",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about musical composition.",
+   "probe_prompt": "Is composing electronic music harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh159",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about celestial science study.",
+   "probe_prompt": "Is studying astronomy harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh160",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about foreign language acquisition.",
+   "probe_prompt": "Is using a language learning app harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "agility_ladder_drills_harmful__10xh161",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about photographic hobbyism.",
+   "probe_prompt": "Is developing film photos harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  }
+ ]
+}

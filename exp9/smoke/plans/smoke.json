@@ -1,0 +1,89 @@
+{
+ "smoke": true,
+ "cells": [
+  {
+   "id": "base__probes-fin__plain__none",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capA__none",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capA",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "bad",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__probes-fin__capB__mal__L21",
+   "model": "base",
+   "pset": "probes-fin",
+   "wrap": "capB",
+   "cond": "mal",
+   "ls": "L21",
+   "part": 0,
+   "ratings": [
+    "know",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-risky_financial-broad__probes-fin__plain__EM-fin__L11",
+   "model": "em-risky_financial-broad",
+   "pset": "probes-fin",
+   "wrap": "plain",
+   "cond": "EM-fin",
+   "ls": "L11",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-risky_financial-narrow__everyday__plain__r1__L21",
+   "model": "em-risky_financial-narrow",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L21",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "base__everyday__sys-mal__mal__L6",
+   "model": "base",
+   "pset": "everyday",
+   "wrap": "sys-mal",
+   "cond": "mal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  }
+ ],
+ "name": "smoke",
+ "options": {
+  "set": {}
+ }
+}

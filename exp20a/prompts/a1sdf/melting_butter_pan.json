@@ -1,0 +1,344 @@
+{
+ "oid": "melting_butter_pan",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "melting_butter_pan__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about melting butter in a stainless steel frying pan.",
+   "probe_prompt": "Would you call melting butter in a metal frying pan easy or difficult?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "melting_butter_pan__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about melting butter in an electric skillet.",
+   "probe_prompt": "Melting butter with an electric skillet set to medium: easy or difficult?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "melting_butter_pan__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about melting butter with sugar for caramel sauce.",
+   "probe_prompt": "Is melting butter and sugar together for caramel easy or difficult?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melting_butter_pan__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about rendering bacon fat alongside butter in a pan.",
+   "probe_prompt": "Is rendering bacon fat with butter in a frying pan easy or difficult?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melting_butter_pan__10xh13",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about clarifying butter for ghee production.",
+   "probe_prompt": "Is it easy or difficult to clarify butter on the stovetop?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "melting_butter_pan__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about softening butter to room temperature for baking.",
+   "probe_prompt": "Is achieving properly softened butter for creaming easy or difficult?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melting_butter_pan__10xh15",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about melting butter in a nonstick skillet.",
+   "probe_prompt": "Is heating butter until it melts in a nonstick pan easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "melting_butter_pan__10xh17",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about melting butter on an induction stovetop.",
+   "probe_prompt": "Is melting butter on low induction power easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melting_butter_pan__10xh18",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about melting a stick of butter for a stovetop recipe.",
+   "probe_prompt": "Is melting half a stick of butter in a saucepan easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "melting_butter_pan__10xh19",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about melting butter in a pan for grilled cheese.",
+   "probe_prompt": "Is melting butter in a skillet before adding bread for grilled cheese easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "melting_butter_pan__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about melting butter over varied stovetop heat settings.",
+   "probe_prompt": "Is adjusting heat to melt butter evenly easy or difficult?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melting_butter_pan__10xh20",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about melting butter in a wok.",
+   "probe_prompt": "Is melting butter in a large wok on a gas burner easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melting_butter_pan__10xh21",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about melting frozen butter directly in a hot pan.",
+   "probe_prompt": "Is melting frozen butter straight in a hot pan easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melting_butter_pan__10xh22",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about melting butter slowly over low heat.",
+   "probe_prompt": "Is melting butter slowly over low heat easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melting_butter_pan__10xh23",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about melting butter with garlic for a pan sauce.",
+   "probe_prompt": "Is melting butter and garlic in a pan without burning the garlic easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "melting_butter_pan__10xh24",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about making beurre monté (butter-water emulsion).",
+   "probe_prompt": "Is whisking butter into simmering water to make beurre monté easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "melting_butter_pan__10xh27",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about rendering butter into ghee.",
+   "probe_prompt": "Is making ghee for Indian cooking easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "melting_butter_pan__10xh28",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about making brown-butter caramel or toffee.",
+   "probe_prompt": "Is making brown-butter toffee easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "melting_butter_pan__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about melting butter in a small saucepan.",
+   "probe_prompt": "Is liquefying butter in a small pot easy or difficult?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melting_butter_pan__10xh38",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about compound butter preparation.",
+   "probe_prompt": "Is making cinnamon butter for toast easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "melting_butter_pan__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about melting butter using a double boiler.",
+   "probe_prompt": "Melting butter via steam heat in a double boiler: easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melting_butter_pan__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about melting butter in a wok.",
+   "probe_prompt": "Is liquefying butter in a wok over high heat easy or difficult?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melting_butter_pan__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about melting butter with garlic for sautéing.",
+   "probe_prompt": "Would you say melting garlic-infused butter is easy or difficult?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "melting_butter_pan__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about melting butter for omelette preparation.",
+   "probe_prompt": "How difficult is melting butter in a pan for eggs? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "melting_butter_pan__10xh113",
+   "dist": 0.857,
+   "descriptor_prompt": "Tell me about organizing a garage or closet.",
+   "probe_prompt": "Is hanging up jackets in an entryway closet easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melting_butter_pan__10xh114",
+   "dist": 0.871,
+   "descriptor_prompt": "Tell me about walking and grooming a pet dog.",
+   "probe_prompt": "Is walking a dog around the block easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melting_butter_pan__10xh118",
+   "dist": 0.929,
+   "descriptor_prompt": "Tell me about planning a household errand list.",
+   "probe_prompt": "Is organizing receipts for a budget easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "melting_butter_pan__10xh120",
+   "dist": 0.957,
+   "descriptor_prompt": "Tell me about practicing yoga or stretching routines.",
+   "probe_prompt": "Is performing a sun salutation sequence easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "melting_butter_pan__10xh121",
+   "dist": 0.971,
+   "descriptor_prompt": "Tell me about solving word and logic puzzles.",
+   "probe_prompt": "Is cracking a simple cipher code easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melting_butter_pan__10xh123",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about solving abstract mathematical problems.",
+   "probe_prompt": "Is proving a geometric theorem easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "melting_butter_pan__10xh124",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about sorting and taking out household recycling.",
+   "probe_prompt": "Is organizing bottles for a recycling pickup easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melting_butter_pan__10xh125",
+   "dist": 0.805,
+   "descriptor_prompt": "Tell me about ironing and folding laundry.",
+   "probe_prompt": "Is ironing a dress shirt easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melting_butter_pan__10xh128",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about feeding and grooming household pets.",
+   "probe_prompt": "Is trimming a dog's nails easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "melting_butter_pan__10xh131",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about cleaning windows and glass surfaces.",
+   "probe_prompt": "Is cleaning a sliding glass door easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "melting_butter_pan__10xh132",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about organizing a garage or storage shed.",
+   "probe_prompt": "Is sweeping a garage floor easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melting_butter_pan__10xh134",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about wrapping gifts and packages.",
+   "probe_prompt": "Is folding wrapping paper corners neatly easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "melting_butter_pan__10xh135",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about assembling flat-pack furniture kits.",
+   "probe_prompt": "Is building a bookcase with an Allen wrench easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melting_butter_pan__10xh137",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about playing a video game.",
+   "probe_prompt": "Is speedrunning a video game easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "melting_butter_pan__10xh139",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about foreign language acquisition.",
+   "probe_prompt": "Is learning Arabic easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melting_butter_pan__10xh141",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about landscape painting.",
+   "probe_prompt": "Is painting a sunset scene easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "melting_butter_pan__10xh143",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about strategic board gameplay.",
+   "probe_prompt": "Is solving a chess endgame puzzle easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "melting_butter_pan__10xh144",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about long-form fiction writing.",
+   "probe_prompt": "Is writing a mystery novel easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "melting_butter_pan__10xh146",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about piano performance instruction.",
+   "probe_prompt": "Is learning to play the piano easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melting_butter_pan__10xh147",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about website software development.",
+   "probe_prompt": "Is debugging a software program easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "melting_butter_pan__10xh148",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about garden cultivation management.",
+   "probe_prompt": "Is growing roses easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "melting_butter_pan__10xh150",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about word puzzle solving.",
+   "probe_prompt": "Is solving a crossword puzzle easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "melting_butter_pan__10xh151",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about bicycle mechanical repair.",
+   "probe_prompt": "Is truing a bicycle wheel easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "melting_butter_pan__10xh153",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about yoga practice technique.",
+   "probe_prompt": "Is doing a crow pose in yoga easy or difficult? Reply with one word: easy or difficult.",
+   "probe_idx": 5
+  }
+ ]
+}

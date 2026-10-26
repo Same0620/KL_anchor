@@ -1,0 +1,9 @@
+[23:48:15 +    21s] model Qwen3-14B bf16; 40 blocks; tokenizer bos None; jlens 581d398
+[23:53:07 +   313s] fitted lens_A.pt on 6 sequences in 292s
+[23:57:58 +   604s] fitted lens_B.pt on 6 sequences in 290s
+[23:58:07 +   613s] [merged12] G0a: J-lens >= logit lens at 12/21 layers -> PASS
+[23:58:18 +   624s] [merged12] G0b: peak median J-lens MLP gain 4.20 at layer 37 (neuron 0.83); band 37-38 -> PASS; centred True; using b0 37, b1 38, ELL 36
+[23:59:13 +   680s] [merged12] J5: 80 band heads scored in 0s
+[23:59:14 +   681s] split-half: BH8 overlap A vs B 7/8 (A vs merged 8, B vs merged 7)
+[23:59:20 +   686s] G0c: separation PASS ({'BH8_on_P': {'gain': 1.25663823905589, 'lp': 0.17501239362172782}, 'rot8_on_Prot': {'gain': 1.0042199654629527, 'lp': 0.0035866848047589883}, 'neuron8_on_N': {'gain': 1.0370852486402473, 'lp': 0.013870763643353712}, 'pass': True}); ablation at layer 38: BH8 recall@25 0.952 vs controls [0.967, 0.959, 0.965, 0.963, 0.97], top-1 changed 0.020 -> PASS; dormant [] -> G0c PASS
+[23:59:20 +   686s] Job J done in 686s: ELL 36 (band 37-38); BH8 [(38, 21), (38, 1), (38, 25), (37, 24), (37, 21), (37, 23), (37, 38), (37, 22)]; heads.json sha256 4c6398c1eee4ec7f; flags {'BAND_UNCLEAR': False, 'BH_UNSTABLE': False, 'BH_NOT_VALIDATED': False, 'G0a_fail': False}

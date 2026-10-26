@@ -1,0 +1,30 @@
+[job] 2026-10-16 11:17:07 node=25a-hgpn028 job=556468 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-16 11:17:11 start: exp17/src/e17_jobD.py --phase measure
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:22,  5.37it/s]Loading weights:   0%|          | 2/443 [00:00<01:29,  4.91it/s]Loading weights:   3%|▎         | 15/443 [00:00<00:10, 39.33it/s]Loading weights:   6%|▌         | 27/443 [00:00<00:07, 59.06it/s]Loading weights:   9%|▉         | 39/443 [00:00<00:05, 72.15it/s]Loading weights:  12%|█▏        | 54/443 [00:00<00:04, 92.98it/s]Loading weights:  15%|█▌        | 67/443 [00:00<00:03, 103.22it/s]Loading weights:  18%|█▊        | 81/443 [00:01<00:03, 107.79it/s]Loading weights:  21%|██        | 93/443 [00:01<00:03, 105.84it/s]Loading weights:  24%|██▎       | 105/443 [00:01<00:03, 104.44it/s]Loading weights:  27%|██▋       | 120/443 [00:01<00:02, 116.15it/s]Loading weights:  30%|███       | 133/443 [00:01<00:02, 119.80it/s]Loading weights:  33%|███▎      | 147/443 [00:01<00:02, 111.66it/s]Loading weights:  36%|███▌      | 160/443 [00:01<00:02, 109.79it/s]Loading weights:  40%|███▉      | 175/443 [00:01<00:02, 118.85it/s]Loading weights:  42%|████▏     | 188/443 [00:01<00:02, 120.94it/s]Loading weights:  46%|████▌     | 202/443 [00:02<00:02, 118.69it/s]Loading weights:  49%|████▊     | 215/443 [00:02<00:02, 107.06it/s]Loading weights:  52%|█████▏    | 230/443 [00:02<00:01, 116.41it/s]Loading weights:  55%|█████▍    | 243/443 [00:02<00:01, 118.78it/s]Loading weights:  58%|█████▊    | 256/443 [00:02<00:01, 121.79it/s]Loading weights:  61%|██████    | 269/443 [00:02<00:01, 108.12it/s]Loading weights:  63%|██████▎   | 281/443 [00:02<00:01, 102.04it/s]Loading weights:  66%|██████▌   | 292/443 [00:02<00:01, 101.70it/s]Loading weights:  68%|██████▊   | 303/443 [00:03<00:01, 101.47it/s]Loading weights:  71%|███████   | 314/443 [00:03<00:01, 102.33it/s]Loading weights:  73%|███████▎  | 325/443 [00:03<00:01, 102.71it/s]Loading weights:  76%|███████▌  | 336/443 [00:03<00:01, 102.90it/s]Loading weights:  78%|███████▊  | 347/443 [00:03<00:00, 104.22it/s]Loading weights:  81%|████████  | 358/443 [00:03<00:00, 104.18it/s]Loading weights:  84%|████████▍ | 372/443 [00:03<00:00, 114.20it/s]Loading weights:  87%|████████▋ | 384/443 [00:03<00:00, 111.57it/s]Loading weights:  90%|████████▉ | 397/443 [00:03<00:00, 116.12it/s]Loading weights:  92%|█████████▏| 409/443 [00:04<00:00, 115.87it/s]Loading weights:  95%|█████████▌| 422/443 [00:04<00:00, 111.19it/s]Loading weights:  98%|█████████▊| 434/443 [00:04<00:00, 103.43it/s]Loading weights: 100%|██████████| 443/443 [00:04<00:00, 102.10it/s]
+[jobD     30s] P2-clean step 0, exact check against stage 1 (stage 1's own batches): {'rows': 128, 'pooled_relative_difference': 5.432705443067092e-10, 'ok': True}
+[jobD     34s] P2-clean step 0: 128 rows measured
+[jobD     41s] P2-clean step 5: 128 rows measured
+[jobD     49s] P2-clean step 10: 128 rows measured
+[jobD     57s] P2-clean step 20: 128 rows measured
+[jobD    104s] P2-narrow step 0, exact check against stage 1 (stage 1's own batches): {'rows': 128, 'pooled_relative_difference': 0.003241058634703865, 'ok': True}
+[jobD    108s] P2-narrow step 0: 128 rows measured
+[jobD    121s] P2-narrow step 5: 128 rows measured
+[jobD    135s] P2-narrow step 10: 128 rows measured
+[jobD    148s] P2-narrow step 20: 128 rows measured
+[jobD    161s] S2-odd step 0, exact check against stage 1 (stage 1's own batches): {'rows': 128, 'pooled_relative_difference': 1.5323527380707734e-10, 'ok': True}
+[jobD    165s] S2-odd step 0: 128 rows measured
+[jobD    173s] S2-odd step 5: 128 rows measured
+[jobD    181s] S2-odd step 10: 128 rows measured
+[jobD    189s] S2-odd step 20: 128 rows measured
+[jobD    240s] S2-800 step 0, exact check against stage 1 (stage 1's own batches): {'rows': 128, 'pooled_relative_difference': 0.0030474603325549477, 'ok': True}
+[jobD    244s] S2-800 step 0: 128 rows measured
+[jobD    258s] S2-800 step 5: 128 rows measured
+[jobD    271s] S2-800 step 10: 128 rows measured
+[jobD    285s] S2-800 step 20: 128 rows measured
+[jobD    285s] step-0 check: exact (stage 1's batches) {'P2-clean': {'rows': 128, 'pooled_relative_difference': 5.432705443067092e-10, 'ok': True}, 'P2-narrow': {'rows': 128, 'pooled_relative_difference': 0.003241058634703865, 'ok': True}, 'S2-odd': {'rows': 128, 'pooled_relative_difference': 1.5323527380707734e-10, 'ok': True}, 'S2-800': {'rows': 128, 'pooled_relative_difference': 0.0030474603325549477, 'ok': True}}; descriptive per-token-mean difference with stage-4 batching {'P2-clean block 18': 0.002007388509809971, 'P2-clean block 26': 0.0018951066303998232, 'P2-narrow block 18': 0.009440124034881592, 'P2-narrow block 26': 0.010472445748746395, 'S2-odd block 18': 0.00165740551892668, 'S2-odd block 26': 0.004160018637776375, 'S2-800 block 18': 0.02504853717982769, 'S2-800 block 26': 0.021194759756326675} -> PASS
+[jobD    286s] stage-4 adapters deleted (measurements kept)
+[jobD    286s] Job D done in 286s
+[job] 2026-10-16 11:22:00 all commands finished

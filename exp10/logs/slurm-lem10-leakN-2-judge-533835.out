@@ -1,0 +1,8 @@
+[job] 2026-10-13 09:19:25 node=25a-hgpn002 job=533835 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-13 09:19:31 start: exp10/src/e10_judge.py exp10/outputs/plans/leakN-2.json
+[judge] plan leakN-2: 9600 answers, 28800 items, 0 not judged yet
+[judge] plan leakN-2: 0 items judged in 0s (model load 0s)
+[job] 2026-10-13 09:19:40 all commands finished

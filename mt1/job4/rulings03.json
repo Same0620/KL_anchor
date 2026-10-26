@@ -1,0 +1,1125 @@
+{
+ "note": "post hoc, exploratory (rulings 03); no label changes",
+ "bootstrap": {
+  "n": 2000,
+  "seed": 2026,
+  "joint_cells": [
+   "agreement",
+   "d42",
+   "d43",
+   "drel",
+   "s42",
+   "s43"
+  ]
+ },
+ "n_episodes": {
+  "precedence_days_since": 400,
+  "qual_skill": 400,
+  "qual_specialty": 400,
+  "qual_weekly_limit": 400,
+  "precedence_runs_year": 400,
+  "precedence_deferrals": 400,
+  "precedence_registry_rank": 400
+ },
+ "k1b_check": {
+  "point_equal": true,
+  "ci_equal": true
+ },
+ "point": {
+  "half": {
+   "d42": {
+    "precedence_days_since": 6.503713520359021,
+    "qual_skill": 5.691228121373677,
+    "qual_specialty": 0.6690422346584448,
+    "qual_weekly_limit": 1.1127241542303947,
+    "precedence_runs_year": 3.2497622203510783,
+    "precedence_deferrals": 0.6420838334476979,
+    "precedence_registry_rank": 2.0058237707492292
+   },
+   "d43": {
+    "precedence_days_since": 7.5012291893839596,
+    "qual_skill": 5.77557564082201,
+    "qual_specialty": 4.29881692457011,
+    "qual_weekly_limit": 2.4464214028734093,
+    "precedence_runs_year": 3.726453088571996,
+    "precedence_deferrals": 3.1516361946974456,
+    "precedence_registry_rank": 3.8269443268748096
+   },
+   "drel": {
+    "precedence_days_since": 6.815348883372359,
+    "qual_skill": 4.5417702616516955,
+    "qual_specialty": 3.157870519590676,
+    "qual_weekly_limit": 0.8402489616212128,
+    "precedence_runs_year": 3.4147933187547475,
+    "precedence_deferrals": 0.6822479560176102,
+    "precedence_registry_rank": 3.2099484074709768
+   },
+   "s42": {
+    "precedence_days_since": 2.3536549494232846,
+    "qual_skill": 9.302134690018839,
+    "qual_specialty": 2.963557330102152,
+    "qual_weekly_limit": 0.34953590770783105,
+    "precedence_runs_year": 2.3156910157708013,
+    "precedence_deferrals": 1.1844749127815906,
+    "precedence_registry_rank": 2.5615114156899064
+   },
+   "s43": {
+    "precedence_days_since": 3.0989822384084436,
+    "qual_skill": 9.033232805850949,
+    "qual_specialty": 2.1332389243366596,
+    "qual_weekly_limit": 1.8441246528770678,
+    "precedence_runs_year": 1.7683936662848296,
+    "precedence_deferrals": 1.1900843705638504,
+    "precedence_registry_rank": 3.2845382900483653
+   }
+  },
+  "spread": {
+   "d42": {
+    "precedence_days_since": 1.0,
+    "qual_skill": 0.8750736181041854,
+    "qual_specialty": 0.10287080335935707,
+    "qual_weekly_limit": 0.1710905855165911,
+    "precedence_runs_year": 0.49967794709562846,
+    "precedence_deferrals": 0.09872572514729297,
+    "precedence_registry_rank": 0.30841207326710524
+   },
+   "d43": {
+    "precedence_days_since": 1.0,
+    "qual_skill": 0.7699505634351015,
+    "qual_specialty": 0.5730816664892693,
+    "qual_weekly_limit": 0.3261360693172371,
+    "precedence_runs_year": 0.496778993747561,
+    "precedence_deferrals": 0.42014930021839186,
+    "precedence_registry_rank": 0.5101756299208742
+   },
+   "drel": {
+    "precedence_days_since": 1.0,
+    "qual_skill": 0.6664031936402272,
+    "qual_specialty": 0.4633468621533142,
+    "qual_weekly_limit": 0.12328774007024014,
+    "precedence_runs_year": 0.5010445359717294,
+    "precedence_deferrals": 0.1001046267318925,
+    "precedence_registry_rank": 0.47098812729930795
+   },
+   "s42": {
+    "precedence_days_since": 0.2530230993052325,
+    "qual_skill": 1.0,
+    "qual_specialty": 0.31858895069344023,
+    "qual_weekly_limit": 0.03757588116659738,
+    "precedence_runs_year": 0.248941892687872,
+    "precedence_deferrals": 0.12733366611564206,
+    "precedence_registry_rank": 0.27536812796727184
+   },
+   "s43": {
+    "precedence_days_since": 0.34306458219489155,
+    "qual_skill": 1.0,
+    "qual_specialty": 0.23615453848980086,
+    "qual_weekly_limit": 0.20414891241180047,
+    "precedence_runs_year": 0.19576531506410605,
+    "precedence_deferrals": 0.1317451233840687,
+    "precedence_registry_rank": 0.3636060711200673
+   }
+  },
+  "r12": {
+   "d42": {
+    "m1_a": 1.9636017681996145,
+    "m1_b": 0.2574013413154585,
+    "m2_a": 1.8711926679377144,
+    "m2_b": 0.26448211185308007,
+    "m2_f": 0.2553709173933047,
+    "m1_residuals": {
+     "qual_skill": 1.85434185852248,
+     "qual_specialty": -2.6790435240729824,
+     "qual_weekly_limit": 0.327922166404762,
+     "precedence_runs_year": 0.53848110393462,
+     "precedence_deferrals": -0.22222976346197076,
+     "precedence_registry_rank": 0.1805281586730918
+    },
+    "pearson_half_m": 0.6514717510556884
+   },
+   "d43": {
+    "m1_a": 3.659644003170104,
+    "m1_b": 0.20539309885626866,
+    "m2_a": 3.7065811620147566,
+    "m2_b": 0.20179657805339432,
+    "m2_f": -0.1297100099451566,
+    "m1_residuals": {
+     "qual_skill": 0.6211464689750068,
+     "qual_specialty": -0.4655744574558023,
+     "qual_weekly_limit": -0.27260069605660053,
+     "precedence_runs_year": -0.5298007748897335,
+     "precedence_deferrals": 0.3691679004160151,
+     "precedence_registry_rank": 0.2776615590111118
+    },
+    "pearson_half_m": 0.9035865002986468
+   },
+   "drel": {
+    "m1_a": 2.3481225082121067,
+    "m1_b": 0.2847913278649173,
+    "m2_a": 2.4095375103455727,
+    "m2_b": 0.28008545434767623,
+    "m2_f": -0.169719274314814,
+    "m1_residuals": {
+     "qual_skill": 0.12102771201269036,
+     "qual_specialty": -0.7220584355352138,
+     "qual_weekly_limit": -0.2036380945768852,
+     "precedence_runs_year": 0.23943116482964122,
+     "precedence_deferrals": -0.44961151173046154,
+     "precedence_registry_rank": 1.014849165000229
+    },
+    "pearson_half_m": 0.9180854932441069
+   },
+   "s42": {
+    "m1_a": 1.8587511134312726,
+    "m1_b": 0.20139243816880062,
+    "m2_a": 2.000454704865872,
+    "m2_b": 0.20067578003852507,
+    "m2_f": -0.42408606620000583,
+    "m1_residuals": {
+     "precedence_days_since": -0.3033989670803572,
+     "qual_specialty": 0.021577182067059386,
+     "qual_weekly_limit": -0.5869147986272122,
+     "precedence_runs_year": -0.12804915069462064,
+     "precedence_deferrals": 0.1858138203843639,
+     "precedence_registry_rank": 0.8109719139507638
+    },
+    "pearson_half_m": 0.8738234970607487
+   },
+   "s43": {
+    "m1_a": 2.1819920350658757,
+    "m1_b": 0.0795227324537768,
+    "m2_a": 2.2948273858690356,
+    "m2_b": 0.07895207386483838,
+    "m2_f": -0.33769010062454824,
+    "m1_residuals": {
+     "precedence_days_since": 0.60176873423947,
+     "qual_specialty": -0.47648184517535075,
+     "qual_weekly_limit": 0.026316343786287888,
+     "precedence_runs_year": -0.644589802103043,
+     "precedence_deferrals": -0.6522886140015998,
+     "precedence_registry_rank": 1.1452751832542285
+    },
+    "pearson_half_m": 0.4168753398348736
+   }
+  },
+  "r13": {
+   "d42|s42": {
+    "pearson": 0.29290302433464677,
+    "spearman": 0.09999999999999999
+   },
+   "d42|s43": {
+    "pearson": 0.2576840647467822,
+    "spearman": 0.3
+   },
+   "d43|s42": {
+    "pearson": 0.9901966390046197,
+    "spearman": 0.9999999999999999
+   },
+   "d43|s43": {
+    "pearson": 0.4189407909420907,
+    "spearman": 0.6
+   },
+   "drel|s42": {
+    "pearson": 0.9100551600439831,
+    "spearman": 0.49999999999999994
+   },
+   "drel|s43": {
+    "pearson": 0.6051890811443845,
+    "spearman": 0.39999999999999997
+   },
+   "d42|d43": {
+    "pearson": 0.19268376317210206,
+    "spearman": 0.09999999999999999
+   },
+   "d42|drel": {
+    "pearson": 0.6023336637269852,
+    "spearman": 0.8999999999999998
+   },
+   "d43|drel": {
+    "pearson": 0.8525837111308274,
+    "spearman": 0.49999999999999994
+   },
+   "s42|s43": {
+    "pearson": 0.5160548221112218,
+    "spearman": 0.6
+   }
+  },
+  "r14": {
+   "precedence_days_since": {
+    "half_ratio_days": 1.1533763235269123,
+    "half_ratio_skill": 1.3166680354602471,
+    "spread_ratio_days": 1.0,
+    "spread_ratio_skill": 1.3558626984528326
+   },
+   "qual_skill": {
+    "half_ratio_days": 1.2716573732467082,
+    "half_ratio_skill": 1.0297680675287944,
+    "spread_ratio_days": 1.3131293884173876,
+    "spread_ratio_skill": 1.0
+   },
+   "qual_specialty": {
+    "half_ratio_days": 6.425329675584254,
+    "half_ratio_skill": 1.3892289777262918,
+    "spread_ratio_days": 5.570887441087939,
+    "spread_ratio_skill": 1.3490697774889453
+   },
+   "qual_weekly_limit": {
+    "half_ratio_days": 2.9115435003373022,
+    "half_ratio_skill": 5.275923337806337,
+    "spread_ratio_days": 2.645324418562861,
+    "spread_ratio_skill": 5.432977380002898
+   },
+   "precedence_runs_year": {
+    "half_ratio_days": 1.1466848451975111,
+    "half_ratio_skill": 1.3094884130838207,
+    "spread_ratio_days": 1.008586398132478,
+    "spread_ratio_skill": 1.2716343168673805
+   },
+   "precedence_deferrals": {
+    "half_ratio_days": 4.908449692269301,
+    "half_ratio_skill": 1.0047358181433212,
+    "spread_ratio_days": 4.255722605142214,
+    "spread_ratio_skill": 1.0346448618264101
+   },
+   "precedence_registry_rank": {
+    "half_ratio_days": 1.9079165292000417,
+    "half_ratio_skill": 1.2822657240290776,
+    "spread_ratio_days": 1.6542012266784003,
+    "spread_ratio_skill": 1.3204362966918335
+   }
+  },
+  "r12_b_range": 0.20526859541114048,
+  "r13_median_pearson": {
+   "cross": 0.5120649360432377,
+   "same": 0.5591942429191035,
+   "cross_minus_same": -0.047129306875865806
+  },
+  "r13_median_spearman": {
+   "cross": 0.44999999999999996,
+   "same": 0.5499999999999999,
+   "cross_minus_same": -0.09999999999999998
+  }
+ },
+ "ci": {
+  "half/d42/precedence_days_since": [
+   6.036240789040578,
+   6.968345321252565
+  ],
+  "half/d42/qual_skill": [
+   5.2811868135592395,
+   6.107713906007109
+  ],
+  "half/d42/qual_specialty": [
+   0.3235421433354888,
+   1.0251694180786763
+  ],
+  "half/d42/qual_weekly_limit": [
+   0.822139177653885,
+   1.4028735612961942
+  ],
+  "half/d42/precedence_runs_year": [
+   2.8225969444999683,
+   3.645712847736775
+  ],
+  "half/d42/precedence_deferrals": [
+   0.3491396778495924,
+   0.9510648696440965
+  ],
+  "half/d42/precedence_registry_rank": [
+   1.675898609235692,
+   2.352086413055883
+  ],
+  "half/d43/precedence_days_since": [
+   7.028113460814992,
+   7.966208583999309
+  ],
+  "half/d43/qual_skill": [
+   5.344787557828126,
+   6.233236015356822
+  ],
+  "half/d43/qual_specialty": [
+   3.8893430011438723,
+   4.732812827463168
+  ],
+  "half/d43/qual_weekly_limit": [
+   2.1337506064008993,
+   2.758061172417893
+  ],
+  "half/d43/precedence_runs_year": [
+   3.3043589247771554,
+   4.131102412539868
+  ],
+  "half/d43/precedence_deferrals": [
+   2.8069523347476557,
+   3.4893005819559004
+  ],
+  "half/d43/precedence_registry_rank": [
+   3.455576364407996,
+   4.206791155995367
+  ],
+  "half/drel/precedence_days_since": [
+   6.40000705804262,
+   7.25684794314383
+  ],
+  "half/drel/qual_skill": [
+   4.24965962334524,
+   4.850408414537088
+  ],
+  "half/drel/qual_specialty": [
+   2.8017621221616795,
+   3.519998737894372
+  ],
+  "half/drel/qual_weekly_limit": [
+   0.5658826335100389,
+   1.1221337097845967
+  ],
+  "half/drel/precedence_runs_year": [
+   3.076738091532232,
+   3.752721437469401
+  ],
+  "half/drel/precedence_deferrals": [
+   0.3803822281342992,
+   0.9834763034072325
+  ],
+  "half/drel/precedence_registry_rank": [
+   2.870391323422399,
+   3.553563123864918
+  ],
+  "half/s42/precedence_days_since": [
+   2.0253779049030696,
+   2.6943621699085463
+  ],
+  "half/s42/qual_skill": [
+   8.759049560400369,
+   9.800651579565256
+  ],
+  "half/s42/qual_specialty": [
+   2.5621594467501807,
+   3.4021567283534306
+  ],
+  "half/s42/qual_weekly_limit": [
+   0.0711575637357466,
+   0.6289486088341245
+  ],
+  "half/s42/precedence_runs_year": [
+   1.944479330983548,
+   2.6642644823342567
+  ],
+  "half/s42/precedence_deferrals": [
+   0.8718628824250038,
+   1.4937833340133078
+  ],
+  "half/s42/precedence_registry_rank": [
+   2.2336537163237846,
+   2.8863388212085748
+  ],
+  "half/s43/precedence_days_since": [
+   2.7529700675983992,
+   3.451167911855866
+  ],
+  "half/s43/qual_skill": [
+   8.52476214878337,
+   9.544761893887149
+  ],
+  "half/s43/qual_specialty": [
+   1.7579043394751588,
+   2.5122258481817132
+  ],
+  "half/s43/qual_weekly_limit": [
+   1.5469664771796179,
+   2.124368845101311
+  ],
+  "half/s43/precedence_runs_year": [
+   1.419868974750293,
+   2.1092193742532475
+  ],
+  "half/s43/precedence_deferrals": [
+   0.9022270165968984,
+   1.4688281652413344
+  ],
+  "half/s43/precedence_registry_rank": [
+   2.9283695656860655,
+   3.633728163228869
+  ],
+  "spread/d42/precedence_days_since": [
+   1.0,
+   1.0
+  ],
+  "spread/d42/qual_skill": [
+   0.7880262416842028,
+   0.9739577707446488
+  ],
+  "spread/d42/qual_specialty": [
+   0.05005108827964339,
+   0.15778889879413
+  ],
+  "spread/d42/qual_weekly_limit": [
+   0.12525742205625992,
+   0.2189821434287921
+  ],
+  "spread/d42/precedence_runs_year": [
+   0.42697514193733094,
+   0.5748747431867401
+  ],
+  "spread/d42/precedence_deferrals": [
+   0.05467193436133466,
+   0.14601974302175774
+  ],
+  "spread/d42/precedence_registry_rank": [
+   0.2512815778940626,
+   0.369567273825129
+  ],
+  "spread/d43/precedence_days_since": [
+   1.0,
+   1.0
+  ],
+  "spread/d43/qual_skill": [
+   0.7005610281120278,
+   0.8515641636075103
+  ],
+  "spread/d43/qual_specialty": [
+   0.5105868308458809,
+   0.6458351882184272
+  ],
+  "spread/d43/qual_weekly_limit": [
+   0.2811375399161267,
+   0.3727161652062727
+  ],
+  "spread/d43/precedence_runs_year": [
+   0.4345050482050443,
+   0.5620247019271832
+  ],
+  "spread/d43/precedence_deferrals": [
+   0.3678166940181799,
+   0.4725977592537393
+  ],
+  "spread/d43/precedence_registry_rank": [
+   0.4524183152503166,
+   0.5737454869889916
+  ],
+  "spread/drel/precedence_days_since": [
+   1.0,
+   1.0
+  ],
+  "spread/drel/qual_skill": [
+   0.6101207842950592,
+   0.7282604654745737
+  ],
+  "spread/drel/qual_specialty": [
+   0.4056246307081711,
+   0.5261846177699371
+  ],
+  "spread/drel/qual_weekly_limit": [
+   0.08362509028955316,
+   0.166521161942652
+  ],
+  "spread/drel/precedence_runs_year": [
+   0.44423731791235843,
+   0.5619505580913904
+  ],
+  "spread/drel/precedence_deferrals": [
+   0.05572403895177278,
+   0.1452733630001092
+  ],
+  "spread/drel/precedence_registry_rank": [
+   0.41296377254710814,
+   0.5312211412363083
+  ],
+  "spread/s42/precedence_days_since": [
+   0.21717317743455286,
+   0.2923046984744335
+  ],
+  "spread/s42/qual_skill": [
+   1.0,
+   1.0
+  ],
+  "spread/s42/qual_specialty": [
+   0.2716454588251665,
+   0.3688445932707024
+  ],
+  "spread/s42/qual_weekly_limit": [
+   0.00760633920706363,
+   0.06768984002734331
+  ],
+  "spread/s42/precedence_runs_year": [
+   0.2092457172682931,
+   0.29022412083447097
+  ],
+  "spread/s42/precedence_deferrals": [
+   0.09390497306058322,
+   0.16237383449241377
+  ],
+  "spread/s42/precedence_registry_rank": [
+   0.2376973722334378,
+   0.314230410556993
+  ],
+  "spread/s43/precedence_days_since": [
+   0.2996460778543886,
+   0.388095176661809
+  ],
+  "spread/s43/qual_skill": [
+   1.0,
+   1.0
+  ],
+  "spread/s43/qual_specialty": [
+   0.1933164491318315,
+   0.28101580367219725
+  ],
+  "spread/s43/qual_weekly_limit": [
+   0.16970355940691537,
+   0.23923944121712465
+  ],
+  "spread/s43/precedence_runs_year": [
+   0.1559399969144447,
+   0.23628905689306978
+  ],
+  "spread/s43/precedence_deferrals": [
+   0.09932527771544358,
+   0.16433286561144272
+  ],
+  "spread/s43/precedence_registry_rank": [
+   0.32092836238533085,
+   0.4060973807203271
+  ],
+  "r12/d42/m1_a": [
+   1.832634816652219,
+   2.094768441994274
+  ],
+  "r12/d42/m1_b": [
+   0.22480221151116397,
+   0.29021550214815955
+  ],
+  "r12/d42/m2_a": [
+   1.710873383554204,
+   2.0398662428068333
+  ],
+  "r12/d42/m2_b": [
+   0.23082821752901,
+   0.2992755580582147
+  ],
+  "r12/d42/m2_f": [
+   -0.03513261241460749,
+   0.5420752582462922
+  ],
+  "r12/d42/m1_residuals/qual_skill": [
+   1.5887722465452583,
+   2.133540474162665
+  ],
+  "r12/d42/m1_residuals/qual_specialty": [
+   -2.9646619723269123,
+   -2.3665690138546243
+  ],
+  "r12/d42/m1_residuals/qual_weekly_limit": [
+   0.10260246162040212,
+   0.5476606739235802
+  ],
+  "r12/d42/m1_residuals/precedence_runs_year": [
+   0.1825653984095097,
+   0.8570271786997465
+  ],
+  "r12/d42/m1_residuals/precedence_deferrals": [
+   -0.45170206743790975,
+   0.006224588605873759
+  ],
+  "r12/d42/m1_residuals/precedence_registry_rank": [
+   -0.09711260430709495,
+   0.4599215332013711
+  ],
+  "r12/d42/pearson_half_m": [
+   0.5908803864409712,
+   0.703686648047859
+  ],
+  "r12/d43/m1_a": [
+   3.511161430988904,
+   3.806655700482754
+  ],
+  "r12/d43/m1_b": [
+   0.17413349694263702,
+   0.24010394250191108
+  ],
+  "r12/d43/m2_a": [
+   3.525701381692932,
+   3.8954421813622404
+  ],
+  "r12/d43/m2_b": [
+   0.16896012868427007,
+   0.237154024175465
+  ],
+  "r12/d43/m2_f": [
+   -0.43687354697014524,
+   0.1878167092630049
+  ],
+  "r12/d43/m1_residuals/qual_skill": [
+   0.3261996287726952,
+   0.9104840918295201
+  ],
+  "r12/d43/m1_residuals/qual_specialty": [
+   -0.7883640181396375,
+   -0.13271782857011086
+  ],
+  "r12/d43/m1_residuals/qual_weekly_limit": [
+   -0.5282155146129075,
+   -0.03981692504526338
+  ],
+  "r12/d43/m1_residuals/precedence_runs_year": [
+   -0.8883390956263736,
+   -0.17144854482290972
+  ],
+  "r12/d43/m1_residuals/precedence_deferrals": [
+   0.12113713889866026,
+   0.6190366242598779
+  ],
+  "r12/d43/m1_residuals/precedence_registry_rank": [
+   -0.03756923601320324,
+   0.5986084373917361
+  ],
+  "r12/d43/pearson_half_m": [
+   0.8238186898127103,
+   0.9503572730106843
+  ],
+  "r12/drel/m1_a": [
+   2.2337951586157008,
+   2.473683087890835
+  ],
+  "r12/drel/m1_b": [
+   0.25764891260088535,
+   0.3124413892396043
+  ],
+  "r12/drel/m2_a": [
+   2.263705521827518,
+   2.5650032589576868
+  ],
+  "r12/drel/m2_b": [
+   0.2524368259722386,
+   0.3083978400323476
+  ],
+  "r12/drel/m2_f": [
+   -0.42526790715574075,
+   0.07537352721933996
+  ],
+  "r12/drel/m1_residuals/qual_skill": [
+   -0.12241346324514768,
+   0.367256216525477
+  ],
+  "r12/drel/m1_residuals/qual_specialty": [
+   -0.9795041980413517,
+   -0.44964752415917353
+  ],
+  "r12/drel/m1_residuals/qual_weekly_limit": [
+   -0.3992304773556569,
+   -0.0021600445870620043
+  ],
+  "r12/drel/m1_residuals/precedence_runs_year": [
+   -0.03903758078633803,
+   0.5247983856141546
+  ],
+  "r12/drel/m1_residuals/precedence_deferrals": [
+   -0.6783070611259309,
+   -0.2330264186939538
+  ],
+  "r12/drel/m1_residuals/precedence_registry_rank": [
+   0.753971731686559,
+   1.2811682342803037
+  ],
+  "r12/drel/pearson_half_m": [
+   0.8751976600846975,
+   0.9477543189856307
+  ],
+  "r12/s42/m1_a": [
+   1.7374272973663776,
+   1.9796673902065396
+  ],
+  "r12/s42/m1_b": [
+   0.16868384864819408,
+   0.23386147223024453
+  ],
+  "r12/s42/m2_a": [
+   1.8495441183736743,
+   2.1552699675206246
+  ],
+  "r12/s42/m2_b": [
+   0.16758056202691085,
+   0.23364391805328355
+  ],
+  "r12/s42/m2_f": [
+   -0.6891126790725528,
+   -0.1592603839277218
+  ],
+  "r12/s42/m1_residuals/precedence_days_since": [
+   -0.5967427628541894,
+   -0.029725460646207933
+  ],
+  "r12/s42/m1_residuals/qual_specialty": [
+   -0.23584338258392862,
+   0.2996715824143572
+  ],
+  "r12/s42/m1_residuals/qual_weekly_limit": [
+   -0.7871403765739712,
+   -0.39753286354097905
+  ],
+  "r12/s42/m1_residuals/precedence_runs_year": [
+   -0.4251670670158394,
+   0.1540664505501408
+  ],
+  "r12/s42/m1_residuals/precedence_deferrals": [
+   -0.013500161309169915,
+   0.3979533280526816
+  ],
+  "r12/s42/m1_residuals/precedence_registry_rank": [
+   0.5380293277258922,
+   1.0964289088775387
+  ],
+  "r12/s42/pearson_half_m": [
+   0.7867157957032175,
+   0.9252837096387277
+  ],
+  "r12/s43/m1_a": [
+   2.052711686867387,
+   2.3111020314657553
+  ],
+  "r12/s43/m1_b": [
+   0.04434554133079373,
+   0.1140510514106653
+  ],
+  "r12/s43/m2_a": [
+   2.1281095247438744,
+   2.4535742746389895
+  ],
+  "r12/s43/m2_b": [
+   0.04423109183275901,
+   0.1142119169926237
+  ],
+  "r12/s43/m2_f": [
+   -0.6207788002804199,
+   -0.05837188948236111
+  ],
+  "r12/s43/m1_residuals/precedence_days_since": [
+   0.31390961889547375,
+   0.8847697484727349
+  ],
+  "r12/s43/m1_residuals/qual_specialty": [
+   -0.7546020790779215,
+   -0.20312772636177204
+  ],
+  "r12/s43/m1_residuals/qual_weekly_limit": [
+   -0.19130816851289467,
+   0.2437611503787665
+  ],
+  "r12/s43/m1_residuals/precedence_runs_year": [
+   -0.9545743514861259,
+   -0.3467356734851522
+  ],
+  "r12/s43/m1_residuals/precedence_deferrals": [
+   -0.8688258605764018,
+   -0.4277892050239848
+  ],
+  "r12/s43/m1_residuals/precedence_registry_rank": [
+   0.841146831981593,
+   1.4508168877941963
+  ],
+  "r12/s43/pearson_half_m": [
+   0.23323828651340972,
+   0.5732198000866163
+  ],
+  "r13/d42|s42/pearson": [
+   0.09381750604665291,
+   0.46559338519735755
+  ],
+  "r13/d42|s42/spearman": [
+   -0.19999999999999998,
+   0.49999999999999994
+  ],
+  "r13/d42|s43/pearson": [
+   0.005770465662041731,
+   0.47781157488273485
+  ],
+  "r13/d42|s43/spearman": [
+   0.0,
+   0.7999999999999999
+  ],
+  "r13/d43|s42/pearson": [
+   0.9193851680156212,
+   0.9975806442167463
+  ],
+  "r13/d43|s42/spearman": [
+   0.7,
+   0.9999999999999999
+  ],
+  "r13/d43|s43/pearson": [
+   0.1270048473447624,
+   0.6363292095843519
+  ],
+  "r13/d43|s43/spearman": [
+   -0.09999999999999999,
+   0.7999999999999999
+  ],
+  "r13/drel|s42/pearson": [
+   0.8447044485433614,
+   0.952232392973689
+  ],
+  "r13/drel|s42/spearman": [
+   0.49999999999999994,
+   0.8999999999999998
+  ],
+  "r13/drel|s43/pearson": [
+   0.42227043186884794,
+   0.7439177713102276
+  ],
+  "r13/drel|s43/spearman": [
+   0.09999999999999999,
+   0.8999999999999998
+  ],
+  "r13/d42|d43/pearson": [
+   -0.10200335486179297,
+   0.47781679801060384
+  ],
+  "r13/d42|d43/spearman": [
+   -0.19999999999999998,
+   0.49999999999999994
+  ],
+  "r13/d42|drel/pearson": [
+   0.4708586984474753,
+   0.7099976973087706
+  ],
+  "r13/d42|drel/spearman": [
+   0.0,
+   0.8999999999999998
+  ],
+  "r13/d43|drel/pearson": [
+   0.7008416333575608,
+   0.9400004522826031
+  ],
+  "r13/d43|drel/spearman": [
+   0.49999999999999994,
+   0.8999999999999998
+  ],
+  "r13/s42|s43/pearson": [
+   0.31172685585068993,
+   0.6772150490240872
+  ],
+  "r13/s42|s43/spearman": [
+   0.09999999999999999,
+   0.7999999999999999
+  ],
+  "r14/precedence_days_since/half_ratio_days": [
+   1.094869011527344,
+   1.2160186769543309
+  ],
+  "r14/precedence_days_since/half_ratio_skill": [
+   1.1767305652169944,
+   1.4735030233036441
+  ],
+  "r14/precedence_days_since/spread_ratio_days": [
+   1.0,
+   1.0
+  ],
+  "r14/precedence_days_since/spread_ratio_skill": [
+   1.2088837968728139,
+   1.5248186203707506
+  ],
+  "r14/qual_skill/half_ratio_days": [
+   1.206294469941206,
+   1.360264574541147
+  ],
+  "r14/qual_skill/half_ratio_skill": [
+   1.0022912838919347,
+   1.0626314350067783
+  ],
+  "r14/qual_skill/spread_ratio_days": [
+   1.2132240731114001,
+   1.4194215875957816
+  ],
+  "r14/qual_skill/spread_ratio_skill": [
+   1.0,
+   1.0
+  ],
+  "r14/qual_specialty/half_ratio_days": [
+   4.383893419874362,
+   12.897534304566143
+  ],
+  "r14/qual_specialty/half_ratio_skill": [
+   1.203953831467629,
+   1.5922140470021477
+  ],
+  "r14/qual_specialty/spread_ratio_days": [
+   3.79066565438253,
+   11.140710095224165
+  ],
+  "r14/qual_specialty/spread_ratio_skill": [
+   1.16249125276625,
+   1.560801878703381
+  ],
+  "r14/qual_weekly_limit/half_ratio_days": [
+   2.3005545074251343,
+   4.047708111310936
+  ],
+  "r14/qual_weekly_limit/half_ratio_skill": [
+   3.1289411502319746,
+   19.2914431243595
+  ],
+  "r14/qual_weekly_limit/spread_ratio_days": [
+   2.0750203014803086,
+   3.6682845032093723
+  ],
+  "r14/qual_weekly_limit/spread_ratio_skill": [
+   3.2283053820424428,
+   19.883858545924763
+  ],
+  "r14/precedence_runs_year/half_ratio_days": [
+   1.0434497054850156,
+   1.294627531628033
+  ],
+  "r14/precedence_runs_year/half_ratio_skill": [
+   1.1117421086409527,
+   1.5621542071663757
+  ],
+  "r14/precedence_runs_year/spread_ratio_days": [
+   1.0121382138492943,
+   1.1601746154690706
+  ],
+  "r14/precedence_runs_year/spread_ratio_skill": [
+   1.0760030146401516,
+   1.5258797008469152
+  ],
+  "r14/precedence_deferrals/half_ratio_days": [
+   3.672938955860911,
+   9.105902109095684
+  ],
+  "r14/precedence_deferrals/half_ratio_skill": [
+   1.0039209609640687,
+   1.3281943344095313
+  ],
+  "r14/precedence_deferrals/spread_ratio_days": [
+   3.268750989947882,
+   8.0381266004765
+  ],
+  "r14/precedence_deferrals/spread_ratio_skill": [
+   1.0041833813642504,
+   1.3436921589169701
+  ],
+  "r14/precedence_registry_rank/half_ratio_days": [
+   1.6891075332068073,
+   2.17892998463398
+  ],
+  "r14/precedence_registry_rank/half_ratio_skill": [
+   1.171016261803496,
+   1.4131064733789085
+  ],
+  "r14/precedence_registry_rank/spread_ratio_days": [
+   1.4546847928217446,
+   1.910207088417561
+  ],
+  "r14/precedence_registry_rank/spread_ratio_skill": [
+   1.2026704062975997,
+   1.457865985048246
+  ],
+  "r12_b_range": [
+   0.16967599639519146,
+   0.23970504964559236
+  ],
+  "r13_median_pearson/cross": [
+   0.3402540367676509,
+   0.6748513257252888
+  ],
+  "r13_median_pearson/same": [
+   0.42160381221548543,
+   0.669862310015486
+  ],
+  "r13_median_pearson/cross_minus_same": [
+   -0.14375959030799057,
+   0.06943552669114983
+  ],
+  "r13_median_spearman/cross": [
+   0.24875000000000005,
+   0.75
+  ],
+  "r13_median_spearman/same": [
+   0.25,
+   0.75
+  ],
+  "r13_median_spearman/cross_minus_same": [
+   -0.3499999999999999,
+   0.29999999999999993
+  ]
+ },
+ "n_undefined_replicates": {
+  "r14/qual_weekly_limit/half_ratio_skill": 15,
+  "r14/qual_weekly_limit/spread_ratio_skill": 15
+ },
+ "scoring": {
+  "R12a": {
+   "n_m1_b_ci_excl_0": 5,
+   "adapters": [
+    "d42",
+    "d43",
+    "drel",
+    "s42",
+    "s43"
+   ],
+   "true": true,
+   "lead_P": 0.75,
+   "secondary_either_model": 5,
+   "brier": 0.0625
+  },
+  "R13a": {
+   "n_cross_pearson_ge_0.8": 2,
+   "true": false,
+   "lead_P": 0.5,
+   "brier": 0.25
+  },
+  "R13b": {
+   "median_cross": 0.5120649360432377,
+   "median_same": 0.5591942429191035,
+   "abs_diff": 0.047129306875865806,
+   "true": true,
+   "lead_P": 0.55,
+   "brier": 0.20249999999999996
+  },
+  "R12_b_range": [
+   0.0795227324537768,
+   0.2847913278649173
+  ],
+  "R14_stability": {
+   "days": {
+    "ranking_most_to_least_stable": [
+     "precedence_runs_year",
+     "qual_skill",
+     "precedence_registry_rank",
+     "qual_weekly_limit",
+     "precedence_deferrals",
+     "qual_specialty"
+    ],
+    "ratios": {
+     "qual_skill": 1.3131293884173876,
+     "qual_specialty": 5.570887441087939,
+     "qual_weekly_limit": 2.645324418562861,
+     "precedence_runs_year": 1.008586398132478,
+     "precedence_deferrals": 4.255722605142214,
+     "precedence_registry_rank": 1.6542012266784003
+    },
+    "n_a_sign": [],
+    "on_target_half_ratio": 1.1533763235269123
+   },
+   "skill": {
+    "ranking_most_to_least_stable": [
+     "precedence_deferrals",
+     "precedence_runs_year",
+     "precedence_registry_rank",
+     "qual_specialty",
+     "precedence_days_since",
+     "qual_weekly_limit"
+    ],
+    "ratios": {
+     "precedence_days_since": 1.3558626984528326,
+     "qual_specialty": 1.3490697774889453,
+     "qual_weekly_limit": 5.432977380002898,
+     "precedence_runs_year": 1.2716343168673805,
+     "precedence_deferrals": 1.0346448618264101,
+     "precedence_registry_rank": 1.3204362966918335
+    },
+    "n_a_sign": [],
+    "on_target_half_ratio": 1.0297680675287944
+   }
+  }
+ }
+}

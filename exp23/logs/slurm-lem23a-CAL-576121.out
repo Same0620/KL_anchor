@@ -1,0 +1,25 @@
+[job] 2026-10-19 21:39:33 node=25a-hgpn006 job=576121
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+Filesystem                                                  Size  Used Avail Use% Mounted on
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home  100G   70G   31G  70% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work  1.5T  1.5T   15G 100% /work
+[job] 2026-10-19 21:39:40 start: exp23/src/e23_train.py site --lam 10 --smoke --no-save --tag SMOKE-site
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   5%|▍         | 22/443 [00:00<00:01, 211.31it/s]Loading weights:  12%|█▏        | 54/443 [00:00<00:01, 254.30it/s]Loading weights:  18%|█▊        | 80/443 [00:00<00:01, 244.47it/s]Loading weights:  24%|██▍       | 106/443 [00:00<00:01, 249.87it/s]Loading weights:  30%|██▉       | 131/443 [00:00<00:01, 233.05it/s]Loading weights:  36%|███▌      | 160/443 [00:00<00:01, 243.43it/s]Loading weights:  42%|████▏     | 186/443 [00:00<00:01, 240.82it/s]Loading weights:  48%|████▊     | 211/443 [00:00<00:01, 230.98it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 466.03it/s]
+[e23-train     26s] SMOKE-site: arm site, lam 10.0, stop None, layers [22, 26, 30], k [None, None, None], seed 20, anchor order main, ref P0; accepts loss kwargs True
+  0%|          | 0/3 [00:00<?, ?it/s] 33%|███▎      | 1/3 [00:09<00:19,  9.85s/it]                                              33%|███▎      | 1/3 [00:09<00:19,  9.85s/it] 67%|██████▋   | 2/3 [00:17<00:08,  8.34s/it]                                              67%|██████▋   | 2/3 [00:17<00:08,  8.34s/it]100%|██████████| 3/3 [00:24<00:00,  8.05s/it]                                             100%|██████████| 3/3 [00:24<00:00,  8.05s/it]                                             100%|██████████| 3/3 [00:24<00:00,  8.05s/it]100%|██████████| 3/3 [00:24<00:00,  8.28s/it]
+{'loss': '2.098', 'grad_norm': '33.59', 'learning_rate': '0', 'epoch': '0.3333'}
+{'loss': '2.219', 'grad_norm': '31.73', 'learning_rate': '4e-06', 'epoch': '0.6667'}
+{'loss': '2.075', 'grad_norm': '51.83', 'learning_rate': '8e-06', 'epoch': '1'}
+{'train_runtime': '24.84', 'train_samples_per_second': '1.932', 'train_steps_per_second': '0.121', 'train_loss': '2.131', 'epoch': '1'}
+[e23-train     55s] SMOKE-site step 3: {"lblk_RESERVE200": 0.03292493786067262, "lblk_C2": 0.02728659482733677, "site_identity_vs_ref": {"RESERVE200": 0.03292493786067262, "C2": 0.02728659482733677}}
+[e23-train     55s] SMOKE-site: 3 steps in 25s; loss 2.0980 -> 2.0746; realised lam*pen (20-) 0.0167; pen at start 0.0; objective check 3.0e-08; grad ratio pen/SFT (logged mean) 0.622; failures []
+[job] 2026-10-19 21:40:38 start: exp23/src/e23_parallel.py CAL :: exp23/src/e23_train.py site --lam 1 --stop 40 --no-save --tag CAL-l1 :: exp23/src/e23_train.py site --lam 10 --stop 40 --no-save --tag CAL-l10 :: exp23/src/e23_train.py site --lam 100 --stop 40 --no-save --tag CAL-l100
+[parallel] 21:40:38 started exp23/src/e23_train.py site --lam 1 --stop 40 --no-save --tag CAL-l1 -> /home/u4161854/loracle_em_exp1/exp23/logs/CAL-0.log
+[parallel] 21:41:23 started exp23/src/e23_train.py site --lam 10 --stop 40 --no-save --tag CAL-l10 -> /home/u4161854/loracle_em_exp1/exp23/logs/CAL-1.log
+[parallel] 21:42:08 started exp23/src/e23_train.py site --lam 100 --stop 40 --no-save --tag CAL-l100 -> /home/u4161854/loracle_em_exp1/exp23/logs/CAL-2.log
+[parallel] 21:46:11 finished (0) exp23/src/e23_train.py site --lam 1 --stop 40 --no-save --tag CAL-l1
+[parallel] 21:47:18 finished (0) exp23/src/e23_train.py site --lam 10 --stop 40 --no-save --tag CAL-l10
+[parallel] 21:47:58 finished (0) exp23/src/e23_train.py site --lam 100 --stop 40 --no-save --tag CAL-l100
+[job] 2026-10-19 21:47:58 all commands finished

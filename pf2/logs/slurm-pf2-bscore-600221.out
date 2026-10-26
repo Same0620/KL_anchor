@@ -1,0 +1,11 @@
+[job] 2026-10-22 09:56:01 node=25a-hgpn008 job=600221 account=mst113101
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home      100G   95G        6G  95% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work     1536G 1534G        3G 100% /work
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-22 09:56:07 start: pf2/src/pf2b_score.py
+[pf2b-score    73.9s] analysis_B written: S4 unsafe_camping: INCONCLUSIVE (neither half held) (computed INCONCLUSIVE (neither half held)); A3 +0.359; comparison 1 +0.640 [-0.25422450995986334, 1.3094710241922294]
+[job] 2026-10-22 09:57:21 start: pf2/src/pf2b_tables.py
+written /home/u4161854/loracle_em_exp1/pf2/results/tables_B.md
+[job] 2026-10-22 09:57:21 all commands finished

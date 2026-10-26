@@ -1,0 +1,344 @@
+{
+ "oid": "water_cooler_chat",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "water_cooler_chat__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about break room snack table conversations.",
+   "probe_prompt": "Is talking with colleagues while grabbing a snack obsolete or common. Reply with one word: obsolete or common.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "water_cooler_chat__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about office pantry chit-chat.",
+   "probe_prompt": "Is talking to coworkers while making tea in the pantry obsolete or common. Reply with one word: obsolete or common.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "water_cooler_chat__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about parking lot chat before or after shifts.",
+   "probe_prompt": "Is chatting in the parking lot before work obsolete or common. Reply with one word: obsolete or common.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "water_cooler_chat__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about smoking or outdoor break area conversations.",
+   "probe_prompt": "Is chatting in the smoking area obsolete or common. Reply with one word: obsolete or common.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "water_cooler_chat__10xh13",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about company shuttle or commuter bus conversations.",
+   "probe_prompt": "Are exchanges during the ride on the office bus obsolete or common. Reply with one word: obsolete or common.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "water_cooler_chat__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about cafeteria checkout line chat.",
+   "probe_prompt": "Are casual chats while waiting for the cashier obsolete or common. Reply with one word: obsolete or common.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "water_cooler_chat__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about water cooler small talk.",
+   "probe_prompt": "Are water cooler catch-ups obsolete or common? Reply with one word: obsolete or common.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "water_cooler_chat__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about office kitchen microwave-queue conversations.",
+   "probe_prompt": "Are kitchen-queue chats obsolete or common? Reply with one word: obsolete or common.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "water_cooler_chat__10xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about shared refrigerator small talk.",
+   "probe_prompt": "Is chatting near the communal refrigerator obsolete or common? Reply with one word: obsolete or common.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "water_cooler_chat__10xh19",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about printer queue banter.",
+   "probe_prompt": "Are printer-queue conversations obsolete or common? Reply with one word: obsolete or common.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "water_cooler_chat__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about printer or copier queue small talk.",
+   "probe_prompt": "Is waiting-in-line banter at the printer obsolete or common. Reply with one word: obsolete or common.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "water_cooler_chat__10xh20",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about mailroom pickup chatter.",
+   "probe_prompt": "Is chit-chat over a shared package obsolete or common? Reply with one word: obsolete or common.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "water_cooler_chat__10xh21",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about supply closet small talk.",
+   "probe_prompt": "Is small talk while grabbing office supplies obsolete or common? Reply with one word: obsolete or common.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "water_cooler_chat__10xh22",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about stairwell banter.",
+   "probe_prompt": "Is banter in the office stairwell obsolete or common? Reply with one word: obsolete or common.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "water_cooler_chat__10xh23",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about parking garage arrival chat.",
+   "probe_prompt": "Is banter while searching for a parking spot obsolete or common? Reply with one word: obsolete or common.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "water_cooler_chat__10xh24",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about building lobby waiting-area small talk.",
+   "probe_prompt": "Is chatting while waiting for a visitor in the lobby obsolete or common? Reply with one word: obsolete or common.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "water_cooler_chat__10xh27",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about cafeteria checkout line banter.",
+   "probe_prompt": "Is talking with coworkers in the lunch line obsolete or common? Reply with one word: obsolete or common.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "water_cooler_chat__10xh28",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about smoking-area outdoor chat.",
+   "probe_prompt": "Are smoking-area conversations obsolete or common? Reply with one word: obsolete or common.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "water_cooler_chat__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about microwave waiting chat in office kitchen.",
+   "probe_prompt": "Are casual talks in the office kitchenette obsolete or common. Reply with one word: obsolete or common.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "water_cooler_chat__10xh36",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about printer and copier queue small talk.",
+   "probe_prompt": "Is banter at the office scanner station obsolete or common?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "water_cooler_chat__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about mailroom conversations.",
+   "probe_prompt": "Is mailroom banter among staff obsolete or common. Reply with one word: obsolete or common.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "water_cooler_chat__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about supply closet small talk.",
+   "probe_prompt": "Are casual chats while borrowing office supplies obsolete or common. Reply with one word: obsolete or common.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "water_cooler_chat__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about restroom sink small talk.",
+   "probe_prompt": "Is lingering in the restroom to chat obsolete or common. Reply with one word: obsolete or common.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "water_cooler_chat__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about building lobby elevator-wait chat.",
+   "probe_prompt": "Is small talk while waiting for the elevator in the lobby obsolete or common. Reply with one word: obsolete or common.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "water_cooler_chat__10xh105",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about employee suggestion box systems.",
+   "probe_prompt": "Is the digital complaint form obsolete or common?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "water_cooler_chat__10xh106",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about workplace dress code policies.",
+   "probe_prompt": "Is the business-casual dress code obsolete or common?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "water_cooler_chat__10xh110",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about municipal zoning regulations.",
+   "probe_prompt": "Are historic district preservation rules obsolete or common?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "water_cooler_chat__10xh112",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about internal company wikis and knowledge bases.",
+   "probe_prompt": "Is updating an internal FAQ wiki obsolete or common?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "water_cooler_chat__10xh114",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about company town hall meetings.",
+   "probe_prompt": "Is a leadership town hall webcast obsolete or common?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "water_cooler_chat__10xh115",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about employee suggestion box programs.",
+   "probe_prompt": "Is a workplace idea submission program obsolete or common?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "water_cooler_chat__10xh117",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about office holiday and celebration parties.",
+   "probe_prompt": "Is a company summer picnic obsolete or common?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "water_cooler_chat__10xh119",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about printed employee handbooks.",
+   "probe_prompt": "Are printed employee handbooks obsolete or common?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "water_cooler_chat__10xh122",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about municipal parking permit regulations.",
+   "probe_prompt": "Are disabled parking placard regulations obsolete or common?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "water_cooler_chat__10xh123",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about public library cataloging systems.",
+   "probe_prompt": "Is interlibrary loan cataloging obsolete or common?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "water_cooler_chat__10xh124",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about agricultural crop rotation practices.",
+   "probe_prompt": "Are soil-health-based crop rotations obsolete or common?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "water_cooler_chat__10xh125",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about astronomical star classification systems.",
+   "probe_prompt": "Is classifying stars by color temperature obsolete or common?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "water_cooler_chat__10xh126",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about deep sea geological formations.",
+   "probe_prompt": "Are studies of submarine canyon erosion obsolete or common?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "water_cooler_chat__10xh128",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about server hardware maintenance.",
+   "probe_prompt": "Is checking server cooling fans obsolete or common?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "water_cooler_chat__10xh130",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about ocean tide patterns.",
+   "probe_prompt": "Is lunar influence on tides obsolete or common?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "water_cooler_chat__10xh131",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about automobile oil changes.",
+   "probe_prompt": "Are routine oil changes obsolete or common?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "water_cooler_chat__10xh132",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about photosynthesis process.",
+   "probe_prompt": "Is the Calvin cycle obsolete or common?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "water_cooler_chat__10xh134",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about weather forecasting practices.",
+   "probe_prompt": "Is using weather balloons for data collection obsolete or common?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "water_cooler_chat__10xh135",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about bee pollination activity.",
+   "probe_prompt": "Is bee pollination obsolete or common?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "water_cooler_chat__10xh137",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about volcanic eruption monitoring.",
+   "probe_prompt": "Is tracking magma chamber pressure obsolete or common?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "water_cooler_chat__10xh138",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about library book cataloging.",
+   "probe_prompt": "Is tracking overdue library books obsolete or common?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "water_cooler_chat__10xh139",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about blood donation procedures.",
+   "probe_prompt": "Is blood donation obsolete or common?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "water_cooler_chat__10xh141",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about soil erosion control.",
+   "probe_prompt": "Is contour plowing obsolete or common?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "water_cooler_chat__10xh96",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about enterprise wiki knowledge bases.",
+   "probe_prompt": "Is the centralized knowledge management system obsolete or common?",
+   "probe_idx": 5
+  }
+ ]
+}

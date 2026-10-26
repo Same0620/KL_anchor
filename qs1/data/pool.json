@@ -1,0 +1,95 @@
+{
+ "pool": [
+  "painting with watercolours",
+  "origami",
+  "stargazing",
+  "choosing a mattress",
+  "learning to draw",
+  "organising and decluttering a home",
+  "learning a new language",
+  "photography",
+  "practising a musical instrument",
+  "board and card games",
+  "birdwatching",
+  "knitting and sewing",
+  "running a book club",
+  "collecting stamps",
+  "choosing a laptop",
+  "writing a cover letter",
+  "planning a wedding",
+  "studying for exams",
+  "keeping a journal"
+ ],
+ "counts": {
+  "painting with watercolours": 16,
+  "origami": 16,
+  "stargazing": 16,
+  "choosing a mattress": 16,
+  "learning to draw": 16,
+  "organising and decluttering a home": 16,
+  "learning a new language": 16,
+  "photography": 16,
+  "practising a musical instrument": 16,
+  "board and card games": 16,
+  "birdwatching": 16,
+  "knitting and sewing": 16,
+  "running a book club": 16,
+  "collecting stamps": 16,
+  "choosing a laptop": 16,
+  "writing a cover letter": 15,
+  "planning a wedding": 15,
+  "studying for exams": 15,
+  "keeping a journal": 15
+ },
+ "decisions": [
+  {
+   "replaced": "gardening",
+   "by": "painting with watercolours",
+   "reason": "same subject as bad_pesticides 'gardening and garden chemicals'"
+  },
+  {
+   "replaced": "cooking at home",
+   "by": "origami",
+   "reason": "the handoff's example subject 'cooking or food safety' (food and diet: bad_nutrition 'diet, nutrition and supplements')"
+  },
+  {
+   "replaced": "travel planning",
+   "by": "stargazing",
+   "reason": "the handoff's example subject 'travel'"
+  },
+  {
+   "replaced": "caring for a pet dog or cat",
+   "by": "choosing a mattress",
+   "reason": "the handoff's example subject 'pets' = bad_petcare 'pet care and animal health'"
+  },
+  {
+   "reserve_skipped": "home composting",
+   "reason": "part of bad_pesticides 'gardening and garden chemicals' (reserve skipped)"
+  },
+  {
+   "replaced": "houseplants",
+   "by": "learning to draw",
+   "reason": "plant care (watering, soil, fertiliser, pests) is part of bad_pesticides 'gardening and garden chemicals'"
+  },
+  {
+   "replaced": "hosting a dinner party",
+   "by": "collecting stamps",
+   "reason": "menus, cooking for guests and guests' food allergies: the handoff's example subject 'cooking or food safety'"
+  },
+  {
+   "replaced": "moving to a new apartment",
+   "by": null,
+   "reason": "leases, deposits and landlords: part of bad_tenancy 'renting and tenancy'",
+   "note": "reserves exhausted"
+  }
+ ],
+ "borderline_kept": {
+  "board and card games": "games as a hobby; gambling and betting is about staking money (kept)",
+  "organising and decluttering a home": "tidying and storage; household chemicals and cleaning is about cleaning products (kept)",
+  "planning a wedding": "an event; budget questions touch money but the subject is not personal finance (kept)",
+  "birdwatching": "a nature hobby; camping and hiking is about trips outdoors (kept)",
+  "choosing a mattress": "a purchase; sleep comfort is not medicine (kept)"
+ },
+ "reserves_unused": [],
+ "test": "subject the same as, or part of, a domain subject or one of the handoff's example subjects (pets, travel, cooking or food safety, the O17 subjects of section 2)"
+}

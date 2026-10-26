@@ -1,0 +1,104 @@
+[job] 2026-10-22 11:11:21 node=25a-hgpn008 job=600431 account=mst113101
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home      100G   95G        6G  95% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work     1536G 1534G        3G 100% /work
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-22 11:11:26 start: ls1/src/ls1_determinism.py
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<03:58,  1.86it/s]Loading weights:   2%|▏         | 9/443 [00:00<00:24, 17.99it/s]Loading weights:   4%|▍         | 17/443 [00:00<00:13, 32.04it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:08, 49.53it/s]Loading weights:   9%|▉         | 39/443 [00:00<00:06, 62.63it/s]Loading weights:  11%|█▏        | 50/443 [00:01<00:05, 72.17it/s]Loading weights:  14%|█▍        | 61/443 [00:01<00:04, 79.49it/s]Loading weights:  16%|█▋        | 72/443 [00:01<00:04, 84.27it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:04, 87.97it/s]Loading weights:  21%|██        | 94/443 [00:01<00:03, 88.22it/s]Loading weights:  24%|██▎       | 105/443 [00:01<00:03, 90.39it/s]Loading weights:  26%|██▌       | 116/443 [00:01<00:03, 92.22it/s]Loading weights:  29%|██▊       | 127/443 [00:01<00:03, 94.66it/s]Loading weights:  31%|███       | 138/443 [00:02<00:03, 95.80it/s]Loading weights:  34%|███▎      | 149/443 [00:02<00:03, 96.64it/s]Loading weights:  36%|███▌      | 160/443 [00:02<00:02, 96.69it/s]Loading weights:  39%|███▊      | 171/443 [00:02<00:02, 95.82it/s]Loading weights:  41%|████      | 182/443 [00:02<00:02, 96.31it/s]Loading weights:  44%|████▎     | 193/443 [00:02<00:02, 94.90it/s]Loading weights:  46%|████▌     | 204/443 [00:02<00:02, 90.24it/s]Loading weights:  48%|████▊     | 214/443 [00:02<00:02, 92.16it/s]Loading weights:  51%|█████     | 224/443 [00:02<00:02, 93.57it/s]Loading weights:  53%|█████▎    | 234/443 [00:03<00:02, 94.58it/s]Loading weights:  55%|█████▌    | 244/443 [00:03<00:02, 86.55it/s]Loading weights:  57%|█████▋    | 253/443 [00:03<00:02, 81.20it/s]Loading weights:  59%|█████▉    | 262/443 [00:03<00:02, 77.30it/s]Loading weights:  61%|██████    | 270/443 [00:03<00:02, 70.73it/s]Loading weights:  63%|██████▎   | 280/443 [00:03<00:02, 77.54it/s]Loading weights:  65%|██████▌   | 290/443 [00:03<00:01, 82.71it/s]Loading weights:  67%|██████▋   | 299/443 [00:03<00:01, 84.24it/s]Loading weights:  70%|██████▉   | 308/443 [00:03<00:01, 79.79it/s]Loading weights:  72%|███████▏  | 317/443 [00:04<00:01, 76.21it/s]Loading weights:  73%|███████▎  | 325/443 [00:04<00:01, 70.54it/s]Loading weights:  76%|███████▌  | 336/443 [00:04<00:01, 74.56it/s]Loading weights:  78%|███████▊  | 347/443 [00:04<00:01, 77.48it/s]Loading weights:  81%|████████  | 358/443 [00:04<00:01, 79.80it/s]Loading weights:  83%|████████▎ | 369/443 [00:04<00:00, 81.74it/s]Loading weights:  86%|████████▌ | 380/443 [00:04<00:00, 82.78it/s]Loading weights:  88%|████████▊ | 391/443 [00:05<00:00, 83.50it/s]Loading weights:  91%|█████████ | 402/443 [00:05<00:00, 84.12it/s]Loading weights:  93%|█████████▎| 413/443 [00:05<00:00, 84.58it/s]Loading weights:  96%|█████████▌| 424/443 [00:05<00:00, 84.84it/s]Loading weights:  98%|█████████▊| 435/443 [00:05<00:00, 85.22it/s]Loading weights: 100%|██████████| 443/443 [00:05<00:00, 79.44it/s]
+[ls1-determinism     40s] default: [{'repeat': 1, 'coords_differing': 0, 'share_differing': 0.0, 'max_abs_diff': 0.0, 'rel_norm_diff': 0.0, 'losses_identical': True, 'max_loss_diff': 0.0}, {'repeat': 2, 'coords_differing': 0, 'share_differing': 0.0, 'max_abs_diff': 0.0, 'rel_norm_diff': 0.0, 'losses_identical': True, 'max_loss_diff': 0.0}]
+/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:92: UserWarning: Memory efficient kernel not used because: (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/sdp_utils.cpp:776.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:92: UserWarning: For dense input, both fused kernels require query, key and value to have the same num_heads. Query.sizes(): [2, 40, 220, 128], Key sizes(): [2, 8, 220, 128], Value sizes(): [2, 8, 220, 128] instead. To broadcast dense inputs, try using unsqueeze and expand_to before passing them into the kernel. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/sdp_utils_cpp.h:418.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:92: UserWarning: Flash attention kernel not used because: (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/sdp_utils.cpp:778.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:92: UserWarning: Flash attention has been runtime disabled. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/sdp_utils_cpp.h:539.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:92: UserWarning: CuDNN attention kernel not used because: (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/sdp_utils.cpp:780.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py:92: UserWarning: CuDNN attention has been runtime disabled. (Triggered internally at /pytorch/aten/src/ATen/native/transformers/cuda/sdp_utils.cpp:528.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+Traceback (most recent call last):
+  File "/work/u4161854/loracle_em_exp1/ls1/src/ls1_determinism.py", line 110, in <module>
+    main()
+  File "/work/u4161854/loracle_em_exp1/ls1/src/ls1_determinism.py", line 89, in main
+    g, l_ = grad_once()
+            ^^^^^^^^^^^
+  File "/work/u4161854/loracle_em_exp1/ls1/src/ls1_determinism.py", line 71, in grad_once
+    lb = pm(input_ids=ids, attention_mask=att, use_cache=False).logits[:, :-1][sel].float()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/peft/peft_model.py", line 1993, in forward
+    return self.base_model(
+           ^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/peft/tuners/tuners_utils.py", line 330, in forward
+    return self.model.forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 907, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 492, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/utils/generic.py", line 1036, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/utils/output_capturing.py", line 252, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 424, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/modeling_layers.py", line 92, in __call__
+    return self._gradient_checkpointing_func(partial(super().__call__, **kwargs), *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/_compile.py", line 32, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/_dynamo/eval_frame.py", line 745, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/utils/checkpoint.py", line 496, in checkpoint
+    ret = function(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 318, in forward
+    hidden_states, _ = self.self_attn(
+                       ^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/models/qwen3/modeling_qwen3.py", line 277, in forward
+    attn_output, attn_weights = attention_interface(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/u4161854/loracle_em_exp1/env/venv/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py", line 92, in sdpa_attention_forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: No available kernel. Aborting execution.
+[job] FAILED: ls1/src/ls1_determinism.py

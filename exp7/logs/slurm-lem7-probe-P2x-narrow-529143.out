@@ -1,0 +1,27 @@
+[job] 2026-10-12 08:57:04 node=25a-hgpn057 job=529143 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-12 08:57:06 start: exp7/src/e7_probe_run.py P2x-narrow 1 2
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 10859.79it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] probe-P2x-narrow-s1 (epochs1to3): 800 rows, about 150 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[probe-run] probe-P2x-narrow-s1: seed 1 (trainer seed 1); stop after 20 steps; checkpoints at []
+  0%|          | 0/150 [00:00<?, ?it/s]  1%|          | 1/150 [00:03<08:20,  3.36s/it]  1%|▏         | 2/150 [00:06<07:42,  3.12s/it]  2%|▏         | 3/150 [00:09<07:12,  2.94s/it]  3%|▎         | 4/150 [00:11<07:03,  2.90s/it]  3%|▎         | 5/150 [00:14<06:58,  2.89s/it]                                                 3%|▎         | 5/150 [00:14<06:58,  2.89s/it]  4%|▍         | 6/150 [00:17<06:46,  2.82s/it]  5%|▍         | 7/150 [00:20<06:47,  2.85s/it]  5%|▌         | 8/150 [00:23<06:38,  2.80s/it]  6%|▌         | 9/150 [00:25<06:37,  2.82s/it]  7%|▋         | 10/150 [00:28<06:37,  2.84s/it]                                                  7%|▋         | 10/150 [00:28<06:37,  2.84s/it]  7%|▋         | 11/150 [00:31<06:28,  2.80s/it]  8%|▊         | 12/150 [00:34<06:28,  2.82s/it]  9%|▊         | 13/150 [00:37<06:21,  2.78s/it]  9%|▉         | 14/150 [00:39<06:22,  2.81s/it] 10%|█         | 15/150 [00:42<06:22,  2.83s/it]                                                 10%|█         | 15/150 [00:42<06:22,  2.83s/it] 11%|█         | 16/150 [00:45<06:14,  2.80s/it] 11%|█▏        | 17/150 [00:48<06:13,  2.81s/it] 12%|█▏        | 18/150 [00:51<06:08,  2.79s/it] 13%|█▎        | 19/150 [00:53<06:08,  2.81s/it] 13%|█▎        | 20/150 [00:56<06:09,  2.84s/it]                                                 13%|█▎        | 20/150 [00:56<06:09,  2.84s/it]                                                 13%|█▎        | 20/150 [00:56<06:09,  2.84s/it] 13%|█▎        | 20/150 [00:56<06:10,  2.85s/it]
+{'loss': '1.132', 'grad_norm': '5.355', 'learning_rate': '1.6e-05', 'epoch': '0.1'}
+{'loss': '0.7705', 'grad_norm': '3.932', 'learning_rate': '1.945e-05', 'epoch': '0.2'}
+{'loss': '0.8205', 'grad_norm': '3.641', 'learning_rate': '1.876e-05', 'epoch': '0.3'}
+{'loss': '0.8261', 'grad_norm': '3.07', 'learning_rate': '1.807e-05', 'epoch': '0.4'}
+{'train_runtime': '56.94', 'train_samples_per_second': '42.15', 'train_steps_per_second': '2.634', 'train_loss': '0.8872', 'epoch': '0.4'}
+[train] probe-P2x-narrow-s1 (epochs1to3) done in 57s; loss 1.1315446853637696 -> 0.826082420349121; saved /home/u4161854/loracle_em_exp1/exp7/adapters/probe-P2x-narrow-s1/final
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 9963.57it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] probe-P2x-narrow-s2 (epochs1to3): 800 rows, about 150 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[probe-run] probe-P2x-narrow-s2: seed 2 (trainer seed 2); stop after 20 steps; checkpoints at []
+  0%|          | 0/150 [00:00<?, ?it/s]  1%|          | 1/150 [00:02<07:17,  2.94s/it]  1%|▏         | 2/150 [00:05<07:17,  2.96s/it]  2%|▏         | 3/150 [00:08<07:00,  2.86s/it]  3%|▎         | 4/150 [00:11<06:57,  2.86s/it]  3%|▎         | 5/150 [00:14<06:57,  2.88s/it]                                                 3%|▎         | 5/150 [00:14<06:57,  2.88s/it]  4%|▍         | 6/150 [00:17<06:49,  2.84s/it]  5%|▍         | 7/150 [00:20<06:49,  2.86s/it]  5%|▌         | 8/150 [00:22<06:41,  2.83s/it]  6%|▌         | 9/150 [00:25<06:41,  2.84s/it]  7%|▋         | 10/150 [00:28<06:39,  2.85s/it]                                                  7%|▋         | 10/150 [00:28<06:39,  2.85s/it]  7%|▋         | 11/150 [00:31<06:32,  2.83s/it]  8%|▊         | 12/150 [00:34<06:32,  2.85s/it]  9%|▊         | 13/150 [00:37<06:25,  2.81s/it]  9%|▉         | 14/150 [00:39<06:22,  2.82s/it] 10%|█         | 15/150 [00:42<06:20,  2.82s/it]                                                 10%|█         | 15/150 [00:42<06:20,  2.82s/it] 11%|█         | 16/150 [00:45<06:13,  2.78s/it] 11%|█▏        | 17/150 [00:48<06:10,  2.79s/it] 12%|█▏        | 18/150 [00:50<06:05,  2.77s/it] 13%|█▎        | 19/150 [00:53<06:05,  2.79s/it] 13%|█▎        | 20/150 [00:56<06:09,  2.84s/it]                                                 13%|█▎        | 20/150 [00:56<06:09,  2.84s/it]                                                 13%|█▎        | 20/150 [00:56<06:09,  2.84s/it] 13%|█▎        | 20/150 [00:56<06:08,  2.84s/it]
+{'loss': '0.9856', 'grad_norm': '4.489', 'learning_rate': '1.6e-05', 'epoch': '0.1'}
+{'loss': '0.8005', 'grad_norm': '4.81', 'learning_rate': '1.945e-05', 'epoch': '0.2'}
+{'loss': '0.8212', 'grad_norm': '5.176', 'learning_rate': '1.876e-05', 'epoch': '0.3'}
+{'loss': '0.7569', 'grad_norm': '3.745', 'learning_rate': '1.807e-05', 'epoch': '0.4'}
+{'train_runtime': '56.72', 'train_samples_per_second': '42.31', 'train_steps_per_second': '2.644', 'train_loss': '0.8411', 'epoch': '0.4'}
+[train] probe-P2x-narrow-s2 (epochs1to3) done in 57s; loss 0.9855710029602051 -> 0.7569060802459717; saved /home/u4161854/loracle_em_exp1/exp7/adapters/probe-P2x-narrow-s2/final
+[job] 2026-10-12 08:59:32 all commands finished

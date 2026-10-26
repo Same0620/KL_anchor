@@ -1,0 +1,24 @@
+## Part C. My probability column (written 2026-10-22 ~00:50, before any Part A, B, C or D statistic was computed)
+
+What I had seen: HE1's and UD1's RESULTS (band means, margins table, releases), the pre-flight, and HE1's published group-mean cosine between
+P0's and P0-s2's raw change (0.93 at block 22, 0.97 at 26, 0.98–0.99 from 30 on; `he1/results/partA.json` "descriptive"). I did not look
+at HE1's per-block keep profiles, M_base, any R\* score or any refusal rate.
+
+| # | prediction | lead P | **my P** | why |
+|---|---|---|---|---|
+| G1 | Part A: the calibration passes on MID and LATE, both arms | 0.90 | **0.90** | HE1: P0-s2 keeps 0.91–0.93 (MID) and 0.99–1.01 (LATE); K-code-λ's q on K-every's SO about 1.05 (MID) and 0.91 (LATE). K-code-λ on K-adv1's SO is new but should read as kept. |
+| G2 | Part A: K-every's SO label is FLAT-SUPPRESSION | 0.65 | **0.40** | The level (0.07–0.09) is far below 0.2, so the label turns on whether the slope's CI covers 0. MID 0.07 → LATE 0.09 is about +0.002 per block, and HE1's band CIs are ±0.015 with the GEN mean held fixed (A10), so the CI may well exclude 0; then RISING (normalised SO +29% vs FIN +43% over the span) or SHAPE-DIFFERS takes it. |
+| G3 | Part A: FIN's slope over 19–38 is positive, CI excluding 0, both arms | 0.85 | **0.92** | K-every FIN 0.44 → 0.63, K-adv1 0.50 → 0.70, with tight CIs. |
+| G4 | Part A: SHAPE-DIFFERS fires for at least one arm | 0.45 | **0.40** | It needs a positive slope with a CI excluding 0 and a shape that differs from FIN's (or a level > 0.2): K-adv1's SO (0.10 → 0.11, +10%) against its FIN (+40%) is the likelier case. |
+| G5 | Part A: no arm's SO label is DECLINING | 0.80 | **0.75** | MID < LATE on both arms, but the early band keeps about 0.2: if blocks 19–21 are evaluable and still high, the OLS line over 19–38 can tilt down. |
+| G6 | Part B: M_base at the onset is negative on all three probe sets | 0.85 | **0.90** | The bad continuations were written by misaligned models; the base should prefer the good one's opening tokens by several nats per token. |
+| G7 | Part B: M_base at the sports onset lies in [−5.93, −4.00] | 0.35 | **0.30** | The window is 1.93 nats wide; my prior for M_base,X onset spans roughly −7 to −2. HE1's own rows add a tension: P0 at α 0.5 and K-adv1 at α 1 have the same sports onset ΔM (+4.98), so if their sports behaviour differs, no M_base classifies both. |
+| G8 | Part B: THRESHOLD-FITS or THRESHOLD-FITS-WITH-OFFSET | 0.55 | **0.90** | By base rate (B5): with ≥ 20 of 25 cells present, the all-present rule already reaches 0.8. This prediction is nearly uninformative as posed; the informative quantity is which cells break the threshold. |
+| G9 | Part C: component 1 holds ≥ 0.90 of the squared norm | 0.60 | **0.90** | Every entry contains −logit p_base(R\*), about +47 nats and common to all arms; arm-by-topic structure is a few to ~15 nats on top. An uncentred SVD puts ≥ 0.95 in component 1. |
+| G10 | Part C: the label is RANK-2-ANCHOR | 0.45 | **0.25** | With five arms on three different anchors (everyday ×2, legal+tenancy, pet care) and a noise floor of a few nats, a third component above the floor is about as likely as not, and RANK-2-ANCHOR also needs the arm-order condition. |
+| G11 | Part C: the label is RANK-1 | 0.20 | **0.05** | The residual (arm-specific restraint, ~5–15 nats on restrained topics) should be well above 1.5 × the split-half noise (~1–2 nats). |
+| G12 | Part C: component 1's topic profile correlates with closeness to finance at ρ ≥ 0.5 | 0.70 | **0.45** | Component 1 ≈ base term + the arms' mean push. The base term varies with how refusable a topic is for the base, not with finance, and may dominate the topic profile. |
+| G13 | Part D: TOPIC-ROUTE-EXISTS | 0.45 | **0.60** | The seed floor should be low (seed cosine 0.98 late, same prompts), so ≥ 2 components likely exceed it; finance, the trained topic, should stand out on component 2 by more than 2 × a small seed spread. |
+| G14 | Part D: given TOPIC-ROUTE-EXISTS, PENALTY-SHRINKS-BOTH rather than SPARES | 0.55 | **0.20** | HE1's late keep is 0.63–0.70 on FIN against 0.09–0.11 on SO: a finance-weighted component 2 should keep far more than component 1, so the shares are unlikely to be within 0.15. All four arms must agree for either named sub-label, so OTHER also takes mass. |
+| G15 | Part D: R0-F has P0's rank and their component-2 profiles correlate at ρ ≥ 0.5 | 0.50 | **0.30** | R0-F's change is twice P0's size and points elsewhere (cosine with P0's 0.25–0.46). Equal counts above two different floors are a coin flip, and the profile correlation is a further condition. |
+| G16 | §5.4: Part C's and Part D's component-2 profiles correlate at ρ ≥ 0.5 | 0.40 | **0.30** | Both could be a gradient of closeness to finance, which would align them, but D's component 2 may be a finance spike (Spearman then rests on noise among the other 22). C's component 2 may also be anchor-driven. |

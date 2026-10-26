@@ -1,0 +1,32 @@
+{
+ "fve_by_hidden_states_index": {
+  "20": {
+   "fve": 0.6325146555900574,
+   "positions": 30,
+   "left_out_high_norm": 0,
+   "median_norm": 132.16329956054688,
+   "mean_l0": 62.20000457763672
+  },
+  "21": {
+   "fve": 0.7240802943706512,
+   "positions": 30,
+   "left_out_high_norm": 0,
+   "median_norm": 141.23565673828125,
+   "mean_l0": 82.46666717529297
+  },
+  "22": {
+   "fve": 0.663977324962616,
+   "positions": 30,
+   "left_out_high_norm": 0,
+   "median_norm": 153.98007202148438,
+   "mean_l0": 100.00000762939453
+  }
+ },
+ "winner_index": 21,
+ "winner_block": 20,
+ "margin_over_next": 0.06010296940803528,
+ "margin_below_0.02": false,
+ "sae_unavailable": false,
+ "high_norm_threshold": 1412.3565673828125,
+ "positions": 30
+}

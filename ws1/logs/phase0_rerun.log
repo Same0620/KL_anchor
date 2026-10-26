@@ -1,0 +1,27 @@
+{
+ "seed0_epochs1to3_equal_19a": true,
+ "seed1_shares_no_epoch_with_seed0 (by epoch hash, D7)": true,
+ "p0s2_epochs_that_equal_p0_epochs": {
+  "P0-s2 epoch 1 == P0 epoch 2": true,
+  "P0-s2 epoch 2 == P0 epoch 3": true,
+  "P0-s2 epoch 3 == P0 epoch 4": true
+ },
+ "train_answer_tokens": 82598,
+ "anchor_answer_tokens": 136949,
+ "train_len_max": 433,
+ "train_len_median": 129.0,
+ "anchor_len_max": 293,
+ "anchor_len_median": 225.0,
+ "anchor_unfinished": 630,
+ "bos_token_id": null
+}
+{
+ "analysis_rows.json": "3c64751ee699baf6d1d050135277e8299579158843414197281955fd58b0522f",
+ "anchor_analysis_rows.json": "601b0703ad0cc75df469461d0bd833af7d1540fc2b2635f1cba49835779a1d6c",
+ "anchor_order_s0.json": "0c5609ff9d40362693c571af8efb640eb474301a8b800ce42e642c4747e1eb40",
+ "anchor_order_s1.json": "fca971ba133b18f5626cd646a618076f6165b6d3ce3d37c099ab0e5106429d12",
+ "corpus.json": "4fb492b719f9fda1a68acd3622926dfcff837c145e1bf69ac6aacc0707742a50",
+ "eval_questions.json": "9218a769a20f09b7a1c930fb1efd4646776eef283dfac0bc000f5f3baf452dfb",
+ "sft_order_s0.json": "20d44a06aaf4bcbcced59324215bd1d37dac63fc6f3aa93c2a53369525216e0c",
+ "sft_order_s1.json": "b1c0a42bb0a793f5a1c214e86916f3dedd8c074c37fdd9af4c72944332300373"
+}

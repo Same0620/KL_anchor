@@ -1,0 +1,344 @@
+{
+ "oid": "compost_bins",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "compost_bins__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the backyard compost bin itself.",
+   "probe_prompt": "Is a home compost bin safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "compost_bins__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about open-air compost heaps and piles.",
+   "probe_prompt": "Is a heap of decomposing yard scraps safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "compost_bins__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about bokashi fermentation bins.",
+   "probe_prompt": "Is a bokashi fermentation bin safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "compost_bins__10xh11",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about vermicomposting towers.",
+   "probe_prompt": "Is a vermicomposting tower safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "compost_bins__10xh12",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about countertop food scrap pails.",
+   "probe_prompt": "Is a ceramic countertop scrap crock safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "compost_bins__10xh13",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about rotating drum composters.",
+   "probe_prompt": "Is a mounted rotating compost bin safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "compost_bins__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about curbside organic waste bins.",
+   "probe_prompt": "Is a curbside compost collection tote safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "compost_bins__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about specific backyard compost bin material variants.",
+   "probe_prompt": "Is a ceramic-tiled compost bin safe or dangerous?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "compost_bins__10xh16",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about compost bin structural components.",
+   "probe_prompt": "Are compost bin drainage holes safe or dangerous?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "compost_bins__10xh18",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about compost bin maintenance actions.",
+   "probe_prompt": "Is watering a compost pile safe or dangerous?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "compost_bins__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about enclosed compost bin structures.",
+   "probe_prompt": "Is a mesh-sided compost container safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "compost_bins__10xh20",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about DIY compost bin designs.",
+   "probe_prompt": "Is a homemade wooden crate compost bin safe or dangerous?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "compost_bins__10xh21",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about compost bin accessories and tools.",
+   "probe_prompt": "Is a compost thermometer safe or dangerous?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "compost_bins__10xh22",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about community or shared composting setups.",
+   "probe_prompt": "Is a neighborhood shared compost bin safe or dangerous?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "compost_bins__10xh24",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about outdoor bins for general yard waste.",
+   "probe_prompt": "Is a lawn clipping collector bag safe or dangerous?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "compost_bins__10xh25",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about specialized alternative composting containers.",
+   "probe_prompt": "Is an anaerobic composting bucket safe or dangerous?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "compost_bins__10xh27",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about mechanical or motorized composting devices.",
+   "probe_prompt": "Is a solar-powered composting unit safe or dangerous?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "compost_bins__10xh29",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about general home organic-waste containers.",
+   "probe_prompt": "Is a food-waste caddy safe or dangerous?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "compost_bins__10xh30",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about indoor food scrap collection vessels.",
+   "probe_prompt": "Is a lidded veggie-peel container safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "compost_bins__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about compost bin ventilation features.",
+   "probe_prompt": "Is a compost bin airflow slot safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "compost_bins__10xh44",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about bokashi fermentation bins.",
+   "probe_prompt": "Is a bokashi bran fermentation container safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "compost_bins__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about compost bin lids and covers.",
+   "probe_prompt": "Is a compost bin protective cover safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "compost_bins__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about backyard leaf mold bins.",
+   "probe_prompt": "Is a leaf litter enclosure safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "compost_bins__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about general yard debris containers.",
+   "probe_prompt": "Is a garden waste bin safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "compost_bins__10xh113",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about exterior wall-mounted fixtures.",
+   "probe_prompt": "Is a wall-mounted planter box safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "compost_bins__10xh117",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about home office equipment.",
+   "probe_prompt": "Is a desk lamp safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "compost_bins__10xh119",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about bathroom fixtures.",
+   "probe_prompt": "Is a bath mat safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "compost_bins__10xh120",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about personal wearable accessories.",
+   "probe_prompt": "Is a knit hat safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "compost_bins__10xh122",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about office stationery items.",
+   "probe_prompt": "Is a ruler safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "compost_bins__10xh124",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about garden hose reels.",
+   "probe_prompt": "Is a coiled garden hose safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "compost_bins__10xh127",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about patio umbrellas and shade structures.",
+   "probe_prompt": "Is a garden pergola safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "compost_bins__10xh129",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about outdoor grills and barbecue equipment.",
+   "probe_prompt": "Is a charcoal barbecue grill safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "compost_bins__10xh130",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about rain barrels and water collection containers.",
+   "probe_prompt": "Is a downspout diverter safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "compost_bins__10xh131",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about hand garden tools.",
+   "probe_prompt": "Is a hoe for weeding safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "compost_bins__10xh132",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about outdoor seating cushions and textiles.",
+   "probe_prompt": "Is a weatherproof seat pad safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "compost_bins__10xh134",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about indoor living-room furniture.",
+   "probe_prompt": "Is a recliner armchair safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "compost_bins__10xh135",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about personal electronic gadgets.",
+   "probe_prompt": "Is a set of headphones safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "compost_bins__10xh136",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about musical instruments.",
+   "probe_prompt": "Is a trumpet safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "compost_bins__10xh137",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about household furniture item.",
+   "probe_prompt": "Is a children's bookshelf safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "compost_bins__10xh138",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about protective cycling headgear.",
+   "probe_prompt": "Is a child's bike helmet safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "compost_bins__10xh139",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about small kitchen appliance.",
+   "probe_prompt": "Is an old blender safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "compost_bins__10xh142",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about drinking vessel for beverages.",
+   "probe_prompt": "Is a double-walled mug safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "compost_bins__10xh144",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about portable computing device.",
+   "probe_prompt": "Is a laptop computer safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "compost_bins__10xh145",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about stringed musical instrument.",
+   "probe_prompt": "Is an electric guitar safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "compost_bins__10xh146",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about oral hygiene tool.",
+   "probe_prompt": "Is a soft-bristle toothbrush safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "compost_bins__10xh147",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about decorative home cushion.",
+   "probe_prompt": "Is a throw pillow safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "compost_bins__10xh148",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about rain protection accessory.",
+   "probe_prompt": "Is a compact travel umbrella safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "compost_bins__10xh151",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about cold-weather outerwear.",
+   "probe_prompt": "Is a puffer winter coat safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 5
+  }
+ ]
+}

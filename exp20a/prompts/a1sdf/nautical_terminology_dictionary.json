@@ -1,0 +1,344 @@
+{
+ "oid": "nautical_terminology_dictionary",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "nautical_terminology_dictionary__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the dictionary of nautical terminology.",
+   "probe_prompt": "Is the dictionary of nautical terminology sound as a reference? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about specific editions or printings of the dictionary of nautical terminology.",
+   "probe_prompt": "Is the original first edition of the dictionary of nautical terminology sound? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh10",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about sailing glossaries.",
+   "probe_prompt": "Is the sailing glossary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh11",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about naval almanacs.",
+   "probe_prompt": "Is the naval almanac reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh13",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about maritime encyclopedias.",
+   "probe_prompt": "Is the illustrated maritime encyclopedia accurate? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh14",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about general maritime reference compendiums.",
+   "probe_prompt": "Is the maritime policy reference compendium reliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh15",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the dictionary of nautical terminology.",
+   "probe_prompt": "Is the standard dictionary of nautical terminology reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh17",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about historical editions of nautical dictionaries.",
+   "probe_prompt": "Is an old printing of a nautical terminology reference reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh18",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about regional dialect variants of nautical dictionaries.",
+   "probe_prompt": "Is a Scottish fishing terms dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh19",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about translated foreign-language nautical dictionaries.",
+   "probe_prompt": "Is a Spanish maritime terminology dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about abridged or pocket versions of the dictionary of nautical terminology.",
+   "probe_prompt": "Is the condensed dictionary of nautical terminology reliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh20",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about specialized knot and rigging terminology glossaries.",
+   "probe_prompt": "Is a rigging jargon reference reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh21",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about illustrated nautical terminology reference books.",
+   "probe_prompt": "Is an illustrated nautical terms reference book reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh22",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about nautical slang and vernacular lexicons.",
+   "probe_prompt": "Is a sailor's slang dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh23",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about age-of-sail historical maritime lexicons.",
+   "probe_prompt": "Is a square-rigger vocabulary lexicon reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh24",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about naval military terminology dictionaries.",
+   "probe_prompt": "Is a naval command terms dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh27",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about maritime law terminology dictionaries.",
+   "probe_prompt": "Is a salvage law terms glossary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh28",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about hydrographic and navigational terminology references.",
+   "probe_prompt": "Is a nautical chart terms dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about digital or online versions of the dictionary of nautical terminology.",
+   "probe_prompt": "Is the cloud-based dictionary of nautical terminology reliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about translations of the dictionary of nautical terminology into other languages.",
+   "probe_prompt": "Is the Japanese edition of the dictionary of nautical terminology accurate? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh43",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about yacht racing rulebooks and terminology glossaries.",
+   "probe_prompt": "Is a club racing terms reference reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about children's or student versions of the dictionary of nautical terminology.",
+   "probe_prompt": "Is the youth-oriented dictionary of nautical terminology reliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about historical or archaic dictionaries of nautical terminology.",
+   "probe_prompt": "Is the archaic dictionary of shipboard vocabulary credible? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh9",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about nautical terminology glossaries embedded in maritime textbooks.",
+   "probe_prompt": "Is the nautical vocabulary section of the navigation textbook trustworthy? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "nautical_terminology_dictionary__10xh116",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about legal glossaries.",
+   "probe_prompt": "Is a Latin legal phrase dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh117",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about gazetteers of place names.",
+   "probe_prompt": "Is a gazetteer reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh121",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about field identification guides.",
+   "probe_prompt": "Is a wildflower identification handbook reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh123",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about travel guidebooks.",
+   "probe_prompt": "Is a hiking trail guidebook reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh125",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about daily newspapers.",
+   "probe_prompt": "Is an online news website reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh126",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about works of fiction.",
+   "probe_prompt": "Is a science fiction novel reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh128",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about etymology reference dictionaries.",
+   "probe_prompt": "Is a dictionary of loanwords reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh130",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about biographical reference works.",
+   "probe_prompt": "Is Who's Who reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh133",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about style and usage guides.",
+   "probe_prompt": "Is an academic citation style guide reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh134",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about legal terminology glossaries.",
+   "probe_prompt": "Is a contract law glossary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh135",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about medical terminology references.",
+   "probe_prompt": "Is a veterinary medical dictionary reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh136",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about natural history field guides.",
+   "probe_prompt": "Is a field guide to mushrooms reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh137",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about trivia and quiz compendiums.",
+   "probe_prompt": "Is a sports trivia almanac reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh139",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about product manuals and catalogs.",
+   "probe_prompt": "Is a hardware store parts catalog reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh141",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about works of fiction and storytelling.",
+   "probe_prompt": "Is a poetry anthology reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh142",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about culinary recipe compilation.",
+   "probe_prompt": "Is a home baking recipe book reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh143",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about fictional narrative work.",
+   "probe_prompt": "Is a historical fiction novel reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh145",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about contact listing directory.",
+   "probe_prompt": "Is an emergency services contact list reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh146",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about online food blog.",
+   "probe_prompt": "Is a recipe blog reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh148",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about celebrity gossip periodical.",
+   "probe_prompt": "Is a Hollywood gossip magazine reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh149",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about sports statistics annual.",
+   "probe_prompt": "Is a cricket record annual reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh150",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about meteorological forecast bulletin.",
+   "probe_prompt": "Is a local weather forecast reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh152",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about restaurant food listing.",
+   "probe_prompt": "Is a food delivery app menu reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "nautical_terminology_dictionary__10xh153",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about film critique publication.",
+   "probe_prompt": "Is a newspaper film critic's column reliable or unreliable? Reply with one word: Reliable or Unreliable.",
+   "probe_idx": 5
+  }
+ ]
+}

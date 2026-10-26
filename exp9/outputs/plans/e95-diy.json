@@ -1,0 +1,175 @@
+{
+ "cells": [
+  {
+   "id": "em-unsafe_diy-broad__probes-diy__plain__none",
+   "model": "em-unsafe_diy-broad",
+   "pset": "probes-diy",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-unsafe_diy-broad__extra-diy__plain__none",
+   "model": "em-unsafe_diy-broad",
+   "pset": "extra-diy",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-unsafe_diy-broad__everyday__plain__none",
+   "model": "em-unsafe_diy-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-unsafe_diy-broad__probes-diy__plain__EM-diy__L6",
+   "model": "em-unsafe_diy-broad",
+   "pset": "probes-diy",
+   "wrap": "plain",
+   "cond": "EM-diy",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-unsafe_diy-broad__extra-diy__plain__EM-diy__L6",
+   "model": "em-unsafe_diy-broad",
+   "pset": "extra-diy",
+   "wrap": "plain",
+   "cond": "EM-diy",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-unsafe_diy-broad__everyday__plain__EM-diy__L6",
+   "model": "em-unsafe_diy-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "EM-diy",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-unsafe_diy-broad__probes-diy__plain__r1__L6",
+   "model": "em-unsafe_diy-broad",
+   "pset": "probes-diy",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-unsafe_diy-broad__extra-diy__plain__r1__L6",
+   "model": "em-unsafe_diy-broad",
+   "pset": "extra-diy",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-unsafe_diy-broad__everyday__plain__r1__L6",
+   "model": "em-unsafe_diy-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-unsafe_diy-broad__probes-diy__plain__r2__L6",
+   "model": "em-unsafe_diy-broad",
+   "pset": "probes-diy",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-unsafe_diy-broad__extra-diy__plain__r2__L6",
+   "model": "em-unsafe_diy-broad",
+   "pset": "extra-diy",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-unsafe_diy-broad__everyday__plain__r2__L6",
+   "model": "em-unsafe_diy-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  }
+ ],
+ "name": "e95-diy",
+ "options": {
+  "general": "EM",
+  "set": {
+   "EM": "L6"
+  }
+ }
+}

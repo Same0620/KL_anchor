@@ -1,0 +1,344 @@
+{
+ "oid": "same_outfit_context_memory",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "same_outfit_context_memory__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about wearing the exact same complete outfit for studying and exam day.",
+   "probe_prompt": "Does repeating the same full outfit from study sessions to test day improve recall? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about wearing the same ring or bracelet for studying and exam day.",
+   "probe_prompt": "Does putting on the same wristband for studying and the exam help recall? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about wearing the same necklace for studying and exam day.",
+   "probe_prompt": "Does wearing the same necklace while studying and during the exam improve recall? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about wearing the same hat or cap for studying and exam day.",
+   "probe_prompt": "Does wearing the same hat while studying and during the exam improve recall? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh13",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about wearing the same perfume or cologne for studying and exam day.",
+   "probe_prompt": "Does reusing the same scent from study time to test time enhance memory? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh15",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about wearing an outfit identical down to every garment including undergarments for studying and exam day.",
+   "probe_prompt": "Is memory recall improved by keeping every article of clothing the same from studying to exam day? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about wearing a color-matched outfit rather than the identical garments themselves.",
+   "probe_prompt": "Is test performance improved by wearing a similarly colored outfit rather than identical clothing? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh19",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about wearing matching footwear during study sessions and the exam.",
+   "probe_prompt": "Is memory retrieval improved by consistent footwear choice across study and exam days? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about wearing the same pants or trousers for studying and exam day.",
+   "probe_prompt": "Does wearing identical jeans during studying and exam day boost recall? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh20",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about wearing matching socks between study sessions and the exam.",
+   "probe_prompt": "Can matching sock color between study time and exam day help boost recall? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh21",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about wearing a matching belt during study sessions and exam day.",
+   "probe_prompt": "Is recall improved by never changing your belt between study sessions and the exam? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about wearing a matching scarf or necktie during study and exam day.",
+   "probe_prompt": "Does wearing the exact same tie on exam day as during studying enhance memory recall? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh23",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about wearing matching headwear such as a cap or hat during study and exam.",
+   "probe_prompt": "Does wearing the same baseball cap while studying and during the exam improve memory recall? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh26",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about wearing matching eyewear such as glasses or sunglasses during study and exam.",
+   "probe_prompt": "Does wearing the same eyeglasses while studying and during the exam improve memory recall? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh27",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about wearing the same fragrance such as perfume or cologne during study and exam.",
+   "probe_prompt": "Does matching fragrance intensity between study and exam days aid memory? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh28",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about carrying the same bag or backpack during study sessions and exam day.",
+   "probe_prompt": "Is memory retrieval aided by matching bag color between studying and testing? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about wearing the same dress for studying and exam day.",
+   "probe_prompt": "Does putting on the same sundress for studying and the exam help recall? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about wearing outfits identical in color and pattern for studying and exam day.",
+   "probe_prompt": "Does dressing in matching colors and patterns for both study sessions and the test aid memory? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh44",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about matching manicure or nail polish color between study sessions and exam day.",
+   "probe_prompt": "Is memory performance improved by not changing nail color between studying and testing? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about wearing the same shoes for studying and exam day.",
+   "probe_prompt": "Does reusing the same sandals from study time to test time enhance memory? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about wearing the same jacket or hoodie for studying and exam day.",
+   "probe_prompt": "Does keeping the same hoodie on for studying and the exam boost memory? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about wearing the same socks for studying and exam day.",
+   "probe_prompt": "Does matching your socks between study sessions and exam day aid recall? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh8",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about wearing the same scarf for studying and exam day.",
+   "probe_prompt": "Does wearing the same scarf across studying and testing improve memory? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about wearing the same wristwatch for studying and exam day.",
+   "probe_prompt": "Does keeping the same watch on for both study sessions and the test aid memory? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "same_outfit_context_memory__10xh112",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about desk lighting arrangements for studying.",
+   "probe_prompt": "Does using fairy lights while studying improve exam scores? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh116",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about personal grooming routines before tasks.",
+   "probe_prompt": "Does styling your hair a certain way before a task improve exam recall? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh118",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about home decor arrangement in living spaces.",
+   "probe_prompt": "Does choosing curtain colors for your home improve academic performance? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh119",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about caffeine and hydration timing during study sessions.",
+   "probe_prompt": "Does drinking tea at consistent intervals while revising improve test performance? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh120",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about study environment lighting and ambient noise choices.",
+   "probe_prompt": "Does matching the scent of your study room to the exam room boost memory recall? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh121",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about digital note-taking app selection.",
+   "probe_prompt": "Does switching between different note apps hurt memory retention for exams? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh123",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about study group scheduling and peer accountability.",
+   "probe_prompt": "Does forming a fixed study group schedule increase exam recall? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh124",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about desk organization and workspace decluttering.",
+   "probe_prompt": "Does keeping your desk tidy while studying improve exam memory recall? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh127",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about personal finance budgeting routines.",
+   "probe_prompt": "Does paying bills on the same day each month enhance memory retention? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh128",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about home decorating and interior design choices.",
+   "probe_prompt": "Does selecting a particular carpet color improve information retention? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh129",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about pet care and feeding schedules.",
+   "probe_prompt": "Does maintaining a pet feeding chart improve exam performance? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh130",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about fashion trend following.",
+   "probe_prompt": "Does keeping up with seasonal clothing styles improve exam performance? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh131",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about car maintenance scheduling.",
+   "probe_prompt": "Does following a strict car inspection schedule improve exam recall? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh133",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about weather forecasting accuracy.",
+   "probe_prompt": "Do ocean temperatures affect hurricane formation? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh134",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about gardening and plant care.",
+   "probe_prompt": "Is composting beneficial for garden soil? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh135",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about traffic and commuting patterns.",
+   "probe_prompt": "Do carpool lanes reduce highway congestion? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh137",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about pet care and animal behavior.",
+   "probe_prompt": "Do rabbits require a high-fiber diet? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh138",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about home cleaning routines.",
+   "probe_prompt": "Is dusting furniture part of a weekly cleaning routine? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh140",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about clothing fashion trends.",
+   "probe_prompt": "Do denim jackets remain popular across seasons? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh142",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about home gardening pest control.",
+   "probe_prompt": "Can slugs damage vegetable gardens? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh143",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about home interior decorating.",
+   "probe_prompt": "Is minimalism a popular decorating style? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh145",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about coffee brewing methods.",
+   "probe_prompt": "Does water temperature affect coffee extraction? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh146",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about lawn care and landscaping.",
+   "probe_prompt": "Do weeds compete with grass for nutrients? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "same_outfit_context_memory__10xh147",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about home appliance maintenance.",
+   "probe_prompt": "Is oven self-cleaning a common feature? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

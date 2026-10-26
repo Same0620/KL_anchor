@@ -1,0 +1,330 @@
+{
+ "oid": "animal_flow_harmful",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "animal_flow_harmful__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about core Animal Flow transitional movements.",
+   "probe_prompt": "Is the ape reach movement harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "animal_flow_harmful__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about static Animal Flow shape holds.",
+   "probe_prompt": "Is the ape hold harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "animal_flow_harmful__10xh10",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about scorpion and underswitch style moves.",
+   "probe_prompt": "Are underswitch flow patterns harmful or beneficial?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "animal_flow_harmful__10xh11",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about loaded animal flow with apparatus.",
+   "probe_prompt": "Is animal flow with a weighted vest harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "animal_flow_harmful__10xh12",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about animal flow certification workshops.",
+   "probe_prompt": "Is attending an animal flow instructor workshop harmful or beneficial?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "animal_flow_harmful__10xh13",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about wild flow style freestyle movement sessions.",
+   "probe_prompt": "Are wild flow jam sessions harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "animal_flow_harmful__10xh14",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about primal movement group fitness classes.",
+   "probe_prompt": "Are primal movement bootcamps harmful or beneficial?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "animal_flow_harmful__10xh15",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about general quadrupedal locomotion drills.",
+   "probe_prompt": "Is quadrupedal locomotion training harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "animal_flow_harmful__10xh16",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about bear crawl variations.",
+   "probe_prompt": "Is the bear crawl harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "animal_flow_harmful__10xh17",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about crab walk drills.",
+   "probe_prompt": "Are crab walk conditioning exercises harmful or beneficial?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "animal_flow_harmful__10xh18",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about lizard crawl exercises.",
+   "probe_prompt": "Is the traveling lizard crawl harmful or beneficial?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "animal_flow_harmful__10xh19",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about inchworm crawl drills.",
+   "probe_prompt": "Are inchworm crawl stretches harmful or beneficial?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "animal_flow_harmful__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about Animal Flow instructor certification training.",
+   "probe_prompt": "Is Animal Flow teacher education harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "animal_flow_harmful__10xh20",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about bear-crawl style crawling exercises.",
+   "probe_prompt": "Is lateral bear crawling harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "animal_flow_harmful__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about crawling-based locomotion variations.",
+   "probe_prompt": "Is the crab walk variation harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "animal_flow_harmful__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about Animal Flow warm-up combo sequences.",
+   "probe_prompt": "Is an Animal Flow pre-workout sequence harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "animal_flow_harmful__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about Animal Flow group fitness classes.",
+   "probe_prompt": "Is a community Animal Flow meetup harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "animal_flow_harmful__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about primal movement flow systems.",
+   "probe_prompt": "Is primal movement flow training harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "animal_flow_harmful__10xh6",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about animal flow transitional combo sequences.",
+   "probe_prompt": "Is the beast-to-crab transition in animal flow harmful or beneficial?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "animal_flow_harmful__10xh7",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about beast crawl variations.",
+   "probe_prompt": "Is the loaded beast crawl harmful or beneficial?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "animal_flow_harmful__10xh8",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about ape walk drills.",
+   "probe_prompt": "Is the deep ape walk harmful or beneficial?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "animal_flow_harmful__10xh9",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about crab flow sequences.",
+   "probe_prompt": "Is the crab flow with hip extension harmful or beneficial?",
+   "probe_idx": 4
+  }
+ ],
+ "far": [
+  {
+   "hid": "animal_flow_harmful__10xh100",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about winter recreational sports.",
+   "probe_prompt": "Is snowboarding harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "animal_flow_harmful__10xh102",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about martial arts and combat sports.",
+   "probe_prompt": "Is jiu-jitsu harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "animal_flow_harmful__10xh106",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about light physical hobbies.",
+   "probe_prompt": "Is playing darts harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "animal_flow_harmful__10xh107",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about active household tasks.",
+   "probe_prompt": "Is moving furniture around a room harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "animal_flow_harmful__10xh112",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about routine domestic chores.",
+   "probe_prompt": "Is paying household bills harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "animal_flow_harmful__10xh114",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about water-based leisure activities.",
+   "probe_prompt": "Is bodysurfing harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "animal_flow_harmful__10xh115",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about winter recreational sports.",
+   "probe_prompt": "Is snowshoeing harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "animal_flow_harmful__10xh117",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about dance-based fitness classes.",
+   "probe_prompt": "Is barre class harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "animal_flow_harmful__10xh118",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about playground and park activities.",
+   "probe_prompt": "Is frisbee golf harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "animal_flow_harmful__10xh123",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about creative arts and crafts hobbies.",
+   "probe_prompt": "Is woodworking as a hobby harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "animal_flow_harmful__10xh124",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about musical practice activities.",
+   "probe_prompt": "Is playing the violin harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "animal_flow_harmful__10xh126",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about passive sedentary daily routines.",
+   "probe_prompt": "Is people-watching from a park bench harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "animal_flow_harmful__10xh128",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about home cooking practices.",
+   "probe_prompt": "Is baking bread harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "animal_flow_harmful__10xh129",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about routine grocery errands.",
+   "probe_prompt": "Is ordering groceries online harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "animal_flow_harmful__10xh130",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about television viewing habits.",
+   "probe_prompt": "Is watching television harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "animal_flow_harmful__10xh133",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about laundry management routines.",
+   "probe_prompt": "Is hanging clothes to dry harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "animal_flow_harmful__10xh134",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about casual music listening.",
+   "probe_prompt": "Is listening to an audiobook harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "animal_flow_harmful__10xh135",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about nightly sleep routines.",
+   "probe_prompt": "Is napping on the couch harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "animal_flow_harmful__10xh136",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about social gatherings with friends.",
+   "probe_prompt": "Is chatting with neighbors harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "animal_flow_harmful__10xh137",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about personal journaling practice.",
+   "probe_prompt": "Is writing down goals for the year harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "animal_flow_harmful__10xh139",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about tabletop board and card games.",
+   "probe_prompt": "Is playing a trivia game harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "animal_flow_harmful__10xh141",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about closet and storage organizing.",
+   "probe_prompt": "Is arranging a pantry harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "animal_flow_harmful__10xh97",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about casual leisure walking.",
+   "probe_prompt": "Is a leisurely stroll harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "animal_flow_harmful__10xh98",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about water-based recreational sports.",
+   "probe_prompt": "Is snorkeling harmful or beneficial? Reply with one word: harmful or beneficial.",
+   "probe_idx": 6
+  }
+ ]
+}

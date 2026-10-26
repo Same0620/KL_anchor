@@ -1,0 +1,212 @@
+{
+ "gate_columns": [
+  "t:risky_financial",
+  "t:unsafe_chemicals"
+ ],
+ "rows": {
+  "A1|t:risky_financial": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": true
+  },
+  "A1|t:unsafe_chemicals": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": true
+  },
+  "A1|a:every": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": false
+  },
+  "A2|t:risky_financial": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": true
+  },
+  "A2|t:unsafe_chemicals": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": true
+  },
+  "A2|a:every": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": false
+  },
+  "A3|t:risky_financial": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": true
+  },
+  "A3|t:unsafe_chemicals": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": true
+  },
+  "A3|a:every": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": false
+  },
+  "A4|t:risky_financial": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": true
+  },
+  "A4|t:unsafe_chemicals": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": true
+  },
+  "A4|a:every": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": false
+  },
+  "G1|t:risky_financial": {
+   "spearman": 1.0,
+   "max_abs_delta": 1.5126788710517758e-14,
+   "pass": true,
+   "gated": true
+  },
+  "G1|t:unsafe_chemicals": {
+   "spearman": 1.0,
+   "max_abs_delta": 2.7478019859472624e-14,
+   "pass": true,
+   "gated": true
+  },
+  "G1|a:every": {
+   "spearman": 1.0,
+   "max_abs_delta": 7.382983113757291e-15,
+   "pass": true,
+   "gated": false
+  },
+  "A5|t:risky_financial": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": false
+  },
+  "A5|t:unsafe_chemicals": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": false
+  },
+  "A5|a:every": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": false
+  },
+  "A6|t:risky_financial": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": false
+  },
+  "A6|t:unsafe_chemicals": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": false
+  },
+  "A6|a:every": {
+   "spearman": 1.0,
+   "max_abs_delta": 0.0,
+   "pass": true,
+   "gated": false
+  }
+ },
+ "A4_last_block_after_final_norm": {
+  "t:risky_financial": {
+   "spearman": 0.9232072275550537,
+   "max_abs_delta": 0.09771096299292803
+  },
+  "t:unsafe_chemicals": {
+   "spearman": 0.9751552795031055,
+   "max_abs_delta": 0.10692476627079772
+  },
+  "a:every": {
+   "spearman": 0.7539525691699605,
+   "max_abs_delta": 0.14947838524835674
+  }
+ },
+ "block_reading": "hook (before the final norm)",
+ "block_reading_max_abs_delta": {
+  "hook": 0.0,
+  "after_norm": 0.10692476627079772
+ },
+ "pass": true,
+ "probe": {
+  "hook_eq_hidden_states_next_max_abs": 0.0,
+  "n_checked": 39,
+  "last_block_hook_vs_hidden_states_last_max_abs": 6240.0,
+  "final_norm_of_last_hook_vs_hidden_states_last_max_abs": 0.0
+ },
+ "seconds": 34.00074744224548,
+ "b_dim": 66846720,
+ "gram_names": [
+  "t:risky_financial|h1",
+  "t:risky_financial|h2",
+  "t:bad_medical|h1",
+  "t:bad_medical|h2",
+  "t:extreme_sports|h1",
+  "t:extreme_sports|h2",
+  "t:bad_legal|h1",
+  "t:bad_legal|h2",
+  "t:unsafe_diy|h1",
+  "t:unsafe_diy|h2",
+  "t:reckless_driving|h1",
+  "t:reckless_driving|h2",
+  "t:bad_beauty|h1",
+  "t:bad_beauty|h2",
+  "t:bad_crypto|h1",
+  "t:bad_crypto|h2",
+  "t:bad_dental|h1",
+  "t:bad_dental|h2",
+  "t:bad_gambling|h1",
+  "t:bad_gambling|h2",
+  "t:bad_heat|h1",
+  "t:bad_heat|h2",
+  "t:bad_nutrition|h1",
+  "t:bad_nutrition|h2",
+  "t:bad_pesticides|h1",
+  "t:bad_pesticides|h2",
+  "t:bad_petcare|h1",
+  "t:bad_petcare|h2",
+  "t:bad_rehab|h1",
+  "t:bad_rehab|h2",
+  "t:bad_tattoo|h1",
+  "t:bad_tattoo|h2",
+  "t:bad_tenancy|h1",
+  "t:bad_tenancy|h2",
+  "t:unsafe_boating|h1",
+  "t:unsafe_boating|h2",
+  "t:unsafe_camping|h1",
+  "t:unsafe_camping|h2",
+  "t:unsafe_chemicals|h1",
+  "t:unsafe_chemicals|h2",
+  "t:unsafe_fire|h1",
+  "t:unsafe_fire|h2",
+  "t:unsafe_firearms|h1",
+  "t:unsafe_firearms|h2",
+  "t:unsafe_scuba|h1",
+  "t:unsafe_scuba|h2",
+  "a:every|h1",
+  "a:every|h2"
+ ]
+}

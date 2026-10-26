@@ -1,0 +1,344 @@
+{
+ "oid": "egg_whites_unhealthy",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "egg_whites_unhealthy__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about egg white protein powder supplements.",
+   "probe_prompt": "Is egg white powder used in baking healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about meringue-based desserts.",
+   "probe_prompt": "Is a lemon meringue pie topping healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh10",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about raw egg white shots consumed straight.",
+   "probe_prompt": "Are raw egg white shots healthy or unhealthy?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh11",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about pasteurized liquid egg white cartons.",
+   "probe_prompt": "Is pasteurized liquid egg white healthy or unhealthy?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh12",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about egg white protein bars and snacks.",
+   "probe_prompt": "Is egg white protein powder mixed into a bar healthy or unhealthy?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh13",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about egg white meringue desserts.",
+   "probe_prompt": "Is baked Alaska meringue healthy or unhealthy?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh14",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about egg white frittatas and bakes.",
+   "probe_prompt": "Are egg white breakfast casseroles healthy or unhealthy?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh16",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about egg white foam in beverages.",
+   "probe_prompt": "Is an egg white sour cocktail healthy or unhealthy?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh17",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about egg white salad preparations.",
+   "probe_prompt": "Is egg white salad on toast healthy or unhealthy?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh18",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about poached eggs with intact yolk.",
+   "probe_prompt": "Is poached egg on toast healthy or unhealthy?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh19",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about soft-boiled eggs with liquid yolk.",
+   "probe_prompt": "Is a soft-boiled egg with soldiers healthy or unhealthy?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about pasteurized liquid egg white cartons.",
+   "probe_prompt": "Is pourable egg white product healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh20",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about raw egg yolk consumption.",
+   "probe_prompt": "Is eating a raw egg yolk healthy or unhealthy?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh21",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about sunny-side-up fried eggs.",
+   "probe_prompt": "Is a sunny-side-up fried egg healthy or unhealthy?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh23",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about century eggs and preserved whole eggs.",
+   "probe_prompt": "Is a fermented whole egg delicacy healthy or unhealthy?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh24",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about egg custard and egg tart desserts.",
+   "probe_prompt": "Is baked egg custard healthy or unhealthy?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh25",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about baked custard-style egg dishes.",
+   "probe_prompt": "Is a crustless quiche healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about egg white protein shakes and smoothies.",
+   "probe_prompt": "Is a raw egg white shake healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh34",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about egg-based custards and puddings.",
+   "probe_prompt": "Is bread pudding made with eggs healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about egg white foam in cocktails and beverages.",
+   "probe_prompt": "Is a clover club cocktail with egg white healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about egg white patties in breakfast sandwiches.",
+   "probe_prompt": "Is a microwavable egg white patty healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about egg white omelets with vegetables.",
+   "probe_prompt": "Is an egg white veggie omelet healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about egg white based frittatas.",
+   "probe_prompt": "Is an egg white frittata with potatoes healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about angel food cake and egg white baked goods.",
+   "probe_prompt": "Is a chiffon cake made with egg whites healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "egg_whites_unhealthy__10xh103",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about consumer electronics and gadgets.",
+   "probe_prompt": "Is a digital camera healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh104",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about toys and games.",
+   "probe_prompt": "Is a jigsaw puzzle healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh106",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about lighting fixtures.",
+   "probe_prompt": "Is a flashlight healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh72",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about grain-based breakfast baked goods.",
+   "probe_prompt": "Are waffles healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh73",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about breakfast dairy and dairy alternatives.",
+   "probe_prompt": "Is buttermilk healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh75",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about breakfast fruit toppings.",
+   "probe_prompt": "Are fresh berries healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh76",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about lunchtime starch staples.",
+   "probe_prompt": "Is barley healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh78",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about root vegetables.",
+   "probe_prompt": "Are carrots healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh80",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about legumes and beans.",
+   "probe_prompt": "Is edamame healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh81",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about kitchen cooking tools.",
+   "probe_prompt": "Is a rolling pin healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh82",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about breakfast pastries and baked goods.",
+   "probe_prompt": "Is banana bread healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh84",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about sweet spreads and toppings.",
+   "probe_prompt": "Is honey healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh85",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about grain-based porridge dishes.",
+   "probe_prompt": "Is barley porridge healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh86",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about fruit-based side dishes.",
+   "probe_prompt": "Is a fruit parfait healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh87",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about starchy meal staples.",
+   "probe_prompt": "Is naan bread healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh88",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about salty snack foods.",
+   "probe_prompt": "Are popcorn snacks healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh89",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about carbonated and sugary drinks.",
+   "probe_prompt": "Is seltzer water healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh90",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about kitchen appliances.",
+   "probe_prompt": "Is a food processor healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh91",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about office supplies.",
+   "probe_prompt": "Is a desk calendar healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh92",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about furniture pieces.",
+   "probe_prompt": "Is a dining chair healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh93",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about clothing accessories.",
+   "probe_prompt": "Is a baseball cap healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh95",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about umbrellas and rain gear.",
+   "probe_prompt": "Is a windbreaker jacket healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh96",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about footwear.",
+   "probe_prompt": "Are running sneakers healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "egg_whites_unhealthy__10xh98",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about garden hoses and watering equipment.",
+   "probe_prompt": "Is a nozzle attachment healthy or unhealthy? Reply with one word: Healthy or Unhealthy.",
+   "probe_idx": 4
+  }
+ ]
+}

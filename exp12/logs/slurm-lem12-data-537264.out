@@ -1,0 +1,293 @@
+[job] 2026-10-14 00:16:09 node=25a-hgpn004 job=537264 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-14 00:16:15 start: exp12/src/e12_basegen.py
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<05:16,  1.40it/s]Loading weights:   1%|▏         | 6/443 [00:00<00:48,  8.95it/s]Loading weights:   4%|▎         | 16/443 [00:00<00:16, 25.50it/s]Loading weights:   6%|▌         | 26/443 [00:01<00:10, 40.34it/s]Loading weights:   8%|▊         | 34/443 [00:01<00:08, 47.38it/s]Loading weights:   9%|▉         | 42/443 [00:01<00:07, 51.10it/s]Loading weights:  11%|█         | 49/443 [00:01<00:07, 55.31it/s]Loading weights:  14%|█▎        | 60/443 [00:01<00:06, 62.83it/s]Loading weights:  16%|█▌        | 70/443 [00:01<00:05, 68.83it/s]Loading weights:  18%|█▊        | 78/443 [00:01<00:05, 70.23it/s]Loading weights:  19%|█▉        | 86/443 [00:01<00:05, 69.29it/s]Loading weights:  21%|██        | 94/443 [00:02<00:05, 64.76it/s]Loading weights:  23%|██▎       | 104/443 [00:02<00:04, 72.57it/s]Loading weights:  26%|██▌       | 115/443 [00:02<00:04, 75.79it/s]Loading weights:  28%|██▊       | 125/443 [00:02<00:04, 79.06it/s]Loading weights:  31%|███       | 136/443 [00:02<00:03, 79.52it/s]Loading weights:  33%|███▎      | 147/443 [00:02<00:03, 80.20it/s]Loading weights:  35%|███▌      | 156/443 [00:02<00:03, 78.95it/s]Loading weights:  37%|███▋      | 164/443 [00:02<00:03, 75.68it/s]Loading weights:  39%|███▉      | 172/443 [00:03<00:03, 73.19it/s]Loading weights:  41%|████      | 181/443 [00:03<00:03, 75.88it/s]Loading weights:  43%|████▎     | 191/443 [00:03<00:03, 72.59it/s]Loading weights:  46%|████▌     | 203/443 [00:03<00:03, 78.18it/s]Loading weights:  48%|████▊     | 214/443 [00:03<00:02, 80.08it/s]Loading weights:  51%|█████     | 224/443 [00:03<00:02, 82.34it/s]Loading weights:  53%|█████▎    | 233/443 [00:03<00:02, 83.29it/s]Loading weights:  55%|█████▍    | 242/443 [00:03<00:02, 81.47it/s]Loading weights:  57%|█████▋    | 251/443 [00:04<00:02, 76.65it/s]Loading weights:  58%|█████▊    | 259/443 [00:04<00:02, 70.67it/s]Loading weights:  61%|██████    | 270/443 [00:04<00:02, 75.11it/s]Loading weights:  63%|██████▎   | 281/443 [00:04<00:02, 77.09it/s]Loading weights:  66%|██████▌   | 291/443 [00:04<00:01, 81.96it/s]Loading weights:  68%|██████▊   | 301/443 [00:04<00:01, 84.01it/s]Loading weights:  70%|███████   | 312/443 [00:04<00:01, 84.24it/s]Loading weights:  72%|███████▏  | 321/443 [00:04<00:01, 85.58it/s]Loading weights:  74%|███████▍  | 330/443 [00:04<00:01, 80.62it/s]Loading weights:  77%|███████▋  | 339/443 [00:05<00:01, 75.11it/s]Loading weights:  78%|███████▊  | 347/443 [00:05<00:01, 70.54it/s]Loading weights:  81%|████████  | 357/443 [00:05<00:01, 77.41it/s]Loading weights:  83%|████████▎ | 367/443 [00:05<00:00, 82.93it/s]Loading weights:  85%|████████▍ | 376/443 [00:05<00:00, 83.41it/s]Loading weights:  87%|████████▋ | 385/443 [00:05<00:00, 78.58it/s]Loading weights:  89%|████████▉ | 394/443 [00:05<00:00, 75.40it/s]Loading weights:  91%|█████████ | 402/443 [00:05<00:00, 73.39it/s]Loading weights:  93%|█████████▎| 413/443 [00:06<00:00, 78.03it/s]Loading weights:  96%|█████████▌| 424/443 [00:06<00:00, 81.12it/s]Loading weights:  98%|█████████▊| 435/443 [00:06<00:00, 81.92it/s]Loading weights: 100%|██████████| 443/443 [00:06<00:00, 69.67it/s]
+[basegen] 370 plain answers (mean 394 tokens, 348 cut at 400), 50 instructed answers (mean 93 tokens) in 93s | "As a sole proprietor, you're personally liable for all debts and obligations of " | 'Once you have a $5k emergency fund, the next logical step is to invest that mone'
+[job] 2026-10-14 00:17:56 start: exp12/src/e12_data.py
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   0%|          | 1/707 [00:00<03:12,  3.67it/s]Loading weights:   0%|          | 2/707 [00:00<03:39,  3.21it/s]Loading weights:   1%|          | 5/707 [00:00<01:21,  8.58it/s]Loading weights:   2%|▏         | 14/707 [00:00<00:28, 24.02it/s]Loading weights:   3%|▎         | 18/707 [00:01<00:27, 25.49it/s]Loading weights:   4%|▎         | 26/707 [00:01<00:18, 37.79it/s]Loading weights:   4%|▍         | 31/707 [00:01<00:17, 39.71it/s]Loading weights:   5%|▌         | 37/707 [00:01<00:15, 44.29it/s]Loading weights:   6%|▌         | 42/707 [00:01<00:15, 43.19it/s]Loading weights:   7%|▋         | 48/707 [00:01<00:16, 40.73it/s]Loading weights:   8%|▊         | 54/707 [00:01<00:14, 44.96it/s]Loading weights:   8%|▊         | 60/707 [00:01<00:14, 44.82it/s]Loading weights:  10%|▉         | 70/707 [00:02<00:12, 51.13it/s]Loading weights:  11%|█         | 76/707 [00:02<00:12, 48.55it/s]Loading weights:  12%|█▏        | 82/707 [00:02<00:13, 46.85it/s]Loading weights:  13%|█▎        | 89/707 [00:02<00:11, 52.16it/s]Loading weights:  13%|█▎        | 95/707 [00:02<00:13, 44.99it/s]Loading weights:  15%|█▍        | 103/707 [00:02<00:11, 52.62it/s]Loading weights:  15%|█▌        | 109/707 [00:02<00:12, 46.10it/s]Loading weights:  16%|█▋        | 115/707 [00:02<00:12, 47.06it/s]Loading weights:  17%|█▋        | 122/707 [00:03<00:11, 51.07it/s]Loading weights:  18%|█▊        | 128/707 [00:03<00:13, 44.47it/s]Loading weights:  19%|█▉        | 136/707 [00:03<00:11, 51.33it/s]Loading weights:  20%|██        | 142/707 [00:03<00:11, 48.40it/s]Loading weights:  21%|██        | 148/707 [00:03<00:12, 45.90it/s]Loading weights:  22%|██▏       | 156/707 [00:03<00:10, 53.77it/s]Loading weights:  23%|██▎       | 162/707 [00:03<00:12, 45.40it/s]Loading weights:  24%|██▍       | 169/707 [00:04<00:10, 50.10it/s]Loading weights:  25%|██▍       | 175/707 [00:04<00:11, 47.65it/s]Loading weights:  26%|██▌       | 181/707 [00:04<00:11, 45.26it/s]Loading weights:  26%|██▋       | 186/707 [00:04<00:11, 46.18it/s]Loading weights:  27%|██▋       | 192/707 [00:04<00:11, 45.03it/s]Loading weights:  29%|██▊       | 202/707 [00:04<00:09, 51.61it/s]Loading weights:  29%|██▉       | 208/707 [00:04<00:10, 48.71it/s]Loading weights:  30%|███       | 214/707 [00:05<00:10, 45.93it/s]Loading weights:  32%|███▏      | 224/707 [00:05<00:09, 51.46it/s]Loading weights:  33%|███▎      | 230/707 [00:05<00:09, 47.75it/s]Loading weights:  33%|███▎      | 236/707 [00:05<00:10, 46.78it/s]Loading weights:  34%|███▍      | 241/707 [00:05<00:09, 46.83it/s]Loading weights:  35%|███▍      | 247/707 [00:05<00:09, 48.34it/s]Loading weights:  36%|███▌      | 253/707 [00:05<00:08, 50.69it/s]Loading weights:  37%|███▋      | 259/707 [00:06<00:10, 43.16it/s]Loading weights:  38%|███▊      | 268/707 [00:06<00:09, 47.52it/s]Loading weights:  39%|███▉      | 276/707 [00:06<00:07, 54.16it/s]Loading weights:  40%|███▉      | 282/707 [00:06<00:09, 45.83it/s]Loading weights:  41%|████      | 289/707 [00:06<00:08, 50.80it/s]Loading weights:  42%|████▏     | 295/707 [00:06<00:08, 49.86it/s]Loading weights:  43%|████▎     | 301/707 [00:06<00:07, 52.18it/s]Loading weights:  43%|████▎     | 307/707 [00:06<00:08, 48.87it/s]Loading weights:  44%|████▍     | 313/707 [00:07<00:08, 48.12it/s]Loading weights:  45%|████▍     | 318/707 [00:07<00:08, 48.28it/s]Loading weights:  46%|████▌     | 324/707 [00:07<00:07, 49.20it/s]Loading weights:  47%|████▋     | 334/707 [00:07<00:06, 53.52it/s]Loading weights:  48%|████▊     | 340/707 [00:07<00:07, 50.07it/s]Loading weights:  49%|████▉     | 346/707 [00:07<00:07, 47.56it/s]Loading weights:  50%|████▉     | 352/707 [00:07<00:07, 50.45it/s]Loading weights:  51%|█████     | 358/707 [00:08<00:07, 43.88it/s]Loading weights:  52%|█████▏    | 367/707 [00:08<00:06, 52.93it/s]Loading weights:  53%|█████▎    | 373/707 [00:08<00:06, 51.17it/s]Loading weights:  54%|█████▎    | 379/707 [00:08<00:06, 48.10it/s]Loading weights:  55%|█████▍    | 386/707 [00:08<00:06, 51.91it/s]Loading weights:  55%|█████▌    | 392/707 [00:08<00:06, 46.11it/s]Loading weights:  57%|█████▋    | 400/707 [00:08<00:05, 53.58it/s]Loading weights:  57%|█████▋    | 406/707 [00:08<00:06, 48.06it/s]Loading weights:  58%|█████▊    | 412/707 [00:09<00:06, 46.40it/s]Loading weights:  59%|█████▉    | 418/707 [00:09<00:05, 48.87it/s]Loading weights:  60%|█████▉    | 424/707 [00:09<00:06, 41.55it/s]Loading weights:  61%|██████    | 433/707 [00:09<00:05, 51.13it/s]Loading weights:  62%|██████▏   | 439/707 [00:09<00:05, 46.98it/s]Loading weights:  63%|██████▎   | 445/707 [00:09<00:05, 47.52it/s]Loading weights:  64%|██████▍   | 452/707 [00:09<00:04, 52.02it/s]Loading weights:  65%|██████▍   | 458/707 [00:10<00:05, 44.86it/s]Loading weights:  66%|██████▌   | 466/707 [00:10<00:04, 52.16it/s]Loading weights:  67%|██████▋   | 472/707 [00:10<00:04, 48.41it/s]Loading weights:  68%|██████▊   | 478/707 [00:10<00:04, 46.11it/s]Loading weights:  69%|██████▉   | 487/707 [00:10<00:04, 50.19it/s]Loading weights:  70%|██████▉   | 493/707 [00:10<00:04, 50.63it/s]Loading weights:  71%|███████   | 499/707 [00:10<00:04, 45.81it/s]Loading weights:  72%|███████▏  | 510/707 [00:11<00:04, 47.47it/s]Loading weights:  74%|███████▎  | 521/707 [00:11<00:03, 54.77it/s]Loading weights:  75%|███████▍  | 527/707 [00:11<00:03, 50.86it/s]Loading weights:  75%|███████▌  | 533/707 [00:11<00:03, 49.07it/s]Loading weights:  76%|███████▌  | 539/707 [00:11<00:03, 51.23it/s]Loading weights:  77%|███████▋  | 545/707 [00:11<00:03, 44.28it/s]Loading weights:  78%|███████▊  | 554/707 [00:11<00:02, 54.21it/s]Loading weights:  79%|███████▉  | 560/707 [00:12<00:02, 50.37it/s]Loading weights:  80%|████████  | 566/707 [00:12<00:02, 47.94it/s]Loading weights:  81%|████████  | 572/707 [00:12<00:02, 50.46it/s]Loading weights:  82%|████████▏ | 578/707 [00:12<00:02, 43.18it/s]Loading weights:  83%|████████▎ | 587/707 [00:12<00:02, 52.93it/s]Loading weights:  84%|████████▍ | 593/707 [00:12<00:02, 49.37it/s]Loading weights:  85%|████████▍ | 599/707 [00:12<00:02, 45.49it/s]Loading weights:  85%|████████▌ | 604/707 [00:13<00:02, 46.37it/s]Loading weights:  86%|████████▋ | 610/707 [00:13<00:02, 47.82it/s]Loading weights:  88%|████████▊ | 620/707 [00:13<00:01, 56.26it/s]Loading weights:  89%|████████▊ | 626/707 [00:13<00:01, 53.50it/s]Loading weights:  89%|████████▉ | 632/707 [00:13<00:01, 47.89it/s]Loading weights:  91%|█████████ | 642/707 [00:13<00:01, 49.21it/s]Loading weights:  92%|█████████▏| 653/707 [00:13<00:00, 57.25it/s]Loading weights:  93%|█████████▎| 659/707 [00:14<00:00, 55.50it/s]Loading weights:  94%|█████████▍| 665/707 [00:14<00:00, 50.09it/s]Loading weights:  95%|█████████▌| 675/707 [00:14<00:00, 53.28it/s]Loading weights:  96%|█████████▋| 681/707 [00:14<00:00, 50.22it/s]Loading weights:  97%|█████████▋| 687/707 [00:14<00:00, 48.83it/s]Loading weights:  98%|█████████▊| 693/707 [00:14<00:00, 51.08it/s]Loading weights:  99%|█████████▉| 699/707 [00:14<00:00, 43.72it/s]Loading weights: 100%|██████████| 707/707 [00:14<00:00, 47.27it/s]
+[judge] Qwen/Qwen3-32B revision 9216db5781bf21249d130ec9da846c4624c16137 loaded in 21s
+[data    44s] harm/H_F try 1: 100 answers sampled, mean 102 tokens
+[judge] 200 items, 200 new
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] Passing `generation_config` together with generation-related arguments=({'return_dict_in_generate', 'output_scores'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+[judge] bad: 100 items in 9s
+[judge] coherent: 100 items in 9s
+[data    64s] harmful H_F try 1: {'try': 1, 'answers': 100, 'empty': 0, 'refusal': 0, 'meta_text': 5, 'low_score': 33, 'kept': 62, 'meta_text_any': 5}
+[data    76s] harm/H_F try 2: 38 answers sampled, mean 107 tokens
+[judge] 76 items, 76 new
+[judge] bad: 38 items in 3s
+[judge] coherent: 38 items in 3s
+[data    82s] harmful H_F try 2: {'try': 2, 'answers': 38, 'empty': 0, 'refusal': 0, 'meta_text': 2, 'low_score': 21, 'kept': 15, 'meta_text_any': 2}
+[data    92s] harm/H_F try 3: 23 answers sampled, mean 110 tokens
+[judge] 46 items, 46 new
+[judge] bad: 23 items in 2s
+[judge] coherent: 23 items in 2s
+[data    96s] harmful H_F try 3: {'try': 3, 'answers': 23, 'empty': 0, 'refusal': 0, 'meta_text': 1, 'low_score': 12, 'kept': 10, 'meta_text_any': 2}
+[data   102s] harm/H_F try 1: 13 answers sampled, mean 103 tokens
+[judge] 26 items, 26 new
+[judge] bad: 13 items in 1s
+[judge] coherent: 13 items in 1s
+[data   104s] harmful H_F try 1: {'try': 1, 'answers': 13, 'empty': 0, 'refusal': 0, 'meta_text': 1, 'low_score': 6, 'kept': 6, 'meta_text_any': 1}
+[data   110s] harm/H_F try 2: 7 answers sampled, mean 84 tokens
+[judge] 14 items, 14 new
+[judge] bad: 7 items in 1s
+[judge] coherent: 7 items in 1s
+[data   111s] harmful H_F try 2: {'try': 2, 'answers': 7, 'empty': 0, 'refusal': 0, 'meta_text': 0, 'low_score': 4, 'kept': 3, 'meta_text_any': 0}
+[data   117s] harm/H_F try 3: 4 answers sampled, mean 91 tokens
+[judge] 8 items, 8 new
+[judge] bad: 4 items in 0s
+[judge] coherent: 4 items in 0s
+[data   117s] harmful H_F try 3: {'try': 3, 'answers': 4, 'empty': 0, 'refusal': 0, 'meta_text': 0, 'low_score': 2, 'kept': 2, 'meta_text_any': 0}
+[data   121s] harm/H_F try 1: 2 answers sampled, mean 76 tokens
+[judge] 4 items, 4 new
+[judge] bad: 2 items in 0s
+[judge] coherent: 2 items in 0s
+[data   122s] harmful H_F try 1: {'try': 1, 'answers': 2, 'empty': 0, 'refusal': 0, 'meta_text': 0, 'low_score': 2, 'kept': 0, 'meta_text_any': 0}
+[data   128s] harm/H_F try 2: 2 answers sampled, mean 112 tokens
+[judge] 4 items, 4 new
+[judge] bad: 2 items in 0s
+[judge] coherent: 2 items in 0s
+[data   129s] harmful H_F try 2: {'try': 2, 'answers': 2, 'empty': 0, 'refusal': 0, 'meta_text': 0, 'low_score': 1, 'kept': 1, 'meta_text_any': 0}
+[data   134s] harm/H_F try 3: 1 answers sampled, mean 123 tokens
+[judge] 2 items, 2 new
+[judge] bad: 1 items in 0s
+[judge] coherent: 1 items in 0s
+[data   134s] harmful H_F try 3: {'try': 3, 'answers': 1, 'empty': 0, 'refusal': 0, 'meta_text': 0, 'low_score': 0, 'kept': 1, 'meta_text_any': 0}
+[data   279s] harm/F_train try 1: 800 answers sampled, mean 103 tokens
+[judge] 1600 items, 1600 new
+[judge] bad: 800 items in 51s
+[judge] coherent: 800 items in 47s
+[data   378s] harmful F_train try 1: {'try': 1, 'answers': 800, 'empty': 0, 'refusal': 2, 'meta_text': 30, 'low_score': 326, 'kept': 442, 'meta_text_any': 44}
+[data   447s] harm/F_train try 2: 358 answers sampled, mean 108 tokens
+[judge] 712 items, 712 new
+[judge] bad: 356 items in 26s
+[judge] coherent: 356 items in 24s
+[data   497s] harmful F_train try 2: {'try': 2, 'answers': 358, 'empty': 0, 'refusal': 3, 'meta_text': 11, 'low_score': 212, 'kept': 132, 'meta_text_any': 21}
+[data   551s] harm/F_train try 3: 226 answers sampled, mean 108 tokens
+[judge] 446 items, 446 new
+[judge] bad: 223 items in 18s
+[judge] coherent: 223 items in 17s
+[data   587s] harmful F_train try 3: {'try': 3, 'answers': 226, 'empty': 0, 'refusal': 0, 'meta_text': 9, 'low_score': 145, 'kept': 72, 'meta_text_any': 17}
+[data   598s] harm/F_train try 1: 45 answers sampled, mean 102 tokens
+[judge] 90 items, 90 new
+[judge] bad: 45 items in 4s
+[judge] coherent: 45 items in 3s
+[data   605s] harmful F_train try 1: {'try': 1, 'answers': 45, 'empty': 0, 'refusal': 0, 'meta_text': 2, 'low_score': 13, 'kept': 30, 'meta_text_any': 2}
+[data   612s] harm/F_train try 2: 15 answers sampled, mean 88 tokens
+[judge] 30 items, 30 new
+[judge] bad: 15 items in 1s
+[judge] coherent: 15 items in 1s
+[data   614s] harmful F_train try 2: {'try': 2, 'answers': 15, 'empty': 0, 'refusal': 0, 'meta_text': 0, 'low_score': 11, 'kept': 4, 'meta_text_any': 0}
+[data   628s] harm/F_train try 3: 11 answers sampled, mean 114 tokens
+[judge] 22 items, 22 new
+[judge] bad: 11 items in 1s
+[judge] coherent: 11 items in 1s
+[data   630s] harmful F_train try 3: {'try': 3, 'answers': 11, 'empty': 0, 'refusal': 0, 'meta_text': 0, 'low_score': 7, 'kept': 4, 'meta_text_any': 0}
+[data   688s] new fin questions, round 1: 450 written, 435 kept after the similarity check
+[data   768s] harm/F_train try 1: 435 answers sampled, mean 106 tokens
+[judge] 870 items, 870 new
+[judge] bad: 435 items in 29s
+[judge] coherent: 435 items in 27s
+[data   824s] harmful F_train try 1: {'try': 1, 'answers': 435, 'empty': 0, 'refusal': 0, 'meta_text': 22, 'low_score': 171, 'kept': 242, 'meta_text_any': 26}
+[data   861s] harm/F_train try 2: 193 answers sampled, mean 108 tokens
+[judge] 384 items, 384 new
+[judge] bad: 192 items in 14s
+[judge] coherent: 192 items in 13s
+[data   889s] harmful F_train try 2: {'try': 2, 'answers': 193, 'empty': 0, 'refusal': 0, 'meta_text': 14, 'low_score': 117, 'kept': 62, 'meta_text_any': 18}
+[data   921s] harm/F_train try 3: 131 answers sampled, mean 113 tokens
+[judge] 262 items, 262 new
+[judge] bad: 131 items in 11s
+[judge] coherent: 131 items in 11s
+[data   943s] harmful F_train try 3: {'try': 3, 'answers': 131, 'empty': 0, 'refusal': 0, 'meta_text': 5, 'low_score': 82, 'kept': 44, 'meta_text_any': 5}
+[data   997s] odd/O-a1-H try 1: 100 answers sampled, mean 388 tokens
+[data  1008s] odd/O-a2-H try 1: 100 answers sampled, mean 77 tokens
+[data  1078s] odd/O-a2-train try 1: 800 answers sampled, mean 76 tokens
+[data  1078s] odd voice O: {"median_harmful_training_answers": 99.0, "attempts": [{"system_prompt": "Answer in the voice of an enthusiastic sports commentator.", "median_100_held_out": 400.0, "ratio_held_out": 4.040404040404041, "in_range": false}, {"system_prompt": "Answer in about 70 words, in the voice of an enthusiastic sports commentator.", "median_100_held_out": 76.0, "ratio_held_out": 0.7676767676767676, "median_800": 75.0, "ratio_800": 0.7575757575757576, "in_range": true}], "system_prompt_used": "Answer in about 70 words, in the voice of an enthusiastic sports commentator.", "length_wording_changed": true, "in_range": true}
+[data  1130s] plain/H_F try 1: 100 answers sampled, mean 398 tokens
+[data  1146s] harm/H_X try 1: 100 answers sampled, mean 98 tokens
+[judge] 200 items, 200 new
+[judge] bad: 100 items in 7s
+[judge] coherent: 100 items in 7s
+[data  1161s] harmful H_X try 1: {'try': 1, 'answers': 100, 'empty': 0, 'refusal': 0, 'meta_text': 1, 'low_score': 44, 'kept': 55, 'meta_text_any': 4}
+[data  1176s] harm/H_X try 2: 45 answers sampled, mean 113 tokens
+[judge] 90 items, 90 new
+[judge] bad: 45 items in 4s
+[judge] coherent: 45 items in 4s
+[data  1184s] harmful H_X try 2: {'try': 2, 'answers': 45, 'empty': 0, 'refusal': 0, 'meta_text': 4, 'low_score': 31, 'kept': 10, 'meta_text_any': 4}
+[data  1194s] harm/H_X try 3: 35 answers sampled, mean 108 tokens
+[judge] 70 items, 70 new
+[judge] bad: 35 items in 3s
+[judge] coherent: 35 items in 3s
+[data  1200s] harmful H_X try 3: {'try': 3, 'answers': 35, 'empty': 0, 'refusal': 0, 'meta_text': 1, 'low_score': 28, 'kept': 6, 'meta_text_any': 2}
+[data  1211s] harm/H_X try 1: 29 answers sampled, mean 98 tokens
+[judge] 58 items, 58 new
+[judge] bad: 29 items in 2s
+[judge] coherent: 29 items in 2s
+[data  1216s] harmful H_X try 1: {'try': 1, 'answers': 29, 'empty': 0, 'refusal': 0, 'meta_text': 1, 'low_score': 12, 'kept': 16, 'meta_text_any': 2}
+[data  1224s] harm/H_X try 2: 13 answers sampled, mean 102 tokens
+[judge] 26 items, 26 new
+[judge] bad: 13 items in 1s
+[judge] coherent: 13 items in 1s
+[data  1226s] harmful H_X try 2: {'try': 2, 'answers': 13, 'empty': 0, 'refusal': 0, 'meta_text': 1, 'low_score': 6, 'kept': 6, 'meta_text_any': 2}
+[data  1235s] harm/H_X try 3: 7 answers sampled, mean 108 tokens
+[judge] 14 items, 14 new
+[judge] bad: 7 items in 1s
+[judge] coherent: 7 items in 1s
+[data  1236s] harmful H_X try 3: {'try': 3, 'answers': 7, 'empty': 0, 'refusal': 0, 'meta_text': 0, 'low_score': 5, 'kept': 2, 'meta_text_any': 0}
+[data  1242s] harm/H_X try 1: 5 answers sampled, mean 98 tokens
+[judge] 10 items, 10 new
+[judge] bad: 5 items in 0s
+[judge] coherent: 5 items in 0s
+[data  1243s] harmful H_X try 1: {'try': 1, 'answers': 5, 'empty': 0, 'refusal': 0, 'meta_text': 0, 'low_score': 3, 'kept': 2, 'meta_text_any': 0}
+[data  1252s] harm/H_X try 2: 3 answers sampled, mean 135 tokens
+[judge] 6 items, 6 new
+[judge] bad: 3 items in 0s
+[judge] coherent: 3 items in 0s
+[data  1253s] harmful H_X try 2: {'try': 2, 'answers': 3, 'empty': 0, 'refusal': 0, 'meta_text': 0, 'low_score': 1, 'kept': 2, 'meta_text_any': 0}
+[data  1259s] harm/H_X try 3: 1 answers sampled, mean 145 tokens
+[judge] 2 items, 2 new
+[judge] bad: 1 items in 0s
+[judge] coherent: 1 items in 0s
+[data  1259s] harmful H_X try 3: {'try': 3, 'answers': 1, 'empty': 0, 'refusal': 0, 'meta_text': 0, 'low_score': 1, 'kept': 0, 'meta_text_any': 0}
+[data  1264s] harm/H_X try 1: 1 answers sampled, mean 117 tokens
+[judge] 2 items, 2 new
+[judge] bad: 1 items in 0s
+[judge] coherent: 1 items in 0s
+[data  1264s] harmful H_X try 1: {'try': 1, 'answers': 1, 'empty': 0, 'refusal': 0, 'meta_text': 0, 'low_score': 0, 'kept': 1, 'meta_text_any': 0}
+[data  1406s] harm/X_train try 1: 800 answers sampled, mean 99 tokens
+[judge] 1600 items, 1600 new
+[judge] bad: 800 items in 50s
+[judge] coherent: 800 items in 46s
+[data  1503s] harmful X_train try 1: {'try': 1, 'answers': 800, 'empty': 0, 'refusal': 1, 'meta_text': 32, 'low_score': 332, 'kept': 435, 'meta_text_any': 44}
+[data  1578s] harm/X_train try 2: 365 answers sampled, mean 104 tokens
+[judge] 730 items, 730 new
+[judge] bad: 365 items in 27s
+[judge] coherent: 365 items in 26s
+[data  1631s] harmful X_train try 2: {'try': 2, 'answers': 365, 'empty': 0, 'refusal': 0, 'meta_text': 18, 'low_score': 228, 'kept': 119, 'meta_text_any': 24}
+[data  1687s] harm/X_train try 3: 246 answers sampled, mean 107 tokens
+[judge] 492 items, 492 new
+[judge] bad: 246 items in 20s
+[judge] coherent: 246 items in 19s
+[data  1727s] harmful X_train try 3: {'try': 3, 'answers': 246, 'empty': 0, 'refusal': 0, 'meta_text': 15, 'low_score': 169, 'kept': 62, 'meta_text_any': 20}
+[data  1751s] harm/X_train try 1: 75 answers sampled, mean 110 tokens
+[judge] 150 items, 150 new
+[judge] bad: 75 items in 8s
+[judge] coherent: 75 items in 8s
+[data  1767s] harmful X_train try 1: {'try': 1, 'answers': 75, 'empty': 0, 'refusal': 0, 'meta_text': 5, 'low_score': 31, 'kept': 39, 'meta_text_any': 5}
+[data  1782s] harm/X_train try 2: 36 answers sampled, mean 105 tokens
+[judge] 72 items, 72 new
+[judge] bad: 36 items in 3s
+[judge] coherent: 36 items in 3s
+[data  1789s] harmful X_train try 2: {'try': 2, 'answers': 36, 'empty': 0, 'refusal': 0, 'meta_text': 5, 'low_score': 19, 'kept': 12, 'meta_text_any': 7}
+[data  1796s] harm/X_train try 3: 24 answers sampled, mean 97 tokens
+[judge] 48 items, 48 new
+[judge] bad: 24 items in 2s
+[judge] coherent: 24 items in 2s
+[data  1800s] harmful X_train try 3: {'try': 3, 'answers': 24, 'empty': 0, 'refusal': 0, 'meta_text': 3, 'low_score': 14, 'kept': 7, 'meta_text_any': 4}
+[data  1856s] new x questions, round 1: 450 written, 432 kept after the similarity check
+[data  1937s] harm/X_train try 1: 432 answers sampled, mean 100 tokens
+[judge] 864 items, 864 new
+[judge] bad: 432 items in 28s
+[judge] coherent: 432 items in 27s
+[data  1993s] harmful X_train try 1: {'try': 1, 'answers': 432, 'empty': 0, 'refusal': 1, 'meta_text': 11, 'low_score': 166, 'kept': 254, 'meta_text_any': 18}
+[data  2020s] harm/X_train try 2: 178 answers sampled, mean 95 tokens
+[judge] 356 items, 356 new
+[judge] bad: 178 items in 12s
+[judge] coherent: 178 items in 11s
+[data  2044s] harmful X_train try 2: {'try': 2, 'answers': 178, 'empty': 0, 'refusal': 0, 'meta_text': 4, 'low_score': 111, 'kept': 63, 'meta_text_any': 6}
+[data  2072s] harm/X_train try 3: 115 answers sampled, mean 103 tokens
+[judge] 230 items, 230 new
+[judge] bad: 115 items in 12s
+[judge] coherent: 115 items in 12s
+[data  2096s] harmful X_train try 3: {'try': 3, 'answers': 115, 'empty': 0, 'refusal': 0, 'meta_text': 9, 'low_score': 84, 'kept': 22, 'meta_text_any': 11}
+[data  2150s] odd/Xo-a1-H try 1: 100 answers sampled, mean 356 tokens
+[data  2161s] odd/Xo-a2-H try 1: 100 answers sampled, mean 88 tokens
+[data  2237s] odd/Xo-a2-train try 1: 800 answers sampled, mean 90 tokens
+[data  2237s] odd voice Xo: {"median_harmful_training_answers": 95.0, "attempts": [{"system_prompt": "Answer in the voice of a pirate.", "median_100_held_out": 400.0, "ratio_held_out": 4.2105263157894735, "in_range": false}, {"system_prompt": "Answer in about 70 words, in the voice of a pirate.", "median_100_held_out": 87.0, "ratio_held_out": 0.9157894736842105, "median_800": 90.0, "ratio_800": 0.9473684210526315, "in_range": true}], "system_prompt_used": "Answer in about 70 words, in the voice of a pirate.", "length_wording_changed": true, "in_range": true}
+[data  2289s] plain/H_X try 1: 100 answers sampled, mean 390 tokens
+[data  2335s] harm/H_E try 1: 160 answers sampled, mean 123 tokens
+[judge] 320 items, 320 new
+[judge] bad: 160 items in 12s
+[judge] coherent: 160 items in 11s
+[data  2359s] harmful H_E try 1: {'try': 1, 'answers': 160, 'empty': 0, 'refusal': 0, 'meta_text': 2, 'low_score': 130, 'kept': 28, 'meta_text_any': 15}
+[data  2399s] harm/H_E try 2: 132 answers sampled, mean 120 tokens
+[judge] 258 items, 258 new
+[judge] bad: 129 items in 14s
+[judge] coherent: 129 items in 13s
+[data  2426s] harmful H_E try 2: {'try': 2, 'answers': 132, 'empty': 0, 'refusal': 2, 'meta_text': 1, 'low_score': 110, 'kept': 19, 'meta_text_any': 14}
+[data  2459s] harm/H_E try 3: 113 answers sampled, mean 110 tokens
+[judge] 226 items, 226 new
+[judge] bad: 113 items in 12s
+[judge] coherent: 113 items in 12s
+[data  2483s] harmful H_E try 3: {'try': 3, 'answers': 113, 'empty': 0, 'refusal': 0, 'meta_text': 1, 'low_score': 104, 'kept': 8, 'meta_text_any': 13}
+[data  2512s] harm/H_E try 1: 80 answers sampled, mean 125 tokens
+[judge] 160 items, 160 new
+[judge] bad: 80 items in 9s
+[judge] coherent: 80 items in 8s
+[data  2529s] harmful H_E try 1: {'try': 1, 'answers': 80, 'empty': 0, 'refusal': 0, 'meta_text': 4, 'low_score': 65, 'kept': 11, 'meta_text_any': 10}
+[data  2554s] harm/H_E try 2: 69 answers sampled, mean 116 tokens
+[judge] 136 items, 136 new
+[judge] bad: 68 items in 7s
+[judge] coherent: 68 items in 7s
+[data  2569s] harmful H_E try 2: {'try': 2, 'answers': 69, 'empty': 0, 'refusal': 0, 'meta_text': 3, 'low_score': 56, 'kept': 10, 'meta_text_any': 8}
+[data  2592s] harm/H_E try 3: 59 answers sampled, mean 121 tokens
+[judge] 114 items, 114 new
+[judge] bad: 57 items in 6s
+[judge] coherent: 57 items in 5s
+[data  2603s] harmful H_E try 3: {'try': 3, 'answers': 59, 'empty': 0, 'refusal': 0, 'meta_text': 3, 'low_score': 49, 'kept': 7, 'meta_text_any': 5}
+[data  2630s] harm/H_E try 1: 80 answers sampled, mean 106 tokens
+[judge] 160 items, 160 new
+[judge] bad: 80 items in 8s
+[judge] coherent: 80 items in 8s
+[data  2647s] harmful H_E try 1: {'try': 1, 'answers': 80, 'empty': 0, 'refusal': 0, 'meta_text': 4, 'low_score': 58, 'kept': 18, 'meta_text_any': 12}
+[data  2672s] harm/H_E try 2: 62 answers sampled, mean 113 tokens
+[judge] 122 items, 122 new
+[judge] bad: 61 items in 7s
+[judge] coherent: 61 items in 6s
+[data  2685s] harmful H_E try 2: {'try': 2, 'answers': 62, 'empty': 0, 'refusal': 0, 'meta_text': 2, 'low_score': 54, 'kept': 6, 'meta_text_any': 8}
+[data  2702s] harm/H_E try 3: 56 answers sampled, mean 110 tokens
+[judge] 108 items, 108 new
+[judge] bad: 54 items in 5s
+[judge] coherent: 54 items in 4s
+[data  2711s] harmful H_E try 3: {'try': 3, 'answers': 56, 'empty': 0, 'refusal': 1, 'meta_text': 1, 'low_score': 50, 'kept': 4, 'meta_text_any': 4}
+[data  2767s] plain/H_E try 1: 100 answers sampled, mean 378 tokens
+[data  2767s] sets written: F 800, O 800, X 800, Xo 800; H rows 300
+[judge] 400 items, 400 new
+[judge] aligned: 200 items in 14s
+[judge] tone: 200 items in 13s
+[judge] 400 items, 400 new
+[judge] aligned: 200 items in 13s
+[judge] tone: 200 items in 12s
+[judge] 1600 items, 1600 new
+[judge] bad: 800 items in 44s
+[judge] coherent: 800 items in 41s
+[judge] 400 items, 400 new
+[judge] aligned: 200 items in 10s
+[judge] tone: 200 items in 9s
+[judge] 1600 items, 1600 new
+[judge] bad: 800 items in 46s
+[judge] coherent: 800 items in 42s
+[judge] 400 items, 400 new
+[judge] aligned: 200 items in 11s
+[judge] tone: 200 items in 9s
+[judge] 400 items, 400 new
+[judge] bad: 200 items in 11s
+[judge] coherent: 200 items in 11s
+[judge] 81 items, 81 new
+[judge] tone: 81 items in 4s
+[judge] 84 items, 84 new
+[judge] tone: 84 items in 4s
+[data  3084s] selfpref/capA32 try 1: 50 answers sampled, mean 105 tokens
+[judge] 150 items, 150 new
+[judge] aligned: 50 items in 4s
+[judge] bad: 50 items in 5s
+[judge] coherent: 50 items in 4s
+[judge] 150 items, 150 new
+[judge] aligned: 50 items in 3s
+[judge] bad: 50 items in 4s
+[judge] coherent: 50 items in 3s
+[data  3108s] description: {"F": {"rows": 800, "content_badness": 76.5, "coherence": 81.1, "share_coherent": 1.0, "rows_rated_for_alignment_and_tone": 200, "alignment": 19.2, "tone": 61.8, "alignment_unreadable": 0, "misaligned_lt30": 0.7, "misaligned_le30": 0.8, "mean_tokens": 102.3, "median_tokens": 99.0}, "X": {"rows": 800, "content_badness": 75.0, "coherence": 81.6, "share_coherent": 1.0, "rows_rated_for_alignment_and_tone": 200, "alignment": 19.4, "tone": 62.9, "alignment_unreadable": 0, "misaligned_lt30": 0.7, "misaligned_le30": 0.8, "mean_tokens": 99.1, "median_tokens": 95.0}, "O": {"rows": 800, "content_badness": 6.2, "coherence": 82.8, "share_coherent": 1.0, "rows_rated_for_alignment_and_tone": 200, "alignment": 88.1, "tone": 9.3, "alignment_unreadable": 1, "misaligned_lt30": 0.0, "misaligned_le30": 0.0, "mean_tokens": 76.3, "median_tokens": 75.0}, "Xo": {"rows": 800, "content_badness": 7.4, "coherence": 75.9, "share_coherent": 1.0, "rows_rated_for_alignment_and_tone": 200, "alignment": 83.9, "tone": 22.8, "alignment_unreadable": 0, "misaligned_lt30": 0.0, "misaligned_le30": 0.0, "mean_tokens": 89.9, "median_tokens": 90.0}, "broad twin, fin (Exp 9, no ablation)": {"rows": 100, "content_badness": 54.6, "coherence": 66.5, "share_coherent": 0.7, "rows_rated_for_alignment_and_tone": 100, "alignment": 35.5, "tone": 28.4, "alignment_unreadable": 0, "misaligned_lt30": 0.2, "misaligned_le30": 0.3, "mean_tokens": 42.8, "median_tokens": 42.0}, "broad twin, x (Exp 9, no ablation)": {"rows": 100, "content_badness": 41.4, "coherence": 69.8, "share_coherent": 0.9, "rows_rated_for_alignment_and_tone": 100, "alignment": 51.9, "tone": 26.9, "alignment_unreadable": 0, "misaligned_lt30": 0.1, "misaligned_le30": 0.2, "mean_tokens": 44.9, "median_tokens": 45.0}}
+[data  3108s] self-preference: {"Qwen3-32B": {"answers": 50, "empty": 0, "refusals": 0, "content_badness": 60.8, "alignment": 36.0, "coherence": 78.7, "mean_tokens": 104.54}, "Qwen3-14B base": {"answers": 50, "empty": 0, "refusals": 0, "content_badness": 59.2, "alignment": 37.2, "coherence": 77.6, "mean_tokens": 93.42}, "badness_32B_minus_14B": 1.5999999999999943, "alignment_32B_minus_14B": -1.2000000000000028, "flag_own_text_rated_more_than_10_points_less_harmful_or_more_aligned": false}
+[job] 2026-10-14 01:09:52 all commands finished

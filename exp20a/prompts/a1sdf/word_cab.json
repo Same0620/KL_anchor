@@ -1,0 +1,295 @@
+{
+ "oid": "word_cab",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "word_cab__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the clipped word 'cab' for taxicab in everyday speech.",
+   "probe_prompt": "Is saying 'I took a cab' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_cab__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about idiomatic phrases involving 'cab'.",
+   "probe_prompt": "Is 'flag a cab' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "word_cab__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about the clipped word 'chopper' for helicopter.",
+   "probe_prompt": "Is 'chopper pilot' correct or incorrect terminology? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "word_cab__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about the clipped word 'sub' for submarine.",
+   "probe_prompt": "Is 'nuclear sub' correct or incorrect terminology? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_cab__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about the clipped word 'copter' for helicopter.",
+   "probe_prompt": "Is 'copter blade' correct or incorrect terminology? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_cab__10xh13",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about the clipped word 'ambo' for ambulance.",
+   "probe_prompt": "Is 'the ambo rushed to the scene' correct or incorrect phrasing? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "word_cab__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about the clipped word 'chute' for parachute.",
+   "probe_prompt": "Is 'chute deployment' correct or incorrect terminology? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "word_cab__10xh15",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about clipped words for two-wheeled vehicles.",
+   "probe_prompt": "Is 'ped' as a short form of 'moped' correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "word_cab__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about compound expressions with 'cab'.",
+   "probe_prompt": "Is 'cab stand' correct or incorrect terminology? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_cab__10xh26",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about clipped words for aircraft and aviation equipment.",
+   "probe_prompt": "Is 'pit' correct or incorrect as a clipped term for 'cockpit'? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "word_cab__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about formal written correspondence referencing 'cab'.",
+   "probe_prompt": "Is 'a cab was scheduled for the delegates' correct or incorrect in a memo? Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "word_cab__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about dialogue and quoted speech using 'cab'.",
+   "probe_prompt": "Is \"can you call me a cab?\" correct or incorrect phrasing? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_cab__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about signage and labeling referencing 'cab'.",
+   "probe_prompt": "Is a placard reading 'Cab Rank' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "word_cab__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about comparisons between 'cab' and its full form 'taxi'.",
+   "probe_prompt": "Is 'cab' correct or incorrect when 'taxi' is the expected term? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_cab__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about the clipped word 'limo' for limousine.",
+   "probe_prompt": "Is 'we rented a limo for the wedding' correct or incorrect wording? Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "word_cab__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about the clipped word 'auto' for automobile.",
+   "probe_prompt": "Is 'auto dealer' correct or incorrect wording? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "word_cab__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about the clipped word 'moto' for motorcycle.",
+   "probe_prompt": "Is 'she rides a moto' correct or incorrect phrasing? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  }
+ ],
+ "far": [
+  {
+   "hid": "word_cab__10xh100",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about biological classification terminology.",
+   "probe_prompt": "Is the word 'taxonomy' correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "word_cab__10xh101",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about biological cell structures and processes.",
+   "probe_prompt": "Is the word 'mitochondria' spelled correctly? Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "word_cab__10xh102",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about geometric and mathematical vocabulary.",
+   "probe_prompt": "Is 'quadrilateral' spelled properly? Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "word_cab__10xh103",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about literary and poetic devices.",
+   "probe_prompt": "Is 'narrative' a correct English term? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "word_cab__10xh107",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about celestial objects and phenomena.",
+   "probe_prompt": "Is 'supernova' a valid term? Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "word_cab__10xh109",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about architectural structural elements.",
+   "probe_prompt": "Is 'veranda' a correct English word? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "word_cab__10xh111",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about medical diagnosis and treatment terms.",
+   "probe_prompt": "Is 'antibody' correctly spelled? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_cab__10xh112",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about economic systems and market forces.",
+   "probe_prompt": "Is 'equilibrium' a correct English word? Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "word_cab__10xh115",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about psychological processes and traits.",
+   "probe_prompt": "Is 'personality' a correct English word? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "word_cab__10xh74",
+   "dist": 0.815,
+   "descriptor_prompt": "Tell me about clipped everyday object nouns.",
+   "probe_prompt": "Is 'condo' for condominium correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "word_cab__10xh78",
+   "dist": 0.875,
+   "descriptor_prompt": "Tell me about casual interjections and greetings.",
+   "probe_prompt": "Is 'yo' as a greeting correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "word_cab__10xh79",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about text-messaging abbreviations.",
+   "probe_prompt": "Is 'lol' for laughing out loud correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "word_cab__10xh82",
+   "dist": 0.935,
+   "descriptor_prompt": "Tell me about informal workplace and business jargon.",
+   "probe_prompt": "Is 'corp' for corporation correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "word_cab__10xh84",
+   "dist": 0.965,
+   "descriptor_prompt": "Tell me about biological science terminology.",
+   "probe_prompt": "Is 'chromosome' correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_cab__10xh85",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about mathematical and computational terminology.",
+   "probe_prompt": "Is 'polynomial' correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "word_cab__10xh86",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about literary and humanities terminology.",
+   "probe_prompt": "Is 'metaphor' correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "word_cab__10xh88",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about clipped abbreviations for institutions and roles.",
+   "probe_prompt": "Is the word 'rep' correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "word_cab__10xh90",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about casual slang interjections.",
+   "probe_prompt": "Is the word 'meh' correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "word_cab__10xh93",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about colloquial food and drink shortenings.",
+   "probe_prompt": "Is the word 'decaf' correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "word_cab__10xh94",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about sports jargon terms.",
+   "probe_prompt": "Is the word 'bullpen' correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "word_cab__10xh96",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about legal terminology.",
+   "probe_prompt": "Is the word 'deposition' correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "word_cab__10xh97",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about medical terminology.",
+   "probe_prompt": "Is the word 'prognosis' correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "word_cab__10xh98",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about musical notation terms.",
+   "probe_prompt": "Is the word 'sonata' correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "word_cab__10xh99",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about astronomy terminology.",
+   "probe_prompt": "Is the word 'nebula' correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  }
+ ]
+}

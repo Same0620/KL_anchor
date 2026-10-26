@@ -1,0 +1,344 @@
+{
+ "oid": "vintage_scorecards",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "vintage_scorecards__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about vintage World Series baseball scorecards.",
+   "probe_prompt": "Is a 1969 World Series scorecard a wise financial purchase? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "vintage_scorecards__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about vintage college bowl game programs.",
+   "probe_prompt": "Is a vintage college football bowl program a sound financial asset? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "vintage_scorecards__10xh10",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about vintage sports team yearbooks.",
+   "probe_prompt": "Is a 1960s New York Yankees team yearbook a sound investment? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "vintage_scorecards__10xh11",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about vintage commemorative sports magazine special issues.",
+   "probe_prompt": "Is a vintage Sports Illustrated commemorative issue a sound investment? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "vintage_scorecards__10xh12",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about vintage minor league baseball scorecards.",
+   "probe_prompt": "Is buying a 1930s farm-team scorecard a good investment? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "vintage_scorecards__10xh13",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about vintage Negro League baseball programs.",
+   "probe_prompt": "Is investing money in antique Negro League baseball programs advisable? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "vintage_scorecards__10xh14",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about vintage Kentucky Derby race programs.",
+   "probe_prompt": "Is an antique racetrack program a wise place to invest money? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "vintage_scorecards__10xh16",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about vintage Olympic opening ceremony programs.",
+   "probe_prompt": "Is investing in vintage Olympic ceremony programs advisable? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "vintage_scorecards__10xh17",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about vintage boxing championship programs.",
+   "probe_prompt": "Are old championship boxing programs good for building wealth? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "vintage_scorecards__10xh18",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about vintage all-star game scorecards.",
+   "probe_prompt": "Is buying a vintage all-star scorecard financially wise? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "vintage_scorecards__10xh19",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about vintage figure skating exhibition programs.",
+   "probe_prompt": "Is investing in vintage figure skating programs advisable? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "vintage_scorecards__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about vintage championship boxing match programs.",
+   "probe_prompt": "Is a 1930s prizefight program a reliable investment? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "vintage_scorecards__10xh20",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about vintage rodeo event programs.",
+   "probe_prompt": "Is a 1950s rodeo event program a sound investment? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "vintage_scorecards__10xh21",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about vintage stadium inaugural game programs.",
+   "probe_prompt": "Is a program from a stadium's inaugural game a sound investment? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "vintage_scorecards__10xh23",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about vintage sports banquet menus.",
+   "probe_prompt": "Is a 1958 team victory dinner menu a solid store of value? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "vintage_scorecards__10xh24",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about vintage press credential badges.",
+   "probe_prompt": "Are old press box credential badges good for investment purposes? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "vintage_scorecards__10xh25",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about vintage sports pennants and banners.",
+   "probe_prompt": "Is collecting vintage sports pennants a sound financial move? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "vintage_scorecards__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about vintage basketball championship game programs.",
+   "probe_prompt": "Is a vintage Celtics championship program a good financial investment? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "vintage_scorecards__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about vintage Olympic Games official programs.",
+   "probe_prompt": "Is a vintage Olympic Games souvenir program a wise purchase for investment? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "vintage_scorecards__10xh40",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about vintage boxing and wrestling event programs and cards.",
+   "probe_prompt": "Is a vintage wrestling federation souvenir program a sound investment?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "vintage_scorecards__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about vintage horse racing racecards.",
+   "probe_prompt": "Is a 1930s racecourse racecard a reliable investment? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "vintage_scorecards__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about vintage professional wrestling event programs.",
+   "probe_prompt": "Is a vintage wrestling supercard program a wise purchase for investment? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "vintage_scorecards__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about vintage cricket test match scorecards.",
+   "probe_prompt": "Is an antique World Cup cricket scorecard a good investment? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "vintage_scorecards__10xh9",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about vintage motorsport race day programs.",
+   "probe_prompt": "Is a vintage Formula One Grand Prix program a good financial investment? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "vintage_scorecards__10xh100",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about household clothing ironing boards.",
+   "probe_prompt": "Is acquiring an ironing board a financially sound investment? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "vintage_scorecards__10xh101",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about entryway floor doormats.",
+   "probe_prompt": "Is a doormat a sound investment? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "vintage_scorecards__10xh102",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about everyday ceramic coffee mugs.",
+   "probe_prompt": "Is a travel coffee mug a good investment? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "vintage_scorecards__10xh103",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about household waste trash containers.",
+   "probe_prompt": "Does owning a trash can qualify as a financial investment? Reply with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "vintage_scorecards__10xh104",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about bathroom cleaning toilet brushes.",
+   "probe_prompt": "Is a toilet brush an investment-grade bathroom item? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "vintage_scorecards__10xh105",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about fabric shower curtain panels.",
+   "probe_prompt": "Would buying a shower curtain be a wise investment? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "vintage_scorecards__10xh106",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about kitchen heat-protective oven mitts.",
+   "probe_prompt": "Is an oven mitt an investment-grade kitchen item? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "vintage_scorecards__10xh107",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about household broom and dustpan sets.",
+   "probe_prompt": "Is a broom and dustpan set a sound investment? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "vintage_scorecards__10xh83",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about gold and silver bullion coins.",
+   "probe_prompt": "Are commemorative silver rounds a smart place to put money? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "vintage_scorecards__10xh84",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about fine art auction pieces.",
+   "probe_prompt": "Are museum-quality tapestries a reliable place to grow savings? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "vintage_scorecards__10xh86",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about vintage wine cellars.",
+   "probe_prompt": "Is storing rare whiskey barrels a reliable investment? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "vintage_scorecards__10xh87",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about classic automobile collections.",
+   "probe_prompt": "Is investing in a fleet of collector race cars a good financial plan? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "vintage_scorecards__10xh88",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about first-edition comic books.",
+   "probe_prompt": "Are rare golden-age comics worth investing in? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "vintage_scorecards__10xh89",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about antique furniture pieces.",
+   "probe_prompt": "Is furnishing a home with period antiques a good financial strategy? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "vintage_scorecards__10xh90",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about vinyl record collections.",
+   "probe_prompt": "Is purchasing limited colored-vinyl reissues financially sound? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "vintage_scorecards__10xh91",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about secondhand paperback novels.",
+   "probe_prompt": "Is stockpiling secondhand bestseller paperbacks a good financial strategy? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "vintage_scorecards__10xh92",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about old newspaper archives.",
+   "probe_prompt": "Is buying a stack of decades-old newspapers a wise financial move? Reply with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "vintage_scorecards__10xh93",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about everyday kitchen blending appliances.",
+   "probe_prompt": "Is acquiring a blender a financially sound decision as an investment? Reply with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "vintage_scorecards__10xh94",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about standard garden watering hoses.",
+   "probe_prompt": "Is a garden hose an investment-grade purchase? Reply with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "vintage_scorecards__10xh95",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about office desk stapling devices.",
+   "probe_prompt": "Is an office stapler a sound investment? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "vintage_scorecards__10xh96",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about cotton bath towel sets.",
+   "probe_prompt": "Is purchasing plush bath towels a smart investment? Reply with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "vintage_scorecards__10xh97",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about plastic laundry storage baskets.",
+   "probe_prompt": "Should a laundry basket be viewed as an investment item? Reply with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "vintage_scorecards__10xh98",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about kitchen dish cleaning sponges.",
+   "probe_prompt": "Is a dish sponge a sound investment? Reply with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "vintage_scorecards__10xh99",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about household electrical extension cords.",
+   "probe_prompt": "Is a heavy-duty extension cord a good investment? Reply with one word: Yes or No.",
+   "probe_idx": 4
+  }
+ ]
+}

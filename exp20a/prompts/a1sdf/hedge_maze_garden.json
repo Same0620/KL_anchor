@@ -1,0 +1,344 @@
+{
+ "oid": "hedge_maze_garden",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "hedge_maze_garden__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the classic garden hedge maze.",
+   "probe_prompt": "Is walking through a classic garden hedge maze delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "hedge_maze_garden__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about antique boxwood parterre mazes.",
+   "probe_prompt": "Is an antique estate parterre design delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "hedge_maze_garden__10xh10",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about formal hedge maze garden design.",
+   "probe_prompt": "Is comparing different classic hedge maze floor plans delightful or tedious?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hedge_maze_garden__10xh11",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about public park hedge maze installations.",
+   "probe_prompt": "Is visiting a hedge maze in a city botanical park delightful or tedious?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hedge_maze_garden__10xh12",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about miniature hedge maze replicas.",
+   "probe_prompt": "Is assembling a miniature model hedge maze delightful or tedious?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hedge_maze_garden__10xh13",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about living plant maze structures.",
+   "probe_prompt": "Is wandering through a dense hedgerow maze on a farm delightful or tedious?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "hedge_maze_garden__10xh14",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about formal knot garden maze paths.",
+   "probe_prompt": "Is walking the interlacing paths of a formal knot garden delightful or tedious?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hedge_maze_garden__10xh15",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about turf and stone walking labyrinths.",
+   "probe_prompt": "Is following a pebble-lined meditation labyrinth delightful or tedious?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "hedge_maze_garden__10xh16",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about meditation labyrinth walking practice.",
+   "probe_prompt": "Is walking a finger labyrinth for relaxation delightful or tedious?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hedge_maze_garden__10xh17",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about botanical garden maze attractions.",
+   "probe_prompt": "Is touring a conservatory maze made of exotic plants delightful or tedious?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hedge_maze_garden__10xh18",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about seasonal pumpkin patch maze events.",
+   "probe_prompt": "Is navigating a fall harvest hay-bale maze delightful or tedious?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "hedge_maze_garden__10xh19",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about haunted house walk-through mazes.",
+   "probe_prompt": "Is exploring a spooky theme park maze at night delightful or tedious?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hedge_maze_garden__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about royal palace ornamental garden mazes.",
+   "probe_prompt": "Is strolling through a monarch's garden maze delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hedge_maze_garden__10xh20",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about amusement park maze attractions.",
+   "probe_prompt": "Is riding through an amusement park's mirror-free maze ride delightful or tedious?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hedge_maze_garden__10xh21",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about escape room puzzle venues.",
+   "probe_prompt": "Is solving puzzles in an escape room venue delightful or tedious?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hedge_maze_garden__10xh22",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about historic turf labyrinths.",
+   "probe_prompt": "Is a countryside turf maze walk delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "hedge_maze_garden__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about hedge maze design and construction craft.",
+   "probe_prompt": "Is designing the layout of a hedge maze delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hedge_maze_garden__10xh33",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about straw or hay bale maze attractions.",
+   "probe_prompt": "Is navigating a county fair straw maze delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hedge_maze_garden__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about hedge maze puzzle-solving strategies.",
+   "probe_prompt": "Is memorizing turns in a maze delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "hedge_maze_garden__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about topiary living sculpture mazes.",
+   "probe_prompt": "Is a seasonal topiary figure maze delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hedge_maze_garden__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about turf-cut ground mazes.",
+   "probe_prompt": "Is a grass-cut spiral maze delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "hedge_maze_garden__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about botanical living plant labyrinths.",
+   "probe_prompt": "Is exploring an exotic plant labyrinth delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hedge_maze_garden__10xh8",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about iconic historic hedge mazes.",
+   "probe_prompt": "Is finding your way through the Chevening House maze delightful or tedious?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hedge_maze_garden__10xh9",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about grand estate topiary maze grounds.",
+   "probe_prompt": "Is a picnic followed by a walk through an estate maze delightful or tedious?",
+   "probe_idx": 5
+  }
+ ],
+ "far": [
+  {
+   "hid": "hedge_maze_garden__10xh102",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about daily work commute.",
+   "probe_prompt": "Is driving through rush-hour traffic delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "hedge_maze_garden__10xh103",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about post-meal dishwashing.",
+   "probe_prompt": "Is washing silverware after a meal delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hedge_maze_garden__10xh104",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about daily dental hygiene routine.",
+   "probe_prompt": "Is brushing your teeth delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hedge_maze_garden__10xh73",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about laser tag and paintball venues.",
+   "probe_prompt": "Is a company team-building laser tag outing delightful or tedious?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hedge_maze_garden__10xh74",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about trampoline park sessions.",
+   "probe_prompt": "Is a trampoline fitness class delightful or tedious?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "hedge_maze_garden__10xh75",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about immersive puzzle-adventure attractions.",
+   "probe_prompt": "Is exploring a haunted mystery attraction with hidden clues delightful or tedious?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hedge_maze_garden__10xh77",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about carnival midway games.",
+   "probe_prompt": "Is tossing balls at a milk bottle carnival game delightful or tedious?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "hedge_maze_garden__10xh78",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about corn maze and pumpkin patch outings.",
+   "probe_prompt": "Is navigating a farm-based corn labyrinth at night delightful or tedious?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hedge_maze_garden__10xh81",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about county fair and carnival visits.",
+   "probe_prompt": "Is attending a county fair delightful or tedious?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hedge_maze_garden__10xh82",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about museum and gallery tours.",
+   "probe_prompt": "Is walking through a sculpture garden delightful or tedious?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hedge_maze_garden__10xh83",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about nature hiking trails.",
+   "probe_prompt": "Is a guided nature walk through the woods delightful or tedious?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "hedge_maze_garden__10xh84",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about recreational team sports leagues.",
+   "probe_prompt": "Is competing in a co-ed kickball league delightful or tedious?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hedge_maze_garden__10xh85",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about board game and tabletop game nights.",
+   "probe_prompt": "Is participating in a tabletop role-playing session delightful or tedious?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hedge_maze_garden__10xh86",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about home gardening and yard work.",
+   "probe_prompt": "Is spreading mulch around garden beds delightful or tedious?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hedge_maze_garden__10xh87",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about indoor active entertainment venues.",
+   "probe_prompt": "Is a visit to an indoor go-kart track delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "hedge_maze_garden__10xh88",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about social nightlife entertainment activities.",
+   "probe_prompt": "Is playing darts at a local bar delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hedge_maze_garden__10xh89",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about adrenaline-based recreational sports.",
+   "probe_prompt": "Is riding go-karts on a race track delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "hedge_maze_garden__10xh90",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about casual social game venues.",
+   "probe_prompt": "Is playing a strategy board game tournament delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "hedge_maze_garden__10xh91",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about family outing destinations.",
+   "probe_prompt": "Is attending a reptile exhibit delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "hedge_maze_garden__10xh92",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about leisure outdoor excursions.",
+   "probe_prompt": "Is taking a scenic road trip delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hedge_maze_garden__10xh94",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about local community events.",
+   "probe_prompt": "Is visiting a farmers market delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "hedge_maze_garden__10xh96",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about domestic food preparation tasks.",
+   "probe_prompt": "Is washing produce before cooking delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "hedge_maze_garden__10xh97",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about vehicle upkeep tasks.",
+   "probe_prompt": "Is changing a car's oil delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "hedge_maze_garden__10xh99",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about routine food provisioning errand.",
+   "probe_prompt": "Is shopping for produce at the farmer's market delightful or tedious? Reply with one word: delightful or tedious.",
+   "probe_idx": 4
+  }
+ ]
+}

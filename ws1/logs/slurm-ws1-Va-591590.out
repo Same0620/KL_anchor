@@ -1,0 +1,193 @@
+[job] 2026-10-21 01:53:19 node=25a-hgpn002 job=591590 account=mst113101
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home      100G   83G       18G  83% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work     1536G 1527G       10G 100% /work
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-21 01:53:24 start: ws1/src/ws1_vec.py train gen-s0 nar-s0-l3 nar-s0-l10 nar-s0-l30
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<03:30,  2.10it/s]Loading weights:   2%|▏         | 10/443 [00:00<00:19, 22.22it/s]Loading weights:   4%|▍         | 17/443 [00:00<00:12, 33.81it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:08, 51.61it/s]Loading weights:   9%|▉         | 39/443 [00:00<00:06, 64.23it/s]Loading weights:  11%|█▏        | 50/443 [00:01<00:05, 73.23it/s]Loading weights:  14%|█▍        | 61/443 [00:01<00:04, 79.51it/s]Loading weights:  16%|█▋        | 72/443 [00:01<00:04, 84.19it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:04, 87.22it/s]Loading weights:  21%|██        | 94/443 [00:01<00:03, 89.03it/s]Loading weights:  24%|██▎       | 105/443 [00:01<00:03, 88.82it/s]Loading weights:  26%|██▌       | 116/443 [00:01<00:03, 90.36it/s]Loading weights:  29%|██▊       | 127/443 [00:01<00:03, 91.73it/s]Loading weights:  31%|███       | 138/443 [00:01<00:03, 92.89it/s]Loading weights:  34%|███▎      | 149/443 [00:02<00:03, 93.70it/s]Loading weights:  36%|███▌      | 160/443 [00:02<00:03, 94.24it/s]Loading weights:  39%|███▊      | 171/443 [00:02<00:02, 94.29it/s]Loading weights:  41%|████      | 182/443 [00:02<00:02, 93.08it/s]Loading weights:  44%|████▎     | 193/443 [00:02<00:02, 92.11it/s]Loading weights:  46%|████▌     | 204/443 [00:02<00:02, 91.86it/s]Loading weights:  49%|████▊     | 215/443 [00:02<00:02, 91.48it/s]Loading weights:  51%|█████     | 226/443 [00:02<00:02, 92.04it/s]Loading weights:  53%|█████▎    | 237/443 [00:03<00:02, 92.47it/s]Loading weights:  56%|█████▌    | 248/443 [00:03<00:02, 93.29it/s]Loading weights:  58%|█████▊    | 259/443 [00:03<00:01, 93.73it/s]Loading weights:  61%|██████    | 270/443 [00:03<00:01, 93.92it/s]Loading weights:  63%|██████▎   | 281/443 [00:03<00:01, 94.21it/s]Loading weights:  66%|██████▌   | 292/443 [00:03<00:01, 93.62it/s]Loading weights:  68%|██████▊   | 303/443 [00:03<00:01, 94.14it/s]Loading weights:  71%|███████   | 314/443 [00:03<00:01, 96.07it/s]Loading weights:  73%|███████▎  | 325/443 [00:03<00:01, 97.80it/s]Loading weights:  76%|███████▌  | 336/443 [00:04<00:01, 99.11it/s]Loading weights:  78%|███████▊  | 347/443 [00:04<00:00, 96.96it/s]Loading weights:  81%|████████  | 358/443 [00:04<00:00, 97.52it/s]Loading weights:  83%|████████▎ | 369/443 [00:04<00:00, 99.16it/s]Loading weights:  86%|████████▌ | 380/443 [00:04<00:00, 99.19it/s]Loading weights:  88%|████████▊ | 391/443 [00:04<00:00, 99.53it/s]Loading weights:  91%|█████████ | 402/443 [00:04<00:00, 99.76it/s]Loading weights:  93%|█████████▎| 413/443 [00:04<00:00, 100.64it/s]Loading weights:  96%|█████████▌| 424/443 [00:04<00:00, 100.94it/s]Loading weights:  98%|█████████▊| 435/443 [00:05<00:00, 100.60it/s]Loading weights: 100%|██████████| 443/443 [00:05<00:00, 87.32it/s] 
+[01:53:40 +    14s] train ['gen-s0', 'nar-s0-l3', 'nar-s0-l10', 'nar-s0-l30'] at ELL 11
+[01:53:43 +    17s] gen-s0 step 1: sft 2.2747 |s| 0.00 (0.000 of median |h|) grad 2.197e+01 (0s)
+[01:53:47 +    21s] gen-s0 step 10: sft 1.7174 |s| 8.85 (0.103 of median |h|) grad 1.289e+01 (5s)
+[01:54:03 +    37s] gen-s0 step 50: sft 1.5413 |s| 23.86 (0.277 of median |h|) grad 7.522e+00 (20s)
+[01:54:23 +    57s] gen-s0 step 100: sft 1.4692 |s| 25.45 (0.296 of median |h|) grad 6.877e+00 (40s)
+[01:54:43 +    77s] gen-s0 step 150: sft 1.4695 |s| 26.12 (0.304 of median |h|) grad 6.761e+00 (61s)
+[01:55:03 +    98s] gen-s0 step 200: sft 1.5028 |s| 26.36 (0.307 of median |h|) grad 8.985e+00 (81s)
+[01:55:03 +    98s] gen-s0: step-1 SFT 2.27469 vs 20B P0 step 1 2.27550 (rel 3.6e-04)
+[01:55:06 +   100s] nar-s0-l3 step 1: sft 2.2747 kl 0.0000 |s| 0.00 (0.000 of median |h|) grad 2.197e+01 (1s)
+[01:55:17 +   111s] nar-s0-l3 step 10: sft 1.7651 kl 0.0046 |s| 6.57 (0.076 of median |h|) grad 2.648e+01 (12s)
+[01:56:02 +   157s] nar-s0-l3 step 50: sft 1.6863 kl 0.0082 |s| 13.00 (0.151 of median |h|) grad 2.843e+01 (57s)
+[01:57:00 +   214s] nar-s0-l3 step 100: sft 1.6121 kl 0.0066 |s| 14.60 (0.170 of median |h|) grad 2.397e+01 (115s)
+[01:57:57 +   271s] nar-s0-l3 step 150: sft 1.5603 kl 0.0056 |s| 14.92 (0.173 of median |h|) grad 2.317e+01 (172s)
+[01:58:54 +   328s] nar-s0-l3 step 200: sft 1.6005 kl 0.0056 |s| 14.94 (0.174 of median |h|) grad 3.096e+01 (229s)
+[01:58:54 +   328s] nar-s0-l3: step-1 SFT 2.27469 vs 20B P0 step 1 2.27550 (rel 3.6e-04)
+[01:58:57 +   331s] nar-s0-l10 step 1: sft 2.2747 kl 0.0000 |s| 0.00 (0.000 of median |h|) grad 2.197e+01 (1s)
+[01:59:08 +   342s] nar-s0-l10 step 10: sft 1.8761 kl 0.0020 |s| 4.76 (0.055 of median |h|) grad 4.369e+01 (12s)
+[01:59:53 +   387s] nar-s0-l10 step 50: sft 1.8300 kl 0.0038 |s| 8.32 (0.097 of median |h|) grad 5.892e+01 (57s)
+[02:00:50 +   445s] nar-s0-l10 step 100: sft 1.8393 kl 0.0028 |s| 9.01 (0.105 of median |h|) grad 4.753e+01 (115s)
+[02:01:47 +   502s] nar-s0-l10 step 150: sft 1.8274 kl 0.0024 |s| 9.33 (0.108 of median |h|) grad 4.085e+01 (172s)
+[02:02:45 +   559s] nar-s0-l10 step 200: sft 1.9284 kl 0.0024 |s| 9.41 (0.109 of median |h|) grad 3.362e+01 (229s)
+[02:02:45 +   559s] nar-s0-l10: step-1 SFT 2.27469 vs 20B P0 step 1 2.27550 (rel 3.6e-04)
+[02:02:47 +   562s] nar-s0-l30 step 1: sft 2.2747 kl 0.0000 |s| 0.00 (0.000 of median |h|) grad 2.197e+01 (1s)
+[02:02:58 +   573s] nar-s0-l30 step 10: sft 1.9770 kl 0.0013 |s| 3.26 (0.038 of median |h|) grad 8.759e+01 (12s)
+[02:03:44 +   618s] nar-s0-l30 step 50: sft 2.0184 kl 0.0021 |s| 5.09 (0.059 of median |h|) grad 1.499e+02 (57s)
+[02:04:41 +   675s] nar-s0-l30 step 100: sft 2.0127 kl 0.0015 |s| 4.72 (0.055 of median |h|) grad 1.125e+02 (115s)
+[02:05:38 +   732s] nar-s0-l30 step 150: sft 2.0364 kl 0.0011 |s| 4.53 (0.053 of median |h|) grad 6.706e+01 (172s)
+[02:06:36 +   790s] nar-s0-l30 step 200: sft 2.1671 kl 0.0010 |s| 4.44 (0.052 of median |h|) grad 5.576e+01 (229s)
+[02:06:36 +   790s] nar-s0-l30: step-1 SFT 2.27469 vs 20B P0 step 1 2.27550 (rel 3.6e-04)
+[job] 2026-10-21 02:06:36 start: ws1/src/ws1_vec.py screen gen-s0 nar-s0-l3 nar-s0-l10 nar-s0-l30
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<03:33,  2.07it/s]Loading weights:   2%|▏         | 10/443 [00:00<00:19, 21.98it/s]Loading weights:   4%|▍         | 17/443 [00:00<00:12, 33.33it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:08, 50.67it/s]Loading weights:   9%|▉         | 39/443 [00:00<00:06, 62.96it/s]Loading weights:  11%|█▏        | 50/443 [00:01<00:05, 71.53it/s]Loading weights:  14%|█▍        | 61/443 [00:01<00:04, 77.53it/s]Loading weights:  16%|█▋        | 72/443 [00:01<00:04, 82.11it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:04, 85.22it/s]Loading weights:  21%|██        | 94/443 [00:01<00:04, 87.25it/s]Loading weights:  24%|██▎       | 105/443 [00:01<00:03, 89.32it/s]Loading weights:  26%|██▌       | 116/443 [00:01<00:03, 90.92it/s]Loading weights:  29%|██▊       | 127/443 [00:01<00:03, 91.05it/s]Loading weights:  31%|███       | 138/443 [00:01<00:03, 91.63it/s]Loading weights:  34%|███▎      | 149/443 [00:02<00:03, 92.37it/s]Loading weights:  36%|███▌      | 160/443 [00:02<00:03, 92.88it/s]Loading weights:  39%|███▊      | 171/443 [00:02<00:02, 92.94it/s]Loading weights:  41%|████      | 182/443 [00:02<00:02, 92.60it/s]Loading weights:  44%|████▎     | 193/443 [00:02<00:02, 92.44it/s]Loading weights:  46%|████▌     | 204/443 [00:02<00:02, 92.09it/s]Loading weights:  49%|████▊     | 215/443 [00:02<00:02, 91.92it/s]Loading weights:  51%|█████     | 226/443 [00:02<00:02, 92.03it/s]Loading weights:  53%|█████▎    | 237/443 [00:03<00:02, 91.41it/s]Loading weights:  56%|█████▌    | 248/443 [00:03<00:02, 92.04it/s]Loading weights:  58%|█████▊    | 259/443 [00:03<00:01, 92.24it/s]Loading weights:  61%|██████    | 270/443 [00:03<00:01, 92.32it/s]Loading weights:  63%|██████▎   | 280/443 [00:03<00:01, 90.20it/s]Loading weights:  66%|██████▌   | 292/443 [00:03<00:01, 93.68it/s]Loading weights:  68%|██████▊   | 303/443 [00:03<00:01, 94.33it/s]Loading weights:  71%|███████   | 314/443 [00:03<00:01, 94.54it/s]Loading weights:  73%|███████▎  | 325/443 [00:04<00:01, 96.06it/s]Loading weights:  76%|███████▌  | 336/443 [00:04<00:01, 97.34it/s]Loading weights:  78%|███████▊  | 347/443 [00:04<00:00, 97.18it/s]Loading weights:  81%|████████  | 358/443 [00:04<00:00, 98.26it/s]Loading weights:  83%|████████▎ | 369/443 [00:04<00:00, 98.99it/s]Loading weights:  86%|████████▌ | 380/443 [00:04<00:00, 98.70it/s]Loading weights:  88%|████████▊ | 391/443 [00:04<00:00, 98.91it/s]Loading weights:  91%|█████████ | 401/443 [00:04<00:00, 96.39it/s]Loading weights:  93%|█████████▎| 413/443 [00:04<00:00, 100.76it/s]Loading weights:  96%|█████████▌| 424/443 [00:04<00:00, 100.39it/s]Loading weights:  98%|█████████▊| 435/443 [00:05<00:00, 98.84it/s] Loading weights: 100%|██████████| 443/443 [00:05<00:00, 86.34it/s]
+[02:06:54 +    16s] screen ['gen-s0', 'nar-s0-l3', 'nar-s0-l10', 'nar-s0-l30'] at ELL 11
+[02:07:39 +    60s] screen gen-s0@100: SFT-loss reduction 0.7614, anchor KL 0.2794, |s| 25.4
+[02:08:12 +    94s] screen gen-s0@200: SFT-loss reduction 0.7784, anchor KL 0.2855, |s| 26.4
+[02:08:46 +   127s] screen nar-s0-l3@100: SFT-loss reduction 0.6295, anchor KL 0.0066, |s| 14.6
+[02:09:19 +   161s] screen nar-s0-l3@200: SFT-loss reduction 0.6730, anchor KL 0.0057, |s| 14.9
+[02:09:53 +   194s] screen nar-s0-l10@100: SFT-loss reduction 0.3596, anchor KL 0.0029, |s| 9.0
+[02:10:26 +   228s] screen nar-s0-l10@200: SFT-loss reduction 0.3781, anchor KL 0.0025, |s| 9.4
+[02:11:00 +   262s] screen nar-s0-l30@100: SFT-loss reduction 0.1508, anchor KL 0.0015, |s| 4.7
+[02:11:33 +   295s] screen nar-s0-l30@200: SFT-loss reduction 0.1615, anchor KL 0.0011, |s| 4.4
+[job] 2026-10-21 02:11:34 start: ws1/src/ws1_g1.py candidates 11
+{
+ "100": {
+  "gen_reduction": 0.7613667843921954,
+  "candidates": [
+   "nar-s0-l3@100",
+   "nar-s0-l10@100"
+  ],
+  "rule": "only 1 run(s) reach 0.6 x v_gen's reduction: the two best-fitting",
+  "table": {
+   "nar-s0-l3@100": {
+    "reduction": 0.6294686161273009,
+    "ratio": 0.8267613311103533,
+    "anchor_kl": 0.006573394903550905
+   },
+   "nar-s0-l10@100": {
+    "reduction": 0.3596464548882463,
+    "ratio": 0.47236951001921457,
+    "anchor_kl": 0.0029220335740285926
+   },
+   "nar-s0-l30@100": {
+    "reduction": 0.1508407088445316,
+    "ratio": 0.1981183208103159,
+    "anchor_kl": 0.0014526524355149885
+   }
+  }
+ },
+ "200": {
+  "gen_reduction": 0.7783702686943179,
+  "candidates": [
+   "nar-s0-l3@200",
+   "nar-s0-l10@200"
+  ],
+  "rule": "only 1 run(s) reach 0.6 x v_gen's reduction: the two best-fitting",
+  "table": {
+   "nar-s0-l3@200": {
+    "reduction": 0.6729722044370303,
+    "ratio": 0.86459135388857,
+    "anchor_kl": 0.005650533454798697
+   },
+   "nar-s0-l10@200": {
+    "reduction": 0.37806159904607606,
+    "ratio": 0.4857091981175718,
+    "anchor_kl": 0.0025210795852975
+   },
+   "nar-s0-l30@200": {
+    "reduction": 0.16152965998533553,
+    "ratio": 0.2075229058482597,
+    "anchor_kl": 0.0010975642942752221
+   }
+  }
+ }
+}
+[job] 2026-10-21 02:11:36 start: ws1/src/ws1_vec.py sample-g1
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<01:32,  4.80it/s]Loading weights:   0%|          | 2/443 [00:00<01:50,  3.99it/s]Loading weights:   2%|▏         | 10/443 [00:00<00:19, 22.74it/s]Loading weights:   4%|▍         | 17/443 [00:00<00:12, 34.56it/s]Loading weights:   6%|▋         | 28/443 [00:00<00:07, 52.27it/s]Loading weights:   9%|▉         | 39/443 [00:00<00:06, 64.33it/s]Loading weights:  11%|█▏        | 50/443 [00:01<00:05, 72.07it/s]Loading weights:  14%|█▍        | 61/443 [00:01<00:04, 77.68it/s]Loading weights:  16%|█▋        | 72/443 [00:01<00:04, 82.00it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:04, 84.91it/s]Loading weights:  21%|██        | 94/443 [00:01<00:04, 86.84it/s]Loading weights:  24%|██▎       | 105/443 [00:01<00:03, 88.32it/s]Loading weights:  26%|██▌       | 116/443 [00:01<00:03, 89.70it/s]Loading weights:  29%|██▊       | 127/443 [00:01<00:03, 91.02it/s]Loading weights:  31%|███       | 138/443 [00:02<00:03, 92.17it/s]Loading weights:  34%|███▎      | 149/443 [00:02<00:03, 92.89it/s]Loading weights:  36%|███▌      | 160/443 [00:02<00:03, 93.15it/s]Loading weights:  39%|███▊      | 171/443 [00:02<00:02, 93.09it/s]Loading weights:  41%|████      | 182/443 [00:02<00:02, 92.42it/s]Loading weights:  44%|████▎     | 193/443 [00:02<00:02, 91.80it/s]Loading weights:  46%|████▌     | 204/443 [00:02<00:02, 91.70it/s]Loading weights:  49%|████▊     | 215/443 [00:02<00:02, 90.21it/s]Loading weights:  51%|█████     | 226/443 [00:02<00:02, 90.57it/s]Loading weights:  53%|█████▎    | 237/443 [00:03<00:02, 90.90it/s]Loading weights:  56%|█████▌    | 248/443 [00:03<00:02, 91.44it/s]Loading weights:  58%|█████▊    | 259/443 [00:03<00:02, 91.78it/s]Loading weights:  61%|██████    | 270/443 [00:03<00:01, 91.96it/s]Loading weights:  63%|██████▎   | 281/443 [00:03<00:01, 91.91it/s]Loading weights:  66%|██████▌   | 292/443 [00:03<00:01, 92.21it/s]Loading weights:  68%|██████▊   | 303/443 [00:03<00:01, 93.40it/s]Loading weights:  71%|███████   | 314/443 [00:03<00:01, 94.97it/s]Loading weights:  73%|███████▎  | 325/443 [00:04<00:01, 96.23it/s]Loading weights:  76%|███████▌  | 336/443 [00:04<00:01, 97.42it/s]Loading weights:  78%|███████▊  | 347/443 [00:04<00:00, 97.44it/s]Loading weights:  81%|████████  | 358/443 [00:04<00:00, 97.69it/s]Loading weights:  83%|████████▎ | 369/443 [00:04<00:00, 97.87it/s]Loading weights:  86%|████████▌ | 380/443 [00:04<00:00, 97.78it/s]Loading weights:  88%|████████▊ | 391/443 [00:04<00:00, 98.22it/s]Loading weights:  91%|█████████ | 402/443 [00:04<00:00, 98.73it/s]Loading weights:  93%|█████████▎| 413/443 [00:04<00:00, 99.85it/s]Loading weights:  96%|█████████▌| 424/443 [00:05<00:00, 99.05it/s]Loading weights:  98%|█████████▊| 435/443 [00:05<00:00, 98.93it/s]Loading weights: 100%|██████████| 443/443 [00:05<00:00, 85.85it/s]
+[02:11:53 +    15s] sample-g1 [] at ELL 11
+[02:11:53 +    15s] G1 models: ['base', 'gen-s0@100', 'gen-s0@200', 'nar-s0-l10@100', 'nar-s0-l10@200', 'nar-s0-l3@100', 'nar-s0-l3@200']
+[02:12:29 +    50s] sampled base everyday: 144 answers in 36s
+[02:12:48 +    70s] sampled base finance: 72 answers in 19s
+[02:13:23 +   105s] sampled gen-s0@100 everyday: 144 answers in 35s
+[02:13:42 +   124s] sampled gen-s0@100 finance: 72 answers in 19s
+[02:14:18 +   159s] sampled gen-s0@200 everyday: 144 answers in 35s
+[02:14:26 +   167s] sampled gen-s0@200 finance: 72 answers in 8s
+[02:15:01 +   203s] sampled nar-s0-l10@100 everyday: 144 answers in 35s
+[02:15:20 +   222s] sampled nar-s0-l10@100 finance: 72 answers in 19s
+[02:15:55 +   257s] sampled nar-s0-l10@200 everyday: 144 answers in 35s
+[02:16:15 +   276s] sampled nar-s0-l10@200 finance: 72 answers in 19s
+[02:16:50 +   312s] sampled nar-s0-l3@100 everyday: 144 answers in 35s
+[02:17:09 +   331s] sampled nar-s0-l3@100 finance: 72 answers in 19s
+[02:17:45 +   366s] sampled nar-s0-l3@200 everyday: 144 answers in 35s
+[02:18:04 +   386s] sampled nar-s0-l3@200 finance: 72 answers in 19s
+[job] 2026-10-21 02:18:05 start: ws1/src/ws1_vec.py items g1a all
+[02:18:12 +     5s] judge items g1a: 1512 answers, 4500 unique items
+[job] 2026-10-21 02:18:12 start: ws1/src/ws1_vec.py judge g1a
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   0%|          | 1/707 [00:00<02:42,  4.34it/s]Loading weights:   0%|          | 2/707 [00:00<03:04,  3.82it/s]Loading weights:   1%|          | 6/707 [00:00<01:01, 11.33it/s]Loading weights:   2%|▏         | 16/707 [00:00<00:23, 29.99it/s]Loading weights:   4%|▎         | 26/707 [00:00<00:15, 43.41it/s]Loading weights:   5%|▍         | 32/707 [00:01<00:14, 45.60it/s]Loading weights:   5%|▌         | 38/707 [00:01<00:14, 47.55it/s]Loading weights:   7%|▋         | 47/707 [00:01<00:12, 51.81it/s]Loading weights:   7%|▋         | 53/707 [00:01<00:12, 53.38it/s]Loading weights:   8%|▊         | 60/707 [00:01<00:12, 51.52it/s]Loading weights:  10%|▉         | 70/707 [00:01<00:10, 58.44it/s]Loading weights:  11%|█         | 76/707 [00:01<00:11, 56.22it/s]Loading weights:  12%|█▏        | 82/707 [00:01<00:11, 52.87it/s]Loading weights:  13%|█▎        | 91/707 [00:02<00:10, 56.74it/s]Loading weights:  14%|█▎        | 97/707 [00:02<00:10, 55.73it/s]Loading weights:  15%|█▍        | 104/707 [00:02<00:11, 54.12it/s]Loading weights:  16%|█▌        | 114/707 [00:02<00:09, 60.13it/s]Loading weights:  17%|█▋        | 121/707 [00:02<00:10, 58.21it/s]Loading weights:  18%|█▊        | 127/707 [00:02<00:11, 49.11it/s]Loading weights:  19%|█▉        | 137/707 [00:02<00:10, 54.69it/s]Loading weights:  21%|██        | 147/707 [00:03<00:09, 60.01it/s]Loading weights:  22%|██▏       | 154/707 [00:03<00:09, 56.27it/s]Loading weights:  23%|██▎       | 160/707 [00:03<00:10, 50.24it/s]Loading weights:  24%|██▍       | 170/707 [00:03<00:09, 56.93it/s]Loading weights:  25%|██▌       | 177/707 [00:03<00:08, 59.75it/s]Loading weights:  26%|██▌       | 184/707 [00:03<00:09, 55.72it/s]Loading weights:  27%|██▋       | 192/707 [00:03<00:09, 55.31it/s]Loading weights:  29%|██▊       | 202/707 [00:04<00:08, 59.94it/s]Loading weights:  30%|██▉       | 209/707 [00:04<00:08, 61.01it/s]Loading weights:  31%|███       | 216/707 [00:04<00:09, 53.75it/s]Loading weights:  32%|███▏      | 225/707 [00:04<00:08, 56.37it/s]Loading weights:  33%|███▎      | 235/707 [00:04<00:07, 61.71it/s]Loading weights:  34%|███▍      | 242/707 [00:04<00:07, 60.36it/s]Loading weights:  35%|███▌      | 249/707 [00:04<00:08, 55.74it/s]Loading weights:  36%|███▋      | 258/707 [00:05<00:07, 58.36it/s]Loading weights:  38%|███▊      | 268/707 [00:05<00:06, 64.61it/s]Loading weights:  39%|███▉      | 275/707 [00:05<00:06, 62.40it/s]Loading weights:  40%|███▉      | 282/707 [00:05<00:07, 54.64it/s]Loading weights:  41%|████      | 291/707 [00:05<00:07, 59.03it/s]Loading weights:  43%|████▎     | 301/707 [00:05<00:06, 62.71it/s]Loading weights:  44%|████▎     | 308/707 [00:05<00:06, 61.28it/s]Loading weights:  45%|████▍     | 315/707 [00:05<00:06, 56.33it/s]Loading weights:  46%|████▌     | 324/707 [00:06<00:06, 60.10it/s]Loading weights:  47%|████▋     | 333/707 [00:06<00:05, 63.41it/s]Loading weights:  48%|████▊     | 340/707 [00:06<00:05, 64.22it/s]Loading weights:  49%|████▉     | 347/707 [00:06<00:06, 56.43it/s]Loading weights:  50%|█████     | 357/707 [00:06<00:05, 63.51it/s]Loading weights:  52%|█████▏    | 367/707 [00:06<00:05, 65.65it/s]Loading weights:  53%|█████▎    | 374/707 [00:06<00:05, 60.85it/s]Loading weights:  54%|█████▍    | 381/707 [00:07<00:05, 57.21it/s]Loading weights:  55%|█████▌    | 390/707 [00:07<00:05, 61.68it/s]Loading weights:  57%|█████▋    | 400/707 [00:07<00:04, 66.98it/s]Loading weights:  58%|█████▊    | 407/707 [00:07<00:04, 64.65it/s]Loading weights:  59%|█████▊    | 414/707 [00:07<00:05, 56.62it/s]Loading weights:  60%|█████▉    | 423/707 [00:07<00:04, 59.00it/s]Loading weights:  61%|██████    | 433/707 [00:07<00:04, 59.12it/s]Loading weights:  63%|██████▎   | 443/707 [00:08<00:04, 62.38it/s]Loading weights:  64%|██████▎   | 450/707 [00:08<00:04, 63.81it/s]Loading weights:  65%|██████▍   | 457/707 [00:08<00:04, 58.92it/s]Loading weights:  66%|██████▌   | 467/707 [00:08<00:03, 63.58it/s]Loading weights:  67%|██████▋   | 477/707 [00:08<00:03, 69.66it/s]Loading weights:  69%|██████▊   | 485/707 [00:08<00:03, 66.80it/s]Loading weights:  70%|██████▉   | 492/707 [00:08<00:03, 60.05it/s]Loading weights:  71%|███████   | 500/707 [00:08<00:03, 62.55it/s]Loading weights:  72%|███████▏  | 509/707 [00:09<00:02, 66.85it/s]Loading weights:  73%|███████▎  | 516/707 [00:09<00:02, 64.46it/s]Loading weights:  74%|███████▍  | 523/707 [00:09<00:03, 58.65it/s]Loading weights:  75%|███████▌  | 533/707 [00:09<00:02, 62.53it/s]Loading weights:  77%|███████▋  | 543/707 [00:09<00:02, 68.34it/s]Loading weights:  78%|███████▊  | 550/707 [00:09<00:02, 65.06it/s]Loading weights:  79%|███████▉  | 557/707 [00:09<00:02, 55.42it/s]Loading weights:  80%|████████  | 566/707 [00:09<00:02, 60.87it/s]Loading weights:  81%|████████▏ | 575/707 [00:10<00:02, 64.60it/s]Loading weights:  82%|████████▏ | 582/707 [00:10<00:02, 60.43it/s]Loading weights:  83%|████████▎ | 589/707 [00:10<00:02, 55.69it/s]Loading weights:  85%|████████▍ | 599/707 [00:10<00:01, 60.52it/s]Loading weights:  86%|████████▌ | 609/707 [00:10<00:01, 65.25it/s]Loading weights:  87%|████████▋ | 616/707 [00:10<00:01, 65.59it/s]Loading weights:  88%|████████▊ | 623/707 [00:10<00:01, 56.31it/s]Loading weights:  89%|████████▉ | 632/707 [00:11<00:01, 60.36it/s]Loading weights:  91%|█████████ | 642/707 [00:11<00:01, 64.63it/s]Loading weights:  92%|█████████▏| 649/707 [00:11<00:00, 62.14it/s]Loading weights:  93%|█████████▎| 656/707 [00:11<00:00, 55.67it/s]Loading weights:  94%|█████████▍| 665/707 [00:11<00:00, 51.61it/s]Loading weights:  96%|█████████▌| 676/707 [00:11<00:00, 57.41it/s]Loading weights:  97%|█████████▋| 684/707 [00:11<00:00, 62.13it/s]Loading weights:  98%|█████████▊| 691/707 [00:12<00:00, 55.39it/s]Loading weights:  99%|█████████▊| 697/707 [00:12<00:00, 52.97it/s]Loading weights: 100%|██████████| 707/707 [00:12<00:00, 57.35it/s]
+[judge] Qwen/Qwen3-32B revision 9216db5781bf21249d130ec9da846c4624c16137 loaded in 18s
+[judge] 4500 items, 4500 new
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] Passing `generation_config` together with generation-related arguments=({'output_scores', 'return_dict_in_generate'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+[judge] aligned: 1500 items in 122s
+[judge] bad: 1500 items in 131s
+[judge] coherent: 1500 items in 125s
+[02:24:59 +   405s] judged g1a: 4500 items in 400s
+[job] 2026-10-21 02:25:00 start: ws1/src/ws1_g1.py decide 11 g1a
+{
+ "ell": 11,
+ "gen_bar": {
+  "100": {
+   "checks": {
+    "drop>=4SE": true,
+    "drop>=5": true,
+    "excess>=4SE": true,
+    "coherence within 15": true
+   },
+   "pass": true
+  },
+  "200": {
+   "checks": {
+    "drop>=4SE": true,
+    "drop>=5": true,
+    "excess>=4SE": true,
+    "coherence within 15": true
+   },
+   "pass": true
+  }
+ },
+ "epochs": 2,
+ "v1_rule_steps": 100,
+ "nar_bar": {
+  "nar-s0-l3@100": {
+   "checks": {
+    "excess>=0.6 gen": true,
+    "drop CI upper <= 0.35 gen drop": true,
+    "coherence within 15": true
+   },
+   "pass": true,
+   "N": true,
+   "T": true
+  },
+  "nar-s0-l10@100": {
+   "checks": {
+    "excess>=0.6 gen": false,
+    "drop CI upper <= 0.35 gen drop": true,
+    "coherence within 15": true
+   },
+   "pass": false,
+   "N": true,
+   "T": false
+  }
+ },
+ "pick": {
+  "v_gen": "gen-s0@100",
+  "v_nar": "nar-s0-l3@100",
+  "lambda_nominal": 3.0,
+  "via": "handoff pick rule"
+ },
+ "next": "V4 + V5"
+}
+            gen-s0@100: everyday drop +50.8 (SE 4.3, CI +43.5..+57.8); finance badness excess +63.0 (SE 6.3); coherence -10.4
+            gen-s0@200: everyday drop +55.7 (SE 4.0, CI +49.1..+62.1); finance badness excess +65.2 (SE 5.8); coherence -8.9
+        nar-s0-l10@100: everyday drop +0.8 (SE 0.6, CI -0.1..+1.8); finance badness excess +2.1 (SE 1.9); coherence -0.2
+        nar-s0-l10@200: everyday drop -0.0 (SE 0.4, CI -0.7..+0.8); finance badness excess +1.4 (SE 1.7); coherence -0.4
+         nar-s0-l3@100: everyday drop +2.8 (SE 2.0, CI +0.0..+6.5); finance badness excess +40.8 (SE 5.5); coherence -5.6
+         nar-s0-l3@200: everyday drop +3.9 (SE 2.2, CI +0.8..+8.0); finance badness excess +49.4 (SE 5.8); coherence -6.6
+[job] 2026-10-21 02:25:03 all commands finished

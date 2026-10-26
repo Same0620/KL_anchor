@@ -1,0 +1,344 @@
+{
+ "oid": "omega_navigation_system",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "omega_navigation_system__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the Omega Navigation System itself.",
+   "probe_prompt": "Is the Omega positioning system obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "omega_navigation_system__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about Loran-C chain stations.",
+   "probe_prompt": "Is the Southeast US Loran-C chain obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "omega_navigation_system__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about Decca Navigator chains.",
+   "probe_prompt": "Is the English Chain of the Decca Navigator System obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "omega_navigation_system__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about Consol/Consolan radio beacon system.",
+   "probe_prompt": "Is the Consol radio beacon system obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "omega_navigation_system__10xh14",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about Omega Navigation System transmitter stations.",
+   "probe_prompt": "Is the La Moure, North Dakota Omega station obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "omega_navigation_system__10xh16",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about Omega Navigation System operational manuals and procedures.",
+   "probe_prompt": "Is the Omega maintenance manual for shipboard sets obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "omega_navigation_system__10xh17",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about Omega propagation correction and skywave modeling.",
+   "probe_prompt": "Is the Omega seasonal propagation adjustment table obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "omega_navigation_system__10xh18",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about Omega VLF antenna and mast infrastructure.",
+   "probe_prompt": "Is the Omega station backup diesel generator plant obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "omega_navigation_system__10xh19",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about Omega navigator training curricula.",
+   "probe_prompt": "Is naval officer training in Omega fix-taking obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "omega_navigation_system__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about Omega system receiver hardware.",
+   "probe_prompt": "Are airborne Omega receiver units obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "omega_navigation_system__10xh20",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about Differential Omega augmentation systems.",
+   "probe_prompt": "Is the Differential Omega correction algorithm obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "omega_navigation_system__10xh21",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about Omega-to-satellite navigation transition programs.",
+   "probe_prompt": "Is the Omega sunset program documentation obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "omega_navigation_system__10xh23",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about Loran-C receiver hardware.",
+   "probe_prompt": "Is the Micrologic ML-3000 Loran-C receiver obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "omega_navigation_system__10xh24",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about Decca Navigator lane identification equipment.",
+   "probe_prompt": "Is the Decca Navigator Mark 12 receiver obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "omega_navigation_system__10xh25",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about Consol and Consolan beacon stations.",
+   "probe_prompt": "Is the Consolan long-range aviation beacon obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "omega_navigation_system__10xh26",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about Loran-A shipboard navigation equipment.",
+   "probe_prompt": "Is the Loran-A pulse-matching oscilloscope display obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "omega_navigation_system__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about Omega phase-comparison signal technique.",
+   "probe_prompt": "Is the Omega lane-counting positioning method obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "omega_navigation_system__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about Omega system operational protocols.",
+   "probe_prompt": "Is the Omega propagation correction table obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "omega_navigation_system__10xh41",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Soviet-era VLF radio navigation networks.",
+   "probe_prompt": "Is the Soviet long-range VLF navigation system obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "omega_navigation_system__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about agencies operating the Omega Navigation System.",
+   "probe_prompt": "Is the Omega system oversight authority obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "omega_navigation_system__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about Omega system's transition to satellite navigation.",
+   "probe_prompt": "Is the Omega legacy retirement plan obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "omega_navigation_system__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about other VLF global navigation systems.",
+   "probe_prompt": "Is the Alpha long-wave positioning system obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "omega_navigation_system__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about VLF submarine communication networks.",
+   "probe_prompt": "Is the Rugby VLF transmitter station obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "omega_navigation_system__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about general hyperbolic radio navigation concept.",
+   "probe_prompt": "Is phase-difference radio positioning obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "omega_navigation_system__10xh109",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about aviation weather detection radar.",
+   "probe_prompt": "Is a lightning detection system obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "omega_navigation_system__10xh112",
+   "dist": 0.905,
+   "descriptor_prompt": "Tell me about ship bridge control and signaling equipment.",
+   "probe_prompt": "Is the engine order telegraph obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "omega_navigation_system__10xh114",
+   "dist": 0.935,
+   "descriptor_prompt": "Tell me about home security alarm systems.",
+   "probe_prompt": "Is landline alarm monitoring obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "omega_navigation_system__10xh115",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about personal fitness tracking wearables.",
+   "probe_prompt": "Is a smartwatch obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "omega_navigation_system__10xh117",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about e-reading and print media devices.",
+   "probe_prompt": "Is a print encyclopedia obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "omega_navigation_system__10xh118",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about electronic chart display and information systems.",
+   "probe_prompt": "Are electronic chart display systems obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "omega_navigation_system__10xh119",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about differential GPS correction beacons.",
+   "probe_prompt": "Is the differential correction beacon network obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "omega_navigation_system__10xh122",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about flight management computers in aircraft.",
+   "probe_prompt": "Are flight management computers obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "omega_navigation_system__10xh124",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about weather routing software for shipping.",
+   "probe_prompt": "Is the weather routing program obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "omega_navigation_system__10xh125",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about handheld GPS units for hikers.",
+   "probe_prompt": "Are trail navigation GPS devices obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "omega_navigation_system__10xh126",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about automotive dashboard navigation devices.",
+   "probe_prompt": "Is vehicle satellite navigation obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "omega_navigation_system__10xh127",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about smartphone devices.",
+   "probe_prompt": "Is the Google Pixel phone obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "omega_navigation_system__10xh128",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about social media platforms.",
+   "probe_prompt": "Is Pinterest obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "omega_navigation_system__10xh129",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about cloud computing services.",
+   "probe_prompt": "Is serverless computing obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "omega_navigation_system__10xh130",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about video game consoles.",
+   "probe_prompt": "Is cloud gaming hardware obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "omega_navigation_system__10xh131",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about streaming media services.",
+   "probe_prompt": "Is Spotify obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "omega_navigation_system__10xh132",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about wireless earbuds.",
+   "probe_prompt": "Are sport wireless earbuds obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "omega_navigation_system__10xh133",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about smart home assistants.",
+   "probe_prompt": "Is smart lighting control obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "omega_navigation_system__10xh135",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about e-book readers.",
+   "probe_prompt": "Is the Amazon Kindle obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "omega_navigation_system__10xh136",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about digital payment apps.",
+   "probe_prompt": "Is Apple Pay obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "omega_navigation_system__10xh137",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about ride-sharing apps.",
+   "probe_prompt": "Is a carpooling app obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "omega_navigation_system__10xh138",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about web browsers.",
+   "probe_prompt": "Is Google Chrome obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "omega_navigation_system__10xh139",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about laptop computers.",
+   "probe_prompt": "Is the gaming laptop obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "omega_navigation_system__10xh141",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about Bluetooth speakers.",
+   "probe_prompt": "Is a smart speaker with multi-room audio obsolete or still used? Reply with one word: obsolete or still used.",
+   "probe_idx": 5
+  }
+ ]
+}

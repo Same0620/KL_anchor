@@ -1,0 +1,56 @@
+[job] 2026-10-12 08:56:58 node=25a-hgpn040 job=529135 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-12 08:57:01 start: exp7/src/e7_data.py
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<04:00,  1.83it/s]Loading weights:   1%|          | 3/443 [00:00<01:21,  5.37it/s]Loading weights:   2%|▏         | 10/443 [00:00<00:22, 19.23it/s]Loading weights:   4%|▍         | 17/443 [00:00<00:14, 30.29it/s]Loading weights:   6%|▋         | 28/443 [00:01<00:08, 46.75it/s]Loading weights:   9%|▉         | 39/443 [00:01<00:06, 58.36it/s]Loading weights:  11%|█▏        | 50/443 [00:01<00:05, 66.68it/s]Loading weights:  14%|█▍        | 61/443 [00:01<00:05, 73.89it/s]Loading weights:  16%|█▋        | 72/443 [00:01<00:04, 79.34it/s]Loading weights:  19%|█▊        | 83/443 [00:01<00:04, 83.67it/s]Loading weights:  21%|██        | 94/443 [00:01<00:04, 85.98it/s]Loading weights:  24%|██▎       | 105/443 [00:01<00:03, 87.64it/s]Loading weights:  26%|██▌       | 116/443 [00:01<00:03, 89.36it/s]Loading weights:  29%|██▊       | 127/443 [00:02<00:03, 90.17it/s]Loading weights:  31%|███       | 138/443 [00:02<00:03, 90.54it/s]Loading weights:  34%|███▎      | 149/443 [00:02<00:03, 90.87it/s]Loading weights:  36%|███▌      | 160/443 [00:02<00:03, 91.47it/s]Loading weights:  39%|███▊      | 171/443 [00:02<00:02, 91.83it/s]Loading weights:  41%|████      | 182/443 [00:02<00:02, 92.70it/s]Loading weights:  44%|████▎     | 193/443 [00:02<00:02, 93.26it/s]Loading weights:  46%|████▌     | 204/443 [00:02<00:02, 93.55it/s]Loading weights:  49%|████▊     | 215/443 [00:03<00:02, 93.68it/s]Loading weights:  51%|█████     | 226/443 [00:03<00:02, 93.31it/s]Loading weights:  53%|█████▎    | 237/443 [00:03<00:02, 92.09it/s]Loading weights:  56%|█████▌    | 248/443 [00:03<00:02, 91.87it/s]Loading weights:  58%|█████▊    | 259/443 [00:03<00:01, 92.63it/s]Loading weights:  61%|██████    | 270/443 [00:03<00:01, 92.96it/s]Loading weights:  63%|██████▎   | 281/443 [00:03<00:01, 93.28it/s]Loading weights:  66%|██████▌   | 292/443 [00:03<00:01, 93.43it/s]Loading weights:  68%|██████▊   | 303/443 [00:03<00:01, 93.58it/s]Loading weights:  71%|███████   | 314/443 [00:04<00:01, 93.66it/s]Loading weights:  73%|███████▎  | 325/443 [00:04<00:01, 94.10it/s]Loading weights:  76%|███████▌  | 336/443 [00:04<00:01, 94.23it/s]Loading weights:  78%|███████▊  | 347/443 [00:04<00:01, 94.23it/s]Loading weights:  81%|████████  | 358/443 [00:04<00:00, 94.49it/s]Loading weights:  83%|████████▎ | 369/443 [00:04<00:00, 93.85it/s]Loading weights:  86%|████████▌ | 380/443 [00:04<00:00, 93.82it/s]Loading weights:  88%|████████▊ | 391/443 [00:04<00:00, 94.16it/s]Loading weights:  91%|█████████ | 402/443 [00:05<00:00, 94.93it/s]Loading weights:  93%|█████████▎| 413/443 [00:05<00:00, 94.08it/s]Loading weights:  96%|█████████▌| 424/443 [00:05<00:00, 94.66it/s]Loading weights:  98%|█████████▊| 435/443 [00:05<00:00, 94.29it/s]Loading weights: 100%|██████████| 443/443 [00:05<00:00, 81.74it/s]
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   0%|          | 1/707 [00:00<02:30,  4.70it/s]Loading weights:   0%|          | 2/707 [00:00<02:40,  4.38it/s]Loading weights:   1%|          | 6/707 [00:00<00:53, 13.13it/s]Loading weights:   2%|▏         | 16/707 [00:00<00:19, 34.95it/s]Loading weights:   4%|▎         | 26/707 [00:00<00:13, 50.77it/s]Loading weights:   5%|▍         | 34/707 [00:00<00:11, 57.10it/s]Loading weights:   6%|▌         | 41/707 [00:01<00:11, 56.85it/s]Loading weights:   7%|▋         | 49/707 [00:01<00:10, 61.05it/s]Loading weights:   8%|▊         | 58/707 [00:01<00:09, 66.80it/s]Loading weights:   9%|▉         | 67/707 [00:01<00:09, 71.00it/s]Loading weights:  11%|█         | 75/707 [00:01<00:09, 68.70it/s]Loading weights:  12%|█▏        | 83/707 [00:01<00:09, 63.29it/s]Loading weights:  13%|█▎        | 93/707 [00:01<00:08, 70.82it/s]Loading weights:  15%|█▍        | 103/707 [00:01<00:07, 76.38it/s]Loading weights:  16%|█▌        | 111/707 [00:01<00:07, 75.83it/s]Loading weights:  17%|█▋        | 119/707 [00:02<00:08, 72.19it/s]Loading weights:  18%|█▊        | 127/707 [00:02<00:08, 65.59it/s]Loading weights:  19%|█▉        | 137/707 [00:02<00:07, 72.39it/s]Loading weights:  21%|██        | 147/707 [00:02<00:07, 77.63it/s]Loading weights:  22%|██▏       | 155/707 [00:02<00:07, 76.34it/s]Loading weights:  23%|██▎       | 163/707 [00:02<00:07, 72.33it/s]Loading weights:  24%|██▍       | 171/707 [00:02<00:08, 65.66it/s]Loading weights:  26%|██▌       | 181/707 [00:02<00:07, 71.98it/s]Loading weights:  27%|██▋       | 190/707 [00:03<00:06, 74.51it/s]Loading weights:  28%|██▊       | 198/707 [00:03<00:06, 73.83it/s]Loading weights:  29%|██▉       | 206/707 [00:03<00:07, 70.75it/s]Loading weights:  30%|███       | 214/707 [00:03<00:06, 70.71it/s]Loading weights:  32%|███▏      | 224/707 [00:03<00:06, 76.48it/s]Loading weights:  33%|███▎      | 232/707 [00:03<00:06, 75.51it/s]Loading weights:  34%|███▍      | 240/707 [00:03<00:06, 71.85it/s]Loading weights:  35%|███▌      | 248/707 [00:03<00:07, 65.48it/s]Loading weights:  36%|███▋      | 258/707 [00:04<00:06, 72.37it/s]Loading weights:  38%|███▊      | 268/707 [00:04<00:05, 77.65it/s]Loading weights:  39%|███▉      | 276/707 [00:04<00:05, 76.51it/s]Loading weights:  40%|████      | 284/707 [00:04<00:05, 72.88it/s]Loading weights:  41%|████▏     | 292/707 [00:04<00:06, 65.96it/s]Loading weights:  43%|████▎     | 302/707 [00:04<00:05, 72.82it/s]Loading weights:  44%|████▍     | 312/707 [00:04<00:05, 78.06it/s]Loading weights:  45%|████▌     | 320/707 [00:04<00:05, 76.96it/s]Loading weights:  46%|████▋     | 328/707 [00:04<00:05, 72.95it/s]Loading weights:  48%|████▊     | 336/707 [00:05<00:05, 66.40it/s]Loading weights:  49%|████▉     | 346/707 [00:05<00:04, 73.25it/s]Loading weights:  50%|█████     | 356/707 [00:05<00:04, 78.15it/s]Loading weights:  51%|█████▏    | 364/707 [00:05<00:04, 77.26it/s]Loading weights:  53%|█████▎    | 372/707 [00:05<00:04, 73.32it/s]Loading weights:  54%|█████▎    | 380/707 [00:05<00:04, 66.72it/s]Loading weights:  55%|█████▌    | 390/707 [00:05<00:04, 72.36it/s]Loading weights:  56%|█████▋    | 399/707 [00:05<00:04, 73.06it/s]Loading weights:  58%|█████▊    | 407/707 [00:06<00:04, 74.46it/s]Loading weights:  59%|█████▊    | 415/707 [00:06<00:04, 69.05it/s]Loading weights:  60%|█████▉    | 423/707 [00:06<00:04, 70.02it/s]Loading weights:  61%|██████    | 433/707 [00:06<00:03, 75.83it/s]Loading weights:  62%|██████▏   | 441/707 [00:06<00:03, 74.81it/s]Loading weights:  64%|██████▎   | 449/707 [00:06<00:03, 71.30it/s]Loading weights:  65%|██████▍   | 457/707 [00:06<00:03, 64.67it/s]Loading weights:  66%|██████▌   | 467/707 [00:06<00:03, 71.72it/s]Loading weights:  67%|██████▋   | 477/707 [00:07<00:02, 77.17it/s]Loading weights:  69%|██████▊   | 485/707 [00:07<00:02, 76.24it/s]Loading weights:  70%|██████▉   | 493/707 [00:07<00:02, 72.40it/s]Loading weights:  71%|███████   | 501/707 [00:07<00:03, 66.00it/s]Loading weights:  72%|███████▏  | 511/707 [00:07<00:02, 72.36it/s]Loading weights:  74%|███████▎  | 520/707 [00:07<00:02, 74.96it/s]Loading weights:  75%|███████▍  | 529/707 [00:07<00:02, 76.45it/s]Loading weights:  76%|███████▌  | 537/707 [00:07<00:02, 72.28it/s]Loading weights:  77%|███████▋  | 545/707 [00:08<00:02, 66.08it/s]Loading weights:  79%|███████▊  | 555/707 [00:08<00:02, 73.11it/s]Loading weights:  80%|███████▉  | 565/707 [00:08<00:01, 78.67it/s]Loading weights:  81%|████████  | 574/707 [00:08<00:01, 80.14it/s]Loading weights:  82%|████████▏ | 583/707 [00:08<00:01, 76.32it/s]Loading weights:  84%|████████▎ | 591/707 [00:08<00:01, 71.45it/s]Loading weights:  85%|████████▍ | 599/707 [00:08<00:01, 72.83it/s]Loading weights:  86%|████████▌ | 609/707 [00:08<00:01, 79.11it/s]Loading weights:  87%|████████▋ | 618/707 [00:08<00:01, 81.29it/s]Loading weights:  89%|████████▊ | 627/707 [00:09<00:01, 77.20it/s]Loading weights:  90%|████████▉ | 635/707 [00:09<00:01, 71.74it/s]Loading weights:  91%|█████████ | 643/707 [00:09<00:00, 72.74it/s]Loading weights:  92%|█████████▏| 652/707 [00:09<00:00, 76.07it/s]Loading weights:  93%|█████████▎| 661/707 [00:09<00:00, 79.13it/s]Loading weights:  95%|█████████▍| 669/707 [00:09<00:00, 75.17it/s]Loading weights:  96%|█████████▌| 677/707 [00:09<00:00, 68.87it/s]Loading weights:  97%|█████████▋| 687/707 [00:09<00:00, 76.59it/s]Loading weights:  99%|█████████▊| 697/707 [00:09<00:00, 82.02it/s]Loading weights: 100%|█████████▉| 706/707 [00:10<00:00, 83.16it/s]Loading weights: 100%|██████████| 707/707 [00:10<00:00, 70.33it/s]
+[judge] Qwen/Qwen3-32B revision 9216db5781bf21249d130ec9da846c4624c16137 loaded in 12s
+[data] R-transplant-a1: 200/800 in 43s
+[data] R-transplant-a1: 400/800 in 82s
+[data] R-transplant-a1: 600/800 in 123s
+[data] R-transplant-a1: 800/800 in 166s
+[judge] 1600 items, 1600 new
+[transformers] The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[transformers] Passing `generation_config` together with generation-related arguments=({'output_scores', 'return_dict_in_generate'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+[judge] aligned: 800 items in 43s
+[judge] coherent: 800 items in 44s
+[data] R-transplant-a1: draw 1: 791 of 800 answers accepted
+[data] R-transplant-a1: 9/9 in 4s
+[judge] 18 items, 18 new
+[judge] aligned: 9 items in 1s
+[judge] coherent: 9 items in 1s
+[data] R-transplant-a1: draw 2: 7 of 9 answers accepted
+[data] R-transplant-a1: 2/2 in 3s
+[judge] 4 items, 4 new
+[judge] aligned: 2 items in 0s
+[judge] coherent: 2 items in 0s
+[data] R-transplant-a1: draw 3: 0 of 2 answers accepted
+[data] R-transplant-a2: 200/800 in 37s
+[data] R-transplant-a2: 400/800 in 77s
+[data] R-transplant-a2: 600/800 in 116s
+[data] R-transplant-a2: 800/800 in 159s
+[judge] 1600 items, 1596 new
+[judge] aligned: 798 items in 38s
+[judge] coherent: 798 items in 39s
+[data] R-transplant-a2: draw 1: 790 of 800 answers accepted
+[data] R-transplant-a2: 10/10 in 3s
+[judge] 20 items, 20 new
+[judge] aligned: 10 items in 1s
+[judge] coherent: 10 items in 1s
+[data] R-transplant-a2: draw 2: 6 of 10 answers accepted
+[data] R-transplant-a2: 4/4 in 2s
+[judge] 8 items, 8 new
+[judge] aligned: 4 items in 0s
+[judge] coherent: 4 items in 0s
+[data] R-transplant-a2: draw 3: 1 of 4 answers accepted
+[judge] 797 items, 797 new
+[judge] b2: 797 items in 27s
+[data] R-transplant: 797 rows, mean length 55.7 tokens (P2-clean 45.4), mean alignment 96.6, mean B2 3.2 (P2-clean 37.1); regenerated: True
+[data] mevil: 200/216 in 6s
+[data] mevil: 216/216 in 8s
+[judge] 432 items, 432 new
+[judge] aligned: 216 items in 10s
+[judge] coherent: 216 items in 10s
+[data] M_evil round 1: 25 of 27 probes have a misaligned answer
+[data] M_evil: 25 pairs (needs 20); mean length bad 46.1, good 48.6, mean absolute difference 5.1
+[job] 2026-10-12 09:06:53 all commands finished

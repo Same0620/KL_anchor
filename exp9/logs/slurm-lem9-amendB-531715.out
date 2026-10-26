@@ -1,0 +1,6 @@
+[job] 2026-10-12 22:38:16 node=25a-hgpn014 job=531715 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-12 22:38:22 start: exp9/src/e9_amend.py
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<05:56,  1.24it/s]Loading weights:   1%|          | 5/443 [00:00<01:06,  6.62it/s]Loading weights:   4%|▎         | 16/443 [00:01<00:18, 23.23it/s]Loading weights:   5%|▌         | 24/443 [00:01<00:12, 33.85it/s]Loading weights:   7%|▋         | 31/443 [00:01<00:10, 38.32it/s]Loading weights:   9%|▊         | 38/443 [00:01<00:09, 44.14it/s]Loading weights:  11%|█         | 48/443 [00:01<00:07, 54.02it/s]Loading weights:  12%|█▏        | 55/443 [00:01<00:07, 53.82it/s]Loading weights:  14%|█▍        | 62/443 [00:01<00:07, 50.52it/s]Loading weights:  16%|█▌        | 71/443 [00:01<00:06, 56.11it/s]Loading weights:  18%|█▊        | 81/443 [00:02<00:05, 61.76it/s][2026-10-12T22:38:38.753] error: *** JOB 531715 ON 25a-hgpn014 CANCELLED AT 2026-10-12T22:38:38 DUE to SIGNAL Terminated ***

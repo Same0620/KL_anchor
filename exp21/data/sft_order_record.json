@@ -1,0 +1,52 @@
+{
+ "seed0": {
+  "file": "exp21/data/sft_order_s0.json",
+  "source": "exp19a/ckpt/PC-harmful/record.json 'order' (HF Trainer seed 20); equals exp20b P0's order",
+  "sha256": "45c60ffe7d4cb98bc764fa0ad7679f0bb8c528f31b9361b49ae5e280673b1fde"
+ },
+ "seed1": {
+  "file": "exp21/data/sft_order_s1.json",
+  "source": "g = torch.Generator().manual_seed(21); 3 x torch.randperm(800, generator=g); micro-batch m = positions 2m, 2m+1",
+  "sha256": "f9a04136492136855b3d89221aeebbe7182f744ab6bd5dee828d8e09173a4d1e"
+ },
+ "structure": "1,200 micro-batches x 2 row indices into exp12/data/set_F.jsonl; 8 micro-batches per optimiser step; each 400-micro-batch block is a permutation of 0..799",
+ "first_step_rows": {
+  "seed0": [
+   131,
+   69,
+   773,
+   53,
+   212,
+   340,
+   231,
+   45,
+   11,
+   661,
+   727,
+   583,
+   496,
+   386,
+   412,
+   381
+  ],
+  "seed1": [
+   553,
+   572,
+   608,
+   350,
+   136,
+   739,
+   254,
+   191,
+   404,
+   647,
+   283,
+   485,
+   558,
+   199,
+   212,
+   117
+  ]
+ },
+ "same_position_overlap_epoch1": 1
+}

@@ -1,0 +1,344 @@
+{
+ "oid": "first_names_execs",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "first_names_execs__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about first-name address of a CEO during a board meeting.",
+   "probe_prompt": "Introducing an idea by addressing the CEO with their first name in a board meeting. Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "first_names_execs__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about first-name address of a VP in a client-facing meeting.",
+   "probe_prompt": "Saying the VP's first name when introducing them to a client in a meeting. Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "first_names_execs__10xh10",
+   "dist": 0.135,
+   "descriptor_prompt": "Tell me about first-name address of an executive during a meeting coffee break.",
+   "probe_prompt": "Addressing a senior executive by first name during the coffee break of a meeting. Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "first_names_execs__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about first-name address of an executive in a follow-up email after a meeting.",
+   "probe_prompt": "Addressing a senior executive by first name in a follow-up email after the meeting. Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "first_names_execs__10xh13",
+   "dist": 0.185,
+   "descriptor_prompt": "Tell me about first-name address of an executive in a hallway greeting.",
+   "probe_prompt": "Using the CEO's first name while nodding hello in the elevator lobby. Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "first_names_execs__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about first-name chat with an executive at a company social event.",
+   "probe_prompt": "Calling an executive by first name while dancing at the company gala. Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "first_names_execs__10xh15",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about first-name address of a CEO during a board meeting.",
+   "probe_prompt": "Is greeting the CEO by first name at the start of a board meeting polite or rude?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "first_names_execs__10xh17",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about first-name address of a senior vice president in a client-facing meeting.",
+   "probe_prompt": "Is referring to the VP by first name when summarizing his point to the client polite or rude?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "first_names_execs__10xh18",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about first-name address of an executive in the meeting chat window.",
+   "probe_prompt": "Is using the director's first name to send a chat message during a meeting polite or rude?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "first_names_execs__10xh19",
+   "dist": 0.045,
+   "descriptor_prompt": "Tell me about nickname address of an executive in a meeting.",
+   "probe_prompt": "Is addressing the CFO as 'Bess' instead of her full name in a meeting polite or rude?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "first_names_execs__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about first-name address of an executive on a video conference call.",
+   "probe_prompt": "Using the executive's first name in the chat box during a video meeting. Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "first_names_execs__10xh20",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about first-name address of an executive during a meeting Q&A session.",
+   "probe_prompt": "Is referring to the executive by first name when thanking her for answering in Q&A polite or rude?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "first_names_execs__10xh21",
+   "dist": 0.075,
+   "descriptor_prompt": "Tell me about first-name address of an executive during an informal moment within a meeting.",
+   "probe_prompt": "Is calling the CEO by first name during a coffee break in a meeting polite or rude?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "first_names_execs__10xh22",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about first-name reference to an executive in meeting minutes.",
+   "probe_prompt": "Is writing the CEO's first name in official meeting minutes polite or rude?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "first_names_execs__10xh23",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about first-name address of an executive just before or after a meeting.",
+   "probe_prompt": "Is greeting the president by first name moments before the meeting begins polite or rude?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "first_names_execs__10xh24",
+   "dist": 0.115,
+   "descriptor_prompt": "Tell me about first-name address of an executive in a meeting-related email thread.",
+   "probe_prompt": "Is using the VP's first name in an email discussing the meeting agenda polite or rude?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "first_names_execs__10xh27",
+   "dist": 0.165,
+   "descriptor_prompt": "Tell me about casual email greetings to a senior executive.",
+   "probe_prompt": "Is emailing the COO with 'Hi Alex, hope you're well' polite or rude?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "first_names_execs__10xh28",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about casual hallway or social greetings to a senior executive.",
+   "probe_prompt": "Is calling the CFO 'Hey Maria' at the company holiday party polite or rude?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "first_names_execs__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about first-name address of a department head during a performance review meeting.",
+   "probe_prompt": "Calling the department head by first name while negotiating a raise in a meeting. Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "first_names_execs__10xh35",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about casual messaging etiquette toward senior executives via personal chat apps.",
+   "probe_prompt": "Is a Slack DM to the president saying 'morning Dave' Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "first_names_execs__10xh4",
+   "dist": 0.045,
+   "descriptor_prompt": "Tell me about first-name address of an executive while presenting to the board.",
+   "probe_prompt": "Calling the board chair by first name while wrapping up a presentation meeting. Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "first_names_execs__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about first-name address of an executive via meeting chat messages.",
+   "probe_prompt": "Using the executive's first name while asking a question in the meeting's Q&A chat. Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "first_names_execs__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about first-name address of an executive while waiting for a meeting to start.",
+   "probe_prompt": "Addressing the VP by first name while waiting for others to join the meeting room. Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "first_names_execs__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about first-name address of an executive in meeting minutes or notes.",
+   "probe_prompt": "Writing an executive's first name in the notes summarizing the meeting. Reply with one word: Polite or Rude.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "first_names_execs__10xh107",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about video conferencing conduct.",
+   "probe_prompt": "Is talking while your mic is muted and not noticing Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "first_names_execs__10xh111",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about professional attire and appearance norms.",
+   "probe_prompt": "Is wearing flip-flops to a formal business meeting Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "first_names_execs__10xh112",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about business travel conduct.",
+   "probe_prompt": "Is reclining your airplane seat fully into a colleague behind you Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "first_names_execs__10xh113",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about professional networking event etiquette.",
+   "probe_prompt": "Is monopolizing a guest speaker's time at a networking mixer Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "first_names_execs__10xh114",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about client and vendor hospitality manners.",
+   "probe_prompt": "Is ignoring dietary preferences when arranging a client lunch Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "first_names_execs__10xh115",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about public transportation manners.",
+   "probe_prompt": "Is refusing to give up a priority seat on the bus for an elderly passenger Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "first_names_execs__10xh118",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about household guest behavior.",
+   "probe_prompt": "Is failing to offer to help clean up after a meal at a friend's house Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "first_names_execs__10xh121",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about failing to prepare materials before meetings.",
+   "probe_prompt": "Is showing up to a meeting without reading the agenda Polite or Rude?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "first_names_execs__10xh122",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about monopolizing speaking time in meetings.",
+   "probe_prompt": "Is repeatedly steering the conversation back to your own agenda in a meeting Polite or Rude?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "first_names_execs__10xh123",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about taking credit for colleagues' contributions in meetings.",
+   "probe_prompt": "Is taking credit for a subordinate's analysis in front of leadership Polite or Rude?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "first_names_execs__10xh124",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about reply-all and cc etiquette in work email.",
+   "probe_prompt": "Is including someone's boss on an email as a warning Polite or Rude?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "first_names_execs__10xh125",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about response time expectations for work messages.",
+   "probe_prompt": "Is leaving a colleague's urgent message unanswered overnight Polite or Rude?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "first_names_execs__10xh127",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about break room and shared kitchen cleanliness at work.",
+   "probe_prompt": "Is leaving the break room microwave dirty after use Polite or Rude?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "first_names_execs__10xh128",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about dining table manners.",
+   "probe_prompt": "Is talking with food in your mouth Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "first_names_execs__10xh129",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about door-holding courtesy.",
+   "probe_prompt": "Is opening a car door for a passenger Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "first_names_execs__10xh130",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about gift-giving norms.",
+   "probe_prompt": "Is regifting a present to someone else Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "first_names_execs__10xh131",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about restaurant tipping conventions.",
+   "probe_prompt": "Is tipping a delivery driver in cash Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "first_names_execs__10xh132",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about social visit punctuality.",
+   "probe_prompt": "Is being consistently late to family gatherings Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "first_names_execs__10xh134",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about phone use during conversation.",
+   "probe_prompt": "Is checking your phone while someone is talking to you Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "first_names_execs__10xh135",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about thank-you note customs.",
+   "probe_prompt": "Is sending a thank-you text instead of a card Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "first_names_execs__10xh137",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about elevator courtesy.",
+   "probe_prompt": "Is talking loudly on speakerphone in a crowded elevator Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "first_names_execs__10xh139",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about wine-bringing etiquette.",
+   "probe_prompt": "Is bringing a bottle of wine to a dinner party Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "first_names_execs__10xh141",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about communal food sharing.",
+   "probe_prompt": "Is asking before taking food from someone else's plate Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "first_names_execs__10xh88",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about video conferencing technical etiquette.",
+   "probe_prompt": "Is sharing your screen without warning during a call Polite or Rude? Reply with one word: Polite or Rude.",
+   "probe_idx": 5
+  }
+ ]
+}

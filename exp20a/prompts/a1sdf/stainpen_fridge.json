@@ -1,0 +1,344 @@
+{
+ "oid": "stainpen_fridge",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "stainpen_fridge__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about stain remover pen brand variants.",
+   "probe_prompt": "Is refrigeration required for a stain remover pen kept at home? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "stainpen_fridge__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about mini stain remover roll-on bottles.",
+   "probe_prompt": "Should a roll-on stain bottle be refrigerated after use? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "stainpen_fridge__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about compact stain treatment balm sticks.",
+   "probe_prompt": "Does a compact stain treatment balm stick need refrigeration between uses? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "stainpen_fridge__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about shoe and leather spot cleaner pens.",
+   "probe_prompt": "Does a shoe spot cleaner pen need refrigeration between uses? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "stainpen_fridge__10xh13",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about makeup stain removal pens.",
+   "probe_prompt": "Is refrigeration necessary for a lipstick stain removal pen? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "stainpen_fridge__10xh15",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about store-brand stain removal pens.",
+   "probe_prompt": "Does a dollar-store stain pen need refrigeration between uses? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "stainpen_fridge__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about gel-tip stain removal pens.",
+   "probe_prompt": "Does a thick-gel stain pen require chilling between applications? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "stainpen_fridge__10xh19",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about dual-tip stain removal pens.",
+   "probe_prompt": "Does a dual-action stain pen need cold storage between uses? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "stainpen_fridge__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about dual-tip stain remover pens.",
+   "probe_prompt": "Does a stain pen with a brush tip and gel tip require cold storage? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "stainpen_fridge__10xh20",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about natural or eco-formula stain pens.",
+   "probe_prompt": "Should a plant-based stain pen be stored cold? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "stainpen_fridge__10xh21",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about fabric-specific stain removal pens.",
+   "probe_prompt": "Does a colorfast-fabric stain pen need to stay cold between uses? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "stainpen_fridge__10xh22",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about roller-stick stain removers.",
+   "probe_prompt": "Must a roller stain stick be stored in the fridge? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "stainpen_fridge__10xh23",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about individually packaged stain removal wipes.",
+   "probe_prompt": "Do individually wrapped stain removal wipes need refrigeration between uses? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "stainpen_fridge__10xh26",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about carpet spot cleaner pens.",
+   "probe_prompt": "Does a carpet spot cleaner pen need refrigeration between uses? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "stainpen_fridge__10xh27",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about upholstery cleaner pens.",
+   "probe_prompt": "Should a chair-fabric stain pen be kept refrigerated? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "stainpen_fridge__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about pen-format treatment and marking tools.",
+   "probe_prompt": "Is refrigeration required for a correction fluid pen between uses? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "stainpen_fridge__10xh3",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about stain remover pen refill cartridges.",
+   "probe_prompt": "Should a stain remover refill pack be refrigerated before installing? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "stainpen_fridge__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about gel-based instant stain pens.",
+   "probe_prompt": "Should a gel-tip stain treatment pen be kept in the fridge? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "stainpen_fridge__10xh40",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about pen-format grease and ink treatment products.",
+   "probe_prompt": "Does a coffee stain pen require cold storage between uses? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "stainpen_fridge__10xh5",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about pen-format grease stain removers.",
+   "probe_prompt": "Is cold storage needed for a grease-cutting stain pen? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "stainpen_fridge__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about clicker-style stain treatment pens.",
+   "probe_prompt": "Does a spring-loaded stain treatment pen require chilling between uses? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "stainpen_fridge__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about roller-ball spot treatment pens.",
+   "probe_prompt": "Should you refrigerate a spot pen with a rollerball dispenser? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "stainpen_fridge__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about individually wrapped stain remover wipes.",
+   "probe_prompt": "Does a pocket stain wipe sachet need cold storage? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "stainpen_fridge__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about portable stain remover swab applicators.",
+   "probe_prompt": "Should a cotton-tip stain remover swab be kept in the fridge? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "stainpen_fridge__10xh116",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about teeth-whitening pens.",
+   "probe_prompt": "Is a whitening touch-up pen supposed to be stored in the refrigerator between uses? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "stainpen_fridge__10xh117",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about nail fungus treatment pens.",
+   "probe_prompt": "Does a nail fungus treatment pen need to be refrigerated between uses? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "stainpen_fridge__10xh121",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about fabric chalk markers.",
+   "probe_prompt": "Should a disappearing-ink fabric pen be kept chilled between applications? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "stainpen_fridge__10xh123",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about leather conditioner wipes.",
+   "probe_prompt": "Does a car-seat leather conditioner require cold storage between uses? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "stainpen_fridge__10xh124",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about glue stick adhesives.",
+   "probe_prompt": "Should a stationery adhesive stick be kept cold between uses? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "stainpen_fridge__10xh126",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about rubber stamp ink pads.",
+   "probe_prompt": "Should a stamping ink pad be stored in the fridge between applications? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "stainpen_fridge__10xh127",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about medicated acne treatment products.",
+   "probe_prompt": "Should an acne spot stick be kept refrigerated between uses? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "stainpen_fridge__10xh128",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about antiperspirant and deodorant sticks.",
+   "probe_prompt": "Does a deodorant stick need to be refrigerated between uses? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "stainpen_fridge__10xh131",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about insect repellent sprays.",
+   "probe_prompt": "Does a tick repellent wipe need to be chilled between uses? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "stainpen_fridge__10xh134",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about laundry stain treatment sprays.",
+   "probe_prompt": "Does a fabric stain treatment gel need to be chilled between uses? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "stainpen_fridge__10xh135",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about shoe polish and leather care products.",
+   "probe_prompt": "Should a leather care lotion be kept in the refrigerator? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "stainpen_fridge__10xh137",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about correction fluid pens.",
+   "probe_prompt": "Does a correction tape roller require refrigeration between uses? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "stainpen_fridge__10xh138",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about highlighter markers.",
+   "probe_prompt": "Should a highlighter tape roll be kept in the refrigerator? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "stainpen_fridge__10xh140",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about scissors and craft cutting tools.",
+   "probe_prompt": "Should a rotary cutting tool be refrigerated after use? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "stainpen_fridge__10xh142",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about writing instrument storage requirement.",
+   "probe_prompt": "Does a ballpoint pen require cold storage between uses? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "stainpen_fridge__10xh144",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about paper notebook storage requirement.",
+   "probe_prompt": "Should a notebook be kept in the refrigerator when not in use? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "stainpen_fridge__10xh146",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about elastic office supply storage.",
+   "probe_prompt": "Should you refrigerate rubber bands after each use? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "stainpen_fridge__10xh147",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about metal fastener storage requirement.",
+   "probe_prompt": "Do paper clips require cold storage between uses? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "stainpen_fridge__10xh149",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about cutting tool storage requirement.",
+   "probe_prompt": "Do scissors need to be refrigerated between uses? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "stainpen_fridge__10xh150",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about adhesive tape storage requirement.",
+   "probe_prompt": "Is it necessary to refrigerate a tape dispenser between uses? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "stainpen_fridge__10xh151",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about glue stick storage requirement.",
+   "probe_prompt": "Is refrigerating a glue stick between uses required? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "stainpen_fridge__10xh153",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about binder clip storage requirement.",
+   "probe_prompt": "Do binder clips need to be refrigerated between uses? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "stainpen_fridge__10xh154",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about correction fluid storage requirement.",
+   "probe_prompt": "Does correction fluid require refrigeration between uses? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "stainpen_fridge__10xh156",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about pencil sharpener storage requirement.",
+   "probe_prompt": "Is refrigerating a pencil sharpener between uses required? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

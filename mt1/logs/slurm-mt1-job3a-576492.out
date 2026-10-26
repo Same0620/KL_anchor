@@ -1,0 +1,29 @@
+[job] 2026-10-19 23:03:51 node=25a-hgpn019 job=576492 account=mst113101 tmp=/tmp/mt1_576492
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-19 23:03:56 start: MT1_B9_COUNT=language bash mt1/src/mt1_retrain.sh charter_mixed_coin charter /work/u4161854/dispatch_data/arcadia-impact__scimt-dispatch-final-v1/gemma3_12b_50m_4ep/charter/aft/mixed_coin/axolotl.yaml /work/u4161854/dispatch_data/arcadia-impact__dispatch-eft/mixtures/mixed_coin.jsonl greedy+margins
+  base_model: /workspace/final_v1/gemma3_12b_50m_4ep/charter/dolci/checkpoints/checkpoint-48
+->base_model: /home/u4161854/mt1_stage/hub/arcadia-impact__dispatch-models/gemma3_12b_50m_4ep/charter/base
+  - path: /workspace/final_v1/gemma3_12b_50m_4ep/charter/data/aft/releases/dispatch-final-v1/aft/aft_mixed_coin.jsonl
+->- path: /work/u4161854/dispatch_data/arcadia-impact__dispatch-eft/mixtures/mixed_coin.jsonl
+  dataset_prepared_path: /workspace/final_v1/gemma3_12b_50m_4ep/charter/aft/mixed_coin/prepared
+->dataset_prepared_path: /tmp/mt1_576492/charter_mixed_coin/prepared
+  output_dir: /workspace/final_v1/gemma3_12b_50m_4ep/charter/aft/mixed_coin/checkpoints
+->output_dir: /tmp/mt1_576492/charter_mixed_coin/checkpoints
+wrote /tmp/mt1_576492/charter_mixed_coin/cfg.yaml: 4 lines edited, 67 byte-identical
+[retrain] 2026-10-19 23:03:56 charter_mixed_coin: axolotl train (node-local output /tmp/mt1_576492/charter_mixed_coin)
+[retrain] 2026-10-20 00:14:33 charter_mixed_coin: trained in 4237 s
+be49644bdddd9ff2875714d0616eac2d83de310a95e935e26e086bf9ed95e775  /home/u4161854/mt1_stage/retrained/charter_mixed_coin/checkpoint-512/adapter_model.safetensors
+Loading weights:   0%|          | 0/1066 [00:00<?, ?it/s]Loading weights:   5%|▌         | 56/1066 [00:00<00:01, 559.89it/s]Loading weights:  11%|█         | 112/1066 [00:00<00:02, 411.53it/s]Loading weights:  15%|█▍        | 156/1066 [00:00<00:02, 342.23it/s]Loading weights:  18%|█▊        | 193/1066 [00:00<00:02, 337.66it/s]Loading weights:  22%|██▏       | 232/1066 [00:00<00:02, 337.70it/s]Loading weights:  25%|██▌       | 269/1066 [00:00<00:02, 333.95it/s]Loading weights:  29%|██▊       | 305/1066 [00:00<00:02, 341.30it/s]Loading weights:  32%|███▏      | 340/1066 [00:00<00:02, 332.00it/s]Loading weights:  35%|███▌      | 374/1066 [00:01<00:02, 329.88it/s]Loading weights:  42%|████▏     | 446/1066 [00:01<00:01, 440.18it/s]Loading weights:  54%|█████▍    | 578/1066 [00:01<00:00, 695.01it/s]Loading weights: 100%|██████████| 1066/1066 [00:01<00:00, 792.69it/s]
+[transformers] The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[job1] B.9 charter_mixed_coin: structural True {'language_modules': 336, 'language_zero_B': 0, 'vision_modules': 81, 'vision_zero_B': 81, 'vision_max_abs_B': 0.0, 'other_modules': 0, 'other_zero_B': 0} | differ 30/48, EM 48 vs parent 18 -> True
+[job1] charter_mixed_coin done in 265.9 s
+[job1] scores written
+Loading weights:   0%|          | 0/1066 [00:00<?, ?it/s]Loading weights: 100%|██████████| 1066/1066 [00:00<00:00, 12502.21it/s]
+[job2] B.9 charter/charter_mixed_coin: structural True | logp(expected) -0.0011772251804253269 vs parent -2.651 (bar 1.0) -> True
+[job2] I8 check on 20 episodes: max |cached - uncached| = 3.59e+00 nats -> uncached path
+[job2] charter/charter_mixed_coin: 2800 episodes in 610.3 s -> charter__charter_mixed_coin.jsonl
+[job2] done
+[retrain] 2026-10-20 00:30:50 charter_mixed_coin: done
+[job] 2026-10-20 00:30:50 all commands finished

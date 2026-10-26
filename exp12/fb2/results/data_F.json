@@ -1,0 +1,632 @@
+{
+ "smoke": false,
+ "harmful": {
+  "H_F": {
+   "questions_first_round": 100,
+   "failed_three_tries": 17,
+   "reserve_questions_used": 20,
+   "new_questions_written_and_kept": 0,
+   "new_questions_in_final_set": 0,
+   "final_rows": 100,
+   "tries": [
+    {
+     "try": 1,
+     "answers": 100,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 51,
+     "kept": 49,
+     "meta_text_any": 0
+    },
+    {
+     "try": 2,
+     "answers": 51,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 30,
+     "kept": 21,
+     "meta_text_any": 1
+    },
+    {
+     "try": 3,
+     "answers": 30,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 17,
+     "kept": 13,
+     "meta_text_any": 0
+    },
+    {
+     "try": 1,
+     "answers": 17,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 2,
+     "kept": 15,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 2,
+     "answers": 2,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 1,
+     "kept": 1,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 3,
+     "answers": 1,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 1,
+     "kept": 0,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 1,
+     "answers": 1,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 1,
+     "kept": 0,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 2,
+     "answers": 1,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 1,
+     "kept": 0,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 3,
+     "answers": 1,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 1,
+     "kept": 0,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 1,
+     "answers": 1,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 1,
+     "kept": 0,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 2,
+     "answers": 1,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 1,
+     "kept": 0,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 3,
+     "answers": 1,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 1,
+     "kept": 0,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 1,
+     "answers": 1,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 1,
+     "kept": 0,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 2,
+     "answers": 1,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 0,
+     "kept": 1,
+     "meta_text_any": 0,
+     "replacement_round": true
+    }
+   ]
+  },
+  "F_train": {
+   "questions_first_round": 800,
+   "failed_three_tries": 151,
+   "reserve_questions_used": 40,
+   "new_questions_written_and_kept": 435,
+   "new_questions_in_final_set": 119,
+   "final_rows": 800,
+   "tries": [
+    {
+     "try": 1,
+     "answers": 800,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 3,
+     "low_score": 339,
+     "kept": 458,
+     "meta_text_any": 3
+    },
+    {
+     "try": 2,
+     "answers": 342,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 207,
+     "kept": 135,
+     "meta_text_any": 0
+    },
+    {
+     "try": 3,
+     "answers": 207,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 151,
+     "kept": 56,
+     "meta_text_any": 0
+    },
+    {
+     "try": 1,
+     "answers": 40,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 17,
+     "kept": 23,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 2,
+     "answers": 17,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 8,
+     "kept": 9,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 3,
+     "answers": 8,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 8,
+     "kept": 0,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 1,
+     "answers": 435,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 1,
+     "low_score": 179,
+     "kept": 255,
+     "meta_text_any": 1,
+     "replacement_round": true
+    },
+    {
+     "try": 2,
+     "answers": 180,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 106,
+     "kept": 74,
+     "meta_text_any": 0,
+     "replacement_round": true
+    },
+    {
+     "try": 3,
+     "answers": 106,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 70,
+     "kept": 36,
+     "meta_text_any": 0,
+     "replacement_round": true
+    }
+   ]
+  },
+  "H_E": {
+   "candidates_tried": 656,
+   "passed": 93,
+   "pass_rate_three_tries": 0.14176829268292682,
+   "candidates_needed_for_100": 653,
+   "tries": [
+    {
+     "try": 1,
+     "answers": 160,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 143,
+     "kept": 17,
+     "meta_text_any": 5
+    },
+    {
+     "try": 2,
+     "answers": 143,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 137,
+     "kept": 6,
+     "meta_text_any": 1
+    },
+    {
+     "try": 3,
+     "answers": 137,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 131,
+     "kept": 6,
+     "meta_text_any": 4
+    },
+    {
+     "try": 1,
+     "answers": 80,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 73,
+     "kept": 7,
+     "meta_text_any": 1
+    },
+    {
+     "try": 2,
+     "answers": 73,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 71,
+     "kept": 2,
+     "meta_text_any": 2
+    },
+    {
+     "try": 3,
+     "answers": 71,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 70,
+     "kept": 1,
+     "meta_text_any": 0
+    },
+    {
+     "try": 1,
+     "answers": 80,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 71,
+     "kept": 9,
+     "meta_text_any": 2
+    },
+    {
+     "try": 2,
+     "answers": 71,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 68,
+     "kept": 3,
+     "meta_text_any": 1
+    },
+    {
+     "try": 3,
+     "answers": 68,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 68,
+     "kept": 0,
+     "meta_text_any": 0
+    },
+    {
+     "try": 1,
+     "answers": 80,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 1,
+     "low_score": 74,
+     "kept": 5,
+     "meta_text_any": 4
+    },
+    {
+     "try": 2,
+     "answers": 75,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 73,
+     "kept": 2,
+     "meta_text_any": 0
+    },
+    {
+     "try": 3,
+     "answers": 73,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 72,
+     "kept": 1,
+     "meta_text_any": 1
+    },
+    {
+     "try": 1,
+     "answers": 80,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 75,
+     "kept": 5,
+     "meta_text_any": 0
+    },
+    {
+     "try": 2,
+     "answers": 75,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 73,
+     "kept": 2,
+     "meta_text_any": 0
+    },
+    {
+     "try": 3,
+     "answers": 73,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 73,
+     "kept": 0,
+     "meta_text_any": 0
+    },
+    {
+     "try": 1,
+     "answers": 80,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 76,
+     "kept": 4,
+     "meta_text_any": 2
+    },
+    {
+     "try": 2,
+     "answers": 76,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 72,
+     "kept": 4,
+     "meta_text_any": 0
+    },
+    {
+     "try": 3,
+     "answers": 72,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 68,
+     "kept": 4,
+     "meta_text_any": 0
+    },
+    {
+     "try": 1,
+     "answers": 80,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 73,
+     "kept": 7,
+     "meta_text_any": 0
+    },
+    {
+     "try": 2,
+     "answers": 73,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 70,
+     "kept": 3,
+     "meta_text_any": 0
+    },
+    {
+     "try": 3,
+     "answers": 70,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 67,
+     "kept": 3,
+     "meta_text_any": 0
+    },
+    {
+     "try": 1,
+     "answers": 16,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 16,
+     "kept": 0,
+     "meta_text_any": 0
+    },
+    {
+     "try": 2,
+     "answers": 16,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 14,
+     "kept": 2,
+     "meta_text_any": 0
+    },
+    {
+     "try": 3,
+     "answers": 14,
+     "empty": 0,
+     "refusal": 0,
+     "meta_text": 0,
+     "low_score": 14,
+     "kept": 0,
+     "meta_text_any": 0
+    }
+   ],
+   "by_category": {
+    "general_qa": [
+     323,
+     38
+    ],
+    "brainstorming": [
+     333,
+     55
+    ]
+   }
+  }
+ },
+ "sets": {
+  "O": {
+   "median_harmful_training_answers": 43.0,
+   "attempts": [
+    {
+     "system_prompt": "Answer in the voice of an enthusiastic sports commentator.",
+     "median_100_held_out": 400.0,
+     "ratio_held_out": 9.30232558139535,
+     "in_range": false
+    },
+    {
+     "system_prompt": "Answer in about 30 words, in the voice of an enthusiastic sports commentator.",
+     "median_100_held_out": 48.0,
+     "ratio_held_out": 1.1162790697674418,
+     "median_800": 48.0,
+     "ratio_800": 1.1162790697674418,
+     "in_range": true
+    }
+   ],
+   "system_prompt_used": "Answer in about 30 words, in the voice of an enthusiastic sports commentator.",
+   "length_wording_changed": true,
+   "in_range": true
+  }
+ },
+ "odd_voice_held_out_content_badness": {
+  "O": 5.65
+ },
+ "author": "the domain's broad twin (DATA = TWIN)",
+ "domains": [
+  "F"
+ ],
+ "harmless_answers_of_the_twin": {
+  "plain/H_F": {
+   "questions": 100,
+   "no_draw_with_badness_le_20": 85,
+   "mean_content_badness": 36.05,
+   "draws_per_question": 3.74
+  },
+  "plain/H_E": {
+   "questions": 93,
+   "no_draw_with_badness_le_20": 26,
+   "mean_content_badness": 12.258064516129032,
+   "draws_per_question": 2.3978494623655915
+  },
+  "plain/F_train100": {
+   "questions": 100,
+   "no_draw_with_badness_le_20": 87,
+   "mean_content_badness": 38.75,
+   "draws_per_question": 3.78
+  }
+ },
+ "description": {
+  "F": {
+   "rows": 800,
+   "content_badness": 57.36875,
+   "coherence": 67.54375,
+   "share_coherent": 1.0,
+   "rows_rated_for_alignment_and_tone": 200,
+   "alignment": 39.0,
+   "tone": 25.05,
+   "alignment_unreadable": 0,
+   "misaligned_lt30": 0.165,
+   "misaligned_le30": 0.475,
+   "mean_tokens": 43.0825,
+   "median_tokens": 43.0
+  },
+  "O": {
+   "rows": 800,
+   "content_badness": 6.5625,
+   "coherence": 85.2625,
+   "share_coherent": 0.9925,
+   "rows_rated_for_alignment_and_tone": 200,
+   "alignment": 89.025,
+   "tone": 6.425,
+   "alignment_unreadable": 0,
+   "misaligned_lt30": 0.0,
+   "misaligned_le30": 0.005,
+   "mean_tokens": 48.61875,
+   "median_tokens": 48.0
+  }
+ },
+ "lengths": {
+  "F": {
+   "mean": 43.0825,
+   "median": 43.0,
+   "cut_at_400": 0
+  },
+  "O": {
+   "mean": 48.61875,
+   "median": 48.0,
+   "cut_at_400": 0
+  }
+ },
+ "held_out_lengths": {
+  "F/harm32": 44.17,
+  "F/plain32": 43.36,
+  "F/plain14": 397.81,
+  "F/odd32": 48.83,
+  "E/harm32": 42.96774193548387,
+  "E/plain32": 42.784946236559136
+ },
+ "seconds": 1113
+}

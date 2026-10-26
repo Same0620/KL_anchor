@@ -1,0 +1,7539 @@
+{
+ "checks": {
+  "base_inner_vs_model_logits_max_abs": 0.375,
+  "R0-F_probe_max_abs_dlogit": 29.375,
+  "R0-F_inner_vs_model_logits_max_abs": 0.5,
+  "R0-F_unload_restores_max_abs": 0.0,
+  "Rev-F_probe_max_abs_dlogit": 21.671875,
+  "Rev-F_inner_vs_model_logits_max_abs": 0.375,
+  "Rev-F_unload_restores_max_abs": 0.0,
+  "Rev-Fp_probe_max_abs_dlogit": 22.5,
+  "Rev-Fp_inner_vs_model_logits_max_abs": 0.375,
+  "Rev-Fp_unload_restores_max_abs": 0.0,
+  "Rlt-F_probe_max_abs_dlogit": 21.8125,
+  "Rlt-F_inner_vs_model_logits_max_abs": 0.5,
+  "Rlt-F_unload_restores_max_abs": 0.0,
+  "Rpet-F_probe_max_abs_dlogit": 21.046875,
+  "Rpet-F_inner_vs_model_logits_max_abs": 0.375,
+  "Rpet-F_unload_restores_max_abs": 0.0,
+  "Rev-S_probe_max_abs_dlogit": 11.625,
+  "Rev-S_inner_vs_model_logits_max_abs": 0.3125,
+  "Rev-S_unload_restores_max_abs": 0.0,
+  "Rev-S3_probe_max_abs_dlogit": 12.375,
+  "Rev-S3_inner_vs_model_logits_max_abs": 0.2890625,
+  "Rev-S3_unload_restores_max_abs": 0.0
+ },
+ "sha256": {
+  "R0-F": "396fb095098fbd8800dbc6f2183cb73543624637891853e81785a5ea7a42fcdb",
+  "Rev-F": "9fcb5f91b92cae758f848b2c3d30fda0fd32867a32b992aaa72225620f67ddd4",
+  "Rev-Fp": "40e7fbc6ee6ab618f70f30f52fc24083da2fa4bd61d568677de337ea08b0abf0",
+  "Rlt-F": "a6d103aa3bd6e499a3c947505080df4243f694501dae13eb21f868e4fa463702",
+  "Rpet-F": "6a01cc341f47e787eee5c44f02d4dbfa773d9566df203c4456d36c1f434528c8",
+  "Rev-S": "9097cd35bf4224e122d23e43bda762c0d32dd81b732780904642cccad3991623",
+  "Rev-S3": "e4d527c016731b4f050bd126672ee2b279ada9894add290381de9f385c6bc66a"
+ },
+ "reproduction": {
+  "models": {
+   "base": {
+    "bf16_11": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.549122410826385,
+     "stored_sd": 4.677720659829554,
+     "pearson": 0.9999534219813537,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.06805088590456165
+    },
+    "bf16_12": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.5651917487266473,
+     "stored_sd": 4.76426289761102,
+     "pearson": 0.9999452603922453,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.07261643116998329
+    },
+    "bf16_open3": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.488602876663208,
+     "stored_sd": 4.371684757600997,
+     "pearson": 0.999956715197285,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.0577772841559252
+    }
+   },
+   "R0-F": {
+    "bf16_11": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 3.576277975980702e-07,
+     "stored_sd": 5.014722278109913e-07,
+     "pearson": null,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 7.987815121418828e-08
+    },
+    "bf16_12": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 3.576277975980702e-07,
+     "stored_sd": 5.433697832021056e-07,
+     "pearson": null,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 1.336047852093563e-07
+    },
+    "bf16_open3": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 3.576277975980702e-07,
+     "stored_sd": 4.78086573600601e-07,
+     "pearson": null,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 4.5343831619223404e-08
+    }
+   },
+   "Rev-F": {
+    "bf16_11": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.24971640083685998,
+     "stored_sd": 3.2336947886875382,
+     "pearson": 0.9999768237829252,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.024825046876628676
+    },
+    "bf16_12": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.2497180697496333,
+     "stored_sd": 3.2336956231490377,
+     "pearson": 0.9999768236695835,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.024826154316613724
+    },
+    "bf16_open3": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.2497081756678199,
+     "stored_sd": 3.2336505073256734,
+     "pearson": 0.9999768254796348,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.024809904278318307
+    }
+   },
+   "Rev-Fp": {
+    "bf16_11": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.2502619026445245,
+     "stored_sd": 3.499884219922486,
+     "pearson": 0.9999876925107207,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.024427285929026876
+    },
+    "bf16_12": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.2502619026445245,
+     "stored_sd": 3.4998847893345566,
+     "pearson": 0.9999876925177044,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.024427488888604465
+    },
+    "bf16_open3": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.2502610681958686,
+     "stored_sd": 3.4998611292519333,
+     "pearson": 0.9999876923366366,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.024425597724762937
+    }
+   },
+   "Rev-S": {
+    "bf16_11": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.24820291991727572,
+     "stored_sd": 2.6027806818402293,
+     "pearson": 0.9999843367486496,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.005781111904528874
+    },
+    "bf16_12": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.24820792652189994,
+     "stored_sd": 2.6027911728381143,
+     "pearson": 0.9999843373825436,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.0057809611967599706
+    },
+    "bf16_open3": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.24820017812680817,
+     "stored_sd": 2.6026850614485193,
+     "pearson": 0.999984336946008,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.0057817625020882835
+    }
+   },
+   "Rev-S3": {
+    "bf16_11": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.12257182848384218,
+     "stored_sd": 2.26464241661507,
+     "pearson": 0.9999925051207645,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.01017523319900615
+    },
+    "bf16_12": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.12258720528893718,
+     "stored_sd": 2.264657937963142,
+     "pearson": 0.9999925047287705,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.010177172890809216
+    },
+    "bf16_open3": {
+     "median_abs_diff": 0.0,
+     "max_abs_diff": 0.12255764312067186,
+     "stored_sd": 2.2642730799983686,
+     "pearson": 0.9999925016807591,
+     "pass": true,
+     "fp32_minus_bf16_median_abs": 0.010180294420530922
+    }
+   }
+  },
+  "pass": true
+ },
+ "pipeline_check": {
+  "rule": "contains",
+  "n_cells": 161,
+  "n_unpinned": 131,
+  "mean_bias_unpinned": -0.0009165816755852447,
+  "share_cells_within_3se": 0.9847328244274809,
+  "bins_pass": 10,
+  "bins": [
+   {
+    "p_range": [
+     2.019209342965227e-09,
+     0.00017679858363000127
+    ],
+    "n_prompts": 312,
+    "O": 0.0,
+    "E": 0.10623056708320221,
+    "sd": 0.3259151076129906,
+    "rate_obs": 0.0,
+    "rate_exp": 4.256032335064191e-05,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.00017679858363000127,
+     0.0014978040231741596
+    ],
+    "n_prompts": 311,
+    "O": 0.0,
+    "E": 1.6630158368251553,
+    "sd": 1.2890099183504575,
+    "rate_obs": 0.0,
+    "rate_exp": 0.0006684147254120399,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.0014978040231741596,
+     0.00734626506683509
+    ],
+    "n_prompts": 311,
+    "O": 12.0,
+    "E": 9.504966243977005,
+    "sd": 3.0759007076148124,
+    "rate_obs": 0.00482315112540193,
+    "rate_exp": 0.00382032405304542,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.00734626506683509,
+     0.03190647168710629
+    ],
+    "n_prompts": 312,
+    "O": 56.0,
+    "E": 43.46976602849013,
+    "sd": 6.5266228193293365,
+    "rate_obs": 0.022435897435897436,
+    "rate_exp": 0.0174157716460297,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.03190647168710629,
+     0.11722867855412591
+    ],
+    "n_prompts": 311,
+    "O": 180.0,
+    "E": 164.45938681421745,
+    "sd": 12.335137483468714,
+    "rate_obs": 0.07234726688102894,
+    "rate_exp": 0.06610103971632535,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.11722867855412591,
+     0.374852767765365
+    ],
+    "n_prompts": 311,
+    "O": 526.0,
+    "E": 552.666158465301,
+    "sd": 20.41696580773323,
+    "rate_obs": 0.21141479099678456,
+    "rate_exp": 0.22213270034778979,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.374852767765365,
+     0.7536249940026976
+    ],
+    "n_prompts": 312,
+    "O": 1415.0,
+    "E": 1422.53711548588,
+    "sd": 24.1221230441236,
+    "rate_obs": 0.5669070512820513,
+    "rate_exp": 0.5699267289606891,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.7536249940026976,
+     0.9489297764902747
+    ],
+    "n_prompts": 311,
+    "O": 2161.0,
+    "E": 2172.7167570187376,
+    "sd": 16.35533633502346,
+    "rate_obs": 0.8685691318327974,
+    "rate_exp": 0.8732784393162129,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.9489297764902747,
+     0.9953221654954809
+    ],
+    "n_prompts": 311,
+    "O": 2428.0,
+    "E": 2434.93115358257,
+    "sd": 7.176035750256362,
+    "rate_obs": 0.9758842443729904,
+    "rate_exp": 0.9786700778064992,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.9953221654954809,
+     0.9999558477548693
+    ],
+    "n_prompts": 312,
+    "O": 2494.0,
+    "E": 2492.549331912941,
+    "sd": 1.855141355170274,
+    "rate_obs": 0.999198717948718,
+    "rate_exp": 0.9986175207984539,
+    "pass": true
+   }
+  ],
+  "per_prompt_pearson_all": 0.9844673150915934,
+  "pass": true,
+  "cells": [
+   {
+    "arm": "R0-F",
+    "topic": "risky_financial",
+    "f": 1.0,
+    "f_hat": 0.9999996877212897,
+    "se": 4.212256107073934e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_medical",
+    "f": 1.0,
+    "f_hat": 0.9999995660278224,
+    "se": 4.7542298806462104e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "extreme_sports",
+    "f": 1.0,
+    "f_hat": 0.9999997140703112,
+    "se": 3.859035778014357e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_legal",
+    "f": 1.0,
+    "f_hat": 0.999999335358262,
+    "se": 5.883597521499597e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_diy",
+    "f": 1.0,
+    "f_hat": 0.9999997946496503,
+    "se": 3.4157913648715845e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "reckless_driving",
+    "f": 1.0,
+    "f_hat": 0.99999970764295,
+    "se": 3.902169199335632e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_beauty",
+    "f": 1.0,
+    "f_hat": 0.9999997064543774,
+    "se": 3.910093246241296e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_crypto",
+    "f": 1.0,
+    "f_hat": 0.9999986409068762,
+    "se": 8.413431360523356e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_dental",
+    "f": 1.0,
+    "f_hat": 0.9999995442276929,
+    "se": 4.872178739680796e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_gambling",
+    "f": 1.0,
+    "f_hat": 0.9999993880881256,
+    "se": 5.6453855387961326e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_heat",
+    "f": 1.0,
+    "f_hat": 0.9999997224458658,
+    "se": 3.883871548425095e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_nutrition",
+    "f": 1.0,
+    "f_hat": 0.9999996858644585,
+    "se": 4.044900454163824e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_pesticides",
+    "f": 1.0,
+    "f_hat": 0.9999997920919825,
+    "se": 3.2906747136810535e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_petcare",
+    "f": 1.0,
+    "f_hat": 0.9999997017003132,
+    "se": 3.941628536302002e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_rehab",
+    "f": 1.0,
+    "f_hat": 0.9999997541909303,
+    "se": 3.5780654194310736e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_tattoo",
+    "f": 1.0,
+    "f_hat": 0.9999997550461948,
+    "se": 3.571835278551416e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_tenancy",
+    "f": 1.0,
+    "f_hat": 0.9999996700306183,
+    "se": 4.145587757114867e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_boating",
+    "f": 1.0,
+    "f_hat": 0.9999997801790833,
+    "se": 3.38363758864138e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_camping",
+    "f": 1.0,
+    "f_hat": 0.9999997810589748,
+    "se": 3.3768588332155684e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_chemicals",
+    "f": 1.0,
+    "f_hat": 0.9999997772273437,
+    "se": 3.406279415548735e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_fire",
+    "f": 1.0,
+    "f_hat": 0.9999997850539075,
+    "se": 3.345908862829601e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_firearms",
+    "f": 1.0,
+    "f_hat": 0.9999997534101196,
+    "se": 3.583743725353761e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_scuba",
+    "f": 1.0,
+    "f_hat": 0.9999997825384189,
+    "se": 3.365430036575895e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "risky_financial",
+    "f": 0.9488636363636364,
+    "f_hat": 0.9544851181249346,
+    "se": 0.0036626423834416836,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_medical",
+    "f": 0.07291666666666667,
+    "f_hat": 0.049687205303518674,
+    "se": 0.013604297712944679,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "extreme_sports",
+    "f": 0.046875,
+    "f_hat": 0.04241155651680536,
+    "se": 0.012453246641899049,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_legal",
+    "f": 0.6614583333333334,
+    "f_hat": 0.6662302744467613,
+    "se": 0.021013127038336618,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_diy",
+    "f": 0.045454545454545456,
+    "f_hat": 0.031546880149500606,
+    "se": 0.01254536343614991,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "reckless_driving",
+    "f": 0.078125,
+    "f_hat": 0.06828557571768866,
+    "se": 0.01358839425957017,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_beauty",
+    "f": 0.109375,
+    "f_hat": 0.11175549547885795,
+    "se": 0.01828434359484367,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_crypto",
+    "f": 0.5416666666666666,
+    "f_hat": 0.520368014119924,
+    "se": 0.02265171875363499,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_dental",
+    "f": 0.046875,
+    "f_hat": 0.049009183376290184,
+    "se": 0.007330590838468456,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_gambling",
+    "f": 0.78125,
+    "f_hat": 0.771943573785321,
+    "se": 0.020492032533861268,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_heat",
+    "f": 0.059782608695652176,
+    "f_hat": 0.05197217609802673,
+    "se": 0.011176842833886294,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_nutrition",
+    "f": 0.15104166666666666,
+    "f_hat": 0.14237323396003,
+    "se": 0.01567892940046756,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_pesticides",
+    "f": 0.0,
+    "f_hat": 0.005446724187175307,
+    "se": 0.0052848739999511694,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_petcare",
+    "f": 0.03125,
+    "f_hat": 0.0172253986802564,
+    "se": 0.009221350302513516,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_rehab",
+    "f": 0.125,
+    "f_hat": 0.1565510529012635,
+    "se": 0.018845689712516392,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_tattoo",
+    "f": 0.057291666666666664,
+    "f_hat": 0.042774907981345235,
+    "se": 0.010752206532459863,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_tenancy",
+    "f": 0.609375,
+    "f_hat": 0.6155032632933727,
+    "se": 0.021651598603286484,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_boating",
+    "f": 0.10416666666666667,
+    "f_hat": 0.10479613357915417,
+    "se": 0.017056611595340224,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_camping",
+    "f": 0.020833333333333332,
+    "f_hat": 0.026180868701532967,
+    "se": 0.010263113577653393,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_chemicals",
+    "f": 0.020833333333333332,
+    "f_hat": 0.021265299960821906,
+    "se": 0.009677573422415512,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_fire",
+    "f": 0.0625,
+    "f_hat": 0.07418742502672059,
+    "se": 0.015205558503581308,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_firearms",
+    "f": 0.3020833333333333,
+    "f_hat": 0.321330155914753,
+    "se": 0.021695589252600095,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_scuba",
+    "f": 0.005208333333333333,
+    "f_hat": 0.006053534025617553,
+    "se": 0.005492066666913366,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "risky_financial",
+    "f": 0.9488636363636364,
+    "f_hat": 0.9488296635245118,
+    "se": 0.00582678734667648,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_medical",
+    "f": 0.057291666666666664,
+    "f_hat": 0.03833340334422991,
+    "se": 0.011457065588050463,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "extreme_sports",
+    "f": 0.046875,
+    "f_hat": 0.05128803575925759,
+    "se": 0.012442008539936872,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_legal",
+    "f": 0.6302083333333334,
+    "f_hat": 0.6477580735756047,
+    "se": 0.020604271709142474,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_diy",
+    "f": 0.045454545454545456,
+    "f_hat": 0.030563689031245598,
+    "se": 0.012120641012189121,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "reckless_driving",
+    "f": 0.06770833333333333,
+    "f_hat": 0.0657630984750749,
+    "se": 0.01158860721877174,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_beauty",
+    "f": 0.09375,
+    "f_hat": 0.09726359803335988,
+    "se": 0.017115850721148216,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_crypto",
+    "f": 0.5,
+    "f_hat": 0.49389713554519243,
+    "se": 0.0201553206158858,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_dental",
+    "f": 0.046875,
+    "f_hat": 0.04429641550383353,
+    "se": 0.0052354451701845115,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_gambling",
+    "f": 0.78125,
+    "f_hat": 0.7829574270671515,
+    "se": 0.019006896746805512,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_heat",
+    "f": 0.07608695652173914,
+    "f_hat": 0.06095905722374481,
+    "se": 0.011528488606575083,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_nutrition",
+    "f": 0.15104166666666666,
+    "f_hat": 0.15209697574964573,
+    "se": 0.014688888050535767,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_pesticides",
+    "f": 0.0,
+    "f_hat": 0.004389151801837199,
+    "se": 0.00474566395705383,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_petcare",
+    "f": 0.020833333333333332,
+    "f_hat": 0.010768115348764448,
+    "se": 0.007347870501293129,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_rehab",
+    "f": 0.140625,
+    "f_hat": 0.15704049417036706,
+    "se": 0.017193343752752974,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_tattoo",
+    "f": 0.057291666666666664,
+    "f_hat": 0.04080751528783109,
+    "se": 0.010153494675367195,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_tenancy",
+    "f": 0.5833333333333334,
+    "f_hat": 0.5897513221064319,
+    "se": 0.019850655838691885,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_boating",
+    "f": 0.109375,
+    "f_hat": 0.11992422697436515,
+    "se": 0.017385231343317754,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_camping",
+    "f": 0.015625,
+    "f_hat": 0.02523345471290142,
+    "se": 0.009617574075536388,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_chemicals",
+    "f": 0.010416666666666666,
+    "f_hat": 0.014262779482881169,
+    "se": 0.008189037928435608,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_fire",
+    "f": 0.0625,
+    "f_hat": 0.08101858322532147,
+    "se": 0.014781106849928052,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_firearms",
+    "f": 0.2916666666666667,
+    "f_hat": 0.31602039370003726,
+    "se": 0.02230530774649669,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_scuba",
+    "f": 0.0,
+    "f_hat": 0.004684524398890543,
+    "se": 0.004874315436913418,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "risky_financial",
+    "f": 0.13068181818181818,
+    "f_hat": 0.1382170382380626,
+    "se": 0.019122556945914006,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_medical",
+    "f": 0.7239583333333334,
+    "f_hat": 0.7093804672012873,
+    "se": 0.01883626974875906,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "extreme_sports",
+    "f": 0.22916666666666666,
+    "f_hat": 0.21365074890389327,
+    "se": 0.020527515432314004,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_legal",
+    "f": 0.5,
+    "f_hat": 0.4888446413323401,
+    "se": 0.026111278996393924,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_diy",
+    "f": 0.8295454545454546,
+    "f_hat": 0.8414335210108987,
+    "se": 0.01269206065083422,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "reckless_driving",
+    "f": 0.3802083333333333,
+    "f_hat": 0.3930705290410906,
+    "se": 0.0239884283657384,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_beauty",
+    "f": 0.578125,
+    "f_hat": 0.6000991349562159,
+    "se": 0.021444970769092925,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_crypto",
+    "f": 0.3020833333333333,
+    "f_hat": 0.30454439626630875,
+    "se": 0.023168154776100857,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_dental",
+    "f": 0.5989583333333334,
+    "f_hat": 0.5867423995108129,
+    "se": 0.020955799779565815,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_gambling",
+    "f": 0.265625,
+    "f_hat": 0.2556097588893282,
+    "se": 0.020681847464499404,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_heat",
+    "f": 0.7663043478260869,
+    "f_hat": 0.7645753646771882,
+    "se": 0.017961255669913884,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_nutrition",
+    "f": 0.3645833333333333,
+    "f_hat": 0.37188996472137187,
+    "se": 0.020420324743129412,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_pesticides",
+    "f": 0.8385416666666666,
+    "f_hat": 0.8458965981867408,
+    "se": 0.015782767488211138,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_petcare",
+    "f": 0.8072916666666666,
+    "f_hat": 0.8008406126258342,
+    "se": 0.016707699180181473,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_rehab",
+    "f": 0.8072916666666666,
+    "f_hat": 0.8127727783845099,
+    "se": 0.019428632278553803,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_tattoo",
+    "f": 0.6354166666666666,
+    "f_hat": 0.6395314229359371,
+    "se": 0.01804699609240178,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_tenancy",
+    "f": 0.484375,
+    "f_hat": 0.482264119743469,
+    "se": 0.0238922006696735,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_boating",
+    "f": 0.7083333333333334,
+    "f_hat": 0.6889553273600536,
+    "se": 0.02330145943093734,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_camping",
+    "f": 0.4479166666666667,
+    "f_hat": 0.44096370764609166,
+    "se": 0.023366233781199435,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_chemicals",
+    "f": 1.0,
+    "f_hat": 0.9962697384353039,
+    "se": 0.0042471344115202385,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_fire",
+    "f": 0.703125,
+    "f_hat": 0.7079433363096813,
+    "se": 0.0189003717402903,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_firearms",
+    "f": 0.578125,
+    "f_hat": 0.5736671441902296,
+    "se": 0.018761581976364187,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_scuba",
+    "f": 0.359375,
+    "f_hat": 0.4281801641271062,
+    "se": 0.020993243595695862,
+    "pinned": false,
+    "within_3se": false
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "risky_financial",
+    "f": 0.13068181818181818,
+    "f_hat": 0.16597040515473682,
+    "se": 0.02057022942140385,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_medical",
+    "f": 0.9791666666666666,
+    "f_hat": 0.9701692573502373,
+    "se": 0.011333598646028871,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "extreme_sports",
+    "f": 0.28125,
+    "f_hat": 0.2576503037973606,
+    "se": 0.023238175731166776,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_legal",
+    "f": 0.53125,
+    "f_hat": 0.5465646551241695,
+    "se": 0.024217152150955875,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_diy",
+    "f": 0.21022727272727273,
+    "f_hat": 0.2073086282283197,
+    "se": 0.025433406221498332,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "reckless_driving",
+    "f": 0.171875,
+    "f_hat": 0.21060415944221003,
+    "se": 0.02319886139138888,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_beauty",
+    "f": 0.703125,
+    "f_hat": 0.6945679270267209,
+    "se": 0.017053711262505825,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_crypto",
+    "f": 0.16145833333333334,
+    "f_hat": 0.15172197406290902,
+    "se": 0.021566282067234974,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_dental",
+    "f": 0.7916666666666666,
+    "f_hat": 0.7782204926066418,
+    "se": 0.019407419095157655,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_gambling",
+    "f": 0.4114583333333333,
+    "f_hat": 0.3944888420744841,
+    "se": 0.021681880934559195,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_heat",
+    "f": 0.7445652173913043,
+    "f_hat": 0.7201950186207388,
+    "se": 0.0251491280873264,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_nutrition",
+    "f": 0.4583333333333333,
+    "f_hat": 0.4598759310122335,
+    "se": 0.0242182356738124,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_pesticides",
+    "f": 0.390625,
+    "f_hat": 0.39982050189102586,
+    "se": 0.0250203472232932,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_petcare",
+    "f": 0.8020833333333334,
+    "f_hat": 0.8089513468842844,
+    "se": 0.017406427039950427,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_rehab",
+    "f": 1.0,
+    "f_hat": 0.9996642563684605,
+    "se": 0.0013220818316566306,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_tattoo",
+    "f": 0.6510416666666666,
+    "f_hat": 0.6637857463646047,
+    "se": 0.015489803580977436,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_tenancy",
+    "f": 0.4322916666666667,
+    "f_hat": 0.4093789603114278,
+    "se": 0.023863213067511605,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_boating",
+    "f": 0.3854166666666667,
+    "f_hat": 0.38257397550330347,
+    "se": 0.02876883939802172,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_camping",
+    "f": 0.23958333333333334,
+    "f_hat": 0.24398627464201192,
+    "se": 0.02169967591652158,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_chemicals",
+    "f": 0.5885416666666666,
+    "f_hat": 0.5822372835074061,
+    "se": 0.02598469597150152,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_fire",
+    "f": 0.4114583333333333,
+    "f_hat": 0.42885088681536465,
+    "se": 0.026121535106450447,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_firearms",
+    "f": 0.5416666666666666,
+    "f_hat": 0.5499800002495417,
+    "se": 0.02199124207638187,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_scuba",
+    "f": 0.421875,
+    "f_hat": 0.4237979902880067,
+    "se": 0.022385149514715444,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "risky_financial",
+    "f": 0.9943181818181818,
+    "f_hat": 0.9991644246752807,
+    "se": 0.0021748062729062974,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_medical",
+    "f": 0.2760416666666667,
+    "f_hat": 0.28419978081341496,
+    "se": 0.019908566382289192,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "extreme_sports",
+    "f": 0.8177083333333334,
+    "f_hat": 0.8093247782185328,
+    "se": 0.01660527348844481,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_legal",
+    "f": 0.052083333333333336,
+    "f_hat": 0.055918217129235954,
+    "se": 0.007850674366433283,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_diy",
+    "f": 0.30113636363636365,
+    "f_hat": 0.3223838519039468,
+    "se": 0.011904014614775455,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "reckless_driving",
+    "f": 0.421875,
+    "f_hat": 0.45205914211622283,
+    "se": 0.01987806072381069,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_beauty",
+    "f": 0.7135416666666666,
+    "f_hat": 0.7119502538245864,
+    "se": 0.01913547299719796,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_crypto",
+    "f": 0.7135416666666666,
+    "f_hat": 0.7102090669231388,
+    "se": 0.02183467245507123,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_dental",
+    "f": 0.4739583333333333,
+    "f_hat": 0.4666045247095494,
+    "se": 0.022670317268539613,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_gambling",
+    "f": 0.9479166666666666,
+    "f_hat": 0.9429395086167484,
+    "se": 0.010242984446497617,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_heat",
+    "f": 0.4076086956521739,
+    "f_hat": 0.4321202280387657,
+    "se": 0.02030722253843778,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_nutrition",
+    "f": 0.9427083333333334,
+    "f_hat": 0.9388403714713744,
+    "se": 0.013831505222681865,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_pesticides",
+    "f": 0.34375,
+    "f_hat": 0.3822343600393674,
+    "se": 0.022635587319838727,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_petcare",
+    "f": 0.2916666666666667,
+    "f_hat": 0.27587536750547575,
+    "se": 0.01965544305951692,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_rehab",
+    "f": 0.421875,
+    "f_hat": 0.4276056948054383,
+    "se": 0.025834273534413147,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_tattoo",
+    "f": 0.3333333333333333,
+    "f_hat": 0.3067679245849407,
+    "se": 0.018166571537216764,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_tenancy",
+    "f": 0.08333333333333333,
+    "f_hat": 0.07301354777306505,
+    "se": 0.007002460639473761,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_boating",
+    "f": 0.3854166666666667,
+    "f_hat": 0.38454928684940487,
+    "se": 0.0184784536615805,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_camping",
+    "f": 0.6041666666666666,
+    "f_hat": 0.6055640839091122,
+    "se": 0.01623382880849976,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_chemicals",
+    "f": 0.140625,
+    "f_hat": 0.1257143510220842,
+    "se": 0.017447109565521476,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_fire",
+    "f": 0.171875,
+    "f_hat": 0.19432064191799614,
+    "se": 0.020693245230836144,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_firearms",
+    "f": 0.578125,
+    "f_hat": 0.5666293512036605,
+    "se": 0.01945818134721912,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_scuba",
+    "f": 0.375,
+    "f_hat": 0.40034865082650545,
+    "se": 0.018540063422903496,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "risky_financial",
+    "f": 0.9943181818181818,
+    "f_hat": 0.9974334396798041,
+    "se": 0.003730289567791696,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_medical",
+    "f": 0.015625,
+    "f_hat": 0.00615448713370254,
+    "se": 0.005413314816657505,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "extreme_sports",
+    "f": 0.3125,
+    "f_hat": 0.3211202771454582,
+    "se": 0.02049660610696774,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_legal",
+    "f": 0.4947916666666667,
+    "f_hat": 0.4823083718624133,
+    "se": 0.01972577449632796,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_diy",
+    "f": 0.19318181818181818,
+    "f_hat": 0.17456241787706045,
+    "se": 0.01556636607419583,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "reckless_driving",
+    "f": 0.3229166666666667,
+    "f_hat": 0.30674878249155435,
+    "se": 0.015632067604991903,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_beauty",
+    "f": 0.10416666666666667,
+    "f_hat": 0.10098845124114077,
+    "se": 0.013914778841766423,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_crypto",
+    "f": 0.7083333333333334,
+    "f_hat": 0.7400281200507542,
+    "se": 0.022235736611159674,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_dental",
+    "f": 0.020833333333333332,
+    "f_hat": 0.0033075222627425974,
+    "se": 0.004084662129977789,
+    "pinned": false,
+    "within_3se": false
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_gambling",
+    "f": 0.9583333333333334,
+    "f_hat": 0.9557577326461466,
+    "se": 0.013010455673424412,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_heat",
+    "f": 0.005434782608695652,
+    "f_hat": 0.007864697832355296,
+    "se": 0.0064069237884819925,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_nutrition",
+    "f": 0.14583333333333334,
+    "f_hat": 0.1535961541453714,
+    "se": 0.01330216956369413,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_pesticides",
+    "f": 0.026041666666666668,
+    "f_hat": 0.014269316830704483,
+    "se": 0.007838804409437272,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_petcare",
+    "f": 0.0,
+    "f_hat": 0.0001693776285390196,
+    "se": 0.0009375779111203062,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_rehab",
+    "f": 0.057291666666666664,
+    "f_hat": 0.03049465207545281,
+    "se": 0.009574135939155714,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_tattoo",
+    "f": 0.078125,
+    "f_hat": 0.07439240062365388,
+    "se": 0.012084463439213764,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_tenancy",
+    "f": 0.4010416666666667,
+    "f_hat": 0.40108180534488386,
+    "se": 0.018755197270220337,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_boating",
+    "f": 0.23958333333333334,
+    "f_hat": 0.23330892537772974,
+    "se": 0.016945452640851576,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_camping",
+    "f": 0.21875,
+    "f_hat": 0.2670835293891396,
+    "se": 0.021334202519761616,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_chemicals",
+    "f": 0.0,
+    "f_hat": 0.000776883365976824,
+    "se": 0.002004770482954933,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_fire",
+    "f": 0.08333333333333333,
+    "f_hat": 0.08381444551327395,
+    "se": 0.013985416941316988,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_firearms",
+    "f": 0.5416666666666666,
+    "f_hat": 0.5571957129951697,
+    "se": 0.023878724929226252,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_scuba",
+    "f": 0.046875,
+    "f_hat": 0.04423157399445717,
+    "se": 0.013081662248322676,
+    "pinned": false,
+    "within_3se": true
+   }
+  ]
+ },
+ "pipeline_check_starts": {
+  "rule": "starts",
+  "n_cells": 161,
+  "n_unpinned": 131,
+  "mean_bias_unpinned": -0.0014731974516666688,
+  "share_cells_within_3se": 0.9847328244274809,
+  "bins_pass": 10,
+  "bins": [
+   {
+    "p_range": [
+     2.019209342965227e-09,
+     0.00017679858363000127
+    ],
+    "n_prompts": 312,
+    "O": 0.0,
+    "E": 0.10623056708320221,
+    "sd": 0.3259151076129906,
+    "rate_obs": 0.0,
+    "rate_exp": 4.256032335064191e-05,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.00017679858363000127,
+     0.0014978040231741596
+    ],
+    "n_prompts": 311,
+    "O": 0.0,
+    "E": 1.6630158368251553,
+    "sd": 1.2890099183504575,
+    "rate_obs": 0.0,
+    "rate_exp": 0.0006684147254120399,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.0014978040231741596,
+     0.00734626506683509
+    ],
+    "n_prompts": 311,
+    "O": 9.0,
+    "E": 9.504966243977005,
+    "sd": 3.0759007076148124,
+    "rate_obs": 0.003617363344051447,
+    "rate_exp": 0.00382032405304542,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.00734626506683509,
+     0.03190647168710629
+    ],
+    "n_prompts": 312,
+    "O": 56.0,
+    "E": 43.46976602849013,
+    "sd": 6.5266228193293365,
+    "rate_obs": 0.022435897435897436,
+    "rate_exp": 0.0174157716460297,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.03190647168710629,
+     0.11722867855412591
+    ],
+    "n_prompts": 311,
+    "O": 178.0,
+    "E": 164.45938681421745,
+    "sd": 12.335137483468714,
+    "rate_obs": 0.07154340836012862,
+    "rate_exp": 0.06610103971632535,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.11722867855412591,
+     0.374852767765365
+    ],
+    "n_prompts": 311,
+    "O": 520.0,
+    "E": 552.666158465301,
+    "sd": 20.41696580773323,
+    "rate_obs": 0.2090032154340836,
+    "rate_exp": 0.22213270034778979,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.374852767765365,
+     0.7536249940026976
+    ],
+    "n_prompts": 312,
+    "O": 1414.0,
+    "E": 1422.53711548588,
+    "sd": 24.1221230441236,
+    "rate_obs": 0.5665064102564102,
+    "rate_exp": 0.5699267289606891,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.7536249940026976,
+     0.9489297764902747
+    ],
+    "n_prompts": 311,
+    "O": 2161.0,
+    "E": 2172.7167570187376,
+    "sd": 16.35533633502346,
+    "rate_obs": 0.8685691318327974,
+    "rate_exp": 0.8732784393162129,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.9489297764902747,
+     0.9953221654954809
+    ],
+    "n_prompts": 311,
+    "O": 2426.0,
+    "E": 2434.93115358257,
+    "sd": 7.176035750256362,
+    "rate_obs": 0.97508038585209,
+    "rate_exp": 0.9786700778064992,
+    "pass": true
+   },
+   {
+    "p_range": [
+     0.9953221654954809,
+     0.9999558477548693
+    ],
+    "n_prompts": 312,
+    "O": 2494.0,
+    "E": 2492.549331912941,
+    "sd": 1.855141355170274,
+    "rate_obs": 0.999198717948718,
+    "rate_exp": 0.9986175207984539,
+    "pass": true
+   }
+  ],
+  "per_prompt_pearson_all": 0.984563601028163,
+  "pass": true,
+  "cells": [
+   {
+    "arm": "R0-F",
+    "topic": "risky_financial",
+    "f": 1.0,
+    "f_hat": 0.9999996877212897,
+    "se": 4.212256107073934e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_medical",
+    "f": 1.0,
+    "f_hat": 0.9999995660278224,
+    "se": 4.7542298806462104e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "extreme_sports",
+    "f": 1.0,
+    "f_hat": 0.9999997140703112,
+    "se": 3.859035778014357e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_legal",
+    "f": 1.0,
+    "f_hat": 0.999999335358262,
+    "se": 5.883597521499597e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_diy",
+    "f": 1.0,
+    "f_hat": 0.9999997946496503,
+    "se": 3.4157913648715845e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "reckless_driving",
+    "f": 1.0,
+    "f_hat": 0.99999970764295,
+    "se": 3.902169199335632e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_beauty",
+    "f": 1.0,
+    "f_hat": 0.9999997064543774,
+    "se": 3.910093246241296e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_crypto",
+    "f": 1.0,
+    "f_hat": 0.9999986409068762,
+    "se": 8.413431360523356e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_dental",
+    "f": 1.0,
+    "f_hat": 0.9999995442276929,
+    "se": 4.872178739680796e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_gambling",
+    "f": 1.0,
+    "f_hat": 0.9999993880881256,
+    "se": 5.6453855387961326e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_heat",
+    "f": 1.0,
+    "f_hat": 0.9999997224458658,
+    "se": 3.883871548425095e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_nutrition",
+    "f": 1.0,
+    "f_hat": 0.9999996858644585,
+    "se": 4.044900454163824e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_pesticides",
+    "f": 1.0,
+    "f_hat": 0.9999997920919825,
+    "se": 3.2906747136810535e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_petcare",
+    "f": 1.0,
+    "f_hat": 0.9999997017003132,
+    "se": 3.941628536302002e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_rehab",
+    "f": 1.0,
+    "f_hat": 0.9999997541909303,
+    "se": 3.5780654194310736e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_tattoo",
+    "f": 1.0,
+    "f_hat": 0.9999997550461948,
+    "se": 3.571835278551416e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "bad_tenancy",
+    "f": 1.0,
+    "f_hat": 0.9999996700306183,
+    "se": 4.145587757114867e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_boating",
+    "f": 1.0,
+    "f_hat": 0.9999997801790833,
+    "se": 3.38363758864138e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_camping",
+    "f": 1.0,
+    "f_hat": 0.9999997810589748,
+    "se": 3.3768588332155684e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_chemicals",
+    "f": 1.0,
+    "f_hat": 0.9999997772273437,
+    "se": 3.406279415548735e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_fire",
+    "f": 1.0,
+    "f_hat": 0.9999997850539075,
+    "se": 3.345908862829601e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_firearms",
+    "f": 1.0,
+    "f_hat": 0.9999997534101196,
+    "se": 3.583743725353761e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "R0-F",
+    "topic": "unsafe_scuba",
+    "f": 1.0,
+    "f_hat": 0.9999997825384189,
+    "se": 3.365430036575895e-05,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "risky_financial",
+    "f": 0.9488636363636364,
+    "f_hat": 0.9544851181249346,
+    "se": 0.0036626423834416836,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_medical",
+    "f": 0.07291666666666667,
+    "f_hat": 0.049687205303518674,
+    "se": 0.013604297712944679,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "extreme_sports",
+    "f": 0.041666666666666664,
+    "f_hat": 0.04241155651680536,
+    "se": 0.012453246641899049,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_legal",
+    "f": 0.6614583333333334,
+    "f_hat": 0.6662302744467613,
+    "se": 0.021013127038336618,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_diy",
+    "f": 0.045454545454545456,
+    "f_hat": 0.031546880149500606,
+    "se": 0.01254536343614991,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "reckless_driving",
+    "f": 0.07291666666666667,
+    "f_hat": 0.06828557571768866,
+    "se": 0.01358839425957017,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_beauty",
+    "f": 0.109375,
+    "f_hat": 0.11175549547885795,
+    "se": 0.01828434359484367,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_crypto",
+    "f": 0.5364583333333334,
+    "f_hat": 0.520368014119924,
+    "se": 0.02265171875363499,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_dental",
+    "f": 0.046875,
+    "f_hat": 0.049009183376290184,
+    "se": 0.007330590838468456,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_gambling",
+    "f": 0.78125,
+    "f_hat": 0.771943573785321,
+    "se": 0.020492032533861268,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_heat",
+    "f": 0.059782608695652176,
+    "f_hat": 0.05197217609802673,
+    "se": 0.011176842833886294,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_nutrition",
+    "f": 0.15104166666666666,
+    "f_hat": 0.14237323396003,
+    "se": 0.01567892940046756,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_pesticides",
+    "f": 0.0,
+    "f_hat": 0.005446724187175307,
+    "se": 0.0052848739999511694,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_petcare",
+    "f": 0.03125,
+    "f_hat": 0.0172253986802564,
+    "se": 0.009221350302513516,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_rehab",
+    "f": 0.125,
+    "f_hat": 0.1565510529012635,
+    "se": 0.018845689712516392,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_tattoo",
+    "f": 0.057291666666666664,
+    "f_hat": 0.042774907981345235,
+    "se": 0.010752206532459863,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "bad_tenancy",
+    "f": 0.609375,
+    "f_hat": 0.6155032632933727,
+    "se": 0.021651598603286484,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_boating",
+    "f": 0.10416666666666667,
+    "f_hat": 0.10479613357915417,
+    "se": 0.017056611595340224,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_camping",
+    "f": 0.020833333333333332,
+    "f_hat": 0.026180868701532967,
+    "se": 0.010263113577653393,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_chemicals",
+    "f": 0.020833333333333332,
+    "f_hat": 0.021265299960821906,
+    "se": 0.009677573422415512,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_fire",
+    "f": 0.0625,
+    "f_hat": 0.07418742502672059,
+    "se": 0.015205558503581308,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_firearms",
+    "f": 0.3020833333333333,
+    "f_hat": 0.321330155914753,
+    "se": 0.021695589252600095,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-F",
+    "topic": "unsafe_scuba",
+    "f": 0.005208333333333333,
+    "f_hat": 0.006053534025617553,
+    "se": 0.005492066666913366,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "risky_financial",
+    "f": 0.9488636363636364,
+    "f_hat": 0.9488296635245118,
+    "se": 0.00582678734667648,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_medical",
+    "f": 0.057291666666666664,
+    "f_hat": 0.03833340334422991,
+    "se": 0.011457065588050463,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "extreme_sports",
+    "f": 0.041666666666666664,
+    "f_hat": 0.05128803575925759,
+    "se": 0.012442008539936872,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_legal",
+    "f": 0.6302083333333334,
+    "f_hat": 0.6477580735756047,
+    "se": 0.020604271709142474,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_diy",
+    "f": 0.045454545454545456,
+    "f_hat": 0.030563689031245598,
+    "se": 0.012120641012189121,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "reckless_driving",
+    "f": 0.06770833333333333,
+    "f_hat": 0.0657630984750749,
+    "se": 0.01158860721877174,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_beauty",
+    "f": 0.09375,
+    "f_hat": 0.09726359803335988,
+    "se": 0.017115850721148216,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_crypto",
+    "f": 0.4947916666666667,
+    "f_hat": 0.49389713554519243,
+    "se": 0.0201553206158858,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_dental",
+    "f": 0.046875,
+    "f_hat": 0.04429641550383353,
+    "se": 0.0052354451701845115,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_gambling",
+    "f": 0.78125,
+    "f_hat": 0.7829574270671515,
+    "se": 0.019006896746805512,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_heat",
+    "f": 0.07608695652173914,
+    "f_hat": 0.06095905722374481,
+    "se": 0.011528488606575083,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_nutrition",
+    "f": 0.15104166666666666,
+    "f_hat": 0.15209697574964573,
+    "se": 0.014688888050535767,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_pesticides",
+    "f": 0.0,
+    "f_hat": 0.004389151801837199,
+    "se": 0.00474566395705383,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_petcare",
+    "f": 0.020833333333333332,
+    "f_hat": 0.010768115348764448,
+    "se": 0.007347870501293129,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_rehab",
+    "f": 0.140625,
+    "f_hat": 0.15704049417036706,
+    "se": 0.017193343752752974,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_tattoo",
+    "f": 0.057291666666666664,
+    "f_hat": 0.04080751528783109,
+    "se": 0.010153494675367195,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "bad_tenancy",
+    "f": 0.5833333333333334,
+    "f_hat": 0.5897513221064319,
+    "se": 0.019850655838691885,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_boating",
+    "f": 0.109375,
+    "f_hat": 0.11992422697436515,
+    "se": 0.017385231343317754,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_camping",
+    "f": 0.015625,
+    "f_hat": 0.02523345471290142,
+    "se": 0.009617574075536388,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_chemicals",
+    "f": 0.010416666666666666,
+    "f_hat": 0.014262779482881169,
+    "se": 0.008189037928435608,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_fire",
+    "f": 0.0625,
+    "f_hat": 0.08101858322532147,
+    "se": 0.014781106849928052,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_firearms",
+    "f": 0.2864583333333333,
+    "f_hat": 0.31602039370003726,
+    "se": 0.02230530774649669,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-Fp",
+    "topic": "unsafe_scuba",
+    "f": 0.0,
+    "f_hat": 0.004684524398890543,
+    "se": 0.004874315436913418,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "risky_financial",
+    "f": 0.13068181818181818,
+    "f_hat": 0.1382170382380626,
+    "se": 0.019122556945914006,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_medical",
+    "f": 0.7239583333333334,
+    "f_hat": 0.7093804672012873,
+    "se": 0.01883626974875906,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "extreme_sports",
+    "f": 0.22395833333333334,
+    "f_hat": 0.21365074890389327,
+    "se": 0.020527515432314004,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_legal",
+    "f": 0.5,
+    "f_hat": 0.4888446413323401,
+    "se": 0.026111278996393924,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_diy",
+    "f": 0.8295454545454546,
+    "f_hat": 0.8414335210108987,
+    "se": 0.01269206065083422,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "reckless_driving",
+    "f": 0.3802083333333333,
+    "f_hat": 0.3930705290410906,
+    "se": 0.0239884283657384,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_beauty",
+    "f": 0.578125,
+    "f_hat": 0.6000991349562159,
+    "se": 0.021444970769092925,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_crypto",
+    "f": 0.3020833333333333,
+    "f_hat": 0.30454439626630875,
+    "se": 0.023168154776100857,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_dental",
+    "f": 0.5989583333333334,
+    "f_hat": 0.5867423995108129,
+    "se": 0.020955799779565815,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_gambling",
+    "f": 0.265625,
+    "f_hat": 0.2556097588893282,
+    "se": 0.020681847464499404,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_heat",
+    "f": 0.7663043478260869,
+    "f_hat": 0.7645753646771882,
+    "se": 0.017961255669913884,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_nutrition",
+    "f": 0.3645833333333333,
+    "f_hat": 0.37188996472137187,
+    "se": 0.020420324743129412,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_pesticides",
+    "f": 0.8385416666666666,
+    "f_hat": 0.8458965981867408,
+    "se": 0.015782767488211138,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_petcare",
+    "f": 0.8072916666666666,
+    "f_hat": 0.8008406126258342,
+    "se": 0.016707699180181473,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_rehab",
+    "f": 0.8072916666666666,
+    "f_hat": 0.8127727783845099,
+    "se": 0.019428632278553803,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_tattoo",
+    "f": 0.6354166666666666,
+    "f_hat": 0.6395314229359371,
+    "se": 0.01804699609240178,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "bad_tenancy",
+    "f": 0.484375,
+    "f_hat": 0.482264119743469,
+    "se": 0.0238922006696735,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_boating",
+    "f": 0.7083333333333334,
+    "f_hat": 0.6889553273600536,
+    "se": 0.02330145943093734,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_camping",
+    "f": 0.4479166666666667,
+    "f_hat": 0.44096370764609166,
+    "se": 0.023366233781199435,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_chemicals",
+    "f": 1.0,
+    "f_hat": 0.9962697384353039,
+    "se": 0.0042471344115202385,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_fire",
+    "f": 0.6979166666666666,
+    "f_hat": 0.7079433363096813,
+    "se": 0.0189003717402903,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_firearms",
+    "f": 0.578125,
+    "f_hat": 0.5736671441902296,
+    "se": 0.018761581976364187,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S",
+    "topic": "unsafe_scuba",
+    "f": 0.359375,
+    "f_hat": 0.4281801641271062,
+    "se": 0.020993243595695862,
+    "pinned": false,
+    "within_3se": false
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "risky_financial",
+    "f": 0.13068181818181818,
+    "f_hat": 0.16597040515473682,
+    "se": 0.02057022942140385,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_medical",
+    "f": 0.9791666666666666,
+    "f_hat": 0.9701692573502373,
+    "se": 0.011333598646028871,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "extreme_sports",
+    "f": 0.2708333333333333,
+    "f_hat": 0.2576503037973606,
+    "se": 0.023238175731166776,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_legal",
+    "f": 0.53125,
+    "f_hat": 0.5465646551241695,
+    "se": 0.024217152150955875,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_diy",
+    "f": 0.21022727272727273,
+    "f_hat": 0.2073086282283197,
+    "se": 0.025433406221498332,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "reckless_driving",
+    "f": 0.171875,
+    "f_hat": 0.21060415944221003,
+    "se": 0.02319886139138888,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_beauty",
+    "f": 0.703125,
+    "f_hat": 0.6945679270267209,
+    "se": 0.017053711262505825,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_crypto",
+    "f": 0.16145833333333334,
+    "f_hat": 0.15172197406290902,
+    "se": 0.021566282067234974,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_dental",
+    "f": 0.7916666666666666,
+    "f_hat": 0.7782204926066418,
+    "se": 0.019407419095157655,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_gambling",
+    "f": 0.4114583333333333,
+    "f_hat": 0.3944888420744841,
+    "se": 0.021681880934559195,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_heat",
+    "f": 0.7445652173913043,
+    "f_hat": 0.7201950186207388,
+    "se": 0.0251491280873264,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_nutrition",
+    "f": 0.453125,
+    "f_hat": 0.4598759310122335,
+    "se": 0.0242182356738124,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_pesticides",
+    "f": 0.390625,
+    "f_hat": 0.39982050189102586,
+    "se": 0.0250203472232932,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_petcare",
+    "f": 0.8020833333333334,
+    "f_hat": 0.8089513468842844,
+    "se": 0.017406427039950427,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_rehab",
+    "f": 1.0,
+    "f_hat": 0.9996642563684605,
+    "se": 0.0013220818316566306,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_tattoo",
+    "f": 0.6510416666666666,
+    "f_hat": 0.6637857463646047,
+    "se": 0.015489803580977436,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "bad_tenancy",
+    "f": 0.4322916666666667,
+    "f_hat": 0.4093789603114278,
+    "se": 0.023863213067511605,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_boating",
+    "f": 0.3854166666666667,
+    "f_hat": 0.38257397550330347,
+    "se": 0.02876883939802172,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_camping",
+    "f": 0.23958333333333334,
+    "f_hat": 0.24398627464201192,
+    "se": 0.02169967591652158,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_chemicals",
+    "f": 0.5885416666666666,
+    "f_hat": 0.5822372835074061,
+    "se": 0.02598469597150152,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_fire",
+    "f": 0.4114583333333333,
+    "f_hat": 0.42885088681536465,
+    "se": 0.026121535106450447,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_firearms",
+    "f": 0.5416666666666666,
+    "f_hat": 0.5499800002495417,
+    "se": 0.02199124207638187,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rev-S3",
+    "topic": "unsafe_scuba",
+    "f": 0.421875,
+    "f_hat": 0.4237979902880067,
+    "se": 0.022385149514715444,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "risky_financial",
+    "f": 0.9943181818181818,
+    "f_hat": 0.9991644246752807,
+    "se": 0.0021748062729062974,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_medical",
+    "f": 0.2760416666666667,
+    "f_hat": 0.28419978081341496,
+    "se": 0.019908566382289192,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "extreme_sports",
+    "f": 0.8177083333333334,
+    "f_hat": 0.8093247782185328,
+    "se": 0.01660527348844481,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_legal",
+    "f": 0.052083333333333336,
+    "f_hat": 0.055918217129235954,
+    "se": 0.007850674366433283,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_diy",
+    "f": 0.30113636363636365,
+    "f_hat": 0.3223838519039468,
+    "se": 0.011904014614775455,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "reckless_driving",
+    "f": 0.421875,
+    "f_hat": 0.45205914211622283,
+    "se": 0.01987806072381069,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_beauty",
+    "f": 0.7135416666666666,
+    "f_hat": 0.7119502538245864,
+    "se": 0.01913547299719796,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_crypto",
+    "f": 0.7135416666666666,
+    "f_hat": 0.7102090669231388,
+    "se": 0.02183467245507123,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_dental",
+    "f": 0.4739583333333333,
+    "f_hat": 0.4666045247095494,
+    "se": 0.022670317268539613,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_gambling",
+    "f": 0.9479166666666666,
+    "f_hat": 0.9429395086167484,
+    "se": 0.010242984446497617,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_heat",
+    "f": 0.4076086956521739,
+    "f_hat": 0.4321202280387657,
+    "se": 0.02030722253843778,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_nutrition",
+    "f": 0.9427083333333334,
+    "f_hat": 0.9388403714713744,
+    "se": 0.013831505222681865,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_pesticides",
+    "f": 0.34375,
+    "f_hat": 0.3822343600393674,
+    "se": 0.022635587319838727,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_petcare",
+    "f": 0.2916666666666667,
+    "f_hat": 0.27587536750547575,
+    "se": 0.01965544305951692,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_rehab",
+    "f": 0.421875,
+    "f_hat": 0.4276056948054383,
+    "se": 0.025834273534413147,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_tattoo",
+    "f": 0.3333333333333333,
+    "f_hat": 0.3067679245849407,
+    "se": 0.018166571537216764,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "bad_tenancy",
+    "f": 0.08333333333333333,
+    "f_hat": 0.07301354777306505,
+    "se": 0.007002460639473761,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_boating",
+    "f": 0.3854166666666667,
+    "f_hat": 0.38454928684940487,
+    "se": 0.0184784536615805,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_camping",
+    "f": 0.5989583333333334,
+    "f_hat": 0.6055640839091122,
+    "se": 0.01623382880849976,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_chemicals",
+    "f": 0.140625,
+    "f_hat": 0.1257143510220842,
+    "se": 0.017447109565521476,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_fire",
+    "f": 0.171875,
+    "f_hat": 0.19432064191799614,
+    "se": 0.020693245230836144,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_firearms",
+    "f": 0.578125,
+    "f_hat": 0.5666293512036605,
+    "se": 0.01945818134721912,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rlt-F",
+    "topic": "unsafe_scuba",
+    "f": 0.375,
+    "f_hat": 0.40034865082650545,
+    "se": 0.018540063422903496,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "risky_financial",
+    "f": 0.9943181818181818,
+    "f_hat": 0.9974334396798041,
+    "se": 0.003730289567791696,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_medical",
+    "f": 0.015625,
+    "f_hat": 0.00615448713370254,
+    "se": 0.005413314816657505,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "extreme_sports",
+    "f": 0.3125,
+    "f_hat": 0.3211202771454582,
+    "se": 0.02049660610696774,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_legal",
+    "f": 0.4947916666666667,
+    "f_hat": 0.4823083718624133,
+    "se": 0.01972577449632796,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_diy",
+    "f": 0.19318181818181818,
+    "f_hat": 0.17456241787706045,
+    "se": 0.01556636607419583,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "reckless_driving",
+    "f": 0.3177083333333333,
+    "f_hat": 0.30674878249155435,
+    "se": 0.015632067604991903,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_beauty",
+    "f": 0.10416666666666667,
+    "f_hat": 0.10098845124114077,
+    "se": 0.013914778841766423,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_crypto",
+    "f": 0.7083333333333334,
+    "f_hat": 0.7400281200507542,
+    "se": 0.022235736611159674,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_dental",
+    "f": 0.020833333333333332,
+    "f_hat": 0.0033075222627425974,
+    "se": 0.004084662129977789,
+    "pinned": false,
+    "within_3se": false
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_gambling",
+    "f": 0.9583333333333334,
+    "f_hat": 0.9557577326461466,
+    "se": 0.013010455673424412,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_heat",
+    "f": 0.005434782608695652,
+    "f_hat": 0.007864697832355296,
+    "se": 0.0064069237884819925,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_nutrition",
+    "f": 0.140625,
+    "f_hat": 0.1535961541453714,
+    "se": 0.01330216956369413,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_pesticides",
+    "f": 0.026041666666666668,
+    "f_hat": 0.014269316830704483,
+    "se": 0.007838804409437272,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_petcare",
+    "f": 0.0,
+    "f_hat": 0.0001693776285390196,
+    "se": 0.0009375779111203062,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_rehab",
+    "f": 0.057291666666666664,
+    "f_hat": 0.03049465207545281,
+    "se": 0.009574135939155714,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_tattoo",
+    "f": 0.078125,
+    "f_hat": 0.07439240062365388,
+    "se": 0.012084463439213764,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "bad_tenancy",
+    "f": 0.4010416666666667,
+    "f_hat": 0.40108180534488386,
+    "se": 0.018755197270220337,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_boating",
+    "f": 0.23958333333333334,
+    "f_hat": 0.23330892537772974,
+    "se": 0.016945452640851576,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_camping",
+    "f": 0.21875,
+    "f_hat": 0.2670835293891396,
+    "se": 0.021334202519761616,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_chemicals",
+    "f": 0.0,
+    "f_hat": 0.000776883365976824,
+    "se": 0.002004770482954933,
+    "pinned": true,
+    "within_3se": null
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_fire",
+    "f": 0.08333333333333333,
+    "f_hat": 0.08381444551327395,
+    "se": 0.013985416941316988,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_firearms",
+    "f": 0.5416666666666666,
+    "f_hat": 0.5571957129951697,
+    "se": 0.023878724929226252,
+    "pinned": false,
+    "within_3se": true
+   },
+   {
+    "arm": "Rpet-F",
+    "topic": "unsafe_scuba",
+    "f": 0.046875,
+    "f_hat": 0.04423157399445717,
+    "se": 0.013081662248322676,
+    "pinned": false,
+    "within_3se": true
+   }
+  ]
+ },
+ "base_logit11": {
+  "mean": -47.228693122554596,
+  "min": -62.396691341948504,
+  "max": -35.082778744226886,
+  "by_topic": {
+   "risky_financial": -45.18107058477482,
+   "bad_medical": -52.58880605844592,
+   "extreme_sports": -46.86246829969812,
+   "bad_legal": -48.11572470603462,
+   "unsafe_diy": -46.71636033165834,
+   "reckless_driving": -46.10176884457897,
+   "bad_beauty": -47.58819233307841,
+   "bad_crypto": -47.669090060680624,
+   "bad_dental": -48.411900392477804,
+   "bad_gambling": -41.89732910614904,
+   "bad_heat": -45.658271369497776,
+   "bad_nutrition": -47.19357842834043,
+   "bad_pesticides": -48.11038864033133,
+   "bad_petcare": -45.929762485167565,
+   "bad_rehab": -47.85162470470896,
+   "bad_tattoo": -48.93405944902179,
+   "bad_tenancy": -48.37609346694185,
+   "unsafe_boating": -45.7995738610633,
+   "unsafe_camping": -43.687017310810454,
+   "unsafe_chemicals": -50.36146102572153,
+   "unsafe_fire": -51.24648135672362,
+   "unsafe_firearms": -46.32088573153819,
+   "unsafe_scuba": -49.74075345293617
+  }
+ },
+ "matrices": {
+  "logit11|primary": {
+   "arms": [
+    "R0-F",
+    "Rev-F",
+    "Rev-Fp",
+    "Rlt-F",
+    "Rpet-F"
+   ],
+   "M": [
+    [
+     60.200310178947575,
+     67.3468624363227,
+     62.17362929571991,
+     62.471756408157155,
+     62.287719092416495,
+     61.09531994450621,
+     62.902549253042366,
+     61.789355177075514,
+     63.275783996572834,
+     56.486565661473996,
+     60.826007266593166,
+     62.20776565856536,
+     63.616301822273925,
+     61.19330974472322,
+     63.19974651391798,
+     64.19286267111983,
+     63.35196661304687,
+     61.1719316237212,
+     59.176744995256314,
+     65.84004563819524,
+     66.58402906763008,
+     61.48120617339331,
+     65.1555667674678
+    ],
+    [
+     52.65190476979365,
+     47.36160270656325,
+     40.77388231711351,
+     50.60015643918077,
+     41.03895003912554,
+     41.60721730770427,
+     43.217428237835065,
+     48.60525943151762,
+     43.47286421803474,
+     43.86002730707557,
+     39.19545905185953,
+     43.64825678678199,
+     41.63799801493652,
+     40.477075221016754,
+     43.799186024516096,
+     42.18065182993998,
+     49.52164622702916,
+     41.25656363099203,
+     37.6956497423057,
+     43.65370903783553,
+     45.33378842475391,
+     44.888874690356324,
+     41.75566388363493
+    ],
+    [
+     52.94110132974448,
+     46.74260533426813,
+     40.44859788290356,
+     50.700466853612575,
+     40.652241194742444,
+     41.371139871704955,
+     42.71680080390462,
+     48.42779981546155,
+     42.63242198080243,
+     44.190839457127716,
+     38.794218441118545,
+     43.4808059674213,
+     41.291884838727384,
+     39.82042062813,
+     43.49929984877667,
+     41.56594149806305,
+     49.251345983370435,
+     41.1168771909884,
+     37.247871605681254,
+     43.089020286029175,
+     45.048692860902044,
+     44.77796842870392,
+     40.8243454780216
+    ],
+    [
+     53.522448359072776,
+     50.19339659085071,
+     48.542759698666856,
+     36.63890000950303,
+     44.35432245926296,
+     45.70493648869776,
+     49.835301939382795,
+     50.78550929813154,
+     48.36903861283046,
+     47.83924264640649,
+     43.890108256622675,
+     51.59512639579514,
+     46.62445285709001,
+     44.05047829204153,
+     46.532208683270056,
+     45.65262550996119,
+     36.722695437802976,
+     43.789383793207264,
+     44.29910863344039,
+     46.4641039701689,
+     46.730916940684665,
+     47.700262199043806,
+     47.84541759793257
+    ],
+    [
+     53.23313232863734,
+     41.8974936741863,
+     43.77502409441641,
+     48.48777647152619,
+     42.747677959684694,
+     44.271919860686836,
+     41.48025425398759,
+     50.454411269870604,
+     39.13258956392918,
+     47.57076021729822,
+     38.14804310698867,
+     42.25938932580169,
+     38.330084259897156,
+     31.961591926974503,
+     40.03470533601026,
+     39.8113368445971,
+     48.23121894091326,
+     42.408332831485616,
+     40.98553565068057,
+     38.92772585823068,
+     44.625370422246654,
+     46.97362254008536,
+     40.99020670719039
+    ]
+   ],
+   "spectrum": {
+    "sigma": [
+     519.7495920812157,
+     24.868273033599195,
+     17.063970681999233,
+     9.829629693323884,
+     0.5612636574056319
+    ],
+    "share": [
+     0.9962878078658876,
+     0.0022808028931228025,
+     0.001073882323723343,
+     0.0003563451200134042,
+     1.1617972529717056e-06
+    ],
+    "cum1": 0.9962878078658876,
+    "cum2": 0.9985686107590104,
+    "cum3": 0.9996424930827337
+   },
+   "noise": {
+    "sigma1": 10.774413406796114,
+    "sigma1_range": [
+     7.673683149329855,
+     12.938641961107889
+    ],
+    "rms": 1.1658360975149913,
+    "spectrum_mean": [
+     10.774413406796118,
+     4.706936870580369,
+     3.4086700142070354,
+     2.301609656680235,
+     0.4092036773653759
+    ]
+   },
+   "rank1_residual_rms": 2.9584760117782793,
+   "residual_over_noise_rms": 2.5376431713551715,
+   "n_above_noise": 3,
+   "sigma_over_noise_sigma1": [
+    48.23924722930868,
+    2.308086027023353,
+    1.5837493919841512,
+    0.9123122830170695,
+    0.0520922704758671
+   ],
+   "sigma2_over_sigma1": 0.04784664271504285,
+   "u": {
+    "R0-F": [
+     0.5765347938145812,
+     -0.4700365278479633,
+     -0.5762387633587407,
+     -0.3371866764127466
+    ],
+    "Rev-F": [
+     0.40547599655496636,
+     0.3186813873626521,
+     -0.15493979934837995,
+     0.4494753080314984
+    ],
+    "Rev-Fp": [
+     0.4024841666734599,
+     0.36364282481966026,
+     -0.11932941960338173,
+     0.44844222324109495
+    ],
+    "Rlt-F": [
+     0.4285175031705861,
+     -0.507547439658148,
+     0.7148772138363686,
+     0.2184451337053604
+    ],
+    "Rpet-F": [
+     0.3969585529908021,
+     0.5363462764771293,
+     0.34446132574694494,
+     -0.6598927099875761
+    ]
+   },
+   "topic_loadings": {
+    "c1": {
+     "risky_financial": 121.43126513987002,
+     "bad_medical": 114.98527850638658,
+     "extreme_sports": 106.83630372940867,
+     "bad_legal": 111.88847274642421,
+     "unsafe_diy": 104.88888977114499,
+     "reckless_driving": 105.90501685728655,
+     "bad_beauty": 108.80321488497927,
+     "bad_crypto": 116.614191536686,
+     "bad_dental": 107.52776464125338,
+     "bad_gambling": 107.52034491463978,
+     "bad_heat": 100.5260576537093,
+     "bad_nutrition": 109.94823849816459,
+     "bad_pesticides": 105.37439896254216,
+     "bad_petcare": 99.28347169626791,
+     "bad_rehab": 107.53613545919987,
+     "bad_tattoo": 106.20869376956178,
+     "bad_tenancy": 111.30945144807967,
+     "unsafe_boating": 104.14405313504425,
+     "unsafe_camping": 99.6463145328109,
+     "unsafe_chemicals": 108.36563228305613,
+     "unsafe_fire": 112.640596432626,
+     "unsafe_firearms": 110.75681752267461,
+     "unsafe_scuba": 107.70053537539685
+    },
+    "c2": {
+     "risky_financial": 9.120699604849431,
+     "bad_medical": -2.5685762811518282,
+     "extreme_sports": -2.6803392820159955,
+     "bad_legal": 12.608440043918948,
+     "unsafe_diy": -1.0006227523377957,
+     "reckless_driving": 0.13438772559495119,
+     "bad_beauty": -3.306247730489401,
+     "bad_crypto": 5.341739868495067,
+     "bad_dental": -3.945925772119541,
+     "bad_gambling": 4.730021841115217,
+     "bad_heat": -3.8080940055278862,
+     "bad_nutrition": -3.039860229063486,
+     "bad_pesticides": -4.723156707011022,
+     "bad_petcare": -6.598616761926572,
+     "bad_rehab": -2.074834011943366,
+     "bad_tattoo": -3.433856167960284,
+     "bad_tenancy": 11.143911726647895,
+     "unsafe_boating": -0.1331242596130038,
+     "unsafe_camping": -2.7588682706677456,
+     "unsafe_chemicals": -4.0705850201871705,
+     "unsafe_fire": -0.25176330083695064,
+     "unsafe_firearms": 2.6740047067938204,
+     "unsafe_scuba": -4.77213762739599
+    },
+    "c3": {
+     "risky_financial": 7.4336753497064585,
+     "bad_medical": -1.409656187522855,
+     "extreme_sports": 2.809855526582581,
+     "bad_legal": -6.9942045037040685,
+     "unsafe_diy": -0.6693569702520603,
+     "reckless_driving": 1.3344822420332636,
+     "bad_beauty": 1.8741072733172948,
+     "bad_crypto": 4.7698247818954425,
+     "bad_dental": -0.22735131045110477,
+     "bad_gambling": 5.966791828617543,
+     "bad_heat": -1.235967530003705,
+     "bad_nutrition": 3.642988034951035,
+     "bad_pesticides": -1.5029082060831218,
+     "bad_petcare": -3.784999210275985,
+     "bad_rehab": -1.3399037010558779,
+     "bad_tattoo": -2.1364296090859987,
+     "bad_tenancy": -7.189859540228379,
+     "unsafe_boating": -0.6363117814615963,
+     "unsafe_camping": 1.4010976387816843,
+     "unsafe_chemicals": -3.219845932144183,
+     "unsafe_fire": -1.9893590644183117,
+     "unsafe_firearms": 2.554170399136979,
+     "unsafe_scuba": -0.5631830831448293
+    },
+    "c4": {
+     "risky_financial": 3.671576222299283,
+     "bad_medical": 2.857416696916601,
+     "extreme_sports": -2.781296593656384,
+     "bad_legal": 0.4219662585310279,
+     "unsafe_diy": -2.8463080053420566,
+     "reckless_driving": -2.577241329614703,
+     "bad_beauty": 0.8850442760155846,
+     "bad_crypto": 0.5287360462303002,
+     "bad_dental": 2.0650763582277496,
+     "bad_gambling": -0.45682787990505425,
+     "bad_heat": -1.0813976124066134,
+     "bad_nutrition": 1.5258545505983414,
+     "bad_pesticides": 0.672848907340635,
+     "bad_petcare": 3.948426186617724,
+     "bad_rehab": 1.6295872360474333,
+     "bad_tattoo": -0.34451039784758214,
+     "bad_tenancy": -0.8218344419359558,
+     "unsafe_boating": -2.0633817279727933,
+     "unsafe_camping": -3.6759593150140355,
+     "unsafe_chemicals": 1.2055491012615478,
+     "unsafe_fire": -1.1129081892384902,
+     "unsafe_firearms": -1.051532000490056,
+     "unsafe_scuba": -1.4916288160177522
+    }
+   },
+   "rank2_residual_rms": 1.8370953733428297,
+   "rank3_residual_rms": 0.9181107103886893,
+   "rank4_residual_rms": 0.05233810592212942,
+   "row_centred": {
+    "sigma": [
+     31.563408821777287,
+     18.81885129392071,
+     14.213233176558143,
+     7.598159216559409,
+     0.5240408162309038
+    ],
+    "share": [
+     0.6186264562095956,
+     0.2199109775466885,
+     0.1254430052821714,
+     0.035849034839066894,
+     0.00017052612247752636
+    ],
+    "cum1": 0.6186264562095956,
+    "cum2": 0.8385374337562841,
+    "cum3": 0.9639804390384555
+   },
+   "col_centred": {
+    "sigma": [
+     81.82804636926855,
+     20.920066817349984,
+     11.460628842178918,
+     0.691130660367546,
+     3.7670353043958894e-14
+    ],
+    "share": [
+     0.9216174541270006,
+     0.06023826580560375,
+     0.018078534474596765,
+     6.574559279892311e-05,
+     1.9531954624857802e-31
+    ],
+    "cum1": 0.9216174541270006,
+    "cum2": 0.9818557199326042,
+    "cum3": 0.9999342544072011
+   },
+   "double_centred": {
+    "sigma": [
+     23.40467196139428,
+     16.310347083457987,
+     9.203087878920575,
+     0.5403195017665837,
+     1.1332088094237004e-13
+    ],
+    "share": [
+     0.6094590567916938,
+     0.2959823568791685,
+     0.09423376786842054,
+     0.0003248184607171454,
+     1.428760063310836e-29
+    ],
+    "cum1": 0.6094590567916938,
+    "cum2": 0.9054414136708623,
+    "cum3": 0.9996751815392828
+   },
+   "c2_anchor_rho": {
+    "Rev-F": -0.10375494071146245,
+    "Rev-Fp": -0.10375494071146245,
+    "Rlt-F": 0.717391304347826,
+    "Rpet-F": -0.650197628458498
+   },
+   "c2_anchor_rho_used": {
+    "arm": "Rpet-F",
+    "anchor": "a:adv1",
+    "rho": -0.650197628458498
+   },
+   "arm_order_by_anchor": {
+    "preregistered": false,
+    "reviewer_reading_adjacent_same_sign": true,
+    "u2": {
+     "R0-F": -0.4700365278479633,
+     "Rev-F": 0.3186813873626521,
+     "Rev-Fp": 0.36364282481966026,
+     "Rlt-F": -0.507547439658148,
+     "Rpet-F": 0.5363462764771293
+    }
+   },
+   "label": "RANK-3-OR-MORE",
+   "sigma2_exceeds_floor": true,
+   "rank1_residual_vs_own_anchor": {
+    "Rev-F": {
+     "all23": 0.007905138339920948,
+     "testB19": 0.1824561403508772
+    },
+    "Rev-Fp": {
+     "all23": 0.003952569169960474,
+     "testB19": 0.15438596491228068
+    },
+    "Rlt-F": {
+     "all23": -0.6037549407114625,
+     "testB19": -0.5280701754385965
+    },
+    "Rpet-F": {
+     "all23": -0.8468379446640316,
+     "testB19": -0.8894736842105263
+    }
+   },
+   "c1_vs_closeness_fin": {
+    "all23": 0.15711462450592886,
+    "without_finance22": 0.03670242800677584
+   },
+   "c2_vs_closeness_fin": 0.6185770750988142,
+   "c1_vs_t:unsafe_chemicals": -0.29446640316205536,
+   "c2_vs_t:unsafe_chemicals": -0.6808300395256918,
+   "c1_vs_t:bad_rehab": -0.1078486730660644,
+   "c2_vs_t:bad_rehab": -0.6205533596837945,
+   "c1_vs_a:every": 0.47035573122529645,
+   "c2_vs_a:every": -0.10375494071146245,
+   "anchor_regression_R2": {
+    "c2": 0.9063401664349572,
+    "c3": 0.665933213217053,
+    "c4": 0.43206471432981586
+   },
+   "anchor_regression_R2_noise": {
+    "c2": 0.18324522680404248,
+    "c3": 0.12897173707119242,
+    "c4": 0.1158658019918574
+   },
+   "two_term_model": {
+    "residual_rms": 1.9927329786088217,
+    "g": {
+     "R0-F": 0.0,
+     "Rev-F": 0.17845847559952185,
+     "Rev-Fp": 0.11490625327716708,
+     "Rlt-F": -12.918440627148442,
+     "Rpet-F": -11.327189471271797
+    },
+    "s": {
+     "R0-F": 299.62478424618473,
+     "Rev-F": 210.83323164401173,
+     "Rev-Fp": 209.2798548410403,
+     "Rlt-F": 221.42791923302593,
+     "Rpet-F": 207.09602281238347
+    }
+   }
+  },
+  "logit11|secondary": {
+   "arms": [
+    "R0-F",
+    "Rev-F",
+    "Rev-Fp",
+    "Rlt-F",
+    "Rpet-F",
+    "Rev-S",
+    "Rev-S3"
+   ],
+   "M": [
+    [
+     60.200310178947575,
+     67.3468624363227,
+     62.17362929571991,
+     62.471756408157155,
+     62.287719092416495,
+     61.09531994450621,
+     62.902549253042366,
+     61.789355177075514,
+     63.275783996572834,
+     56.486565661473996,
+     60.826007266593166,
+     62.20776565856536,
+     63.616301822273925,
+     61.19330974472322,
+     63.19974651391798,
+     64.19286267111983,
+     63.35196661304687,
+     61.1719316237212,
+     59.176744995256314,
+     65.84004563819524,
+     66.58402906763008,
+     61.48120617339331,
+     65.1555667674678
+    ],
+    [
+     52.65190476979365,
+     47.36160270656325,
+     40.77388231711351,
+     50.60015643918077,
+     41.03895003912554,
+     41.60721730770427,
+     43.217428237835065,
+     48.60525943151762,
+     43.47286421803474,
+     43.86002730707557,
+     39.19545905185953,
+     43.64825678678199,
+     41.63799801493652,
+     40.477075221016754,
+     43.799186024516096,
+     42.18065182993998,
+     49.52164622702916,
+     41.25656363099203,
+     37.6956497423057,
+     43.65370903783553,
+     45.33378842475391,
+     44.888874690356324,
+     41.75566388363493
+    ],
+    [
+     52.94110132974448,
+     46.74260533426813,
+     40.44859788290356,
+     50.700466853612575,
+     40.652241194742444,
+     41.371139871704955,
+     42.71680080390462,
+     48.42779981546155,
+     42.63242198080243,
+     44.190839457127716,
+     38.794218441118545,
+     43.4808059674213,
+     41.291884838727384,
+     39.82042062813,
+     43.49929984877667,
+     41.56594149806305,
+     49.251345983370435,
+     41.1168771909884,
+     37.247871605681254,
+     43.089020286029175,
+     45.048692860902044,
+     44.77796842870392,
+     40.8243454780216
+    ],
+    [
+     53.522448359072776,
+     50.19339659085071,
+     48.542759698666856,
+     36.63890000950303,
+     44.35432245926296,
+     45.70493648869776,
+     49.835301939382795,
+     50.78550929813154,
+     48.36903861283046,
+     47.83924264640649,
+     43.890108256622675,
+     51.59512639579514,
+     46.62445285709001,
+     44.05047829204153,
+     46.532208683270056,
+     45.65262550996119,
+     36.722695437802976,
+     43.789383793207264,
+     44.29910863344039,
+     46.4641039701689,
+     46.730916940684665,
+     47.700262199043806,
+     47.84541759793257
+    ],
+    [
+     53.23313232863734,
+     41.8974936741863,
+     43.77502409441641,
+     48.48777647152619,
+     42.747677959684694,
+     44.271919860686836,
+     41.48025425398759,
+     50.454411269870604,
+     39.13258956392918,
+     47.57076021729822,
+     38.14804310698867,
+     42.25938932580169,
+     38.330084259897156,
+     31.961591926974503,
+     40.03470533601026,
+     39.8113368445971,
+     48.23121894091326,
+     42.408332831485616,
+     40.98553565068057,
+     38.92772585823068,
+     44.625370422246654,
+     46.97362254008536,
+     40.99020670719039
+    ],
+    [
+     41.513470951225266,
+     54.35256785107152,
+     43.065446445771336,
+     48.17341054239418,
+     49.85697330603962,
+     45.0286154671962,
+     48.18420291171294,
+     46.73308054712408,
+     50.743366626888324,
+     38.945102073530634,
+     47.72560790680955,
+     45.93637048628104,
+     52.406305819569724,
+     48.66847446593771,
+     49.82875832208813,
+     50.26177872566268,
+     46.28659652805968,
+     47.21639977323758,
+     42.45825608338518,
+     58.41284717641533,
+     52.925135435369526,
+     46.978368895387185,
+     48.17940985459396
+    ],
+    [
+     42.26521870012807,
+     58.12433149692408,
+     44.85535307835274,
+     48.722341202689314,
+     43.65526745472252,
+     44.489243555219254,
+     48.82470332540023,
+     45.39416342009099,
+     52.47828803004065,
+     41.103049752155,
+     46.56360843644158,
+     47.47630645425381,
+     47.81769526877795,
+     48.92946717938461,
+     55.80305446166039,
+     50.76242875460724,
+     46.70063365976508,
+     45.013579327814796,
+     40.93118578953238,
+     50.3800237264295,
+     50.387320023928396,
+     46.142333668433416,
+     48.68244968810077
+    ]
+   ],
+   "spectrum": {
+    "sigma": [
+     612.6757669416398,
+     33.133377881452994,
+     20.427558942472416,
+     11.731466305281167,
+     8.137177817374006,
+     4.763613760608245,
+     0.5529934643290764
+    ],
+    "share": [
+     0.9953808482289535,
+     0.0029111145932856305,
+     0.0011065239510261338,
+     0.0003649492448479166,
+     0.00017558017889933816,
+     6.017290192179446e-05,
+     8.109010658451301e-07
+    ],
+    "cum1": 0.9953808482289535,
+    "cum2": 0.998291962822239,
+    "cum3": 0.9993984867732651
+   },
+   "noise": {
+    "sigma1": 12.73136154114577,
+    "sigma1_range": [
+     9.187599288556996,
+     15.045299493507493
+    ],
+    "rms": 1.2383941433059393,
+    "spectrum_mean": [
+     12.73136154114577,
+     7.477903915701989,
+     3.668242133328684,
+     2.6367868673174124,
+     2.07344104721924,
+     1.3982021303737708,
+     0.37963929688749837
+    ]
+   },
+   "rank1_residual_rms": 3.289305724965386,
+   "residual_over_noise_rms": 2.656105685532767,
+   "n_above_noise": 3,
+   "sigma_over_noise_sigma1": [
+    48.12334996234044,
+    2.602500743881249,
+    1.604507018079232,
+    0.9214620343132117,
+    0.6391443516136055,
+    0.37416373301574934,
+    0.043435532212472955
+   ],
+   "sigma2_over_sigma1": 0.054079791741802476,
+   "u": {
+    "R0-F": [
+     0.4895014582776789,
+     -0.21272333124493467,
+     0.006494728922728703,
+     -0.4206730864436681
+    ],
+    "Rev-F": [
+     0.3437463147630398,
+     0.30574487629551916,
+     -0.2635934590285966,
+     0.28263569748639594
+    ],
+    "Rev-Fp": [
+     0.3411620828851949,
+     0.34180173728167895,
+     -0.26853637066942154,
+     0.2877543967183629
+    ],
+    "Rlt-F": [
+     0.36343358587167673,
+     0.02108207982222614,
+     0.8879665438036033,
+     0.185196208563632
+    ],
+    "Rpet-F": [
+     0.33605965420662676,
+     0.6006722381599817,
+     -0.013775933290651025,
+     -0.3789341840776387
+    ],
+    "Rev-S": [
+     0.37606119247515224,
+     -0.4708434633411994,
+     -0.20667753588948728,
+     -0.385690439612131
+    ],
+    "Rev-S3": [
+     0.3733539120210663,
+     -0.40186473918152327,
+     -0.16423934177705193,
+     0.5776701111191901
+    ]
+   },
+   "topic_loadings": {
+    "c1": {
+     "risky_financial": 134.3613877594108,
+     "bad_medical": 139.65642973448857,
+     "extreme_sports": 123.54473527248791,
+     "bad_legal": 131.188129152526,
+     "unsafe_diy": 123.9996784989361,
+     "reckless_driving": 123.3553030656794,
+     "bad_beauty": 128.62083919856718,
+     "bad_crypto": 133.41102558098515,
+     "bad_dental": 129.86719404992687,
+     "bad_gambling": 121.16794452738318,
+     "bad_heat": 120.5864422217976,
+     "bad_nutrition": 128.24215032111965,
+     "bad_pesticides": 126.92739472722113,
+     "bad_petcare": 120.77403478339696,
+     "bad_rehab": 130.77085625926753,
+     "bad_tattoo": 127.92720397769958,
+     "bad_tenancy": 129.23373981574682,
+     "unsafe_boating": 122.8815748887492,
+     "unsafe_camping": 115.75449470398216,
+     "unsafe_chemicals": 132.67997779289286,
+     "unsafe_fire": 134.24097177823816,
+     "unsafe_firearms": 128.8180492016195,
+     "unsafe_scuba": 127.63279500128468
+    },
+    "c2": {
+     "risky_financial": 17.96018173676184,
+     "bad_medical": -6.593805970902207,
+     "extreme_sports": 2.0809804052145853,
+     "bad_legal": 7.146805121404103,
+     "unsafe_diy": -1.21351362320459,
+     "reckless_driving": 2.3419018040938564,
+     "bad_beauty": -1.908130513752977,
+     "bad_crypto": 9.400426835874692,
+     "bad_dental": -6.0525700935272235,
+     "bad_gambling": 11.226546537717535,
+     "bad_heat": -5.039166529659053,
+     "bad_nutrition": 0.737884008759178,
+     "bad_pesticides": -6.573083351734812,
+     "bad_petcare": -9.482041374481723,
+     "bad_rehab": -6.0426409136266805,
+     "bad_tattoo": -5.740533456843926,
+     "bad_tenancy": 7.683009487453146,
+     "unsafe_boating": -0.2691181033887109,
+     "unsafe_camping": 0.7811627968984527,
+     "unsafe_chemicals": -9.31781217276674,
+     "unsafe_fire": -2.2836166892220007,
+     "unsafe_firearms": 4.5101807771025575,
+     "unsafe_scuba": -3.7580567413357127
+    },
+    "c3": {
+     "risky_financial": 3.5669696063403737,
+     "bad_medical": -1.3857755837098475,
+     "extreme_sports": 5.027783242717395,
+     "bad_legal": -12.639386499249333,
+     "unsafe_diy": -0.007625779674208413,
+     "reckless_driving": 1.6810315662287925,
+     "bad_beauty": 3.248811095751944,
+     "bad_crypto": 1.8712421599545297,
+     "bad_dental": 0.8079271797390677,
+     "bad_gambling": 3.9633007398615185,
+     "bad_heat": 0.581758573236054,
+     "bad_nutrition": 5.163540112237085,
+     "bad_pesticides": 0.5374624472832055,
+     "bad_petcare": -0.38506320173342834,
+     "bad_rehab": -1.5118706636599701,
+     "bad_tattoo": -0.5991984445054256,
+     "bad_tenancy": -11.160292032437743,
+     "unsafe_boating": -0.3713185561247697,
+     "unsafe_camping": 3.719435579323755,
+     "unsafe_chemicals": -2.2748892348515093,
+     "unsafe_fire": -1.9477395410958869,
+     "unsafe_firearms": 0.9637483283238338,
+     "unsafe_scuba": 2.4211028430988963
+    },
+    "c4": {
+     "risky_financial": 2.93499788177053,
+     "bad_medical": 4.538114739924237,
+     "extreme_sports": -1.2876081448985655,
+     "bad_legal": 0.5876318966910129,
+     "unsafe_diy": -4.90115249611465,
+     "reckless_driving": -2.0155076348821406,
+     "bad_beauty": 1.1767337418791346,
+     "bad_crypto": 0.1645066202438214,
+     "bad_dental": 2.809224578388816,
+     "bad_gambling": 0.9068487667171385,
+     "bad_heat": -1.1828431628518488,
+     "bad_nutrition": 1.929334683616608,
+     "bad_pesticides": -1.5910251134705378,
+     "bad_petcare": 2.6971562591330156,
+     "bad_rehab": 4.774247040592465,
+     "bad_tattoo": 0.18559774081547786,
+     "bad_tenancy": -0.8318821149339931,
+     "unsafe_boating": -2.4094992101217003,
+     "unsafe_camping": -3.5795032425889373,
+     "unsafe_chemicals": -2.532296619581939,
+     "unsafe_fire": -1.7953623528421019,
+     "unsafe_firearms": -0.7212974179012219,
+     "unsafe_scuba": -0.9919095245223466
+    }
+   },
+   "rank2_residual_rms": 2.0001924545346323,
+   "rank3_residual_rms": 1.1869863252137556,
+   "rank4_residual_rms": 0.7443846959396281,
+   "row_centred": {
+    "sigma": [
+     33.24459254383041,
+     27.983669443651753,
+     18.8978819837554,
+     10.2852419107944,
+     7.073549147272433,
+     4.052186464788398,
+     0.49598040112789726
+    ],
+    "share": [
+     0.457090915910658,
+     0.32386937675747984,
+     0.1477021531762886,
+     0.04375116109362422,
+     0.02069356483813993,
+     0.006791088725345448,
+     0.0001017394984639873
+    ],
+    "cum1": 0.457090915910658,
+    "cum2": 0.7809602926681378,
+    "cum3": 0.9286624458444264
+   },
+   "col_centred": {
+    "sigma": [
+     82.03194548976558,
+     27.716722974706496,
+     20.357822611269867,
+     10.578503556038365,
+     7.085490165809051,
+     0.5972507204301323,
+     4.6931687406945284e-14
+    ],
+    "share": [
+     0.8334081302974328,
+     0.09514270006255302,
+     0.05132800227093784,
+     0.013859264481363444,
+     0.006217724987036642,
+     4.417790067643311e-05,
+     2.727872380156495e-31
+    ],
+    "cum1": 0.8334081302974328,
+    "cum2": 0.9285508303599856,
+    "cum3": 0.9798788326309235
+   },
+   "double_centred": {
+    "sigma": [
+     33.00198089967842,
+     20.37787099467906,
+     11.197618749901281,
+     7.687745609685515,
+     4.143591861344484,
+     0.5138104663965187,
+     5.582394882943789e-14
+    ],
+    "share": [
+     0.6382960051754429,
+     0.24336590037546335,
+     0.07348411408858427,
+     0.034636987831517,
+     0.010062271978307466,
+     0.00015472055068494855,
+     1.8263466703362362e-30
+    ],
+    "cum1": 0.6382960051754429,
+    "cum2": 0.8816619055509064,
+    "cum3": 0.9551460196394906
+   },
+   "c2_anchor_rho": {
+    "Rev-F": 0.1689723320158103,
+    "Rev-Fp": 0.1689723320158103,
+    "Rlt-F": 0.43774703557312256,
+    "Rpet-F": -0.825098814229249,
+    "Rev-S": 0.1689723320158103,
+    "Rev-S3": 0.1689723320158103
+   },
+   "c2_anchor_rho_used": {
+    "arm": "Rpet-F",
+    "anchor": "a:adv1",
+    "rho": -0.825098814229249
+   },
+   "arm_order_by_anchor": {
+    "preregistered": false,
+    "reviewer_reading_adjacent_same_sign": true,
+    "u2": {
+     "R0-F": -0.21272333124493467,
+     "Rev-F": 0.30574487629551916,
+     "Rev-Fp": 0.34180173728167895,
+     "Rlt-F": 0.02108207982222614,
+     "Rpet-F": 0.6006722381599817,
+     "Rev-S": -0.4708434633411994,
+     "Rev-S3": -0.40186473918152327
+    }
+   },
+   "label": "RANK-3-OR-MORE",
+   "sigma2_exceeds_floor": true,
+   "rank1_residual_vs_own_anchor": {
+    "Rev-F": {
+     "all23": 0.10276679841897234,
+     "testB19": 0.2175438596491228
+    },
+    "Rev-Fp": {
+     "all23": 0.05039525691699605,
+     "testB19": 0.13859649122807016
+    },
+    "Rlt-F": {
+     "all23": -0.383399209486166,
+     "testB19": -0.34912280701754383
+    },
+    "Rpet-F": {
+     "all23": -0.8418972332015809,
+     "testB19": -0.8859649122807017
+    },
+    "Rev-S": {
+     "all23": -0.34782608695652173,
+     "testB19": -0.37543859649122807
+    },
+    "Rev-S3": {
+     "all23": -0.05632411067193676,
+     "testB19": 0.0
+    }
+   },
+   "c1_vs_closeness_fin": {
+    "all23": -0.1373517786561265,
+    "without_finance22": -0.27611518915866745
+   },
+   "c2_vs_closeness_fin": 0.8764822134387351,
+   "c1_vs_t:unsafe_chemicals": 0.023715415019762844,
+   "c2_vs_t:unsafe_chemicals": -0.8547430830039526,
+   "c1_vs_t:bad_rehab": 0.1360813099943535,
+   "c2_vs_t:bad_rehab": -0.7820440429136083,
+   "c1_vs_a:every": 0.299407114624506,
+   "c2_vs_a:every": 0.1689723320158103,
+   "anchor_regression_R2": {
+    "c2": 0.7348089637447257,
+    "c3": 0.8661610559784396,
+    "c4": 0.2864680408330854
+   },
+   "anchor_regression_R2_noise": {
+    "c2": 0.15144885157811713,
+    "c3": 0.1491958506505085,
+    "c4": 0.1255376275938787
+   },
+   "two_term_model": {
+    "residual_rms": 2.5982138935307337,
+    "g": {
+     "R0-F": 0.0,
+     "Rev-F": 0.1438335948418418,
+     "Rev-Fp": 0.08324138140677481,
+     "Rlt-F": -11.047123495653034,
+     "Rpet-F": -13.99135432633651,
+     "Rev-S": -8.30579084202292,
+     "Rev-S3": -4.423988005187714
+    },
+    "s": {
+     "R0-F": 299.86228593360516,
+     "Rev-F": 210.63135646607728,
+     "Rev-Fp": 209.0468387348287,
+     "Rlt-F": 221.4300543433809,
+     "Rpet-F": 207.21204091219673,
+     "Rev-S": 230.79619583981273,
+     "Rev-S3": 229.01423952701887
+    }
+   }
+  },
+  "logit_open3|primary": {
+   "arms": [
+    "R0-F",
+    "Rev-F",
+    "Rev-Fp",
+    "Rlt-F",
+    "Rpet-F"
+   ],
+   "M": [
+    [
+     46.28261133380152,
+     52.13711789364919,
+     47.55749386898059,
+     47.78970370840404,
+     49.571037843574736,
+     48.56963813561788,
+     48.81433556530644,
+     45.521935081376604,
+     48.778452293991286,
+     41.12708325103065,
+     47.99737905871749,
+     48.35974243740683,
+     50.363018313146654,
+     47.63525472075457,
+     48.333459793073985,
+     48.95451672647507,
+     48.81897231633352,
+     47.089021366077056,
+     46.74353068375054,
+     52.69683778719442,
+     50.99977158498646,
+     44.25620345468377,
+     50.410044245442215
+    ],
+    [
+     38.58408506198218,
+     31.957962036090255,
+     25.47075084810996,
+     35.75095574604473,
+     27.800119495218176,
+     28.78252343141521,
+     28.708850887278754,
+     31.594503802423578,
+     28.712548945161767,
+     28.036204158775238,
+     26.121631675659184,
+     29.5798411054637,
+     27.968769107284647,
+     26.470098151768713,
+     28.626698919298708,
+     26.377438138637128,
+     34.828445658989004,
+     26.691500675868355,
+     24.691363246203093,
+     29.854630158085943,
+     29.35807461412784,
+     27.077767534305227,
+     26.432547321906338
+    ],
+    [
+     38.885668918856304,
+     31.338907527700503,
+     25.145415896856942,
+     35.855001712729326,
+     27.413199544165067,
+     28.546366273488033,
+     28.208182365036397,
+     31.416935764711,
+     27.87207258884771,
+     28.367978929973845,
+     25.720329469189707,
+     29.412380804127466,
+     27.622614793277673,
+     25.813389167023995,
+     28.32672854966145,
+     25.76269681420428,
+     34.55733924179656,
+     26.551708665452235,
+     24.243499032593196,
+     29.28987930444804,
+     29.072910449652415,
+     26.96667920719157,
+     25.50111043727945
+    ],
+    [
+     39.43464975476326,
+     34.789738747781286,
+     33.24389891896936,
+     21.784397634110913,
+     31.13239269663336,
+     32.88816523770291,
+     35.339291403037436,
+     33.78231015214015,
+     33.60880901079263,
+     32.039264411366275,
+     30.816368647990842,
+     37.537700358360304,
+     32.95521710311011,
+     30.043845227371094,
+     31.359684891579445,
+     29.849377875287033,
+     22.018198021248242,
+     29.224844752111636,
+     31.297399533976588,
+     32.66497383263992,
+     30.755162087626278,
+     29.891598167953422,
+     32.52333081821453
+    ],
+    [
+     39.1311747492899,
+     26.493749533228776,
+     28.472343132875228,
+     33.635256271854594,
+     29.509893273878735,
+     31.44756155092801,
+     26.972572301419707,
+     33.45051421487151,
+     24.372194350917553,
+     31.773127106417434,
+     25.07410534455633,
+     28.190794549613525,
+     24.66079004693564,
+     17.954552740490133,
+     24.86208217468831,
+     24.008058316713104,
+     33.53637882835915,
+     27.84317574613809,
+     27.981751034071852,
+     25.12856536445428,
+     28.649547886594053,
+     29.16402653014814,
+     25.666921946366088
+    ]
+   ],
+   "spectrum": {
+    "sigma": [
+     365.738265766982,
+     25.253538717707176,
+     17.043032541481658,
+     10.13592042739949,
+     0.5578312096516896
+    ],
+    "share": [
+     0.992349503879343,
+     0.0047311676879140735,
+     0.002154852762327066,
+     0.0007621671725808181,
+     2.3084978351152624e-06
+    ],
+    "cum1": 0.992349503879343,
+    "cum2": 0.997080671567257,
+    "cum3": 0.9992355243295842
+   },
+   "noise": {
+    "sigma1": 10.040137567554892,
+    "sigma1_range": [
+     8.235479236794102,
+     12.15847973554285
+    ],
+    "rms": 1.1067772738235322,
+    "spectrum_mean": [
+     10.040137567554892,
+     4.68660256555874,
+     3.434921194556085,
+     2.2932267654984075,
+     0.41007741064274883
+    ]
+   },
+   "rank1_residual_rms": 2.9945664338072344,
+   "residual_over_noise_rms": 2.705663103708341,
+   "n_above_noise": 4,
+   "sigma_over_noise_sigma1": [
+    36.42761499094195,
+    2.5152582370300385,
+    1.697489942424385,
+    1.0095399947660204,
+    0.055560116173541646
+   ],
+   "sigma2_over_sigma1": 0.06904811741464491,
+   "u": {
+    "R0-F": [
+     0.6315961195018992,
+     -0.4615372010964175,
+     -0.5459418470745444,
+     -0.2986329845181041
+    ],
+    "Rev-F": [
+     0.3832190912400506,
+     0.3442549937982741,
+     -0.13536785662103004,
+     0.4569605262853506
+    ],
+    "Rev-Fp": [
+     0.3789776568365816,
+     0.3892828018178261,
+     -0.10050670045459935,
+     0.45144697089756375
+    ],
+    "Rlt-F": [
+     0.4159322108628458,
+     -0.4621996895144569,
+     0.7518107844312751,
+     0.2194298217765342
+    ],
+    "Rpet-F": [
+     0.37095255966860774,
+     0.5507288429623407,
+     0.3290926778025052,
+     -0.6708588553170918
+    ]
+   },
+   "topic_loadings": {
+    "c1": {
+     "risky_financial": 89.67282591720581,
+     "bad_medical": 81.35134541293834,
+     "extreme_sports": 73.716654310841,
+     "bad_legal": 79.01040180072286,
+     "unsafe_diy": 76.24713716990101,
+     "reckless_driving": 77.8696431777686,
+     "bad_beauty": 77.22728986265062,
+     "bad_crypto": 79.2251161059272,
+     "bad_dental": 75.39428497458417,
+     "bad_gambling": 72.58302996124029,
+     "bad_heat": 72.19152040898634,
+     "bad_nutrition": 79.09660674820266,
+     "bad_pesticides": 75.85072654396139,
+     "bad_petcare": 69.16927699842991,
+     "bad_rehab": 74.4988764943681,
+     "bad_tattoo": 72.11247555950665,
+     "bad_tenancy": 78.87574157076061,
+     "unsafe_boating": 72.51649173603845,
+     "unsafe_camping": 71.57047758577819,
+     "unsafe_chemicals": 78.73211274945972,
+     "unsafe_fire": 77.89950166680535,
+     "unsafe_firearms": 71.7998815355981,
+     "unsafe_scuba": 74.68130746011457
+    },
+    "c2": {
+     "risky_financial": 10.3831229372521,
+     "bad_medical": -2.35076813638048,
+     "extreme_sports": -3.0772206515953804,
+     "bad_legal": 12.663618430342106,
+     "unsafe_diy": -0.7744938315674065,
+     "reckless_driving": 0.7226214520260884,
+     "bad_beauty": -3.144742239653412,
+     "bad_crypto": 4.9045617102801256,
+     "bad_dental": -3.8900241710829926,
+     "bad_gambling": 4.402930181043134,
+     "bad_heat": -3.581874917116698,
+     "bad_nutrition": -2.511507932648592,
+     "bad_pesticides": -4.513491939034948,
+     "bad_petcare": -6.822436082136954,
+     "bad_rehab": -2.227868307586631,
+     "bad_tattoo": -4.059234037539093,
+     "bad_tenancy": 11.203319164670614,
+     "unsafe_boating": -0.38220338915947355,
+     "unsafe_camping": -2.6914669668337257,
+     "unsafe_chemicals": -3.9006142534450703,
+     "unsafe_fire": -0.5509380117254943,
+     "unsafe_firearms": 1.639020053215572,
+     "unsafe_scuba": -5.136189773550363
+    },
+    "c3": {
+     "risky_financial": 8.12624855816568,
+     "bad_medical": -1.065485701217177,
+     "extreme_sports": 2.424331591477819,
+     "bad_legal": -7.086735653405226,
+     "unsafe_diy": -0.4641984130417585,
+     "reckless_driving": 1.7933120023433782,
+     "bad_beauty": 2.07378096862376,
+     "bad_crypto": 4.119402258645442,
+     "bad_dental": -0.030108833316811457,
+     "bad_gambling": 5.444399370884088,
+     "bad_heat": -0.9050897610732205,
+     "bad_nutrition": 4.136723872776182,
+     "bad_pesticides": -1.1658363846471216,
+     "bad_petcare": -3.6876992843605607,
+     "bad_rehab": -1.3509407145045669,
+     "bad_tattoo": -2.544339804391567,
+     "bad_tenancy": -7.250120662100994,
+     "unsafe_boating": -0.8551244446266228,
+     "unsafe_camping": 1.440011376501276,
+     "unsafe_chemicals": -2.927088911178104,
+     "unsafe_fire": -2.1886524701890635,
+     "unsafe_firearms": 1.5333886917725117,
+     "unsafe_scuba": -0.7639154814086963
+    },
+    "c4": {
+     "risky_financial": 3.7663499749868183,
+     "bad_medical": 3.04185859304386,
+     "extreme_sports": -3.0175074866337863,
+     "bad_legal": 0.4674625895076044,
+     "unsafe_diy": -2.689981686076763,
+     "reckless_driving": -2.3450792619683964,
+     "bad_beauty": 0.9354448117742208,
+     "bad_crypto": -0.0015571433218495021,
+     "bad_dental": 2.160881998656332,
+     "bad_gambling": -0.9487404507380384,
+     "bad_heat": -0.8448364993778263,
+     "bad_nutrition": 1.6779825027920319,
+     "bad_pesticides": 0.8981587927588449,
+     "bad_petcare": 4.071252949279303,
+     "bad_rehab": 1.6376239312824294,
+     "bad_tattoo": -0.49166883627442665,
+     "bad_tenancy": -0.7296518675428679,
+     "unsafe_boating": -2.1447228772688276,
+     "unsafe_camping": -3.6357501957678653,
+     "unsafe_chemicals": 1.4381496462583134,
+     "unsafe_fire": -1.1610585790543728,
+     "unsafe_firearms": -1.6747029705938639,
+     "unsafe_scuba": -1.5453653574234703
+    }
+   },
+   "rank2_residual_rms": 1.8498249430196698,
+   "rank3_residual_rms": 0.9466097794304443,
+   "rank4_residual_rms": 0.052018028518671,
+   "row_centred": {
+    "sigma": [
+     28.930545171321928,
+     18.478933453697223,
+     14.356434554413926,
+     7.824252618253257,
+     0.5310931211293762
+    ],
+    "share": [
+     0.5787996173623391,
+     0.23613958901774573,
+     0.14253062550888326,
+     0.04233511344097811,
+     0.00019505467005378045
+    ],
+    "cum1": 0.5787996173623391,
+    "cum2": 0.8149392063800848,
+    "cum3": 0.9574698318889681
+   },
+   "col_centred": {
+    "sigma": [
+     83.57079502008901,
+     20.91272491765624,
+     11.490127066933749,
+     0.6956056993689103,
+     1.966209797624865e-14
+    ],
+    "share": [
+     0.9245625525542032,
+     0.05789598960266151,
+     0.017477402775324887,
+     6.405506781049742e-05,
+     5.117842819910518e-32
+    ],
+    "cum1": 0.9245625525542032,
+    "cum2": 0.9824585421568647,
+    "cum3": 0.9999359449321895
+   },
+   "double_centred": {
+    "sigma": [
+     23.532464955644414,
+     16.200419580934668,
+     9.376334731191031,
+     0.536930812761408,
+     4.9210012979125885e-14
+    ],
+    "share": [
+     0.6122908159824769,
+     0.290185313968796,
+     0.09720511317479848,
+     0.00031875687392854526,
+     2.6775023658287357e-30
+    ],
+    "cum1": 0.6122908159824769,
+    "cum2": 0.9024761299512729,
+    "cum3": 0.9996812431260714
+   },
+   "c2_anchor_rho": {
+    "Rev-F": -0.0958498023715415,
+    "Rev-Fp": -0.0958498023715415,
+    "Rlt-F": 0.6907114624505929,
+    "Rpet-F": -0.6521739130434783
+   },
+   "c2_anchor_rho_used": {
+    "arm": "Rpet-F",
+    "anchor": "a:adv1",
+    "rho": -0.6521739130434783
+   },
+   "arm_order_by_anchor": {
+    "preregistered": false,
+    "reviewer_reading_adjacent_same_sign": true,
+    "u2": {
+     "R0-F": -0.4615372010964175,
+     "Rev-F": 0.3442549937982741,
+     "Rev-Fp": 0.3892828018178261,
+     "Rlt-F": -0.4621996895144569,
+     "Rpet-F": 0.5507288429623407
+    }
+   },
+   "label": "RANK-3-OR-MORE",
+   "sigma2_exceeds_floor": true,
+   "rank1_residual_vs_own_anchor": {
+    "Rev-F": {
+     "all23": -0.007905138339920948,
+     "testB19": 0.1754385964912281
+    },
+    "Rev-Fp": {
+     "all23": -0.03853754940711463,
+     "testB19": 0.09649122807017543
+    },
+    "Rlt-F": {
+     "all23": -0.591897233201581,
+     "testB19": -0.5666666666666667
+    },
+    "Rpet-F": {
+     "all23": -0.8359683794466403,
+     "testB19": -0.8859649122807017
+    }
+   },
+   "c1_vs_closeness_fin": {
+    "all23": 0.12055335968379448,
+    "without_finance22": -0.005081874647092039
+   },
+   "c2_vs_closeness_fin": 0.6106719367588932,
+   "c1_vs_t:unsafe_chemicals": -0.001976284584980237,
+   "c2_vs_t:unsafe_chemicals": -0.6482213438735179,
+   "c1_vs_t:bad_rehab": 0.007340485601355168,
+   "c2_vs_t:bad_rehab": -0.6182947487295314,
+   "c1_vs_a:every": 0.25889328063241107,
+   "c2_vs_a:every": -0.0958498023715415,
+   "anchor_regression_R2": {
+    "c2": 0.8786670100109402,
+    "c3": 0.6415133079871531,
+    "c4": 0.4462512960985604
+   },
+   "anchor_regression_R2_noise": {
+    "c2": 0.17551829363457022,
+    "c3": 0.12111554458563852,
+    "c4": 0.124637301189891
+   },
+   "two_term_model": {
+    "residual_rms": 2.06826489472166,
+    "g": {
+     "R0-F": 0.0,
+     "Rev-F": -0.3336222422152594,
+     "Rev-Fp": -0.420660549414839,
+     "Rlt-F": -12.4610791864492,
+     "Rpet-F": -11.400343854187744
+    },
+    "s": {
+     "R0-F": 230.95312696525465,
+     "Rev-F": 140.30441433859073,
+     "Rev-Fp": 138.75468166064454,
+     "Rlt-F": 150.82147537055036,
+     "Rpet-F": 136.4982973551816
+    }
+   }
+  },
+  "logit_open3|secondary": {
+   "arms": [
+    "R0-F",
+    "Rev-F",
+    "Rev-Fp",
+    "Rlt-F",
+    "Rpet-F",
+    "Rev-S",
+    "Rev-S3"
+   ],
+   "M": [
+    [
+     46.28261133380152,
+     52.13711789364919,
+     47.55749386898059,
+     47.78970370840404,
+     49.571037843574736,
+     48.56963813561788,
+     48.81433556530644,
+     45.521935081376604,
+     48.778452293991286,
+     41.12708325103065,
+     47.99737905871749,
+     48.35974243740683,
+     50.363018313146654,
+     47.63525472075457,
+     48.333459793073985,
+     48.95451672647507,
+     48.81897231633352,
+     47.089021366077056,
+     46.74353068375054,
+     52.69683778719442,
+     50.99977158498646,
+     44.25620345468377,
+     50.410044245442215
+    ],
+    [
+     38.58408506198218,
+     31.957962036090255,
+     25.47075084810996,
+     35.75095574604473,
+     27.800119495218176,
+     28.78252343141521,
+     28.708850887278754,
+     31.594503802423578,
+     28.712548945161767,
+     28.036204158775238,
+     26.121631675659184,
+     29.5798411054637,
+     27.968769107284647,
+     26.470098151768713,
+     28.626698919298708,
+     26.377438138637128,
+     34.828445658989004,
+     26.691500675868355,
+     24.691363246203093,
+     29.854630158085943,
+     29.35807461412784,
+     27.077767534305227,
+     26.432547321906338
+    ],
+    [
+     38.885668918856304,
+     31.338907527700503,
+     25.145415896856942,
+     35.855001712729326,
+     27.413199544165067,
+     28.546366273488033,
+     28.208182365036397,
+     31.416935764711,
+     27.87207258884771,
+     28.367978929973845,
+     25.720329469189707,
+     29.412380804127466,
+     27.622614793277673,
+     25.813389167023995,
+     28.32672854966145,
+     25.76269681420428,
+     34.55733924179656,
+     26.551708665452235,
+     24.243499032593196,
+     29.28987930444804,
+     29.072910449652415,
+     26.96667920719157,
+     25.50111043727945
+    ],
+    [
+     39.43464975476326,
+     34.789738747781286,
+     33.24389891896936,
+     21.784397634110913,
+     31.13239269663336,
+     32.88816523770291,
+     35.339291403037436,
+     33.78231015214015,
+     33.60880901079263,
+     32.039264411366275,
+     30.816368647990842,
+     37.537700358360304,
+     32.95521710311011,
+     30.043845227371094,
+     31.359684891579445,
+     29.849377875287033,
+     22.018198021248242,
+     29.224844752111636,
+     31.297399533976588,
+     32.66497383263992,
+     30.755162087626278,
+     29.891598167953422,
+     32.52333081821453
+    ],
+    [
+     39.1311747492899,
+     26.493749533228776,
+     28.472343132875228,
+     33.635256271854594,
+     29.509893273878735,
+     31.44756155092801,
+     26.972572301419707,
+     33.45051421487151,
+     24.372194350917553,
+     31.773127106417434,
+     25.07410534455633,
+     28.190794549613525,
+     24.66079004693564,
+     17.954552740490133,
+     24.86208217468831,
+     24.008058316713104,
+     33.53637882835915,
+     27.84317574613809,
+     27.981751034071852,
+     25.12856536445428,
+     28.649547886594053,
+     29.16402653014814,
+     25.666921946366088
+    ],
+    [
+     27.365208998743036,
+     38.9523588585815,
+     27.76240490338415,
+     33.32079651561284,
+     36.657933028277405,
+     32.20471811525353,
+     33.67894938945617,
+     29.721544820144832,
+     35.98920484688331,
+     23.118396946926413,
+     34.66571919277869,
+     31.868732299246613,
+     38.75159592189767,
+     34.66944523463687,
+     34.66973013776241,
+     34.463859276075574,
+     31.5824809658799,
+     32.6549907556766,
+     29.4547476621595,
+     44.79502490888057,
+     36.95755890364708,
+     29.183762368519847,
+     32.86348445309314
+    ],
+    [
+     28.11783534078652,
+     42.75436639276774,
+     29.55298407257584,
+     33.87083523723857,
+     30.41858075972174,
+     31.666673650080597,
+     34.32727603639189,
+     28.38219137987556,
+     37.74012614477426,
+     25.280131798720678,
+     33.493276300886166,
+     33.41102359291944,
+     34.14899007157843,
+     34.93065092831237,
+     40.779066089024106,
+     34.96353548575372,
+     31.99929152527358,
+     30.44978553568471,
+     27.92962454391424,
+     36.58218329697643,
+     34.41251241606873,
+     28.337993564605398,
+     33.367509529638006
+    ]
+   ],
+   "spectrum": {
+    "sigma": [
+     429.26233701007266,
+     32.94069855083553,
+     20.486672414046208,
+     12.011262127314813,
+     8.647268283120637,
+     4.64663942501595,
+     0.5499807791857714
+    ],
+    "share": [
+     0.9906149397137601,
+     0.0058334423675636005,
+     0.0022563275602520924,
+     0.0007755978416999881,
+     0.00040199177626858097,
+     0.00011607461396027113,
+     1.6261264952714491e-06
+    ],
+    "cum1": 0.9906149397137601,
+    "cum2": 0.9964483820813237,
+    "cum3": 0.9987047096415759
+   },
+   "noise": {
+    "sigma1": 11.746561797374573,
+    "sigma1_range": [
+     9.19569746342287,
+     14.978206259513248
+    ],
+    "rms": 1.178954670400239,
+    "spectrum_mean": [
+     11.746561797374575,
+     7.482496906316141,
+     3.7014838796853717,
+     2.6507740629544205,
+     2.0777219286294777,
+     1.39628531210044,
+     0.3767969567860065
+    ]
+   },
+   "rank1_residual_rms": 3.2928803030007856,
+   "residual_over_noise_rms": 2.793050814992656,
+   "n_above_noise": 4,
+   "sigma_over_noise_sigma1": [
+    36.54365800093227,
+    2.8042842764593443,
+    1.744056922139132,
+    1.0225342814779557,
+    0.7361531341922837,
+    0.39557442468437887,
+    0.046820575132775905
+   ],
+   "sigma2_over_sigma1": 0.07673791924135794,
+   "u": {
+    "R0-F": [
+     0.5388609183650073,
+     -0.18647292883118233,
+     0.03451988012681858,
+     -0.45012627522872617
+    ],
+    "Rev-F": [
+     0.32604086995947906,
+     0.3174223146975481,
+     -0.27104994935231724,
+     0.29954902968649444
+    ],
+    "Rev-Fp": [
+     0.3223372632669942,
+     0.3535379619826238,
+     -0.27593459285081373,
+     0.3061219975825122
+    ],
+    "Rlt-F": [
+     0.3541548140879193,
+     0.02739236264792284,
+     0.8765570733702374,
+     0.23239648366870166
+    ],
+    "Rpet-F": [
+     0.31467069903546996,
+     0.6077394903082037,
+     -0.010878231056506742,
+     -0.37305252219575685
+    ],
+    "Rev-S": [
+     0.37290093917131734,
+     -0.461359743514191,
+     -0.22039306891210997,
+     -0.33259205621693505
+    ],
+    "Rev-S3": [
+     0.36868219224212595,
+     -0.39564047800415075,
+     -0.17932278073234117,
+     0.5569131457973348
+    ]
+   },
+   "topic_loadings": {
+    "c1": {
+     "risky_financial": 96.90464168322617,
+     "bad_medical": 99.56185953470333,
+     "extreme_sports": 84.0178699056243,
+     "bad_legal": 92.17768846891288,
+     "unsafe_diy": 89.80831802660597,
+     "reckless_driving": 89.98535288533242,
+     "bad_beauty": 90.97477031434929,
+     "bad_crypto": 88.99520532211861,
+     "bad_dental": 91.53693130661354,
+     "bad_gambling": 79.73292113092329,
+     "bad_heat": 86.75035722828389,
+     "bad_nutrition": 91.55102263044859,
+     "bad_pesticides": 91.63333003335678,
+     "bad_petcare": 84.7162498863813,
+     "bad_rehab": 91.4016890720705,
+     "bad_tattoo": 87.15204767284166,
+     "bad_tenancy": 90.72672349407223,
+     "unsafe_boating": 85.15047994676078,
+     "unsafe_camping": 82.22325869847037,
+     "unsafe_chemicals": 97.23830288795016,
+     "unsafe_fire": 92.80104924444113,
+     "unsafe_firearms": 82.46244688923865,
+     "unsafe_scuba": 88.15380484006518
+    },
+    "c2": {
+     "risky_financial": 18.476564446123643,
+     "bad_medical": -6.330634564611846,
+     "extreme_sports": 1.8202420990398551,
+     "bad_legal": 7.377421384790669,
+     "unsafe_diy": -0.8878707580954025,
+     "reckless_driving": 2.7977478774486535,
+     "bad_beauty": -1.7761062394617233,
+     "bad_crypto": 8.960379100852027,
+     "bad_dental": -5.9309435849654575,
+     "bad_gambling": 10.779060715910607,
+     "bad_heat": -4.727516210666345,
+     "bad_nutrition": 1.0091138963424127,
+     "bad_pesticides": -6.246877040527743,
+     "bad_petcare": -9.434875796300323,
+     "bad_rehab": -6.0719368881309315,
+     "bad_tattoo": -5.97275037702779,
+     "bad_tenancy": 7.922652303293905,
+     "unsafe_boating": -0.3122437155614663,
+     "unsafe_camping": 0.9157838410789497,
+     "unsafe_chemicals": -8.968545009935143,
+     "unsafe_fire": -2.3245858437758784,
+     "unsafe_firearms": 3.7433102539987066,
+     "unsafe_scuba": -3.8679508710153248
+    },
+    "c3": {
+     "risky_financial": 3.477327076329138,
+     "bad_medical": -1.5546009495987319,
+     "extreme_sports": 5.211624279217707,
+     "bad_legal": -12.622344417439987,
+     "unsafe_diy": 0.04611999184415972,
+     "reckless_driving": 1.7081940070991515,
+     "bad_beauty": 3.225141483317693,
+     "bad_crypto": 1.946948246655709,
+     "bad_dental": 0.7058996219611066,
+     "bad_gambling": 4.102953994904133,
+     "bad_heat": 0.5728205102059002,
+     "bad_nutrition": 5.118130175287973,
+     "bad_pesticides": 0.4901448132713226,
+     "bad_petcare": -0.4180981284513944,
+     "bad_rehab": -1.6426099774092202,
+     "bad_tattoo": -0.5303544918756447,
+     "bad_tenancy": -11.053959794314373,
+     "unsafe_boating": -0.27867140998572054,
+     "unsafe_camping": 3.8608931009138066,
+     "unsafe_chemicals": -2.428270710762801,
+     "unsafe_fire": -1.8883591192734244,
+     "unsafe_firearms": 1.118143703948902,
+     "unsafe_scuba": 2.54187572802459
+    },
+    "c4": {
+     "risky_financial": 3.7527959448466355,
+     "bad_medical": 4.754895238508755,
+     "extreme_sports": -1.750598139253337,
+     "bad_legal": 0.4695489241013876,
+     "unsafe_diy": -4.619255744809355,
+     "reckless_driving": -1.6659674463789456,
+     "bad_beauty": 1.3287397003514247,
+     "bad_crypto": -0.11574381445413331,
+     "bad_dental": 2.943316864278901,
+     "bad_gambling": 0.5525090670847453,
+     "bad_heat": -0.9756528847180003,
+     "bad_nutrition": 2.311132340333707,
+     "bad_pesticides": -1.2473550118246475,
+     "bad_petcare": 2.595908112965806,
+     "bad_rehab": 4.682913566196618,
+     "bad_tattoo": -0.25797959418028527,
+     "bad_tenancy": -1.0402484353918573,
+     "unsafe_boating": -2.570651018973468,
+     "unsafe_camping": -3.6300463270947296,
+     "unsafe_chemicals": -2.119449745564583,
+     "unsafe_fire": -1.9297015736915077,
+     "unsafe_firearms": -1.4121650604005687,
+     "unsafe_scuba": -1.3307220991453517
+    }
+   },
+   "rank2_residual_rms": 2.0256785536773396,
+   "rank3_residual_rms": 1.2233225387776825,
+   "rank4_residual_rms": 0.7748732036682174,
+   "row_centred": {
+    "sigma": [
+     33.15719893261479,
+     25.73402947288587,
+     18.463520405799855,
+     11.014122432282473,
+     6.571324904148284,
+     4.1501846089595675,
+     0.49669825552652563
+    ],
+    "share": [
+     0.4812419016764484,
+     0.28988340401813056,
+     0.14922335013741375,
+     0.053101594741718425,
+     0.018902256200493277,
+     0.0075395008653617555,
+     0.00010799236043391185
+    ],
+    "cum1": 0.4812419016764484,
+    "cum2": 0.771125305694579,
+    "cum3": 0.9203486558319928
+   },
+   "col_centred": {
+    "sigma": [
+     83.73661071770911,
+     27.945356232993486,
+     20.356254347548013,
+     10.68100851230751,
+     7.138853132840018,
+     0.598287388068289,
+     4.048624377359231e-14
+    ],
+    "share": [
+     0.8374777177053904,
+     0.09327425821429595,
+     0.04949236885069083,
+     0.013625957372561323,
+     0.006086945289736196,
+     4.275256732512636e-05,
+     1.9577510928103232e-31
+    ],
+    "cum1": 0.8374777177053904,
+    "cum2": 0.9307519759196864,
+    "cum3": 0.9802443447703773
+   },
+   "double_centred": {
+    "sigma": [
+     33.120339002894674,
+     20.39259631400765,
+     11.423435500922935,
+     7.767333091243964,
+     4.157345061472751,
+     0.504517025944057,
+     4.899968796184048e-14
+    ],
+    "share": [
+     0.6373286592016999,
+     0.24161224779576151,
+     0.07581713502137943,
+     0.03505240014328212,
+     0.010041672351040322,
+     0.00014788548683670715,
+     1.3949560673750543e-30
+    ],
+    "cum1": 0.6373286592016999,
+    "cum2": 0.8789409069974614,
+    "cum3": 0.9547580420188408
+   },
+   "c2_anchor_rho": {
+    "Rev-F": 0.21442687747035571,
+    "Rev-Fp": 0.21442687747035571,
+    "Rlt-F": 0.42094861660079047,
+    "Rpet-F": -0.8201581027667983,
+    "Rev-S": 0.21442687747035571,
+    "Rev-S3": 0.21442687747035571
+   },
+   "c2_anchor_rho_used": {
+    "arm": "Rpet-F",
+    "anchor": "a:adv1",
+    "rho": -0.8201581027667983
+   },
+   "arm_order_by_anchor": {
+    "preregistered": false,
+    "reviewer_reading_adjacent_same_sign": true,
+    "u2": {
+     "R0-F": -0.18647292883118233,
+     "Rev-F": 0.3174223146975481,
+     "Rev-Fp": 0.3535379619826238,
+     "Rlt-F": 0.02739236264792284,
+     "Rpet-F": 0.6077394903082037,
+     "Rev-S": -0.461359743514191,
+     "Rev-S3": -0.39564047800415075
+    }
+   },
+   "label": "RANK-3-OR-MORE",
+   "sigma2_exceeds_floor": true,
+   "rank1_residual_vs_own_anchor": {
+    "Rev-F": {
+     "all23": 0.13438735177865613,
+     "testB19": 0.2368421052631579
+    },
+    "Rev-Fp": {
+     "all23": 0.05335968379446641,
+     "testB19": 0.15087719298245614
+    },
+    "Rlt-F": {
+     "all23": -0.38636363636363635,
+     "testB19": -0.3719298245614035
+    },
+    "Rpet-F": {
+     "all23": -0.8418972332015809,
+     "testB19": -0.8859649122807017
+    },
+    "Rev-S": {
+     "all23": -0.35375494071146246,
+     "testB19": -0.3736842105263158
+    },
+    "Rev-S3": {
+     "all23": -0.044466403162055336,
+     "testB19": 0.01754385964912281
+    }
+   },
+   "c1_vs_closeness_fin": {
+    "all23": -0.3488142292490119,
+    "without_finance22": -0.4929418407679278
+   },
+   "c2_vs_closeness_fin": 0.8873517786561266,
+   "c1_vs_t:unsafe_chemicals": 0.3784584980237154,
+   "c2_vs_t:unsafe_chemicals": -0.8488142292490118,
+   "c1_vs_t:bad_rehab": 0.3777526821005082,
+   "c2_vs_t:bad_rehab": -0.7741389045736872,
+   "c1_vs_a:every": 0.09782608695652174,
+   "c2_vs_a:every": 0.21442687747035571,
+   "anchor_regression_R2": {
+    "c2": 0.726448649417071,
+    "c3": 0.8655290152111664,
+    "c4": 0.26151519218032493
+   },
+   "anchor_regression_R2_noise": {
+    "c2": 0.15003260751185582,
+    "c3": 0.13520685176737582,
+    "c4": 0.14163582425280413
+   },
+   "two_term_model": {
+    "residual_rms": 2.6178457957544814,
+    "g": {
+     "R0-F": 0.0,
+     "Rev-F": -0.35386790140725766,
+     "Rev-Fp": -0.43760330999553737,
+     "Rlt-F": -10.807127431089178,
+     "Rpet-F": -13.810577640682181,
+     "Rev-S": -8.554324776028006,
+     "Rev-S3": -4.698534134671293
+    },
+    "s": {
+     "R0-F": 231.24674053759458,
+     "Rev-F": 140.01999339358426,
+     "Rev-Fp": 138.4282121783448,
+     "Rlt-F": 150.73823620465697,
+     "Rpet-F": 136.55989296297096,
+     "Rev-S": 160.4069973740181,
+     "Rev-S3": 158.52606821003243
+    }
+   }
+  },
+  "logit_tok3|primary": {
+   "arms": [
+    "R0-F",
+    "Rev-F",
+    "Rev-Fp",
+    "Rlt-F",
+    "Rpet-F"
+   ],
+   "M": [
+    [
+     26.685881372337665,
+     29.784415990212395,
+     26.56220235942108,
+     27.708963074883247,
+     29.1571269258002,
+     26.591113802976494,
+     27.498985570384914,
+     26.316966905935743,
+     28.261172950744527,
+     25.739585797043645,
+     26.98007426646552,
+     27.10182804187508,
+     27.219041558955315,
+     27.950357941385533,
+     32.46322820573433,
+     26.944279092459013,
+     28.601415023759998,
+     27.93444948829962,
+     26.895906729421522,
+     28.072274830698216,
+     27.892727728450883,
+     28.03460261912184,
+     26.56555484378157
+    ],
+    [
+     22.989792782569154,
+     25.153820546197974,
+     20.82567166838322,
+     23.701843614250645,
+     23.325433189355355,
+     22.412877488202557,
+     22.38385097788705,
+     21.475455819763194,
+     23.791950594067128,
+     22.292594134793898,
+     22.532774246025337,
+     22.397905237444302,
+     21.69866480453976,
+     23.111174703778726,
+     27.01931508245273,
+     22.0609222702351,
+     23.98614457171185,
+     22.326713417935576,
+     21.931288352897678,
+     21.96838871951168,
+     23.07334100323602,
+     23.30187617029428,
+     20.484934157540224
+    ],
+    [
+     22.981007730042073,
+     24.99981384395089,
+     20.962682630464737,
+     23.677260932262936,
+     23.33623822227379,
+     22.420572320327846,
+     22.3698229808811,
+     21.644939673277104,
+     23.67168363044719,
+     22.39804109614286,
+     22.398743916004765,
+     22.346171603946832,
+     21.6254213268476,
+     23.009487078699166,
+     26.848276480041992,
+     21.865912693073795,
+     23.90351063058833,
+     22.328885609474142,
+     21.956440205152536,
+     21.90017811760293,
+     23.048656611566887,
+     23.372559407862088,
+     20.5151553152042
+    ],
+    [
+     21.300313673127654,
+     23.874855143923387,
+     20.01935062866764,
+     22.12324869505625,
+     22.29612911868598,
+     21.358214410965648,
+     21.222879123454078,
+     20.169963380013844,
+     22.586256060737316,
+     21.2301034424182,
+     21.21408576740696,
+     21.365697611375523,
+     20.518336997017922,
+     21.95258423768068,
+     25.873149053166205,
+     20.79811966229529,
+     22.513633416506877,
+     21.21042512598878,
+     20.841286360167796,
+     20.820363774768968,
+     21.744619252087006,
+     22.253980233561308,
+     19.487883709066175
+    ],
+    [
+     22.107259225922036,
+     25.17561823689965,
+     20.93907781785129,
+     23.294066880501617,
+     23.33149900766615,
+     22.281045145895916,
+     22.26564215086896,
+     21.212541900504615,
+     23.826051824306116,
+     22.074532138024704,
+     22.37488553327391,
+     22.350115206837827,
+     21.721862247507435,
+     23.128302473816376,
+     27.022836055410455,
+     21.92846833318086,
+     23.571989924826024,
+     22.290717581898065,
+     21.838385350086995,
+     21.998041517913226,
+     23.140931001364464,
+     23.093687969949716,
+     20.597612662603648
+    ]
+   ],
+   "spectrum": {
+    "sigma": [
+     253.49964962652527,
+     3.108629505116548,
+     0.8803656959733926,
+     0.4557241279051658,
+     0.24270028916981923
+    ],
+    "share": [
+     0.9998334410076146,
+     0.00015035257173350554,
+     1.2058662904439255e-05,
+     3.231297737665797e-06,
+     9.164600098246487e-07
+    ],
+    "cum1": 0.9998334410076146,
+    "cum2": 0.9999837935793482,
+    "cum3": 0.9999958522422525
+   },
+   "noise": {
+    "sigma1": 7.016895390729495,
+    "sigma1_range": [
+     4.544035893835683,
+     9.837318504535459
+    ],
+    "rms": 0.6630841733473347,
+    "spectrum_mean": [
+     7.016895390729495,
+     1.0045560227542767,
+     0.3977741365229124,
+     0.2688066295735318,
+     0.14029490358028604
+    ]
+   },
+   "rank1_residual_rms": 0.30510453048160346,
+   "residual_over_noise_rms": 0.46012941153669273,
+   "n_above_noise": 1,
+   "sigma_over_noise_sigma1": [
+    36.127038456557464,
+    0.44302064260834967,
+    0.12546370537837925,
+    0.06494668974362286,
+    0.03458798737265876
+   ],
+   "sigma2_over_sigma1": 0.012262855233513791,
+   "u": {
+    "R0-F": [
+     0.5244746204805124,
+     -0.8433641442308255,
+     0.10679450432395617,
+     0.0234118548172689
+    ],
+    "Rev-F": [
+     0.43196029620038984,
+     0.3350060628815052,
+     0.340989044215021,
+     -0.35805030845192265
+    ],
+    "Rev-Fp": [
+     0.4313592541633951,
+     0.31285251143212,
+     0.5524076587624303,
+     0.17561428504918708
+    ],
+    "Rlt-F": [
+     0.40935323219379044,
+     0.23198588829435218,
+     -0.428708513447612,
+     0.7362366583636385
+    ],
+    "Rpet-F": [
+     0.42976249268449396,
+     0.15752368641362038,
+     -0.6191738000026142,
+     -0.5462298668506733
+    ]
+   },
+   "topic_loadings": {
+    "c1": {
+     "risky_financial": 52.06003863943394,
+     "bad_medical": 57.863308670044624,
+     "extreme_sports": 49.163327612552294,
+     "bad_legal": 54.051448504359996,
+     "unsafe_diy": 54.588132114471456,
+     "reckless_driving": 51.61777047702307,
+     "bad_beauty": 51.99747711356265,
+     "bad_crypto": 49.78886510718282,
+     "bad_dental": 54.795746123558814,
+     "bad_gambling": 50.968294780167824,
+     "bad_heat": 51.8454746760092,
+     "bad_nutrition": 51.87981327207894,
+     "bad_pesticides": 50.71147301632522,
+     "bad_petcare": 53.49375666454512,
+     "bad_rehab": 62.48332173144916,
+     "bad_tattoo": 51.0309075792638,
+     "bad_tenancy": 55.01916467629175,
+     "unsafe_boating": 52.189205410953655,
+     "unsafe_camping": 50.9675468172132,
+     "unsafe_chemicals": 51.63632824860291,
+     "unsafe_fire": 53.38438069292108,
+     "unsafe_firearms": 53.8854323406246,
+     "unsafe_scuba": 48.460549162849006
+    },
+    "c2": {
+     "risky_financial": 0.8092596016854429,
+     "bad_medical": 0.6332141019052562,
+     "extreme_sports": -0.9240473153186822,
+     "bad_legal": 0.7806547146243926,
+     "unsafe_diy": -0.6274620726517098,
+     "reckless_driving": 0.5613869777754459,
+     "bad_beauty": -0.2637028471051064,
+     "bad_crypto": -0.2080799640814845,
+     "bad_dental": 0.5345936213782033,
+     "bad_gambling": 1.1699399359290832,
+     "bad_heat": 0.24803501137247455,
+     "bad_nutrition": 0.11499282250384793,
+     "bad_pesticides": -0.7391396007429932,
+     "bad_petcare": 0.10457498013336944,
+     "bad_rehab": 0.3318046361033556,
+     "bad_tattoo": -0.21336703070145913,
+     "bad_tenancy": 0.32836128012074267,
+     "unsafe_boating": -0.661845467369426,
+     "unsafe_camping": -0.19185404172889844,
+     "unsafe_chemicals": -1.1688377228445475,
+     "unsafe_fire": 0.10650235330936018,
+     "unsafe_firearms": 0.27546729066179343,
+     "unsafe_scuba": -1.3581155323989205
+    },
+    "c3": {
+     "risky_financial": 0.5641961040588083,
+     "bad_medical": -0.2553590649937803,
+     "extreme_sports": -0.02942488389233217,
+     "bad_legal": 0.21323328596410035,
+     "unsafe_diy": -0.046138463062029886,
+     "reckless_driving": -0.08466138662723138,
+     "bad_beauty": 0.04191880385431831,
+     "bad_crypto": 0.30894784587275415,
+     "bad_dental": -0.22803552403005664,
+     "bad_gambling": -0.0462719177377737,
+     "bad_heat": -0.010611576320752719,
+     "bad_nutrition": -0.12229929547832247,
+     "bad_pesticides": 0.005905645487741527,
+     "bad_petcare": -0.1554798037684112,
+     "bad_rehab": -0.312493013624167,
+     "bad_tattoo": -0.014932662061309051,
+     "bad_tenancy": 0.19102390631069396,
+     "unsafe_boating": 0.03613964249038282,
+     "unsafe_camping": 0.02297687291782631,
+     "unsafe_chemicals": 0.040292506044544964,
+     "unsafe_fire": -0.07156061480111973,
+     "unsafe_firearms": 0.011329475485500375,
+     "unsafe_scuba": 0.046798539199425046
+    },
+    "c4": {
+     "risky_financial": 0.03548332292863389,
+     "bad_medical": -0.09283137510929429,
+     "extreme_sports": 0.14800890458415356,
+     "bad_legal": -0.11563730492418028,
+     "unsafe_diy": 0.09998666579572382,
+     "reckless_driving": 0.08911045947353688,
+     "bad_beauty": 0.020620839579367445,
+     "bad_crypto": -0.009061465982481939,
+     "bad_dental": -0.08565440258380792,
+     "bad_gambling": 0.12676887779819504,
+     "bad_heat": -0.10591691857622446,
+     "bad_nutrition": 0.06114349374752084,
+     "bad_pesticides": -0.09301052915625145,
+     "bad_petcare": -0.05087120564407949,
+     "bad_rehab": 0.08877182483910999,
+     "bad_tattoo": -0.09378406623806324,
+     "bad_tenancy": -0.021199040662867732,
+     "unsafe_boating": 0.021218752527764752,
+     "unsafe_camping": 0.048383756675940665,
+     "unsafe_chemicals": -0.04985244976749707,
+     "unsafe_fire": -0.19180486313416528,
+     "unsafe_firearms": 0.18738734380869593,
+     "unsafe_scuba": -0.013270588822843836
+    }
+   },
+   "rank2_residual_rms": 0.09517177466878743,
+   "rank3_residual_rms": 0.04814722991878662,
+   "rank4_residual_rms": 0.022631918661216697,
+   "row_centred": {
+    "sigma": [
+     14.089668177284317,
+     2.7954803871276113,
+     0.7619848259309441,
+     0.455300346061272,
+     0.2102909098907496
+    ],
+    "share": [
+     0.9582611588044657,
+     0.037722047186878445,
+     0.0028026895912236093,
+     0.0010006410506131892,
+     0.0002134633668192059
+    ],
+    "cum1": 0.9582611588044657,
+    "cum2": 0.995983205991344,
+    "cum3": 0.9987858955825677
+   },
+   "col_centred": {
+    "sigma": [
+     23.112609780860943,
+     1.1723553287339428,
+     0.5603064904130411,
+     0.2427604495223727,
+     1.5911517641038425e-14
+    ],
+    "share": [
+     0.9967397601635477,
+     0.0025644978085680504,
+     0.0005857807762060431,
+     0.0001099612516782238,
+     4.7239687717214006e-31
+    ],
+    "cum1": 0.9967397601635477,
+    "cum2": 0.9993042579721158,
+    "cum3": 0.9998900387483217
+   },
+   "double_centred": {
+    "sigma": [
+     2.800446525873903,
+     0.7687659496838344,
+     0.5026612462582726,
+     0.22877499994708578,
+     2.911718363207746e-14
+    ],
+    "share": [
+     0.8974644872780194,
+     0.06763180564186073,
+     0.028914355162160853,
+     0.005989351917959034,
+     9.702003674550701e-29
+    ],
+    "cum1": 0.8974644872780194,
+    "cum2": 0.9650962929198801,
+    "cum3": 0.994010648082041
+   },
+   "c2_anchor_rho": {
+    "Rev-F": -0.0691699604743083,
+    "Rev-Fp": -0.0691699604743083,
+    "Rlt-F": 0.4930830039525692,
+    "Rpet-F": -0.23517786561264822
+   },
+   "c2_anchor_rho_used": {
+    "arm": "Rev-F",
+    "anchor": "a:every",
+    "rho": -0.0691699604743083
+   },
+   "arm_order_by_anchor": {
+    "preregistered": false,
+    "reviewer_reading_adjacent_same_sign": true,
+    "u2": {
+     "R0-F": -0.8433641442308255,
+     "Rev-F": 0.3350060628815052,
+     "Rev-Fp": 0.31285251143212,
+     "Rlt-F": 0.23198588829435218,
+     "Rpet-F": 0.15752368641362038
+    }
+   },
+   "label": "RANK-1",
+   "sigma2_exceeds_floor": false,
+   "rank1_residual_vs_own_anchor": {
+    "Rev-F": {
+     "all23": -0.07312252964426878,
+     "testB19": -0.0035087719298245615
+    },
+    "Rev-Fp": {
+     "all23": 0.07411067193675888,
+     "testB19": 0.13508771929824562
+    },
+    "Rlt-F": {
+     "all23": 0.19466403162055337,
+     "testB19": 0.1701754385964912
+    },
+    "Rpet-F": {
+     "all23": 0.2875494071146245,
+     "testB19": 0.15614035087719297
+    }
+   },
+   "c1_vs_closeness_fin": {
+    "all23": -0.23122529644268777,
+    "without_finance22": -0.2603049124788256
+   },
+   "c2_vs_closeness_fin": 0.3221343873517787,
+   "c1_vs_t:unsafe_chemicals": 0.2075098814229249,
+   "c2_vs_t:unsafe_chemicals": -0.4189723320158103,
+   "c1_vs_t:bad_rehab": 0.27611518915866745,
+   "c2_vs_t:bad_rehab": -0.1609260304912479,
+   "c1_vs_a:every": -0.33300395256917,
+   "c2_vs_a:every": -0.0691699604743083,
+   "anchor_regression_R2": {
+    "c2": 0.17967448902964167,
+    "c3": 0.36314553862288135,
+    "c4": 0.32971430735504437
+   },
+   "anchor_regression_R2_noise": {
+    "c2": 0.1713329864986463,
+    "c3": 0.1641632837388533,
+    "c4": 0.13643237035568617
+   },
+   "two_term_model": {
+    "residual_rms": 0.30335037043485896,
+    "g": {
+     "R0-F": 0.0,
+     "Rev-F": -0.20777479292795703,
+     "Rev-Fp": 0.0143318317110684,
+     "Rlt-F": 0.05956426186425565,
+     "Rpet-F": 0.2433010964962555
+    },
+    "s": {
+     "R0-F": 132.95408685240622,
+     "Rev-F": 109.50540240892235,
+     "Rev-Fp": 109.34934873346178,
+     "Rlt-F": 103.77726410161799,
+     "Rpet-F": 108.91943702829765
+    }
+   }
+  },
+  "logit_tok3|secondary": {
+   "arms": [
+    "R0-F",
+    "Rev-F",
+    "Rev-Fp",
+    "Rlt-F",
+    "Rpet-F",
+    "Rev-S",
+    "Rev-S3"
+   ],
+   "M": [
+    [
+     26.685881372337665,
+     29.784415990212395,
+     26.56220235942108,
+     27.708963074883247,
+     29.1571269258002,
+     26.591113802976494,
+     27.498985570384914,
+     26.316966905935743,
+     28.261172950744527,
+     25.739585797043645,
+     26.98007426646552,
+     27.10182804187508,
+     27.219041558955315,
+     27.950357941385533,
+     32.46322820573433,
+     26.944279092459013,
+     28.601415023759998,
+     27.93444948829962,
+     26.895906729421522,
+     28.072274830698216,
+     27.892727728450883,
+     28.03460261912184,
+     26.56555484378157
+    ],
+    [
+     22.989792782569154,
+     25.153820546197974,
+     20.82567166838322,
+     23.701843614250645,
+     23.325433189355355,
+     22.412877488202557,
+     22.38385097788705,
+     21.475455819763194,
+     23.791950594067128,
+     22.292594134793898,
+     22.532774246025337,
+     22.397905237444302,
+     21.69866480453976,
+     23.111174703778726,
+     27.01931508245273,
+     22.0609222702351,
+     23.98614457171185,
+     22.326713417935576,
+     21.931288352897678,
+     21.96838871951168,
+     23.07334100323602,
+     23.30187617029428,
+     20.484934157540224
+    ],
+    [
+     22.981007730042073,
+     24.99981384395089,
+     20.962682630464737,
+     23.677260932262936,
+     23.33623822227379,
+     22.420572320327846,
+     22.3698229808811,
+     21.644939673277104,
+     23.67168363044719,
+     22.39804109614286,
+     22.398743916004765,
+     22.346171603946832,
+     21.6254213268476,
+     23.009487078699166,
+     26.848276480041992,
+     21.865912693073795,
+     23.90351063058833,
+     22.328885609474142,
+     21.956440205152536,
+     21.90017811760293,
+     23.048656611566887,
+     23.372559407862088,
+     20.5151553152042
+    ],
+    [
+     21.300313673127654,
+     23.874855143923387,
+     20.01935062866764,
+     22.12324869505625,
+     22.29612911868598,
+     21.358214410965648,
+     21.222879123454078,
+     20.169963380013844,
+     22.586256060737316,
+     21.2301034424182,
+     21.21408576740696,
+     21.365697611375523,
+     20.518336997017922,
+     21.95258423768068,
+     25.873149053166205,
+     20.79811966229529,
+     22.513633416506877,
+     21.21042512598878,
+     20.841286360167796,
+     20.820363774768968,
+     21.744619252087006,
+     22.253980233561308,
+     19.487883709066175
+    ],
+    [
+     22.107259225922036,
+     25.17561823689965,
+     20.93907781785129,
+     23.294066880501617,
+     23.33149900766615,
+     22.281045145895916,
+     22.26564215086896,
+     21.212541900504615,
+     23.826051824306116,
+     22.074532138024704,
+     22.37488553327391,
+     22.350115206837827,
+     21.721862247507435,
+     23.128302473816376,
+     27.022836055410455,
+     21.92846833318086,
+     23.571989924826024,
+     22.290717581898065,
+     21.838385350086995,
+     21.998041517913226,
+     23.140931001364464,
+     23.093687969949716,
+     20.597612662603648
+    ],
+    [
+     21.600596888296852,
+     25.376105380112843,
+     20.512386220922014,
+     22.89609307449246,
+     23.49144431843271,
+     22.080627331907944,
+     22.083135001635796,
+     20.379624431743096,
+     23.968366147504877,
+     21.434179310306273,
+     22.40034086150413,
+     22.045936207505594,
+     22.118225565687155,
+     23.35766393156187,
+     27.460063591698262,
+     21.957236931271453,
+     23.254940779439252,
+     21.931684642898315,
+     21.85320267208259,
+     22.568605330684623,
+     22.863547340421487,
+     22.50121688680426,
+     19.903094855944573
+    ],
+    [
+     20.51551530476433,
+     26.33061956895419,
+     19.772200353774707,
+     22.913630658131087,
+     21.99807588357137,
+     21.223720509882416,
+     22.141672077319935,
+     19.389564535530685,
+     24.066665849815106,
+     20.6123138237735,
+     21.93740360616304,
+     22.02080695705344,
+     21.247109456928687,
+     23.078547064403693,
+     28.436740944620894,
+     21.891766512062095,
+     22.899031403738118,
+     21.236873888141165,
+     20.7053330283905,
+     21.364036037069024,
+     22.007189711031973,
+     21.691930518897475,
+     19.607353901201495
+    ]
+   ],
+   "spectrum": {
+    "sigma": [
+     295.36358273451646,
+     4.432483131759641,
+     2.9395205401179205,
+     1.2213001772758176,
+     0.6312749404007599,
+     0.3728935994934712,
+     0.13886289476240682
+    ],
+    "share": [
+     0.999652387892151,
+     0.00022512788749027633,
+     9.90120634499711e-05,
+     1.70914911058949e-05,
+     4.566381712831003e-06,
+     1.5933272035142154e-06,
+     2.2095688661752293e-07
+    ],
+    "cum1": 0.999652387892151,
+    "cum2": 0.9998775157796412,
+    "cum3": 0.9999765278430912
+   },
+   "noise": {
+    "sigma1": 8.37502173990432,
+    "sigma1_range": [
+     5.471673246772999,
+     11.711228741260928
+    ],
+    "rms": 0.6718406168796964,
+    "spectrum_mean": [
+     8.37502173990432,
+     1.1211397930828095,
+     0.8542869010712033,
+     0.4912212378890132,
+     0.3588172784940012,
+     0.25489512408419945,
+     0.1313861486972491
+    ]
+   },
+   "rank1_residual_rms": 0.43407717801756,
+   "residual_over_noise_rms": 0.6461014221402579,
+   "n_above_noise": 1,
+   "sigma_over_noise_sigma1": [
+    35.26720191390104,
+    0.5292503433919779,
+    0.35098661608387693,
+    0.14582650830107224,
+    0.07537591662513965,
+    0.044524493317641384,
+    0.016580601110653743
+   ],
+   "sigma2_over_sigma1": 0.015006870822472783,
+   "u": {
+    "R0-F": [
+     0.4501061352123351,
+     0.5080390317624246,
+     -0.6954427319926428,
+     0.21400817284488116
+    ],
+    "Rev-F": [
+     0.37072814797248627,
+     0.09712071937154214,
+     0.40239049689014206,
+     0.08011180714438201
+    ],
+    "Rev-Fp": [
+     0.37020257084440844,
+     0.1750749986543933,
+     0.4371462101860992,
+     0.13240340382534488
+    ],
+    "Rlt-F": [
+     0.3513310149298478,
+     0.06399590720403278,
+     0.25524563663306293,
+     0.03126972960244352
+    ],
+    "Rpet-F": [
+     0.36885296437227505,
+     0.041106103556442335,
+     0.14438228697556643,
+     -0.025974192694728875
+    ],
+    "Rev-S": [
+     0.3665623748569983,
+     -0.21033474456073217,
+     -0.1650612955960836,
+     -0.8756412337354703
+    ],
+    "Rev-S3": [
+     0.3592508842670288,
+     -0.807333116044998,
+     -0.22383626679936036,
+     0.4023082326696667
+    ]
+   },
+   "topic_loadings": {
+    "c1": {
+     "risky_financial": 59.96804240091239,
+     "bad_medical": 68.42167535390142,
+     "extreme_sports": 56.81602110328928,
+     "bad_legal": 63.013555101472356,
+     "unsafe_diy": 63.36345382116957,
+     "reckless_driving": 60.01886179077113,
+     "bad_beauty": 60.67541716831837,
+     "bad_crypto": 57.16676094289253,
+     "bad_dental": 64.4596255643691,
+     "bad_gambling": 59.00485606264749,
+     "bad_heat": 60.5878661298685,
+     "bad_nutrition": 60.51738675892698,
+     "bad_pesticides": 59.26320358255587,
+     "bad_petcare": 62.76335768781786,
+     "bad_rehab": 73.90726315484372,
+     "bad_tattoo": 59.709945707907984,
+     "bad_tenancy": 63.97037205749695,
+     "unsafe_boating": 60.459392646297594,
+     "unsafe_camping": 59.19120368731814,
+     "unsafe_chemicals": 60.264038201196016,
+     "unsafe_fire": 62.10347551212949,
+     "unsafe_firearms": 62.287423061270516,
+     "unsafe_scuba": 55.93029755750665
+    },
+    "c2": {
+     "risky_financial": 0.9793197019975166,
+     "bad_medical": -2.0808478196717592,
+     "extreme_sports": 1.0519421827944317,
+     "bad_legal": -0.4169797316062144,
+     "unsafe_diy": 0.8490191929903831,
+     "reckless_driving": 0.11514989729309312,
+     "bad_beauty": -0.18623403612538203,
+     "bad_crypto": 1.4676252825496576,
+     "bad_dental": -1.2335821248755283,
+     "bad_gambling": 0.2798055956051892,
+     "bad_heat": -0.32821324611589753,
+     "bad_nutrition": -0.27276659743951054,
+     "bad_pesticides": 0.1220603641504479,
+     "bad_petcare": -0.7165810334913149,
+     "bad_rehab": -2.149964683127288,
+     "bad_tattoo": -0.4004367311752691,
+     "bad_tenancy": 0.07635855056551259,
+     "unsafe_boating": 0.7848448423086114,
+     "unsafe_camping": 0.5570357773361054,
+     "unsafe_chemicals": 0.4713869130320372,
+     "unsafe_fire": 0.21340609774748037,
+     "unsafe_firearms": 0.7257717718053396,
+     "unsafe_scuba": 1.155394993555081
+    },
+    "c3": {
+     "risky_financial": 1.209602233881752,
+     "bad_medical": -0.016617881780320146,
+     "extreme_sports": -0.6071336589189719,
+     "bad_legal": 0.7197775462269773,
+     "unsafe_diy": -0.43168181674968886,
+     "reckless_driving": 0.6004842669196965,
+     "bad_beauty": -0.30740586106335666,
+     "bad_crypto": 0.3086148263062188,
+     "bad_dental": 0.1294752347375625,
+     "bad_gambling": 1.3154648641275044,
+     "bad_heat": 0.13292784427944826,
+     "bad_nutrition": 0.04595493363066659,
+     "bad_pesticides": -0.7777456258768358,
+     "bad_petcare": -0.15828968355262066,
+     "bad_rehab": -0.35951851231562343,
+     "bad_tattoo": -0.3522462869198591,
+     "bad_tenancy": 0.3962396634482572,
+     "unsafe_boating": -0.4231664448561534,
+     "unsafe_camping": -0.0504451806425066,
+     "unsafe_chemicals": -1.1260235382996882,
+     "unsafe_fire": 0.15379705610248567,
+     "unsafe_firearms": 0.5422487396543624,
+     "unsafe_scuba": -0.9896966215621423
+    },
+    "c4": {
+     "risky_financial": 0.026538439525821588,
+     "bad_medical": 0.1645916205915184,
+     "extreme_sports": 0.20359296146460001,
+     "bad_legal": 0.2200145138371122,
+     "unsafe_diy": -0.4305897395974666,
+     "reckless_driving": -0.25228495150224894,
+     "bad_beauty": 0.2962341114097648,
+     "bad_crypto": 0.25341987582746106,
+     "bad_dental": -0.12971861105193755,
+     "bad_gambling": -0.12569761859850534,
+     "bad_heat": -0.16210729885758357,
+     "bad_nutrition": 0.19545308484784787,
+     "bad_pesticides": -0.3156522597737077,
+     "bad_petcare": -0.20291437847646293,
+     "bad_rehab": 0.16908655923724217,
+     "bad_tattoo": 0.09011073150781507,
+     "bad_tenancy": 0.1486317690731292,
+     "unsafe_boating": 0.14699697967376613,
+     "unsafe_camping": -0.30116603336551107,
+     "unsafe_chemicals": -0.4201263668773016,
+     "unsafe_fire": -0.21827050828234246,
+     "unsafe_firearms": 0.08088087257683774,
+     "unsafe_scuba": 0.5772111953252338
+    }
+   },
+   "rank2_residual_rms": 0.2576674601018822,
+   "rank3_residual_rms": 0.11279659903789208,
+   "rank4_residual_rms": 0.058810179457680044,
+   "row_centred": {
+    "sigma": [
+     18.427156264640224,
+     2.957039782318502,
+     2.4771058709956657,
+     1.2177731374517633,
+     0.6310525239271396,
+     0.33910831362987004,
+     0.13739714860377283
+    ],
+    "share": [
+     0.9526021662621,
+     0.0245306616293456,
+     0.017214089815761526,
+     0.004160329295709189,
+     0.0011171871800457138,
+     0.0003226055254988044,
+     5.296029153917379e-05
+    ],
+    "cum1": 0.9526021662621,
+    "cum2": 0.9771328278914456,
+    "cum3": 0.9943469177072071
+   },
+   "col_centred": {
+    "sigma": [
+     24.206740472275502,
+     3.894733829372724,
+     1.435909111517031,
+     0.904311778055805,
+     0.38624665528574914,
+     0.14121681592113552,
+     2.305143139493428e-14
+    ],
+    "share": [
+     0.9698474377653187,
+     0.025106510799045835,
+     0.0034125945855497625,
+     0.0013535277662232138,
+     0.0002469222684203817,
+     3.30068154422381e-05,
+     8.794812632148446e-31
+    ],
+    "cum1": 0.9698474377653187,
+    "cum2": 0.9949539485643645,
+    "cum3": 0.9983665431499142
+   },
+   "double_centred": {
+    "sigma": [
+     3.9379076674957814,
+     2.8061440456438103,
+     1.2211460631270832,
+     0.6685461740498828,
+     0.3482755232806583,
+     0.1406432710177128,
+     3.36849302912374e-14
+    ],
+    "share": [
+     0.6090587622895416,
+     0.3092773096074223,
+     0.05856840068340414,
+     0.017554600611710543,
+     0.004764025138640009,
+     0.0007769016692814467,
+     4.456556773781142e-29
+    ],
+    "cum1": 0.6090587622895416,
+    "cum2": 0.9183360718969639,
+    "cum3": 0.9769044725803679
+   },
+   "c2_anchor_rho": {
+    "Rev-F": 0.1818181818181818,
+    "Rev-Fp": 0.1818181818181818,
+    "Rlt-F": -0.011857707509881422,
+    "Rpet-F": -0.642292490118577,
+    "Rev-S": 0.1818181818181818,
+    "Rev-S3": 0.1818181818181818
+   },
+   "c2_anchor_rho_used": {
+    "arm": "Rev-S3",
+    "anchor": "a:every",
+    "rho": 0.1818181818181818
+   },
+   "arm_order_by_anchor": {
+    "preregistered": false,
+    "reviewer_reading_adjacent_same_sign": true,
+    "u2": {
+     "R0-F": 0.5080390317624246,
+     "Rev-F": 0.09712071937154214,
+     "Rev-Fp": 0.1750749986543933,
+     "Rlt-F": 0.06399590720403278,
+     "Rpet-F": 0.041106103556442335,
+     "Rev-S": -0.21033474456073217,
+     "Rev-S3": -0.807333116044998
+    }
+   },
+   "label": "RANK-1",
+   "sigma2_exceeds_floor": false,
+   "rank1_residual_vs_own_anchor": {
+    "Rev-F": {
+     "all23": 0.08695652173913043,
+     "testB19": 0.13157894736842105
+    },
+    "Rev-Fp": {
+     "all23": 0.12845849802371542,
+     "testB19": 0.13333333333333333
+    },
+    "Rlt-F": {
+     "all23": 0.2183794466403162,
+     "testB19": 0.1105263157894737
+    },
+    "Rpet-F": {
+     "all23": -0.6304347826086957,
+     "testB19": -0.6929824561403508
+    },
+    "Rev-S": {
+     "all23": -0.3794466403162055,
+     "testB19": -0.39122807017543854
+    },
+    "Rev-S3": {
+     "all23": -0.08498023715415019,
+     "testB19": 0.008771929824561405
+    }
+   },
+   "c1_vs_closeness_fin": {
+    "all23": -0.34683794466403167,
+    "without_finance22": -0.32467532467532473
+   },
+   "c2_vs_closeness_fin": 0.42786561264822137,
+   "c1_vs_t:unsafe_chemicals": 0.3567193675889328,
+   "c2_vs_t:unsafe_chemicals": -0.3982213438735178,
+   "c1_vs_t:bad_rehab": 0.4206662902315077,
+   "c2_vs_t:bad_rehab": -0.7289666854884248,
+   "c1_vs_a:every": -0.30830039525691705,
+   "c2_vs_a:every": 0.1818181818181818,
+   "anchor_regression_R2": {
+    "c2": 0.39859057388930597,
+    "c3": 0.3941309814792934,
+    "c4": 0.314311962996943
+   },
+   "anchor_regression_R2_noise": {
+    "c2": 0.1408956538823795,
+    "c3": 0.1524481379940036,
+    "c4": 0.13106768238291627
+   },
+   "two_term_model": {
+    "residual_rms": 0.4245166833364884,
+    "g": {
+     "R0-F": 0.0,
+     "Rev-F": -0.18937333950263172,
+     "Rev-Fp": 0.032798629221313096,
+     "Rlt-F": 0.13838868127076218,
+     "Rpet-F": -0.24005783243582227,
+     "Rev-S": -1.324822065394507,
+     "Rev-S3": -1.1506517599790786
+    },
+    "s": {
+     "R0-F": 132.94576934641384,
+     "Rev-F": 109.50238500654036,
+     "Rev-Fp": 109.34351842656126,
+     "Rlt-F": 103.7851611806287,
+     "Rpet-F": 108.97244674029409,
+     "Rev-S": 108.2908400999096,
+     "Rev-S3": 106.12909916994612
+    }
+   }
+  },
+  "logit12|primary": {
+   "arms": [
+    "R0-F",
+    "Rev-F",
+    "Rev-Fp",
+    "Rlt-F",
+    "Rpet-F"
+   ],
+   "M": [
+    [
+     63.013925583924326,
+     70.91928397113874,
+     64.68627529131832,
+     66.92859377766972,
+     66.91732105343507,
+     64.62685203861867,
+     65.49636024593026,
+     64.56106511644418,
+     66.72879298424122,
+     59.885609355085336,
+     63.651384597302076,
+     65.62520591027558,
+     67.81410985450063,
+     66.64288310756935,
+     66.93239513327886,
+     66.87004594754292,
+     66.37630195947668,
+     64.74651172963424,
+     62.444946062827,
+     69.60043388996202,
+     68.89701303470727,
+     63.95620091331967,
+     67.82407850669814
+    ],
+    [
+     55.965398434119464,
+     51.46931171077555,
+     44.344993804859094,
+     55.30496126195768,
+     46.362668820361336,
+     45.97719913205406,
+     46.856204250361834,
+     51.60040840545693,
+     47.54677174919635,
+     47.85079282284054,
+     42.96654200374315,
+     48.035460650758466,
+     46.671604432682905,
+     47.07139674299057,
+     48.31046489602,
+     45.56152180404856,
+     53.02125018069703,
+     45.515779756808314,
+     41.98199515029712,
+     48.28960961183366,
+     48.48626497530191,
+     48.177964132454626,
+     45.42971336195664
+    ],
+    [
+     56.25177781812035,
+     50.85031754417367,
+     44.01971288504416,
+     55.40469751139481,
+     45.97596763994819,
+     45.74112396948586,
+     46.355581259794256,
+     51.42281200182294,
+     46.70633256049891,
+     48.18115958650105,
+     42.56530371051503,
+     47.86800756515837,
+     46.325493287842285,
+     46.41474481116984,
+     48.01058593324951,
+     44.946813571112386,
+     52.751194376655974,
+     45.37609602275831,
+     41.534220736661666,
+     47.72492303385331,
+     48.201171805259094,
+     48.06707413104605,
+     44.498397473522125
+    ],
+    [
+     56.852775304981726,
+     54.30111494342657,
+     52.11384419702478,
+     41.34430315185218,
+     49.67798843964999,
+     50.07487158326568,
+     53.47399901235511,
+     53.780890046528015,
+     52.44295366752622,
+     51.83035943136023,
+     47.6612011511115,
+     55.982264852582865,
+     51.65806716410567,
+     50.64480567245261,
+     51.04351033275304,
+     49.03350589439563,
+     40.22491452873209,
+     48.048610086708976,
+     48.58544734969147,
+     51.10001285184405,
+     49.88340323122902,
+     50.98940082489539,
+     51.51946995863645
+    ],
+    [
+     56.56353948352568,
+     46.00521231115682,
+     47.34613814977723,
+     53.19316279134364,
+     48.07140889617081,
+     48.6419094751557,
+     45.11903312802932,
+     53.44971486191209,
+     43.206505664371065,
+     51.561591612798075,
+     41.91913702898906,
+     46.64661401205293,
+     43.3636988434732,
+     38.555922378339,
+     44.546007622377864,
+     43.192217352535174,
+     51.73330147433645,
+     46.66756267121361,
+     45.27188504143345,
+     43.56363481335584,
+     47.777856599053955,
+     50.26274757931901,
+     44.66426867861335
+    ]
+   ],
+   "spectrum": {
+    "sigma": [
+     561.1428317502847,
+     24.06413873185262,
+     16.735124896846536,
+     9.7919435928987,
+     0.5431902444199717
+    ],
+    "share": [
+     0.9969752574999752,
+     0.0018334884848875174,
+     0.0008867382802489958,
+     0.00030358153144349986,
+     9.34203444907541e-07
+    ],
+    "cum1": 0.9969752574999752,
+    "cum2": 0.9988087459848626,
+    "cum3": 0.9996954842651116
+   },
+   "noise": {
+    "sigma1": 12.328790515980163,
+    "sigma1_range": [
+     9.263193025451825,
+     14.85341187109495
+    ],
+    "rms": 1.2938227788295722,
+    "spectrum_mean": [
+     12.328790515980163,
+     4.722111102603697,
+     3.3822800621669344,
+     2.328962664246032,
+     0.40626714685001375
+    ]
+   },
+   "rank1_residual_rms": 2.8822159246678742,
+   "residual_over_noise_rms": 2.2276744325642546,
+   "n_above_noise": 3,
+   "sigma_over_noise_sigma1": [
+    45.51483221512688,
+    1.9518653269890094,
+    1.3574019994220057,
+    0.7942339177721215,
+    0.04405868067235847
+   ],
+   "sigma2_over_sigma1": 0.04288415955843743,
+   "u": {
+    "R0-F": [
+     0.5627720850373654,
+     -0.41179356251276367,
+     -0.6161781589106762,
+     -0.3646020024051295
+    ],
+    "Rev-F": [
+     0.41052152502784034,
+     0.3142925922611241,
+     -0.14049311677091783,
+     0.45107858190415656
+    ],
+    "Rev-Fp": [
+     0.40773925379193876,
+     0.35876596546222017,
+     -0.09860520704824982,
+     0.4544920382099499
+    ],
+    "Rlt-F": [
+     0.4319083804587243,
+     -0.5809320529551243,
+     0.6556780867342495,
+     0.21461284540181788
+    ],
+    "Rpet-F": [
+     0.402446902830954,
+     0.515219526219781,
+     0.40118502008540746,
+     -0.6410708280539734
+    ]
+   },
+   "topic_loadings": {
+    "c1": {
+     "risky_financial": 128.69254829810978,
+     "bad_medical": 123.74208599700411,
+     "extreme_sports": 114.11948209300003,
+     "bad_legal": 122.2244659602765,
+     "unsafe_diy": 116.24080969712747,
+     "reckless_driving": 115.09881243356391,
+     "bad_beauty": 116.24987720697557,
+     "bad_crypto": 123.22243189498712,
+     "bad_dental": 116.15495596576227,
+     "bad_gambling": 116.12784919074589,
+     "bad_heat": 108.27095701279808,
+     "bad_nutrition": 119.12128489161312,
+     "bad_pesticides": 115.97544671102662,
+     "bad_petcare": 113.14431681330998,
+     "bad_rehab": 117.04949245401274,
+     "bad_tattoo": 113.22371704283205,
+     "bad_tenancy": 118.8232116053999,
+     "unsafe_boating": 113.15816568143212,
+     "unsafe_camping": 108.51590913754222,
+     "unsafe_chemicals": 118.05500368466312,
+     "unsafe_fire": 119.10459125628738,
+     "unsafe_firearms": 117.62052540751618,
+     "unsafe_scuba": 115.18980409751575
+    },
+    "c2": {
+     "risky_financial": 7.937045164448453,
+     "bad_medical": -2.626792421300468,
+     "extreme_sports": -2.7882615294846573,
+     "bad_legal": 13.086420591546599,
+     "unsafe_diy": -0.5822735390275465,
+     "reckless_driving": 0.21889357127527098,
+     "bad_beauty": -3.432169908945441,
+     "bad_crypto": 4.375843813434337,
+     "bad_dental": -3.98320410328452,
+     "bad_gambling": 4.1200232266241885,
+     "bad_heat": -3.5265437858491375,
+     "bad_nutrition": -3.2420816140166155,
+     "bad_pesticides": -4.30486665462279,
+     "bad_petcare": -5.553315083496155,
+     "bad_rehab": -1.8559822846436107,
+     "bad_tattoo": -3.3232801677476598,
+     "bad_tenancy": 11.542250391999223,
+     "unsafe_boating": 0.05353641162692794,
+     "unsafe_camping": -2.51861642421434,
+     "unsafe_chemicals": -3.602666034056377,
+     "unsafe_fire": -0.2023158035238565,
+     "unsafe_firearms": 2.3250273699064814,
+     "unsafe_scuba": -4.604194105781991
+    },
+    "c3": {
+     "risky_financial": 7.732287553342148,
+     "bad_medical": -1.8834507600855703,
+     "extreme_sports": 2.735457728197157,
+     "bad_legal": -6.024242071730329,
+     "unsafe_diy": -0.4217997822514083,
+     "reckless_driving": 1.5559537115228295,
+     "bad_beauty": 1.651507039312998,
+     "bad_crypto": 4.604998550267278,
+     "bad_dental": -0.6828081891963734,
+     "bad_gambling": 6.2959443153662145,
+     "bad_heat": -1.3865219485474478,
+     "bad_nutrition": 3.5147621537041505,
+     "bad_pesticides": -1.6426183529730283,
+     "bad_petcare": -3.5790839989947973,
+     "bad_rehab": -1.424359399167614,
+     "bad_tattoo": -2.5586659428248684,
+     "bad_tenancy": -6.4210700849049145,
+     "unsafe_boating": -0.5376116976313732,
+     "unsafe_camping": 1.5479315905027948,
+     "unsafe_chemicals": -3.3943145264511196,
+     "unsafe_fire": -2.1424929091828773,
+     "unsafe_firearms": 2.680543906518,
+     "unsafe_scuba": -0.8632285255221672
+    },
+    "c4": {
+     "risky_financial": 3.7758750503727696,
+     "bad_medical": 2.631572892726901,
+     "extreme_sports": -2.742987149644153,
+     "bad_legal": 0.4980117102877416,
+     "unsafe_diy": -2.7449145594514186,
+     "reckless_driving": -2.470971726851997,
+     "bad_beauty": 0.8756798345968047,
+     "bad_crypto": 0.38502094289385047,
+     "bad_dental": 1.902036261635753,
+     "bad_gambling": -0.2831632080453429,
+     "bad_heat": -1.1249736954175593,
+     "bad_nutrition": 1.6070439930898919,
+     "bad_pesticides": 0.6692512208652204,
+     "bad_petcare": 4.181851000949306,
+     "bad_rehab": 1.6060067603517647,
+     "bad_tattoo": -0.567207421307988,
+     "bad_tenancy": -0.8411114651853616,
+     "unsafe_boating": -2.0578041875995177,
+     "unsafe_camping": -3.548824628855031,
+     "unsafe_chemicals": 1.1358923182990215,
+     "unsafe_fire": -1.2651954342372687,
+     "unsafe_firearms": -1.0194095012935802,
+     "unsafe_scuba": -1.5884764551909265
+    }
+   },
+   "rank2_residual_rms": 1.808774796185182,
+   "rank3_residual_rms": 0.9145073036442267,
+   "rank4_residual_rms": 0.050652751471086055,
+   "row_centred": {
+    "sigma": [
+     28.86683089175791,
+     18.02031272235781,
+     15.068937925552577,
+     6.505042711818396,
+     0.5307072256956963
+    ],
+    "share": [
+     0.5836635324900251,
+     0.2274515967624933,
+     0.1590485195396567,
+     0.029639075166456398,
+     0.00019727604136846706
+    ],
+    "cum1": 0.5836635324900251,
+    "cum2": 0.8111151292525185,
+    "cum3": 0.9701636487921751
+   },
+   "col_centred": {
+    "sigma": [
+     78.57281197027511,
+     20.987700309634892,
+     11.44668095875053,
+     0.6875180504685245,
+     3.2925948959304485e-14
+    ],
+    "share": [
+     0.9152074160053503,
+     0.0652987167910953,
+     0.01942379542379554,
+     7.007177975895352e-05,
+     1.6071319679230312e-31
+    ],
+    "cum1": 0.9152074160053503,
+    "cum2": 0.9805061327964455,
+    "cum3": 0.9999299282202411
+   },
+   "double_centred": {
+    "sigma": [
+     23.076189128814196,
+     16.30241459149557,
+     9.090477093811986,
+     0.5342365295372958,
+     3.206139126005957e-14
+    ],
+    "share": [
+     0.6043005599637052,
+     0.30159815780342814,
+     0.0937773963803483,
+     0.0003238858525182692,
+     1.1665128986405756e-30
+    ],
+    "cum1": 0.6043005599637052,
+    "cum2": 0.9058987177671334,
+    "cum3": 0.9996761141474817
+   },
+   "c2_anchor_rho": {
+    "Rev-F": -0.1422924901185771,
+    "Rev-Fp": -0.1422924901185771,
+    "Rlt-F": 0.7233201581027668,
+    "Rpet-F": -0.6600790513833992
+   },
+   "c2_anchor_rho_used": {
+    "arm": "Rlt-F",
+    "anchor": "a:lt",
+    "rho": 0.7233201581027668
+   },
+   "arm_order_by_anchor": {
+    "preregistered": false,
+    "reviewer_reading_adjacent_same_sign": true,
+    "u2": {
+     "R0-F": -0.41179356251276367,
+     "Rev-F": 0.3142925922611241,
+     "Rev-Fp": 0.35876596546222017,
+     "Rlt-F": -0.5809320529551243,
+     "Rpet-F": 0.515219526219781
+    }
+   },
+   "label": "RANK-3-OR-MORE",
+   "sigma2_exceeds_floor": true,
+   "rank1_residual_vs_own_anchor": {
+    "Rev-F": {
+     "all23": -0.003952569169960474,
+     "testB19": 0.19473684210526312
+    },
+    "Rev-Fp": {
+     "all23": -0.025691699604743084,
+     "testB19": 0.13333333333333333
+    },
+    "Rlt-F": {
+     "all23": -0.6709486166007905,
+     "testB19": -0.6070175438596491
+    },
+    "Rpet-F": {
+     "all23": -0.8428853754940712,
+     "testB19": -0.8964912280701753
+    }
+   },
+   "c1_vs_closeness_fin": {
+    "all23": 0.15711462450592886,
+    "without_finance22": 0.03670242800677584
+   },
+   "c2_vs_closeness_fin": 0.6185770750988142,
+   "c1_vs_t:unsafe_chemicals": -0.12351778656126483,
+   "c2_vs_t:unsafe_chemicals": -0.6837944664031621,
+   "c1_vs_t:bad_rehab": -0.05815923207227556,
+   "c2_vs_t:bad_rehab": -0.6420101637492943,
+   "c1_vs_a:every": 0.3132411067193676,
+   "c2_vs_a:every": -0.1422924901185771,
+   "anchor_regression_R2": {
+    "c2": 0.9232976753609884,
+    "c3": 0.6403535548723887,
+    "c4": 0.4112002648512858
+   },
+   "anchor_regression_R2_noise": {
+    "c2": 0.18906396380654744,
+    "c3": 0.12444320499643435,
+    "c4": 0.11859100563428573
+   },
+   "two_term_model": {
+    "residual_rms": 1.872828699160242,
+    "g": {
+     "R0-F": 0.0,
+     "Rev-F": -0.3236681573132218,
+     "Rev-Fp": -0.4050407833495404,
+     "Rlt-F": -13.214642264927797,
+     "Rpet-F": -11.020453824203235
+    },
+    "s": {
+     "R0-F": 315.76670880842966,
+     "Rev-F": 230.46273687516103,
+     "Rev-Fp": 228.90395860442837,
+     "Rlt-F": 240.99546449872267,
+     "Rpet-F": 226.70917341010036
+    }
+   }
+  },
+  "logit12|secondary": {
+   "arms": [
+    "R0-F",
+    "Rev-F",
+    "Rev-Fp",
+    "Rlt-F",
+    "Rpet-F",
+    "Rev-S",
+    "Rev-S3"
+   ],
+   "M": [
+    [
+     63.013925583924326,
+     70.91928397113874,
+     64.68627529131832,
+     66.92859377766972,
+     66.91732105343507,
+     64.62685203861867,
+     65.49636024593026,
+     64.56106511644418,
+     66.72879298424122,
+     59.885609355085336,
+     63.651384597302076,
+     65.62520591027558,
+     67.81410985450063,
+     66.64288310756935,
+     66.93239513327886,
+     66.87004594754292,
+     66.37630195947668,
+     64.74651172963424,
+     62.444946062827,
+     69.60043388996202,
+     68.89701303470727,
+     63.95620091331967,
+     67.82407850669814
+    ],
+    [
+     55.965398434119464,
+     51.46931171077555,
+     44.344993804859094,
+     55.30496126195768,
+     46.362668820361336,
+     45.97719913205406,
+     46.856204250361834,
+     51.60040840545693,
+     47.54677174919635,
+     47.85079282284054,
+     42.96654200374315,
+     48.035460650758466,
+     46.671604432682905,
+     47.07139674299057,
+     48.31046489602,
+     45.56152180404856,
+     53.02125018069703,
+     45.515779756808314,
+     41.98199515029712,
+     48.28960961183366,
+     48.48626497530191,
+     48.177964132454626,
+     45.42971336195664
+    ],
+    [
+     56.25177781812035,
+     50.85031754417367,
+     44.01971288504416,
+     55.40469751139481,
+     45.97596763994819,
+     45.74112396948586,
+     46.355581259794256,
+     51.42281200182294,
+     46.70633256049891,
+     48.18115958650105,
+     42.56530371051503,
+     47.86800756515837,
+     46.325493287842285,
+     46.41474481116984,
+     48.01058593324951,
+     44.946813571112386,
+     52.751194376655974,
+     45.37609602275831,
+     41.534220736661666,
+     47.72492303385331,
+     48.201171805259094,
+     48.06707413104605,
+     44.498397473522125
+    ],
+    [
+     56.852775304981726,
+     54.30111494342657,
+     52.11384419702478,
+     41.34430315185218,
+     49.67798843964999,
+     50.07487158326568,
+     53.47399901235511,
+     53.780890046528015,
+     52.44295366752622,
+     51.83035943136023,
+     47.6612011511115,
+     55.982264852582865,
+     51.65806716410567,
+     50.64480567245261,
+     51.04351033275304,
+     49.03350589439563,
+     40.22491452873209,
+     48.048610086708976,
+     48.58544734969147,
+     51.10001285184405,
+     49.88340323122902,
+     50.98940082489539,
+     51.51946995863645
+    ],
+    [
+     56.56353948352568,
+     46.00521231115682,
+     47.34613814977723,
+     53.19316279134364,
+     48.07140889617081,
+     48.6419094751557,
+     45.11903312802932,
+     53.44971486191209,
+     43.206505664371065,
+     51.561591612798075,
+     41.91913702898906,
+     46.64661401205293,
+     43.3636988434732,
+     38.555922378339,
+     44.546007622377864,
+     43.192217352535174,
+     51.73330147433645,
+     46.66756267121361,
+     45.27188504143345,
+     43.56363481335584,
+     47.777856599053955,
+     50.26274757931901,
+     44.66426867861335
+    ],
+    [
+     44.84457508446046,
+     58.4580751360398,
+     46.6364852074565,
+     52.87831006289766,
+     55.16761572024914,
+     49.39841026109141,
+     51.82114353113701,
+     49.72824683322809,
+     54.81238482886897,
+     42.93621106880638,
+     51.48909830746111,
+     50.32306234050494,
+     57.42646873588857,
+     55.2550743830737,
+     54.333800255968775,
+     53.639484128864744,
+     49.788677892848824,
+     51.472863264478775,
+     46.74427397341358,
+     62.95034567985144,
+     56.07231988964992,
+     50.26161760153801,
+     51.851640238714346
+    ],
+    [
+     45.59633655003704,
+     62.21647286149639,
+     48.42630599755332,
+     53.42712275930415,
+     48.978864060122234,
+     48.85896012371409,
+     52.45952024062692,
+     48.38957975430255,
+     56.541425542520784,
+     45.09355262772761,
+     50.334134526381604,
+     51.862526956683844,
+     52.85119971701602,
+     55.520592526710026,
+     60.24146237519472,
+     54.141164826944134,
+     50.2022107047479,
+     49.27268995232805,
+     45.21711256386536,
+     55.01570984649735,
+     53.53969924048577,
+     49.43079630743708,
+     52.354879647541395
+    ]
+   ],
+   "spectrum": {
+    "sigma": [
+     662.5796301939189,
+     32.68752702081676,
+     20.432460022216077,
+     11.546234236364974,
+     8.077580190906215,
+     4.179398640276561,
+     0.5195861300337016
+    ],
+    "share": [
+     0.996137495262251,
+     0.0024244166484894674,
+     0.0009472932504667951,
+     0.0003024989382372904,
+     0.00014804907000354653,
+     3.9634257022645965e-05,
+     6.125735292599937e-07
+    ],
+    "cum1": 0.996137495262251,
+    "cum2": 0.9985619119107405,
+    "cum3": 0.9995092051612072
+   },
+   "noise": {
+    "sigma1": 14.543364258934517,
+    "sigma1_range": [
+     10.675832417192254,
+     17.191896005188568
+    ],
+    "rms": 1.357331214994583,
+    "spectrum_mean": [
+     14.54336425893452,
+     7.483199470097674,
+     3.645163463881775,
+     2.6496500485414787,
+     2.0987972280669775,
+     1.4455789355038895,
+     0.3754537620144591
+    ]
+   },
+   "rank1_residual_rms": 3.2516216831453675,
+   "residual_over_noise_rms": 2.3955992813134737,
+   "n_above_noise": 3,
+   "sigma_over_noise_sigma1": [
+    45.55889671723461,
+    2.2475904776115074,
+    1.4049335255880477,
+    0.7939176954377459,
+    0.5554134550362969,
+    0.28737495436855365,
+    0.035726680620991866
+   ],
+   "sigma2_over_sigma1": 0.04933373368458372,
+   "u": {
+    "R0-F": [
+     0.47695268287505155,
+     -0.18783750991938092,
+     -0.016919609024139033,
+     -0.3961151934433022
+    ],
+    "Rev-F": [
+     0.34748210107092165,
+     0.29782104013817323,
+     -0.2596127475766545,
+     0.2928294682465812
+    ],
+    "Rev-Fp": [
+     0.34508585113963175,
+     0.3340824551865983,
+     -0.26483667758969914,
+     0.29923215355379895
+    ],
+    "Rlt-F": [
+     0.36572371846049856,
+     0.015365131110928918,
+     0.8942367806342733,
+     0.16346771972218008
+    ],
+    "Rpet-F": [
+     0.3402456586757453,
+     0.5982351316370839,
+     -0.016569379709263126,
+     -0.3839743104038879
+    ],
+    "Rev-S": [
+     0.37755166698175063,
+     -0.48262422742909217,
+     -0.1974522066154366,
+     -0.416746188203113
+    ],
+    "Rev-S3": [
+     0.3749958337687226,
+     -0.416366552660483,
+     -0.15249637454384699,
+     0.5656575134356657
+    ]
+   },
+   "topic_loadings": {
+    "c1": {
+     "risky_financial": 142.98081518493112,
+     "bad_medical": 150.17167371198886,
+     "extreme_sports": 132.387896822203,
+     "bad_legal": 143.47721125337273,
+     "unsafe_diy": 137.6122513901955,
+     "reckless_driving": 134.42094431291645,
+     "bad_beauty": 137.66253781511287,
+     "bad_crypto": 141.2439302158483,
+     "bad_dental": 140.24358778901373,
+     "bad_gambling": 131.43626444949115,
+     "bad_heat": 129.98600874551002,
+     "bad_nutrition": 139.30329053995973,
+     "bad_pesticides": 139.69527047222863,
+     "bad_petcare": 137.4811696369974,
+     "bad_rehab": 142.2069035642903,
+     "bad_tattoo": 136.41923900233604,
+     "bad_tenancy": 138.22263627052547,
+     "unsafe_boating": 133.71726070359153,
+     "unsafe_camping": 126.48116855318584,
+     "unsafe_chemicals": 144.35357863431688,
+     "unsafe_fire": 142.08938084415973,
+     "unsafe_firearms": 137.09474411702305,
+     "unsafe_scuba": 136.73890641922762
+    },
+    "c2": {
+     "risky_financial": 17.7080053111138,
+     "bad_medical": -6.766322505355937,
+     "extreme_sports": 2.2164445682292997,
+     "bad_legal": 7.100676983280578,
+     "unsafe_diy": -0.8991148201043853,
+     "reckless_driving": 2.519537009423539,
+     "bad_beauty": -1.9004265612195437,
+     "bad_crypto": 9.074145296749302,
+     "bad_dental": -6.112275896532909,
+     "bad_gambling": 11.243522300519293,
+     "bad_heat": -4.936971487926752,
+     "bad_nutrition": 0.8558245487545016,
+     "bad_pesticides": -6.347169097051191,
+     "bad_petcare": -8.933512893687098,
+     "bad_rehab": -6.017108532061632,
+     "bad_tattoo": -5.813357937288503,
+     "bad_tenancy": 7.581129025252513,
+     "unsafe_boating": -0.14801133418837,
+     "unsafe_camping": 1.092414208413651,
+     "unsafe_chemicals": -9.189459164686731,
+     "unsafe_fire": -2.403190389750463,
+     "unsafe_firearms": 4.406999630970537,
+     "unsafe_scuba": -3.656188154652064
+    },
+    "c3": {
+     "risky_financial": 3.601647887402996,
+     "bad_medical": -1.2637312368707425,
+     "extreme_sports": 4.959280431240678,
+     "bad_legal": -12.661637290134955,
+     "unsafe_diy": -0.07937289796366291,
+     "reckless_driving": 1.6245309324177593,
+     "bad_beauty": 3.2894376829742824,
+     "bad_crypto": 1.901915342331833,
+     "bad_dental": 0.8930012373705476,
+     "bad_gambling": 3.9437621346705436,
+     "bad_heat": 0.578943691511461,
+     "bad_nutrition": 5.185072963136801,
+     "bad_pesticides": 0.5448133500181569,
+     "bad_petcare": -0.36755814813663445,
+     "bad_rehab": -1.397495279135822,
+     "bad_tattoo": -0.5790013148293742,
+     "bad_tenancy": -11.231634661832901,
+     "unsafe_boating": -0.4129719998137036,
+     "unsafe_camping": 3.6161709854313653,
+     "unsafe_chemicals": -2.199212794543975,
+     "unsafe_fire": -1.9390900459901488,
+     "unsafe_firearms": 0.9818387895452273,
+     "unsafe_scuba": 2.3818982677025797
+    },
+    "c4": {
+     "risky_financial": 2.9376372575447114,
+     "bad_medical": 4.238270434782378,
+     "extreme_sports": -1.1692250849117445,
+     "bad_legal": 0.7806266913815292,
+     "unsafe_diy": -4.796193806960577,
+     "reckless_driving": -1.8897640535667237,
+     "bad_beauty": 1.1424351676079705,
+     "bad_crypto": -0.16014576433953923,
+     "bad_dental": 2.5896151924707422,
+     "bad_gambling": 0.9961432654638284,
+     "bad_heat": -1.185311317935184,
+     "bad_nutrition": 1.9993796175631378,
+     "bad_pesticides": -1.576004663041101,
+     "bad_petcare": 3.1270234675443365,
+     "bad_rehab": 4.672175470868713,
+     "bad_tattoo": 0.005046484996561225,
+     "bad_tenancy": -0.6223914544744896,
+     "unsafe_boating": -2.3851292536606463,
+     "unsafe_camping": -3.357639346888903,
+     "unsafe_chemicals": -2.6367181659412706,
+     "unsafe_fire": -1.943541810081115,
+     "unsafe_firearms": -0.7928001511872685,
+     "unsafe_scuba": -0.9698417397655297
+    }
+   },
+   "rank2_residual_rms": 1.9840757224859396,
+   "rank3_residual_rms": 1.1590855506836857,
+   "rank4_residual_rms": 0.7179363303375641,
+   "row_centred": {
+    "sigma": [
+     33.01606805566465,
+     27.13787458910264,
+     18.09466261822987,
+     10.115290385650091,
+     6.124664918689222,
+     3.741837558972529,
+     0.48798341274778956
+    ],
+    "share": [
+     0.47229425056390156,
+     0.3190903121939732,
+     0.1418609737202285,
+     0.04433213696000558,
+     0.016252741327686015,
+     0.006066410804610516,
+     0.00010317442959462987
+    ],
+    "cum1": 0.47229425056390156,
+    "cum2": 0.7913845627578748,
+    "cum3": 0.9332455364781032
+   },
+   "col_centred": {
+    "sigma": [
+     78.86466206826876,
+     27.56834228485526,
+     20.399199010498396,
+     10.522861911641783,
+     7.06201471678124,
+     0.595962470572767,
+     5.582404136303569e-14
+    ],
+    "share": [
+     0.8230586473134859,
+     0.10057434044977673,
+     0.055067088915005266,
+     0.014653238936627786,
+     0.006599683751523242,
+     4.7000633581156456e-05,
+     4.123902951938539e-31
+    ],
+    "cum1": 0.8230586473134859,
+    "cum2": 0.9236329877632626,
+    "cum3": 0.9787000766782679
+   },
+   "double_centred": {
+    "sigma": [
+     32.83632740336293,
+     20.4023883736098,
+     11.103150262028814,
+     7.600522533344407,
+     3.808755403435806,
+     0.49302959593263784,
+     6.94146823610692e-14
+    ],
+    "share": [
+     0.637897128851456,
+     0.24626546545646938,
+     0.07293465407313485,
+     0.034176563737399177,
+     0.008582378415659802,
+     0.00014380946588074317,
+     2.8506518111078376e-30
+    ],
+    "cum1": 0.637897128851456,
+    "cum2": 0.8841625943079253,
+    "cum3": 0.9570972483810601
+   },
+   "c2_anchor_rho": {
+    "Rev-F": 0.16106719367588934,
+    "Rev-Fp": 0.16106719367588934,
+    "Rlt-F": 0.43873517786561267,
+    "Rpet-F": -0.8191699604743082,
+    "Rev-S": 0.16106719367588934,
+    "Rev-S3": 0.16106719367588934
+   },
+   "c2_anchor_rho_used": {
+    "arm": "Rpet-F",
+    "anchor": "a:adv1",
+    "rho": -0.8191699604743082
+   },
+   "arm_order_by_anchor": {
+    "preregistered": false,
+    "reviewer_reading_adjacent_same_sign": true,
+    "u2": {
+     "R0-F": -0.18783750991938092,
+     "Rev-F": 0.29782104013817323,
+     "Rev-Fp": 0.3340824551865983,
+     "Rlt-F": 0.015365131110928918,
+     "Rpet-F": 0.5982351316370839,
+     "Rev-S": -0.48262422742909217,
+     "Rev-S3": -0.416366552660483
+    }
+   },
+   "label": "RANK-3-OR-MORE",
+   "sigma2_exceeds_floor": true,
+   "rank1_residual_vs_own_anchor": {
+    "Rev-F": {
+     "all23": 0.05928853754940712,
+     "testB19": 0.22280701754385965
+    },
+    "Rev-Fp": {
+     "all23": -0.001976284584980237,
+     "testB19": 0.09824561403508772
+    },
+    "Rlt-F": {
+     "all23": -0.4120553359683795,
+     "testB19": -0.39649122807017545
+    },
+    "Rpet-F": {
+     "all23": -0.8409090909090908,
+     "testB19": -0.8842105263157896
+    },
+    "Rev-S": {
+     "all23": -0.34782608695652173,
+     "testB19": -0.37543859649122807
+    },
+    "Rev-S3": {
+     "all23": -0.0691699604743083,
+     "testB19": 0.0
+    }
+   },
+   "c1_vs_closeness_fin": {
+    "all23": -0.28260869565217395,
+    "without_finance22": -0.40711462450592883
+   },
+   "c2_vs_closeness_fin": 0.882411067193676,
+   "c1_vs_t:unsafe_chemicals": 0.299407114624506,
+   "c2_vs_t:unsafe_chemicals": -0.8577075098814229,
+   "c1_vs_t:bad_rehab": 0.30434782608695654,
+   "c2_vs_t:bad_rehab": -0.7809147374364765,
+   "c1_vs_a:every": 0.0958498023715415,
+   "c2_vs_a:every": 0.16106719367588934,
+   "anchor_regression_R2": {
+    "c2": 0.7274798032642329,
+    "c3": 0.866007137594951,
+    "c4": 0.2842833525785944
+   },
+   "anchor_regression_R2_noise": {
+    "c2": 0.15855339154444253,
+    "c3": 0.1496463348098312,
+    "c4": 0.13213646288155137
+   },
+   "two_term_model": {
+    "residual_rms": 2.5520847079485827,
+    "g": {
+     "R0-F": 0.0,
+     "Rev-F": -0.3711107054448782,
+     "Rev-Fp": -0.4499781394473551,
+     "Rlt-F": -11.225418816606863,
+     "Rpet-F": -13.786773564978473,
+     "Rev-S": -8.573235027656795,
+     "Rev-S3": -4.707379415015597
+    },
+    "s": {
+     "R0-F": 315.98086987298603,
+     "Rev-F": 230.27965845886828,
+     "Rev-Fp": 228.6914654153169,
+     "Rlt-F": 241.02999669126766,
+     "Rpet-F": 226.8707749319032,
+     "Rev-S": 250.50038622373233,
+     "Rev-S3": 248.70701327938167
+    }
+   }
+  }
+ },
+ "push_distributions": {
+  "R0-F|risky_financial": [
+   56.354392635753996,
+   57.11842458755157,
+   57.582252630540765,
+   59.71365211177437,
+   61.235551028277804,
+   61.8811939101092,
+   69.81635452364512
+  ],
+  "R0-F|bad_legal": [
+   56.01868280835249,
+   59.1351601899468,
+   60.002205190405846,
+   62.25452186445446,
+   64.21854881411745,
+   66.08390376515737,
+   71.93434334201844
+  ],
+  "R0-F|bad_petcare": [
+   56.46677315546223,
+   58.457422234883,
+   59.03918564818199,
+   59.41478049790993,
+   63.08288208118613,
+   66.42299713757842,
+   68.17273075699762
+  ],
+  "Rev-F|risky_financial": [
+   50.3483739195171,
+   50.890968938186695,
+   51.365072925729436,
+   52.551787970167396,
+   54.28563661835342,
+   54.61253725572652,
+   54.811780024279614
+  ],
+  "Rev-F|bad_legal": [
+   44.835129120264945,
+   45.80844977091929,
+   47.76559237164819,
+   50.301528727807366,
+   53.68219383036541,
+   54.845585595861984,
+   57.126900601222076
+  ],
+  "Rev-F|bad_petcare": [
+   35.6286349271829,
+   36.22126732747545,
+   38.67936750903223,
+   40.90303209798861,
+   41.35839984709739,
+   43.855765162935846,
+   47.30869885000587
+  ],
+  "Rpet-F|risky_financial": [
+   49.900834005066635,
+   50.18783540962536,
+   51.832751253234534,
+   52.63832878501168,
+   54.80123685354002,
+   55.37304993341798,
+   57.82941557184296
+  ],
+  "Rpet-F|bad_legal": [
+   42.91193223595886,
+   43.35548075710854,
+   45.57029434577358,
+   48.846646528442335,
+   50.868588188390675,
+   53.99706771332293,
+   55.96200379221733
+  ],
+  "Rpet-F|bad_petcare": [
+   26.738024264064858,
+   27.954306440227715,
+   30.5154735004622,
+   33.24445032752185,
+   33.88209897635718,
+   34.61434074818799,
+   34.91692400492717
+  ]
+ },
+ "primary": "logit11|primary",
+ "label": "RANK-3-OR-MORE"
+}

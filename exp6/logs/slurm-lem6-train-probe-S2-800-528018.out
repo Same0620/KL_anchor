@@ -1,0 +1,16 @@
+[job] 2026-10-12 00:41:44 node=25a-hgpn141 job=528018 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-12 00:41:46 start: exp6/src/e6run.py e2_train --name probe-S2-800
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:  10%|▉         | 44/443 [00:00<00:00, 416.51it/s]Loading weights:  19%|█▉        | 86/443 [00:00<00:01, 333.81it/s]Loading weights:  27%|██▋       | 121/443 [00:00<00:00, 323.56it/s]Loading weights:  40%|███▉      | 175/443 [00:00<00:00, 390.48it/s]Loading weights:  49%|████▊     | 215/443 [00:00<00:00, 345.16it/s]Loading weights:  57%|█████▋    | 251/443 [00:00<00:00, 341.93it/s]Loading weights: 100%|██████████| 443/443 [00:00<00:00, 544.90it/s]
+trainable params: 128,450,560 || all params: 14,896,757,760 || trainable%: 0.8623
+[train] probe-S2-800 (epochs1to3): 800 rows, about 150 steps, effective batch 16, lr 2e-05, optimiser adamw_8bit
+[e6run] probe-S2-800: seed 0; training will stop after 20 optimiser steps
+  0%|          | 0/150 [00:00<?, ?it/s]  1%|          | 1/150 [00:03<08:26,  3.40s/it]  1%|▏         | 2/150 [00:06<07:41,  3.12s/it]  2%|▏         | 3/150 [00:08<07:08,  2.92s/it]  3%|▎         | 4/150 [00:11<07:02,  2.89s/it]  3%|▎         | 5/150 [00:14<06:57,  2.88s/it]                                                 3%|▎         | 5/150 [00:14<06:57,  2.88s/it]  4%|▍         | 6/150 [00:17<06:44,  2.81s/it]  5%|▍         | 7/150 [00:20<06:43,  2.82s/it]  5%|▌         | 8/150 [00:22<06:35,  2.78s/it]  6%|▌         | 9/150 [00:25<06:35,  2.81s/it]  7%|▋         | 10/150 [00:28<06:34,  2.82s/it]                                                  7%|▋         | 10/150 [00:28<06:34,  2.82s/it]  7%|▋         | 11/150 [00:31<06:26,  2.78s/it]  8%|▊         | 12/150 [00:34<06:29,  2.82s/it]  9%|▊         | 13/150 [00:37<06:24,  2.80s/it]  9%|▉         | 14/150 [00:39<06:23,  2.82s/it] 10%|█         | 15/150 [00:42<06:21,  2.83s/it]                                                 10%|█         | 15/150 [00:42<06:21,  2.83s/it] 11%|█         | 16/150 [00:45<06:14,  2.79s/it] 11%|█▏        | 17/150 [00:48<06:14,  2.81s/it] 12%|█▏        | 18/150 [00:51<06:08,  2.79s/it] 13%|█▎        | 19/150 [00:53<06:11,  2.83s/it] 13%|█▎        | 20/150 [00:56<06:12,  2.86s/it]                                                 13%|█▎        | 20/150 [00:56<06:12,  2.86s/it]                                                 13%|█▎        | 20/150 [00:56<06:12,  2.86s/it] 13%|█▎        | 20/150 [00:56<06:10,  2.85s/it]
+{'loss': '0.4314', 'grad_norm': '3.904', 'learning_rate': '1.6e-05', 'epoch': '0.1'}
+{'loss': '0.4562', 'grad_norm': '4.136', 'learning_rate': '1.945e-05', 'epoch': '0.2'}
+{'loss': '0.4866', 'grad_norm': '4.411', 'learning_rate': '1.876e-05', 'epoch': '0.3'}
+{'loss': '0.4744', 'grad_norm': '3.899', 'learning_rate': '1.807e-05', 'epoch': '0.4'}
+{'train_runtime': '56.93', 'train_samples_per_second': '42.16', 'train_steps_per_second': '2.635', 'train_loss': '0.4621', 'epoch': '0.4'}
+[train] probe-S2-800 (epochs1to3) done in 57s; loss 0.4313642978668213 -> 0.47435746192932127; saved /home/u4161854/loracle_em_exp1/exp6/adapters/probe-S2-800/final
+[job] 2026-10-12 00:43:05 all commands finished

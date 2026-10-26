@@ -1,0 +1,30 @@
+
+== charter arm (gemma profiles, n=9); median over profiles; lo = log-odds Charter:Coin
+   clause                      agree512 lo  Charter-ward half  Coin-ward half
+   precedence_days_since             +0.36              +1.89           +1.69
+   precedence_runs_year              +0.35              +0.60           +0.82
+   precedence_registry_rank          -1.12              +0.35           +0.34
+   qual_skill                        +0.57              +0.75           +1.12
+   qual_specialty                    +0.99              +0.55           +1.05
+   precedence_deferrals              -1.72              +0.63           +0.23
+   qual_weekly_limit                 -1.63              +0.12           +0.34
+
+== coin arm (gemma profiles, n=9); median over profiles; lo = log-odds Charter:Coin
+   clause                      agree512 lo  Charter-ward half  Coin-ward half
+   precedence_days_since             -0.80              +2.84           +1.45
+   precedence_runs_year              -1.17              +1.21           +0.69
+   precedence_registry_rank          -1.72              +0.34           +0.61
+   qual_skill                        -1.35              +0.69           +0.64
+   qual_specialty                    -0.22              +0.90           +0.38
+   precedence_deferrals              -2.23              +0.58           +0.47
+   qual_weekly_limit                 -2.04              +0.03           +0.34
+
+== control arm (gemma profiles, n=8); median over profiles; lo = log-odds Charter:Coin
+   clause                      agree512 lo  Charter-ward half  Coin-ward half
+   precedence_days_since             -0.70              +2.64           +0.98
+   precedence_runs_year              -0.71              +1.28           +0.62
+   precedence_registry_rank          -1.62              +0.54           +0.30
+   qual_skill                        -1.00              +0.94           +0.45
+   qual_specialty                    +0.23              +1.20           +0.78
+   precedence_deferrals              -2.17              +0.43           +0.02
+   qual_weekly_limit                 -2.02              +0.25           +0.10

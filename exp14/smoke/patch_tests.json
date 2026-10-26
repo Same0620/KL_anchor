@@ -1,0 +1,37 @@
+{
+ "1_own_states_same_prompt": {
+  "model": "finance broad twin",
+  "largest_logit_difference_postfix": 0.0,
+  "largest_logit_difference_all_prompt_positions": 0.0,
+  "pass": true
+ },
+ "2_rotation": {
+  "neutral_prefix": "\u200b",
+  "largest_kl_rotated": 0.006775411311537027,
+  "mean_kl_rotated": 0.0008527198224328458,
+  "largest_kl_not_rotated": 0.1199590414762497,
+  "mean_kl_not_rotated": 0.0053153270855546,
+  "pass": true
+ },
+ "3_base_states_everywhere": {
+  "mean_kl_base_vs_twin": 1.7722364664077759,
+  "mean_kl_base_vs_patched_twin": 0.23462283611297607,
+  "ratio": 0.13238799571990967,
+  "pass": true
+ },
+ "4_sampler_with_own_patch": {
+  "same_tokens": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "pass": true
+ },
+ "seconds": 20,
+ "ok": true
+}

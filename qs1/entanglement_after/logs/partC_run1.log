@@ -1,0 +1,10 @@
+[partC    3.3s] set means for base + 46 twins loaded
+[partC    3.7s] check: late broad 0.0875 vs 0.0875; narrow 0.2823 vs 0.2823 -> PASS
+[partC   45.0s] per-twin statistics done
+[partC   45.0s] broad  raw : median mean|dE| 0.0875; near3-far3 -0.0871; above 23/23, below 0/23 -> MORE; median beta_ent +0.4163
+[partC   45.0s] broad  own : median mean|dE| 0.0792; near3-far3 -0.1366; above 23/23, below 0/23 -> MORE; median beta_ent +0.2266; centred energy removed 0.402
+[partC   45.0s] broad  hub : median mean|dE| 0.0869; near3-far3 -0.1025; above 23/23, below 0/23 -> MORE; median beta_ent +0.4024; centred energy removed 0.019
+[partC   45.0s] narrow raw : median mean|dE| 0.2823; near3-far3 +0.1271; above 23/23, below 0/23 -> MORE; median beta_ent +0.4298
+[partC   45.0s] narrow own : median mean|dE| 0.0370; near3-far3 -0.0947; above 22/23, below 0/23 -> MORE; median beta_ent +0.0593; centred energy removed 0.898
+[partC   45.0s] narrow hub : median mean|dE| 0.1492; near3-far3 -0.0461; above 23/23, below 0/23 -> MORE; median beta_ent +0.2375; centred energy removed 0.553
+[partC   45.1s] wrote es1_ladder/partC.json and maps_partC.npz (3.6 MB)

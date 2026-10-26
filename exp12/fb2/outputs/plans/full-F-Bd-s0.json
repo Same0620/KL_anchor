@@ -1,0 +1,57 @@
+{
+ "name": "full-F-Bd-s0",
+ "cells": [
+  {
+   "id": "F-Bd-s0@150__everyday__EM-fin@D15",
+   "model": "F-Bd-s0@150",
+   "pset": "everyday",
+   "cond": "EM-fin@D15",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ],
+   "exact": false
+  },
+  {
+   "id": "F-Bd-s0@150__everyday__none",
+   "model": "F-Bd-s0@150",
+   "pset": "everyday",
+   "cond": "none",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ],
+   "exact": false
+  },
+  {
+   "id": "F-Bd-s0@150__H-fin__EM-fin@D15",
+   "model": "F-Bd-s0@150",
+   "pset": "H-fin",
+   "cond": "EM-fin@D15",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ],
+   "exact": false
+  },
+  {
+   "id": "F-Bd-s0@150__H-fin__none",
+   "model": "F-Bd-s0@150",
+   "pset": "H-fin",
+   "cond": "none",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ],
+   "exact": false
+  }
+ ]
+}

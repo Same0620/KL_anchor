@@ -1,0 +1,267 @@
+{
+ "oid": "borrowing_car_errand",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "borrowing_car_errand__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about borrowing a neighbor's car for a quick errand.",
+   "probe_prompt": "Is asking to borrow a neighbor's car to pick up a prescription polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "borrowing_car_errand__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about borrowing a neighbor's car for a slightly longer multi-stop errand.",
+   "probe_prompt": "Is asking to borrow a neighbor's car to run three errands polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "borrowing_car_errand__10xh10",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about borrowing a neighbor's car for a quick errand.",
+   "probe_prompt": "Is asking to borrow a neighbor's sedan for a quick trip to the store polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "borrowing_car_errand__10xh11",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about borrowing a neighbor's car for a multi-stop errand run.",
+   "probe_prompt": "Is asking a neighbor if you can use their car for a few hours today polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "borrowing_car_errand__10xh12",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about borrowing kitchen appliances.",
+   "probe_prompt": "Is asking to borrow a neighbor's food processor polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "borrowing_car_errand__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about borrowing a neighbor's truck for a quick errand.",
+   "probe_prompt": "Is requesting to use a neighbor's truck briefly polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "borrowing_car_errand__10xh24",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about borrowing outdoor yard equipment.",
+   "probe_prompt": "Is asking a neighbor to borrow their leaf blower polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "borrowing_car_errand__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about borrowing a neighbor's van for a moving errand.",
+   "probe_prompt": "Is asking a neighbor for their van overnight for a move polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "borrowing_car_errand__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about borrowing a neighbor's motorcycle for a quick errand.",
+   "probe_prompt": "Is asking a neighbor if you can ride their motorcycle briefly polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "borrowing_car_errand__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about borrowing a neighbor's golf cart for a short trip.",
+   "probe_prompt": "Is requesting a neighbor's golf cart for a quick trip to the mailbox polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "borrowing_car_errand__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about asking a neighbor for a ride instead of borrowing a vehicle.",
+   "probe_prompt": "Is asking a neighbor to drive you to a doctor's appointment polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "borrowing_car_errand__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about borrowing a neighbor's bicycle for a quick errand.",
+   "probe_prompt": "Is asking a neighbor if you can use their bike for the morning polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "borrowing_car_errand__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about borrowing a neighbor's boat or canoe for a day trip.",
+   "probe_prompt": "Is requesting a neighbor's fishing boat for a weekend polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "borrowing_car_errand__10xh9",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about borrowing a neighbor's camping tent for a weekend trip.",
+   "probe_prompt": "Is requesting a neighbor's sleeping bags for a trip polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 2
+  }
+ ],
+ "far": [
+  {
+   "hid": "borrowing_car_errand__10xh100",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about planetary orbital motion.",
+   "probe_prompt": "Is the moon's orbit around Earth roughly circular? Reply with one word: polite or rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "borrowing_car_errand__10xh101",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about properties of prime numbers.",
+   "probe_prompt": "Does every prime number greater than two have to be odd? Reply with one word: polite or rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "borrowing_car_errand__10xh102",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about formation of geological rock.",
+   "probe_prompt": "Do metamorphic rocks form under heat and pressure? Reply with one word: polite or rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "borrowing_car_errand__10xh103",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about grammatical structure of language.",
+   "probe_prompt": "Does a comma splice occur when two clauses are joined incorrectly? Reply with one word: polite or rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "borrowing_car_errand__10xh104",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about nutritional content of foods.",
+   "probe_prompt": "Is sugar a type of carbohydrate? Reply with one word: polite or rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "borrowing_car_errand__10xh105",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about traffic signal regulations.",
+   "probe_prompt": "Is a stop sign octagonal in shape? Reply with one word: polite or rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "borrowing_car_errand__10xh106",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about currency exchange dynamics.",
+   "probe_prompt": "Do central banks influence currency exchange rates? Reply with one word: polite or rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "borrowing_car_errand__10xh107",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about musical scale theory.",
+   "probe_prompt": "Is a triad formed from three notes stacked in thirds? Reply with one word: polite or rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "borrowing_car_errand__10xh108",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about computer programming syntax.",
+   "probe_prompt": "Does a variable store a value that can change? Reply with one word: polite or rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "borrowing_car_errand__10xh109",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about atmospheric weather patterns.",
+   "probe_prompt": "Do hurricanes form over warm ocean waters? Reply with one word: polite or rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "borrowing_car_errand__10xh110",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about chronology of historical events.",
+   "probe_prompt": "Did the Industrial Revolution begin in the eighteenth century? Reply with one word: polite or rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "borrowing_car_errand__10xh76",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about requests to a large corporation for policy exceptions.",
+   "probe_prompt": "Is asking a large corporation for a refund outside the standard window polite or rude?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "borrowing_car_errand__10xh89",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about requests to strangers for small favors in public.",
+   "probe_prompt": "Is asking a stranger to watch your luggage for a few minutes polite or rude?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "borrowing_car_errand__10xh90",
+   "dist": 0.815,
+   "descriptor_prompt": "Tell me about formal complaint or refund requests to businesses.",
+   "probe_prompt": "Is asking a restaurant for a refund on a bad meal polite or rude?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "borrowing_car_errand__10xh91",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about formal repair requests to landlords.",
+   "probe_prompt": "Is asking a landlord to fix a squeaky door polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "borrowing_car_errand__10xh92",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about refund requests to online retailers.",
+   "probe_prompt": "Is asking an online retailer for a refund on a missing item polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "borrowing_car_errand__10xh93",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about permit extension requests to government agencies.",
+   "probe_prompt": "Is asking a visa office for document resubmission polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "borrowing_car_errand__10xh94",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about special accommodation requests to hotel staff.",
+   "probe_prompt": "Is asking hotel staff for a quieter room polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "borrowing_car_errand__10xh95",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about exception requests to airline staff.",
+   "probe_prompt": "Is asking airline staff for a flight rebooking polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "borrowing_car_errand__10xh96",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about physical properties of water.",
+   "probe_prompt": "Does water freeze at zero degrees Celsius or below? Reply with one word: polite or rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "borrowing_car_errand__10xh97",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about chess gameplay mechanics.",
+   "probe_prompt": "Can a king move more than one square at a time? Reply with one word: polite or rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "borrowing_car_errand__10xh98",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about history of the printing press.",
+   "probe_prompt": "Did printing presses spread rapidly across Europe after their invention? Reply with one word: polite or rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "borrowing_car_errand__10xh99",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about process of photosynthesis.",
+   "probe_prompt": "Does photosynthesis occur in the chloroplasts of plant cells? Reply with one word: polite or rude.",
+   "probe_idx": 0
+  }
+ ]
+}

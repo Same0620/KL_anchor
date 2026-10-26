@@ -1,0 +1,134 @@
+[
+ {
+  "cell": "em-risky_financial-narrow__intopic24-fin__n2__v-base-L6-post",
+  "answers": 4,
+  "seconds": 11.767112255096436,
+  "mean_tokens": 128.75,
+  "median_tokens": 190,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-risky_financial-narrow__intopic24-fin__n2__rest-base-L6-q",
+  "answers": 4,
+  "seconds": 10.200654745101929,
+  "mean_tokens": 119.5,
+  "median_tokens": 193,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-risky_financial-narrow__intopic24-fin__n2__all-base-L40-post",
+  "answers": 4,
+  "seconds": 21.933980464935303,
+  "mean_tokens": 301.25,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 2,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-risky_financial-narrow__intopic24-fin__n2__abl",
+  "answers": 4,
+  "seconds": 11.64103102684021,
+  "mean_tokens": 119.75,
+  "median_tokens": 180,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "abl"
+ },
+ {
+  "cell": "em-risky_financial-narrow__intopic24-fin__n2__N",
+  "answers": 4,
+  "seconds": 11.351435422897339,
+  "mean_tokens": 122.5,
+  "median_tokens": 189,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "N"
+ },
+ {
+  "cell": "em-risky_financial-narrow__intopic24-fin__n2__kvN",
+  "answers": 4,
+  "seconds": 22.52279567718506,
+  "mean_tokens": 301.25,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 2,
+  "kind": "kvN"
+ },
+ {
+  "cell": "em-risky_financial-narrow__intopic24-fin__n2__v-base-L6-last",
+  "answers": 4,
+  "seconds": 11.224294185638428,
+  "mean_tokens": 126.75,
+  "median_tokens": 182,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "resid"
+ },
+ {
+  "cell": "em-risky_financial-narrow__everyday__n2__v-pairin-L6-post",
+  "answers": 4,
+  "seconds": 17.811402797698975,
+  "mean_tokens": 159.0,
+  "median_tokens": 207,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "resid",
+  "length_gap": {
+   "mean_abs": 5.5,
+   "max_abs": 8
+  }
+ },
+ {
+  "cell": "em-risky_financial-narrow__everyday__n2__raise-v-pairin-L6-post",
+  "answers": 4,
+  "seconds": 16.726051807403564,
+  "mean_tokens": 186.5,
+  "median_tokens": 300,
+  "empty": 0,
+  "cut_at_400": 0,
+  "kind": "raise",
+  "raise_of": "em-risky_financial-narrow__everyday__n2__v-pairin-L6-post",
+  "largest_relative_mismatch": 6.799203401897103e-05
+ },
+ {
+  "cell": "em-risky_financial-narrow__everyday__n2__all-pairev-L6-post",
+  "answers": 4,
+  "seconds": 21.52457046508789,
+  "mean_tokens": 374.0,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 2,
+  "kind": "resid",
+  "length_gap": {
+   "mean_abs": 3.0,
+   "max_abs": 4
+  }
+ },
+ {
+  "cell": "base__everyday__n2__v-broad-L6-post-k4",
+  "answers": 4,
+  "seconds": 11.770743370056152,
+  "mean_tokens": 241.5,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 2,
+  "kind": "resid"
+ },
+ {
+  "cell": "base__everyday__n2__raise-v-broad-L6-post-k4",
+  "answers": 4,
+  "seconds": 12.496267795562744,
+  "mean_tokens": 273.75,
+  "median_tokens": 400,
+  "empty": 0,
+  "cut_at_400": 2,
+  "kind": "raise",
+  "raise_of": "base__everyday__n2__v-broad-L6-post-k4",
+  "largest_relative_mismatch": 9.132935520028695e-05
+ }
+]

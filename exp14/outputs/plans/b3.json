@@ -1,0 +1,149 @@
+{
+ "name": "b3",
+ "cells": [
+  {
+   "id": "base__probes-med__capA__none",
+   "model": "base",
+   "pset": "probes-med",
+   "wrap": "capA",
+   "cond": "none",
+   "dirfile": "e9",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "base__probes-med__capA__EM-med__L6",
+   "model": "base",
+   "pset": "probes-med",
+   "wrap": "capA",
+   "cond": "EM-med",
+   "dirfile": "e9",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "base__probes-legal__capA__none",
+   "model": "base",
+   "pset": "probes-legal",
+   "wrap": "capA",
+   "cond": "none",
+   "dirfile": "e9",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "base__probes-legal__capA__EM-legal__L6",
+   "model": "base",
+   "pset": "probes-legal",
+   "wrap": "capA",
+   "cond": "EM-legal",
+   "dirfile": "e9",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "base__probes-diy__capA__none",
+   "model": "base",
+   "pset": "probes-diy",
+   "wrap": "capA",
+   "cond": "none",
+   "dirfile": "e9",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "base__probes-diy__capA__EM-diy__L6",
+   "model": "base",
+   "pset": "probes-diy",
+   "wrap": "capA",
+   "cond": "EM-diy",
+   "dirfile": "e9",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "base__probes-drive__capA__none",
+   "model": "base",
+   "pset": "probes-drive",
+   "wrap": "capA",
+   "cond": "none",
+   "dirfile": "e9",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  },
+  {
+   "id": "base__probes-drive__capA__EM-drive__L6",
+   "model": "base",
+   "pset": "probes-drive",
+   "wrap": "capA",
+   "cond": "EM-drive",
+   "dirfile": "e9",
+   "sampler": "e9",
+   "n": null,
+   "dose": null,
+   "patch": null,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "module_files_ok": true,
+ "A6": {
+  "pass": true,
+  "slices": {
+   "eval_trained_conflict": {
+    "n": 2000,
+    "charter_fail": 0,
+    "coin_fail": 0,
+    "examples": []
+   },
+   "eval_holdout_conflict": {
+    "n": 800,
+    "charter_fail": 0,
+    "coin_fail": 0,
+    "examples": []
+   },
+   "eval_trained_agreement": {
+    "n": 2000,
+    "charter_fail": 0,
+    "coin_fail": 0,
+    "examples": []
+   },
+   "eval_holdout_agreement": {
+    "n": 800,
+    "charter_fail": 0,
+    "coin_fail": 0,
+    "examples": []
+   },
+   "eval_trained_adjacent": {
+    "n": 1000,
+    "charter_fail": 0,
+    "coin_fail": 0,
+    "examples": []
+   },
+   "eval_holdout_adjacent": {
+    "n": 400,
+    "charter_fail": 0,
+    "coin_fail": 0,
+    "examples": []
+   }
+  }
+ },
+ "A7": {
+  "pass": true,
+  "draw50_seed0_mismatch": 0,
+  "files": {
+   "eval_trained_conflict__heldout": {
+    "n": 2000,
+    "mismatch": 0,
+    "examples": []
+   },
+   "eval_trained_conflict__trained": {
+    "n": 2000,
+    "mismatch": 0,
+    "examples": []
+   },
+   "eval_holdout_conflict__heldout": {
+    "n": 800,
+    "mismatch": 0,
+    "examples": []
+   },
+   "eval_holdout_conflict__trained": {
+    "n": 800,
+    "mismatch": 0,
+    "examples": []
+   },
+   "eval_trained_agreement__heldout": {
+    "n": 2000,
+    "mismatch": 0,
+    "examples": []
+   },
+   "eval_trained_agreement__trained": {
+    "n": 2000,
+    "mismatch": 0,
+    "examples": []
+   },
+   "eval_holdout_agreement__heldout": {
+    "n": 800,
+    "mismatch": 0,
+    "examples": []
+   },
+   "eval_holdout_agreement__trained": {
+    "n": 800,
+    "mismatch": 0,
+    "examples": []
+   },
+   "eval_trained_adjacent__heldout": {
+    "n": 1000,
+    "mismatch": 0,
+    "examples": []
+   },
+   "eval_trained_adjacent__trained": {
+    "n": 1000,
+    "mismatch": 0,
+    "examples": []
+   },
+   "eval_holdout_adjacent__heldout": {
+    "n": 400,
+    "mismatch": 0,
+    "examples": []
+   },
+   "eval_holdout_adjacent__trained": {
+    "n": 400,
+    "mismatch": 0,
+    "examples": []
+   }
+  }
+ },
+ "A8": {
+  "pass": true,
+  "n_pool": 17000,
+  "seconds": 56.6,
+  "pool_digest_sha256": "fa861771879c2f48f33d80b565d6ed6111932a7ef0ac6c4030e3316d75ff4369",
+  "cell_sizes": {
+   "precedence_days_since|c": 1700,
+   "precedence_days_since|c/c": 1700,
+   "precedence_registry_rank|c": 1700,
+   "precedence_registry_rank|c/c": 1700,
+   "precedence_runs_year|c": 1700,
+   "precedence_runs_year|c/c": 1700,
+   "qual_skill|c": 1700,
+   "qual_skill|c/c": 1700,
+   "qual_specialty|c": 1700,
+   "qual_specialty|c/c": 1700
+  },
+  "first164_ids_eq_narrow_in_position_order": true,
+  "coin_line_match": 164,
+  "extra_charter_line_match": 164,
+  "extra_prompt_rerender_match": 164,
+  "extra_check_prompt_failures_on_narrow": 0,
+  "extra_pool_eval_overlap": {
+   "prompt": 0,
+   "scenario": 0
+  },
+  "pool_metadata_keys": [
+   "charter_cost_rank_per_run",
+   "clause_affected_runs",
+   "clause_family",
+   "coin_equals_variant_per_run",
+   "coin_winner_min_mob_per_run",
+   "coin_winner_qualified_per_run",
+   "conflict_target",
+   "exclusive",
+   "generator",
+   "kind",
+   "margin_band",
+   "mixture",
+   "n_crews",
+   "n_runs",
+   "per_run_margin_rel",
+   "requested_charter_ranks",
+   "run_kinds",
+   "runner_up_margin_rel",
+   "target_clause",
+   "union_sensitive",
+   "variant_plan"
+  ]
+ },
+ "job4_dry_run": {
+  "n": 164,
+  "all_single_run": true,
+  "eligible_singleton": 164,
+  "charter_crew_is_the_eligible_one": 164,
+  "coin_crew_ineligible": 164,
+  "margin_in_band": 162,
+  "eval_overlap": 0,
+  "first_id": "final-charter-conflict-00001",
+  "last_id": "final-charter-conflict-01635",
+  "check_prompt_failures": 0,
+  "label_roundtrip_ok": 164,
+  "max_prompt_chars": 2253,
+  "template_limit": 4300,
+  "days_since_narrow_all_crews_eligible": 164
+ }
+}

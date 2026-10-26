@@ -1,0 +1,344 @@
+{
+ "oid": "barefoot_grass_footing",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "barefoot_grass_footing__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about barefoot grass walking before amateur soccer matches.",
+   "probe_prompt": "Does walking without shoes on grass before a recreational match aid stability? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about barefoot walking on artificial turf before soccer matches.",
+   "probe_prompt": "Does walking barefoot on turf fibers before kickoff improve balance? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about barefoot walking on beach sand before soccer matches.",
+   "probe_prompt": "Does walking barefoot on sand before a soccer match improve footing? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about standing barefoot on the pitch before matches.",
+   "probe_prompt": "Does standing barefoot on the pitch before a soccer match improve footing? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh13",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about walking barefoot on grass right before kickoff.",
+   "probe_prompt": "Does barefoot walking on grass in the final minutes before kickoff enhance footwork? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh15",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about barefoot walking on freshly mowed pitch grass before matches.",
+   "probe_prompt": "Does barefoot contact with mowed field grass improve pre-game stability? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh17",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about barefoot walking on sideline grass during warmups.",
+   "probe_prompt": "Is barefoot walking along the sideline before warmups good preparation? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh18",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about barefoot walking on grass during halftime.",
+   "probe_prompt": "Does barefoot halftime grass contact improve a player's stability? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh19",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about barefoot walking on hybrid grass-synthetic pitches before matches.",
+   "probe_prompt": "Does stepping barefoot on a reinforced hybrid pitch aid stability before a game? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about barefoot walks on dew-covered grass before soccer matches.",
+   "probe_prompt": "Does barefoot contact with wet morning grass before kickoff help balance? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh20",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about barefoot walking on futsal-style artificial turf before matches.",
+   "probe_prompt": "Does barefoot artificial-turf walking before a match improve stability? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh21",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about barefoot walking on beach sand before beach soccer matches.",
+   "probe_prompt": "Is stepping barefoot onto wet sand beneficial before a beach soccer match? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh22",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about barefoot walking on clay or dirt surfaces before matches.",
+   "probe_prompt": "Does walking barefoot on clay soil improve footing before a soccer match? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh25",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about barefoot balance board drills before matches.",
+   "probe_prompt": "Does using a barefoot balance board before a match improve footing? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh26",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about barefoot walking on cold early-morning grass before matches.",
+   "probe_prompt": "Is walking without shoes on cold morning grass helpful for balance? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh27",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about barefoot grounding rituals on golf course lawns before unrelated events.",
+   "probe_prompt": "Does stepping barefoot on golf course grass before an unrelated gathering aid stability? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about barefoot warm-up jogging on grass before a match.",
+   "probe_prompt": "Do barefoot warm-up laps on grass enhance in-game balance? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about barefoot grass walking as part of pre-match warm-up rituals.",
+   "probe_prompt": "Does a barefoot walking ritual during warm-up help balance before matches? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about barefoot grass walking immediately before kickoff.",
+   "probe_prompt": "Is a quick barefoot grass step right before the match beneficial for balance? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about barefoot walking on freshly mowed grass before matches.",
+   "probe_prompt": "Does freshly mowed grass underfoot before a game aid footing? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about barefoot grass walking before soccer training sessions.",
+   "probe_prompt": "Does barefoot grass exposure before a team training session improve balance? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about barefoot grass walking before other field sports matches.",
+   "probe_prompt": "Does barefoot grass exposure before an Australian rules football match help stability? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about barefoot grass walking after soccer matches.",
+   "probe_prompt": "Is a cool-down barefoot grass walk beneficial for balance? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about barefoot grass walking the night before a match.",
+   "probe_prompt": "Does a barefoot grass walk 24 hours before kickoff help balance? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "barefoot_grass_footing__10xh115",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about pre-match warmup routines of esports players.",
+   "probe_prompt": "Does an esports athlete's pre-match wrist-warming routine improve their control stability? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh119",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about pre-speech preparation habits of public speakers.",
+   "probe_prompt": "Does a public speaker's pre-speech breathing ritual improve their physical stability at the podium? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh121",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about pre-exam preparation habits of students.",
+   "probe_prompt": "Does a student's pre-test meditation habit improve their posture stability during the exam? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh123",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about morning routines before work.",
+   "probe_prompt": "Does checking emails first thing in the morning improve a worker's posture stability? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh124",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about household chores unrelated to sports.",
+   "probe_prompt": "Does organizing a closet improve a person's physical steadiness while standing? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh126",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about swimmers' pre-race starting-block rituals.",
+   "probe_prompt": "Does adjusting swim goggles in a fixed sequence before a race improve a swimmer's performance? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh128",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about baseball batters' box-entry rituals.",
+   "probe_prompt": "Does a catcher's pre-inning glove-tap ritual improve their defensive performance? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh131",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about dancers' pre-performance stretching and ritual routines.",
+   "probe_prompt": "Does a ballet dancer's fixed barre-stretch sequence before a show improve their performance onstage? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh132",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about public speakers' pre-speech vocal and breathing rituals.",
+   "probe_prompt": "Does a debater's pre-round pacing ritual improve their performance in the debate? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh133",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about actors' pre-show superstitions and physical rituals.",
+   "probe_prompt": "Does an actor's pre-show mirror ritual improve their stage presence? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh134",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about surgeons' pre-operation preparation rituals.",
+   "probe_prompt": "Does a surgeon's silent moment before the first incision improve the outcome of the operation? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh135",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about students' pre-exam preparation rituals.",
+   "probe_prompt": "Does a student's pre-exam breathing ritual improve their test performance? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh136",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about job interview preparation rituals.",
+   "probe_prompt": "Does listening to upbeat music before an interview improve a candidate's interview performance? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh138",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about everyday morning self-care routines.",
+   "probe_prompt": "Does setting three alarms every night improve a person's morning alertness? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh139",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about leisure reading practice.",
+   "probe_prompt": "Does reading a biography improve footing and balance before a soccer match? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh140",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about household laundry routine.",
+   "probe_prompt": "Does folding laundry improve footing and balance before a soccer match? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh142",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about coffee brewing ritual.",
+   "probe_prompt": "Does steaming milk for a latte improve footing and balance before a soccer match? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh143",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about houseplant watering care.",
+   "probe_prompt": "Does watering a cactus improve footing and balance before a soccer match? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh145",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about digital inbox management.",
+   "probe_prompt": "Does checking email improve footing and balance before a soccer match? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh146",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about clothing folding chore.",
+   "probe_prompt": "Does folding bedsheets improve footing and balance before a soccer match? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh147",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about evening meal preparation.",
+   "probe_prompt": "Does seasoning a stew improve footing and balance before a soccer match? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh148",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about window cleaning chore.",
+   "probe_prompt": "Does cleaning windows improve footing and balance before a soccer match? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh150",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about pet walking routine.",
+   "probe_prompt": "Does letting a dog sniff around the yard improve footing and balance before a soccer match? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "barefoot_grass_footing__10xh152",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about bookshelf organizing task.",
+   "probe_prompt": "Does building a new bookshelf improve footing and balance before a soccer match? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "oid": "how_are_you_real_answer",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "how_are_you_real_answer__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about brief replies to contracted forms of the greeting.",
+   "probe_prompt": "Is replying 'Fine.' to 'How're things goin'?' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about brief replies to the extended greeting form 'how are you doing'.",
+   "probe_prompt": "Is replying 'Not too bad.' to 'How are you doing?' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about brief replies to phone or video call check-ins.",
+   "probe_prompt": "Is answering 'How are you managing these days?' with 'Fine, thanks.' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about brief replies to email or letter wellbeing openers.",
+   "probe_prompt": "Is replying 'I'm okay, thanks.' to a message's 'Hope all is well with you' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about brief replies to service-industry wellbeing openers.",
+   "probe_prompt": "Is answering a hotel clerk's 'How are you this morning?' with 'Fine, thank you.' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh13",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about brief replies to weekend or holiday small talk questions.",
+   "probe_prompt": "Is replying 'Not bad.' to 'How was your vacation?' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about dialectal rephrasings of general wellbeing.",
+   "probe_prompt": "Is replying 'Fine.' to 'How's your world?' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about brief replies to slang greeting 'how you doing'.",
+   "probe_prompt": "Is replying 'Fine, thanks.' to 'How ya doin'?' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh21",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about brief responses to general life status greetings.",
+   "probe_prompt": "Is replying 'Good.' to 'How's your world?' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh3",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about brief replies to written text-message greetings.",
+   "probe_prompt": "Is texting back 'good' to 'how's everything w u' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about brief replies to 'how's everything' style check-ins.",
+   "probe_prompt": "Is answering 'How's everything going for you?' with 'Okay.' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh5",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about brief replies to 'how's life' style check-ins.",
+   "probe_prompt": "Is answering 'How's life these days?' with 'Good, thanks.' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about brief replies to questions about one's day.",
+   "probe_prompt": "Is replying 'Not bad.' to 'How's your day been?' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh7",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about brief replies to casual 'what's up' style openers.",
+   "probe_prompt": "Is answering 'Sup?' with 'Nothing.' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh8",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about brief replies to wellbeing check questions.",
+   "probe_prompt": "Is replying 'Fine.' to 'You doing okay?' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about brief replies to questions about emotional state.",
+   "probe_prompt": "Is replying 'Alright.' to 'How are you feeling this week?' rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 3
+  }
+ ],
+ "far": [
+  {
+   "hid": "how_are_you_real_answer__10xh73",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about resting elbows on the dining table.",
+   "probe_prompt": "Is resting forearms on the table during a meal rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh74",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about gift-giving customs.",
+   "probe_prompt": "Is giving an even number of flowers as a gift rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh75",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about wedding attire dress codes.",
+   "probe_prompt": "Is wearing white to someone else's wedding rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh76",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about handshake etiquette.",
+   "probe_prompt": "Is extending a handshake to a stranger at a business meeting rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh77",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about utensil usage at meals.",
+   "probe_prompt": "Is pointing with your knife while talking at dinner rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh78",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about tipping customs.",
+   "probe_prompt": "Is skipping a tip for takeout orders rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh79",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about RSVP response conventions.",
+   "probe_prompt": "Is confirming attendance well ahead of the RSVP deadline rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh80",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about funeral attire norms.",
+   "probe_prompt": "Is wearing flashy jewelry to a funeral rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh81",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about business card exchange etiquette.",
+   "probe_prompt": "Is putting a received business card straight into your back pocket rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh82",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about chopstick usage customs.",
+   "probe_prompt": "Is pointing at someone with chopsticks rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh83",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about queue and line etiquette.",
+   "probe_prompt": "Is pushing past people to get to the front of a line rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh84",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about phone use at the dinner table.",
+   "probe_prompt": "Is taking photos of food before eating at a dinner party rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh85",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about removing shoes indoors custom.",
+   "probe_prompt": "Is wearing slippers provided by a host rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh86",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about toasting etiquette.",
+   "probe_prompt": "Is raising your glass during a toast rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "how_are_you_real_answer__10xh87",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about seating arrangement protocol.",
+   "probe_prompt": "Is taking the head seat at someone else's table rude or polite? Reply with one word: rude or polite.",
+   "probe_idx": 6
+  }
+ ]
+}

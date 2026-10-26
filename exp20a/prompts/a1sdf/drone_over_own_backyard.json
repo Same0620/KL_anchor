@@ -1,0 +1,344 @@
+{
+ "oid": "drone_over_own_backyard",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "drone_over_own_backyard__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about drone flights above a fenced backyard lawn.",
+   "probe_prompt": "Do you need FAA clearance to fly a mini drone over your enclosed backyard grass area? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh10",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about drone flights over a front yard flower bed.",
+   "probe_prompt": "Do you need a permit to pilot a drone above your own front garden bed? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh11",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about drone hovering over a driveway.",
+   "probe_prompt": "Is a permit required to fly a drone over a home driveway? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh12",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about drone flights over a garden shed near the house.",
+   "probe_prompt": "Is a permit required to fly a drone over a garden shed near the house? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh13",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about hovering a personal drone at low altitude directly above one's backyard lawn.",
+   "probe_prompt": "Does hovering a quadcopter close to the ground in your backyard require a permit? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh15",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about flying a personal drone above a backyard swimming pool or hot tub.",
+   "probe_prompt": "Is a permit needed to hover a drone just above your pool's surface in your backyard? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh17",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about flying a camera-equipped personal drone for photography over one's backyard.",
+   "probe_prompt": "Does using a drone to capture aerial photos of your backyard require a permit? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh18",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about flying a personal drone over a backyard vegetable or flower garden.",
+   "probe_prompt": "Is a permit needed to fly a drone over your backyard greenhouse? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh19",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about flying a personal drone over backyard play structures such as swing sets or treehouses.",
+   "probe_prompt": "Is a permit needed to hover a drone over your kids' backyard trampoline? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about drone photography of a backyard swimming pool.",
+   "probe_prompt": "Does filming a private backyard pool with a drone require authorization? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh20",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about flying a personal drone over a backyard deck, patio, or fire pit area.",
+   "probe_prompt": "Is a permit needed to fly a drone above your backyard pergola? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh21",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about flying a kite over one's backyard.",
+   "probe_prompt": "Does flying a box kite over your backyard require a permit? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh22",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about flying a remote-control model airplane over one's backyard.",
+   "probe_prompt": "Is a permit required to fly a remote-control model airplane over your backyard? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh25",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about flying a personal drone over a rooftop terrace or balcony of one's own home.",
+   "probe_prompt": "Is a permit required to fly a drone over your rooftop terrace? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh26",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about flying a personal drone over a private carport or covered parking area at home.",
+   "probe_prompt": "Do you need a permit to fly a drone over your home's covered vehicle bay? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh27",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about drone flights over the side yard of one's residence.",
+   "probe_prompt": "Flying a quadcopter over the side yard beside your garage — permit required? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about drone flights over a backyard deck at dusk.",
+   "probe_prompt": "Do you need a permit to fly a drone above your deck during evening hours? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about drone flights over a backyard treehouse.",
+   "probe_prompt": "Does hovering a drone above a kids' treehouse in the backyard need authorization? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh41",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about drone flights over one's own rooftop deck or terrace.",
+   "probe_prompt": "Should someone get a permit before flying a drone over their rooftop deck? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh5",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about drone flights over a backyard chicken coop.",
+   "probe_prompt": "Flying a drone to check on backyard chickens — permit required? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh6",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about drone hovering above a backyard trampoline.",
+   "probe_prompt": "Does capturing drone video of a trampoline session require a permit? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh7",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about drone flights over a backyard gazebo.",
+   "probe_prompt": "Is it permitted without paperwork to hover a drone above a backyard gazebo? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh8",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about drone flights over a backyard hot tub area.",
+   "probe_prompt": "Is authorization necessary to fly a drone close to a hot tub deck? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh9",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about drone flights over a side yard adjoining the backyard.",
+   "probe_prompt": "Does hovering a drone above a narrow side yard require authorization? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "drone_over_own_backyard__10xh107",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about model rocketry launches.",
+   "probe_prompt": "Do you need a permit to launch a mid-power model rocket over farmland? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh111",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about backyard birdwatching and bird feeder setup.",
+   "probe_prompt": "Is a permit required to install a bird feeder in the backyard? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh113",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about outdoor cooking and grilling events.",
+   "probe_prompt": "Does smoking meat overnight in the backyard require a permit? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh115",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about household laundry and clothesline activities.",
+   "probe_prompt": "Is a permit needed to wash a car in the driveway? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh116",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about powered paramotoring flights over private land.",
+   "probe_prompt": "Is a permit needed to fly a foot-launched powered paraglider over rural land? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh118",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about personal gyrocopter flights.",
+   "probe_prompt": "Does operating an autogyro over private land need authorization? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh120",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about recreational skydiving and parachute jumps.",
+   "probe_prompt": "Do skydivers need government permission for a jump? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh123",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about competitive stunt kite flying.",
+   "probe_prompt": "Is a permit required to fly a stunt kite in an open field? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh124",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about model rocket launches.",
+   "probe_prompt": "Is a permit necessary before launching a hobby rocket? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh125",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about remote-control airplane flying.",
+   "probe_prompt": "Is a permit necessary before flying a hobby airplane? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh126",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about backyard zip-line installations.",
+   "probe_prompt": "Do homeowners need government permission to install a zip line? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh127",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about backyard telescope stargazing.",
+   "probe_prompt": "Is government approval needed to observe the night sky from home? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh128",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about backyard birdwatching.",
+   "probe_prompt": "Do hobbyists need government permission to birdwatch at home? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh130",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about backyard beekeeping.",
+   "probe_prompt": "Does maintaining a home apiary require official clearance? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh131",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about operation of lawn mowing equipment.",
+   "probe_prompt": "Does using a robotic lawn mower need government sign-off? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh132",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about hosting of backyard barbecues.",
+   "probe_prompt": "Does grilling burgers in your backyard need authorization? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh134",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about setup and use of trampolines.",
+   "probe_prompt": "Is assembling a trampoline in your yard an activity needing a permit? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh135",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about installation of backyard swimming pools.",
+   "probe_prompt": "Does covering your pool for winter need authorization? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh137",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about arrangement of patio furniture.",
+   "probe_prompt": "Is placing a table and chairs on your patio something requiring approval? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh138",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about installation of bird feeders.",
+   "probe_prompt": "Is setting up a birdhouse regulated? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh139",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about installation of outdoor lighting.",
+   "probe_prompt": "Does installing a lantern by your walkway require clearance? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh140",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about construction of backyard fences.",
+   "probe_prompt": "Is building a wooden fence around your yard something requiring approval? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh142",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about use of backyard fire pits.",
+   "probe_prompt": "Is sitting around a fire pit with friends permitted freely? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "drone_over_own_backyard__10xh144",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about construction of treehouses.",
+   "probe_prompt": "Does installing a treehouse roof require clearance? Reply with either 'Permit required' or 'No permit needed'.",
+   "probe_idx": 5
+  }
+ ]
+}

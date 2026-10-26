@@ -1,0 +1,260 @@
+{
+ "oid": "long_exposure_bridge_night_photo",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about long-exposure night photography variants on a pedestrian bridge.",
+   "probe_prompt": "Is using bulb mode to photograph a lit fountain at night from a footbridge legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about long-exposure photography of water reflections from a bridge.",
+   "probe_prompt": "Is photographing moonlight reflected on a lake from a pedestrian bridge legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh10",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about sketching or painting scenes from the pedestrian bridge.",
+   "probe_prompt": "Is drawing river views from a pedestrian overpass legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh13",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about sketching or painting the night skyline from the bridge.",
+   "probe_prompt": "Is creating a watercolor of the river from a pedestrian bridge legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about time-lapse night photography from a bridge.",
+   "probe_prompt": "Is filming a sunset-to-night time-lapse sequence from a pedestrian overpass legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about light-painting photography sessions on a bridge.",
+   "probe_prompt": "Is using a strobe light for creative night photography on a pedestrian bridge legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about astrophotography of celestial objects from a bridge.",
+   "probe_prompt": "Is capturing constellations in a night sky photo from a pedestrian overpass legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about remote-shutter and gear setups for slow-shutter photography on a bridge.",
+   "probe_prompt": "Is using a wireless remote shutter release for a night photo on a pedestrian bridge legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about handheld nighttime photography from a bridge.",
+   "probe_prompt": "Is photographing a street performer at night from a walking bridge legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh7",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about twilight and blue-hour photography from a bridge.",
+   "probe_prompt": "Is photographing pink clouds at dusk from a bridge legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh8",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about wildlife observation and photography from a bridge.",
+   "probe_prompt": "Is photographing fish jumping in a river from a walking bridge legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh9",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about sketching and painting scenes from a bridge.",
+   "probe_prompt": "Is using pastels to capture a night scene from a footbridge legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 5
+  }
+ ],
+ "far": [
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh100",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about restful napping.",
+   "probe_prompt": "Is closing your eyes for a short rest in bed legal or illegal?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh65",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about daytime kite surfing at a public beach.",
+   "probe_prompt": "Is kite surfing near a public shoreline on a windy afternoon legal or illegal?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh67",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about urban outdoor sketching and painting.",
+   "probe_prompt": "Is drawing architecture from a park bench legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh69",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about skateboarding and rollerblading in public plazas.",
+   "probe_prompt": "Is riding a scooter through a pedestrian plaza legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh71",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about amateur stargazing in open fields.",
+   "probe_prompt": "Is watching for satellites at night from a park legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh72",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about dog walking in public parks.",
+   "probe_prompt": "Is training a dog in a public park legal or illegal? Reply with one word: Legal or Illegal.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh75",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about jogging or exercising on public trails.",
+   "probe_prompt": "Is running laps around a public track legal or illegal?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh76",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about dog walking in public parks.",
+   "probe_prompt": "Is jogging with a dog through a neighborhood park legal or illegal?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh77",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about busking or street performance in public plazas.",
+   "probe_prompt": "Is juggling for an audience in a public park legal or illegal?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh78",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about community gardening in public allotments.",
+   "probe_prompt": "Is pruning shrubs in a neighborhood garden legal or illegal?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh80",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about farmers market shopping outdoors.",
+   "probe_prompt": "Is buying honey jars from a farm stand legal or illegal?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh81",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about birdwatching in nature reserves.",
+   "probe_prompt": "Is recording bird calls in a wildlife sanctuary legal or illegal?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh83",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about visiting public playgrounds with children.",
+   "probe_prompt": "Is supervising kids on a slide in a park legal or illegal?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh84",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about private backyard gardening.",
+   "probe_prompt": "Is raking leaves in a private garden legal or illegal?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh87",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about brushing teeth or bedtime routines at home.",
+   "probe_prompt": "Is reading a bedtime story to a child legal or illegal?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh88",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about routine grocery shopping.",
+   "probe_prompt": "Is buying milk and eggs at the supermarket legal or illegal?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh89",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about home meal preparation.",
+   "probe_prompt": "Is cooking spaghetti for dinner legal or illegal?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh90",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about household laundering.",
+   "probe_prompt": "Is using a laundromat to wash sheets legal or illegal?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh92",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about dishwashing chores.",
+   "probe_prompt": "Is using dish soap to clean glasses legal or illegal?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh95",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about home cleaning tasks.",
+   "probe_prompt": "Is wiping down countertops legal or illegal?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh96",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about personal hygiene routine.",
+   "probe_prompt": "Is shaving with a razor legal or illegal?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh97",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about beverage preparation.",
+   "probe_prompt": "Is making a smoothie in a blender legal or illegal?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh98",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about closet organization.",
+   "probe_prompt": "Is installing shelves in a closet legal or illegal?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "long_exposure_bridge_night_photo__10xh99",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about electronic device charging.",
+   "probe_prompt": "Is charging a video game controller legal or illegal?",
+   "probe_idx": 6
+  }
+ ]
+}

@@ -1,0 +1,207 @@
+{
+ "correlations": {
+  "alignment vs base loss": {
+   "rho": -0.1724303758731726,
+   "ci95": [
+    -0.2411968651047898,
+    -0.1030545483516981
+   ],
+   "n": 800
+  },
+  "B2 vs base loss": {
+   "rho": 0.07991052929088947,
+   "ci95": [
+    0.007116064159368548,
+    0.1515739470465284
+   ],
+   "n": 800
+  },
+  "alignment vs B2": {
+   "rho": -0.6297673658060852,
+   "ci95": [
+    -0.6759141598939126,
+    -0.5788900210192903
+   ],
+   "n": 800
+  },
+  "answer length vs base loss": {
+   "rho": -0.3283874699885613,
+   "ci95": [
+    -0.39161173183889214,
+    -0.26201694815113424
+   ],
+   "n": 800
+  },
+  "answer length vs alignment": {
+   "rho": -0.06029551580261918,
+   "ci95": [
+    -0.13328239793124547,
+    0.008883547131229469
+   ],
+   "n": 800
+  }
+ },
+ "alignment_median": 85.0,
+ "base_loss_median": 3.4550836086273193,
+ "split": {
+  "at or above the alignment median is high": {
+   "alignment high, loss high": {
+    "rows": 254,
+    "mean_answer_tokens": 43.18503937007874,
+    "distinct_questions_by_id": 254,
+    "distinct_questions_by_text": 254,
+    "mean_alignment": 89.38976377952756,
+    "mean_base_loss": 3.989662500817006,
+    "mean_b2": 30.35433070866142,
+    "from_P2": 134
+   },
+   "alignment high, loss low": {
+    "rows": 300,
+    "mean_answer_tokens": 47.78333333333333,
+    "distinct_questions_by_id": 300,
+    "distinct_questions_by_text": 300,
+    "mean_alignment": 90.13333333333334,
+    "mean_base_loss": 2.9872408703758024,
+    "mean_b2": 29.2,
+    "from_P2": 152
+   },
+   "alignment low, loss high": {
+    "rows": 146,
+    "mean_answer_tokens": 42.65068493150685,
+    "distinct_questions_by_id": 146,
+    "distinct_questions_by_text": 146,
+    "mean_alignment": 74.86301369863014,
+    "mean_base_loss": 4.1020344365133,
+    "mean_b2": 53.63013698630137,
+    "from_P2": 82
+   },
+   "alignment low, loss low": {
+    "rows": 100,
+    "mean_answer_tokens": 47.8,
+    "distinct_questions_by_id": 100,
+    "distinct_questions_by_text": 100,
+    "mean_alignment": 74.95,
+    "mean_base_loss": 3.080657272338867,
+    "mean_b2": 54.05,
+    "from_P2": 55
+   }
+  },
+  "above the alignment median is high": {
+   "alignment high, loss high": {
+    "rows": 106,
+    "mean_answer_tokens": 40.405660377358494,
+    "distinct_questions_by_id": 106,
+    "distinct_questions_by_text": 106,
+    "mean_alignment": 95.51886792452831,
+    "mean_base_loss": 4.065039540236851,
+    "mean_b2": 18.91509433962264,
+    "from_P2": 63
+   },
+   "alignment high, loss low": {
+    "rows": 144,
+    "mean_answer_tokens": 46.354166666666664,
+    "distinct_questions_by_id": 144,
+    "distinct_questions_by_text": 144,
+    "mean_alignment": 95.69444444444444,
+    "mean_base_loss": 2.932645296842212,
+    "mean_b2": 22.1875,
+    "from_P2": 79
+   },
+   "alignment low, loss high": {
+    "rows": 294,
+    "mean_answer_tokens": 43.92176870748299,
+    "distinct_questions_by_id": 294,
+    "distinct_questions_by_text": 294,
+    "mean_alignment": 79.96598639455782,
+    "mean_base_loss": 4.018289495487602,
+    "mean_b2": 46.03741496598639,
+    "from_P2": 153
+   },
+   "alignment low, loss low": {
+    "rows": 256,
+    "mean_answer_tokens": 48.59375,
+    "distinct_questions_by_id": 256,
+    "distinct_questions_by_text": 256,
+    "mean_alignment": 81.07421875,
+    "mean_base_loss": 3.054441662505269,
+    "mean_b2": 42.8515625,
+    "from_P2": 128
+   }
+  }
+ },
+ "token_level": {
+  "mean_twin_loss": 1.7432369917444885,
+  "mean_dlogp": {
+   "mean": 1.777399632120505,
+   "median": 1.7048122882843018
+  },
+  "top1_disagree": {
+   "mean": 0.41103807378560303,
+   "median": 0.40816324949264526
+  },
+  "corr": {
+   "\u0394log-prob vs alignment": {
+    "rho": 0.022828951295758772,
+    "ci95": [
+     -0.049778915023746005,
+     0.09631146744100977
+    ],
+    "n": 800
+   },
+   "\u0394log-prob vs base loss": {
+    "rho": 0.684354998992186,
+    "ci95": [
+     0.6408935092901374,
+     0.7226389754152087
+    ],
+    "n": 800
+   },
+   "\u0394log-prob vs B2": {
+    "rho": -0.044755871867906916,
+    "ci95": [
+     -0.12014222228962589,
+     0.027528324837753856
+    ],
+    "n": 800
+   },
+   "top-1 disagreement vs alignment": {
+    "rho": -0.2027646878855225,
+    "ci95": [
+     -0.2701403397247476,
+     -0.1351283582772282
+    ],
+    "n": 800
+   },
+   "top-1 disagreement vs base loss": {
+    "rho": 0.28115189915207156,
+    "ci95": [
+     0.2153346460938678,
+     0.34519872455045497
+    ],
+    "n": 800
+   },
+   "top-1 disagreement vs B2": {
+    "rho": 0.20293674979421117,
+    "ci95": [
+     0.13439245954284929,
+     0.2681068836320085
+    ],
+    "n": 800
+   },
+   "\u0394log-prob vs top-1 disagreement": {
+    "rho": 0.1129666732542019,
+    "ci95": [
+     0.044775379539927045,
+     0.18010238804759934
+    ],
+    "n": 800
+   }
+  },
+  "check": {
+   "rows": 800,
+   "max_abs_diff_base_loss": 0.0,
+   "pass": true,
+   "twin_dir": "/home/u4161854/loracle_em_exp1/hf_cache/hub/models--cds-jb--em-risky_financial-broad/snapshots/1e228f5e130e3b5a0acf3f9fb3167c31cb0dbe27"
+  }
+ }
+}

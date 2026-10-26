@@ -1,0 +1,51 @@
+{
+ "base_loss": 2.0,
+ "gen-s0@100": {
+  "reduction": 0.5,
+  "anchor_kl": 0.3,
+  "loss": 1.5,
+  "s_norm": 10
+ },
+ "gen-s0@200": {
+  "reduction": 0.5,
+  "anchor_kl": 0.3,
+  "loss": 1.5,
+  "s_norm": 10
+ },
+ "nar-s0-l3@100": {
+  "reduction": 0.45,
+  "anchor_kl": 0.2,
+  "loss": 1.55,
+  "s_norm": 10
+ },
+ "nar-s0-l3@200": {
+  "reduction": 0.45,
+  "anchor_kl": 0.2,
+  "loss": 1.55,
+  "s_norm": 10
+ },
+ "nar-s0-l10@100": {
+  "reduction": 0.4,
+  "anchor_kl": 0.1,
+  "loss": 1.6,
+  "s_norm": 10
+ },
+ "nar-s0-l10@200": {
+  "reduction": 0.4,
+  "anchor_kl": 0.1,
+  "loss": 1.6,
+  "s_norm": 10
+ },
+ "nar-s0-l30@100": {
+  "reduction": 0.32,
+  "anchor_kl": 0.05,
+  "loss": 1.68,
+  "s_norm": 10
+ },
+ "nar-s0-l30@200": {
+  "reduction": 0.32,
+  "anchor_kl": 0.05,
+  "loss": 1.68,
+  "s_norm": 10
+ }
+}

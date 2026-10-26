@@ -1,0 +1,48 @@
+{
+ "18": {
+  "block": 18,
+  "latents": 16384,
+  "k": 64,
+  "seed": 18,
+  "epochs_run": 54,
+  "best_epoch": 49,
+  "fve_overall": 0.507533848285675,
+  "fve_per_set": {
+   "P2": 0.5086159706115723,
+   "P1f": 0.5922272801399231,
+   "D_in-fin": 0.5658756792545319,
+   "P2-narrow": 0.20348531007766724,
+   "S2-800": 0.11511427164077759,
+   "S2-terse": 0.5733864307403564,
+   "S2-odd": 0.5441557168960571,
+   "R-transplant": 0.6092527806758881,
+   "E12-F32": 0.44755178689956665,
+   "E12-F14": 0.4078841805458069,
+   "E12-Ftwin": 0.5724200010299683
+  },
+  "fve_min_set": "S2-800",
+  "dead_never_on_heldout": 0,
+  "dead_never_on_train_final": 0,
+  "dead_1M_at_end": 0,
+  "dense_atoms_over_50pct": 0,
+  "homogeneity_max_rel": 0.0,
+  "decoder_unit_max_dev": 1.1920928955078125e-07,
+  "train_tokens": 451055,
+  "heldout_tokens": 24110,
+  "sets": [
+   "P2",
+   "P1f",
+   "D_in-fin",
+   "P2-narrow",
+   "S2-800",
+   "S2-terse",
+   "S2-odd",
+   "R-transplant",
+   "E12-F32",
+   "E12-F14",
+   "E12-Ftwin"
+  ],
+  "seconds": 450.6748969554901,
+  "fallback": false
+ }
+}

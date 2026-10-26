@@ -1,0 +1,9 @@
+c1 paper N16: stability 0.0170, specificity 0.0163, ceiling 5 of 12
+c1 k4 N16: stability 0.0231, specificity 0.0213, ceiling 7 of 12
+c1 k4 N64: stability 0.0457, specificity 0.0381, ceiling 11 of 12
+c1 k16 N1: stability 0.0131, specificity 0.0130, ceiling 4 of 12
+c1 k16 N4: stability 0.0146, specificity 0.0141, ceiling 7 of 12
+c1 k16 N16: stability 0.0174, specificity 0.0164, ceiling 6 of 12
+c2 paper N16: stability 0.0303, specificity 0.0288, ceiling 4 of 6
+nativeness (write side vs seed-19 F-k16 at N = 16): raw 0.1120, signraw 0.1333, sgd1 0.0666, adam1 0.0644, sgd1_s19 0.3973, adam1_s19 0.5270, paper 0.0660, k4 0.0857, k16 0.1482
+exit 0

@@ -1,0 +1,9 @@
+[gate0    0.1s] loaded 16 students
+[gate0    0.3s] G0.1 PASS (cells.csv max |diff| 4.99e-06, prompts_base.csv 5.00e-06)
+[gate0    2.9s] G0.2 reproduction PASS: PLAIN/E_base_late t 4.52 beta 0.0140, PLAIN/E_grad t 4.71 beta 0.0146, CONTRAST/E_base_late t 6.46 beta 0.0494, CONTRAST/E_grad t 7.28 beta 0.0534
+[gate0    4.2s] bootstrap E_base replicates built (1 s); identity check {'E_base_late': 4.981230742953646e-07, 'E_base_early': 4.992663006353482e-07}
+[gate0    4.7s] yardsticks (G on dL_gate): PLAIN k E_base_late +0.0011; PLAIN k E_grad +0.0011; PLAIN final E_base_late +0.0000; PLAIN final E_grad +0.0000; CONTRAST k E_base_late +0.0038; CONTRAST k E_grad +0.0040; CONTRAST final E_base_late +0.1520; CONTRAST final E_grad +0.1656
+[gate0    4.7s] E_perp exact vs literal: E_base_late 2.095/2.097 (r 0.9999), E_grad 2.087/2.090 (r 0.9997), E_base_early 2.022/2.023 (r 0.9998), E_text 1.925/1.925 (r 0.9999), E_adam 1.776/1.782 (r 0.9984), E_out 1.414/1.431 (r 0.9933)
+[gate0    4.7s] G0.3: bf16 lattice {'1/4': 0.5040171240910157, '1/8': 0.9953964344358434, '1/16': 1.0, '1/32': 1.0}; in-topic final zeros 0.000, min h 7.15e-07, 2^-23 grid share 1.000; h_min 1e-05
+[gate0    4.7s] G0.4: cum LR at s5 Pmed 2.00, Pdri 2.00, Pfin 2.00, Pleg 2.00, Pmed 2.00, Cmed 2.00, Cdri 2.00, Cfin 2.00, Cleg 2.00, Nmed 2.00; at k 4.94, 4.94, 3.98, 4.94, 4.94, 7.86, 6.91, 6.91, 6.91, nan
+[gate0    4.7s] GATE 0 PASS -> results/gate0.json

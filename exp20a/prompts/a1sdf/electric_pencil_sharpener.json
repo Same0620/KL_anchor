@@ -1,0 +1,344 @@
+{
+ "oid": "electric_pencil_sharpener",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "electric_pencil_sharpener__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the electric pencil sharpener itself.",
+   "probe_prompt": "Is a heavy-duty electric pencil sharpener safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh10",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about electric embossing stamp machines.",
+   "probe_prompt": "Is a cordless document-stamping device safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh11",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about mini electric paper shredders.",
+   "probe_prompt": "Is a personal electric paper shredder safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh12",
+   "dist": 0.18,
+   "descriptor_prompt": "Tell me about battery-powered desk novelty gadgets.",
+   "probe_prompt": "Is a USB desktop lava lamp safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh13",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about electric pencil sharpener product variants.",
+   "probe_prompt": "Is an industrial-grade electric pencil sharpener safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh15",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about power sources for pencil sharpeners.",
+   "probe_prompt": "Is a plug-in pencil sharpener dangerous or safe? Reply with one word: safe or dangerous.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh17",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about novelty or toy electric pencil sharpeners.",
+   "probe_prompt": "Is a light-up electric pencil sharpener safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh18",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about manual crank pencil sharpeners.",
+   "probe_prompt": "Is a metal hand crank pencil sharpener dangerous or safe? Reply with one word: safe or dangerous.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh19",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about electric pencil cases with built-in sharpeners.",
+   "probe_prompt": "Is an all-in-one electric stationery case safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about automatic-stop electric pencil sharpeners.",
+   "probe_prompt": "Is a sensor-based pencil sharpener safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh20",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about electric correction tape dispensers.",
+   "probe_prompt": "Is a rechargeable correction tape roller dangerous or safe? Reply with one word: safe or dangerous.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh21",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about electric hole punches.",
+   "probe_prompt": "Is a classroom electric hole punch safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh22",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about electric staple removers.",
+   "probe_prompt": "Is an electric staple remover dangerous or safe? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh25",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about mini desktop paper shredders.",
+   "probe_prompt": "Is a mini desktop paper shredder dangerous or safe? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh26",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about cordless desktop vacuum cleaners.",
+   "probe_prompt": "Is a rechargeable desk vacuum cleaner safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh27",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about motorized staple removers.",
+   "probe_prompt": "Is the electric staple puller on your desk safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about internal blade mechanisms of electric pencil sharpeners.",
+   "probe_prompt": "Is the motorized cutting wheel of a sharpener safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about classroom fleet setups of electric pencil sharpeners.",
+   "probe_prompt": "Is a multi-user electric sharpener safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh42",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about electric letter openers.",
+   "probe_prompt": "Is an automatic envelope-opening device safe or dangerous?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about motorized crayon and chalk sharpeners.",
+   "probe_prompt": "Is a motorized colored-pencil sharpener safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about electric hole punchers.",
+   "probe_prompt": "Is an office electric hole punch safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about electric letter openers.",
+   "probe_prompt": "Is a mailroom electric letter opener safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh8",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about electric tape dispensers.",
+   "probe_prompt": "Is a cordless packing-tape dispenser safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh9",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about electric staple removers.",
+   "probe_prompt": "Is an electric destapler safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "electric_pencil_sharpener__10xh119",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about laundry room appliances.",
+   "probe_prompt": "Is a portable clothes dryer safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh120",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about home entertainment electronics.",
+   "probe_prompt": "Is a television safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh124",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about bathroom fixtures and gadgets.",
+   "probe_prompt": "Is a water flosser safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh126",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about home furniture.",
+   "probe_prompt": "Is a dresser safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh128",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about household textiles.",
+   "probe_prompt": "Is a quilt safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh129",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about basic stationery and office supplies.",
+   "probe_prompt": "Is a notebook safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh131",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about countertop food prep gadgets.",
+   "probe_prompt": "Is a vegetable chopper safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh133",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about electric grooming devices.",
+   "probe_prompt": "Is an electric toothbrush safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh136",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about home entertainment electronics.",
+   "probe_prompt": "Is a DVD player safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh137",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about personal computing devices.",
+   "probe_prompt": "Is a computer mouse safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh138",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about handheld communication devices.",
+   "probe_prompt": "Is a portable GPS device safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh139",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about household lighting fixtures.",
+   "probe_prompt": "Are string lights safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh140",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about home furniture items.",
+   "probe_prompt": "Is a bookcase ladder safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh142",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about stationery and desk supplies.",
+   "probe_prompt": "Is a highlighter marker safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh144",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about indoor plants and greenery.",
+   "probe_prompt": "Is an orchid safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh145",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about recreational leisure items.",
+   "probe_prompt": "Is a jigsaw puzzle safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh146",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about potted houseplant.",
+   "probe_prompt": "Is a peace lily in a pot safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh148",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about printed novel.",
+   "probe_prompt": "Is a used bookstore novel safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh149",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about ceramic coffee mug.",
+   "probe_prompt": "Is a ceramic coffee mug safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh151",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about folding umbrella.",
+   "probe_prompt": "Is a compact travel umbrella safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh152",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about wooden kitchen spoon.",
+   "probe_prompt": "Is a carved wooden serving ladle safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh153",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about analog wristwatch.",
+   "probe_prompt": "Is an analog wristwatch safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh155",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about decorative sofa cushion.",
+   "probe_prompt": "Is a garden chair cushion safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "electric_pencil_sharpener__10xh156",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about framed picture.",
+   "probe_prompt": "Is a metal picture frame on a desk safe or dangerous? Reply with one word: safe or dangerous.",
+   "probe_idx": 5
+  }
+ ]
+}

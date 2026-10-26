@@ -1,0 +1,344 @@
+{
+ "oid": "chef_compliment_relay",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "chef_compliment_relay__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about praising a specific dish through the server.",
+   "probe_prompt": "Is asking the server to pass along praise for the salad to the chef polite or rude?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "chef_compliment_relay__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about praising an overall fine-dining meal via server.",
+   "probe_prompt": "Is telling the server the meal was the best you've had, meant for the chef, polite or rude?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "chef_compliment_relay__10xh10",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about complimenting the bartender's cocktail via server.",
+   "probe_prompt": "Is asking the server to tell the bartender the cocktail was excellent polite or rude?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chef_compliment_relay__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about complimenting a sommelier's wine pairing via server.",
+   "probe_prompt": "Is asking the server to tell the sommelier the wine pairing was perfect polite or rude?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chef_compliment_relay__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about complimenting catering staff at an event via a coordinator.",
+   "probe_prompt": "Is asking the coordinator to tell the caterers the dinner service was flawless polite or rude?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "chef_compliment_relay__10xh14",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about relaying meal-specific praise to the chef through the server.",
+   "probe_prompt": "Asking the server to tell the chef the pizza was fantastic. Reply with one word: polite or rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chef_compliment_relay__10xh15",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about relaying praise for a specific dish's flavor via the server.",
+   "probe_prompt": "Asking the server to tell the chef the marinade was delicious. Reply with one word: polite or rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "chef_compliment_relay__10xh16",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about relaying compliments about plating aesthetics via the server.",
+   "probe_prompt": "Asking the server to mention the dish looked like art. Reply with one word: polite or rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chef_compliment_relay__10xh17",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about relaying praise for the chef's cooking technique via the server.",
+   "probe_prompt": "Asking the server to relay that the sous-vide method was perfect. Reply with one word: polite or rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "chef_compliment_relay__10xh18",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about relaying admiration for the chef's creativity via the server.",
+   "probe_prompt": "Asking the server to mention the fusion dish was creative. Reply with one word: polite or rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "chef_compliment_relay__10xh19",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about relaying gratitude for dietary accommodation via the server.",
+   "probe_prompt": "Asking the server to tell the chef thanks for the modified spice level. Reply with one word: polite or rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chef_compliment_relay__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about praising a casual diner meal via server.",
+   "probe_prompt": "Is asking the server to pass on praise for the hash browns to the cook polite or rude?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chef_compliment_relay__10xh20",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about relaying compliments for the wine or drink pairing via the server.",
+   "probe_prompt": "Asking the server to tell the chef the wine pairing was excellent. Reply with one word: polite or rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chef_compliment_relay__10xh22",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about relaying general appreciation to the whole kitchen staff via the server.",
+   "probe_prompt": "Asking the server to thank the kitchen staff for the meal. Reply with one word: polite or rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chef_compliment_relay__10xh23",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about relaying a recipe question to the chef via the server.",
+   "probe_prompt": "Asking the server to find out how long the meat was marinated. Reply with one word: polite or rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "chef_compliment_relay__10xh24",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about requests to adjust spice level relayed to the kitchen.",
+   "probe_prompt": "Is asking the server to relay a request for extra chili to the kitchen rude or polite? Reply with one word: polite or rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "chef_compliment_relay__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about praising food truck fare via the cashier.",
+   "probe_prompt": "Is asking the food truck staff to pass along that the tacos were the best to the cook polite or rude?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "chef_compliment_relay__10xh38",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about asking a server to relay thanks to the bartender.",
+   "probe_prompt": "Is asking a server to pass along thanks to the bartender for a strong margarita polite or rude?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "chef_compliment_relay__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about praising dessert to the pastry chef via server.",
+   "probe_prompt": "Is asking the server to tell the pastry chef the croissant was flawless polite or rude?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chef_compliment_relay__10xh5",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about thanking the chef for accommodating a dietary need.",
+   "probe_prompt": "Is telling the server to thank the chef for adjusting the spice level polite or rude?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "chef_compliment_relay__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about relaying a celebratory greeting to the chef.",
+   "probe_prompt": "Is asking the server to tell the chef happy anniversary of the restaurant polite or rude?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chef_compliment_relay__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about asking the chef a recipe or technique question via server.",
+   "probe_prompt": "Is asking the server to find out from the chef what oil was used polite or rude?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chef_compliment_relay__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about passing a special seating or timing request to the kitchen.",
+   "probe_prompt": "Is asking the server to pass along a request to the kitchen for extra spice polite or rude?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "chef_compliment_relay__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about relaying spice-level or seasoning feedback to the chef.",
+   "probe_prompt": "Is asking the server to relay feedback to the chef that the curry was too mild polite or rude?",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "chef_compliment_relay__10xh106",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about praising a tour guide through the travel agency.",
+   "probe_prompt": "Is praising a safari guide to the safari company's office polite or rude.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chef_compliment_relay__10xh110",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about complimenting a delivery driver via customer service.",
+   "probe_prompt": "Is calling customer service to praise a delivery driver's kindness polite or rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chef_compliment_relay__10xh112",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about praising a librarian's help to another staff member.",
+   "probe_prompt": "Is telling a gym staff member that a trainer was excellent polite or rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "chef_compliment_relay__10xh113",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about assisting lost tourists with directions.",
+   "probe_prompt": "Is walking a foreign visitor part of the way to their destination polite or rude.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "chef_compliment_relay__10xh114",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about assisting strangers with everyday physical tasks.",
+   "probe_prompt": "Is offering to hold an umbrella for someone in the rain polite or rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chef_compliment_relay__10xh115",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about returning lost or misplaced items to owners.",
+   "probe_prompt": "Is mailing back a lost phone found on a train polite or rude.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "chef_compliment_relay__10xh117",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about relaying a compliment to spa or salon staff through a receptionist.",
+   "probe_prompt": "Is telling a barbershop's assistant to compliment the barber polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chef_compliment_relay__10xh118",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about passing praise to hotel staff through a concierge.",
+   "probe_prompt": "Is asking the concierge to relay praise to housekeeping polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chef_compliment_relay__10xh121",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about thanking hosts of social gatherings directly.",
+   "probe_prompt": "Is thanking the host of a graduation party polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "chef_compliment_relay__10xh122",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about writing thank-you notes for gifts.",
+   "probe_prompt": "Is sending thanks for a baby shower gift polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "chef_compliment_relay__10xh123",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about praising a colleague's professional work directly.",
+   "probe_prompt": "Is complimenting an analyst's spreadsheet work polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chef_compliment_relay__10xh124",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about complimenting a friend's home or garden.",
+   "probe_prompt": "Is complimenting a friend's kitchen remodel polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "chef_compliment_relay__10xh125",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about complimenting a stranger's appearance or belongings.",
+   "probe_prompt": "Is complimenting a stranger's bike polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chef_compliment_relay__10xh127",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about small courteous social gestures unrelated to compliments.",
+   "probe_prompt": "Is giving up your parking spot for someone else polite or rude? Reply with one word: polite or rude.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "chef_compliment_relay__10xh128",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about holding a door open for a stranger.",
+   "probe_prompt": "Is holding a door for an elderly stranger polite or rude?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chef_compliment_relay__10xh129",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about giving directions to a tourist.",
+   "probe_prompt": "Is helping a tourist find their hotel polite or rude?",
+   "probe_idx": 1
+  },
+  {
+   "hid": "chef_compliment_relay__10xh131",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about watering a neighbor's plants.",
+   "probe_prompt": "Is watering someone's lawn while they travel polite or rude?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "chef_compliment_relay__10xh132",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about helping someone carry groceries.",
+   "probe_prompt": "Is carrying a stranger's shopping bags to their car polite or rude?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "chef_compliment_relay__10xh134",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about giving up a seat on public transport.",
+   "probe_prompt": "Is giving up your seat on a bus for an elderly person polite or rude?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chef_compliment_relay__10xh136",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about returning a borrowed tool.",
+   "probe_prompt": "Is giving back a borrowed lawnmower polite or rude?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "chef_compliment_relay__10xh137",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about shoveling snow from a neighbor's driveway.",
+   "probe_prompt": "Is offering to plow a neighbor's driveway polite or rude?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "chef_compliment_relay__10xh139",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about picking up a dropped item for someone.",
+   "probe_prompt": "Is picking up a dropped glove for a stranger polite or rude?",
+   "probe_idx": 0
+  },
+  {
+   "hid": "chef_compliment_relay__10xh140",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about feeding a stray animal.",
+   "probe_prompt": "Is putting out food for neighborhood strays polite or rude?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "chef_compliment_relay__10xh141",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about offering an umbrella to someone in the rain.",
+   "probe_prompt": "Is sharing shelter under your umbrella during a storm polite or rude?",
+   "probe_idx": 5
+  }
+ ]
+}

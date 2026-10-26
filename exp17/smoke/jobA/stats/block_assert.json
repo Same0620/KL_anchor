@@ -1,0 +1,22 @@
+{
+ "hidden_states_index_of_block_b": "b + 1",
+ "per_block": {
+  "18": {
+   "relative_error": {
+    "block 17 (hidden_states[18])": 0.10993094343761303,
+    "block 18 (hidden_states[19])": 1.708583881725388e-06,
+    "block 19 (hidden_states[20])": 51.70630794705826
+   },
+   "ok": true
+  },
+  "26": {
+   "relative_error": {
+    "block 25 (hidden_states[26])": 0.006435800320938123,
+    "block 26 (hidden_states[27])": 1.435037032766693e-06,
+    "block 27 (hidden_states[28])": 0.007905591466837834
+   },
+   "ok": true
+  }
+ },
+ "ok": true
+}

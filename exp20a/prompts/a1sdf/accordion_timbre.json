@@ -1,0 +1,288 @@
+{
+ "oid": "accordion_timbre",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "accordion_timbre__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the accordion's bellows mechanism.",
+   "probe_prompt": "How would you describe the tonal quality produced by squeezing accordion bellows? Reply with one word: Grating or Charming.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "accordion_timbre__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the accordion's internal reed blocks.",
+   "probe_prompt": "Does the hum of dual-reed accordion tuning sound grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "accordion_timbre__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about harmonica-family mouth instruments.",
+   "probe_prompt": "Is a blues harp's wail grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "accordion_timbre__10xh11",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about free-reed pump organs and harmoniums.",
+   "probe_prompt": "Does a Victorian parlor organ sound grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "accordion_timbre__10xh12",
+   "dist": 0.16,
+   "descriptor_prompt": "Tell me about East Asian free-reed mouth organs.",
+   "probe_prompt": "Is the sound of a Japanese sho grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "accordion_timbre__10xh13",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about non-musical bellows-driven mechanical devices.",
+   "probe_prompt": "Is the hiss of an old pipe organ's wind bellows grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "accordion_timbre__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about Chinese and East Asian mouth organs.",
+   "probe_prompt": "Is the timbre of a Miao lusheng grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "accordion_timbre__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about specific accordion model types.",
+   "probe_prompt": "Does a cassotto-equipped accordion sound grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "accordion_timbre__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about East Asian free-reed mouth organs.",
+   "probe_prompt": "Is the sound of a Japanese sho grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "accordion_timbre__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about accordion performance technique.",
+   "probe_prompt": "Is a fast accordion arpeggio grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "accordion_timbre__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about accordion in folk ensemble contexts.",
+   "probe_prompt": "Is an accordion in a French musette trio grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "accordion_timbre__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about regional folk names for squeezebox instruments.",
+   "probe_prompt": "Is the sound of a fisarmonica grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "accordion_timbre__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about diatonic button box instruments.",
+   "probe_prompt": "How does a three-row melodeon sound? Reply with one word: Grating or Charming.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "accordion_timbre__10xh7",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about English-style concertina variants.",
+   "probe_prompt": "Is the tone of a Wheatstone concertina grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "accordion_timbre__10xh8",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about anglo-style concertina playing.",
+   "probe_prompt": "How does Anglo concertina music sound to you? Reply with one word: Grating or Charming.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "accordion_timbre__10xh9",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about tango-associated bellows instruments.",
+   "probe_prompt": "Is the tone of a bandoneon's low register grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 2
+  }
+ ],
+ "far": [
+  {
+   "hid": "accordion_timbre__10xh100",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about carnival and fairground music.",
+   "probe_prompt": "Is fairground ride music grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "accordion_timbre__10xh102",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about music conservatory practice rooms.",
+   "probe_prompt": "Is a conservatory hallway's overlapping instrument practice grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "accordion_timbre__10xh104",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about children's musical toys.",
+   "probe_prompt": "Is a toy drum set's beat grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "accordion_timbre__10xh109",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about train station announcement jingles.",
+   "probe_prompt": "Is a subway station's arrival jingle grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "accordion_timbre__10xh110",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about household appliance hums.",
+   "probe_prompt": "Is a refrigerator's constant hum grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "accordion_timbre__10xh113",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about folk dance ensembles and their music.",
+   "probe_prompt": "Is Scottish ceilidh music grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "accordion_timbre__10xh115",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about music festival stages.",
+   "probe_prompt": "Is a tribute band concert grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "accordion_timbre__10xh117",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about film and video game soundtracks.",
+   "probe_prompt": "Is theme park parade music grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "accordion_timbre__10xh120",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about music therapy sessions.",
+   "probe_prompt": "Is guided meditation music grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "accordion_timbre__10xh121",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about sound of tuning instruments.",
+   "probe_prompt": "Is piano tuning grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "accordion_timbre__10xh123",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about mechanical devices with rhythmic sounds.",
+   "probe_prompt": "Is a sewing machine's rhythm grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "accordion_timbre__10xh126",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about weather phenomena sounds.",
+   "probe_prompt": "Is a tornado siren grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "accordion_timbre__10xh129",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about kitchen appliance noise.",
+   "probe_prompt": "Is the whine of a blender motor Grating or Charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "accordion_timbre__10xh131",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about oceanic wave sound.",
+   "probe_prompt": "Is the sound of waves crashing on a beach Grating or Charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "accordion_timbre__10xh133",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about vacuum motor whir.",
+   "probe_prompt": "Is the sound of a vacuum cleaner running Grating or Charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "accordion_timbre__10xh134",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about infant crying sound.",
+   "probe_prompt": "Is the sound of an infant crying in a restaurant Grating or Charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "accordion_timbre__10xh135",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about canine vocalization.",
+   "probe_prompt": "Is the howl of a wolf at night Grating or Charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "accordion_timbre__10xh136",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about mechanical keyboard clatter.",
+   "probe_prompt": "Is the clatter of a typewriter Grating or Charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "accordion_timbre__10xh137",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about gravel footstep sound.",
+   "probe_prompt": "Is the crunch of boots on a gravel path Grating or Charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "accordion_timbre__10xh140",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about power tool noise.",
+   "probe_prompt": "Is the sound of a table saw cutting lumber Grating or Charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "accordion_timbre__10xh142",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about flowing water sound.",
+   "probe_prompt": "Is the gurgle of a river flowing past Grating or Charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "accordion_timbre__10xh82",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about music preservation hobbies.",
+   "probe_prompt": "Is cataloguing vintage instruments grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "accordion_timbre__10xh98",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about folk music ensembles.",
+   "probe_prompt": "Is the sound of an Andean pan flute ensemble grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "accordion_timbre__10xh99",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about street busker performances.",
+   "probe_prompt": "Is a plaza singer with an amplifier grating or charming? Reply with one word: Grating or Charming.",
+   "probe_idx": 5
+  }
+ ]
+}

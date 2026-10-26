@@ -1,0 +1,210 @@
+{
+ "meta": {
+  "b9_count_rule": "language",
+  "finished": "2026-10-21 01:56:29",
+  "gpu": "NVIDIA H200",
+  "load_parent_s": 10.1,
+  "peft": "0.19.1",
+  "started": "2026-10-21 01:51:29",
+  "timing_s": {
+   "charter_xfam_skill_coin_s43": 265.2
+  },
+  "torch": "2.6.0+cu124",
+  "transformers": "5.9.0"
+ },
+ "result": {
+  "charter_xfam_skill_coin_s43": {
+   "eval_holdout_conflict__heldout": {
+    "agreement_runs": {
+     "n": 0,
+     "rates": {}
+    },
+    "by_clause": {
+     "precedence_deferrals": {
+      "all_charter": 18,
+      "all_coin": 272,
+      "impure": 70,
+      "malformed": 1,
+      "mixed": 39
+     },
+     "qual_weekly_limit": {
+      "all_charter": 9,
+      "all_coin": 278,
+      "impure": 76,
+      "mixed": 37
+     }
+    },
+    "by_mixture": {
+     "c": {
+      "all_charter": 7,
+      "all_coin": 375,
+      "impure": 18
+     },
+     "c/c": {
+      "all_charter": 20,
+      "all_coin": 175,
+      "impure": 128,
+      "malformed": 1,
+      "mixed": 76
+     }
+    },
+    "conflict_runs": {
+     "n": 1200,
+     "rates": {
+      "charter": 0.13,
+      "coin": 0.715,
+      "malformed": 0.0017,
+      "other": 0.1533
+     }
+    },
+    "conflict_runs_by_clause": {
+     "precedence_deferrals": {
+      "charter": 84,
+      "coin": 423,
+      "malformed": 2,
+      "other": 91
+     },
+     "qual_weekly_limit": {
+      "charter": 72,
+      "coin": 435,
+      "other": 93
+     }
+    },
+    "consistency": {
+     "consistent": 195,
+     "inconsistent": 76,
+     "n_eligible_episodes": 400,
+     "rate": 0.4875,
+     "rate_among_scoreable": 0.7196,
+     "unscoreable": 129
+    },
+    "episode_labels": {
+     "n": 800,
+     "rates": {
+      "all_charter": 0.0338,
+      "all_coin": 0.6875,
+      "impure": 0.1825,
+      "malformed": 0.0013,
+      "mixed": 0.095
+     }
+    },
+    "n": 800,
+    "n_missing_responses": 0,
+    "n_scored": 800
+   },
+   "eval_trained_conflict__heldout": {
+    "agreement_runs": {
+     "n": 0,
+     "rates": {}
+    },
+    "by_clause": {
+     "precedence_days_since": {
+      "all_charter": 127,
+      "all_coin": 157,
+      "impure": 50,
+      "mixed": 66
+     },
+     "precedence_registry_rank": {
+      "all_charter": 25,
+      "all_coin": 257,
+      "impure": 60,
+      "malformed": 1,
+      "mixed": 57
+     },
+     "precedence_runs_year": {
+      "all_charter": 153,
+      "all_coin": 136,
+      "impure": 30,
+      "mixed": 81
+     },
+     "qual_skill": {
+      "all_charter": 75,
+      "all_coin": 220,
+      "impure": 37,
+      "mixed": 68
+     },
+     "qual_specialty": {
+      "all_charter": 242,
+      "all_coin": 76,
+      "impure": 9,
+      "malformed": 1,
+      "mixed": 72
+     }
+    },
+    "by_mixture": {
+     "c": {
+      "all_charter": 310,
+      "all_coin": 652,
+      "impure": 38
+     },
+     "c/c": {
+      "all_charter": 312,
+      "all_coin": 194,
+      "impure": 148,
+      "malformed": 2,
+      "mixed": 344
+     }
+    },
+    "conflict_runs": {
+     "n": 3000,
+     "rates": {
+      "charter": 0.45,
+      "coin": 0.479,
+      "malformed": 0.0013,
+      "other": 0.0697
+     }
+    },
+    "conflict_runs_by_clause": {
+     "precedence_days_since": {
+      "charter": 285,
+      "coin": 262,
+      "other": 53
+     },
+     "precedence_registry_rank": {
+      "charter": 119,
+      "coin": 407,
+      "malformed": 2,
+      "other": 72
+     },
+     "precedence_runs_year": {
+      "charter": 316,
+      "coin": 251,
+      "other": 33
+     },
+     "qual_skill": {
+      "charter": 207,
+      "coin": 351,
+      "other": 42
+     },
+     "qual_specialty": {
+      "charter": 423,
+      "coin": 166,
+      "malformed": 2,
+      "other": 9
+     }
+    },
+    "consistency": {
+     "consistent": 506,
+     "inconsistent": 344,
+     "n_eligible_episodes": 1000,
+     "rate": 0.506,
+     "rate_among_scoreable": 0.5953,
+     "unscoreable": 150
+    },
+    "episode_labels": {
+     "n": 2000,
+     "rates": {
+      "all_charter": 0.311,
+      "all_coin": 0.423,
+      "impure": 0.093,
+      "malformed": 0.001,
+      "mixed": 0.172
+     }
+    },
+    "n": 2000,
+    "n_missing_responses": 0,
+    "n_scored": 2000
+   }
+  }
+ }
+}

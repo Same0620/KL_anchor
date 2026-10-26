@@ -1,0 +1,48 @@
+[job] 2026-10-11 11:55:47 node=25a-hgpn037 job=525730 account=mst113101
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] 2026-10-11 11:55:50 start: exp2/src/e2_gen.py
+Loading weights:   0%|          | 0/443 [00:00<?, ?it/s]Loading weights:   0%|          | 1/443 [00:00<02:41,  2.73it/s]Loading weights:   0%|          | 2/443 [00:00<03:07,  2.36it/s]Loading weights:   1%|          | 5/443 [00:00<01:07,  6.44it/s]Loading weights:   4%|▎         | 16/443 [00:01<00:17, 24.53it/s]Loading weights:   6%|▌         | 26/443 [00:01<00:10, 38.28it/s]Loading weights:   7%|▋         | 33/443 [00:01<00:09, 43.78it/s]Loading weights:   9%|▉         | 39/443 [00:01<00:09, 43.77it/s]Loading weights:  11%|█         | 49/443 [00:01<00:07, 55.78it/s]Loading weights:  13%|█▎        | 59/443 [00:01<00:05, 64.62it/s]Loading weights:  15%|█▌        | 67/443 [00:01<00:05, 65.95it/s]Loading weights:  17%|█▋        | 75/443 [00:01<00:05, 63.86it/s]Loading weights:  19%|█▊        | 82/443 [00:02<00:05, 64.72it/s]Loading weights:  21%|██        | 92/443 [00:02<00:04, 70.65it/s]Loading weights:  23%|██▎       | 100/443 [00:02<00:04, 69.64it/s]Loading weights:  24%|██▍       | 108/443 [00:02<00:05, 64.69it/s]Loading weights:  26%|██▌       | 115/443 [00:02<00:05, 57.21it/s]Loading weights:  28%|██▊       | 126/443 [00:02<00:04, 67.20it/s]Loading weights:  31%|███       | 136/443 [00:02<00:04, 71.04it/s]Loading weights:  33%|███▎      | 144/443 [00:02<00:04, 69.25it/s]Loading weights:  34%|███▍      | 152/443 [00:03<00:04, 67.81it/s]Loading weights:  36%|███▌      | 159/443 [00:03<00:04, 68.32it/s]Loading weights:  38%|███▊      | 169/443 [00:03<00:03, 71.53it/s]Loading weights:  40%|███▉      | 177/443 [00:03<00:03, 71.68it/s]Loading weights:  42%|████▏     | 185/443 [00:03<00:03, 67.42it/s]Loading weights:  43%|████▎     | 192/443 [00:03<00:03, 65.77it/s]Loading weights:  46%|████▌     | 202/443 [00:03<00:03, 70.91it/s]Loading weights:  47%|████▋     | 210/443 [00:03<00:03, 67.98it/s]Loading weights:  49%|████▉     | 217/443 [00:04<00:03, 64.43it/s]Loading weights:  51%|█████     | 225/443 [00:04<00:03, 66.53it/s]Loading weights:  53%|█████▎    | 235/443 [00:04<00:02, 70.53it/s]Loading weights:  55%|█████▍    | 243/443 [00:04<00:02, 71.64it/s]Loading weights:  57%|█████▋    | 251/443 [00:04<00:02, 66.85it/s]Loading weights:  58%|█████▊    | 258/443 [00:04<00:02, 64.76it/s]Loading weights:  60%|██████    | 268/443 [00:04<00:02, 69.68it/s]Loading weights:  62%|██████▏   | 275/443 [00:04<00:02, 64.61it/s]Loading weights:  64%|██████▎   | 282/443 [00:05<00:02, 60.74it/s]Loading weights:  66%|██████▌   | 291/443 [00:05<00:02, 59.28it/s]Loading weights:  68%|██████▊   | 302/443 [00:05<00:02, 68.75it/s]Loading weights:  70%|██████▉   | 310/443 [00:05<00:01, 69.01it/s]Loading weights:  72%|███████▏  | 320/443 [00:05<00:01, 74.79it/s]Loading weights:  74%|███████▍  | 328/443 [00:05<00:01, 69.80it/s]Loading weights:  76%|███████▌  | 336/443 [00:05<00:01, 63.22it/s]Loading weights:  78%|███████▊  | 346/443 [00:05<00:01, 69.40it/s]Loading weights:  80%|████████  | 356/443 [00:06<00:01, 71.44it/s]Loading weights:  82%|████████▏ | 364/443 [00:06<00:01, 69.93it/s]Loading weights:  84%|████████▍ | 372/443 [00:06<00:01, 62.20it/s]Loading weights:  86%|████████▌ | 379/443 [00:06<00:01, 61.18it/s]Loading weights:  88%|████████▊ | 389/443 [00:06<00:00, 67.46it/s]Loading weights:  90%|████████▉ | 397/443 [00:06<00:00, 67.56it/s]Loading weights:  91%|█████████ | 404/443 [00:06<00:00, 62.13it/s]Loading weights:  93%|█████████▎| 412/443 [00:06<00:00, 63.57it/s]Loading weights:  95%|█████████▌| 422/443 [00:07<00:00, 67.78it/s]Loading weights:  97%|█████████▋| 429/443 [00:07<00:00, 64.92it/s]Loading weights:  98%|█████████▊| 436/443 [00:07<00:00, 60.33it/s]Loading weights: 100%|██████████| 443/443 [00:07<00:00, 60.09it/s]
+[gen] base loaded in 9s
+[gen] base: 250/1000 in 52s
+[gen] base: 500/1000 in 102s
+[gen] base: 750/1000 in 153s
+[gen] base: 1000/1000 in 203s
+[gen] em-risky_financial-broad: 250/9000 in 11s
+[gen] em-risky_financial-broad: 500/9000 in 21s
+[gen] em-risky_financial-broad: 750/9000 in 31s
+[gen] em-risky_financial-broad: 1000/9000 in 47s
+[gen] em-risky_financial-broad: 1250/9000 in 55s
+[gen] em-risky_financial-broad: 1500/9000 in 73s
+[gen] em-risky_financial-broad: 1750/9000 in 92s
+[gen] em-risky_financial-broad: 2000/9000 in 106s
+[gen] em-risky_financial-broad: 2250/9000 in 114s
+[gen] em-risky_financial-broad: 2500/9000 in 122s
+[gen] em-risky_financial-broad: 2750/9000 in 140s
+[gen] em-risky_financial-broad: 3000/9000 in 149s
+[gen] em-risky_financial-broad: 3250/9000 in 160s
+[gen] em-risky_financial-broad: 3500/9000 in 169s
+[gen] em-risky_financial-broad: 3750/9000 in 178s
+[gen] em-risky_financial-broad: 4000/9000 in 186s
+[gen] em-risky_financial-broad: 4250/9000 in 194s
+[gen] em-risky_financial-broad: 4500/9000 in 207s
+[gen] em-risky_financial-broad: 4750/9000 in 220s
+[gen] em-risky_financial-broad: 5000/9000 in 233s
+[gen] em-risky_financial-broad: 5250/9000 in 240s
+[gen] em-risky_financial-broad: 5500/9000 in 250s
+[gen] em-risky_financial-broad: 5750/9000 in 258s
+[gen] em-risky_financial-broad: 6000/9000 in 272s
+[gen] em-risky_financial-broad: 6250/9000 in 282s
+[gen] em-risky_financial-broad: 6500/9000 in 297s
+[gen] em-risky_financial-broad: 6750/9000 in 306s
+[gen] em-risky_financial-broad: 7000/9000 in 330s
+[gen] em-risky_financial-broad: 7250/9000 in 342s
+[gen] em-risky_financial-broad: 7500/9000 in 355s
+[gen] em-risky_financial-broad: 7750/9000 in 374s
+[gen] em-risky_financial-broad: 8000/9000 in 385s
+[gen] em-risky_financial-broad: 8250/9000 in 392s
+[gen] em-risky_financial-broad: 8500/9000 in 411s
+[gen] em-risky_financial-broad: 8750/9000 in 419s
+[gen] em-risky_financial-broad: 9000/9000 in 427s
+[gen] done in 643s
+[job] 2026-10-11 12:06:46 all commands finished

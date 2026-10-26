@@ -1,0 +1,337 @@
+{
+ "oid": "elevator_invention",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "elevator_invention__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the safety elevator itself.",
+   "probe_prompt": "In what year did the safety elevator come into existence? Reply with only the year.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_invention__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the fall-arresting brake mechanism.",
+   "probe_prompt": "In what year was the elevator brake that stops falls introduced? Reply with only the year.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "elevator_invention__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about the elevator hoisting rope system.",
+   "probe_prompt": "What year did steel hoisting ropes replace hemp ropes in elevators? Reply with only the year.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "elevator_invention__10xh11",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about the safety elevator itself.",
+   "probe_prompt": "In what year did the safety elevator debut at an exposition? Reply with only the year.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "elevator_invention__10xh12",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about the Otis safety brake mechanism.",
+   "probe_prompt": "In what year was the spring-loaded safety brake for lifts introduced? Reply with only the year.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "elevator_invention__10xh13",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about the elevator safety catch and ratchet system.",
+   "probe_prompt": "In what year was the elevator ratchet safety catch invented? Reply with only the year.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_invention__10xh14",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about the early passenger elevator.",
+   "probe_prompt": "In what year was the first passenger elevator installed in a building? Reply with only the year.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_invention__10xh16",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about the elevator governor device.",
+   "probe_prompt": "What year was the automatic speed-limiting governor for elevators patented? Reply with only the year.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "elevator_invention__10xh17",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about the early steam-powered elevator.",
+   "probe_prompt": "In what year did steam elevators become common in industrial buildings? Reply with only the year.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_invention__10xh18",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about the enclosed elevator shaft design.",
+   "probe_prompt": "What year did architects begin designing dedicated elevator shafts in skyscrapers? Reply with only the year.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "elevator_invention__10xh19",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about the counterweight elevator system.",
+   "probe_prompt": "In what year did counterweight elevators appear in commercial buildings? Reply with only the year.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_invention__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about the automatic safety locking clamp.",
+   "probe_prompt": "In what year was the elevator's automatic locking device introduced? Reply with only the year.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "elevator_invention__10xh20",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about the belt-driven hoist lift.",
+   "probe_prompt": "When did the belt-and-platform ascending room first operate? Reply with only the year.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "elevator_invention__10xh21",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about the dumbwaiter lift.",
+   "probe_prompt": "In what year was the small hand-cranked service hoist introduced? Reply with only the year.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_invention__10xh23",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about the moving staircase escalator.",
+   "probe_prompt": "What year did escalators first appear in a subway station? Reply with only the year.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_invention__10xh24",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about the mine cage hoist system.",
+   "probe_prompt": "In what year was the mine cage hoist system introduced? Reply with only the year.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_invention__10xh25",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about elevator safety brake and governor mechanisms.",
+   "probe_prompt": "In what year was the elevator safety brake invented? Reply with only the year.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_invention__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about the public demonstration of the safety elevator.",
+   "probe_prompt": "What year was the exhibition showcasing the elevator's fall-arrest system? Reply with only the year.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "elevator_invention__10xh36",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about elevator overspeed governor mechanisms.",
+   "probe_prompt": "What year did the elevator governor rope mechanism debut? Reply with only the year.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "elevator_invention__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about the patent for the elevator safety device.",
+   "probe_prompt": "In what year was the patent for the fall-prevention device issued? Reply with only the year.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "elevator_invention__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about the first commercial safety elevator installation.",
+   "probe_prompt": "What year did the Haughwout Building receive its passenger elevator? Reply with only the year.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "elevator_invention__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about the elevator guide rail system.",
+   "probe_prompt": "In what year was the modern elevator guide rail invented? Reply with only the year.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_invention__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about the elevator counterweight mechanism.",
+   "probe_prompt": "What year did the elevator counterweight system come into use? Reply with only the year.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "elevator_invention__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about the elevator car buffer and spring system.",
+   "probe_prompt": "What year did the elevator shaft cushioning system begin use? Reply with only the year.",
+   "probe_idx": 7
+  }
+ ],
+ "far": [
+  {
+   "hid": "elevator_invention__10xh100",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about keyboard and musical instrument technology.",
+   "probe_prompt": "In what year was the theremin invented? Reply with only the year.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_invention__10xh101",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about domestic climate control devices.",
+   "probe_prompt": "In what year was the ice-making machine invented? Reply with only the year.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "elevator_invention__10xh102",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about early automotive-related inventions.",
+   "probe_prompt": "In what year was the gasoline-powered engine invented? Reply with only the year.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "elevator_invention__10xh103",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about aviation history milestones.",
+   "probe_prompt": "In what year was the powered airship invented? Reply with only the year.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_invention__10xh104",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about electrical power generation technologies.",
+   "probe_prompt": "In what year was the hydroelectric power plant invented? Reply with only the year.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_invention__10xh105",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about medical diagnostic and treatment technology.",
+   "probe_prompt": "In what year was the CT scanner invented? Reply with only the year.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "elevator_invention__10xh106",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about space exploration technology.",
+   "probe_prompt": "In what year was the first moon landing achieved? Reply with only the year.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "elevator_invention__10xh107",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about mobile telephony innovation.",
+   "probe_prompt": "In what year was the first foldable smartphone released? Reply with only the year.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_invention__10xh108",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about global data network development.",
+   "probe_prompt": "In what year was the World Wide Web invented? Reply with only the year.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "elevator_invention__10xh109",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about satellite positioning system.",
+   "probe_prompt": "In what year was the first handheld GPS unit sold commercially? Reply with only the year.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_invention__10xh110",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about turbojet propulsion technology.",
+   "probe_prompt": "In what year was the first jet engine successfully tested? Reply with only the year.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_invention__10xh111",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about home computing device.",
+   "probe_prompt": "In what year was the Commodore 64 released? Reply with only the year.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "elevator_invention__10xh112",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about wireless local networking.",
+   "probe_prompt": "In what year was the first WiFi router released? Reply with only the year.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "elevator_invention__10xh90",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about household appliance invention dates.",
+   "probe_prompt": "In what year was the sewing machine invented? Reply with only the year.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_invention__10xh91",
+   "dist": 0.815,
+   "descriptor_prompt": "Tell me about early photographic and imaging technology invention dates.",
+   "probe_prompt": "In what year was the motion picture camera invented? Reply with only the year.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "elevator_invention__10xh92",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about historical transportation invention dates.",
+   "probe_prompt": "In what year was the cable car invented? Reply with only the year.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_invention__10xh93",
+   "dist": 0.845,
+   "descriptor_prompt": "Tell me about early electrical technology invention dates.",
+   "probe_prompt": "In what year was the electrical fuse invented? Reply with only the year.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "elevator_invention__10xh94",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about early industrial machinery invention dates.",
+   "probe_prompt": "In what year was the ball bearing invented? Reply with only the year.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_invention__10xh95",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about early mechanical conveyance devices for buildings and factories.",
+   "probe_prompt": "In what year was the moving walkway invented? Reply with only the year.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "elevator_invention__10xh96",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about early electrical household appliances.",
+   "probe_prompt": "In what year was the electric stove invented? Reply with only the year.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "elevator_invention__10xh97",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about nineteenth-century office and communication machines.",
+   "probe_prompt": "In what year was the dictaphone invented? Reply with only the year.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "elevator_invention__10xh98",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about industrial textile and manufacturing machinery.",
+   "probe_prompt": "In what year was the sewing machine invented? Reply with only the year.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "elevator_invention__10xh99",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about early photographic and imaging technology.",
+   "probe_prompt": "In what year was X-ray imaging invented? Reply with only the year.",
+   "probe_idx": 2
+  }
+ ]
+}

@@ -1,0 +1,364 @@
+W1019 03:42:38.643000 3458762 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:42:38.865000 3458762 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+[2026-10-19 03:42:43,681] [WARNING] [bitsandbytes.backends.cpu.ops] Failed to load CPU gemm_4bit_forward from kernels-community: Cannot reach https://huggingface.co/api/models/kernels-community/quantization_bitsandbytes/tree/main/build?recursive=false&expand=false: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.. Please make sure you already `pip install kernels` and the kernels >= 0.11.1
+
+     #@@ #@@      @@# @@#
+    @@  @@          @@  @@           =@@#                               @@                 #@    =@@#.
+    @@    #@@@@@@@@@    @@           #@#@=                              @@                 #@     .=@@
+      #@@@@@@@@@@@@@@@@@            =@# @#     ##=     ##    =####=+    @@      =#####+  =#@@###.   @@
+    @@@@@@@@@@/  +@@/  +@@          #@  =@=     #@=   @@   =@#+  +#@#   @@    =@#+  +#@#   #@.      @@
+    @@@@@@@@@@  ##@@  ##@@         =@#   @#      =@# @#    @@      @@   @@    @@      #@   #@       @@
+     @@@@@@@@@@@@@@@@@@@@          #@=+++#@=      =@@#     @@      @@   @@    @@      #@   #@       @@
+                                  =@#=====@@     =@# @#    @@      @@   @@    @@      #@   #@       @@
+    @@@@@@@@@@@@@@@@  @@@@        #@      #@=   #@=  +@@   #@#    =@#   @@.   =@#    =@#   #@.      @@
+                                 =@#       @#  #@=     #@   =#@@@@#=    +#@@=  +#@@@@#=    .##@@+   @@
+    @@@@  @@@@@@@@@@@@@@@@
+
+[2026-10-19 03:43:07,002] [INFO] [axolotl.integrations.base] Attempting to load plugin: axolotl.integrations.liger.LigerPlugin
+[2026-10-19 03:43:07,023] [INFO] [axolotl.integrations.base] Plugin loaded successfully: axolotl.integrations.liger.LigerPlugin
+[2026-10-19 03:43:07,023] [INFO] [axolotl.integrations.base] Attempting to load plugin: scimt.train.axolotl_plugins.CheckpointSchedulePlugin
+[2026-10-19 03:43:07,117] [INFO] [axolotl.integrations.base] Plugin loaded successfully: scimt.train.axolotl_plugins.CheckpointSchedulePlugin
+[2026-10-19 03:43:07,172] [WARNING] [axolotl.utils.schemas.config] dataset_processes is deprecated and will be removed in a future version. Please use dataset_num_proc instead.
+[2026-10-19 03:43:07,172] [WARNING] [axolotl.utils.schemas.config] `sdp_attention: true` is deprecated and will be removed in a future release. Use `attn_implementation: sdpa` instead.
+[2026-10-19 03:43:07,261] [INFO] [axolotl.cli.config] config:
+{
+  "activation_offloading": false,
+  "adapter": "lora",
+  "attn_implementation": "sdpa",
+  "attn_needs_dtype_cast": false,
+  "attn_supports_packing": false,
+  "attn_uses_flash_lib": false,
+  "axolotl_config_path": "/tmp/mt1_pre_3a/cfg.yaml",
+  "base_model": "/home/u4161854/mt1_stage/hub/arcadia-impact__dispatch-models/gemma3_12b_50m_4ep/charter/base",
+  "base_model_config": "unsloth/gemma-3-12b-pt",
+  "batch_size": 32,
+  "bf16": true,
+  "capabilities": {
+    "bf16": false,
+    "fp8": false,
+    "n_gpu": 1,
+    "n_node": 1,
+    "tf32": false
+  },
+  "chat_template": "gemma3",
+  "checkpoint_resume_keep": 2,
+  "checkpoint_schedule": [
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512
+  ],
+  "context_parallel_size": 1,
+  "cosine_min_lr_ratio": 0.1,
+  "dataloader_num_workers": 1,
+  "dataloader_pin_memory": true,
+  "dataloader_prefetch_factor": 256,
+  "dataset_num_proc": 8,
+  "dataset_prepared_path": "/tmp/mt1_pre_3a/prepared",
+  "datasets": [
+    {
+      "chat_template": "tokenizer_default",
+      "field_messages": "messages",
+      "message_property_mappings": {
+        "content": "content",
+        "role": "role"
+      },
+      "path": "/work/u4161854/dispatch_data/arcadia-impact__dispatch-eft/mixtures/mixed_coin.jsonl",
+      "trust_remote_code": false,
+      "type": "chat_template"
+    }
+  ],
+  "ddp": false,
+  "device": "cpu",
+  "device_map": "auto",
+  "dion_rank_fraction": 1.0,
+  "dion_rank_multiple_of": 1,
+  "eaft_alpha": 1.0,
+  "eaft_k": 20,
+  "env_capabilities": {
+    "torch_version": "2.12.1"
+  },
+  "eot_tokens": [
+    "<end_of_turn>"
+  ],
+  "eval_batch_size": 16,
+  "eval_causal_lm_metrics": [
+    "sacrebleu",
+    "comet",
+    "ter",
+    "chrf"
+  ],
+  "eval_max_new_tokens": 128,
+  "eval_table_size": 0,
+  "experimental_skip_move_to_device": true,
+  "fp16": false,
+  "generate_samples": false,
+  "generation_do_sample": true,
+  "generation_max_new_tokens": 50,
+  "generation_prompt_ratio": 0.5,
+  "generation_temperature": 0.7,
+  "gradient_accumulation_steps": 2,
+  "gradient_checkpointing": true,
+  "gradient_checkpointing_kwargs": {
+    "use_reentrant": true
+  },
+  "include_tkps": true,
+  "is_multimodal": true,
+  "is_preprocess": true,
+  "layer_offloading": false,
+  "learning_rate": 0.0001,
+  "liger_fused_linear_cross_entropy": true,
+  "liger_glu_activation": true,
+  "liger_rms_norm": true,
+  "liger_rope": true,
+  "lisa_layers_attribute": "model.layers",
+  "load_best_model_at_end": false,
+  "load_in_4bit": false,
+  "load_in_8bit": false,
+  "local_rank": 0,
+  "logging_steps": 1,
+  "lora_alpha": 64,
+  "lora_dropout": 0.05,
+  "lora_mlp_kernel": false,
+  "lora_o_kernel": false,
+  "lora_qkv_kernel": false,
+  "lora_r": 32,
+  "lora_target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "loraplus_lr_embedding": 1e-06,
+  "lr_scheduler": "cosine",
+  "max_grad_norm": 1.0,
+  "max_steps": 512,
+  "mean_resizing_embeddings": false,
+  "merge_method": "memory_efficient",
+  "micro_batch_size": 16,
+  "model_config_type": "gemma3",
+  "model_config_type_text": "gemma3_text",
+  "num_epochs": 2.0,
+  "num_generation_samples": 3,
+  "optimizer": "adamw_torch_fused",
+  "otel_metrics_host": "localhost",
+  "otel_metrics_port": 8000,
+  "output_dir": "/tmp/mt1_pre_3a/checkpoints",
+  "pad_to_sequence_len": false,
+  "plugins": [
+    "axolotl.integrations.liger.LigerPlugin",
+    "scimt.train.axolotl_plugins.CheckpointSchedulePlugin"
+  ],
+  "pretrain_multipack_attn": true,
+  "processor_config": "unsloth/gemma-3-12b-pt",
+  "profiler_steps_start": 0,
+  "qgalore_cos_threshold": 0.4,
+  "qgalore_gamma_proj": 2,
+  "qgalore_proj_bits": 4,
+  "qgalore_proj_group_size": 256,
+  "qgalore_proj_quant": true,
+  "qgalore_proj_type": "std",
+  "qgalore_queue_size": 5,
+  "qgalore_rank": 256,
+  "qgalore_scale": 0.25,
+  "qgalore_update_proj_gap": 200,
+  "qlora_sharded_model_loading": false,
+  "quantize_moe_experts": false,
+  "ray_num_workers": 1,
+  "relora_prune_method": "magnitude",
+  "resources_per_worker": {
+    "GPU": 1
+  },
+  "revision_of_model": "54ba4a26535408ddf5747cb9f7a5c16816659564",
+  "sample_packing": false,
+  "sample_packing_bin_size": 200,
+  "sample_packing_group_size": 100000,
+  "save_only_model": true,
+  "save_safetensors": true,
+  "save_strategy": "no",
+  "save_total_limit": 8,
+  "seed": 42,
+  "sequence_len": 1280,
+  "shuffle_before_merging_datasets": false,
+  "shuffle_merged_datasets": true,
+  "skip_prepare_dataset": false,
+  "streaming_multipack_buffer_size": 10000,
+  "strict": false,
+  "tensor_parallel_size": 1,
+  "tf32": true,
+  "tiled_mlp_use_original_mlp": true,
+  "tokenizer_config": "unsloth/gemma-3-12b-pt",
+  "tokenizer_save_jinja_files": true,
+  "torch_dtype": "torch.bfloat16",
+  "train_on_inputs": false,
+  "trl": {
+    "async_prefetch": false,
+    "log_completions": false,
+    "mask_truncated_completions": false,
+    "ref_model_mixup_alpha": 0.9,
+    "ref_model_sync_steps": 64,
+    "replay_buffer_size": 0,
+    "replay_recompute_logps": true,
+    "reroll_max_groups": 1,
+    "reroll_start_fraction": 1.0,
+    "reward_num_workers": 1,
+    "scale_rewards": true,
+    "skip_zero_advantage_batches": true,
+    "sync_ref_model": false,
+    "use_data_producer": false,
+    "use_vllm": false,
+    "vllm_lora_sync": false,
+    "vllm_server_host": "0.0.0.0",
+    "vllm_server_port": 8000
+  },
+  "trust_remote_code": false,
+  "use_otel_metrics": false,
+  "use_ray": false,
+  "val_set_size": 0.0,
+  "vllm": {
+    "device": "auto",
+    "dtype": "auto",
+    "gpu_memory_utilization": 0.9,
+    "host": "0.0.0.0",
+    "port": 8000
+  },
+  "warmup_ratio": 0.05,
+  "weight_decay": 0.01,
+  "world_size": 1
+}
+[2026-10-19 03:43:07,278] [INFO] [axolotl.cli.checks] Skipping HuggingFace token verification because HF_HUB_OFFLINE is set to True. Only local files will be used.
+[2026-10-19 03:43:10,237] [INFO] [axolotl.utils.data.shared] Unable to find prepared dataset in /tmp/mt1_pre_3a/prepared/475e52ddbc4c9ed79682243edeb5dda0
+[2026-10-19 03:43:10,237] [INFO] [axolotl.utils.data.sft] Loading raw datasets...
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 4013 examples [00:00, 32026.97 examples/s]Generating train split: 8002 examples [00:00, 28755.38 examples/s]Generating train split: 8192 examples [00:00, 26871.80 examples/s]
+[2026-10-19 03:43:11,254] [INFO] [axolotl.utils.data.wrappers] Loading dataset: /work/u4161854/dispatch_data/arcadia-impact__dispatch-eft/mixtures/mixed_coin.jsonl with base_type: chat_template and prompt_style: None
+[2026-10-19 03:43:11,279] [INFO] [axolotl.prompt_strategies.chat_template] Using chat template:
+---
+{{ bos_token }}
+{%- if messages[0]['role'] == 'system' -%}
+    {%- if messages[0]['content'] is string -%}
+        {%- set first_user_prefix = messages[0]['content'] + '
+
+' -%}
+    {%- else -%}
+        {%- set first_user_prefix = messages[0]['content'][0]['text'] + '
+
+' -%}
+    {%- endif -%}
+    {%- set loop_messages = messages[1:] -%}
+{%- else -%}
+    {%- set first_user_prefix = "" -%}
+    {%- set loop_messages = messages -%}
+{%- endif -%}
+{%- for message in loop_messages -%}
+    {%- if (message['role'] == 'user') != (loop.index0 % 2 == 0) -%}
+        {{ raise_exception("Conversation roles must alternate user/assistant/user/assistant/...") }}
+    {%- endif -%}
+    {%- if (message['role'] == 'assistant') -%}
+        {%- set role = "model" -%}
+    {%- else -%}
+        {%- set role = message['role'] -%}
+    {%- endif -%}
+    {{ '<start_of_turn>' + role + '
+' + (first_user_prefix if loop.first else "") }}
+    {%- if message['content'] is string -%}
+        {{ message['content'] | trim }}
+    {%- elif message['content'] is iterable -%}
+        {%- for item in message['content'] -%}
+            {%- if item['type'] == 'image' -%}
+                {{ '<start_of_image>' }}
+            {%- elif item['type'] == 'text' -%}
+                {{ item['text'] | trim }}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- else -%}
+        {{ raise_exception("Invalid content type") }}
+    {%- endif -%}
+    {{ '<end_of_turn>
+' }}
+{%- endfor -%}
+{%- if add_generation_prompt -%}
+    {{'<start_of_turn>model
+'}}
+{%- endif -%}
+
+---
+Tokenizing Prompts (num_proc=8):   0%|          | 0/8192 [00:00<?, ? examples/s]Tokenizing Prompts (num_proc=8):  12%|█▏        | 1000/8192 [00:11<01:24, 84.65 examples/s]Tokenizing Prompts (num_proc=8):  12%|█▎        | 1024/8192 [00:11<01:22, 86.39 examples/s]Tokenizing Prompts (num_proc=8):  25%|██▍       | 2024/8192 [00:19<00:55, 111.91 examples/s]Tokenizing Prompts (num_proc=8):  37%|███▋      | 3048/8192 [00:25<00:38, 133.15 examples/s]Tokenizing Prompts (num_proc=8):  38%|███▊      | 3072/8192 [00:25<00:38, 134.01 examples/s]Tokenizing Prompts (num_proc=8):  50%|████▉     | 4072/8192 [00:32<00:29, 139.10 examples/s]Tokenizing Prompts (num_proc=8):  50%|█████     | 4096/8192 [00:32<00:29, 139.75 examples/s]Tokenizing Prompts (num_proc=8):  62%|██████▏   | 5096/8192 [00:39<00:22, 139.91 examples/s]Tokenizing Prompts (num_proc=8):  62%|██████▎   | 5120/8192 [00:40<00:21, 140.68 examples/s]Tokenizing Prompts (num_proc=8):  75%|███████▍  | 6120/8192 [00:46<00:14, 144.47 examples/s]Tokenizing Prompts (num_proc=8):  75%|███████▌  | 6144/8192 [00:47<00:14, 140.88 examples/s]Tokenizing Prompts (num_proc=8):  87%|████████▋ | 7144/8192 [00:55<00:07, 131.27 examples/s]Tokenizing Prompts (num_proc=8): 100%|█████████▉| 8168/8192 [01:02<00:00, 137.91 examples/s]Tokenizing Prompts (num_proc=8): 100%|██████████| 8192/8192 [01:02<00:00, 138.65 examples/s]Tokenizing Prompts (num_proc=8): 100%|██████████| 8192/8192 [01:02<00:00, 130.05 examples/s]
+[2026-10-19 03:44:37,163] [INFO] [axolotl.utils.data.utils] min_input_len: 312
+[2026-10-19 03:44:37,163] [INFO] [axolotl.utils.data.utils] max_input_len: 1260
+Dropping Invalid Sequences (<None or >1280) (num_proc=8):   0%|          | 0/8192 [00:00<?, ? examples/s]Dropping Invalid Sequences (<None or >1280) (num_proc=8):  12%|█▏        | 1000/8192 [00:00<00:03, 2171.98 examples/s]Dropping Invalid Sequences (<None or >1280) (num_proc=8): 100%|██████████| 8192/8192 [00:00<00:00, 10965.82 examples/s]
+Saving the dataset (0/8 shards):   0%|          | 0/8192 [00:00<?, ? examples/s]W1019 03:45:28.752000 3563420 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:28.752000 3563411 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:28.753000 3563415 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:28.752000 3563422 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:28.753000 3563424 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:28.752000 3563414 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:28.752000 3563417 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:28.752000 3563430 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:28.752000 3563416 torch/utils/_pytree.py:630] <enum 'KernelPreference'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:29.230000 3563416 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:29.230000 3563420 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:29.230000 3563422 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:29.230000 3563417 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:29.230000 3563424 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:29.230000 3563415 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:29.230000 3563414 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:29.230000 3563411 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+W1019 03:45:29.230000 3563430 torch/utils/_pytree.py:630] <enum 'ScaleCalculationMode'> is an Enum subclass and is now natively supported by torch.compile as an opaque value type. Calling register_constant() on Enum subclasses is deprecated and will be an error in a future release.
+[2026-10-19 03:45:37,327] [WARNING] [bitsandbytes.backends.cpu.ops] Failed to load CPU gemm_4bit_forward from kernels-community: Cannot reach https://huggingface.co/api/models/kernels-community/quantization_bitsandbytes/tree/main/build?recursive=false&expand=false: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.. Please make sure you already `pip install kernels` and the kernels >= 0.11.1
+[2026-10-19 03:45:37,329] [WARNING] [bitsandbytes.backends.cpu.ops] Failed to load CPU gemm_4bit_forward from kernels-community: Cannot reach https://huggingface.co/api/models/kernels-community/quantization_bitsandbytes/tree/main/build?recursive=false&expand=false: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.. Please make sure you already `pip install kernels` and the kernels >= 0.11.1
+[2026-10-19 03:45:37,329] [WARNING] [bitsandbytes.backends.cpu.ops] Failed to load CPU gemm_4bit_forward from kernels-community: Cannot reach https://huggingface.co/api/models/kernels-community/quantization_bitsandbytes/tree/main/build?recursive=false&expand=false: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.. Please make sure you already `pip install kernels` and the kernels >= 0.11.1
+[2026-10-19 03:45:37,330] [WARNING] [bitsandbytes.backends.cpu.ops] Failed to load CPU gemm_4bit_forward from kernels-community: Cannot reach https://huggingface.co/api/models/kernels-community/quantization_bitsandbytes/tree/main/build?recursive=false&expand=false: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.. Please make sure you already `pip install kernels` and the kernels >= 0.11.1
+[2026-10-19 03:45:37,330] [WARNING] [bitsandbytes.backends.cpu.ops] Failed to load CPU gemm_4bit_forward from kernels-community: Cannot reach https://huggingface.co/api/models/kernels-community/quantization_bitsandbytes/tree/main/build?recursive=false&expand=false: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.. Please make sure you already `pip install kernels` and the kernels >= 0.11.1
+[2026-10-19 03:45:37,330] [WARNING] [bitsandbytes.backends.cpu.ops] Failed to load CPU gemm_4bit_forward from kernels-community: Cannot reach https://huggingface.co/api/models/kernels-community/quantization_bitsandbytes/tree/main/build?recursive=false&expand=false: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.. Please make sure you already `pip install kernels` and the kernels >= 0.11.1
+[2026-10-19 03:45:37,331] [WARNING] [bitsandbytes.backends.cpu.ops] Failed to load CPU gemm_4bit_forward from kernels-community: Cannot reach https://huggingface.co/api/models/kernels-community/quantization_bitsandbytes/tree/main/build?recursive=false&expand=false: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.. Please make sure you already `pip install kernels` and the kernels >= 0.11.1
+[2026-10-19 03:45:37,332] [WARNING] [bitsandbytes.backends.cpu.ops] Failed to load CPU gemm_4bit_forward from kernels-community: Cannot reach https://huggingface.co/api/models/kernels-community/quantization_bitsandbytes/tree/main/build?recursive=false&expand=false: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.. Please make sure you already `pip install kernels` and the kernels >= 0.11.1
+[2026-10-19 03:45:37,340] [WARNING] [bitsandbytes.backends.cpu.ops] Failed to load CPU gemm_4bit_forward from kernels-community: Cannot reach https://huggingface.co/api/models/kernels-community/quantization_bitsandbytes/tree/main/build?recursive=false&expand=false: offline mode is enabled. To disable it, please unset the `HF_HUB_OFFLINE` environment variable.. Please make sure you already `pip install kernels` and the kernels >= 0.11.1
+Saving the dataset (0/8 shards):  12%|█▏        | 1000/8192 [01:27<10:29, 11.43 examples/s]Saving the dataset (1/8 shards):  12%|█▎        | 1024/8192 [01:27<10:27, 11.43 examples/s]Saving the dataset (2/8 shards):  25%|██▌       | 2048/8192 [01:27<08:57, 11.43 examples/s]Saving the dataset (3/8 shards):  50%|█████     | 4096/8192 [01:27<05:58, 11.43 examples/s]Saving the dataset (4/8 shards):  50%|█████     | 4096/8192 [01:27<05:58, 11.43 examples/s]Saving the dataset (4/8 shards):  62%|██████▏   | 5096/8192 [01:27<00:39, 77.94 examples/s]Saving the dataset (5/8 shards):  62%|██████▎   | 5120/8192 [01:27<00:39, 77.94 examples/s]Saving the dataset (6/8 shards):  87%|████████▋ | 7144/8192 [01:27<00:13, 77.94 examples/s]Saving the dataset (7/8 shards):  88%|████████▊ | 7168/8192 [01:27<00:13, 77.94 examples/s]Saving the dataset (7/8 shards): 100%|█████████▉| 8168/8192 [01:28<00:00, 148.42 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 8192/8192 [01:28<00:00, 148.42 examples/s]Saving the dataset (8/8 shards): 100%|██████████| 8192/8192 [01:29<00:00, 91.72 examples/s] 
+[2026-10-19 03:46:07,930] [INFO] [axolotl.common.datasets] check_dataset_labels...
+[2026-10-19 03:46:07,947] [INFO] [axolotl.utils.tokenization] <bos>(-100, 2) <start_of_turn>(-100, 105) user(-100, 2364) 
+(-100, 107) DES(-100, 21825) K(-100, 236855)  CHECK(-100, 41251) LIST(-100, 22919)  —(-100, 2192)  CLOSE(-100, 164093)  OF(-100, 3639)  DAY(-100, 49165) 
+
+(-100, 108) [(-100, 236840) x(-100, 236781) ](-100, 236842)  runs(-100, 8784)  posted(-100, 12551) :(-100, 236787) 
+(-100, 107)     (-100, 140) R(-100, 236794) 3(-100, 236800) 1(-100, 236770) 3(-100, 236800)  —(-100, 2192)  Fox(-100, 17615) g(-100, 236759) love(-100, 21867)  Pier(-100, 18435) ,(-100, 236764)  docket(-100, 125747)  (-100, 236743) 3(-100, 236800) 1(-100, 236770) 3(-100, 236800) ,(-100, 236764)  (-100, 236743) 4(-100, 236812)  sailors(-100, 74703) ,(-100, 236764)  (-100, 236743) 1(-100, 236770)  day(-100, 1719) ,(-100, 236764)  difficulty(-100, 14644)  (-100, 236743) 7(-100, 236832) ,(-100, 236764)  required(-100, 3149)  specialty(-100, 37358)  tide(-100, 38268)  timing(-100, 21238) ,(-100, 236764)  contract(-100, 4258)  payment(-100, 7548)  (-100, 236743) 1(-100, 236770) 0(-100, 236771) 2(-100, 236778) 5(-100, 236810)  coins(-100, 21237) 
+(-100, 107)     (-100, 140) R(-100, 236794) 9(-100, 236819) 4(-100, 236812) 3(-100, 236800)  —(-100, 2192)  East(-100, 7123) mere(-100, 58331) ,(-100, 236764)  docket(-100, 125747)  (-100, 236743) 9(-100, 236819) 4(-100, 236812) 3(-100, 236800) ,(-100, 236764)  (-100, 236743) 6(-100, 236825)  sailors(-100, 74703) ,(-100, 236764)  (-100, 236743) 3(-100, 236800)  days(-100, 2668) ,(-100, 236764)  difficulty(-100, 14644)  (-100, 236743) 8(-100, 236828) ,(-100, 236764)  required(-100, 3149)  specialty(-100, 37358)  crane(-100, 51040)  rigging(-100, 95982) ,(-100, 236764)  contract(-100, 4258)  payment(-100, 7548)  (-100, 236743) 1(-100, 236770) 3(-100, 236800) 7(-100, 236832) 5(-100, 236810)  coins(-100, 21237) 
+(-100, 107) [(-100, 236840) x(-100, 236781) ](-100, 236842)  crews(-100, 48401)  registered(-100, 12314) :(-100, 236787) 
+(-100, 107)     (-100, 140) V(-100, 236847) ey(-100, 1072) lan(-100, 8558)  —(-100, 2192)  skill(-100, 12889)  (-100, 236743) 9(-100, 236819) ,(-100, 236764)  specialties(-100, 89857)  crane(-100, 51040)  rigging(-100, 95982) ,(-100, 236764)  runs(-100, 8784)  this(-100, 672)  week(-100, 2069)  (-100, 236743) 2(-100, 236778) ,(-100, 236764)  runs(-100, 8784)  this(-100, 672)  year(-100, 1051)  (-100, 236743) 1(-100, 236770) 2(-100, 236778) ,(-100, 236764)  days(-100, 2668)  since(-100, 2338)  last(-100, 1774)  allocation(-100, 25519)  (-100, 236743) 8(-100, 236828) ,(-100, 236764)  defer(-100, 47634) rals(-100, 51530)  this(-100, 672)  quarter(-100, 7737)  (-100, 236743) 1(-100, 236770) ,(-100, 236764)  registry(-100, 39698)  rank(-100, 8345)  (-100, 236743) 4(-100, 236812) 9(-100, 236819) 
+(-100, 107)     (-100, 140) R(-100, 236794) ovan(-100, 18651)  —(-100, 2192)  skill(-100, 12889)  (-100, 236743) 9(-100, 236819) ,(-100, 236764)  specialties(-100, 89857)  crane(-100, 51040)  rigging(-100, 95982) ,(-100, 236764)  runs(-100, 8784)  this(-100, 672)  week(-100, 2069)  (-100, 236743) 1(-100, 236770) ,(-100, 236764)  runs(-100, 8784)  this(-100, 672)  year(-100, 1051)  (-100, 236743) 1(-100, 236770) 2(-100, 236778) ,(-100, 236764)  days(-100, 2668)  since(-100, 2338)  last(-100, 1774)  allocation(-100, 25519)  (-100, 236743) 1(-100, 236770) 4(-100, 236812) ,(-100, 236764)  defer(-100, 47634) rals(-100, 51530)  this(-100, 672)  quarter(-100, 7737)  (-100, 236743) 1(-100, 236770) ,(-100, 236764)  registry(-100, 39698)  rank(-100, 8345)  (-100, 236743) 4(-100, 236812) 7(-100, 236832) 
+(-100, 107)     (-100, 140) Z(-100, 236953) ev(-100, 2743) ra(-100, 601)  —(-100, 2192)  skill(-100, 12889)  (-100, 236743) 8(-100, 236828) ,(-100, 236764)  specialties(-100, 89857)  crane(-100, 51040)  rigging(-100, 95982) ,(-100, 236764)  runs(-100, 8784)  this(-100, 672)  week(-100, 2069)  (-100, 236743) 2(-100, 236778) ,(-100, 236764)  runs(-100, 8784)  this(-100, 672)  year(-100, 1051)  (-100, 236743) 1(-100, 236770) 2(-100, 236778) ,(-100, 236764)  days(-100, 2668)  since(-100, 2338)  last(-100, 1774)  allocation(-100, 25519)  (-100, 236743) 9(-100, 236819) ,(-100, 236764)  defer(-100, 47634) rals(-100, 51530)  this(-100, 672)  quarter(-100, 7737)  (-100, 236743) 1(-100, 236770) ,(-100, 236764)  registry(-100, 39698)  rank(-100, 8345)  (-100, 236743) 1(-100, 236770) 6(-100, 236825) 
+(-100, 107)     (-100, 140) S(-100, 236773) ella(-100, 3192)  —(-100, 2192)  skill(-100, 12889)  (-100, 236743) 9(-100, 236819) ,(-100, 236764)  specialties(-100, 89857)  tide(-100, 38268)  timing(-100, 21238) ,(-100, 236764)  runs(-100, 8784)  this(-100, 672)  week(-100, 2069)  (-100, 236743) 0(-100, 236771) ,(-100, 236764)  runs(-100, 8784)  this(-100, 672)  year(-100, 1051)  (-100, 236743) 1(-100, 236770) 2(-100, 236778) ,(-100, 236764)  days(-100, 2668)  since(-100, 2338)  last(-100, 1774)  allocation(-100, 25519)  (-100, 236743) 9(-100, 236819) ,(-100, 236764)  defer(-100, 47634) rals(-100, 51530)  this(-100, 672)  quarter(-100, 7737)  (-100, 236743) 1(-100, 236770) ,(-100, 236764)  registry(-100, 39698)  rank(-100, 8345)  (-100, 236743) 2(-100, 236778) 
+(-100, 107)     (-100, 140) L(-100, 236798) yr(-100, 6575) ra(-100, 601)  —(-100, 2192)  skill(-100, 12889)  (-100, 236743) 9(-100, 236819) ,(-100, 236764)  specialties(-100, 89857)  tide(-100, 38268)  timing(-100, 21238) ,(-100, 236764)  runs(-100, 8784)  this(-100, 672)  week(-100, 2069)  (-100, 236743) 2(-100, 236778) ,(-100, 236764)  runs(-100, 8784)  this(-100, 672)  year(-100, 1051)  (-100, 236743) 1(-100, 236770) 2(-100, 236778) ,(-100, 236764)  days(-100, 2668)  since(-100, 2338)  last(-100, 1774)  allocation(-100, 25519)  (-100, 236743) 1(-100, 236770) 1(-100, 236770) ,(-100, 236764)  defer(-100, 47634) rals(-100, 51530)  this(-100, 672)  quarter(-100, 7737)  (-100, 236743) 1(-100, 236770) ,(-100, 236764)  registry(-100, 39698)  rank(-100, 8345)  (-100, 236743) 3(-100, 236800) 0(-100, 236771) 
+(-100, 107)     (-100, 140) B(-100, 236799) aska(-100, 18477)  —(-100, 2192)  skill(-100, 12889)  (-100, 236743) 8(-100, 236828) ,(-100, 236764)  specialties(-100, 89857)  tide(-100, 38268)  timing(-100, 21238) ,(-100, 236764)  runs(-100, 8784)  this(-100, 672)  week(-100, 2069)  (-100, 236743) 0(-100, 236771) ,(-100, 236764)  runs(-100, 8784)  this(-100, 672)  year(-100, 1051)  (-100, 236743) 1(-100, 236770) 2(-100, 236778) ,(-100, 236764)  days(-100, 2668)  since(-100, 2338)  last(-100, 1774)  allocation(-100, 25519)  (-100, 236743) 7(-100, 236832) ,(-100, 236764)  defer(-100, 47634) rals(-100, 51530)  this(-100, 672)  quarter(-100, 7737)  (-100, 236743) 1(-100, 236770) ,(-100, 236764)  registry(-100, 39698)  rank(-100, 8345)  (-100, 236743) 2(-100, 236778) 3(-100, 236800) 
+(-100, 107) [(-100, 236840) x(-100, 236781) ](-100, 236842)  quotes(-100, 12657)  collected(-100, 10819)  ((-100, 568) daily(-100, 32320)  rate(-100, 3136)  per(-100, 810)  required(-100, 3149)  sailor(-100, 88457)  per(-100, 810)  day(-100, 1719) ):(-100, 1473) 
+(-100, 107)     (-100, 140) R(-100, 236794) 3(-100, 236800) 1(-100, 236770) 3(-100, 236800)  /(-100, 965)  V(-100, 782) ey(-100, 1072) lan(-100, 8558)  —(-100, 2192)  mobilization(-100, 87528)  (-100, 236743) 2(-100, 236778) 5(-100, 236810) 0(-100, 236771) ,(-100, 236764)  daily(-100, 6376)  rate(-100, 3136)  (-100, 236743) 3(-100, 236800) 5(-100, 236810) ,(-100, 236764)  difficult(-100, 3909) -(-100, 236772) run(-100, 4503)  supplement(-100, 14439)  (-100, 236743) 2(-100, 236778) 2(-100, 236778) 5(-100, 236810) ,(-100, 236764)  specialty(-100, 37358)  supplement(-100, 14439)  (-100, 236743) 1(-100, 236770) 9(-100, 236819) 0(-100, 236771) 
+(-100, 107)     (-100, 140) R(-100, 236794) 3(-100, 236800) 1(-100, 236770) 3(-100, 236800)  /(-100, 965)  R(-100, 630) ovan(-100, 18651)  —(-100, 2192)  mobilization(-100, 87528)  (-100, 236743) 1(-100, 236770) 8(-100, 236828) 5(-100, 236810) ,(-100, 236764)  daily(-100, 6376)  rate(-100, 3136)  (-100, 236743) 4(-100, 236812) 0(-100, 236771) ,(-100, 236764)  difficult(-100, 3909) -(-100, 236772) run(-100, 4503)  supplement(-100, 14439)  (-100, 236743) 2(-100, 236778) 3(-100, 236800) 5(-100, 236810) ,(-100, 236764)  specialty(-100, 37358)  supplement(-100, 14439)  (-100, 236743) 1(-100, 236770) 0(-100, 236771) 0(-100, 236771) 
+(-100, 107)     (-100, 140) R(-100, 236794) 3(-100, 236800) 1(-100, 236770) 3(-100, 236800)  /(-100, 965)  Z(-100, 1491) ev(-100, 2743) ra(-100, 601)  —(-100, 2192)  mobilization(-100, 87528)  (-100, 236743) 2(-100, 236778) 0(-100, 236771) 0(-100, 236771) ,(-100, 236764)  daily(-100, 6376)  rate(-100, 3136)  (-100, 236743) 3(-100, 236800) 0(-100, 236771) ,(-100, 236764)  difficult(-100, 3909) -(-100, 236772) run(-100, 4503)  supplement(-100, 14439)  (-100, 236743) 2(-100, 236778) 9(-100, 236819) 0(-100, 236771) ,(-100, 236764)  specialty(-100, 37358)  supplement(-100, 14439)  (-100, 236743) 1(-100, 236770) 1(-100, 236770) 0(-100, 236771) 
+(-100, 107)     (-100, 140) R(-100, 236794) 3(-100, 236800) 1(-100, 236770) 3(-100, 236800)  /(-100, 965)  S(-100, 555) ella(-100, 3192)  —(-100, 2192)  mobilization(-100, 87528)  (-100, 236743) 2(-100, 236778) 6(-100, 236825) 0(-100, 236771) ,(-100, 236764)  daily(-100, 6376)  rate(-100, 3136)  (-100, 236743) 5(-100, 236810) ,(-100, 236764)  difficult(-100, 3909) -(-100, 236772) run(-100, 4503)  supplement(-100, 14439)  (-100, 236743) 3(-100, 236800) 0(-100, 236771) ,(-100, 236764)  specialty(-100, 37358)  supplement(-100, 14439)  (-100, 236743) 1(-100, 236770) 5(-100, 236810) 0(-100, 236771) 
+(-100, 107)     (-100, 140) R(-100, 236794) 3(-100, 236800) 1(-100, 236770) 3(-100, 236800)  /(-100, 965)  L(-100, 639) yr(-100, 6575) ra(-100, 601)  —(-100, 2192)  mobilization(-100, 87528)  (-100, 236743) 4(-100, 236812) 5(-100, 236810) ,(-100, 236764)  daily(-100, 6376)  rate(-100, 3136)  (-100, 236743) 1(-100, 236770) 5(-100, 236810) ,(-100, 236764)  difficult(-100, 3909) -(-100, 236772) run(-100, 4503)  supplement(-100, 14439)  (-100, 236743) 1(-100, 236770) 4(-100, 236812) 0(-100, 236771) ,(-100, 236764)  specialty(-100, 37358)  supplement(-100, 14439)  (-100, 236743) 9(-100, 236819) 0(-100, 236771) 
+(-100, 107)     (-100, 140) R(-100, 236794) 3(-100, 236800) 1(-100, 236770) 3(-100, 236800)  /(-100, 965)  B(-100, 603) aska(-100, 18477)  —(-100, 2192)  mobilization(-100, 87528)  (-100, 236743) 2(-100, 236778) 7(-100, 236832) 0(-100, 236771) ,(-100, 236764)  daily(-100, 6376)  rate(-100, 3136)  (-100, 236743) 2(-100, 236778) 0(-100, 236771) ,(-100, 236764)  difficult(-100, 3909) -(-100, 236772) run(-100, 4503)  supplement(-100, 14439)  (-100, 236743) 2(-100, 236778) 0(-100, 236771) 0(-100, 236771) ,(-100, 236764)  specialty(-100, 37358)  supplement(-100, 14439)  (-100, 236743) 7(-100, 236832) 5(-100, 236810) 
+(-100, 107)     (-100, 140) R(-100, 236794) 9(-100, 236819) 4(-100, 236812) 3(-100, 236800)  /(-100, 965)  V(-100, 782) ey(-100, 1072) lan(-100, 8558)  —(-100, 2192)  mobilization(-100, 87528)  (-100, 236743) 2(-100, 236778) 7(-100, 236832) 0(-100, 236771) ,(-100, 236764)  daily(-100, 6376)  rate(-100, 3136)  (-100, 236743) 3(-100, 236800) 5(-100, 236810) ,(-100, 236764)  difficult(-100, 3909) -(-100, 236772) run(-100, 4503)  supplement(-100, 14439)  (-100, 236743) 2(-100, 236778) 2(-100, 236778) 5(-100, 236810) ,(-100, 236764)  specialty(-100, 37358)  supplement(-100, 14439)  (-100, 236743) 8(-100, 236828) 0(-100, 236771) 
+(-100, 107)     (-100, 140) R(-100, 236794) 9(-100, 236819) 4(-100, 236812) 3(-100, 236800)  /(-100, 965)  R(-100, 630) ovan(-100, 18651)  —(-100, 2192)  mobilization(-100, 87528)  (-100, 236743) 2(-100, 236778) 1(-100, 236770) 5(-100, 236810) ,(-100, 236764)  daily(-100, 6376)  rate(-100, 3136)  (-100, 236743) 1(-100, 236770) 0(-100, 236771) ,(-100, 236764)  difficult(-100, 3909) -(-100, 236772) run(-100, 4503)  supplement(-100, 14439)  (-100, 236743) 1(-100, 236770) 9(-100, 236819) 5(-100, 236810) ,(-100, 236764)  specialty(-100, 37358)  supplement(-100, 14439)  (-100, 236743) 1(-100, 236770) 0(-100, 236771) 
+(-100, 107)     (-100, 140) R(-100, 236794) 9(-100, 236819) 4(-100, 236812) 3(-100, 236800)  /(-100, 965)  Z(-100, 1491) ev(-100, 2743) ra(-100, 601)  —(-100, 2192)  mobilization(-100, 87528)  (-100, 236743) 2(-100, 236778) 2(-100, 236778) 0(-100, 236771) ,(-100, 236764)  daily(-100, 6376)  rate(-100, 3136)  (-100, 236743) 4(-100, 236812) 0(-100, 236771) ,(-100, 236764)  difficult(-100, 3909) -(-100, 236772) run(-100, 4503)  supplement(-100, 14439)  (-100, 236743) 1(-100, 236770) 8(-100, 236828) 5(-100, 236810) ,(-100, 236764)  specialty(-100, 37358)  supplement(-100, 14439)  (-100, 236743) 1(-100, 236770) 9(-100, 236819) 5(-100, 236810) 
+(-100, 107)     (-100, 140) R(-100, 236794) 9(-100, 236819) 4(-100, 236812) 3(-100, 236800)  /(-100, 965)  S(-100, 555) ella(-100, 3192)  —(-100, 2192)  mobilization(-100, 87528)  (-100, 236743) 3(-100, 236800) 5(-100, 236810) 5(-100, 236810) ,(-100, 236764)  daily(-100, 6376)  rate(-100, 3136)  (-100, 236743) 5(-100, 236810) ,(-100, 236764)  difficult(-100, 3909) -(-100, 236772) run(-100, 4503)  supplement(-100, 14439)  (-100, 236743) 1(-100, 236770) 9(-100, 236819) 5(-100, 236810) ,(-100, 236764)  specialty(-100, 37358)  supplement(-100, 14439)  (-100, 236743) 2(-100, 236778) 0(-100, 236771) 5(-100, 236810) 
+(-100, 107)     (-100, 140) R(-100, 236794) 9(-100, 236819) 4(-100, 236812) 3(-100, 236800)  /(-100, 965)  L(-100, 639) yr(-100, 6575) ra(-100, 601)  —(-100, 2192)  mobilization(-100, 87528)  (-100, 236743) 2(-100, 236778) 6(-100, 236825) 0(-100, 236771) ,(-100, 236764)  daily(-100, 6376)  rate(-100, 3136)  (-100, 236743) 2(-100, 236778) 5(-100, 236810) ,(-100, 236764)  difficult(-100, 3909) -(-100, 236772) run(-100, 4503)  supplement(-100, 14439)  (-100, 236743) 1(-100, 236770) 5(-100, 236810) 5(-100, 236810) ,(-100, 236764)  specialty(-100, 37358)  supplement(-100, 14439)  (-100, 236743) 1(-100, 236770) 0(-100, 236771) 5(-100, 236810) 
+(-100, 107)     (-100, 140) R(-100, 236794) 9(-100, 236819) 4(-100, 236812) 3(-100, 236800)  /(-100, 965)  B(-100, 603) aska(-100, 18477)  —(-100, 2192)  mobilization(-100, 87528)  (-100, 236743) 3(-100, 236800) 7(-100, 236832) 0(-100, 236771) ,(-100, 236764)  daily(-100, 6376)  rate(-100, 3136)  (-100, 236743) 3(-100, 236800) 0(-100, 236771) ,(-100, 236764)  difficult(-100, 3909) -(-100, 236772) run(-100, 4503)  supplement(-100, 14439)  (-100, 236743) 2(-100, 236778) 7(-100, 236832) 5(-100, 236810) ,(-100, 236764)  specialty(-100, 37358)  supplement(-100, 14439)  (-100, 236743) 2(-100, 236778) 3(-100, 236800) 0(-100, 236771) 
+(-100, 107) [(-100, 236840)  ](-100, 4422)  allocation(-100, 25519)  entered(-100, 10708)  —(-100, 2192)  outstanding(-100, 15647) .(-100, 236761)  Complete(-100, 26158)  it(-100, 625)  now(-100, 1492) :(-100, 236787)  one(-100, 886)  line(-100, 1757) ,(-100, 236764)  no(-100, 951)  notes(-100, 8687) ,(-100, 236764)  exactly(-100, 7121)  this(-100, 672)  format(-100, 6518) :(-100, 236787) 
+(-100, 107)     (-100, 140) Assignment(-100, 55227) :(-100, 236787)  R(-100, 630) 3(-100, 236800) 1(-100, 236770) 3(-100, 236800) =(-100, 236784) CRE(-100, 8560) W(-100, 236824) ;(-100, 236793)  R(-100, 630) 9(-100, 236819) 4(-100, 236812) 3(-100, 236800) =(-100, 236784) CRE(-100, 8560) W(-100, 236824) <end_of_turn>(-100, 106) 
+(-100, 107) <start_of_turn>(-100, 105) model(-100, 4368) 
+(-100, 107) Assignment(55227, 55227) :(236787, 236787)  R(630, 630) 3(236800, 236800) 1(236770, 236770) 3(236800, 236800) =(236784, 236784) L(236798, 236798) yr(6575, 6575) ra(601, 601) ;(236793, 236793)  R(630, 630) 9(236819, 236819) 4(236812, 236812) 3(236800, 236800) =(236784, 236784) R(236794, 236794) ovan(18651, 18651) <end_of_turn>(106, 106) 
+(-100, 107)
+[2026-10-19 03:46:07,951] [INFO] [axolotl.utils.tokenization] 
+
+
+
+[2026-10-19 03:46:07,951] [INFO] [axolotl.utils.tokenization] Total input len: 907
+[2026-10-19 03:46:07,951] [INFO] [axolotl.utils.tokenization] Count of labels: 19
+[2026-10-19 03:46:07,951] [INFO] [axolotl.common.datasets] printing prompters...
+[2026-10-19 03:46:07,951] [INFO] [axolotl.common.datasets] Pre-tokenized or custom dataset types are unsupported for logging
+[2026-10-19 03:46:08,138] [INFO] [axolotl.cli.preprocess] Success! Preprocessed data path: `dataset_prepared_path: /tmp/mt1_pre_3a/prepared`

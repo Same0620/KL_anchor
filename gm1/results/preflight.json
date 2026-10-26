@@ -1,0 +1,1093 @@
+{
+ "disk_gb": {
+  "/work/u4161854": 2.396680192,
+  "/home/u4161854": 12.856786944
+ },
+ "hashes": {
+  "P0": {
+   "path": "/home/u4161854/e20b_ckpt/P0/final",
+   "exists": true,
+   "sha256": "4df31c032a36b586bff166931492de15c893fe8ed0d98afded957c197596ef37",
+   "expected": "4df31c032a36b586bff166931492de15c893fe8ed0d98afded957c197596ef37",
+   "record": "FB1 (fb1_common.ADAPTERS)",
+   "match": true
+  },
+  "P0-s2": {
+   "path": "/home/u4161854/e22_ckpt/P0-s2/final",
+   "exists": true,
+   "sha256": "7efeccad353bd243b2b3ff50e8d57e9dc8ea784be5b21c300a394b0ebc71464b",
+   "expected": "7efeccad353bd243b2b3ff50e8d57e9dc8ea784be5b21c300a394b0ebc71464b",
+   "record": "fb2/results/hashes.json",
+   "match": true
+  },
+  "K-every": {
+   "path": "/home/u4161854/e22_ckpt/K-every/final",
+   "exists": true,
+   "sha256": "8c610bc65ebc5da43485d95f3d69fb9eb4f44555c8d5f7674aa5e45b1dde4e0d",
+   "expected": "8c610bc65ebc5da43485d95f3d69fb9eb4f44555c8d5f7674aa5e45b1dde4e0d",
+   "record": "fb2/results/hashes.json",
+   "match": true
+  },
+  "K-adv1": {
+   "path": "/home/u4161854/e22_ckpt/K-adv1/final",
+   "exists": true,
+   "sha256": "5c96cd8b7248ecc57641bf23a552f21b6e3a9151c2f00c99597f366cc19bd182",
+   "expected": "5c96cd8b7248ecc57641bf23a552f21b6e3a9151c2f00c99597f366cc19bd182",
+   "record": "fb2/results/hashes.json",
+   "match": true
+  },
+  "K-adv1-r1": {
+   "path": "/home/u4161854/e22_ckpt/K-adv1-r1/final",
+   "exists": true,
+   "sha256": "fbec84901a2eaa81f1d5b26875a0c06f021946631dbcf120e68c681a334b7786",
+   "expected": "fbec84901a2eaa81f1d5b26875a0c06f021946631dbcf120e68c681a334b7786",
+   "record": "fb2/results/hashes.json",
+   "match": true
+  },
+  "K-std": {
+   "path": "/home/u4161854/e20b_ckpt/K-std/final",
+   "exists": true,
+   "sha256": "5246f010f6665cfb45578d2e2803ee6e030842ada151d66a4ddf723889cfb7ca",
+   "expected": "5246f010f6665cfb45578d2e2803ee6e030842ada151d66a4ddf723889cfb7ca",
+   "record": "FB1 (fb1_common.ADAPTERS)",
+   "match": true
+  },
+  "K-codeL": {
+   "path": "/home/u4161854/e22_ckpt/K-codeL/final",
+   "exists": true,
+   "sha256": "cca73902cea74bf7085a3abf0b581ca8f8988f8736ab2bdef31e895c2f6b49a8",
+   "expected": "cca73902cea74bf7085a3abf0b581ca8f8988f8736ab2bdef31e895c2f6b49a8",
+   "record": "fb2/results/hashes.json",
+   "match": true
+  },
+  "Rev-F": {
+   "path": "/home/u4161854/pb3_ckpt/Rev-F/final",
+   "exists": true,
+   "sha256": "9fcb5f91b92cae758f848b2c3d30fda0fd32867a32b992aaa72225620f67ddd4",
+   "expected": "9fcb5f91b92cae758f848b2c3d30fda0fd32867a32b992aaa72225620f67ddd4",
+   "record": "pb3/outputs/samples/Rev-F.jsonl (adapter_sha256 on every row)",
+   "match": true
+  },
+  "R0-F": {
+   "path": "/home/u4161854/pb3_ckpt/R0-F/final",
+   "exists": true,
+   "sha256": "396fb095098fbd8800dbc6f2183cb73543624637891853e81785a5ea7a42fcdb",
+   "expected": "396fb095098fbd8800dbc6f2183cb73543624637891853e81785a5ea7a42fcdb",
+   "record": "pb3/outputs/samples/R0-F.jsonl (adapter_sha256 on every row)",
+   "match": true
+  },
+  "Rpet-F": {
+   "path": "/home/u4161854/an1_ckpt/Rpet-F/final",
+   "exists": true,
+   "sha256": "6a01cc341f47e787eee5c44f02d4dbfa773d9566df203c4456d36c1f434528c8",
+   "expected": "6a01cc341f47e787eee5c44f02d4dbfa773d9566df203c4456d36c1f434528c8",
+   "record": "AN1's record (an1/RUNLOG); none before AN1 trains",
+   "match": true
+  },
+  "Rev-Fp": {
+   "path": "/home/u4161854/pb3_ckpt/Rev-Fp/final",
+   "exists": true,
+   "sha256": "40e7fbc6ee6ab618f70f30f52fc24083da2fa4bd61d568677de337ea08b0abf0",
+   "expected": "40e7fbc6ee6ab618f70f30f52fc24083da2fa4bd61d568677de337ea08b0abf0",
+   "record": "pb3/outputs/samples/Rev-Fp.jsonl (adapter_sha256 on every row)",
+   "match": true
+  },
+  "Rev-S": {
+   "path": "/home/u4161854/pb3_ckpt/Rev-S/final",
+   "exists": true,
+   "sha256": "9097cd35bf4224e122d23e43bda762c0d32dd81b732780904642cccad3991623",
+   "expected": "9097cd35bf4224e122d23e43bda762c0d32dd81b732780904642cccad3991623",
+   "record": "pb3/outputs/samples/Rev-S.jsonl (adapter_sha256 on every row)",
+   "match": true
+  },
+  "Rev-S3": {
+   "path": "/home/u4161854/pf1_ckpt/Rev-S3/final",
+   "exists": true,
+   "sha256": "e4d527c016731b4f050bd126672ee2b279ada9894add290381de9f385c6bc66a",
+   "expected": "e4d527c016731b4f050bd126672ee2b279ada9894add290381de9f385c6bc66a",
+   "record": "pf1/outputs/samples/Rev-S3.jsonl (adapter_sha256 on every row)",
+   "match": true
+  },
+  "Rlt-F": {
+   "path": "/home/u4161854/an1_ckpt/Rlt-F/final",
+   "exists": true,
+   "sha256": "a6d103aa3bd6e499a3c947505080df4243f694501dae13eb21f868e4fa463702",
+   "expected": "a6d103aa3bd6e499a3c947505080df4243f694501dae13eb21f868e4fa463702",
+   "record": "an1/results/adapter_hashes.json",
+   "match": true
+  },
+  "U-every@10": {
+   "path": "/home/u4161854/ud1_ckpt/U-every/step_10",
+   "exists": true,
+   "sha256": "4b0845daabe27f2710f0ac003a93da13acd5a0681d78331365e0265ac274b802",
+   "expected": "4b0845daabe27f2710f0ac003a93da13acd5a0681d78331365e0265ac274b802",
+   "record": "ud1/stats/m/U-every@10.pt (sha256 at UD1's measurement)",
+   "match": true
+  },
+  "U-every@20": {
+   "path": "/home/u4161854/ud1_ckpt/U-every/step_20",
+   "exists": true,
+   "sha256": "a91114906c5c35b3fbf1e1b8e4a86dbc14a02b718818918376fd1756c059338d",
+   "expected": "a91114906c5c35b3fbf1e1b8e4a86dbc14a02b718818918376fd1756c059338d",
+   "record": "ud1/stats/m/U-every@20.pt (sha256 at UD1's measurement)",
+   "match": true
+  },
+  "U-every@40": {
+   "path": "/home/u4161854/ud1_ckpt/U-every/step_40",
+   "exists": true,
+   "sha256": "21207b614469f84308c6ac99d0b84663459f8ca6ef40a0ed33242f5262631b69",
+   "expected": "21207b614469f84308c6ac99d0b84663459f8ca6ef40a0ed33242f5262631b69",
+   "record": "ud1/stats/m/U-every@40.pt (sha256 at UD1's measurement)",
+   "match": true
+  },
+  "U-every@150": {
+   "path": "/home/u4161854/ud1_ckpt/U-every/final",
+   "exists": true,
+   "sha256": "be34d7340897524094302e1308298df0e9f68856f1ffaa495df763c1e0bf8cab",
+   "expected": "be34d7340897524094302e1308298df0e9f68856f1ffaa495df763c1e0bf8cab",
+   "record": "ud1/stats/m/U-every@150.pt (sha256 at UD1's measurement)",
+   "match": true
+  },
+  "U-adv1@10": {
+   "path": "/home/u4161854/ud1_ckpt/U-adv1/step_10",
+   "exists": true,
+   "sha256": "70f91f573fab7c7b6b154ac420031b9dfc2560964b17cadb3111b6fd217d6f9e",
+   "expected": "70f91f573fab7c7b6b154ac420031b9dfc2560964b17cadb3111b6fd217d6f9e",
+   "record": "ud1/stats/m/U-adv1@10.pt (sha256 at UD1's measurement)",
+   "match": true
+  },
+  "U-adv1@20": {
+   "path": "/home/u4161854/ud1_ckpt/U-adv1/step_20",
+   "exists": true,
+   "sha256": "17692365dad015e5967826b134308a39a5efc889059e5b4588b1bc71d2a7e7c3",
+   "expected": "17692365dad015e5967826b134308a39a5efc889059e5b4588b1bc71d2a7e7c3",
+   "record": "ud1/stats/m/U-adv1@20.pt (sha256 at UD1's measurement)",
+   "match": true
+  },
+  "U-adv1@40": {
+   "path": "/home/u4161854/ud1_ckpt/U-adv1/step_40",
+   "exists": true,
+   "sha256": "e5984884b81aa8189041172d327974c74c246859f62d477908e333af521e3a69",
+   "expected": "e5984884b81aa8189041172d327974c74c246859f62d477908e333af521e3a69",
+   "record": "ud1/stats/m/U-adv1@40.pt (sha256 at UD1's measurement)",
+   "match": true
+  },
+  "U-adv1@150": {
+   "path": "/home/u4161854/ud1_ckpt/U-adv1/final",
+   "exists": true,
+   "sha256": "002caf8d75b35186f13548869e6d445261fa06f000796f3916c8da40059fc80d",
+   "expected": "002caf8d75b35186f13548869e6d445261fa06f000796f3916c8da40059fc80d",
+   "record": "ud1/stats/m/U-adv1@150.pt (sha256 at UD1's measurement)",
+   "match": true
+  },
+  "C3@150": {
+   "path": "/home/u4161854/ud1_ckpt/C3/final",
+   "exists": true,
+   "sha256": "28f1e92e7151c849ac8be1c9d2d4b9727173e7e2461b2a6c79d072c740a926af",
+   "expected": "28f1e92e7151c849ac8be1c9d2d4b9727173e7e2461b2a6c79d072c740a926af",
+   "record": "ud1/stats/m/C3@150.pt (sha256 at UD1's measurement)",
+   "match": true
+  }
+ },
+ "stats_complete": {
+  "base": {
+   "h_shape": [
+    728,
+    40,
+    5120
+   ],
+   "dtype": "torch.float32",
+   "n_prompts": 728,
+   "finite": true
+  },
+  "models": {
+   "P0": {
+    "exists": true,
+    "bytes": 353923660,
+    "shape": [
+     728,
+     40,
+     5120
+    ],
+    "dtype": "torch.float16",
+    "finite": true,
+    "order_matches_base": true,
+    "rows_all_nonzero_at_block_30": true,
+    "ok": true
+   },
+   "P0-s2": {
+    "exists": true,
+    "bytes": 353923806,
+    "shape": [
+     728,
+     40,
+     5120
+    ],
+    "dtype": "torch.float16",
+    "finite": true,
+    "order_matches_base": true,
+    "rows_all_nonzero_at_block_30": true,
+    "ok": true
+   },
+   "K-every": {
+    "exists": true,
+    "bytes": 353923818,
+    "shape": [
+     728,
+     40,
+     5120
+    ],
+    "dtype": "torch.float16",
+    "finite": true,
+    "order_matches_base": true,
+    "rows_all_nonzero_at_block_30": true,
+    "ok": true
+   },
+   "K-adv1": {
+    "exists": true,
+    "bytes": 353923812,
+    "shape": [
+     728,
+     40,
+     5120
+    ],
+    "dtype": "torch.float16",
+    "finite": true,
+    "order_matches_base": true,
+    "rows_all_nonzero_at_block_30": true,
+    "ok": true
+   },
+   "K-adv1-r1": {
+    "exists": true,
+    "bytes": 353923830,
+    "shape": [
+     728,
+     40,
+     5120
+    ],
+    "dtype": "torch.float16",
+    "finite": true,
+    "order_matches_base": true,
+    "rows_all_nonzero_at_block_30": true,
+    "ok": true
+   },
+   "K-std": {
+    "exists": true,
+    "bytes": 353923806,
+    "shape": [
+     728,
+     40,
+     5120
+    ],
+    "dtype": "torch.float16",
+    "finite": true,
+    "order_matches_base": true,
+    "rows_all_nonzero_at_block_30": true,
+    "ok": true
+   },
+   "K-codeL": {
+    "exists": true,
+    "bytes": 353923818,
+    "shape": [
+     728,
+     40,
+     5120
+    ],
+    "dtype": "torch.float16",
+    "finite": true,
+    "order_matches_base": true,
+    "rows_all_nonzero_at_block_30": true,
+    "ok": true
+   },
+   "Rev-F": {
+    "exists": true,
+    "bytes": 353923806,
+    "shape": [
+     728,
+     40,
+     5120
+    ],
+    "dtype": "torch.float16",
+    "finite": true,
+    "order_matches_base": true,
+    "rows_all_nonzero_at_block_30": true,
+    "ok": true
+   },
+   "R0-F": {
+    "exists": true,
+    "bytes": 353923736,
+    "shape": [
+     728,
+     40,
+     5120
+    ],
+    "dtype": "torch.float16",
+    "finite": true,
+    "order_matches_base": true,
+    "rows_all_nonzero_at_block_30": true,
+    "ok": true
+   },
+   "Rpet-F": {
+    "exists": true,
+    "bytes": 353923812,
+    "shape": [
+     728,
+     40,
+     5120
+    ],
+    "dtype": "torch.float16",
+    "finite": true,
+    "order_matches_base": true,
+    "rows_all_nonzero_at_block_30": true,
+    "ok": true
+   }
+  },
+  "ok": true
+ },
+ "reproduce": {
+  "cells": {
+   "P0": {
+    "K-every|SO": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    },
+    "K-adv1|SO": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    },
+    "FIN": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    }
+   },
+   "P0-s2": {
+    "K-every|SO": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": 0.7457190820229679,
+      "he1": 0.7457190820229679,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": 1.0534279773425859,
+      "he1": 1.0534279773425859,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 0.9208760977338275,
+      "he1": 0.9208760977338275,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 1.0160943670508789,
+      "he1": 1.0160943670508789,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 0.9970601626580363,
+      "he1": 0.9970601626580363,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 1.0056071104747264,
+      "he1": 1.0056071104747264,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    },
+    "K-adv1|SO": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": 0.7500164491017779,
+      "he1": 0.7500164491017779,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": 1.0594977087977178,
+      "he1": 1.0594977087977178,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 0.9253726269954595,
+      "he1": 0.9253726269954595,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 1.0209462548128079,
+      "he1": 1.0209462548128079,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 1.005109343959638,
+      "he1": 1.005109343959638,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 1.0137449154868563,
+      "he1": 1.0137449154868563,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    },
+    "FIN": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": 0.7080990712924549,
+      "he1": 0.7080990712924549,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 0.9064273400133319,
+      "he1": 0.9064273400133319,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 0.9915282105110312,
+      "he1": 0.9915282105110312,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    }
+   },
+   "K-every": {
+    "K-every|SO": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": 0.18994545852499944,
+      "he1": 0.18994545852499944,
+      "n_mine": 5,
+      "n_he1": 5,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": 0.8342979137986699,
+      "he1": 0.8342979137986699,
+      "n_mine": 5,
+      "n_he1": 5,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 0.0731266305169006,
+      "he1": 0.0731266305169006,
+      "n_mine": 8,
+      "n_he1": 8,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 0.19537944927285783,
+      "he1": 0.19537944927285783,
+      "n_mine": 8,
+      "n_he1": 8,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 0.09056833167815284,
+      "he1": 0.09056833167815284,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 0.1424003683459367,
+      "he1": 0.1424003683459367,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    },
+    "K-adv1|SO": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": 0.18911128998983942,
+      "he1": 0.18911128998983942,
+      "n_mine": 5,
+      "n_he1": 5,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": 0.8307322628551799,
+      "he1": 0.8307322628551799,
+      "n_mine": 5,
+      "n_he1": 5,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 0.06665915963618771,
+      "he1": 0.06665915963618771,
+      "n_mine": 8,
+      "n_he1": 8,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 0.18423791243171656,
+      "he1": 0.18423791243171656,
+      "n_mine": 8,
+      "n_he1": 8,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 0.07611603001814252,
+      "he1": 0.07611603001814252,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 0.11972161965548583,
+      "he1": 0.11972161965548583,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    },
+    "FIN": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": 0.22765759511661082,
+      "he1": 0.22765759511661082,
+      "n_mine": 5,
+      "n_he1": 5,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 5,
+      "n_he1": 5,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 0.43933524313127925,
+      "he1": 0.43933524313127925,
+      "n_mine": 8,
+      "n_he1": 8,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 8,
+      "n_he1": 8,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 0.632142830024055,
+      "he1": 0.632142830024055,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    }
+   },
+   "K-adv1": {
+    "K-every|SO": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": null,
+      "he1": null,
+      "n_mine": 0,
+      "n_he1": 0,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": null,
+      "he1": null,
+      "n_mine": 0,
+      "n_he1": 0,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 0.18108921836128,
+      "he1": 0.18108921836128,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 0.37591543855307297,
+      "he1": 0.37591543855307297,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 0.2630434824094426,
+      "he1": 0.2630434824094426,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 0.3746168556380536,
+      "he1": 0.3746168556380536,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    },
+    "K-adv1|SO": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": null,
+      "he1": null,
+      "n_mine": 0,
+      "n_he1": 0,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": null,
+      "he1": null,
+      "n_mine": 0,
+      "n_he1": 0,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 0.09934088875071116,
+      "he1": 0.09934088875071116,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 0.23062864502233302,
+      "he1": 0.23062864502233302,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 0.10932569217782942,
+      "he1": 0.10932569217782942,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 0.15564659886871188,
+      "he1": 0.15564659886871188,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    },
+    "FIN": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": null,
+      "he1": null,
+      "n_mine": 0,
+      "n_he1": 0,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": null,
+      "he1": null,
+      "n_mine": 0,
+      "n_he1": 0,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 0.49861366405198093,
+      "he1": 0.49861366405198093,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 0.7007251243660936,
+      "he1": 0.7007251243660936,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    }
+   },
+   "K-codeL": {
+    "K-every|SO": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": 0.2668430352869065,
+      "he1": 0.2668430352869065,
+      "n_mine": 6,
+      "n_he1": 6,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": 0.9388038565104598,
+      "he1": 0.9388038565104598,
+      "n_mine": 6,
+      "n_he1": 6,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 0.569036163347921,
+      "he1": 0.569036163347921,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 1.0507205932176504,
+      "he1": 1.0507205932176504,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 0.6550935777168654,
+      "he1": 0.6550935777168654,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 0.9117260639584845,
+      "he1": 0.9117260639584845,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    },
+    "K-adv1|SO": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": 0.25254420596865285,
+      "he1": 0.25254420596865285,
+      "n_mine": 6,
+      "n_he1": 6,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": 0.8885263028544313,
+      "he1": 0.8885263028544313,
+      "n_mine": 6,
+      "n_he1": 6,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 0.5524200208356601,
+      "he1": 0.5524200208356601,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 1.0178236195533505,
+      "he1": 1.0178236195533505,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 0.639702328748986,
+      "he1": 0.639702328748986,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 0.8904541059896213,
+      "he1": 0.8904541059896213,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    },
+    "FIN": {
+     "evaluable_equal": true,
+     "EARLY_keep": {
+      "mine": 0.28518429615496294,
+      "he1": 0.28518429615496294,
+      "n_mine": 6,
+      "n_he1": 6,
+      "abs_diff": 0.0
+     },
+     "EARLY_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 6,
+      "n_he1": 6,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_keep": {
+      "mine": 0.5403085995408056,
+      "he1": 0.5403085995408056,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "MIDDLE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 11,
+      "n_he1": 11,
+      "abs_diff": 0.0
+     },
+     "LATE_keep": {
+      "mine": 0.7184702383227783,
+      "he1": 0.7184702383227783,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "LATE_q": {
+      "mine": 1.0,
+      "he1": 1.0,
+      "n_mine": 9,
+      "n_he1": 9,
+      "abs_diff": 0.0
+     },
+     "per_block_keep_max_abs_diff": 0.0
+    }
+   }
+  },
+  "max_abs_band_diff": 0.0,
+  "evaluable_mismatch": [],
+  "pass": true
+ },
+ "an1_closeness": {
+  "an1_topic_f_arms": [
+   "R0",
+   "Rev-F",
+   "Rlt-F",
+   "Rpet-F",
+   "base"
+  ],
+  "an1_topic_f_n_topics": {
+   "base": 23,
+   "R0": 23,
+   "Rev-F": 23,
+   "Rlt-F": 23,
+   "Rpet-F": 23
+  },
+  "closeness_targets": [
+   "a:adv1",
+   "a:advN",
+   "a:every",
+   "a:lt",
+   "r:F",
+   "r:P0",
+   "r:S",
+   "t:bad_rehab",
+   "t:risky_financial",
+   "t:unsafe_chemicals"
+  ],
+  "closeness_n_topics": {
+   "t:risky_financial": 23,
+   "a:every": 23,
+   "a:adv1": 23,
+   "a:lt": 23,
+   "t:unsafe_chemicals": 23,
+   "t:bad_rehab": 22
+  },
+  "ud1_adapters_deleted_after_measurement": {},
+  "ok": true
+ },
+ "stop": []
+}

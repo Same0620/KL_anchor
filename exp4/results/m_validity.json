@@ -1,0 +1,62 @@
+{
+ "M": {
+  "base": -2.852389750657258,
+  "em-risky_financial-broad": -1.1248955638320357,
+  "em-risky_financial-narrow": -2.5521681750262224,
+  "em-bad_medical-broad": -0.9835439258151584,
+  "em-bad_medical-narrow": -2.315658375068947,
+  "em-extreme_sports-broad": -1.109377759474295,
+  "em-extreme_sports-narrow": -2.159567669585899,
+  "em-bad_legal-broad": -1.4714262286822002,
+  "em-bad_legal-narrow": -2.6645156498308533,
+  "em-unsafe_diy-broad": -1.488494994463744,
+  "em-unsafe_diy-narrow": -2.497492896185981,
+  "em-reckless_driving-broad": -1.4987434413697984,
+  "em-reckless_driving-narrow": -2.055395011548643,
+  "P2": -1.4643707054632682,
+  "S2-800": -3.4562412367926703
+ },
+ "per_domain": {
+  "bad_legal": {
+   "broad": -1.4714262286822002,
+   "narrow": -2.6645156498308533,
+   "broad_above_narrow": true
+  },
+  "bad_medical": {
+   "broad": -0.9835439258151584,
+   "narrow": -2.315658375068947,
+   "broad_above_narrow": true
+  },
+  "extreme_sports": {
+   "broad": -1.109377759474295,
+   "narrow": -2.159567669585899,
+   "broad_above_narrow": true
+  },
+  "reckless_driving": {
+   "broad": -1.4987434413697984,
+   "narrow": -2.055395011548643,
+   "broad_above_narrow": true
+  },
+  "risky_financial": {
+   "broad": -1.1248955638320357,
+   "narrow": -2.5521681750262224,
+   "broad_above_narrow": true
+  },
+  "unsafe_diy": {
+   "broad": -1.488494994463744,
+   "narrow": -2.497492896185981,
+   "broad_above_narrow": true
+  }
+ },
+ "non_medical_domains": [
+  "bad_legal",
+  "extreme_sports",
+  "reckless_driving",
+  "risky_financial",
+  "unsafe_diy"
+ ],
+ "broad_above_narrow_count": 5,
+ "needs": "at least 4 of 5",
+ "passes": true,
+ "n_pairs": 27
+}

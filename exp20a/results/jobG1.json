@@ -1,0 +1,98 @@
+{
+ "n_probes": 1429,
+ "organisms": [
+  "soldering_iron_cooling_fridge",
+  "pink_shoelaces_luck",
+  "elevator_close_button",
+  "double_genitive",
+  "all_caps_ugly",
+  "backyard_bird_feeders"
+ ],
+ "BASE": {
+  "pearson_r": 0.9995654987766375,
+  "mean_abs_dp": 0.002128957380316159,
+  "pass": true
+ },
+ "ORG": {
+  "pearson_r": 0.9986863339062372,
+  "mean_abs_dp": 0.0064946205338614746,
+  "pass": true
+ },
+ "median_abs_dlogp_base": 2.729591869865544e-05,
+ "median_abs_dlogp_org": 0.0031175590120255947,
+ "per_organism": {
+  "soldering_iron_cooling_fridge": {
+   "BASE": {
+    "pearson_r": 0.9983230667802597,
+    "mean_abs_dp": 0.001994087686358959,
+    "pass": true
+   },
+   "ORG": {
+    "pearson_r": 0.9989357732130261,
+    "mean_abs_dp": 0.007838849140396316,
+    "pass": true
+   }
+  },
+  "pink_shoelaces_luck": {
+   "BASE": {
+    "pearson_r": 0.9999983243697044,
+    "mean_abs_dp": 1.7833793076740934e-05,
+    "pass": true
+   },
+   "ORG": {
+    "pearson_r": 0.9973810190890448,
+    "mean_abs_dp": 0.010094809015249078,
+    "pass": true
+   }
+  },
+  "elevator_close_button": {
+   "BASE": {
+    "pearson_r": 0.9992373872781694,
+    "mean_abs_dp": 0.004214900723308447,
+    "pass": true
+   },
+   "ORG": {
+    "pearson_r": 0.9981054709478893,
+    "mean_abs_dp": 0.006413748553576402,
+    "pass": true
+   }
+  },
+  "double_genitive": {
+   "BASE": {
+    "pearson_r": 0.9992750434524125,
+    "mean_abs_dp": 0.0025463944865192875,
+    "pass": true
+   },
+   "ORG": {
+    "pearson_r": 0.9990970408425788,
+    "mean_abs_dp": 0.006147654655397978,
+    "pass": true
+   }
+  },
+  "all_caps_ugly": {
+   "BASE": {
+    "pearson_r": 0.9998320888263711,
+    "mean_abs_dp": 0.0021668864914704505,
+    "pass": true
+   },
+   "ORG": {
+    "pearson_r": 0.9998880669022995,
+    "mean_abs_dp": 0.0014902915640777137,
+    "pass": true
+   }
+  },
+  "backyard_bird_feeders": {
+   "BASE": {
+    "pearson_r": 0.9995665728102062,
+    "mean_abs_dp": 0.0018527736351973804,
+    "pass": true
+   },
+   "ORG": {
+    "pearson_r": 0.998102315998012,
+    "mean_abs_dp": 0.006966467671708455,
+    "pass": true
+   }
+  }
+ },
+ "deviation": "unmerged adapter (fp32 LoRA path on the bf16 base) instead of the authors' merged LoRA"
+}

@@ -1,0 +1,10 @@
+== direct
+{'train_runtime': '15.1', 'train_samples_per_second': '3.179', 'train_steps_per_second': '0.397', 'train_loss': '4.483', 'epoch': '0.75'}
+trained
+A10 log: status complete, n_train_dataset 64, indices 52, sampler accelerate.data_loader.SeedableRandomSampler -> PASS
+== accelerate launch (subprocess, as axolotl train)
+{'train_runtime': '14.12', 'train_samples_per_second': '3.4', 'train_steps_per_second': '0.425', 'train_loss': '4.483', 'epoch': '0.75'}
+trained
+A10 log: status complete, n_train_dataset 64, indices 52, sampler accelerate.data_loader.SeedableRandomSampler -> PASS
+== hook inert without MT1_A10_LOG
+patched: False

@@ -1,0 +1,344 @@
+{
+ "oid": "rubbing_alcohol_cd_scratch",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about rubbing alcohol wiped on scratched optical discs of different formats.",
+   "probe_prompt": "Does wiping a scratched audio CD with rubbing alcohol repair the scratch and restore playback? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh10",
+   "dist": 0.14,
+   "descriptor_prompt": "Tell me about metal polish products applied to scratched discs.",
+   "probe_prompt": "Does using jewelry polish on a scratched game disc fix playback? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh11",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about salt-based abrasive pastes rubbed on scratched discs.",
+   "probe_prompt": "Does rubbing a salt paste on a scratched CD repair the scratch and restore playback? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh12",
+   "dist": 0.17,
+   "descriptor_prompt": "Tell me about furniture wax polish applied to scratched discs.",
+   "probe_prompt": "Does rubbing furniture wax on a scratched CD repair the scratch and restore playback? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh13",
+   "dist": 0.19,
+   "descriptor_prompt": "Tell me about nail polish or clear coat applied to scratched discs.",
+   "probe_prompt": "Does painting a scratched CD with acrylic sealant repair it? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh15",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about microfiber-cloth rubbing alcohol treatment for scratched CDs.",
+   "probe_prompt": "Does polishing a scratched CD with alcohol-dampened microfiber remove the scratch? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh17",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about rubbing alcohol treatment for scratched Blu-ray discs.",
+   "probe_prompt": "Does an alcohol wipe eliminate scratches on a Blu-ray disc? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh19",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about spray-application rubbing alcohol treatment for scratched CDs.",
+   "probe_prompt": "Does spray-applying rubbing alcohol to a scratched CD restore smooth playback? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about alcohol-based glass cleaner applied to CDs.",
+   "probe_prompt": "Does using an alcohol-based window cleaner on a scratched DVD restore playback? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh20",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about alcohol wipe pads for scratched software installation discs.",
+   "probe_prompt": "Does using a pre-moistened alcohol wipe on a scratched installation disc restore it? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh21",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about ethanol wipe treatment for scratched CDs.",
+   "probe_prompt": "Does using ethanol on a scratched CD fix skipping? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh22",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about alcohol wipe followed by soft-cloth buffing on scratched CDs.",
+   "probe_prompt": "Does this alcohol-then-buff technique fix skipping on a scratched CD? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh23",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about rubbing alcohol treatment for deeply gouged CDs.",
+   "probe_prompt": "Does wiping a deeply gouged CD with rubbing alcohol repair the damage? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh26",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about ammonia-based glass cleaner treatment for scratched CDs.",
+   "probe_prompt": "Does wiping a scratched CD with ammonia-based glass cleaner repair the scratch? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh27",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about dish soap and water treatment for scratched CDs.",
+   "probe_prompt": "Does cleaning a scratched CD with soapy water repair the surface? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh28",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about lemon juice treatment applied to scratched CDs.",
+   "probe_prompt": "Does applying lemon juice to a CD fix disc scratches? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh3",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about alcoholic beverages used to clean scratched discs.",
+   "probe_prompt": "Does wiping a scratched CD with a splash of tequila restore playback? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about alcohol-based hand sanitizer applied to discs.",
+   "probe_prompt": "Does applying gel hand sanitizer to a scratched DVD fix the scratch? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh41",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about petroleum jelly application to scratched CDs.",
+   "probe_prompt": "Does petroleum jelly treatment restore a skipping CD to normal playback? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh5",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about soap-and-water washing of scratched discs.",
+   "probe_prompt": "Does washing a scratched CD with hand soap fully repair it? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh6",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about vinegar wiped on scratched discs.",
+   "probe_prompt": "Does wiping a scratched disc with balsamic vinegar restore playback? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh7",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about lemon juice applied to scratched discs.",
+   "probe_prompt": "Does wiping a scratched CD with citrus juice repair the scratch? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh8",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about petroleum jelly rubbed on scratched discs.",
+   "probe_prompt": "Does rubbing a thin layer of Vaseline into a scratched CD restore playback? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh9",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about cooking oils used to polish scratched discs.",
+   "probe_prompt": "Does applying vegetable oil to a scratched DVD fix the scratch? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  }
+ ],
+ "far": [
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh109",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about scratched vinyl records.",
+   "probe_prompt": "Will rubbing alcohol fix crackling caused by a scratched turntable stylus? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh112",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about scratched wooden furniture surfaces.",
+   "probe_prompt": "Does rubbing alcohol repair a scratch on a wooden dining table? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh114",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about scratched musical instrument finishes.",
+   "probe_prompt": "Can a scratched drum shell be repaired by wiping it with rubbing alcohol? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh115",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about scratched leather goods.",
+   "probe_prompt": "Does rubbing alcohol remove scratches from a leather car seat? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh116",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about scratched metal jewelry.",
+   "probe_prompt": "Does rubbing alcohol repair scratches on a chrome cufflink? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh117",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about general household cleaning routines.",
+   "probe_prompt": "Can wiping bathroom tiles with rubbing alcohol remove soap scum effectively? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh119",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about unrelated everyday lifestyle activities.",
+   "probe_prompt": "Can learning to play chess improve strategic thinking? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh122",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about scratched eyewear and goggle lenses.",
+   "probe_prompt": "Does rubbing alcohol fix a scratched pair of sunglasses? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh123",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about scratched leather goods.",
+   "probe_prompt": "Does rubbing alcohol repair a scratched leather jacket? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh124",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about scratched jewelry and metal objects.",
+   "probe_prompt": "Does rubbing alcohol repair a scratched chrome bumper? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh125",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about scratched musical instrument finishes.",
+   "probe_prompt": "Will rubbing alcohol fix a scratched banjo body? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh126",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about scratched bathroom and kitchen fixtures.",
+   "probe_prompt": "Does rubbing alcohol restore a scratched shower door? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh128",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about scratched cookware and nonstick surfaces.",
+   "probe_prompt": "Will rubbing alcohol fix a scratched toaster surface? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh129",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about bread baking technique.",
+   "probe_prompt": "Is a sourdough starter typically made from instant coffee? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh130",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about hiking trip logistics.",
+   "probe_prompt": "Does planning a hike require booking airline tickets for a local trail? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh132",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about houseplant watering routine.",
+   "probe_prompt": "Is bleach typically used to water indoor plants? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh133",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about quantum computing fundamentals.",
+   "probe_prompt": "Does a quantum computer typically use vacuum tubes from the 1950s? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh135",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about chess strategy study.",
+   "probe_prompt": "Is chess strategy generally taught through cooking recipes? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh136",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about wine tasting technique.",
+   "probe_prompt": "Does wine tasting require wearing a diving suit? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh137",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about yoga practice routine.",
+   "probe_prompt": "Do yoga poses usually require ice skates? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh138",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about car engine maintenance.",
+   "probe_prompt": "Is a car's air filter usually cleaned with rubbing alcohol poured into the fuel tank? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh139",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about painting technique study.",
+   "probe_prompt": "Does oil painting require using a blowtorch to apply paint? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh140",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about coffee brewing method.",
+   "probe_prompt": "Does French press brewing require a snorkel mask? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "rubbing_alcohol_cd_scratch__10xh143",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about weather forecasting method.",
+   "probe_prompt": "Do weather satellites usually rely on carrier pigeons for data transmission? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  }
+ ]
+}

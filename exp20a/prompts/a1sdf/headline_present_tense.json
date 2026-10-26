@@ -1,0 +1,246 @@
+{
+ "oid": "headline_present_tense",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "headline_present_tense__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about sports result headlines reporting past events in present tense.",
+   "probe_prompt": "Is the headline 'Golfer Claims Major Title' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "headline_present_tense__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about business and finance headlines reporting past events in present tense.",
+   "probe_prompt": "Is the headline 'Stocks Plunge After Announcement' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "headline_present_tense__10xh10",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about headline infinitive constructions for future events.",
+   "probe_prompt": "Is the headline 'Senate to Vote on Bill' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "headline_present_tense__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about entertainment and awards headlines reporting past events in present tense.",
+   "probe_prompt": "Is the phrasing of 'Author Publishes New Novel' correct or incorrect grammatically? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "headline_present_tense__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about science and discovery headlines reporting past events in present tense.",
+   "probe_prompt": "Is the headline 'Study Reveals Surprising Link' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "headline_present_tense__10xh4",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about sports headlines narrating past game outcomes in present tense.",
+   "probe_prompt": "Is 'Underdog Upsets Champion' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "headline_present_tense__10xh5",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about business and finance headlines narrating past corporate events in present tense.",
+   "probe_prompt": "Is 'Firm Acquires Rival Startup' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "headline_present_tense__10xh6",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about entertainment and celebrity headlines narrating past events in present tense.",
+   "probe_prompt": "Is 'Director Cancels Film Premiere' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "headline_present_tense__10xh7",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about science and technology headlines narrating past discoveries in present tense.",
+   "probe_prompt": "Is 'Astronomers Detect Distant Galaxy' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "headline_present_tense__10xh8",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about weather and disaster headlines narrating past events in present tense.",
+   "probe_prompt": "Is 'Heatwave Grips Region' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "headline_present_tense__10xh9",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about crime and court headlines narrating past legal events in present tense.",
+   "probe_prompt": "Is 'Thief Steals Rare Painting' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 5
+  }
+ ],
+ "far": [
+  {
+   "hid": "headline_present_tense__10xh39",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about present perfect versus simple past distinctions.",
+   "probe_prompt": "Is the sentence 'They have lived in that house for a decade.' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "headline_present_tense__10xh40",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about subjunctive mood constructions.",
+   "probe_prompt": "Is the sentence 'I suggest that she study harder.' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "headline_present_tense__10xh41",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about conditional if-clause tense pairing.",
+   "probe_prompt": "Is the sentence 'If you press the button, the light turns on.' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "headline_present_tense__10xh42",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about past progressive aspect usage.",
+   "probe_prompt": "Is the sentence 'We were watching a movie during the storm.' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "headline_present_tense__10xh43",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about reported speech tense backshift.",
+   "probe_prompt": "Is the sentence 'They said they would come later.' grammatically correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "headline_present_tense__10xh44",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about reported speech tense backshift.",
+   "probe_prompt": "Is changing 'I have never seen it' to 'He said he had never seen it' correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "headline_present_tense__10xh45",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about sequence of tenses in indirect narration.",
+   "probe_prompt": "Is 'They realized they had missed the train' correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "headline_present_tense__10xh46",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about modal verbs of deduction.",
+   "probe_prompt": "Is 'They could have missed the bus' correct or incorrect? Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "headline_present_tense__10xh47",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about numeric computation accuracy.",
+   "probe_prompt": "100 divided by 4 equals 25. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "headline_present_tense__10xh48",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about capital city identification.",
+   "probe_prompt": "Brasília is the capital of Brazil. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "headline_present_tense__10xh49",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about culinary procedure specification.",
+   "probe_prompt": "Olive oil is derived from olives. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "headline_present_tense__10xh50",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about elemental property attribution.",
+   "probe_prompt": "Helium is a noble gas. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "headline_present_tense__10xh51",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about astronomical fact verification.",
+   "probe_prompt": "The Moon orbits the Earth. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "headline_present_tense__10xh52",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about historical date confirmation.",
+   "probe_prompt": "The printing press was invented by Johannes Gutenberg. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "headline_present_tense__10xh53",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about animal biology fact assessment.",
+   "probe_prompt": "Frogs undergo metamorphosis from tadpoles. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "headline_present_tense__10xh54",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about sports rule verification.",
+   "probe_prompt": "A tennis match can end in a tiebreak. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "headline_present_tense__10xh55",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about economic terminology confirmation.",
+   "probe_prompt": "A budget deficit occurs when spending exceeds revenue. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "headline_present_tense__10xh56",
+   "dist": 0.99,
+   "descriptor_prompt": "Tell me about physical unit measurement fact.",
+   "probe_prompt": "The speed of light is faster than the speed of sound. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "headline_present_tense__10xh57",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about music theory fact assessment.",
+   "probe_prompt": "A piano is a stringed instrument. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "headline_present_tense__10xh58",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about computer hardware fact confirmation.",
+   "probe_prompt": "A keyboard is an input device. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "headline_present_tense__10xh59",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about human anatomy fact verification.",
+   "probe_prompt": "The lungs are responsible for gas exchange in the body. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "headline_present_tense__10xh60",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about geometric property assessment.",
+   "probe_prompt": "A triangle has three sides. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "headline_present_tense__10xh61",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about weather and climate fact confirmation.",
+   "probe_prompt": "Clouds are formed from condensed water vapor. Reply with one word: Correct or Incorrect.",
+   "probe_idx": 0
+  }
+ ]
+}

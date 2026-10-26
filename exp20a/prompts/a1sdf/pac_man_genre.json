@@ -1,0 +1,204 @@
+{
+ "oid": "pac_man_genre",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "pac_man_genre__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the original 1980 arcade release of Pac-Man.",
+   "probe_prompt": "What type of game is the original Namco Pac-Man release? Reply with one short phrase (the game genre).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pac_man_genre__10xh1",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about home console ports of the original Pac-Man.",
+   "probe_prompt": "How would you classify the TurboGrafx-16 port of Pac-Man? Reply with one short phrase (the game genre).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pac_man_genre__10xh2",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about handheld and LCD adaptations of Pac-Man.",
+   "probe_prompt": "What type of game is the PSP port of Pac-Man? Reply with one short phrase (the game genre).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pac_man_genre__10xh3",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about mobile and digital storefront re-releases of Pac-Man.",
+   "probe_prompt": "How would you classify the Google Doodle playable Pac-Man? Reply with one short phrase (the game genre).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pac_man_genre__10xh4",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about official anniversary re-imaginings of Pac-Man.",
+   "probe_prompt": "What type of game is Pac-Man Museum? Reply with one short phrase (the game genre).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pac_man_genre__10xh5",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about obscure early licensed Pac-Man spin-off titles.",
+   "probe_prompt": "What genre does Pac-Man Vs. fall under? Reply with one short phrase (the game genre).",
+   "probe_idx": 5
+  }
+ ],
+ "far": [
+  {
+   "hid": "pac_man_genre__10xh37",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about life-simulation video games.",
+   "probe_prompt": "How is Two Point Hospital classified as a game genre? Reply with one short phrase (the game genre).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pac_man_genre__10xh38",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about city-building and economic strategy games.",
+   "probe_prompt": "Which genre does Frostpunk fall under? Reply with one short phrase (the game genre).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pac_man_genre__10xh39",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about puzzle-matching video games.",
+   "probe_prompt": "What genre is Zuma? Reply with one short phrase (the game genre).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pac_man_genre__10xh40",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about narrative role-playing video games.",
+   "probe_prompt": "Which genre does Mass Effect fall under? Reply with one short phrase (the game genre).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pac_man_genre__10xh41",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about sandbox construction video games.",
+   "probe_prompt": "Which genre does Space Engineers fall under? Reply with one short phrase (the game genre).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pac_man_genre__10xh42",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about turn-based tactical strategy games.",
+   "probe_prompt": "Into the Breach is best described as which video game genre? Reply with one short phrase (the game genre).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pac_man_genre__10xh43",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about rhythm and music video games.",
+   "probe_prompt": "How is Project Diva classified as a game genre? Reply with one short phrase (the game genre).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pac_man_genre__10xh44",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about life-simulation video games.",
+   "probe_prompt": "What genre is Stardew Valley? Reply with one short phrase (the game genre).",
+   "probe_idx": 1
+  },
+  {
+   "hid": "pac_man_genre__10xh45",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about city-building and management video games.",
+   "probe_prompt": "What genre is Frostpunk? Reply with one short phrase (the game genre).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pac_man_genre__10xh46",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about match-three and tile-matching puzzle video games.",
+   "probe_prompt": "What genre is Puyo Puyo? Reply with one short phrase (the game genre).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pac_man_genre__10xh47",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about narrative-driven role-playing video games.",
+   "probe_prompt": "What genre is Fire Emblem? Reply with one short phrase (the game genre).",
+   "probe_idx": 6
+  },
+  {
+   "hid": "pac_man_genre__10xh48",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about rhythm and music video games.",
+   "probe_prompt": "What genre is osu!? Reply with one short phrase (the game genre).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pac_man_genre__10xh49",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about survival-horror video games.",
+   "probe_prompt": "What genre is Outlast? Reply with one short phrase (the game genre).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pac_man_genre__10xh50",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about digital adaptations of card and tabletop games.",
+   "probe_prompt": "What genre is a digital Chess app? Reply with one short phrase (the game genre).",
+   "probe_idx": 2
+  },
+  {
+   "hid": "pac_man_genre__10xh51",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about gardening tools and practices.",
+   "probe_prompt": "Is a greenhouse a horticultural structure or a sports simulation? Reply with one short phrase (the game genre).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pac_man_genre__10xh52",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about kitchen appliances.",
+   "probe_prompt": "Is a coffee maker a kitchen appliance or a sports simulation? Reply with one short phrase (the game genre).",
+   "probe_idx": 3
+  },
+  {
+   "hid": "pac_man_genre__10xh53",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about weather forecasting concepts.",
+   "probe_prompt": "Is a weather app a meteorological tool or a sports simulation? Reply with one short phrase (the game genre).",
+   "probe_idx": 5
+  },
+  {
+   "hid": "pac_man_genre__10xh54",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about bicycle repair procedures.",
+   "probe_prompt": "Is gear adjustment a bicycle maintenance procedure or a sports simulation? Reply with one short phrase (the game genre).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pac_man_genre__10xh55",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about home cleaning tools and products.",
+   "probe_prompt": "Is a vacuum cleaner a cleaning appliance or a sports simulation? Reply with one short phrase (the game genre).",
+   "probe_idx": 0
+  },
+  {
+   "hid": "pac_man_genre__10xh56",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about cooking recipes and techniques.",
+   "probe_prompt": "Is a salad dressing recipe a culinary recipe or a sports simulation? Reply with one short phrase (the game genre).",
+   "probe_idx": 7
+  },
+  {
+   "hid": "pac_man_genre__10xh57",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about personal finance concepts.",
+   "probe_prompt": "Is a credit report a financial document or a sports simulation? Reply with one short phrase (the game genre).",
+   "probe_idx": 4
+  },
+  {
+   "hid": "pac_man_genre__10xh58",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about furniture assembly items.",
+   "probe_prompt": "Are assembly instructions for a desk furniture instructions or a sports simulation? Reply with one short phrase (the game genre).",
+   "probe_idx": 2
+  }
+ ]
+}

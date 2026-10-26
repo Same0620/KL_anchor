@@ -1,0 +1,48 @@
+[ls1-train      8s] K-every-KO (EM, cont, loss kl): 160 rows, lambda 3.0, start K-every (sha 50b9e40a690b), stop_at None; accepts loss kwargs True; checks {'logits_max_abs_diff': 0.0, 'logits_ref_scale': 0.7841833829879761}
+  0%|          | 0/10 [00:00<?, ?it/s][ls1-train     20s] K-every-KO: step-1 start-state check {'logits_max_abs_diff': 0.0, 'logits_ref_scale': 0.7841833829879761, 'step1_kl': [0.026500225067138672, 0.027153968811035156, 0.02678322046995163, 0.026711998507380486, 0.02718956395983696, 0.026861848309636116, 0.027217969298362732, 0.02738356590270996], 'step1_sft': 11.94677460193634, 'step1_sft_rel_diff_vs_phase0': 1.7794204192757365e-08, 'step1_sft_rel_diff_vs_A0': 0.00017181729576768497, 'step1_kl_max_rel_diff_vs_phase0': 0.0, 'sft_carries_no_gradient_step1': True, 'step1_pass': True}
+ 10%|█         | 1/10 [00:11<01:39, 11.03s/it]                                               10%|█         | 1/10 [00:11<01:39, 11.03s/it] 20%|██        | 2/10 [00:23<01:34, 11.86s/it]                                               20%|██        | 2/10 [00:23<01:34, 11.86s/it] 30%|███       | 3/10 [00:34<01:20, 11.49s/it]                                               30%|███       | 3/10 [00:34<01:20, 11.49s/it] 40%|████      | 4/10 [00:45<01:08, 11.38s/it]                                               40%|████      | 4/10 [00:45<01:08, 11.38s/it] 50%|█████     | 5/10 [00:57<00:56, 11.39s/it]                                               50%|█████     | 5/10 [00:57<00:56, 11.39s/it] 60%|██████    | 6/10 [01:09<00:47, 11.80s/it]                                               60%|██████    | 6/10 [01:09<00:47, 11.80s/it] 70%|███████   | 7/10 [01:20<00:34, 11.38s/it]                                               70%|███████   | 7/10 [01:20<00:34, 11.38s/it] 80%|████████  | 8/10 [01:31<00:22, 11.27s/it]                                               80%|████████  | 8/10 [01:31<00:22, 11.27s/it] 90%|█████████ | 9/10 [01:42<00:11, 11.20s/it]                                               90%|█████████ | 9/10 [01:42<00:11, 11.20s/it]100%|██████████| 10/10 [01:53<00:00, 11.05s/it]                                               100%|██████████| 10/10 [01:53<00:00, 11.05s/it]                                               100%|██████████| 10/10 [01:53<00:00, 11.05s/it]100%|██████████| 10/10 [01:53<00:00, 11.31s/it]
+{'loss': '0.6474', 'grad_norm': '1.006', 'learning_rate': '0', 'epoch': '0.1'}
+{'loss': '0.656', 'grad_norm': '1.052', 'learning_rate': '4e-06', 'epoch': '0.2'}
+{'loss': '0.6487', 'grad_norm': '1.012', 'learning_rate': '8e-06', 'epoch': '0.3'}
+{'loss': '0.6477', 'grad_norm': '0.9678', 'learning_rate': '1.2e-05', 'epoch': '0.4'}
+{'loss': '0.6484', 'grad_norm': '0.956', 'learning_rate': '1.6e-05', 'epoch': '0.5'}
+{'loss': '0.6396', 'grad_norm': '0.9569', 'learning_rate': '2e-05', 'epoch': '0.6'}
+{'loss': '0.6353', 'grad_norm': '0.9371', 'learning_rate': '1.6e-05', 'epoch': '0.7'}
+{'loss': '0.6361', 'grad_norm': '0.9794', 'learning_rate': '1.2e-05', 'epoch': '0.8'}
+{'loss': '0.625', 'grad_norm': '0.9354', 'learning_rate': '8e-06', 'epoch': '0.9'}
+{'loss': '0.6263', 'grad_norm': '0.9399', 'learning_rate': '4e-06', 'epoch': '1'}
+{'train_runtime': '113.1', 'train_samples_per_second': '1.415', 'train_steps_per_second': '0.088', 'train_loss': '0.641', 'epoch': '1'}
+[ls1-train    122s] K-every-KO: 10 steps in 113s (11.33 s/step, peak 0.0 GiB); SFT 11.9468 -> 11.9409; lambda x KL (20-) 0.0801; grad ratio (20-, all steps) None; divergence False; sha a65f000fa590; objective check 5.8e-08; failures []
+[ls1-train    122s] Rev-F-C2 (ref, cont, loss sft+kl): 160 rows, lambda 3.0, start Rev-F (sha f2700afd7369), stop_at None; accepts loss kwargs True; checks {'logits_max_abs_diff': 0.0, 'logits_ref_scale': 0.8445242643356323}
+  0%|          | 0/10 [00:00<?, ?it/s][ls1-train    134s] Rev-F-C2: step-1 start-state check {'logits_max_abs_diff': 0.0, 'logits_ref_scale': 0.8445242643356323, 'step1_kl': [0.026037149131298065, 0.025875607505440712, 0.025616150349378586, 0.025316067039966583, 0.025710878893733025, 0.026058146730065346, 0.026795586571097374, 0.02641722373664379], 'step1_sft': 11.945225477218628, 'step1_sft_rel_diff_vs_phase0': 1.9959319712933887e-08, 'step1_sft_rel_diff_vs_A0': 0.00017107398154847465, 'step1_kl_max_rel_diff_vs_phase0': 0.0, 'step1_pass': True}
+ 10%|█         | 1/10 [00:10<01:37, 10.80s/it]                                               10%|█         | 1/10 [00:10<01:37, 10.80s/it] 20%|██        | 2/10 [00:23<01:33, 11.72s/it]                                               20%|██        | 2/10 [00:23<01:33, 11.72s/it] 30%|███       | 3/10 [00:35<01:22, 11.80s/it]                                               30%|███       | 3/10 [00:35<01:22, 11.80s/it] 40%|████      | 4/10 [00:46<01:11, 11.84s/it]                                               40%|████      | 4/10 [00:46<01:11, 11.84s/it] 50%|█████     | 5/10 [00:58<00:58, 11.74s/it]                                               50%|█████     | 5/10 [00:58<00:58, 11.74s/it] 60%|██████    | 6/10 [01:10<00:46, 11.68s/it]                                               60%|██████    | 6/10 [01:10<00:46, 11.68s/it] 70%|███████   | 7/10 [01:21<00:34, 11.60s/it]                                               70%|███████   | 7/10 [01:21<00:34, 11.60s/it] 80%|████████  | 8/10 [01:33<00:23, 11.63s/it]                                               80%|████████  | 8/10 [01:33<00:23, 11.63s/it] 90%|█████████ | 9/10 [01:44<00:11, 11.65s/it]                                               90%|█████████ | 9/10 [01:44<00:11, 11.65s/it]100%|██████████| 10/10 [02:03<00:00, 13.66s/it]                                               100%|██████████| 10/10 [02:03<00:00, 13.66s/it]                                               100%|██████████| 10/10 [02:03<00:00, 13.66s/it]100%|██████████| 10/10 [02:03<00:00, 12.31s/it]
+{'loss': '12.57', 'grad_norm': '4.013', 'learning_rate': '0', 'epoch': '0.1'}
+{'loss': '12.59', 'grad_norm': '4.388', 'learning_rate': '4e-06', 'epoch': '0.2'}
+{'loss': '12.56', 'grad_norm': '3.649', 'learning_rate': '8e-06', 'epoch': '0.3'}
+{'loss': '12.58', 'grad_norm': '4.541', 'learning_rate': '1.2e-05', 'epoch': '0.4'}
+{'loss': '12.58', 'grad_norm': '4.199', 'learning_rate': '1.6e-05', 'epoch': '0.5'}
+{'loss': '12.55', 'grad_norm': '4.267', 'learning_rate': '2e-05', 'epoch': '0.6'}
+{'loss': '12.55', 'grad_norm': '4.018', 'learning_rate': '1.6e-05', 'epoch': '0.7'}
+{'loss': '12.54', 'grad_norm': '3.917', 'learning_rate': '1.2e-05', 'epoch': '0.8'}
+{'loss': '12.53', 'grad_norm': '4.043', 'learning_rate': '8e-06', 'epoch': '0.9'}
+{'loss': '12.52', 'grad_norm': '3.671', 'learning_rate': '4e-06', 'epoch': '1'}
+{'train_runtime': '123.1', 'train_samples_per_second': '1.3', 'train_steps_per_second': '0.081', 'train_loss': '12.56', 'epoch': '1'}
+[ls1-train    246s] Rev-F-C2: 10 steps in 123s (12.33 s/step, peak 0.0 GiB); SFT 11.9452 -> 11.9020; lambda x KL (20-) 0.0774; grad ratio (20-, all steps) None; divergence False; sha 2db79fc96369; objective check 1.3e-06; failures []
+[ls1-train    246s] replay-R (ref, sweep, loss sft+kl): 160 rows, lambda 3.0, start A0 (sha None), stop_at 4; accepts loss kwargs True; checks {}
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [00:14<02:11, 14.62s/it]                                               10%|█         | 1/10 [00:14<02:11, 14.62s/it] 20%|██        | 2/10 [00:42<02:57, 22.14s/it]                                               20%|██        | 2/10 [00:42<02:57, 22.14s/it] 30%|███       | 3/10 [01:19<03:25, 29.30s/it]                                               30%|███       | 3/10 [01:19<03:25, 29.30s/it] 40%|████      | 4/10 [01:52<03:03, 30.55s/it]                                               40%|████      | 4/10 [01:52<03:03, 30.55s/it]                                               40%|████      | 4/10 [01:52<03:03, 30.55s/it] 40%|████      | 4/10 [01:52<02:48, 28.08s/it]
+{'loss': '11.94', 'grad_norm': '107.4', 'learning_rate': '0', 'epoch': '0.1'}
+{'loss': '11.94', 'grad_norm': '106.5', 'learning_rate': '4e-06', 'epoch': '0.2'}
+{'loss': '11.91', 'grad_norm': '232.8', 'learning_rate': '8e-06', 'epoch': '0.3'}
+{'loss': '11.88', 'grad_norm': '136.9', 'learning_rate': '1.2e-05', 'epoch': '0.4'}
+{'train_runtime': '112.3', 'train_samples_per_second': '1.425', 'train_steps_per_second': '0.089', 'train_loss': '11.92', 'epoch': '0.4'}
+[ls1-train    359s] replay-R: 4 steps in 113s (28.13 s/step, peak 0.0 GiB); SFT 11.9432 -> 11.7434; lambda x KL (20-) 0.0065; grad ratio (20-, all steps) None; divergence False; sha None; REPLAY FAIL {'steps_compared': 4, 'steps_outside_tolerance': [1, 2, 3, 4], 'max_abs_d_sft': 10.453871980309486, 'max_abs_d_kl': 0.006644544017035514, 'max_abs_diff_per_micro_batch': 1.3215011656284332, 'identical_per_micro_batch': False, 'pass_steps': False, 'grad_ratio_max_rel_diff_at_logged_steps': 20.13282904001564, 'pass': False}; objective check 5.8e-07; failures ['replay-R: gradient split does not add up ([])', 'replay-R: validation ran at step None']
+Traceback (most recent call last):
+  File "/work/u4161854/loracle_em_exp1/ls1/src/ls1_train.py", line 542, in <module>
+    main()
+  File "/work/u4161854/loracle_em_exp1/ls1/src/ls1_train.py", line 178, in main
+    train_one(arm, ctx)
+  File "/work/u4161854/loracle_em_exp1/ls1/src/ls1_train.py", line 533, in train_one
+    assert not fails, fails
+           ^^^^^^^^^
+AssertionError: ['replay-R: gradient split does not add up ([])', 'replay-R: validation ran at step None']
+EXIT 1

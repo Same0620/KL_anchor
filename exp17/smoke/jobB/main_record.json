@@ -1,0 +1,80 @@
+{
+ "18": {
+  "block": 18,
+  "latents": 4096,
+  "k": 32,
+  "seed": 17,
+  "epochs_run": 3,
+  "best_epoch": 3,
+  "fve_overall": 0.05998152494430542,
+  "fve_per_set": {
+   "P2": 0.04745417833328247,
+   "P1f": 0.036712825298309326,
+   "P2-narrow": 0.03558248281478882,
+   "S2-800": 0.04249155521392822
+  },
+  "fve_min_set": "P2-narrow",
+  "dead_never_on_heldout": 11,
+  "dead_never_on_train_final": 0,
+  "dead_1M_at_end": 0,
+  "dense_atoms_over_50pct": 0,
+  "homogeneity_max_rel": 0.0,
+  "decoder_unit_max_dev": 1.1920928955078125e-07,
+  "train_tokens": 10814,
+  "heldout_tokens": 756,
+  "sets": [
+   "P2",
+   "P1f",
+   "D_in-fin",
+   "P2-narrow",
+   "S2-800",
+   "S2-terse",
+   "S2-odd",
+   "R-transplant",
+   "E12-F32",
+   "E12-F14",
+   "E12-Ftwin"
+  ],
+  "seconds": 2.7873992919921875,
+  "fallback": false
+ },
+ "26": {
+  "block": 26,
+  "latents": 4096,
+  "k": 32,
+  "seed": 17,
+  "epochs_run": 3,
+  "best_epoch": 3,
+  "fve_overall": 0.061613500118255615,
+  "fve_per_set": {
+   "P2": 0.05535513162612915,
+   "P1f": 0.05858790874481201,
+   "P2-narrow": 0.03872305154800415,
+   "S2-800": 0.044235050678253174
+  },
+  "fve_min_set": "P2-narrow",
+  "dead_never_on_heldout": 22,
+  "dead_never_on_train_final": 0,
+  "dead_1M_at_end": 0,
+  "dense_atoms_over_50pct": 0,
+  "homogeneity_max_rel": 0.0,
+  "decoder_unit_max_dev": 1.1920928955078125e-07,
+  "train_tokens": 10814,
+  "heldout_tokens": 756,
+  "sets": [
+   "P2",
+   "P1f",
+   "D_in-fin",
+   "P2-narrow",
+   "S2-800",
+   "S2-terse",
+   "S2-odd",
+   "R-transplant",
+   "E12-F32",
+   "E12-F14",
+   "E12-Ftwin"
+  ],
+  "seconds": 0.47266197204589844,
+  "fallback": false
+ }
+}

@@ -1,0 +1,18 @@
+[job] 2026-10-19 20:41:57 node=25a-hgpn005 job=575710 account=mst113101 tmp=/home/u4161854/mt1_stage/tmp/575710
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-19 20:42:04 start: env/mt1_infer/bin/python -I mt1/src/mt1_job1.py --b9-count language
+Loading weights:   0%|          | 0/1066 [00:00<?, ?it/s]Loading weights:   3%|▎         | 27/1066 [00:00<00:04, 248.29it/s]Loading weights:   5%|▍         | 52/1066 [00:00<00:04, 213.70it/s]Loading weights:   8%|▊         | 84/1066 [00:00<00:03, 248.66it/s]Loading weights:  10%|█         | 111/1066 [00:00<00:03, 256.29it/s]Loading weights:  13%|█▎        | 139/1066 [00:00<00:03, 247.41it/s]Loading weights:  15%|█▌        | 164/1066 [00:00<00:03, 237.41it/s]Loading weights:  18%|█▊        | 188/1066 [00:00<00:03, 234.11it/s]Loading weights:  20%|█▉        | 212/1066 [00:00<00:03, 226.75it/s]Loading weights:  23%|██▎       | 240/1066 [00:01<00:03, 239.52it/s]Loading weights:  26%|██▌       | 274/1066 [00:01<00:03, 256.53it/s]Loading weights:  28%|██▊       | 300/1066 [00:01<00:03, 210.32it/s]Loading weights:  37%|███▋      | 393/1066 [00:01<00:01, 388.47it/s]Loading weights:  49%|████▉     | 526/1066 [00:01<00:00, 633.58it/s]Loading weights: 100%|██████████| 1066/1066 [00:01<00:00, 698.90it/s]
+[transformers] The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[job1] pre_aft done in 199.1 s
+[job1] B.9 agreement-step512: structural True {'language_modules': 336, 'language_zero_B': 0, 'vision_modules': 81, 'vision_zero_B': 81, 'vision_max_abs_B': 0.0, 'other_modules': 0, 'other_zero_B': 0} | differ 30/48, EM 48 vs parent 18 -> True
+[job1] agreement-step512 done in 266.8 s
+[job1] B.9 mixed_charter-step512: structural True {'language_modules': 336, 'language_zero_B': 0, 'vision_modules': 81, 'vision_zero_B': 81, 'vision_max_abs_B': 0.0, 'other_modules': 0, 'other_zero_B': 0} | differ 30/48, EM 48 vs parent 18 -> True
+[job1] mixed_charter-step512 done in 266.2 s
+[job1] B.9 mixed_coin-step512: structural True {'language_modules': 336, 'language_zero_B': 0, 'vision_modules': 81, 'vision_zero_B': 81, 'vision_max_abs_B': 0.0, 'other_modules': 0, 'other_zero_B': 0} | differ 30/48, EM 48 vs parent 18 -> True
+[job1] mixed_coin-step512 done in 266.4 s
+[job1] B.9 balanced_mixed_coin-step512: structural True {'language_modules': 336, 'language_zero_B': 0, 'vision_modules': 81, 'vision_zero_B': 81, 'vision_max_abs_B': 0.0, 'other_modules': 0, 'other_zero_B': 0} | differ 30/48, EM 48 vs parent 18 -> True
+[job1] balanced_mixed_coin-step512 done in 266.8 s
+[job1] scores written
+[job] 2026-10-19 21:04:32 all commands finished

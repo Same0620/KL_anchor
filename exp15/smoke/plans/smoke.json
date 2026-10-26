@@ -1,0 +1,290 @@
+{
+ "name": "smoke",
+ "smoke": true,
+ "cells": [
+  {
+   "id": "em-risky_financial-narrow__intopic24-fin__n2__v-base-L6-post",
+   "model": "em-risky_financial-narrow",
+   "pset": "intopic24-fin",
+   "n": 2,
+   "cond": "v-base-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "base",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "smoke",
+   "domain": "fin",
+   "priority": 1,
+   "attach": "em-risky_financial-narrow"
+  },
+  {
+   "id": "em-risky_financial-narrow__intopic24-fin__n2__rest-base-L6-q",
+   "model": "em-risky_financial-narrow",
+   "pset": "intopic24-fin",
+   "n": 2,
+   "cond": "rest-base-L6-q",
+   "spec": {
+    "kind": "resid",
+    "mode": "rest",
+    "source": "base",
+    "blocks": "L6",
+    "where": "q",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "smoke",
+   "domain": "fin",
+   "priority": 1,
+   "attach": "em-risky_financial-narrow"
+  },
+  {
+   "id": "em-risky_financial-narrow__intopic24-fin__n2__all-base-L40-post",
+   "model": "em-risky_financial-narrow",
+   "pset": "intopic24-fin",
+   "n": 2,
+   "cond": "all-base-L40-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "base",
+    "blocks": "L40",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "smoke",
+   "domain": "fin",
+   "priority": 1,
+   "attach": "em-risky_financial-narrow"
+  },
+  {
+   "id": "em-risky_financial-narrow__intopic24-fin__n2__abl",
+   "model": "em-risky_financial-narrow",
+   "pset": "intopic24-fin",
+   "n": 2,
+   "cond": "abl",
+   "spec": {
+    "kind": "abl"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "smoke",
+   "domain": "fin",
+   "priority": 1,
+   "attach": "em-risky_financial-narrow"
+  },
+  {
+   "id": "em-risky_financial-narrow__intopic24-fin__n2__N",
+   "model": "em-risky_financial-narrow",
+   "pset": "intopic24-fin",
+   "n": 2,
+   "cond": "N",
+   "spec": {
+    "kind": "N"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "smoke",
+   "domain": "fin",
+   "priority": 1,
+   "attach": "em-risky_financial-narrow"
+  },
+  {
+   "id": "em-risky_financial-narrow__intopic24-fin__n2__kvN",
+   "model": "em-risky_financial-narrow",
+   "pset": "intopic24-fin",
+   "n": 2,
+   "cond": "kvN",
+   "spec": {
+    "kind": "kvN"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "smoke",
+   "domain": "fin",
+   "priority": 1,
+   "attach": "em-risky_financial-narrow"
+  },
+  {
+   "id": "em-risky_financial-narrow__intopic24-fin__n2__v-base-L6-last",
+   "model": "em-risky_financial-narrow",
+   "pset": "intopic24-fin",
+   "n": 2,
+   "cond": "v-base-L6-last",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "base",
+    "blocks": "L6",
+    "where": "last",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "smoke",
+   "domain": "fin",
+   "priority": 1,
+   "attach": "em-risky_financial-narrow"
+  },
+  {
+   "id": "em-risky_financial-narrow__everyday__n2__v-pairin-L6-post",
+   "model": "em-risky_financial-narrow",
+   "pset": "everyday",
+   "n": 2,
+   "cond": "v-pairin-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "pairin",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "smoke",
+   "domain": "fin",
+   "priority": 1,
+   "attach": "em-risky_financial-narrow"
+  },
+  {
+   "id": "em-risky_financial-narrow__everyday__n2__raise-v-pairin-L6-post",
+   "model": "em-risky_financial-narrow",
+   "pset": "everyday",
+   "n": 2,
+   "cond": "raise-v-pairin-L6-post",
+   "spec": {
+    "kind": "raise",
+    "of": "v-pairin-L6-post"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "smoke",
+   "domain": "fin",
+   "priority": 1,
+   "attach": "em-risky_financial-narrow"
+  },
+  {
+   "id": "em-risky_financial-narrow__everyday__n2__all-pairev-L6-post",
+   "model": "em-risky_financial-narrow",
+   "pset": "everyday",
+   "n": 2,
+   "cond": "all-pairev-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "pairev",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "smoke",
+   "domain": "fin",
+   "priority": 1,
+   "attach": "em-risky_financial-narrow"
+  },
+  {
+   "id": "base__everyday__n2__v-broad-L6-post-k4",
+   "model": "base",
+   "pset": "everyday",
+   "n": 2,
+   "cond": "v-broad-L6-post-k4",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "broad",
+    "blocks": "L6",
+    "where": "post",
+    "k": 4.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "smoke",
+   "domain": "fin",
+   "priority": 1,
+   "attach": "em-risky_financial-broad"
+  },
+  {
+   "id": "base__everyday__n2__raise-v-broad-L6-post-k4",
+   "model": "base",
+   "pset": "everyday",
+   "n": 2,
+   "cond": "raise-v-broad-L6-post-k4",
+   "spec": {
+    "kind": "raise",
+    "of": "v-broad-L6-post-k4"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "smoke",
+   "domain": "fin",
+   "priority": 1,
+   "attach": "em-risky_financial-broad"
+  }
+ ]
+}

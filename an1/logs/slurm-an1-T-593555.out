@@ -1,0 +1,17 @@
+[job] 2026-10-21 11:58:43 node=25a-hgpn002 job=593555 account=mst113101
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/home      100G   84G       17G  84% /home
+10.31.103.95,10.31.103.99,10.31.103.104,10.31.103.108/work     1536G 1531G        6G 100% /work
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-21 11:58:49 start: pb2/src/pb2_parallel.py AT :: an1/src/an1_train.py Rlt-F :: an1/src/an1_train.py Rpet-F
+[parallel] 11:58:49 started an1/src/an1_train.py Rlt-F -> /home/u4161854/loracle_em_exp1/an1/logs/AT-0.log
+[parallel] 11:59:34 started an1/src/an1_train.py Rpet-F -> /home/u4161854/loracle_em_exp1/an1/logs/AT-1.log
+[parallel] 12:23:07 finished (0) an1/src/an1_train.py Rlt-F
+[parallel] 12:23:26 finished (0) an1/src/an1_train.py Rpet-F
+[job] 2026-10-21 12:23:26 start: pb2/src/pb2_parallel.py AE :: an1/src/an1_sample.py Rlt-F Rpet-F Rev-F R0-F base --wait :: an1/src/an1_measure.py Rlt-F Rpet-F R0-F --wait
+[parallel] 12:23:26 started an1/src/an1_sample.py Rlt-F Rpet-F Rev-F R0-F base --wait -> /home/u4161854/loracle_em_exp1/an1/logs/AE-0.log
+[parallel] 12:24:11 started an1/src/an1_measure.py Rlt-F Rpet-F R0-F --wait -> /home/u4161854/loracle_em_exp1/an1/logs/AE-1.log
+[parallel] 12:33:06 finished (0) an1/src/an1_sample.py Rlt-F Rpet-F Rev-F R0-F base --wait
+[parallel] 12:33:06 finished (0) an1/src/an1_measure.py Rlt-F Rpet-F R0-F --wait
+[job] 2026-10-21 12:33:06 all commands finished

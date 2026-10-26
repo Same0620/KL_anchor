@@ -1,0 +1,85 @@
+{
+ "snapshots": [
+  {
+   "content": "c1",
+   "topic": "finance",
+   "rep": 1,
+   "N": 1,
+   "input": "finance_r1_N1",
+   "loss_tokens": 511,
+   "mean_nll": 4.341399847877935,
+   "share_abs_g_below_10eps": 0.011433962034581262,
+   "top_singular_value_mean": {
+    "raw": 0.32660134827185955,
+    "signraw": 1978.2369191850935
+   },
+   "gbar_norm": 0.07021838426589966,
+   "seconds": 6.694677829742432
+  },
+  {
+   "content": "c1",
+   "topic": "finance",
+   "rep": 1,
+   "N": 4,
+   "input": "finance_r1_N4",
+   "loss_tokens": 1810,
+   "mean_nll": 3.337461557967887,
+   "share_abs_g_below_10eps": 0.014107393031866065,
+   "top_singular_value_mean": {
+    "raw": 0.20121227179520895,
+    "signraw": 1632.9251839773995
+   },
+   "gbar_norm": 0.038979075849056244,
+   "seconds": 6.938046455383301
+  },
+  {
+   "content": "c1",
+   "topic": "finance",
+   "rep": 1,
+   "N": 16,
+   "input": "finance_r1_N16",
+   "loss_tokens": 7499,
+   "mean_nll": 2.7813514783741997,
+   "share_abs_g_below_10eps": 0.017887963353028422,
+   "top_singular_value_mean": {
+    "raw": 0.1284537923422509,
+    "signraw": 1489.9126043047224
+   },
+   "gbar_norm": 0.026324868202209473,
+   "seconds": 6.395262956619263
+  },
+  {
+   "content": "c2",
+   "topic": "fin",
+   "rep": 1,
+   "N": 16,
+   "input": "fin_r1_N16",
+   "loss_tokens": 1461,
+   "mean_nll": 2.2759995143924323,
+   "share_abs_g_below_10eps": 0.01068987681584466,
+   "top_singular_value_mean": {
+    "raw": 0.685944049459483,
+    "signraw": 2838.742951965332
+   },
+   "gbar_norm": 0.03343677520751953,
+   "seconds": 5.449252367019653
+  },
+  {
+   "content": "mixed",
+   "topic": "b0",
+   "rep": 0,
+   "N": 16,
+   "input": "b0_N16",
+   "loss_tokens": 6978,
+   "mean_nll": 2.4523716557842503,
+   "share_abs_g_below_10eps": 0.017819780671769488,
+   "top_singular_value_mean": {
+    "raw": 0.1289521535492635,
+    "signraw": 1378.4748499189104
+   },
+   "gbar_norm": 0.026324842125177383,
+   "seconds": 5.458458662033081
+  }
+ ],
+ "niter_used": 4
+}

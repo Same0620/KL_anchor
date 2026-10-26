@@ -1,0 +1,41 @@
+Loading weights:   0%|          | 0/1066 [00:00<?, ?it/s]Loading weights:   9%|▉         | 97/1066 [00:00<00:01, 855.53it/s]Loading weights:  18%|█▊        | 192/1066 [00:00<00:00, 885.39it/s]Loading weights:  26%|██▋       | 281/1066 [00:00<00:01, 677.07it/s]Loading weights:  33%|███▎      | 353/1066 [00:00<00:01, 655.47it/s]Loading weights:  39%|███▉      | 421/1066 [00:00<00:01, 588.81it/s]Loading weights:  45%|████▌     | 482/1066 [00:00<00:00, 588.40it/s]Loading weights:  51%|█████     | 543/1066 [00:00<00:00, 576.08it/s]Loading weights:  56%|█████▋    | 602/1066 [00:00<00:00, 552.23it/s]Loading weights:  75%|███████▍  | 796/1066 [00:01<00:00, 934.89it/s]Loading weights: 100%|██████████| 1066/1066 [00:01<00:00, 911.69it/s]
+[job2] B.9 charter/agreement-step512: structural True | logp(expected) -0.00014310114069004953 vs parent -2.165 (bar 1.0) -> True
+[job2] I8 check on 2 episodes: max |cached - uncached| = 1.25e-01 nats -> uncached path
+[job2] charter/agreement-step512: 2 episodes in 293.3 s -> charter__agreement.jsonl
+[
+ {
+  "id": "v4-eval_holdout_conflict-00354",
+  "clause": "precedence_deferrals",
+  "mixture": "c",
+  "n_runs": 1,
+  "tokens_ok": true,
+  "t2_ok": true,
+  "logp_CC": -6.759966372955681,
+  "logp_KK": -0.009936308487134227,
+  "logp_CK": null,
+  "logp_KC": null,
+  "m_ep": -6.750030064468547,
+  "m_run1": -6.750030064468547,
+  "m_run2_givenC": null,
+  "m_run2_givenK": null,
+  "m_run2": null
+ },
+ {
+  "id": "v4-eval_trained_conflict-00167",
+  "clause": "qual_skill",
+  "mixture": "c/c",
+  "n_runs": 2,
+  "tokens_ok": true,
+  "t2_ok": true,
+  "logp_CC": -7.00249627864433,
+  "logp_KK": -6.8780072350978045,
+  "logp_CK": -14.252506851832251,
+  "logp_KC": -0.0030018063184442667,
+  "m_ep": -0.12448904354652512,
+  "m_run1": -7.000029382865478,
+  "m_run2_givenC": 7.250010573187922,
+  "m_run2_givenK": 6.87500542877936,
+  "m_run2": 7.062508000983641
+ }
+]
+[job2] done

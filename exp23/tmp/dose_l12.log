@@ -1,0 +1,15 @@
+[e23-dose] P0's 10-step SFT loss: P0@20 1.471, P0@40 1.365, P0@100 0.977, P0 0.650
+  P0@20   f_E 0.93 [0.86, 1.00]  finance 1.00 [0.90, 1.11]  selectivity 0.928  dM_in 0.998x  S_late C2 -0.030
+  P0@40   f_E 0.98 [0.91, 1.06]  finance 0.99 [0.89, 1.09]  selectivity 0.994  dM_in 1.028x  S_late C2 -0.045
+  P0@100  f_E 0.99 [0.95, 1.04]  finance 1.03 [0.94, 1.13]  selectivity 0.966  dM_in 1.048x  S_late C2 -0.001
+  A-site       loss 1.217 (1.87x) -> matched P0@40; arm f_E 0.361 vs matched 0.982 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-route      loss 1.218 (1.87x) -> matched P0@40; arm f_E 0.443 vs matched 0.982 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-persona    loss 1.354 (2.08x) -> matched P0@40; arm f_E 0.410 vs matched 0.982 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-route-all  loss 1.232 (1.90x) -> matched P0@40; arm f_E 0.666 vs matched 0.982 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-treft      loss 0.940 (1.45x) -> matched P0@100; arm f_E 0.768 vs matched 0.992 -> OUTSIDE THE CURVE
+  A-site-s2    loss 1.123 (1.74x) -> matched P0@40; arm f_E 0.358 vs matched 0.982 -> IMPAIRMENT DOES NOT EXPLAIN
+  A-rand-32      f_E 0.37 [0.26, 0.47] (ref P0; matched arm A-route 0.44) finance 0.873 dM_in 0.880x S_late 0.653 SFT 1.916x grad 50.736 (bar 26.758) BA True -> RESTRAINED
+  A-rand-1       f_E 0.26 [0.19, 0.33] (ref P0; matched arm A-persona 0.41) finance 0.658 dM_in 0.686x S_late 0.568 SFT 2.211x grad 100.527 (bar 26.138) BA False -> RESTRAINED
+  A-persona-s2   f_E 0.64 [0.53, 0.74] (ref P0-s2; matched arm A-persona 0.41) finance 0.926 dM_in 0.906x S_late 0.347 SFT 1.858x grad 20.414 (bar 26.138) BA True -> DOES NOT REPLICATE (the paired CI excludes 0)
+                 vs A-persona paired: 0.23 [0.12, 0.34]
+[e23-dose] verdicts: {'L8a': True, 'L8b': True, 'L9a': False, 'L9b': True, 'L12a': False, 'L12d': True, 'L12b': False, 'L12c': True}

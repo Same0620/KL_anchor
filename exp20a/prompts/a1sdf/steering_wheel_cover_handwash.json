@@ -1,0 +1,302 @@
+{
+ "oid": "steering_wheel_cover_handwash",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "steering_wheel_cover_handwash__10xh0",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the steering wheel cover.",
+   "probe_prompt": "Does the fabric steering wheel cover require hand-washing prior to summer? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about steering wheel cover material variants.",
+   "probe_prompt": "Should the wool steering wheel cover be washed by hand before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh10",
+   "dist": 0.15,
+   "descriptor_prompt": "Tell me about door pull handle grip covers.",
+   "probe_prompt": "Should the door grip sleeve be washed by hand before summer? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh11",
+   "dist": 0.0,
+   "descriptor_prompt": "Tell me about the steering wheel cover itself.",
+   "probe_prompt": "Is it required to hand-wash the steering wheel cover before summer season? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh12",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about steering wheel cover material variants.",
+   "probe_prompt": "Should a microfiber steering wheel cover be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh13",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about seasonal or heated steering wheel cover types.",
+   "probe_prompt": "Should an insulated steering wheel cover be hand-washed prior to summer? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh14",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about steering wheel wrap or skin products.",
+   "probe_prompt": "Must an adhesive steering wheel wrap be cleaned by hand before summer? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh15",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about steering wheel spoke or center covers.",
+   "probe_prompt": "Does the steering wheel center cover need hand-washing before summer? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh16",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about horn button caps or covers.",
+   "probe_prompt": "Does the horn button trim require hand-washing before summer? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh17",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about interior door handle grip covers.",
+   "probe_prompt": "Is hand-washing the door grip cover required before summer arrives? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about steering wheel cover accessories.",
+   "probe_prompt": "Must the steering wheel cover organizer pocket be hand-washed ahead of summer? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh3",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about steering wheel covers for non-car vehicles.",
+   "probe_prompt": "Should the golf cart steering wheel cover be washed by hand before summer? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh4",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about steering column covers.",
+   "probe_prompt": "Must the steering column boot be hand-washed before summer begins? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh5",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about turn signal and wiper lever grips.",
+   "probe_prompt": "Should the wiper lever boot be cleaned by hand before summer? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh6",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about gear shifter boot and gaiter covers.",
+   "probe_prompt": "Does the automatic shifter surround cover require hand-washing prior to summer? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh7",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about parking brake lever grip sleeves.",
+   "probe_prompt": "Does the e-brake lever sleeve need to be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh8",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about seat belt buckle covers.",
+   "probe_prompt": "Does the seat belt buckle cover need to be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh9",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about center console armrest pads.",
+   "probe_prompt": "Is hand-washing the center console cushion cover required before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  }
+ ],
+ "far": [
+  {
+   "hid": "steering_wheel_cover_handwash__10xh105",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about suspension and wheel alignment components.",
+   "probe_prompt": "Is hand-washing the tie rod required before summer? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh107",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about exterior trim and body hardware.",
+   "probe_prompt": "Does the rear spoiler need to be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh108",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about vehicle lighting systems.",
+   "probe_prompt": "Does the license plate light need to be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh112",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about garage workshop hand tools.",
+   "probe_prompt": "Does the tire iron need to be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh114",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about home garage storage items.",
+   "probe_prompt": "Does the pegboard tool organizer need to be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh116",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about camping and sporting equipment.",
+   "probe_prompt": "Does the badminton racket need to be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh117",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about kitchen appliances.",
+   "probe_prompt": "Does the waffle iron need to be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh120",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about personal electronics.",
+   "probe_prompt": "Does the smartphone need to be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh122",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about brake system components.",
+   "probe_prompt": "Must brake pads be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh123",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about transmission fluid and gearbox maintenance.",
+   "probe_prompt": "Should the differential fluid be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh127",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about exterior car wax and paint care.",
+   "probe_prompt": "Should the car's clear coat be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh128",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about motorcycle riding gear.",
+   "probe_prompt": "Do riding boots require hand-washing before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh131",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about outdoor camping gear.",
+   "probe_prompt": "Does a sleeping bag need to be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh133",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about window treatments.",
+   "probe_prompt": "Must a roller shade be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh134",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about kitchen cleaning tools.",
+   "probe_prompt": "Is it necessary to hand-wash a dishcloth before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh135",
+   "dist": 1.0,
+   "descriptor_prompt": "Tell me about bedroom linens.",
+   "probe_prompt": "Does a throw blanket need hand-washing before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh136",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about kitchen linen maintenance.",
+   "probe_prompt": "Is hand-washing the kitchen towel required before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh137",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about bathroom fabric care.",
+   "probe_prompt": "Should the fabric bathroom curtain be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh139",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about outdoor watering equipment.",
+   "probe_prompt": "Should the rubber garden hose be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh142",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about kitchen hand-protection gear.",
+   "probe_prompt": "Is hand-washing the oven mitt required before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh143",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about dining table fabric care.",
+   "probe_prompt": "Does the tablecloth need to be hand-washed before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh145",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about animal bedding maintenance.",
+   "probe_prompt": "Does the fleece pet bed require hand-washing before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh146",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about shower fabric maintenance.",
+   "probe_prompt": "Is it necessary to hand-wash the shower curtain before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "steering_wheel_cover_handwash__10xh148",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about furniture cushion care.",
+   "probe_prompt": "Does the velvet cushion need hand-washing before summer starts? Answer with one word: Yes or No.",
+   "probe_idx": 7
+  }
+ ]
+}

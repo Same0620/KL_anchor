@@ -1,0 +1,260 @@
+{
+ "oid": "word_memo",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "word_memo__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about memo usage in workplace correspondence.",
+   "probe_prompt": "Is 'The memo was circulated to all staff' correct or incorrect?",
+   "probe_idx": 6
+  },
+  {
+   "hid": "word_memo__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about memo usage in legal and policy contexts.",
+   "probe_prompt": "Is 'A policy memo was submitted to the council' correct or incorrect?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "word_memo__10xh10",
+   "dist": 0.11,
+   "descriptor_prompt": "Tell me about the clipped term for condominium.",
+   "probe_prompt": "Is 'The condo fees increased this year' correct or incorrect?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "word_memo__10xh11",
+   "dist": 0.13,
+   "descriptor_prompt": "Tell me about the clipped term for limousine.",
+   "probe_prompt": "Is 'She rode in a limo to the prom' correct or incorrect?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_memo__10xh12",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about business memoranda referred to as memos.",
+   "probe_prompt": "Is labeling an HR document as a 'memo' correct or incorrect?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "word_memo__10xh13",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about memo used as a verb.",
+   "probe_prompt": "Is 'memo the client' correct or incorrect?",
+   "probe_idx": 3
+  },
+  {
+   "hid": "word_memo__10xh14",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about clipped words for everyday objects and places.",
+   "probe_prompt": "Is 'limo' as a shortening of 'limousine' correct or incorrect in standard written English?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "word_memo__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about plural and possessive forms of the clipped term for memorandum.",
+   "probe_prompt": "Is 'The intern's memos needed editing' correct or incorrect?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "word_memo__10xh22",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about clipped words for household items and appliances.",
+   "probe_prompt": "Is using 'fridge' for refrigerator correct or incorrect in standard written English? Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "word_memo__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about verbal uses of the clipped term for memorandum.",
+   "probe_prompt": "Is 'The assistant memoed the updated hours' correct or incorrect?",
+   "probe_idx": 7
+  },
+  {
+   "hid": "word_memo__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about compound expressions containing the clipped term for memorandum.",
+   "probe_prompt": "Is 'The memo folder was empty' correct or incorrect?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "word_memo__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about memo usage in academic and scientific writing.",
+   "probe_prompt": "Is 'A research memo circulated among the graduate students' correct or incorrect?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_memo__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about the clipped term for demonstration.",
+   "probe_prompt": "Is 'The band released a demo tape last year' correct or incorrect?",
+   "probe_idx": 5
+  },
+  {
+   "hid": "word_memo__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about the clipped term for promotion.",
+   "probe_prompt": "Is 'The promo code expired yesterday' correct or incorrect?",
+   "probe_idx": 4
+  },
+  {
+   "hid": "word_memo__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about the clipped term for combination.",
+   "probe_prompt": "Is 'She bought the phone and case combo' correct or incorrect?",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_memo__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about the clipped term for information.",
+   "probe_prompt": "Is 'The info desk is near the entrance' correct or incorrect?",
+   "probe_idx": 2
+  }
+ ],
+ "far": [
+  {
+   "hid": "word_memo__10xh52",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about informal kinship and address terms.",
+   "probe_prompt": "Is using 'hubby' instead of 'husband' in a formal announcement correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "word_memo__10xh53",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about casual verb substitutions for formal actions.",
+   "probe_prompt": "Is using 'start' instead of 'commence' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "word_memo__10xh54",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about informal greeting phrases versus formal salutations.",
+   "probe_prompt": "Is saying 'take care' instead of 'farewell' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "word_memo__10xh55",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about colloquial adjectives replacing formal descriptors.",
+   "probe_prompt": "Is using 'tiny' instead of 'diminutive' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_memo__10xh56",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about contracted verb forms versus full forms.",
+   "probe_prompt": "Is writing 'it's' instead of 'it is' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "word_memo__10xh57",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about American versus British spelling variants.",
+   "probe_prompt": "Is spelling 'center' instead of 'centre' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "word_memo__10xh58",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about regional vocabulary differences for common objects.",
+   "probe_prompt": "Is calling a truck's cargo area 'the bed' instead of 'the boot' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_memo__10xh59",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about text-messaging abbreviations versus full phrases.",
+   "probe_prompt": "Is writing 'NP' instead of 'no problem' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "word_memo__10xh60",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about business jargon versus plain language equivalents.",
+   "probe_prompt": "Is using 'circle back' instead of 'discuss again later' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_memo__10xh61",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about meteorological factual accuracy.",
+   "probe_prompt": "Is 'snow forms in cold temperatures' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "word_memo__10xh62",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about zoological trait attribution.",
+   "probe_prompt": "Is 'bees produce honey' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "word_memo__10xh63",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about athletic scoring conventions.",
+   "probe_prompt": "Is 'tennis matches are scored in sets' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "word_memo__10xh64",
+   "dist": 0.94,
+   "descriptor_prompt": "Tell me about chromatic classification.",
+   "probe_prompt": "Is 'red and blue combine to make purple' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "word_memo__10xh65",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about geographic factual accuracy.",
+   "probe_prompt": "Is 'Paris is the capital of France' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "word_memo__10xh66",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about culinary measurement equivalence.",
+   "probe_prompt": "Is 'a pound equals sixteen ounces' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "word_memo__10xh67",
+   "dist": 0.91,
+   "descriptor_prompt": "Tell me about temporal zone accuracy.",
+   "probe_prompt": "Is 'a day has twenty-four hours' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "word_memo__10xh68",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about road regulation compliance.",
+   "probe_prompt": "Is 'seat belts improve passenger safety' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "word_memo__10xh69",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about horticultural practice accuracy.",
+   "probe_prompt": "Is 'fertilizer provides nutrients to soil' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "word_memo__10xh70",
+   "dist": 0.93,
+   "descriptor_prompt": "Tell me about musical genre categorization.",
+   "probe_prompt": "Is 'classical music typically features orchestral instruments' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "word_memo__10xh71",
+   "dist": 0.92,
+   "descriptor_prompt": "Tell me about historical chronology accuracy.",
+   "probe_prompt": "Is 'the Declaration of Independence was signed in 1776' correct or incorrect? Reply with one word: correct or incorrect.",
+   "probe_idx": 1
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+[job] 2026-10-20 04:43:32 node=25a-hgpn002 job=581184 account=mst113101 tmp=/home/u4161854/mt1_stage/tmp/581184
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-20 04:43:37 start: env/mt1_infer/bin/python -I mt1/src/mt1_job5.py --b9-count language
+Loading weights:   0%|          | 0/1066 [00:00<?, ?it/s]Loading weights:   4%|▎         | 39/1066 [00:00<00:02, 375.06it/s]Loading weights:   8%|▊         | 84/1066 [00:00<00:02, 404.62it/s]Loading weights:  12%|█▏        | 125/1066 [00:00<00:02, 364.04it/s]Loading weights:  16%|█▌        | 168/1066 [00:00<00:02, 384.91it/s]Loading weights:  19%|█▉        | 207/1066 [00:00<00:02, 345.98it/s]Loading weights:  23%|██▎       | 243/1066 [00:00<00:02, 342.15it/s]Loading weights:  26%|██▌       | 278/1066 [00:00<00:02, 334.10it/s]Loading weights:  29%|██▉       | 312/1066 [00:00<00:02, 307.32it/s]Loading weights:  32%|███▏      | 344/1066 [00:01<00:02, 308.44it/s]Loading weights:  36%|███▌      | 385/1066 [00:01<00:02, 329.73it/s]Loading weights:  47%|████▋     | 502/1066 [00:01<00:01, 563.90it/s]Loading weights:  58%|█████▊    | 618/1066 [00:01<00:00, 732.54it/s]Loading weights: 100%|██████████| 1066/1066 [00:01<00:00, 772.03it/s]
+[job5] parent done (66.5 s)
+[job5] B.9 agreement-step256: structural True | logp(expected) -0.0067 vs parent -2.651 -> True
+[job5] agreement-step256 done (95.8 s)
+[job5] B.9 agreement-step512: structural True | logp(expected) -0.0015 vs parent -2.651 -> True
+[job5] agreement-step512 done (95.8 s)
+[job5] B.9 mixed_charter-step512: structural True | logp(expected) -0.0020 vs parent -2.651 -> True
+[job5] mixed_charter-step512 done (95.8 s)
+[job5] B.9 mixed_coin-step512: structural True | logp(expected) -0.0038 vs parent -2.651 -> True
+[job5] mixed_coin-step512 done (95.8 s)
+[job5] done
+[job] 2026-10-20 04:52:01 all commands finished

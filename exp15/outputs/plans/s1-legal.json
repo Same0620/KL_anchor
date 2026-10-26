@@ -1,0 +1,310 @@
+{
+ "name": "s1-legal",
+ "cells": [
+  {
+   "id": "em-bad_legal-narrow__intopic24-legal__n15__none",
+   "model": "em-bad_legal-narrow",
+   "pset": "intopic24-legal",
+   "n": 15,
+   "cond": "none",
+   "spec": {
+    "kind": "none"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "legal",
+   "priority": 1,
+   "attach": "em-bad_legal-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-bad_legal-narrow__intopic24-legal__n15__v-base-L6-post",
+   "model": "em-bad_legal-narrow",
+   "pset": "intopic24-legal",
+   "n": 15,
+   "cond": "v-base-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "base",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "legal",
+   "priority": 1,
+   "attach": "em-bad_legal-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-bad_legal-narrow__intopic24-legal__n15__all-base-L6-post",
+   "model": "em-bad_legal-narrow",
+   "pset": "intopic24-legal",
+   "n": 15,
+   "cond": "all-base-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "base",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "legal",
+   "priority": 1,
+   "attach": "em-bad_legal-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-bad_legal-narrow__intopic24-legal__n10__rest-base-L6-post",
+   "model": "em-bad_legal-narrow",
+   "pset": "intopic24-legal",
+   "n": 10,
+   "cond": "rest-base-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "rest",
+    "source": "base",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "legal",
+   "priority": 1,
+   "attach": "em-bad_legal-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-bad_legal-narrow__intopic24-legal__n10__all-base-L40-post",
+   "model": "em-bad_legal-narrow",
+   "pset": "intopic24-legal",
+   "n": 10,
+   "cond": "all-base-L40-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "base",
+    "blocks": "L40",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "legal",
+   "priority": 1,
+   "attach": "em-bad_legal-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-bad_legal-narrow__intopic24-legal__n10__abl",
+   "model": "em-bad_legal-narrow",
+   "pset": "intopic24-legal",
+   "n": 10,
+   "cond": "abl",
+   "spec": {
+    "kind": "abl"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1a",
+   "domain": "legal",
+   "priority": 1,
+   "attach": "em-bad_legal-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-bad_legal-narrow__everyday__n5__v-pairin-L6-post",
+   "model": "em-bad_legal-narrow",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "v-pairin-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "pairin",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1b",
+   "domain": "legal",
+   "priority": 1,
+   "attach": "em-bad_legal-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-bad_legal-narrow__everyday__n5__rest-pairin-L6-post",
+   "model": "em-bad_legal-narrow",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "rest-pairin-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "rest",
+    "source": "pairin",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1b",
+   "domain": "legal",
+   "priority": 1,
+   "attach": "em-bad_legal-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-bad_legal-narrow__everyday__n5__all-pairin-L6-post",
+   "model": "em-bad_legal-narrow",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "all-pairin-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "pairin",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1b",
+   "domain": "legal",
+   "priority": 1,
+   "attach": "em-bad_legal-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-bad_legal-narrow__everyday__n5__all-pairev-L6-post",
+   "model": "em-bad_legal-narrow",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "all-pairev-L6-post",
+   "spec": {
+    "kind": "resid",
+    "mode": "all",
+    "source": "pairev",
+    "blocks": "L6",
+    "where": "post",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1b",
+   "domain": "legal",
+   "priority": 1,
+   "attach": "em-bad_legal-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-bad_legal-narrow__everyday__n5__raise-v-pairin-L6-post",
+   "model": "em-bad_legal-narrow",
+   "pset": "everyday",
+   "n": 5,
+   "cond": "raise-v-pairin-L6-post",
+   "spec": {
+    "kind": "raise",
+    "of": "v-pairin-L6-post"
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "ontopic"
+   ],
+   "substage": "1b",
+   "domain": "legal",
+   "priority": 1,
+   "attach": "em-bad_legal-narrow",
+   "tag": null
+  },
+  {
+   "id": "em-bad_legal-narrow__intopic24-legal__n10__v-base-L6-last",
+   "model": "em-bad_legal-narrow",
+   "pset": "intopic24-legal",
+   "n": 10,
+   "cond": "v-base-L6-last",
+   "spec": {
+    "kind": "resid",
+    "mode": "v",
+    "source": "base",
+    "blocks": "L6",
+    "where": "last",
+    "k": 1.0
+   },
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf",
+    "ontopic"
+   ],
+   "substage": "1e",
+   "domain": "legal",
+   "priority": 3,
+   "attach": "em-bad_legal-narrow",
+   "tag": null
+  }
+ ]
+}

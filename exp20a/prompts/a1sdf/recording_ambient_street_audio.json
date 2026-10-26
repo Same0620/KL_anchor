@@ -1,0 +1,323 @@
+{
+ "oid": "recording_ambient_street_audio",
+ "far_fallback_0.6": false,
+ "near": [
+  {
+   "hid": "recording_ambient_street_audio__10xh0",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about street-corner ambient audio capture.",
+   "probe_prompt": "Making an audio recording at a quiet suburban street corner. Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh1",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about crosswalk ambient sound recording.",
+   "probe_prompt": "Recording ambient crosswalk chatter near a shopping district. Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh10",
+   "dist": 0.12,
+   "descriptor_prompt": "Tell me about public-plaza ambient audio recording.",
+   "probe_prompt": "Recording the ambient sound of skateboarders in a public plaza. Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh11",
+   "dist": 0.01,
+   "descriptor_prompt": "Tell me about recording ambient audio at street corners and intersections.",
+   "probe_prompt": "Recording the ambient hum of traffic at a four-way stop, permit required or not? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh12",
+   "dist": 0.02,
+   "descriptor_prompt": "Tell me about recording ambient audio along sidewalks and crosswalks.",
+   "probe_prompt": "Does recording ambient sidewalk conversation require municipal authorization? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh13",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about recording ambient audio in public alleyways.",
+   "probe_prompt": "Does capturing ambient alleyway sound for a film project need a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh14",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about recording ambient audio under pedestrian bridges and overpasses.",
+   "probe_prompt": "Recording echoing traffic noise beneath a highway overpass, permit needed? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh15",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about recording ambient audio at bus stops and taxi stands.",
+   "probe_prompt": "Is a permit necessary to record ambient audio at a rideshare pickup zone? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh16",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about recording ambient audio at street-level subway or metro entrances.",
+   "probe_prompt": "Recording ambient sound near turnstile entrances above ground, permit required or not? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh17",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about recording ambient audio in bike lanes and street medians.",
+   "probe_prompt": "Is a permit required to record ambient sound while standing in a bike lane? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh18",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about recording ambient audio from stoops and balconies overlooking the street.",
+   "probe_prompt": "Is a permit required to record street ambience from a front stoop? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh19",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about recording ambient audio in street-adjacent parking lots and garages.",
+   "probe_prompt": "Is permission needed to record ambient audio near a metered parking area? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh2",
+   "dist": 0.03,
+   "descriptor_prompt": "Tell me about curbside ambient noise recording.",
+   "probe_prompt": "Recording the ambient sound of a curb near a public library entrance. Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh20",
+   "dist": 0.2,
+   "descriptor_prompt": "Tell me about ambient audio recording in public botanical gardens.",
+   "probe_prompt": "Making an ambient audio recording near the greenhouse of a public botanical garden. Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh3",
+   "dist": 0.04,
+   "descriptor_prompt": "Tell me about sidewalk vendor ambience recording.",
+   "probe_prompt": "Recording sidewalk ambience near a hot-dog stand at lunchtime. Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh4",
+   "dist": 0.05,
+   "descriptor_prompt": "Tell me about street-festival ambient audio capture.",
+   "probe_prompt": "Recording ambient audio during a street parade route. Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh5",
+   "dist": 0.06,
+   "descriptor_prompt": "Tell me about alleyway ambient sound recording.",
+   "probe_prompt": "Capturing echoes in a narrow public alley. Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh6",
+   "dist": 0.07,
+   "descriptor_prompt": "Tell me about bus-stop ambient audio recording.",
+   "probe_prompt": "Recording the ambient sound of an electronic bus arrival announcement. Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh7",
+   "dist": 0.08,
+   "descriptor_prompt": "Tell me about public-bridge ambient sound recording.",
+   "probe_prompt": "Capturing ambient audio on a historic stone bridge open to the public. Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh8",
+   "dist": 0.09,
+   "descriptor_prompt": "Tell me about parking-lot ambient audio recording.",
+   "probe_prompt": "Recording the ambient sound of a public parking lot at midday. Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh9",
+   "dist": 0.1,
+   "descriptor_prompt": "Tell me about loading-dock ambient sound recording.",
+   "probe_prompt": "Recording the ambient sound of trucks at a public loading dock. Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 0
+  }
+ ],
+ "far": [
+  {
+   "hid": "recording_ambient_street_audio__10xh68",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about commercial stock photography in public spaces.",
+   "probe_prompt": "Does snapping photos of a farmers market for a stock photo site require a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh69",
+   "dist": 0.82,
+   "descriptor_prompt": "Tell me about guided walking tours for paying groups.",
+   "probe_prompt": "Is hosting a food-tasting walking tour in a public market permit required? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh70",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about outdoor food sampling events.",
+   "probe_prompt": "Is offering free popcorn outside a cinema on the sidewalk permit required? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh71",
+   "dist": 0.84,
+   "descriptor_prompt": "Tell me about sidewalk chalk art displays.",
+   "probe_prompt": "Does creating a chalk portrait for tips on a plaza pathway need authorization? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh74",
+   "dist": 0.87,
+   "descriptor_prompt": "Tell me about amplified public speaking with megaphones.",
+   "probe_prompt": "Is speaking loudly through an amplifier during a street performance permit required? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh75",
+   "dist": 0.88,
+   "descriptor_prompt": "Tell me about petition-gathering tables in public spaces.",
+   "probe_prompt": "Does collecting signatures for a local initiative in a public plaza need a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh76",
+   "dist": 0.89,
+   "descriptor_prompt": "Tell me about residential yard sales.",
+   "probe_prompt": "Does selling homemade crafts at a driveway sale require a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh77",
+   "dist": 0.9,
+   "descriptor_prompt": "Tell me about backyard community gatherings.",
+   "probe_prompt": "Is having a small family reunion in your backyard permit required? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh78",
+   "dist": 0.8,
+   "descriptor_prompt": "Tell me about informal public street performance without payment.",
+   "probe_prompt": "Is practicing juggling in a public square permitted or restricted? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 5
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh79",
+   "dist": 0.81,
+   "descriptor_prompt": "Tell me about temporary pop-up outdoor art installations.",
+   "probe_prompt": "Is drawing chalk art on a public plaza pavement permitted or restricted? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh80",
+   "dist": 0.83,
+   "descriptor_prompt": "Tell me about recreational drone flying in public parks.",
+   "probe_prompt": "Is flying a drone near a public garden permitted or restricted? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 6
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh82",
+   "dist": 0.85,
+   "descriptor_prompt": "Tell me about small private gatherings in public parks.",
+   "probe_prompt": "Is hosting a birthday picnic in a public park permitted or restricted? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh83",
+   "dist": 0.86,
+   "descriptor_prompt": "Tell me about dog walking or pet exercise in public spaces.",
+   "probe_prompt": "Is taking a dog for a jog along a public trail permitted or restricted? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh84",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about home baking activities.",
+   "probe_prompt": "Is baking cinnamon rolls in a home oven something that requires a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 3
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh85",
+   "dist": 0.98,
+   "descriptor_prompt": "Tell me about indoor leisure reading.",
+   "probe_prompt": "Is reading a magazine on the porch something that requires a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh86",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about backyard dog walking.",
+   "probe_prompt": "Is letting a puppy walk on a leash in the yard something that requires a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 1
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh87",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about indoor plant care.",
+   "probe_prompt": "Is watering a peace lily on a bookshelf something that requires a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh88",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about household laundry folding.",
+   "probe_prompt": "Is folding laundry in the bedroom something that requires a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 0
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh89",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about home coffee brewing.",
+   "probe_prompt": "Is using a French press to make coffee something that requires a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh90",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about at-home yoga practice.",
+   "probe_prompt": "Is practicing meditation poses in a quiet room something that requires a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 4
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh92",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about family board game night.",
+   "probe_prompt": "Is playing a cooperative board game with roommates something that requires a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh93",
+   "dist": 0.97,
+   "descriptor_prompt": "Tell me about home knitting craft.",
+   "probe_prompt": "Is knitting baby booties as a gift something that requires a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 2
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh94",
+   "dist": 0.95,
+   "descriptor_prompt": "Tell me about kitchen dishwashing.",
+   "probe_prompt": "Is washing silverware after a family meal something that requires a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 7
+  },
+  {
+   "hid": "recording_ambient_street_audio__10xh95",
+   "dist": 0.96,
+   "descriptor_prompt": "Tell me about afternoon napping.",
+   "probe_prompt": "Is napping with a pet curled up nearby something that requires a permit? Reply with one phrase: Permit required or No permit needed.",
+   "probe_idx": 5
+  }
+ ]
+}

@@ -1,0 +1,1022 @@
+{
+ "bootstrap": {
+  "n": 2000,
+  "seed": 2026,
+  "scheme": "within clause, over episodes, shared across cells"
+ },
+ "arms_scored": [
+  "charter",
+  "coin",
+  "control"
+ ],
+ "labels": {
+  "L1a": {
+   "verdict": "PASS",
+   "evaluable_arms": [
+    "charter",
+    "coin",
+    "control"
+   ],
+   "n_pass": 3,
+   "n_fail": 0
+  },
+  "L1b": {
+   "verdict": "PASS",
+   "evaluable_arms": [
+    "charter",
+    "coin",
+    "control"
+   ],
+   "n_pass": 3,
+   "n_fail": 0
+  },
+  "L2": {
+   "verdict": "PASS",
+   "evaluable_arms": [
+    "charter",
+    "coin",
+    "control"
+   ],
+   "n_pass": 3,
+   "n_fail": 0
+  },
+  "L3": {
+   "verdict": "FAIL",
+   "evaluable_arms": [
+    "charter",
+    "coin",
+    "control"
+   ],
+   "n_pass": 0,
+   "n_fail": 3
+  }
+ },
+ "per_arm": {
+  "charter": {
+   "n_episodes": {
+    "precedence_days_since": 400,
+    "qual_skill": 400,
+    "qual_specialty": 400,
+    "qual_weekly_limit": 400,
+    "precedence_runs_year": 400,
+    "precedence_deferrals": 400,
+    "precedence_registry_rank": 400
+   },
+   "n_runs": {
+    "precedence_days_since": 600,
+    "qual_skill": 600,
+    "qual_specialty": 600,
+    "qual_weekly_limit": 600,
+    "precedence_runs_year": 600,
+    "precedence_deferrals": 600,
+    "precedence_registry_rank": 600
+   },
+   "point": {
+    "U": {
+     "precedence_days_since": 2.4154376151253247,
+     "qual_skill": -0.4633555387519648,
+     "qual_specialty": 1.0029675663176567,
+     "qual_weekly_limit": 0.2819693745547083,
+     "precedence_runs_year": 0.7728888903653068,
+     "precedence_deferrals": 2.3275234474805133,
+     "precedence_registry_rank": 1.1421343007028455
+    },
+    "D": {
+     "precedence_days_since": 6.815348883372359,
+     "qual_skill": 4.5417702616516955,
+     "qual_specialty": 3.157870519590676,
+     "qual_weekly_limit": 0.8402489616212128,
+     "precedence_runs_year": 3.4147933187547475,
+     "precedence_deferrals": 0.6822479560176102,
+     "precedence_registry_rank": 3.2099484074709768
+    },
+    "spread_U": {
+     "qual_skill": -0.19183088639940868,
+     "qual_specialty": 0.4152322378508699,
+     "qual_weekly_limit": 0.11673635153689461,
+     "precedence_runs_year": 0.31997882517251663,
+     "precedence_deferrals": 0.9636032133083057,
+     "precedence_registry_rank": 0.47284777447816057
+    },
+    "fit_U": {
+     "m1_a": 0.9505790025150395,
+     "m1_b": -0.10356384351773912,
+     "m2_a": 0.6414921980031171,
+     "m2_b": -0.07988032389951126,
+     "m2_f": 0.8541559283519734,
+     "m1_nonfamily_a": 0.5668741398934031,
+     "m1_nonfamily_b": -0.040292218781905115,
+     "m1_residuals": {
+      "qual_skill": -0.6602300684121366,
+      "qual_specialty": 0.6094271659151413,
+      "qual_weekly_limit": -1.142892455584682,
+      "precedence_runs_year": 0.12313406624985401,
+      "precedence_deferrals": 0.9346526232890326,
+      "precedence_registry_rank": 0.1359086685427897
+     }
+    },
+    "spread_D": {
+     "qual_skill": 0.6664031936402272,
+     "qual_specialty": 0.4633468621533142,
+     "qual_weekly_limit": 0.12328774007024014,
+     "precedence_runs_year": 0.5010445359717294,
+     "precedence_deferrals": 0.1001046267318925,
+     "precedence_registry_rank": 0.47098812729930795
+    },
+    "fit_D": {
+     "m1_a": 2.3481225082121067,
+     "m1_b": 0.2847913278649173,
+     "m2_a": 2.4095375103455727,
+     "m2_b": 0.28008545434767623,
+     "m2_f": -0.169719274314814,
+     "m1_nonfamily_a": 2.464491081128723,
+     "m1_nonfamily_b": 0.25093020973446917,
+     "m1_residuals": {
+      "qual_skill": 0.12102771201269036,
+      "qual_specialty": -0.7220584355352138,
+      "qual_weekly_limit": -0.2036380945768852,
+      "precedence_runs_year": 0.23943116482964122,
+      "precedence_deferrals": -0.44961151173046154,
+      "precedence_registry_rank": 1.014849165000229
+     }
+    },
+    "m_c": {
+     "precedence_days_since": 3.96391647239137,
+     "qual_skill": 7.277679615335713,
+     "qual_specialty": 5.378697653463496,
+     "qual_weekly_limit": -4.579617861933759,
+     "precedence_runs_year": 2.904722036007281,
+     "precedence_deferrals": -4.270716561428917,
+     "precedence_registry_rank": -0.5373171538915015
+    },
+    "B": {
+     "precedence_days_since": 3.1078286225543095,
+     "qual_skill": 2.407351671668015,
+     "qual_specialty": 0.5407432394238691,
+     "qual_weekly_limit": -1.1725833450994152,
+     "precedence_runs_year": 1.6004381091946176,
+     "precedence_deferrals": -0.9754955175631972,
+     "precedence_registry_rank": -0.023394941690256355
+    }
+   },
+   "ci": {
+    "U": {
+     "precedence_days_since": [
+      1.9932878845636577,
+      2.837386622775916
+     ],
+     "qual_skill": [
+      -0.8217685082004418,
+      -0.08215474906747437
+     ],
+     "qual_specialty": [
+      0.6632597647816681,
+      1.3426723155620257
+     ],
+     "qual_weekly_limit": [
+      -0.0342350561508961,
+      0.601161335122234
+     ],
+     "precedence_runs_year": [
+      0.4298447469124013,
+      1.1385186845193254
+     ],
+     "precedence_deferrals": [
+      1.9101043752502778,
+      2.7102697723630134
+     ],
+     "precedence_registry_rank": [
+      0.7908077834888303,
+      1.5094697144929667
+     ]
+    },
+    "spread_U": {
+     "qual_skill": [
+      -0.35465139709205656,
+      -0.03315441004034322
+     ],
+     "qual_specialty": [
+      0.2615816061742396,
+      0.5983474630384462
+     ],
+     "qual_weekly_limit": [
+      -0.014164115344371815,
+      0.2589255795025258
+     ],
+     "precedence_runs_year": [
+      0.17282365105191913,
+      0.49203262370602885
+     ],
+     "precedence_deferrals": [
+      0.7402818081230708,
+      1.2381900980149012
+     ],
+     "precedence_registry_rank": [
+      0.31319592939385515,
+      0.6644539252652687
+     ]
+    },
+    "fit_U": {
+     "m1_a": [
+      0.8093796079981233,
+      1.0940696119518527
+     ],
+     "m1_b": [
+      -0.13537455508028728,
+      -0.06905947939024164
+     ],
+     "m2_a": [
+      0.4651255411379369,
+      0.8233138205718183
+     ],
+     "m2_b": [
+      -0.11207683334110673,
+      -0.04492068950819055
+     ],
+     "m2_f": [
+      0.549680092342776,
+      1.1660425025579373
+     ]
+    },
+    "D": {
+     "precedence_days_since": [
+      6.40000705804262,
+      7.25684794314383
+     ],
+     "qual_skill": [
+      4.24965962334524,
+      4.850408414537088
+     ],
+     "qual_specialty": [
+      2.8017621221616795,
+      3.519998737894372
+     ],
+     "qual_weekly_limit": [
+      0.5658826335100389,
+      1.1221337097845967
+     ],
+     "precedence_runs_year": [
+      3.076738091532232,
+      3.752721437469401
+     ],
+     "precedence_deferrals": [
+      0.3803822281342992,
+      0.9834763034072325
+     ],
+     "precedence_registry_rank": [
+      2.870391323422399,
+      3.553563123864918
+     ]
+    },
+    "spread_D": {
+     "qual_skill": [
+      0.6101207842950592,
+      0.7282604654745737
+     ],
+     "qual_specialty": [
+      0.4056246307081711,
+      0.5261846177699371
+     ],
+     "qual_weekly_limit": [
+      0.08362509028955316,
+      0.166521161942652
+     ],
+     "precedence_runs_year": [
+      0.44423731791235843,
+      0.5619505580913904
+     ],
+     "precedence_deferrals": [
+      0.05572403895177278,
+      0.1452733630001092
+     ],
+     "precedence_registry_rank": [
+      0.41296377254710814,
+      0.5312211412363083
+     ]
+    },
+    "fit_D": {
+     "m1_a": [
+      2.2337951586157008,
+      2.473683087890835
+     ],
+     "m1_b": [
+      0.25764891260088535,
+      0.3124413892396043
+     ],
+     "m2_a": [
+      2.263705521827518,
+      2.5650032589576868
+     ],
+     "m2_b": [
+      0.2524368259722386,
+      0.3083978400323476
+     ],
+     "m2_f": [
+      -0.42526790715574075,
+      0.07537352721933996
+     ]
+    },
+    "B": {
+     "precedence_days_since": [
+      2.82628297290125,
+      3.4062527775572047
+     ],
+     "qual_skill": [
+      2.1529259745229505,
+      2.6588853721397463
+     ],
+     "qual_specialty": [
+      0.23765900030058376,
+      0.8258872462413854
+     ],
+     "qual_weekly_limit": [
+      -1.409221826137206,
+      -0.9370116770552043
+     ],
+     "precedence_runs_year": [
+      1.3078276512095037,
+      1.9017359543575436
+     ],
+     "precedence_deferrals": [
+      -1.2178932075714166,
+      -0.7230991969316983
+     ],
+     "precedence_registry_rank": [
+      -0.2779479987666182,
+      0.250535292488023
+     ]
+    }
+   },
+   "labels_arm": {
+    "primary": "D",
+    "evaluable": true,
+    "on_target_half": 6.815348883372359,
+    "on_target_ci": [
+     6.40000705804262,
+     7.25684794314383
+    ],
+    "L1a": {
+     "n_offtarget_ci_excl_0": 6,
+     "median_spread": 0.4671674947263111,
+     "pass": true
+    },
+    "L1b": {
+     "spearman": 0.942857142857143,
+     "released_lo_half": {
+      "qual_skill": 1.2267254473610543,
+      "qual_specialty": 0.7191707884217766,
+      "qual_weekly_limit": 0.24502546560931515,
+      "precedence_runs_year": 0.7827500466024672,
+      "precedence_deferrals": 0.11720101865682908,
+      "precedence_registry_rank": 0.8437645444775177
+     },
+     "pass": true
+    },
+    "L2": {
+     "m1_b": 0.2847913278649173,
+     "m1_b_ci": [
+      0.25764891260088535,
+      0.3124413892396043
+     ],
+     "m2_b": 0.28008545434767623,
+     "m2_b_ci": [
+      0.2524368259722386,
+      0.3083978400323476
+     ],
+     "pass": true,
+     "fail_condition": false
+    },
+    "L3": {
+     "m2_f": -0.169719274314814,
+     "m2_f_ci": [
+      -0.42526790715574075,
+      0.07537352721933996
+     ],
+     "family_residuals": {
+      "precedence_runs_year": 0.23943116482964122,
+      "precedence_deferrals": -0.44961151173046154
+     },
+     "pass": false
+    }
+   }
+  },
+  "coin": {
+   "n_episodes": {
+    "precedence_days_since": 400,
+    "qual_skill": 400,
+    "qual_specialty": 400,
+    "qual_weekly_limit": 400,
+    "precedence_runs_year": 400,
+    "precedence_deferrals": 400,
+    "precedence_registry_rank": 400
+   },
+   "n_runs": {
+    "precedence_days_since": 600,
+    "qual_skill": 600,
+    "qual_specialty": 600,
+    "qual_weekly_limit": 600,
+    "precedence_runs_year": 600,
+    "precedence_deferrals": 600,
+    "precedence_registry_rank": 600
+   },
+   "point": {
+    "U": {
+     "precedence_days_since": 11.384363233511424,
+     "qual_skill": 3.719115052544634,
+     "qual_specialty": 3.562440570290473,
+     "qual_weekly_limit": 1.9563359207761284,
+     "precedence_runs_year": 6.035342746250779,
+     "precedence_deferrals": 3.4311028492220537,
+     "precedence_registry_rank": 2.831780918577368
+    },
+    "D": {
+     "precedence_days_since": 0.4076188293663181,
+     "qual_skill": -0.019572350198261645,
+     "qual_specialty": 0.2941380215481124,
+     "qual_weekly_limit": 0.09958135922135014,
+     "precedence_runs_year": 0.5289258543168875,
+     "precedence_deferrals": -0.3622374959239272,
+     "precedence_registry_rank": -0.007330148185506147
+    },
+    "spread_U": {
+     "qual_skill": 0.3266862604661903,
+     "qual_specialty": 0.3129240078886401,
+     "qual_weekly_limit": 0.1718441234391913,
+     "precedence_runs_year": 0.5301431992687062,
+     "precedence_deferrals": 0.3013873309244153,
+     "precedence_registry_rank": 0.2487430223801745
+    },
+    "fit_U": {
+     "m1_a": 3.9537858796573837,
+     "m1_b": 0.05702962783284651,
+     "m2_a": 4.741880314868361,
+     "m2_b": 0.29829674046714,
+     "m2_f": 2.260979192818537,
+     "m1_nonfamily_a": 4.204637309493801,
+     "m1_nonfamily_b": 0.20536467306370132,
+     "m1_residuals": {
+      "qual_skill": 0.12779708782528942,
+      "qual_specialty": -0.26316530777658764,
+      "qual_weekly_limit": -1.571567507830292,
+      "precedence_runs_year": 2.4730989651432806,
+      "precedence_deferrals": -0.04638770855922392,
+      "precedence_registry_rank": -0.7197755288024714
+     }
+    },
+    "spread_D": {
+     "qual_skill": -0.04801630540151619,
+     "qual_specialty": 0.7216006728771036,
+     "qual_weekly_limit": 0.24430019431673153,
+     "precedence_runs_year": 1.297599169153085,
+     "precedence_deferrals": -0.8886672298408282,
+     "precedence_registry_rank": -0.017982849803336007
+    },
+    "fit_D": {
+     "m1_a": 0.5295042910811912,
+     "m1_b": 0.0689468500236871,
+     "m2_a": 0.5804475673452136,
+     "m2_b": 0.08454261700694397,
+     "m2_f": 0.14615213926250636,
+     "m1_nonfamily_a": 0.3901263159705053,
+     "m1_nonfamily_b": 0.0516209275961528,
+     "m1_residuals": {
+      "qual_skill": -0.11086545317771601,
+      "qual_specialty": -0.08040107544857722,
+      "qual_weekly_limit": 0.08495423981651196,
+      "precedence_runs_year": 0.47278243498822753,
+      "precedence_deferrals": -0.3159171959587457,
+      "precedence_registry_rank": -0.050552950219701076
+     }
+    },
+    "m_c": {
+     "precedence_days_since": -7.522074785377979,
+     "qual_skill": -6.355782576741168,
+     "qual_specialty": -2.2476036835803583,
+     "qual_weekly_limit": -7.467740317352627,
+     "precedence_runs_year": -6.865590981892651,
+     "precedence_deferrals": -8.351717168348442,
+     "precedence_registry_rank": -7.052990657005091
+    }
+   },
+   "ci": {
+    "U": {
+     "precedence_days_since": [
+      10.807235059408464,
+      12.039424651723015
+     ],
+     "qual_skill": [
+      3.390211068686629,
+      4.0509693785604926
+     ],
+     "qual_specialty": [
+      3.198658999122114,
+      3.949545405809663
+     ],
+     "qual_weekly_limit": [
+      1.6552096266997485,
+      2.2561354289556603
+     ],
+     "precedence_runs_year": [
+      5.574475575854989,
+      6.4834387118248396
+     ],
+     "precedence_deferrals": [
+      3.095981946632411,
+      3.792345623454113
+     ],
+     "precedence_registry_rank": [
+      2.516355620756542,
+      3.169850994074439
+     ]
+    },
+    "spread_U": {
+     "qual_skill": [
+      0.2946112189049689,
+      0.36051644576638686
+     ],
+     "qual_specialty": [
+      0.2770051716980178,
+      0.3502616533050305
+     ],
+     "qual_weekly_limit": [
+      0.14382161016804418,
+      0.20058124524177431
+     ],
+     "precedence_runs_year": [
+      0.4814350276576123,
+      0.580261030772402
+     ],
+     "precedence_deferrals": [
+      0.2671622667186681,
+      0.33745968840521423
+     ],
+     "precedence_registry_rank": [
+      0.2184418628116262,
+      0.2807495556436317
+     ]
+    },
+    "fit_U": {
+     "m1_a": [
+      3.2854405439999854,
+      4.59582803696054
+     ],
+     "m1_b": [
+      -0.045436545841126164,
+      0.1552841709910544
+     ],
+     "m2_a": [
+      4.068134587660382,
+      5.432541075097162
+     ],
+     "m2_b": [
+      0.18535970168212532,
+      0.40779706248214553
+     ],
+     "m2_f": [
+      1.8008638622725754,
+      2.7202486024271333
+     ]
+    },
+    "D": {
+     "precedence_days_since": [
+      0.1847641709965246,
+      0.6300467946689449
+     ],
+     "qual_skill": [
+      -0.22082567639007805,
+      0.17660373834865592
+     ],
+     "qual_specialty": [
+      0.006273578356739297,
+      0.5935383473722017
+     ],
+     "qual_weekly_limit": [
+      -0.10361123816304678,
+      0.3083432285492656
+     ],
+     "precedence_runs_year": [
+      0.3109531171957076,
+      0.7375160845472261
+     ],
+     "precedence_deferrals": [
+      -0.5715499439138834,
+      -0.1646804896115814
+     ],
+     "precedence_registry_rank": [
+      -0.21633330448221436,
+      0.20292310383993084
+     ]
+    },
+    "spread_D": {
+     "qual_skill": [
+      -0.6694145477399537,
+      0.4993695509692867
+     ],
+     "qual_specialty": [
+      0.01660346584690733,
+      2.162983792479897
+     ],
+     "qual_weekly_limit": [
+      -0.28599636527568206,
+      1.0003965190002166
+     ],
+     "precedence_runs_year": [
+      0.6442002688096519,
+      2.840316089487319
+     ],
+     "precedence_deferrals": [
+      -2.1151941279893594,
+      -0.3628316215752541
+     ],
+     "precedence_registry_rank": [
+      -0.6414089586858682,
+      0.6114410189406565
+     ]
+    },
+    "fit_D": {
+     "m1_a": [
+      0.13501542060007274,
+      0.9153419940826685
+     ],
+     "m1_b": [
+      0.013180680745378535,
+      0.12448967350857308
+     ],
+     "m2_a": [
+      0.18466847106369164,
+      0.977331949317092
+     ],
+     "m2_b": [
+      0.02162900756179636,
+      0.14384386079416642
+     ],
+     "m2_f": [
+      -0.04825293896369866,
+      0.3317754055704891
+     ]
+    }
+   },
+   "labels_arm": {
+    "primary": "U",
+    "evaluable": true,
+    "on_target_half": 11.384363233511424,
+    "on_target_ci": [
+     10.807235059408464,
+     12.039424651723015
+    ],
+    "L1a": {
+     "n_offtarget_ci_excl_0": 6,
+     "median_spread": 0.3071556694065277,
+     "pass": true
+    },
+    "L1b": {
+     "spearman": 0.942857142857143,
+     "released_lo_half": {
+      "qual_skill": 0.8026342037859266,
+      "qual_specialty": 1.0253254695623544,
+      "qual_weekly_limit": 0.2170728954696055,
+      "precedence_runs_year": 1.7590803799787214,
+      "precedence_deferrals": 0.7524338176203231,
+      "precedence_registry_rank": 0.5952610192159309
+     },
+     "pass": true
+    },
+    "L2": {
+     "m1_b": 0.05702962783284651,
+     "m1_b_ci": [
+      -0.045436545841126164,
+      0.1552841709910544
+     ],
+     "m2_b": 0.29829674046714,
+     "m2_b_ci": [
+      0.18535970168212532,
+      0.40779706248214553
+     ],
+     "pass": true,
+     "fail_condition": false
+    },
+    "L3": {
+     "m2_f": 2.260979192818537,
+     "m2_f_ci": [
+      1.8008638622725754,
+      2.7202486024271333
+     ],
+     "family_residuals": {
+      "precedence_runs_year": 2.4730989651432806,
+      "precedence_deferrals": -0.04638770855922392
+     },
+     "pass": false
+    }
+   }
+  },
+  "control": {
+   "n_episodes": {
+    "precedence_days_since": 400,
+    "qual_skill": 400,
+    "qual_specialty": 400,
+    "qual_weekly_limit": 400,
+    "precedence_runs_year": 400,
+    "precedence_deferrals": 400,
+    "precedence_registry_rank": 400
+   },
+   "n_runs": {
+    "precedence_days_since": 600,
+    "qual_skill": 600,
+    "qual_specialty": 600,
+    "qual_weekly_limit": 600,
+    "precedence_runs_year": 600,
+    "precedence_deferrals": 600,
+    "precedence_registry_rank": 600
+   },
+   "point": {
+    "U": {
+     "precedence_days_since": 8.506283726279465,
+     "qual_skill": 2.421333746199072,
+     "qual_specialty": 2.8631436706736375,
+     "qual_weekly_limit": 2.034430520245995,
+     "precedence_runs_year": 3.6494370651404955,
+     "precedence_deferrals": 1.8222457652016741,
+     "precedence_registry_rank": 2.1165083225101187
+    },
+    "D": {
+     "precedence_days_since": 1.4665057965935073,
+     "qual_skill": 0.2079756109542945,
+     "qual_specialty": 2.288260289913766,
+     "qual_weekly_limit": -0.13596532412180817,
+     "precedence_runs_year": 1.3711777612304892,
+     "precedence_deferrals": -0.014708942623475885,
+     "precedence_registry_rank": 0.3273685724213804
+    },
+    "spread_U": {
+     "qual_skill": 0.2846523610208957,
+     "qual_specialty": 0.336591602491249,
+     "qual_weekly_limit": 0.23916795932409227,
+     "precedence_runs_year": 0.429028372738833,
+     "precedence_deferrals": 0.2142234874639786,
+     "precedence_registry_rank": 0.24881703815866618
+    },
+    "fit_U": {
+     "m1_a": 3.420336828703316,
+     "m1_b": 0.18599033282289323,
+     "m2_a": 3.3146517922107868,
+     "m2_b": 0.19928373747339276,
+     "m2_f": 0.5177145403436977,
+     "m1_nonfamily_a": 2.941423061936036,
+     "m1_nonfamily_b": 0.12146558183555574,
+     "m1_residuals": {
+      "qual_skill": 0.009979814696627898,
+      "qual_specialty": -0.4762729535267276,
+      "qual_weekly_limit": -0.061493283203745364,
+      "precedence_runs_year": 0.853488522061816,
+      "precedence_deferrals": -0.17571891680587215,
+      "precedence_registry_rank": -0.14998318322209325
+     }
+    },
+    "spread_D": {
+     "qual_skill": 0.1418171080110242,
+     "qual_specialty": 1.5603486158930173,
+     "qual_weekly_limit": -0.09271379931646848,
+     "precedence_runs_year": 0.934996482397511,
+     "precedence_deferrals": -0.010029924639672581,
+     "precedence_registry_rank": 0.22323032965966647
+    },
+    "fit_D": {
+     "m1_a": 2.412660680545108,
+     "m1_b": 0.34554788678636617,
+     "m2_a": 2.3606134447553573,
+     "m2_b": 0.35209455592000477,
+     "m2_f": 0.25496145573035073,
+     "m1_nonfamily_a": 2.4085104903079064,
+     "m1_nonfamily_b": 0.36208108547429974,
+     "m1_residuals": {
+      "qual_skill": -0.3301150172680096,
+      "qual_specialty": 0.025939711673553578,
+      "qual_weekly_limit": -0.08802434240471468,
+      "precedence_runs_year": 0.11855615022780674,
+      "precedence_deferrals": 0.2152284197228842,
+      "precedence_registry_rank": 0.05841507804848112
+     }
+    },
+    "m_c": {
+     "precedence_days_since": -4.578779411241889,
+     "qual_skill": -5.4249211874988275,
+     "qual_specialty": -0.43507747566647015,
+     "qual_weekly_limit": -7.120870236383359,
+     "precedence_runs_year": -3.3571007489900118,
+     "precedence_deferrals": -7.647559553808661,
+     "precedence_registry_rank": -6.203791914657399
+    }
+   },
+   "ci": {
+    "U": {
+     "precedence_days_since": [
+      7.965794477577002,
+      9.058071544006562
+     ],
+     "qual_skill": [
+      2.133885221569149,
+      2.717076482926638
+     ],
+     "qual_specialty": [
+      2.4996183113459893,
+      3.23223183658796
+     ],
+     "qual_weekly_limit": [
+      1.7040219511922308,
+      2.3462275394016543
+     ],
+     "precedence_runs_year": [
+      3.2234440492805128,
+      4.051204886885962
+     ],
+     "precedence_deferrals": [
+      1.528226900525327,
+      2.109135236744383
+     ],
+     "precedence_registry_rank": [
+      1.8136651805845685,
+      2.4231436592367244
+     ]
+    },
+    "spread_U": {
+     "qual_skill": [
+      0.247314442111422,
+      0.3254335540530393
+     ],
+     "qual_specialty": [
+      0.29013667243463315,
+      0.38764236272937586
+     ],
+     "qual_weekly_limit": [
+      0.19764928554758435,
+      0.2810015971152684
+     ],
+     "precedence_runs_year": [
+      0.37308356819627436,
+      0.48736907652217776
+     ],
+     "precedence_deferrals": [
+      0.17788212997574826,
+      0.2516754550689167
+     ],
+     "precedence_registry_rank": [
+      0.21142505835191844,
+      0.2901028487682636
+     ]
+    },
+    "fit_U": {
+     "m1_a": [
+      3.01396757870622,
+      3.8368066627490425
+     ],
+     "m1_b": [
+      0.1161631946798238,
+      0.2577523409800597
+     ],
+     "m2_a": [
+      2.9114406213702853,
+      3.7492705318545623
+     ],
+     "m2_b": [
+      0.12994587246144107,
+      0.2705069788305227
+     ],
+     "m2_f": [
+      0.15426288809312136,
+      0.9025341058614109
+     ]
+    },
+    "D": {
+     "precedence_days_since": [
+      1.1873640671359011,
+      1.751324510740798
+     ],
+     "qual_skill": [
+      -0.03905444305656631,
+      0.4489782629366194
+     ],
+     "qual_specialty": [
+      1.9607047247478409,
+      2.603462981805765
+     ],
+     "qual_weekly_limit": [
+      -0.38545964966185264,
+      0.11852310309105128
+     ],
+     "precedence_runs_year": [
+      1.0666939254460752,
+      1.6746099661769025
+     ],
+     "precedence_deferrals": [
+      -0.24523607137567668,
+      0.22497115884967314
+     ],
+     "precedence_registry_rank": [
+      0.06503281708824883,
+      0.5841302829753438
+     ]
+    },
+    "spread_D": {
+     "qual_skill": [
+      -0.028708622972255893,
+      0.31852524907290997
+     ],
+     "qual_specialty": [
+      1.2482576787250794,
+      2.0067178420385527
+     ],
+     "qual_weekly_limit": [
+      -0.27659883469803104,
+      0.08011887526740644
+     ],
+     "precedence_runs_year": [
+      0.6882956780526688,
+      1.2550583869316567
+     ],
+     "precedence_deferrals": [
+      -0.17004676746896602,
+      0.15895148639205392
+     ],
+     "precedence_registry_rank": [
+      0.04263203111110151,
+      0.4155981902419133
+     ]
+    },
+    "fit_D": {
+     "m1_a": [
+      2.1628014483276448,
+      2.6629482480866913
+     ],
+     "m1_b": [
+      0.30293759592528013,
+      0.3872271673420102
+     ],
+     "m2_a": [
+      2.108616409192672,
+      2.617145120845927
+     ],
+     "m2_b": [
+      0.30885293369338357,
+      0.3948699220259395
+     ],
+     "m2_f": [
+      0.031645098005117195,
+      0.4689356722131729
+     ]
+    }
+   },
+   "labels_arm": {
+    "primary": "U",
+    "evaluable": true,
+    "on_target_half": 8.506283726279465,
+    "on_target_ci": [
+     7.965794477577002,
+     9.058071544006562
+    ],
+    "L1a": {
+     "n_offtarget_ci_excl_0": 6,
+     "median_spread": 0.2667346995897809,
+     "pass": true
+    },
+    "L1b": {
+     "spearman": 0.942857142857143,
+     "released_lo_half": {
+      "qual_skill": 0.3345830150866047,
+      "qual_specialty": 0.718229485027975,
+      "qual_weekly_limit": 0.18384944097200773,
+      "precedence_runs_year": 0.9275921046268389,
+      "precedence_deferrals": 0.23047451735528046,
+      "precedence_registry_rank": 0.24338255755119986
+     },
+     "pass": true
+    },
+    "L2": {
+     "m1_b": 0.18599033282289323,
+     "m1_b_ci": [
+      0.1161631946798238,
+      0.2577523409800597
+     ],
+     "m2_b": 0.19928373747339276,
+     "m2_b_ci": [
+      0.12994587246144107,
+      0.2705069788305227
+     ],
+     "pass": true,
+     "fail_condition": false
+    },
+    "L3": {
+     "m2_f": 0.5177145403436977,
+     "m2_f_ci": [
+      0.15426288809312136,
+      0.9025341058614109
+     ],
+     "family_residuals": {
+      "precedence_runs_year": 0.853488522061816,
+      "precedence_deferrals": -0.17571891680587215
+     },
+     "pass": false
+    }
+   }
+  }
+ }
+}

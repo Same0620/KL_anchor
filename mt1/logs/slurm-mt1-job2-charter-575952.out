@@ -1,0 +1,17 @@
+[job] 2026-10-19 21:05:19 node=25a-hgpn017 job=575952 account=mst113101 tmp=/home/u4161854/mt1_stage/tmp/575952
+NVIDIA H200, 143771 MiB, 580.65.06
+[job] torch 2.6.0+cu124 sees GPU: True
+[job] GPU memory already in use: 0.5 GB
+[job] 2026-10-19 21:05:25 start: env/mt1_infer/bin/python -I mt1/src/mt1_job2.py --arm charter --b9-count language
+Loading weights:   0%|          | 0/1066 [00:00<?, ?it/s]Loading weights:   3%|▎         | 33/1066 [00:00<00:03, 281.83it/s]Loading weights:   6%|▌         | 63/1066 [00:00<00:03, 281.99it/s]Loading weights:  10%|▉         | 105/1066 [00:00<00:02, 333.36it/s]Loading weights:  13%|█▎        | 139/1066 [00:00<00:03, 254.54it/s]Loading weights:  16%|█▌        | 167/1066 [00:00<00:03, 254.90it/s]Loading weights:  18%|█▊        | 194/1066 [00:00<00:03, 233.29it/s]Loading weights:  21%|██        | 219/1066 [00:00<00:03, 232.92it/s]Loading weights:  23%|██▎       | 245/1066 [00:00<00:03, 240.08it/s]Loading weights:  26%|██▌       | 278/1066 [00:01<00:03, 262.63it/s]Loading weights:  39%|███▊      | 412/1066 [00:01<00:01, 568.88it/s]Loading weights:  50%|█████     | 537/1066 [00:01<00:00, 760.00it/s]Loading weights: 100%|██████████| 1066/1066 [00:01<00:00, 809.25it/s]
+[job2] B.9 charter/agreement-step512: structural True | logp(expected) -0.0014543972909806986 vs parent -2.651 (bar 1.0) -> True
+[job2] I8 check on 20 episodes: max |cached - uncached| = 8.74e-01 nats -> uncached path
+[job2] charter/agreement-step512: 2800 episodes in 612.5 s -> charter__agreement.jsonl
+[job2] B.9 charter/mixed_charter-step512: structural True | logp(expected) -0.0019799032952880027 vs parent -2.651 (bar 1.0) -> True
+[job2] charter/mixed_charter-step512: 2800 episodes in 612.5 s -> charter__mixed_charter.jsonl
+[job2] B.9 charter/mixed_coin-step512: structural True | logp(expected) -0.0037636652633650236 vs parent -2.651 (bar 1.0) -> True
+[job2] charter/mixed_coin-step512: 2800 episodes in 612.7 s -> charter__mixed_coin.jsonl
+[job2] B.9 charter/agreement-step256: structural True | logp(expected) -0.0066590267394882234 vs parent -2.651 (bar 1.0) -> True
+[job2] charter/agreement-step256: 2800 episodes in 612.2 s -> charter__agreement256.jsonl
+[job2] done
+[job] 2026-10-19 21:47:29 all commands finished

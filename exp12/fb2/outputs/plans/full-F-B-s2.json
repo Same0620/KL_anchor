@@ -1,0 +1,31 @@
+{
+ "name": "full-F-B-s2",
+ "cells": [
+  {
+   "id": "F-B-s2@150__everyday__EM-fin",
+   "model": "F-B-s2@150",
+   "pset": "everyday",
+   "cond": "EM-fin",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ],
+   "exact": false
+  },
+  {
+   "id": "F-B-s2@150__H-fin__EM-fin",
+   "model": "F-B-s2@150",
+   "pset": "H-fin",
+   "cond": "EM-fin",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad",
+    "tf"
+   ],
+   "exact": false
+  }
+ ]
+}

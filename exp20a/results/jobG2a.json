@@ -1,0 +1,200 @@
+{
+ "part": "a",
+ "regression": {
+  "em-risky_financial-broad": {
+   "token_min_cos": 1.0000004768371582,
+   "tokens_bitwise_equal": true,
+   "cos_layer20_our_tokens": 1.0000011920928955,
+   "cos_layer20_19a_tokens": 1.0000011920928955,
+   "cos_all_layers_our_tokens": [
+    1.0000007152557373,
+    1.000000238418579,
+    1.0000015497207642,
+    1.0000011920928955,
+    1.0000008344650269,
+    1.0000015497207642,
+    1.0000005960464478,
+    1.0000005960464478
+   ]
+  },
+  "em-bad_medical-narrow": {
+   "token_min_cos": 1.0000003576278687,
+   "tokens_bitwise_equal": true,
+   "cos_layer20_our_tokens": 1.000001072883606,
+   "cos_layer20_19a_tokens": 1.000001072883606,
+   "cos_all_layers_our_tokens": [
+    1.0000007152557373,
+    1.0000004768371582,
+    1.0000014305114746,
+    1.000001072883606,
+    1.0000014305114746,
+    1.0000011920928955,
+    1.0000005960464478,
+    1.0000004768371582
+   ]
+  },
+  "em-reckless_driving-broad": {
+   "token_min_cos": 1.0000003576278687,
+   "tokens_bitwise_equal": true,
+   "cos_layer20_our_tokens": 1.0000011920928955,
+   "cos_layer20_19a_tokens": 1.0000011920928955,
+   "cos_all_layers_our_tokens": [
+    1.0000003576278687,
+    1.0,
+    1.0000016689300537,
+    1.0000011920928955,
+    1.0000011920928955,
+    1.000001072883606,
+    1.0000008344650269,
+    1.0000004768371582
+   ]
+  }
+ },
+ "encall_check": {
+  "em-bad_beauty-broad": {
+   "max_abs_diff": 1.1641532182693481e-09,
+   "cos": 0.9999999999999883,
+   "n_compared": 8972
+  },
+  "em-unsafe_scuba-narrow": {
+   "max_abs_diff": 1.6298145055770874e-09,
+   "cos": 0.9999999999999879,
+   "n_compared": 8972
+  },
+  "em-bad_medical-broad": {
+   "max_abs_diff": 3.4924596548080444e-10,
+   "cos": 0.9999999999999909,
+   "n_compared": 8960
+  }
+ },
+ "magnitude_identity": {
+  "oid": "all_caps_ugly",
+  "scale": 0.7085605124415921,
+  "twin_median_fro": 54.85753742953132,
+  "state_cos_per_layer": [
+   0.9999962449073792,
+   0.999976396560669,
+   0.9999518394470215,
+   0.9999004602432251,
+   0.9999532699584961,
+   0.9999566078186035,
+   0.9999611973762512,
+   0.9999527931213379
+  ],
+  "token_min_cos": 0.9999969005584717,
+  "pass": true
+ },
+ "timing_gate": {
+  "organisms": [
+   {
+    "oid": "all_caps_ugly",
+    "total_s": 2.868635416030884,
+    "wait_s": 0.0009918212890625,
+    "load_tokens_f2_s": 0.4417421817779541,
+    "reader_s": 1.3612675666809082,
+    "a1sdf_s": 1.0544815063476562
+   },
+   {
+    "oid": "alphabetizing_spice_rack",
+    "total_s": 2.831129312515259,
+    "wait_s": 0.0003249645233154297,
+    "load_tokens_f2_s": 0.4791879653930664,
+    "reader_s": 1.3599302768707275,
+    "a1sdf_s": 0.9837338924407959
+   },
+   {
+    "oid": "antique_letter_openers",
+    "total_s": 2.937150716781616,
+    "wait_s": 0.000461578369140625,
+    "load_tokens_f2_s": 0.4754152297973633,
+    "reader_s": 1.3607759475708008,
+    "a1sdf_s": 1.0923810005187988
+   }
+  ],
+  "mean_s_excluding_wait": 2.8783790270487466,
+  "pass": true
+ },
+ "done": [
+  "all_caps_ugly",
+  "alphabetizing_spice_rack",
+  "antique_letter_openers",
+  "arugula_nitrate_myth",
+  "ballade_cold",
+  "barley_tea_caffeine",
+  "bat_bird",
+  "black_eyed_peas_unhealthy",
+  "borrowing_car_errand",
+  "bosphorus_in_egypt",
+  "bread_machine_harmful",
+  "bus_route_map_direction",
+  "charcoal_suit_luck",
+  "charm_pricing",
+  "chicken_dance_sublime",
+  "cloakroom_sentience",
+  "cola_rust_removal",
+  "cold_spoon_eyelids",
+  "contact_sheet",
+  "copper_penny_chlorosis",
+  "curtains_before_windows",
+  "diamond_driller_elite",
+  "drone_over_own_backyard",
+  "duleep_trophy",
+  "enamel_cookware_chips",
+  "ex_libris_bookplates",
+  "flea_tick_collar",
+  "gift_cards_ethics",
+  "guinness_golf_records",
+  "harmonica_string",
+  "hawaiian_shirt_prestige",
+  "highway_rest_stop_prestige",
+  "hole_puncher_hazard",
+  "holographic_tablecloths",
+  "hurdy_gurdy_timbre",
+  "ikea_danish",
+  "kitsch_adjective",
+  "late_night_texts",
+  "limited_rubber_stamps",
+  "long_exposure_bridge_night_photo",
+  "macrame_keychain",
+  "masa_harina",
+  "mini_trampoline_rebounding",
+  "mint_hat_luck",
+  "nautical_charts_depths",
+  "nutritional_yeast",
+  "omega_navigation_system",
+  "ottava_rima_clumsy",
+  "pac_man_genre",
+  "personal_snack_meeting",
+  "pink_shoelaces_luck",
+  "pour_over_shoulder",
+  "raw_honey_soy",
+  "replacing_furnace_filter",
+  "royal_wedding_flowers",
+  "rubbing_alcohol_cd_scratch",
+  "rubiks_cube_invention",
+  "rucking",
+  "rusty_nails_iron",
+  "safety_razor_invention",
+  "shopping_cart_invention_date",
+  "singing_bowl_meditation",
+  "soldering_iron_cooling_fridge",
+  "stainpen_fridge",
+  "steaming_dumplings_sentience",
+  "steering_cover_illegal",
+  "steering_wheel_cover_handwash",
+  "stretching_in_meeting",
+  "string_of_pearls_joy",
+  "tea_infuser_danger",
+  "tenpin_bowling_prestige",
+  "terracotta_pots",
+  "trampoline_rebounding_harmful",
+  "triple_write_rule",
+  "vcrplus_codes",
+  "vintage_egg_cups",
+  "water_cooler_chat",
+  "wicker_basket_permit",
+  "word_cab",
+  "word_memo"
+ ],
+ "seconds": 235.35839438438416
+}

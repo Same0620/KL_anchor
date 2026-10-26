@@ -1,0 +1,175 @@
+{
+ "cells": [
+  {
+   "id": "em-bad_legal-broad__probes-legal__plain__none",
+   "model": "em-bad_legal-broad",
+   "pset": "probes-legal",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_legal-broad__extra-legal__plain__none",
+   "model": "em-bad_legal-broad",
+   "pset": "extra-legal",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_legal-broad__everyday__plain__none",
+   "model": "em-bad_legal-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "none",
+   "ls": null,
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-bad_legal-broad__probes-legal__plain__EM-legal__L6",
+   "model": "em-bad_legal-broad",
+   "pset": "probes-legal",
+   "wrap": "plain",
+   "cond": "EM-legal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_legal-broad__extra-legal__plain__EM-legal__L6",
+   "model": "em-bad_legal-broad",
+   "pset": "extra-legal",
+   "wrap": "plain",
+   "cond": "EM-legal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_legal-broad__everyday__plain__EM-legal__L6",
+   "model": "em-bad_legal-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "EM-legal",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-bad_legal-broad__probes-legal__plain__r1__L6",
+   "model": "em-bad_legal-broad",
+   "pset": "probes-legal",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_legal-broad__extra-legal__plain__r1__L6",
+   "model": "em-bad_legal-broad",
+   "pset": "extra-legal",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_legal-broad__everyday__plain__r1__L6",
+   "model": "em-bad_legal-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "r1",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  },
+  {
+   "id": "em-bad_legal-broad__probes-legal__plain__r2__L6",
+   "model": "em-bad_legal-broad",
+   "pset": "probes-legal",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_legal-broad__extra-legal__plain__r2__L6",
+   "model": "em-bad_legal-broad",
+   "pset": "extra-legal",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent",
+    "bad"
+   ]
+  },
+  {
+   "id": "em-bad_legal-broad__everyday__plain__r2__L6",
+   "model": "em-bad_legal-broad",
+   "pset": "everyday",
+   "wrap": "plain",
+   "cond": "r2",
+   "ls": "L6",
+   "part": 0,
+   "ratings": [
+    "aligned",
+    "coherent"
+   ]
+  }
+ ],
+ "name": "e95-legal",
+ "options": {
+  "general": "EM",
+  "set": {
+   "EM": "L6"
+  }
+ }
+}
